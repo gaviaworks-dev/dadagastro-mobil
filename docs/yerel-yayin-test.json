@@ -1,0 +1,14 @@
+{
+  "errors": [],
+  "external": [],
+  "navigation": [
+    "http://127.0.0.1:8765/yayin/tarifler.html",
+    "http://127.0.0.1:8765/yayin/tarif-detay.html?tarif=yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi&donus=tarifler.html",
+    "http://127.0.0.1:8765/yayin/tarifler.html"
+  ],
+  "toast": "Yakında",
+  "desktop": {
+    "width": 390,
+    "x": 525
+  }
+}

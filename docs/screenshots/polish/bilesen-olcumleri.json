@@ -1,0 +1,371 @@
+{
+  "iconsBefore": [
+    {
+      "page": "tarif-detay",
+      "cls": "icon fa-solid fa-play",
+      "size": 10,
+      "button": true
+    },
+    {
+      "page": "tarif-detay",
+      "cls": "icon fa-solid fa-play",
+      "size": 10,
+      "button": true
+    },
+    {
+      "page": "tarif-detay",
+      "cls": "icon fa-solid fa-play",
+      "size": 10,
+      "button": true
+    }
+  ],
+  "iconsAfter": [],
+  "pages": {
+    "index": {
+      "overflow": 0,
+      "avatars": [
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 40,
+          "h": 40,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 40,
+          "h": 40,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 40,
+          "h": 40,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 40,
+          "h": 40,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 40,
+          "h": 40,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 40,
+          "h": 40,
+          "bg": "rgb(236, 236, 236)"
+        }
+      ],
+      "cards": [],
+      "headerWidth": 390,
+      "headings": [
+        {
+          "text": "Kategoriler & Dünya Mutfakları",
+          "width": 250,
+          "scroll": 250,
+          "height": 20
+        },
+        {
+          "text": "Bu hafta öne çıkanlar",
+          "width": 250,
+          "scroll": 250,
+          "height": 24
+        },
+        {
+          "text": "Sardalya Izgara",
+          "width": 350,
+          "scroll": 350,
+          "height": 24
+        },
+        {
+          "text": "En lezzetli videolar",
+          "width": 250,
+          "scroll": 250,
+          "height": 24
+        },
+        {
+          "text": "Tarifin ustaları",
+          "width": 250,
+          "scroll": 250,
+          "height": 24
+        }
+      ],
+      "nav": {
+        "width": 350,
+        "x": 20,
+        "bottom": 20,
+        "height": 86,
+        "columns": [
+          64.796875,
+          64.796875,
+          64.796875,
+          64.796875,
+          64.8125
+        ],
+        "indicatorBottomGap": 9,
+        "labelGaps": [
+          27.703125,
+          25.859375,
+          12.390625,
+          26.515625
+        ]
+      }
+    },
+    "tarifler": {
+      "overflow": 0,
+      "avatars": [
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        }
+      ],
+      "cards": [
+        {
+          "save": 1,
+          "width": 169,
+          "height": 380
+        },
+        {
+          "save": 1,
+          "width": 169,
+          "height": 380
+        },
+        {
+          "save": 1,
+          "width": 169,
+          "height": 380
+        },
+        {
+          "save": 1,
+          "width": 169,
+          "height": 380
+        },
+        {
+          "save": 1,
+          "width": 169,
+          "height": 380
+        },
+        {
+          "save": 1,
+          "width": 169,
+          "height": 380
+        },
+        {
+          "save": 1,
+          "width": 169,
+          "height": 380
+        }
+      ],
+      "headerWidth": 390,
+      "headings": [],
+      "nav": {
+        "width": 350,
+        "x": 20,
+        "bottom": 20,
+        "height": 86,
+        "columns": [
+          64.796875,
+          64.796875,
+          64.796875,
+          64.796875,
+          64.8125
+        ],
+        "indicatorBottomGap": 9,
+        "labelGaps": [
+          27.703125,
+          25.859375,
+          12.390625,
+          26.515625
+        ]
+      }
+    },
+    "tarif-detay": {
+      "overflow": 0,
+      "avatars": [
+        {
+          "w": 40,
+          "h": 40,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        },
+        {
+          "w": 20,
+          "h": 20,
+          "bg": "rgb(236, 236, 236)"
+        }
+      ],
+      "cards": [
+        {
+          "save": 1,
+          "width": 230,
+          "height": 465
+        },
+        {
+          "save": 1,
+          "width": 230,
+          "height": 465
+        },
+        {
+          "save": 1,
+          "width": 230,
+          "height": 465
+        },
+        {
+          "save": 1,
+          "width": 230,
+          "height": 465
+        }
+      ],
+      "facts": 80,
+      "headerWidth": 390,
+      "headings": [],
+      "nav": null
+    }
+  },
+  "errors": [],
+  "loaded": {
+    "w": 169,
+    "h": 380.359375,
+    "save": {
+      "target": 44,
+      "visible": 32,
+      "inset": 8,
+      "icon": "14px"
+    }
+  },
+  "saved": "true",
+  "skeleton": {
+    "w": 169,
+    "h": 380.359375,
+    "save": {
+      "target": 44,
+      "visible": 32,
+      "inset": 8,
+      "icon": "14px"
+    }
+  },
+  "restored": {
+    "w": 169,
+    "h": 380.359375,
+    "save": {
+      "target": 44,
+      "visible": 32,
+      "inset": 8,
+      "icon": "14px"
+    }
+  },
+  "portion": "6",
+  "ingredient": "1 / 9 hazır",
+  "similarPhotos": [
+    {
+      "src": "https://dadagastro.com/varliklar/media/yayilim/t-guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci-kapak.webp",
+      "failed": false
+    },
+    {
+      "src": "https://dadagastro.com/varliklar/media/yayilim/t-ordek-dolmasi-firinda-ic-pilavli-butun-ordek-kapak.webp",
+      "failed": false
+    },
+    {
+      "src": "https://dadagastro.com/varliklar/media/yayilim/t-tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu-kapak.webp",
+      "failed": false
+    },
+    {
+      "src": "https://dadagastro.com/varliklar/media/yayilim/t-arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav-kapak.webp",
+      "failed": false
+    }
+  ]
+}

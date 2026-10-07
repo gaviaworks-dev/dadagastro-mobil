@@ -1,0 +1,678 @@
+{
+  "index": [
+    {
+      "scroll": 0,
+      "color": "rgba(225, 72, 39, 0)",
+      "alpha": 0,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 20,
+      "color": "rgba(225, 72, 39, 0.416)",
+      "alpha": 0.416,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 40,
+      "color": "rgba(225, 72, 39, 0.83)",
+      "alpha": 0.83,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 60,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 80,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 100,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 120,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 140,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 160,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 180,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "HERKESİN BİR TABAĞI VAR"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 200,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "HERKESİN BİR TABAĞI VAR",
+        "Ne",
+        "pişirsem?"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 220,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "HERKESİN BİR TABAĞI VAR",
+        "Ne",
+        "pişirsem?"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 240,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "HERKESİN BİR TABAĞI VAR",
+        "Ne",
+        "pişirsem?"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 260,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Ne",
+        "pişirsem?",
+        "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binler"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 280,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Ne",
+        "pişirsem?",
+        "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binler"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 300,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Ne",
+        "pişirsem?",
+        "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binler"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 320,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binler"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 340,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binler"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 360,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binler",
+        "Tarif Ara",
+        "Malzemeye Göre",
+        "Ne Pişirsem"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 380,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Tarif Ara",
+        "Malzemeye Göre",
+        "Ne Pişirsem"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 400,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 166,
+      "overlaps": [
+        "Tarif Ara",
+        "Malzemeye Göre",
+        "Ne Pişirsem"
+      ],
+      "violation": false
+    }
+  ],
+  "index-return": "rgba(225, 72, 39, 0)",
+  "tarifler": [
+    {
+      "scroll": 0,
+      "color": "rgba(225, 72, 39, 0)",
+      "alpha": 0,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 20,
+      "color": "rgba(225, 72, 39, 0.416)",
+      "alpha": 0.416,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 40,
+      "color": "rgba(225, 72, 39, 0.83)",
+      "alpha": 0.83,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 60,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 80,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 100,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 120,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 140,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 160,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [
+        "Tarifler"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 180,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [
+        "Tarifler"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 200,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [
+        "Tarifler",
+        "6.112",
+        "Denenmiş tarif",
+        "34",
+        "Kategori",
+        "50",
+        "Dünya mutfağı"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 220,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [
+        "Tarifler",
+        "6.112",
+        "Denenmiş tarif",
+        "34",
+        "Kategori",
+        "50",
+        "Dünya mutfağı"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 240,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [
+        "6.112",
+        "Denenmiş tarif",
+        "34",
+        "Kategori",
+        "50",
+        "Dünya mutfağı"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 260,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [
+        "6.112",
+        "Denenmiş tarif",
+        "34",
+        "Kategori",
+        "50",
+        "Dünya mutfağı"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 280,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 300,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 320,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 340,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 360,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 380,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 400,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 140.22,
+      "overlaps": [
+        "Tema & pişirme tipi"
+      ],
+      "violation": false
+    }
+  ],
+  "tarifler-return": "rgba(225, 72, 39, 0)",
+  "tarif-detay": [
+    {
+      "scroll": 0,
+      "color": "rgba(225, 72, 39, 0)",
+      "alpha": 0,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 20,
+      "color": "rgba(225, 72, 39, 0.416)",
+      "alpha": 0.416,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 40,
+      "color": "rgba(225, 72, 39, 0.83)",
+      "alpha": 0.83,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 60,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 80,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 100,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 120,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 140,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 160,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 180,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 200,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [],
+      "violation": false
+    },
+    {
+      "scroll": 220,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Tavuk ve Hindi"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 240,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Tavuk ve Hindi",
+        "Tavuk Curry"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 260,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Tavuk ve Hindi",
+        "Tavuk Curry"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 280,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Tavuk ve Hindi",
+        "Tavuk Curry",
+        "Hindistan Cevizli Hint Usulü"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 300,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Tavuk Curry",
+        "Hindistan Cevizli Hint Usulü"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 320,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Tavuk Curry",
+        "Hindistan Cevizli Hint Usulü",
+        "4,0",
+        "· 2 değerlendirme",
+        "₺"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 340,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Tavuk Curry",
+        "Hindistan Cevizli Hint Usulü",
+        "4,0",
+        "· 2 değerlendirme",
+        "₺"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 360,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Hindistan Cevizli Hint Usulü",
+        "4,0",
+        "· 2 değerlendirme",
+        "₺"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 380,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "4,0",
+        "· 2 değerlendirme",
+        "₺"
+      ],
+      "violation": false
+    },
+    {
+      "scroll": 400,
+      "color": "rgb(225, 72, 39)",
+      "alpha": 1,
+      "threshold": 209.06,
+      "overlaps": [
+        "Toplam süre",
+        "Zorluk",
+        "Porsiyon"
+      ],
+      "violation": false
+    }
+  ],
+  "tarif-detay-return": "rgba(225, 72, 39, 0)",
+  "iframe": [
+    {
+      "scroll": 0,
+      "color": "rgba(225, 72, 39, 0)"
+    },
+    {
+      "scroll": 60,
+      "color": "rgb(225, 72, 39)"
+    },
+    {
+      "scroll": 120,
+      "color": "rgb(225, 72, 39)"
+    },
+    {
+      "scroll": 300,
+      "color": "rgb(225, 72, 39)"
+    },
+    {
+      "scroll": 0,
+      "color": "rgba(225, 72, 39, 0)"
+    }
+  ],
+  "reduced": [
+    {
+      "scroll": 0,
+      "alpha": "0.000"
+    },
+    {
+      "scroll": 20,
+      "alpha": "0.000"
+    },
+    {
+      "scroll": 40,
+      "alpha": "0.000"
+    },
+    {
+      "scroll": 60,
+      "alpha": "0.000"
+    },
+    {
+      "scroll": 120,
+      "alpha": "0.000"
+    }
+  ]
+}

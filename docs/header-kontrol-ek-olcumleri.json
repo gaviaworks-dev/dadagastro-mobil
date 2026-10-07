@@ -1,0 +1,1080 @@
+[
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 0,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 20,
+    "alpha": 0.417,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 40,
+    "alpha": 0.833,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 60,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 80,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 100,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 120,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 140,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 160,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 180,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 200,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 220,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 240,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 260,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 280,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 300,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 320,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 340,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem"
+    ]
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 360,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem"
+    ]
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 380,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem"
+    ]
+  },
+  {
+    "name": "index",
+    "reduce": false,
+    "y": 400,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem",
+      "Tarif adı ara",
+      "Sesli arama",
+      "Ara"
+    ]
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 0,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 20,
+    "alpha": 0.417,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 40,
+    "alpha": 0.833,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 60,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 80,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 100,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 120,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 140,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 160,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 180,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 200,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 220,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 240,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 260,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 280,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 300,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 320,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 340,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 360,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 380,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": false,
+    "y": 400,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 0,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 20,
+    "alpha": 0.417,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 40,
+    "alpha": 0.833,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 60,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 80,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 100,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 120,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 140,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 160,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 180,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 200,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 220,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 240,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 260,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 280,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 300,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 320,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 340,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 360,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 380,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": false,
+    "y": 400,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 0,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 20,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 40,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 60,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 80,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 100,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 120,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 140,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 160,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 180,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 200,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 220,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 240,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 260,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 280,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 300,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 320,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 340,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem"
+    ]
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 360,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem"
+    ]
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 380,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem"
+    ]
+  },
+  {
+    "name": "index",
+    "reduce": true,
+    "y": 400,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tarif Ara",
+      "Malzemeye Göre",
+      "Ne Pişirsem",
+      "Tarif adı ara",
+      "Sesli arama",
+      "Ara"
+    ]
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 0,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 20,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 40,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 60,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 80,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 100,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 120,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 140,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 160,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 180,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 200,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 220,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 240,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 260,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 280,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 300,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 320,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 340,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 360,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 380,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarifler",
+    "reduce": true,
+    "y": 400,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 0,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 20,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 40,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 60,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 80,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 100,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 120,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 140,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 160,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 180,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 200,
+    "alpha": 0,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 220,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 240,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 260,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 280,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "Tavuk ve Hindi"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 300,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 320,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 340,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 360,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 380,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": [
+      "4,0 · 2 değerlendirme"
+    ]
+  },
+  {
+    "name": "tarif-detay",
+    "reduce": true,
+    "y": 400,
+    "alpha": 1,
+    "controlViolation": false,
+    "hits": []
+  }
+]

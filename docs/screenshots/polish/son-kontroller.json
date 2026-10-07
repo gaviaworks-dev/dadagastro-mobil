@@ -1,0 +1,55 @@
+{
+  "groupCount": 9,
+  "options": 150,
+  "firstOpen": 1,
+  "secondOpen": 1,
+  "allClosed": 0,
+  "selectedCount": "· 2",
+  "draftResult": "10 tarifi göster",
+  "footer": {
+    "x": 20,
+    "y": 763,
+    "width": 350,
+    "height": 61
+  },
+  "appearance": [
+    "none"
+  ],
+  "reset": "32 tarifi göster",
+  "backdropClosed": true,
+  "portion": {
+    "height": 64,
+    "radius": "24px",
+    "padding": "12px",
+    "stepperRadius": "12px",
+    "targets": [
+      {
+        "w": 44,
+        "h": 44
+      },
+      {
+        "w": 44,
+        "h": 44
+      }
+    ],
+    "numberWidth": 34
+  },
+  "progress": "1 / 9 hazır",
+  "portions": "6",
+  "check": {
+    "appearance": "none",
+    "width": 22,
+    "height": 22,
+    "radius": "12px"
+  },
+  "hero": {
+    "height": 602.890625,
+    "paragraphLines": 2.9953917050691246,
+    "categoryTop": 657.4140625,
+    "navTop": 740,
+    "searchRadius": "24px",
+    "searchPadding": "12px",
+    "segmentRadius": "12px",
+    "scrollWidth": 390
+  }
+}

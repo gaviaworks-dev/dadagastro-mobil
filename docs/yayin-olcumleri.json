@@ -1,0 +1,82 @@
+{
+  "errors": [],
+  "pages": {
+    "index": {
+      "panel": {
+        "radius": "24px",
+        "overlap": 24,
+        "padding": "16px"
+      },
+      "heroHeight": 706.890625,
+      "categoryY": 745.28125,
+      "nav": {
+        "height": 64,
+        "width": 358,
+        "icons": [
+          "22px",
+          "22px",
+          "20px",
+          "22px",
+          "22px"
+        ],
+        "labels": [
+          "10px",
+          "10px",
+          "10px",
+          "10px",
+          "10px"
+        ]
+      },
+      "cta": null,
+      "headerTop": "rgba(225, 72, 39, 0)",
+      "overflow": false,
+      "headerScrolled": "rgb(225, 72, 39)"
+    },
+    "tarifler": {
+      "panel": {
+        "radius": "24px",
+        "overlap": 24,
+        "padding": "16px"
+      },
+      "heroHeight": 320,
+      "nav": {
+        "height": 64,
+        "width": 358,
+        "icons": [
+          "22px",
+          "22px",
+          "20px",
+          "22px",
+          "22px"
+        ],
+        "labels": [
+          "10px",
+          "10px",
+          "10px",
+          "10px",
+          "10px"
+        ]
+      },
+      "cta": null,
+      "headerTop": "rgba(225, 72, 39, 0)",
+      "overflow": false,
+      "headerScrolled": "rgb(225, 72, 39)"
+    },
+    "tarif-detay": {
+      "panel": {
+        "radius": "24px",
+        "overlap": 24,
+        "padding": "16px"
+      },
+      "heroHeight": 440,
+      "nav": null,
+      "cta": {
+        "height": 52,
+        "font": "14px"
+      },
+      "headerTop": "rgba(225, 72, 39, 0)",
+      "overflow": false,
+      "headerScrolled": "rgb(225, 72, 39)"
+    }
+  }
+}
