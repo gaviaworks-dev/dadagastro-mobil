@@ -1,0 +1,85 @@
+[
+  {
+    "w": 320,
+    "shell": 320,
+    "header": 320,
+    "panelGap": 24,
+    "searchOutline": "2px solid rgb(225, 72, 39)",
+    "inside": true,
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "shell": 360,
+    "header": 360,
+    "panelGap": 24,
+    "searchOutline": "2px solid rgb(225, 72, 39)",
+    "inside": true,
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "shell": 390,
+    "header": 390,
+    "panelGap": 24,
+    "searchOutline": "2px solid rgb(225, 72, 39)",
+    "inside": true,
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "shell": 430,
+    "header": 430,
+    "panelGap": 24,
+    "searchOutline": "2px solid rgb(225, 72, 39)",
+    "inside": true,
+    "overflow": 0
+  },
+  {
+    "w": 1440,
+    "shell": 480,
+    "header": 480,
+    "panelGap": 24,
+    "searchOutline": "2px solid rgb(225, 72, 39)",
+    "inside": true,
+    "overflow": 0
+  },
+  {
+    "viewport": 932,
+    "dialog": 932,
+    "closeOutline": "3px",
+    "text": "left",
+    "timerGap": 16,
+    "lock": "hidden"
+  },
+  {
+    "viewport": 740,
+    "dialog": 740,
+    "closeOutline": "3px",
+    "text": "left",
+    "timerGap": 16,
+    "lock": "hidden"
+  },
+  {
+    "viewport": 667,
+    "dialog": 667,
+    "closeOutline": "3px",
+    "text": "left",
+    "timerGap": 16,
+    "lock": "hidden"
+  },
+  {
+    "viewport": 932,
+    "dialog": 932,
+    "closeOutline": "3px",
+    "text": "left",
+    "timerGap": 16,
+    "lock": "hidden"
+  },
+  {
+    "keyboardFocus": {
+      "tag": "DIALOG",
+      "outline": "3px"
+    }
+  }
+]

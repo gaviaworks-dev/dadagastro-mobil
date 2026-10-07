@@ -124,3 +124,5 @@
 --panel-overlap:var(--space-24);--panel-top-space:var(--space-16);--nav-height:64px;--nav-edge:var(--space-16);--nav-bottom:var(--space-8);--nav-icon:22px;--nav-center-icon:20px;--nav-label:10px;--nav-fab:48px;--nav-indicator-width:16px;--nav-indicator-height:2px;--bottom-space:80px;--cook-height:52px}
 /* Explicitly approved directional ember light; brand primary remains unchanged. */
 :root{--hero-glow-strength:35%;--hero-glow:color-mix(in srgb,var(--tomato) var(--hero-glow-strength),transparent)}
+/* Fluid shell: mobile edge-to-edge; a single desktop cap shared by fixed layers. */
+:root{--app-max:480px;--shell-width:min(100vw,var(--app-max));--recipe-rail-width:calc(var(--shell-width) * .59)}

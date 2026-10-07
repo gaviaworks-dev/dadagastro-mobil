@@ -107,3 +107,15 @@ Sonraki çelişen kullanıcı talimatı yine önceliklidir. Bu sürüm öncesi v
 - Puan verisi yoksa yıldız ve ham “Puan yok” metni gösterilmez; süre bilgisi kalır. Kaynak verisi değişmez.
 - Bu tur son ek izin: main üzerinde ikinci ve son commit yalnız tarama düzeltmeleri/v5 kanıtları ve güncel yayın; ardından yayin yeniden üretilip gh-pages gönderilir. Bundan sonra her commit/yayın ayrı izin gerektirir.
 - Son onaylı ışıma istisnası: koyu web tabanı üstünde primary radyal ışık; ana sağ-alt35%, liste sol35%, detay sağ-üst25%, screen karışım. Fotoğraf ana hero boyunca cover;320px sabit fotoğraf katmanı kullanılmaz. Metin kontrastı4.5:1 korunacak şekilde kaynak koyu renklerin mobil durakları ayarlanabilir.
+
+## Akışkan mobil kabuk ve pişirme modu (son kural)
+- Tasarım 390'a sabit değildir; 320–430px arasında akışkandır. Her değişiklik en az 360, 390 ve 430 genişlikte doğrulanır. Masaüstü sınırı tek `--app-max:480px`; uygulama ve fixed katmanlar aynı kabuğu kullanır. Önizleme çerçevesindeki 390×844 yalnız geliştirici test görünümüdür.
+- Header, nav dock, CTA, toast ve sheet kabuğa göre genişler; yüzen bileşenin iç kenar boşluğu token'dan gelir. Tam ekran mod 100dvh ve opak zemindir; safe-area üst/alt korunur, arka sayfa kaymaz.
+- Header metin geometrisine göre solid olur; metin üst kenarı header'a yaklaşınca tamamı gizlenir, yarım satır bırakılmaz. Yukarı dönünce geri görünür. Gerçek tarayıcı scroll ve font yüklenmesi sonrası geometri yeniden ölçülür.
+- Justify önceki genel kuralı geçersiz kılar: yalnız en az dört render satırlı gövde paragrafı iki yana yaslıdır. Üç satır ve altı sola yaslıdır. Pişirme Modu adım metni her zaman sola yaslıdır; ekran genişliği değişince satırlar yeniden ölçülür.
+- Pişirme Modu: üst tarif/çıkış ve ilerleme; ortada okunur adım; zamanlayıcı metnin hemen altında; adım seçimi ve önceki/sonraki altta. Uzun adım kendi alanında kayar. Dokunma ile açılışta kalıcı odak halkası yok; klavye focus-visible korunur.
+- Bu düzeltmeye özel tek main commit ve yayin→gh-pages izni vardır. Fotoğraftan Tarif yerel taslağı bu commit'e ve yayına girmez. Sonraki commit/yayın ayrıca izin gerektirir.
+
+## Çalışma düzeni
+- Görevler geliş sırasıyla, birer birer tamamlanır; sonraki görev mevcut işin arasına sokulmaz. Başlarken tek satır “şimdi şuna başlıyorum”, bitince “bitti” ve kısa rapor. Sıra belirsizse kullanıcıya sorulur. Tekrarlanan aynı talimat bir kez uygulanır.
+- Akışkan cihaz düzeltmesinden sonraki yeni işler ayrı kuyruktur: yumuşak overlay eğrisi, koyu bölümlerin web kaynaklı fotoğrafları, görünür/çalışır özellik paritesi. Kuyruktaki talimat uygulanmadan tamamlanmış sayılmaz. Fotoğraftan Tarif yerel çalışması korunur, yayına dahil edilmez.
