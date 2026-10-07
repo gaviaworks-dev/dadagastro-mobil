@@ -1,0 +1,98 @@
+[
+  {
+    "state": "kamera",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nPRO\n\nYemeği çerçevenin içine al\n\nDaha iyi bir eşleşme için\n\nİyi ışıkta, tek tabağı ya"
+  },
+  {
+    "state": "analiz",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nPRO\n\nFotoğraf inceleniyor…\n\nİptal"
+  },
+  {
+    "state": "sonuc",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nBenzer tarifler\nSenin tarifin\nYÜKSEK GÜVEN\nBu bir Patates Mücveri gibi görünüyor\nBu d"
+  },
+  {
+    "state": "taslak",
+    "errors": [],
+    "overflow": 0,
+    "text": "KAHVALTILIK\nPatates Mücveri\n\nÇiğ Rendelenmiş Patatesle Tavada Kızaran Kahvaltılık Mücver\n\nTaslak · Y"
+  },
+  {
+    "state": "duzenle",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tarifi düzenle\n\nTaslak · Yapay zekâ ile oluşturuldu\n\nTarif bilgileri\nFotoğraf seç\nAd\nAçıklama\nKatego"
+  },
+  {
+    "state": "eslesme-yok",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nBu yemeği henüz tanıyamadık\n\nDaha net bir fotoğraf çekebilir veya yemeğin adını yazab"
+  },
+  {
+    "state": "bulanik",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nFotoğraf biraz bulanık\n\nİyi ışıkta, kamerayı sabit tutarak tek tabağı yakından çek.\n\n"
+  },
+  {
+    "state": "yemek-yok",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nFotoğrafta yemek seçemedik\n\nTek tabağı çerçevenin içine alıp yeniden dene.\n\nYeniden ç"
+  },
+  {
+    "state": "izin",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nKamera izni gerekli\n\nYemeğin fotoğrafını çekmek için kamera izni gerekir. Galeriden d"
+  },
+  {
+    "state": "baglanti",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nBağlantı kurulamadı\n\nFotoğrafın burada duruyor. Bağlantını kontrol edip yeniden dene."
+  },
+  {
+    "state": "olusturulamadi",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nTaslak oluşturulamadı\n\nDadaGastro’daki benzer tariflerle devam edebilirsin.\n\nBenzer t"
+  },
+  {
+    "state": "misafir",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nPRO\n\nYemeği çerçevenin içine al\n\nDaha iyi bir eşleşme için\n\nİyi ışıkta, tek tabağı ya"
+  },
+  {
+    "state": "uye",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nPRO\n\nYemeği çerçevenin içine al\n\nDaha iyi bir eşleşme için\n\nİyi ışıkta, tek tabağı ya"
+  },
+  {
+    "state": "deneme",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nPRO\n\nYemeği çerçevenin içine al\n\nDaha iyi bir eşleşme için\n\nİyi ışıkta, tek tabağı ya"
+  },
+  {
+    "state": "deneme-bitti",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nPRO\n\nYemeği çerçevenin içine al\n\nDaha iyi bir eşleşme için\n\nİyi ışıkta, tek tabağı ya"
+  },
+  {
+    "state": "limit",
+    "errors": [],
+    "overflow": 0,
+    "text": "Tabaktan Tarif\nPRO\n\nYemeği çerçevenin içine al\n\nDaha iyi bir eşleşme için\n\nİyi ışıkta, tek tabağı ya"
+  }
+]

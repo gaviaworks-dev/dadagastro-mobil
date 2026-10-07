@@ -1,0 +1,111 @@
+[
+  {
+    "label": "Tabaktan Tarif · kamera",
+    "href": "tabaktan-tarif.html?uye=pro&durum=kamera",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · analiz",
+    "href": "tabaktan-tarif.html?uye=pro&durum=analiz",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · sonuc",
+    "href": "tabaktan-tarif.html?uye=pro&durum=sonuc",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · taslak",
+    "href": "tabaktan-tarif.html?uye=pro&durum=taslak",
+    "heading": [
+      "Taslak · Yapay zekâ ile oluşturuldu"
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · duzenle",
+    "href": "tabaktan-tarif.html?uye=pro&durum=duzenle",
+    "heading": [
+      "Taslak · Yapay zekâ ile oluşturuldu"
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · eslesme-yok",
+    "href": "tabaktan-tarif.html?uye=pro&durum=eslesme-yok",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · bulanik",
+    "href": "tabaktan-tarif.html?uye=pro&durum=bulanik",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · yemek-yok",
+    "href": "tabaktan-tarif.html?uye=pro&durum=yemek-yok",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · izin",
+    "href": "tabaktan-tarif.html?uye=pro&durum=izin",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · baglanti",
+    "href": "tabaktan-tarif.html?uye=pro&durum=baglanti",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · olusturulamadi",
+    "href": "tabaktan-tarif.html?uye=pro&durum=olusturulamadi",
+    "heading": []
+  },
+  {
+    "label": "Tabaktan Tarif · misafir",
+    "href": "tabaktan-tarif.html?uye=misafir&durum=misafir",
+    "heading": [
+      "Bu işlem için giriş yap"
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · uye",
+    "href": "tabaktan-tarif.html?uye=uye&durum=uye",
+    "heading": [
+      "Tabaktan Tarif "
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · deneme",
+    "href": "tabaktan-tarif.html?uye=uye&durum=deneme",
+    "heading": [
+      "Tabaktan Tarif "
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · deneme-bitti",
+    "href": "tabaktan-tarif.html?uye=uye&durum=deneme-bitti",
+    "heading": [
+      "Tabaktan Tarif · Deneme hakların bitti"
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · limit",
+    "href": "tabaktan-tarif.html?uye=pro&durum=limit",
+    "heading": [
+      "Günlük kullanım sınırına ulaştın"
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · Yayınlama onayı",
+    "href": "tabaktan-tarif.html?uye=pro&durum=yayinlama",
+    "heading": [
+      "Taslak · Yapay zekâ ile oluşturuldu",
+      "Tarifi yayınla"
+    ]
+  },
+  {
+    "label": "Tabaktan Tarif · İncelemede",
+    "href": "tabaktan-tarif.html?uye=pro&durum=incelemede",
+    "heading": [
+      "İncelemede · Yapay zekâ ile oluşturuldu"
+    ]
+  }
+]

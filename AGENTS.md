@@ -140,6 +140,8 @@ Ana menü sağdan açılan çekmecedir (drawer), alttan sheet değil. Her menü 
 ## Tipografi kanonu (önceki büyük başlık ölçeğinin yerine)
 Her metin rolü için size/weight/line-height/tracking tokenları vardır. Display32/700 yalnız iki hero; sayfa24/700; bölüm20/700; sheet18/500; alt/grup/adım16/500; kart16/500 (öne çıkan20/700); gövde15/500; meta13/500; etiket11/500; buton15/500; alt menü10/500. Kaynakta yalnız Medium ve ExtraBold dosyaları mevcut olduğundan semibold hedefi yeni sahte font üretilmeden Medium ile karşılanır. Üst başlık alt başlıktan küçük olamaz. FA900 ikon ağırlığı metin ölçeğinin dışındadır.
 
+## Onaylı mobil ekstralar
+Tabaktan Tarif (Pro): fotoğraftan benzer denenmiş tarifler + kullanıcıya özel yapay zekâ taslağı. Taslak her zaman etiketli ve özeldir; puan/yorum yok, denenmiş tariflerle karışmaz. Kaynak gerçek tarif yalnız örnek AI çıktısıdır. Yayın editör onayına gider; prototipte tüm kamera/AI/giriş/kota/kayıt/onay işlemleri simülasyondur. Pro kapısı, deneme hakkı ve misafir durumu ortak sheet; fiyat/süre uydurulmaz. `tabaktan-tarif.html` ve bu özellik yayın klasörüne eklenmez; kullanıcının son izniyle yalnız main kaynak commit’ine alınır. Aynı detay/kart/alan bileşenleri kullanılır.
 
 ## Bölüm başlığı satırı
 Bölüm başlığı satırında eylem küçülmez, başlık kırılır; çakışma olmaz. Ortak `.section-heading-row` kullanılır: başlık min-width:0, en fazla iki dengeli satır; eylem tek satır, arada en az12px. Eylem ilk başlık satırının taban çizgisindedir. 360px altında yalnız erişilebilir adlı ok gösterilebilir. 320/360/375/390/430 ve önizleme iframe'inde doğrulanır.
