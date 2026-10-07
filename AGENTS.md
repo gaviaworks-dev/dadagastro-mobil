@@ -164,3 +164,6 @@ Kullanıcının 7 Ekim izni: main’de üç ekran düzeltmeleri ve Tabaktan Tari
 
 ## Yayın önbelleği ve gezinme
 Yayın üretiminde bütün yerel CSS/JS HTML bağlantıları son çıktı içeriğinin SHA-256 kısa özetiyle `?v=` alır. Cache-Control/Pragma/Expires meta destekleyicidir; Pages HTTP önbellek başlıklarının yerine geçmez. Sayfalar arası gezinme gerçek göreli href kullanır; Tabaktan Tarif satırı `tabaktan-tarif.html?donus=...` bağlantısıdır. WebKit 390/430 dokunma testinde satırın sol/orta/sağ noktaları doğrulanır.
+
+## Tabaktan Tarif spacing
+Sonuç eşleşme açıklaması + ortak tarif kartı kapsayıcısında kart height:100% kullanmaz; doğal yükseklik/flex ile ölçülür. Meta–şef arasında yalnız8px iç boşluk; bölümler32px, chip→buton16px, buton→kaynak notu12px. Kaynak notu meta rolünde13px. Alt boşluğu tek kapsayıcı hesaplar: çubuk yüksekliği + alt kenar/safe-area +16px; app-shell tekrar boşluk eklemez. Canlıda geliştirici simülasyon notları gösterilmez; özel AI taslak etiketi ve tahmini ölçü notu kalır. Sıfır görüntülenme sayacı çizilmez.

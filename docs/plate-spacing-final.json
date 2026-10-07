@@ -1,0 +1,620 @@
+[
+  {
+    "w": 360,
+    "state": "kamera",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 360,
+    "state": "analiz",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 360,
+    "state": "sonuc",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [
+      {
+        "from": "tabs",
+        "to": "Bu bir Patates Mücveri gibi görünüyor",
+        "gap": null
+      },
+      {
+        "from": "Bu bir Patates Mücveri gibi görünüyor",
+        "to": "Bu değil mi?",
+        "gap": 32
+      },
+      {
+        "from": "Bu değil mi?",
+        "to": "En yakın tarifler",
+        "gap": 32
+      },
+      {
+        "from": "En yakın tarifler",
+        "to": "Tanınan malzemeler",
+        "gap": 32
+      }
+    ],
+    "cards": [
+      {
+        "height": 365.46875,
+        "footerGap": 0
+      },
+      {
+        "height": 365.46875,
+        "footerGap": 0
+      },
+      {
+        "height": 365.46875,
+        "footerGap": 0
+      },
+      {
+        "height": 365.46875,
+        "footerGap": 0
+      }
+    ],
+    "noteGap": 12,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": "93px"
+  },
+  {
+    "w": 360,
+    "state": "taslak",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 360,
+    "state": "duzenle",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": "93px"
+  },
+  {
+    "w": 360,
+    "state": "eslesme-yok",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 360,
+    "state": "bulanik",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 360,
+    "state": "izin",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 360,
+    "state": "baglanti",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 360,
+    "state": "misafir",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 360,
+    "state": "deneme",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 360,
+    "state": "limit",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 360,
+    "state": "yayinlama",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 360,
+    "state": "incelemede",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "kamera",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "analiz",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "sonuc",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [
+      {
+        "from": "tabs",
+        "to": "Bu bir Patates Mücveri gibi görünüyor",
+        "gap": null
+      },
+      {
+        "from": "Bu bir Patates Mücveri gibi görünüyor",
+        "to": "Bu değil mi?",
+        "gap": 32
+      },
+      {
+        "from": "Bu değil mi?",
+        "to": "En yakın tarifler",
+        "gap": 32
+      },
+      {
+        "from": "En yakın tarifler",
+        "to": "Tanınan malzemeler",
+        "gap": 32
+      }
+    ],
+    "cards": [
+      {
+        "height": 384.21875,
+        "footerGap": 0
+      },
+      {
+        "height": 384.21875,
+        "footerGap": 0
+      },
+      {
+        "height": 384.21875,
+        "footerGap": 0
+      },
+      {
+        "height": 384.21875,
+        "footerGap": 0
+      }
+    ],
+    "noteGap": 12,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": "93px"
+  },
+  {
+    "w": 390,
+    "state": "taslak",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "duzenle",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": "93px"
+  },
+  {
+    "w": 390,
+    "state": "eslesme-yok",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 390,
+    "state": "bulanik",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 390,
+    "state": "izin",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 390,
+    "state": "baglanti",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 390,
+    "state": "misafir",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "deneme",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "limit",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "yayinlama",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 390,
+    "state": "incelemede",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "kamera",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "analiz",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "sonuc",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [
+      {
+        "from": "tabs",
+        "to": "Bu bir Patates Mücveri gibi görünüyor",
+        "gap": null
+      },
+      {
+        "from": "Bu bir Patates Mücveri gibi görünüyor",
+        "to": "Bu değil mi?",
+        "gap": 32
+      },
+      {
+        "from": "Bu değil mi?",
+        "to": "En yakın tarifler",
+        "gap": 32
+      },
+      {
+        "from": "En yakın tarifler",
+        "to": "Tanınan malzemeler",
+        "gap": 32
+      }
+    ],
+    "cards": [
+      {
+        "height": 409.21875,
+        "footerGap": 0
+      },
+      {
+        "height": 409.21875,
+        "footerGap": 0
+      },
+      {
+        "height": 409.21875,
+        "footerGap": 0
+      },
+      {
+        "height": 409.21875,
+        "footerGap": 0
+      }
+    ],
+    "noteGap": 12,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": "93px"
+  },
+  {
+    "w": 430,
+    "state": "taslak",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "duzenle",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": "93px"
+  },
+  {
+    "w": 430,
+    "state": "eslesme-yok",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 430,
+    "state": "bulanik",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 430,
+    "state": "izin",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 430,
+    "state": "baglanti",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": "24px"
+  },
+  {
+    "w": 430,
+    "state": "misafir",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "deneme",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "limit",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": null,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "yayinlama",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  },
+  {
+    "w": 430,
+    "state": "incelemede",
+    "errors": [],
+    "overflow": 0,
+    "gaps": [],
+    "cards": [],
+    "noteGap": null,
+    "footerClearance": 93,
+    "shellPadding": "0px",
+    "mainPadding": null
+  }
+]

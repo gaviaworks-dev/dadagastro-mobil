@@ -429,3 +429,29 @@ dialog.cooking-dialog::backdrop{background:var(--overlay)}
 /* Photo result/draft actions use the same opaque docking surface. */
 .photo-result-actions{background:var(--paper)}
 .photo-result-actions::before{content:'';position:absolute;inset:0 calc(-1 * var(--space-16)) calc(-1 * (var(--space-8) + env(safe-area-inset-bottom,0px)));background:var(--paper);z-index:-1;pointer-events:none}
+/* Tabaktan Tarif: one flow owns the dock clearance; shared cards keep natural height. */
+.photo-flow .app-shell{padding-bottom:var(--space-0)}
+.photo-flow .photo-results:not(:has(.photo-result-actions)):not(:has(+.photo-result-actions)){padding-bottom:var(--space-24)}
+.recipe-match{display:flex;flex-direction:column;min-width:0;gap:var(--space-8)}
+.recipe-match>.match-reason{margin:var(--space-0)}
+.results-grid .recipe-match>.recipe-card{height:auto;flex:1}
+.recipe-match .card-footer{margin-top:var(--space-0)}
+.photo-results .results-grid{margin-top:var(--space-20)}
+.photo-results>section{margin-top:var(--space-32)}
+.photo-results>.plate-tabs+.photo-recognition-summary{margin-top:var(--space-0)}
+.photo-results .metadata-chips{margin-top:var(--space-0);margin-bottom:var(--space-16)}
+.photo-source-note{margin-top:var(--space-12);color:var(--muted)}
+.photo-demo-note{display:block;margin-top:var(--space-8);color:var(--muted)}
+.photo-result-actions{border-top:var(--border-width) solid var(--line)}
+.photo-result-actions .button{height:var(--cook-height)}
+.photo-fallback .empty{padding:var(--space-32) var(--space-0) var(--space-0)}
+.photo-fallback .empty p{margin-top:var(--space-12)}
+.photo-fallback .empty .sheet-actions{margin-top:var(--space-16)}
+#draftEditor>section>button+label{margin-top:var(--space-16)}
+.photo-flow .detail-block{margin-top:var(--space-32);padding-top:var(--space-0)}
+.photo-flow .photo-results,.photo-flow .detail-main{padding-bottom:calc(var(--cook-height) + var(--space-16) + var(--border-width) + var(--space-8) + var(--space-16) + env(safe-area-inset-bottom,0px))}
+.photo-flow .photo-fallback{padding-bottom:var(--space-24)}
+.photo-fallback .empty{margin-top:var(--space-32);padding:var(--space-0);border:0;background:transparent;box-shadow:none}
+.photo-fallback .empty h1{font-size:var(--role-page-size);line-height:var(--role-page-line)}
+.photo-fallback .action-card-list{margin-top:var(--space-16)}
+.recipe-match .recipe-card h3{height:calc(var(--role-card-size) * var(--role-card-line) * 2);min-height:calc(var(--role-card-size) * var(--role-card-line) * 2)}

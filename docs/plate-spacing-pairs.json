@@ -1,0 +1,713 @@
+[
+  {
+    "w": 360,
+    "state": "kamera",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "analiz",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".analysis-status>*",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "sonuc",
+    "pairs": [
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": "button → note",
+        "gap": 12
+      },
+      {
+        "selector": "chips → button",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "taslak",
+    "pairs": []
+  },
+  {
+    "w": 360,
+    "state": "duzenle",
+    "pairs": [
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "eslesme-yok",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      },
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "bulanik",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "izin",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "baglanti",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "misafir",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "deneme",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "limit",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 360,
+    "state": "yayinlama",
+    "pairs": []
+  },
+  {
+    "w": 360,
+    "state": "incelemede",
+    "pairs": []
+  },
+  {
+    "w": 390,
+    "state": "kamera",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "analiz",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".analysis-status>*",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "sonuc",
+    "pairs": [
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": "button → note",
+        "gap": 12
+      },
+      {
+        "selector": "chips → button",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "taslak",
+    "pairs": []
+  },
+  {
+    "w": 390,
+    "state": "duzenle",
+    "pairs": [
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "eslesme-yok",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      },
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "bulanik",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "izin",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "baglanti",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "misafir",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "deneme",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "limit",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "state": "yayinlama",
+    "pairs": []
+  },
+  {
+    "w": 390,
+    "state": "incelemede",
+    "pairs": []
+  },
+  {
+    "w": 430,
+    "state": "kamera",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "analiz",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".analysis-status>*",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "sonuc",
+    "pairs": [
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results>section",
+        "gap": 32
+      },
+      {
+        "selector": "button → note",
+        "gap": 12
+      },
+      {
+        "selector": "chips → button",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "taslak",
+    "pairs": []
+  },
+  {
+    "w": 430,
+    "state": "duzenle",
+    "pairs": [
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".photo-results form>section",
+        "gap": 32
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      },
+      {
+        "selector": ".editor-row>label",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "eslesme-yok",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      },
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "bulanik",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "izin",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "baglanti",
+    "pairs": [
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "misafir",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".action-card-list>.action-card",
+        "gap": 12
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "deneme",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "limit",
+    "pairs": [
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      },
+      {
+        "selector": ".camera-bottom>*",
+        "gap": 16
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "state": "yayinlama",
+    "pairs": []
+  },
+  {
+    "w": 430,
+    "state": "incelemede",
+    "pairs": []
+  }
+]
