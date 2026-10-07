@@ -161,3 +161,6 @@ Kullanıcının 7 Ekim izni: main’de üç ekran düzeltmeleri ve Tabaktan Tari
 - Canlıda kamera/AI örnek fotoğrafla simülasyondur; getUserMedia veya izin isteği yok. Durum seçici/önizleme yok; Pro/deneme kapısı URL durum parametreleriyle de açılmaz. Yerel önizlemede tüm durumlar korunur.
 - Kullanıcının özel taslağı gerçek veri setinin örneğinden gelir; AI taslak etiketi ve tahmini ölçü notu görünür. Yerel cihaz kaydı ve editör onayı simülasyonu açıkça belirtilir.
 - Bu görev için tek main commit ve yayin→gh-pages izni verildi; tamamlandıktan sonra yeni git/yayın izni gerekir.
+
+## Yayın önbelleği ve gezinme
+Yayın üretiminde bütün yerel CSS/JS HTML bağlantıları son çıktı içeriğinin SHA-256 kısa özetiyle `?v=` alır. Cache-Control/Pragma/Expires meta destekleyicidir; Pages HTTP önbellek başlıklarının yerine geçmez. Sayfalar arası gezinme gerçek göreli href kullanır; Tabaktan Tarif satırı `tabaktan-tarif.html?donus=...` bağlantısıdır. WebKit 390/430 dokunma testinde satırın sol/orta/sağ noktaları doğrulanır.

@@ -1,4 +1,10 @@
 {
+  "versions": {
+    "tokens.css": "0a802637e406",
+    "assets/fontawesome/css/all.min.css": "5ceaaba22d75",
+    "app.css": "ff0a182545c7",
+    "app.js": "09662cd53506"
+  },
   "files": [
     "app.js",
     "app.css",

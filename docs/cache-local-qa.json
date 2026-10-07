@@ -1,0 +1,68 @@
+[
+  {
+    "width": 390,
+    "pos": "left",
+    "hit": true,
+    "href": "tabaktan-tarif.html?donus=index.html",
+    "url": "http://127.0.0.1:8765/yayin/tabaktan-tarif.html?donus=index.html"
+  },
+  {
+    "width": 390,
+    "pos": "center",
+    "hit": true,
+    "href": "tabaktan-tarif.html?donus=index.html",
+    "url": "http://127.0.0.1:8765/yayin/tabaktan-tarif.html?donus=index.html"
+  },
+  {
+    "width": 390,
+    "pos": "right",
+    "hit": true,
+    "href": "tabaktan-tarif.html?donus=index.html",
+    "url": "http://127.0.0.1:8765/yayin/tabaktan-tarif.html?donus=index.html"
+  },
+  {
+    "width": 390,
+    "assets": [
+      "tokens.css?v=0a802637e406",
+      "assets/fontawesome/css/all.min.css?v=5ceaaba22d75",
+      "app.css?v=ff0a182545c7",
+      "app.js?v=09662cd53506"
+    ],
+    "errors": []
+  },
+  {
+    "width": 430,
+    "pos": "left",
+    "hit": true,
+    "href": "tabaktan-tarif.html?donus=index.html",
+    "url": "http://127.0.0.1:8765/yayin/tabaktan-tarif.html?donus=index.html"
+  },
+  {
+    "width": 430,
+    "pos": "center",
+    "hit": true,
+    "href": "tabaktan-tarif.html?donus=index.html",
+    "url": "http://127.0.0.1:8765/yayin/tabaktan-tarif.html?donus=index.html"
+  },
+  {
+    "width": 430,
+    "pos": "right",
+    "hit": true,
+    "href": "tabaktan-tarif.html?donus=index.html",
+    "url": "http://127.0.0.1:8765/yayin/tabaktan-tarif.html?donus=index.html"
+  },
+  {
+    "width": 430,
+    "assets": [
+      "tokens.css?v=0a802637e406",
+      "assets/fontawesome/css/all.min.css?v=5ceaaba22d75",
+      "app.css?v=ff0a182545c7",
+      "app.js?v=09662cd53506"
+    ],
+    "errors": []
+  },
+  {
+    "javascriptDisabled": true,
+    "url": "http://127.0.0.1:8765/yayin/tabaktan-tarif.html?donus=index.html"
+  }
+]
