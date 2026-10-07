@@ -98,3 +98,12 @@ Sonraki çelişen kullanıcı talimatı yine önceliklidir. Bu sürüm öncesi v
 - Filtre akordeonunda en fazla bir grup açık; ilk açılışta ilk grup. Seçim sayıları kapalı başlıkta; ortak22px seçim kutusu, primary seçili+FA solid onay,44px satır.
 - Bu tur için tek seferlik git izni: düzeltmelerden sonra main üzerinde tek kaynak commit’i ve yalnız yayin içeriğinin gh-pages gönderimi. Hedef yalnız gaviaworks-dev/dadagastro-mobil. Bu yayın tamamlanınca yeniden git add/commit/push yasağı geçerli; her güncellemede ayrıca izin gerekir.
 - Yayın yalnız yayin/: üç ekran, yerel CSS/JS/font/logo/görseller, noindex/nofollow ve robots. Geliştirici önizlemesi/arşivler/docs yayına girmez. Kapsam dışı gezinme Yakında bildirir.
+
+## Son tarama ve ortak sheet (yayın öncesi)
+- Koyu tema bölümlerinin başlık/açıklama/eylem metinleri açık tema rengini miras almaz; açık metin kullanılır. Alt menü rgba(255,255,255,.92) + blur, pasifler mevcut nötr koyu gri; renk kontrastı ölçülür.
+- Seçim kutusunda yalnız `.choice-mark .fa-check` çizilir (12px); input appearance:none, pseudo tik yok; primary düz dolgu. İşaretli malzemede gradient/opacity yok; ad ve miktar okunur nötr gri+çizgi.
+- Malzeme satırı sabit miktar/bilgi/sepet sütunları; miktar tek satır, sağ hizalı; bilgi4px aralık; alternatif eylemi adın altında, sepet hizasını değiştirmez.
+- Tüm alttan açılan paneller native dialog.sheet ailesi: üst radius24, beyaz; padding üst12/yatay20/alt16+safe-area; tutma çubuğu; kart başlığı18, kapat40 görünür/44hedef; buton52, eşit ikili sütun+12gap. Scrim overlay50%, max85dvh, içscroll, sabit eylemler. Backdrop ve tutma çubuğunu aşağı sürükleme kapanır;250ms ortak hareket, reduced-motion anlık. Besin değerleri aynı sheet ile açılır.
+- Puan verisi yoksa yıldız ve ham “Puan yok” metni gösterilmez; süre bilgisi kalır. Kaynak verisi değişmez.
+- Bu tur son ek izin: main üzerinde ikinci ve son commit yalnız tarama düzeltmeleri/v5 kanıtları ve güncel yayın; ardından yayin yeniden üretilip gh-pages gönderilir. Bundan sonra her commit/yayın ayrı izin gerektirir.
+- Son onaylı ışıma istisnası: koyu web tabanı üstünde primary radyal ışık; ana sağ-alt35%, liste sol35%, detay sağ-üst25%, screen karışım. Fotoğraf ana hero boyunca cover;320px sabit fotoğraf katmanı kullanılmaz. Metin kontrastı4.5:1 korunacak şekilde kaynak koyu renklerin mobil durakları ayarlanabilir.

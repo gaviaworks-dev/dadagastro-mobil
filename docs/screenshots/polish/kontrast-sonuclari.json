@@ -29,8 +29,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.02796,
-        "minContrast": 13.47
+        "maxLuminance": 0.02347,
+        "minContrast": 14.29
       },
       {
         "text": "Ne pişirsem?",
@@ -68,8 +68,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "34px",
-        "maxLuminance": 0.02492,
-        "minContrast": 14.02
+        "maxLuminance": 0.02394,
+        "minContrast": 14.2
       },
       {
         "text": "pişirsem?",
@@ -97,8 +97,8 @@
         ],
         "color": "rgb(232, 127, 102)",
         "font": "34px",
-        "maxLuminance": 0.02492,
-        "minContrast": 5.11
+        "maxLuminance": 0.02394,
+        "minContrast": 5.18
       },
       {
         "text": "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binlerce denenmiş, puanlanmış, yorumlanmış tarif arasından seç.",
@@ -146,8 +146,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "14px",
-        "maxLuminance": 0.04665,
-        "minContrast": 10.86
+        "maxLuminance": 0.04468,
+        "minContrast": 11.09
       },
       {
         "text": "Denenmiş tarif",
@@ -175,8 +175,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.0131,
-        "minContrast": 16.64
+        "maxLuminance": 0.01676,
+        "minContrast": 15.73
       },
       {
         "text": "Püf noktası",
@@ -204,8 +204,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.0131,
-        "minContrast": 16.64
+        "maxLuminance": 0.02138,
+        "minContrast": 14.71
       },
       {
         "text": "Topluluk üyesi",
@@ -233,8 +233,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.0131,
-        "minContrast": 16.64
+        "maxLuminance": 0.03704,
+        "minContrast": 12.06
       },
       {
         "text": "Üye yorumu",
@@ -262,8 +262,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.0131,
-        "minContrast": 16.64
+        "maxLuminance": 0.04262,
+        "minContrast": 11.34
       }
     ]
   },
@@ -297,8 +297,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "22px",
-        "maxLuminance": 0.01584,
-        "minContrast": 15.95
+        "maxLuminance": 0.03861,
+        "minContrast": 11.85
       },
       {
         "text": "6.112 Denenmiş tarif",
@@ -336,8 +336,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.01936,
-        "minContrast": 15.14
+        "maxLuminance": 0.03653,
+        "minContrast": 12.13
       },
       {
         "text": "34 Kategori",
@@ -375,8 +375,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.01988,
-        "minContrast": 15.03
+        "maxLuminance": 0.03081,
+        "minContrast": 12.99
       },
       {
         "text": "50 Dünya mutfağı",
@@ -414,8 +414,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.06678,
-        "minContrast": 8.99
+        "maxLuminance": 0.07114,
+        "minContrast": 8.67
       }
     ]
   },
@@ -611,8 +611,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.08163,
-        "minContrast": 7.98
+        "maxLuminance": 0.08257,
+        "minContrast": 7.92
       },
       {
         "text": "Yunan Usulü Limonlu Karides Sote",
@@ -783,8 +783,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "22px",
-        "maxLuminance": 0.05019,
-        "minContrast": 10.48
+        "maxLuminance": 0.07243,
+        "minContrast": 8.58
       },
       {
         "text": "210 tarif",
@@ -812,8 +812,8 @@
         ],
         "color": "rgb(255, 255, 255)",
         "font": "13px",
-        "maxLuminance": 0.04222,
-        "minContrast": 11.39
+        "maxLuminance": 0.05801,
+        "minContrast": 9.72
       }
     ]
   }

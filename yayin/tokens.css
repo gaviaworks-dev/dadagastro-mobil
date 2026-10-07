@@ -122,3 +122,5 @@
 /* Source transfer: resources/css/portal.css:957–961. Exact source gradients retained. */
 :root{--web-hero-overlay:radial-gradient(120% 120% at 100% 100%,rgba(225,72,39,.30) 0%,rgba(225,72,39,.12) 26%,rgba(225,72,39,0) 56%),linear-gradient(90deg,rgba(28,25,18,.92) 0%,rgba(31,28,20,.80) 38%,rgba(33,30,22,.55) 70%,rgba(33,30,22,.42) 100%),linear-gradient(180deg,rgba(33,30,22,.45) 0%,rgba(20,18,12,.20) 45%,rgba(20,18,12,.72) 100%);--web-overlay-top:rgba(33,30,22,.45);--web-overlay-middle:rgba(20,18,12,.20);--web-overlay-bottom:rgba(20,18,12,.72);--hero-accent:rgb(232,127,102);/* dadagastro.com computed .hero-v h1 .accent */
 --panel-overlap:var(--space-24);--panel-top-space:var(--space-16);--nav-height:64px;--nav-edge:var(--space-16);--nav-bottom:var(--space-8);--nav-icon:22px;--nav-center-icon:20px;--nav-label:10px;--nav-fab:48px;--nav-indicator-width:16px;--nav-indicator-height:2px;--bottom-space:80px;--cook-height:52px}
+/* Explicitly approved directional ember light; brand primary remains unchanged. */
+:root{--hero-glow-strength:35%;--hero-glow:color-mix(in srgb,var(--tomato) var(--hero-glow-strength),transparent)}

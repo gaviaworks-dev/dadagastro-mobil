@@ -1,0 +1,35 @@
+{
+  "shots": [
+    "docs/screenshots/son-tarama/index-0-once.png",
+    "docs/screenshots/son-tarama/index-844-once.png",
+    "docs/screenshots/son-tarama/index-1688-once.png",
+    "docs/screenshots/son-tarama/index-2532-once.png",
+    "docs/screenshots/son-tarama/index-3376-once.png",
+    "docs/screenshots/son-tarama/index-4220-once.png",
+    "docs/screenshots/son-tarama/tarifler-0-once.png",
+    "docs/screenshots/son-tarama/tarifler-844-once.png",
+    "docs/screenshots/son-tarama/tarifler-1688-once.png",
+    "docs/screenshots/son-tarama/tarifler-2532-once.png",
+    "docs/screenshots/son-tarama/tarif-detay-0-once.png",
+    "docs/screenshots/son-tarama/tarif-detay-844-once.png",
+    "docs/screenshots/son-tarama/tarif-detay-1688-once.png",
+    "docs/screenshots/son-tarama/tarif-detay-2532-once.png",
+    "docs/screenshots/son-tarama/tarif-detay-3376-once.png",
+    "docs/screenshots/son-tarama/liste-once.png",
+    "docs/screenshots/son-tarama/kategori-once.png",
+    "docs/screenshots/son-tarama/odak-once.png",
+    "docs/screenshots/son-tarama/filtre-once.png",
+    "docs/screenshots/son-tarama/bos-once.png",
+    "docs/screenshots/son-tarama/yukleniyor-once.png",
+    "docs/screenshots/son-tarama/sayfalama-once.png",
+    "docs/screenshots/son-tarama/daha-fazla-once.png",
+    "docs/screenshots/son-tarama/paylas-once.png",
+    "docs/screenshots/son-tarama/misafir-kaydet-once.png",
+    "docs/screenshots/son-tarama/uye-kaydet-once.png",
+    "docs/screenshots/son-tarama/uye-takip-once.png",
+    "docs/screenshots/son-tarama/uye-yorum-once.png"
+  ],
+  "errors": [
+    "alternatif:TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-swap]').first()\u001b[22m\n"
+  ]
+}

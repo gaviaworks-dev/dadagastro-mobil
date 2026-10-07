@@ -1,0 +1,108 @@
+[
+  {
+    "name": "giris",
+    "radius": "24px",
+    "padding": [
+      "12px",
+      "20px",
+      "16px"
+    ],
+    "background": "rgb(255, 255, 255)",
+    "scrim": "color(srgb 0.129412 0.117647 0.0862745 / 0.5)",
+    "buttons": [
+      52,
+      52
+    ],
+    "height": 248.78125,
+    "backdropClosed": true
+  },
+  {
+    "name": "filtre",
+    "radius": "24px",
+    "padding": [
+      "12px",
+      "20px",
+      "16px"
+    ],
+    "background": "rgb(255, 255, 255)",
+    "scrim": "color(srgb 0.129412 0.117647 0.0862745 / 0.5)",
+    "buttons": [
+      52,
+      52
+    ],
+    "height": 717.390625,
+    "backdropClosed": true
+  },
+  {
+    "name": "alternatif",
+    "radius": "24px",
+    "padding": [
+      "12px",
+      "20px",
+      "16px"
+    ],
+    "background": "rgb(255, 255, 255)",
+    "scrim": "color(srgb 0.129412 0.117647 0.0862745 / 0.5)",
+    "buttons": [],
+    "height": 205.78125,
+    "backdropClosed": true
+  },
+  {
+    "name": "besin",
+    "radius": "24px",
+    "padding": [
+      "12px",
+      "20px",
+      "16px"
+    ],
+    "background": "rgb(255, 255, 255)",
+    "scrim": "color(srgb 0.129412 0.117647 0.0862745 / 0.5)",
+    "buttons": [],
+    "height": 426.015625,
+    "backdropClosed": true
+  },
+  {
+    "name": "paylas",
+    "radius": "24px",
+    "padding": [
+      "12px",
+      "20px",
+      "16px"
+    ],
+    "background": "rgb(255, 255, 255)",
+    "scrim": "color(srgb 0.129412 0.117647 0.0862745 / 0.5)",
+    "buttons": [
+      52
+    ],
+    "height": 373.59375,
+    "backdropClosed": true
+  },
+  {
+    "name": "diger",
+    "radius": "24px",
+    "padding": [
+      "12px",
+      "20px",
+      "16px"
+    ],
+    "background": "rgb(255, 255, 255)",
+    "scrim": "color(srgb 0.129412 0.117647 0.0862745 / 0.5)",
+    "buttons": [],
+    "height": 408,
+    "backdropClosed": true
+  },
+  {
+    "name": "olcu",
+    "radius": "24px",
+    "padding": [
+      "12px",
+      "20px",
+      "16px"
+    ],
+    "background": "rgb(255, 255, 255)",
+    "scrim": "color(srgb 0.129412 0.117647 0.0862745 / 0.5)",
+    "buttons": [],
+    "height": 212.03125,
+    "backdropClosed": true
+  }
+]

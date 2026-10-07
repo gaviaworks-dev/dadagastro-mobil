@@ -1,0 +1,5217 @@
+[
+  {
+    "page": "index",
+    "rows": [
+      {
+        "text": "Kategoriler",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kategoriler & Dünya Mutfakları",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Atıştırmalık",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "245 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bakliyat",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "210 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Balık ve Deniz Ürünleri",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "260 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bebek Tarifleri",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "196 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Çocuk Tarifleri",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "197 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Çorba",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "271 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Dolma ve Sarma",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "195 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Dondurma ve Soğuk Tatlılar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "197 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ekmek",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "198 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hamur İşi",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "248 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "İçecek",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "208 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kahvaltılık",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "245 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kek ve Pasta",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "203 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kırmızı Et",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "299 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Köfte ve Kebap",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "228 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kurabiye",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "194 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Makarna",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "185 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Mantı ve Dolgulu Hamurlar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "196 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Meyve Tarifleri",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "208 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Meze",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "254 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pilav",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "232 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pizza ve Pide",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "190 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Reçel",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "189 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sakatat",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "201 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Salata",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "194 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sandviç, Burger ve Dürüm",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "191 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sebze",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "345 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sos",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "207 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tatlı",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "285 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tavuk ve Hindi",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "237 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Turşu ve Konserve",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "203 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Yumurta Tarifleri",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "199 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Zeytinyağlılar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "200 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ana Yemek",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "0 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tariflerimiz",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bu hafta öne çıkanlar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Dolapta Ne Var?",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Malzemelerini seç, sana uygun tarifleri saniyeler içind",
+        "class": "prose",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tuz",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Zeytinyağı",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Su",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "+1777 malzeme",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Günün Tarifi",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sardalya Izgara",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Mutfak Sırları",
+        "class": "eyebrow",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Mutfağa Giriş & Püf Noktaları",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Mutfağa Giriş",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Püf Noktaları",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          55,
+          52,
+          45
+        ],
+        "ratio": 12.41,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "01",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Temel Pişirme Yöntemleri",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "5 bölüm",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "02",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Isı ve Süre Kontrolü",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "5 bölüm",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "03",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tencerede Pişirme Teknikleri",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "5 bölüm",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "04",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Haşlama: Sudan Fazlası",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "8 bölüm",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "05",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tavada Pişirme Teknikleri",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4 bölüm",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "06",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Fırında Pişirme Teknikleri",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4 bölüm",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pro",
+        "class": "eyebrow",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Öğünlerini hafta görünümünde kur; alışveriş listen menü",
+        "class": "prose",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "İzle & Pişir",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "En lezzetli videolar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Tam Kıvamında Karnıyarık — Şefin Bütün Sırlarıyla",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1,2 Mn izlenme",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Soğan Doğrarken Ağlamamanın Yolu",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "524 B izlenme",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Meal Prep: 1 Saatte Haftalık Sebze Hazırlığı",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "412 B izlenme",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Gaziantep Baklavası — Ustadan İzle",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "356 B izlenme",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pratik Kahvaltı Tabağı — 5 Dakika",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "341 B izlenme",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bıçak Tutuşu ve Julyen Doğrama",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "312 B izlenme",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Şefler & Yazarlar",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Şefler & Yazarlar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Ş",
+        "class": "avatar",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Şahnur Ilıcalı",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "171 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "G",
+        "class": "avatar",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Göktürk Dizdar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "171 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ş",
+        "class": "avatar",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Şahnur Sezek",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "171 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "C",
+        "class": "avatar",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Canan Yücel",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "140 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "E",
+        "class": "avatar",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Emel Aksu",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "137 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "E",
+        "class": "avatar",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ece Özdenak",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "97 tarif",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sen de Şef Ol",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tarifini paylaş, rozetini kazan",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Topluluğa Katıl",
+        "class": "eyebrow",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tariflerini paylaş, denendikçe puan topla, mutfak defte",
+        "class": "prose",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ana Sayfa",
+        "class": "",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 5.18,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tarifler",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ne Pişirsem",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Mutfak Sırları",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Profil",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "page": "tarifler",
+    "rows": [
+      {
+        "text": "Tümü",
+        "class": "chip active",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Atıştırmalık",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bakliyat",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Balık ve Deniz Ürünleri",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bebek Tarifleri",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Çocuk Tarifleri",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Çorba",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Dolma ve Sarma",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Dondurma ve Soğuk Tatlılar",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ekmek",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hamur İşi",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "İçecek",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kahvaltılık",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kek ve Pasta",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kırmızı Et",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Köfte ve Kebap",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kurabiye",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Makarna",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Mantı ve Dolgulu Hamurlar",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Meyve Tarifleri",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Meze",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pilav",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pizza ve Pide",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Reçel",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sakatat",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Salata",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sandviç, Burger ve Dürüm",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sebze",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sos",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tatlı",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tavuk ve Hindi",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Turşu ve Konserve",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Yumurta Tarifleri",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Zeytinyağlılar",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ana Yemek",
+        "class": "chip ",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "6112 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "810 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1.997 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "372 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "636 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "327 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "244 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "249 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "319 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "32 tarif",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Balık ve Deniz Ürünleri",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Yunan Usulü Limonlu Karides Sote",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Zeytinyağlı Hızlı Deniz Ürünü Tarifi",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "3 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "C",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ceren Tosun",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Dolma ve Sarma",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Düdüklüde Balkan Usulü Lahana Sarması",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kalabalık Sofraların Hızlı Pişen Sarması",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "6 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ş",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Şahnur Ilıcalı",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bakliyat",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kırmızı Fasulye Yahnisi",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Jamaika Usulü Kahvaltılık Stew Peas",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "G",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Göktürk Dizdar",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kahvaltılık",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Patates Mücveri",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Çiğ Rendelenmiş Patatesle Tavada Kızaran Kahvaltılık Mü",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "E",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ebru Bolatlı",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tatlı",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sagdana",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Suudi Arabistan Hicaz Usulü Kakuleli Sagu İncili Süt Ta",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "6 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ş",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Şahnur Poyrazoğlu",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tatlı",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pastéis de Feijão",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Portekiz Torres Vedras Usulü Bademli Fasulyeli Mini Tar",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Orta",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "24 adet",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "A",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Atakan Erçetin",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tatlı",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tarte de Amêndoa",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Portekiz Algarve Usulü Karamelize Bademli Tart",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "10 dilim",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.77,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "İ",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "İrem Akşit",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1",
+        "class": "chip",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          196,
+          61,
+          32
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "2",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "3",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ne pişireceğine karar veremedin mi?",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Dolabındaki malzemeleri seç, sana uygun tarifleri bulal",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ana Sayfa",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tarifler",
+        "class": "",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 5.18,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ne Pişirsem",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Mutfak Sırları",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Profil",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          254.52941176470588,
+          254.52941176470588,
+          254.52941176470588
+        ],
+        "ratio": 7.83,
+        "target": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "page": "tarif-detay",
+    "rows": [
+      {
+        "text": "dk",
+        "class": "",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "20 dk + 35 dk",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Orta",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "kişilik",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 15.81,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "D",
+        "class": "avatar",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Doruk Solmaz",
+        "class": "author-name",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hindistan cevizi sütlü tavuk curry nasıl yapılır? Hint ",
+        "class": "subtitle prose",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Malzemeler",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Porsiyon",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1×",
+        "class": "",
+        "color": "rgb(236, 236, 236)",
+        "bg": [
+          33,
+          30,
+          22
+        ],
+        "ratio": 14.09,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4",
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "bg": [
+          86,
+          81,
+          74
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "4",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "0 / 9 hazır",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Curry için",
+        "class": "ingredient-group",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "kuşbaşı",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "500",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "ince kıyılmış",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sarımsak",
+        "class": "ingredient-name",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "2",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "rendelenmiş",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "curry baharatı",
+        "class": "ingredient-name",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1,5",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hindistan cevizi sütü",
+        "class": "ingredient-name",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "rendelenmiş",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Sıvı yağ",
+        "class": "ingredient-name",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "2",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tuz",
+        "class": "ingredient-name",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "1",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Miktarlar porsiyona göre otomatik güncellenir",
+        "class": "portion-note",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "22 Temmuz 2026",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Son güncelleme: 08 Eylül 2026",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tavuk ve Hindi",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hint Mutfağı",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Glutensiz",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Laktozsuz",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Süt İçermez",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Orta Bütçe (₺₺)",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Doruk Solmaz Komi 2026'dan beri üye",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Adım Adım",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Nasıl yapılır?",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "A−",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "A+",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "01",
+        "class": "step-index",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Soğan ve sarımsağı kavurun",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "sarımsak",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "8 dk",
+        "class": "",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "02",
+        "class": "step-index",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Baharatı kavurun",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Curry baharatı",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "03",
+        "class": "step-index",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tavuğu ekleyin",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Kuşbaşı tavuk göğsünü ve rendelenmiş domatesi ilave edi",
+        "class": "prose",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "8 dk",
+        "class": "",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "04",
+        "class": "step-index",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hindistan cevizi sütüyle pişirin",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Hindistan cevizi sütü",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "kısık ateşte",
+        "class": "",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 7.86,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "17 dk",
+        "class": "",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hatırlatma",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Curry baharatı",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "önce yağda",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Hindistan cevizi sütü",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "#tavuk",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "#baharatlı",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "#tavuklu",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "#misafir yemeği",
+        "class": "chip",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Değerlendirmeler",
+        "class": "eyebrow",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Yorumlar (0)",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "2 değerlendirme",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "%100'si tavsiye ediyor",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "0",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "2",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "0",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "0",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "0",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tarifi değerlendir / Yorum yaz",
+        "class": "button secondary",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bu tarife henüz yorum yapılmamış. İlk yorumu sen yaz.",
+        "class": "review-empty",
+        "color": "rgb(86, 81, 74)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 7.47,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Doruk Solmaz",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Doruk Solmaz Komi 2026'dan beri üye",
+        "class": "prose",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tarif 7",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Takipçi 7",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Benzer Tarifler",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 3,
+        "pass": true
+      },
+      {
+        "text": "Tavuk ve Hindi",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Güveçte Ayvalı Tavuk",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Mayhoş Ayvayla Kış Güveci",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "6 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "C",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Cem Aydan",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Dolma ve Sarma",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ördek Dolması",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Fırında İç Pilavlı Bütün Ördek",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Zor",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "6 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "İ",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "İrem Egeli",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Bebek Tarifleri",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Tuzsuz Bebek Tavuk Suyu",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Mamaların Tabanı İçin Süzülmüş Et Suyu",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Kolay",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "6 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "off",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "E",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ege Bakırcıoğlu",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Pilav",
+        "class": "card-category",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.2,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Arroz con Pato",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Peru Usulü Kişnişli Ördekli Pilav",
+        "class": "card-subtitle",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Orta",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "6 kişilik",
+        "class": "",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "₺",
+        "class": "on",
+        "color": "rgb(111, 111, 111)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 5.02,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "B",
+        "class": "avatar avatar-card",
+        "color": "rgb(196, 61, 32)",
+        "bg": [
+          249,
+          249,
+          249
+        ],
+        "ratio": 4.94,
+        "target": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Burcu Yıldırım",
+        "class": "",
+        "color": "rgb(33, 30, 22)",
+        "bg": [
+          255,
+          255,
+          255
+        ],
+        "ratio": 16.64,
+        "target": 4.5,
+        "pass": true
+      }
+    ]
+  }
+]
