@@ -1,0 +1,57 @@
+# İkon haritası
+
+Yerel Font Awesome Free6.5.2; arayüzde solid.
+
+| Anlam anahtarı | Sınıf |
+|---|---|
+| home | fa-solid fa-house |
+| bowl | fa-solid fa-bowl-food |
+| wand | fa-solid fa-wand-magic-sparkles |
+| book | fa-solid fa-bookmark |
+| user | fa-solid fa-user |
+| search | fa-solid fa-magnifying-glass |
+| bell | fa-solid fa-bell |
+| arrow | fa-solid fa-arrow-right |
+| back | fa-solid fa-arrow-left |
+| clock | fa-solid fa-clock |
+| star | fa-solid fa-star |
+| gauge | fa-solid fa-gauge-simple |
+| fridge | fa-solid fa-basket-shopping |
+| filter | fa-solid fa-sliders |
+| close | fa-solid fa-xmark |
+| plus | fa-solid fa-plus |
+| minus | fa-solid fa-minus |
+| fire | fa-solid fa-fire-burner |
+| check | fa-solid fa-check |
+| utensils | fa-solid fa-utensils |
+| leaf | fa-solid fa-book-open |
+| grid | fa-solid fa-table-cells-large |
+| list | fa-solid fa-list |
+| share | fa-solid fa-share-nodes |
+| pause | fa-solid fa-pause |
+| play | fa-solid fa-play |
+| reset | fa-solid fa-rotate-left |
+| more | fa-solid fa-ellipsis |
+| cart | fa-solid fa-cart-plus |
+| swap | fa-solid fa-shuffle |
+| info | fa-solid fa-circle-info |
+| down | fa-solid fa-chevron-down |
+| eye | fa-solid fa-eye |
+| like | fa-solid fa-thumbs-up |
+| print | fa-solid fa-print |
+| menu | fa-solid fa-bars |
+| mic | fa-solid fa-microphone |
+| flag | fa-solid fa-flag |
+| clap | fa-solid fa-hands-clapping |
+| camera | fa-solid fa-camera |
+| lock | fa-solid fa-lock |
+| up | fa-solid fa-arrow-up |
+| wallet | fa-solid fa-wallet |
+| flash | fa-solid fa-bolt |
+| gallery | fa-solid fa-images |
+| flip | fa-solid fa-camera-rotate |
+| wifi | fa-solid fa-wifi |
+| comments | fa-solid fa-comment-dots |
+| edit | fa-solid fa-pen |
+| crown | fa-solid fa-crown |
+| trash | fa-solid fa-trash |

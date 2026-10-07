@@ -1,0 +1,246 @@
+[
+  {
+    "w": 390,
+    "name": "index",
+    "result": [
+      {
+        "text": "HERKESİN BİR TABAĞI VAR",
+        "contrast": 14.7
+      },
+      {
+        "text": "Ne pişirsem?",
+        "contrast": 13.87
+      },
+      {
+        "text": "pişirsem?",
+        "contrast": 5.06
+      },
+      {
+        "text": "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binlerce denenmiş, puanlanmış, yorumlanmış tarif arasından seç.",
+        "contrast": 12.59
+      },
+      {
+        "text": "Popüler",
+        "contrast": 15.56
+      },
+      {
+        "text": "zeytinyağlı",
+        "contrast": 14.44
+      },
+      {
+        "text": "kahvaltılık",
+        "contrast": 13.04
+      },
+      {
+        "text": "vegan",
+        "contrast": 11.9
+      },
+      {
+        "text": "fırın",
+        "contrast": 11.63
+      },
+      {
+        "text": "misafir yemeği",
+        "contrast": 21
+      },
+      {
+        "text": "6.112+",
+        "contrast": 15.31
+      },
+      {
+        "text": "Denenmiş tarif",
+        "contrast": 15.21
+      },
+      {
+        "text": "2.163+",
+        "contrast": 14.02
+      },
+      {
+        "text": "Püf noktası",
+        "contrast": 13.96
+      },
+      {
+        "text": "1.055",
+        "contrast": 12.33
+      },
+      {
+        "text": "Topluluk üyesi",
+        "contrast": 12.03
+      },
+      {
+        "text": "8.160",
+        "contrast": 11.02
+      },
+      {
+        "text": "Üye yorumu",
+        "contrast": 10.69
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "name": "tarifler",
+    "result": [
+      {
+        "text": "Tarifler",
+        "contrast": 10.97
+      },
+      {
+        "text": "6.112 Denenmiş tarif",
+        "contrast": 12.45
+      },
+      {
+        "text": "34 Kategori",
+        "contrast": 13.52
+      },
+      {
+        "text": "50 Dünya mutfağı",
+        "contrast": 13.39
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "name": "tarif-detay",
+    "result": [
+      {
+        "text": "Tavuk ve Hindi",
+        "contrast": 14.12
+      },
+      {
+        "text": "Tavuk Curry",
+        "contrast": 13.35
+      },
+      {
+        "text": "Hindistan Cevizli Hint Usulü",
+        "contrast": 16.42
+      },
+      {
+        "text": " 4,0 · 2 değerlendirme",
+        "contrast": 16.18
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "name": "index",
+    "result": [
+      {
+        "text": "HERKESİN BİR TABAĞI VAR",
+        "contrast": 14.68
+      },
+      {
+        "text": "Ne pişirsem?",
+        "contrast": 13.87
+      },
+      {
+        "text": "pişirsem?",
+        "contrast": 5.06
+      },
+      {
+        "text": "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binlerce denenmiş, puanlanmış, yorumlanmış tarif arasından seç.",
+        "contrast": 12.31
+      },
+      {
+        "text": "Popüler",
+        "contrast": 15.51
+      },
+      {
+        "text": "zeytinyağlı",
+        "contrast": 14.25
+      },
+      {
+        "text": "kahvaltılık",
+        "contrast": 13.29
+      },
+      {
+        "text": "vegan",
+        "contrast": 12.16
+      },
+      {
+        "text": "fırın",
+        "contrast": 11.91
+      },
+      {
+        "text": "misafir yemeği",
+        "contrast": 11.4
+      },
+      {
+        "text": "6.112+",
+        "contrast": 15.32
+      },
+      {
+        "text": "Denenmiş tarif",
+        "contrast": 15.23
+      },
+      {
+        "text": "2.163+",
+        "contrast": 13.95
+      },
+      {
+        "text": "Püf noktası",
+        "contrast": 14.02
+      },
+      {
+        "text": "1.055",
+        "contrast": 12.33
+      },
+      {
+        "text": "Topluluk üyesi",
+        "contrast": 12.1
+      },
+      {
+        "text": "8.160",
+        "contrast": 11.08
+      },
+      {
+        "text": "Üye yorumu",
+        "contrast": 10.69
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "name": "tarifler",
+    "result": [
+      {
+        "text": "Tarifler",
+        "contrast": 11.03
+      },
+      {
+        "text": "6.112 Denenmiş tarif",
+        "contrast": 12.46
+      },
+      {
+        "text": "34 Kategori",
+        "contrast": 13.45
+      },
+      {
+        "text": "50 Dünya mutfağı",
+        "contrast": 13.35
+      }
+    ]
+  },
+  {
+    "w": 430,
+    "name": "tarif-detay",
+    "result": [
+      {
+        "text": "Tavuk ve Hindi",
+        "contrast": 14.17
+      },
+      {
+        "text": "Tavuk Curry",
+        "contrast": 13.35
+      },
+      {
+        "text": "Hindistan Cevizli Hint Usulü",
+        "contrast": 16.33
+      },
+      {
+        "text": " 4,0 · 2 değerlendirme",
+        "contrast": 16.18
+      }
+    ]
+  }
+]

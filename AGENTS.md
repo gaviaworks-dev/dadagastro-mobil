@@ -119,3 +119,30 @@ Sonraki çelişen kullanıcı talimatı yine önceliklidir. Bu sürüm öncesi v
 ## Çalışma düzeni
 - Görevler geliş sırasıyla, birer birer tamamlanır; sonraki görev mevcut işin arasına sokulmaz. Başlarken tek satır “şimdi şuna başlıyorum”, bitince “bitti” ve kısa rapor. Sıra belirsizse kullanıcıya sorulur. Tekrarlanan aynı talimat bir kez uygulanır.
 - Akışkan cihaz düzeltmesinden sonraki yeni işler ayrı kuyruktur: yumuşak overlay eğrisi, koyu bölümlerin web kaynaklı fotoğrafları, görünür/çalışır özellik paritesi. Kuyruktaki talimat uygulanmadan tamamlanmış sayılmaz. Fotoğraftan Tarif yerel çalışması korunur, yayına dahil edilmez.
+
+## Otonom tur — overlay
+Overlay geçişi uzun ve yumuşak eğrilidir; en az 8 durak, sert sınır yok. Kaynak koyu renk, tek ortak eğri; metin geometrisi durak mesafesini belirler. Ham fotoğrafın doku farkı ile overlay bandı ayrı ölçülür. Bu tur Git/yayin işlemi yok; kararlar docs/16-otonom-kararlar.md'ye yazılır, beş iş sırayla tamamlanır.
+
+Koyuluğun başlangıcı sabit değil, metin bloğunun konumuna göre ayarlanır; metnin tamamı koyu bölgede kalır. Ana hero metin başlangıcından48px önce %64 koyuluğa ulaşır; detay/liste alt metin eğrisi bundan bağımsız korunur.
+
+Koyu bölümler webde arka plan fotoğrafı varsa düz renk değildir: aynı arka plan fotoğrafı + kaynak koyu overlay kullanılır. Webde beyaz olan Topluluğa Katıl bölümüne fotoğraf uydurulmaz; beyaz kaynak görünümü korunur.
+
+Özellik paritesi “var” demekle sağlanmaz: özellik görünür, anlaşılır ve çalışır olmalı. Her ekran değişikliğinden sonra parite tablosu yeniden doğrulanır. Koşullu verisiz dallar doğrulanmış sayılmaz.
+
+Banner'a binen panel sticky olduğunda üst köşeleri düzleşir, opak olur ve header'a boşluksuz oturur. Yapışma normal akıştaki ankraj konumundan hesaplanır; header > panel > kart katman sırası korunur.
+
+Chip radius'u = buton radius'u (kontrol radius'u). Hap biçimli chip yok. Ortak chip yüksekliği44px, yatay padding12px, aralık8px; rol küçük gövde/meta. Dolapta Ne Var widget'ı kaynak başlık/açıklama ve mevcut malzeme verisiyle çalışır; backend malzeme havuzu varmış gibi gösterilmez.
+
+Tarif Detay alt çubuğu: solda etkileşim ikonları (Ben de Yaptım, Eline Sağlık, Yorumlar), sağda Pişirmeye Başla. Gövde ve pişirme kapanışındaki eylemler aynı yerel durumu paylaşır; misafir giriş kapısına gider. Kaydet/Paylaş header'da kalır.
+
+Ana menü sağdan açılan çekmecedir (drawer), alttan sheet değil. Her menü satırında FA solid ikon, sabit24px ikon sütunu ve12px metin boşluğu bulunur. Çekmece %86/en çok360px, düz sol kenar,48px satır, tek açık akordeon; kaynak canlı mobil menü sırası korunur.
+
+## Tipografi kanonu (önceki büyük başlık ölçeğinin yerine)
+Her metin rolü için size/weight/line-height/tracking tokenları vardır. Display32/700 yalnız iki hero; sayfa24/700; bölüm20/700; sheet18/500; alt/grup/adım16/500; kart16/500 (öne çıkan20/700); gövde15/500; meta13/500; etiket11/500; buton15/500; alt menü10/500. Kaynakta yalnız Medium ve ExtraBold dosyaları mevcut olduğundan semibold hedefi yeni sahte font üretilmeden Medium ile karşılanır. Üst başlık alt başlıktan küçük olamaz. FA900 ikon ağırlığı metin ölçeğinin dışındadır.
+
+
+## Bölüm başlığı satırı
+Bölüm başlığı satırında eylem küçülmez, başlık kırılır; çakışma olmaz. Ortak `.section-heading-row` kullanılır: başlık min-width:0, en fazla iki dengeli satır; eylem tek satır, arada en az12px. Eylem ilk başlık satırının taban çizgisindedir. 360px altında yalnız erişilebilir adlı ok gösterilebilir. 320/360/375/390/430 ve önizleme iframe'inde doğrulanır.
+
+## Bu yayın güncellemesinin sınırı
+Kullanıcının 7 Ekim izni: main’de üç ekran düzeltmeleri ve Tabaktan Tarif taslağı iki ayrı commit; yalnız üç ekranın yayin/ içeriği gh-pages. Tabaktan Tarif yayına girmez. Bu iki commit ve yayın sonrasında yeniden git/yayın yasağı geçerlidir.

@@ -1,0 +1,969 @@
+[
+  {
+    "w": 320,
+    "f": "index.html",
+    "rows": [
+      {
+        "title": "Kategoriler & Dünya Mutfakları",
+        "gap": 12,
+        "overlap": false,
+        "height": 48
+      },
+      {
+        "title": "Bu hafta öne çıkanlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tarif bul — elindekiyle",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Sardalya Izgara",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Mutfağa Giriş & Püf Noktaları",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Haftanı tekekranda planla",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En lezzetli videolar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Şefler & Yazarlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Senin de bir tarifin var",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 320,
+    "f": "tarifler.html",
+    "rows": [],
+    "overflow": 0
+  },
+  {
+    "w": 320,
+    "f": "tarif-detay.html",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Yorumlar (0)",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Doruk Solmaz",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Benzer Tarifler",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 320,
+    "f": "tabaktan-tarif.html?uye=pro&durum=sonuc",
+    "rows": [
+      {
+        "title": "Bu değil mi?",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En yakın tarifler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tanınan malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 320,
+    "f": "tabaktan-tarif.html?uye=pro&durum=taslak",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "f": "index.html",
+    "rows": [
+      {
+        "title": "Kategoriler & Dünya Mutfakları",
+        "gap": 12,
+        "overlap": false,
+        "height": 48
+      },
+      {
+        "title": "Bu hafta öne çıkanlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tarif bul — elindekiyle",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Sardalya Izgara",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Mutfağa Giriş & Püf Noktaları",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Haftanı tekekranda planla",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En lezzetli videolar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Şefler & Yazarlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Senin de bir tarifin var",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "f": "tarifler.html",
+    "rows": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "f": "tarif-detay.html",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Yorumlar (0)",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Doruk Solmaz",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Benzer Tarifler",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "f": "tabaktan-tarif.html?uye=pro&durum=sonuc",
+    "rows": [
+      {
+        "title": "Bu değil mi?",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En yakın tarifler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tanınan malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "f": "tabaktan-tarif.html?uye=pro&durum=taslak",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 375,
+    "f": "index.html",
+    "rows": [
+      {
+        "title": "Kategoriler & Dünya Mutfakları",
+        "gap": 12,
+        "overlap": false,
+        "height": 48
+      },
+      {
+        "title": "Bu hafta öne çıkanlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tarif bul — elindekiyle",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Sardalya Izgara",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Mutfağa Giriş & Püf Noktaları",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Haftanı tekekranda planla",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En lezzetli videolar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Şefler & Yazarlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Senin de bir tarifin var",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 375,
+    "f": "tarifler.html",
+    "rows": [],
+    "overflow": 0
+  },
+  {
+    "w": 375,
+    "f": "tarif-detay.html",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Yorumlar (0)",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Doruk Solmaz",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Benzer Tarifler",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 375,
+    "f": "tabaktan-tarif.html?uye=pro&durum=sonuc",
+    "rows": [
+      {
+        "title": "Bu değil mi?",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En yakın tarifler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tanınan malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 375,
+    "f": "tabaktan-tarif.html?uye=pro&durum=taslak",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "f": "index.html",
+    "rows": [
+      {
+        "title": "Kategoriler & Dünya Mutfakları",
+        "gap": 12,
+        "overlap": false,
+        "height": 48
+      },
+      {
+        "title": "Bu hafta öne çıkanlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tarif bul — elindekiyle",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Sardalya Izgara",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Mutfağa Giriş & Püf Noktaları",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Haftanı tekekranda planla",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En lezzetli videolar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Şefler & Yazarlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Senin de bir tarifin var",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "f": "tarifler.html",
+    "rows": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "f": "tarif-detay.html",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Yorumlar (0)",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Doruk Solmaz",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Benzer Tarifler",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "f": "tabaktan-tarif.html?uye=pro&durum=sonuc",
+    "rows": [
+      {
+        "title": "Bu değil mi?",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En yakın tarifler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tanınan malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "f": "tabaktan-tarif.html?uye=pro&durum=taslak",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "f": "index.html",
+    "rows": [
+      {
+        "title": "Kategoriler & Dünya Mutfakları",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Bu hafta öne çıkanlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tarif bul — elindekiyle",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Sardalya Izgara",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Mutfağa Giriş & Püf Noktaları",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Haftanı tekekranda planla",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En lezzetli videolar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Şefler & Yazarlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Senin de bir tarifin var",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "f": "tarifler.html",
+    "rows": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "f": "tarif-detay.html",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Yorumlar (0)",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Doruk Solmaz",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Benzer Tarifler",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "f": "tabaktan-tarif.html?uye=pro&durum=sonuc",
+    "rows": [
+      {
+        "title": "Bu değil mi?",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En yakın tarifler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tanınan malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "f": "tabaktan-tarif.html?uye=pro&durum=taslak",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ],
+    "overflow": 0
+  },
+  {
+    "iframe": "http://127.0.0.1:8765/index.html",
+    "rows": [
+      {
+        "title": "Kategoriler & Dünya Mutfakları",
+        "gap": 12,
+        "overlap": false,
+        "height": 48
+      },
+      {
+        "title": "Bu hafta öne çıkanlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tarif bul — elindekiyle",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Sardalya Izgara",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Mutfağa Giriş & Püf Noktaları",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Haftanı tekekranda planla",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En lezzetli videolar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Şefler & Yazarlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Senin de bir tarifin var",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ]
+  },
+  {
+    "iframe": "http://127.0.0.1:8765/tarifler.html",
+    "rows": []
+  },
+  {
+    "iframe": "http://127.0.0.1:8765/tarif-detay.html",
+    "rows": [
+      {
+        "title": "Malzemeler",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Nasıl yapılır?",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Hatırlatma",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Yorumlar (0)",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Doruk Solmaz",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Benzer Tarifler",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      }
+    ]
+  },
+  {
+    "iframe": "http://127.0.0.1:8765/tabaktan-tarif.html",
+    "rows": []
+  },
+  {
+    "iframe": "http://127.0.0.1:8765/index.html",
+    "rows": [
+      {
+        "title": "Kategoriler & Dünya Mutfakları",
+        "gap": 12,
+        "overlap": false,
+        "height": 48
+      },
+      {
+        "title": "Bu hafta öne çıkanlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Tarif bul — elindekiyle",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Sardalya Izgara",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Mutfağa Giriş & Püf Noktaları",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Haftanı tekekranda planla",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "En lezzetli videolar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Şefler & Yazarlar",
+        "gap": 12,
+        "overlap": false,
+        "height": 24
+      },
+      {
+        "title": "Senin de bir tarifin var",
+        "gap": null,
+        "overlap": false,
+        "height": 24
+      }
+    ]
+  }
+]

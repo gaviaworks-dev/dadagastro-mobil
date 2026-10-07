@@ -1,0 +1,123 @@
+{
+  "results": [
+    {
+      "name": "Alternatif görünür / değiştir / porsiyon / geri al",
+      "result": {
+        "changed": "mısır nişastasıaynı miktarda kullanılır, kabuk daha çıtır olurDeğiştirildi90 g Alternatif",
+        "restored": true
+      },
+      "status": "VAR"
+    },
+    {
+      "name": "Malzeme işaretleme / ilerleme",
+      "result": "1 / 10 hazır",
+      "status": "VAR"
+    },
+    {
+      "name": "Ölçü karşılığı",
+      "status": "VAR",
+      "result": {
+        "recipe": "tavuk-curry",
+        "unit": "Ölçü karşılığı\n\n1 tatlı kaşığı ≈ 10 ml\n\nToz baharat ile ≈ 7 g\n\nKaynak: DadaGastro Ölçü Birimleri rehberi"
+      }
+    },
+    {
+      "name": "Galeri",
+      "result": "1 / 1",
+      "status": "VAR"
+    },
+    {
+      "name": "Açıklama / metadata / besin",
+      "status": "VAR",
+      "result": {
+        "nutritionRecipe": "patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver",
+        "cells": 8
+      }
+    },
+    {
+      "name": "Misafir kaydet kapısı",
+      "result": "Bu işlem için giriş yap",
+      "status": "VAR"
+    },
+    {
+      "name": "Şefi takip et",
+      "result": "true",
+      "status": "VAR"
+    },
+    {
+      "name": "Tüm malzemeleri alışveriş listeme ekle",
+      "result": "true",
+      "status": "VAR"
+    },
+    {
+      "name": "Adım / zamanlayıcı / pişirme",
+      "result": "Adım 2 / 4",
+      "status": "VAR"
+    },
+    {
+      "name": "Daha fazla / yazdır",
+      "result": true,
+      "status": "VAR"
+    },
+    {
+      "name": "Paylaş",
+      "result": 6,
+      "status": "VAR"
+    },
+    {
+      "name": "Yorum formu / fotoğraf",
+      "result": 1,
+      "status": "VAR"
+    },
+    {
+      "name": "Yorum filtre / beğen / yanıt / bildir",
+      "result": [
+        0,
+        1,
+        1
+      ],
+      "status": "VAR"
+    },
+    {
+      "name": "Yorum sahibi düzenle / sil",
+      "result": true,
+      "status": "VAR"
+    },
+    {
+      "name": "Filtre seçenekleri / tek açık grup / sıralama",
+      "result": {
+        "n": 150,
+        "counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "status": "VAR"
+    },
+    {
+      "name": "Arama / boş / temizle / liste / sayfa",
+      "result": {
+        "empty": 1,
+        "page": "http://127.0.0.1:8765/tarifler.html?gorunum=liste&sayfa=2"
+      },
+      "status": "VAR"
+    },
+    {
+      "name": "Ana sayfa sekmeler / modlar",
+      "result": {
+        "x": 2,
+        "searchModes": 3,
+        "cards": 9
+      },
+      "status": "VAR"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "w": 360,
+    "ana": {
+      "overflow": 0,
+      "header": 360,
+      "missingImages": 0,
+      "font": true
+    },
+    "liste": {
+      "overflow": 0,
+      "header": 360,
+      "missingImages": 0,
+      "font": true
+    },
+    "sticky200": {
+      "radius": "24px",
+      "gap": 28,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "sticky400": {
+      "radius": "0px",
+      "gap": 0,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "sticky800": {
+      "radius": "0px",
+      "gap": 0,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "filtre": {
+      "overflow": 0,
+      "header": 360,
+      "missingImages": 0,
+      "font": true
+    },
+    "detay": {
+      "overflow": 0,
+      "header": 360,
+      "missingImages": 0,
+      "font": true
+    },
+    "pisirme": {
+      "overflow": 0,
+      "header": 360,
+      "missingImages": 0,
+      "font": true
+    },
+    "cooking": {
+      "w": 360,
+      "h": 844
+    },
+    "detay-son": {
+      "overflow": 0,
+      "header": 360,
+      "missingImages": 0,
+      "font": true
+    },
+    "dock": {
+      "bg": "rgb(255, 255, 255)",
+      "bottom": 8
+    },
+    "geri": {
+      "overflow": 0,
+      "header": 360,
+      "missingImages": 0,
+      "font": true
+    },
+    "photoAccessible": 0,
+    "errors": [],
+    "httpErrors": []
+  },
+  {
+    "w": 390,
+    "ana": {
+      "overflow": 0,
+      "header": 390,
+      "missingImages": 0,
+      "font": true
+    },
+    "liste": {
+      "overflow": 0,
+      "header": 390,
+      "missingImages": 0,
+      "font": true
+    },
+    "sticky200": {
+      "radius": "24px",
+      "gap": 28,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "sticky400": {
+      "radius": "0px",
+      "gap": 0,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "sticky800": {
+      "radius": "0px",
+      "gap": 0,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "filtre": {
+      "overflow": 0,
+      "header": 390,
+      "missingImages": 0,
+      "font": true
+    },
+    "detay": {
+      "overflow": 0,
+      "header": 390,
+      "missingImages": 0,
+      "font": true
+    },
+    "pisirme": {
+      "overflow": 0,
+      "header": 390,
+      "missingImages": 0,
+      "font": true
+    },
+    "cooking": {
+      "w": 390,
+      "h": 844
+    },
+    "detay-son": {
+      "overflow": 0,
+      "header": 390,
+      "missingImages": 0,
+      "font": true
+    },
+    "dock": {
+      "bg": "rgb(255, 255, 255)",
+      "bottom": 8
+    },
+    "geri": {
+      "overflow": 0,
+      "header": 390,
+      "missingImages": 0,
+      "font": true
+    },
+    "photoAccessible": 0,
+    "errors": [],
+    "httpErrors": []
+  },
+  {
+    "w": 430,
+    "ana": {
+      "overflow": 0,
+      "header": 430,
+      "missingImages": 0,
+      "font": true
+    },
+    "liste": {
+      "overflow": 0,
+      "header": 430,
+      "missingImages": 0,
+      "font": true
+    },
+    "sticky200": {
+      "radius": "24px",
+      "gap": 28,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "sticky400": {
+      "radius": "0px",
+      "gap": 0,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "sticky800": {
+      "radius": "0px",
+      "gap": 0,
+      "bg": "rgb(255, 255, 255)"
+    },
+    "filtre": {
+      "overflow": 0,
+      "header": 430,
+      "missingImages": 0,
+      "font": true
+    },
+    "detay": {
+      "overflow": 0,
+      "header": 430,
+      "missingImages": 0,
+      "font": true
+    },
+    "pisirme": {
+      "overflow": 0,
+      "header": 430,
+      "missingImages": 0,
+      "font": true
+    },
+    "cooking": {
+      "w": 430,
+      "h": 844
+    },
+    "detay-son": {
+      "overflow": 0,
+      "header": 430,
+      "missingImages": 0,
+      "font": true
+    },
+    "dock": {
+      "bg": "rgb(255, 255, 255)",
+      "bottom": 8
+    },
+    "geri": {
+      "overflow": 0,
+      "header": 430,
+      "missingImages": 0,
+      "font": true
+    },
+    "photoAccessible": 0,
+    "errors": [],
+    "httpErrors": []
+  }
+]
