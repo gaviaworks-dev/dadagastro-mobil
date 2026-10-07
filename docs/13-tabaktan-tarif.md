@@ -94,3 +94,8 @@ Kamera ve galeri native camera/image_picker karşılıklarıyla; kamera/analiz e
 Orta düğme tüm kullanıcı türlerinde **Ne Pişirsem** kalır; varsayılan Pro değildir. Üç seçenekli **Tarif bul** paneli açar. Pro üye için bile doğrudan kameraya dönüşmez. Yerel Tabaktan Tarif satırı mevcut Pro kapısına gider; üç ekranlık yayında aynı satır yalnız Yakında bildirir.
 
 Panel, paylaş/işlemler/giriş ve yeniden çek–adını yaz–malzemeyle ara seçenekleriyle aynı eylem kartını kullanır. Açıklamalar tek satır, taşanı üç nokta. Ana sayfa widget’ı, arama kamera ikonu ve çekmece girişine ilişkin bu mesajda ayrıntısı bulunmayan önceki tasarım maddeleri yeniden yorumlanarak eklenmedi; mevcut bileşenler korunur.
+
+## Canlı prototip yayını
+Son kullanıcı onayıyla Tabaktan Tarif de yayın paketine dahil. Yayın HTML’inde `data-demo-pro=true`: engelsiz Pro simülasyonu, gerçek kamera/izin isteği yok. Yerel varsayılan ve durum bağlantıları değişmedi. Canlıda `uye/durum` parametreleri Pro/deneme kapısını açmaz; geliştirici önizleme sayfası yayınlanmaz.
+
+Geri akışı: düzenleme → taslak; benzer tarifin detayı → korunmuş sonuç ekranı; kamera kapat → giriş yapılan Ana Sayfa/Tarif Listesi. Kaydet yalnız bu cihazın localStorage alanına özel taslak yazar; gerçek backend/AI/editor kuyruğu değildir.

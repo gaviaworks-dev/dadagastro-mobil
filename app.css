@@ -426,3 +426,6 @@ dialog.cooking-dialog::backdrop{background:var(--overlay)}
 .engagement-dock::before{content:'';position:absolute;inset:0 calc(-1 * var(--space-16)) calc(-1 * (var(--space-8) + env(safe-area-inset-bottom,0px)));background:var(--paper);z-index:-1;pointer-events:none}
 .sheet-body-content>.action-card-list:first-child{margin-top:var(--space-0)}
 .action-card .pro-badge{background:var(--tomato-tint);color:var(--tomato-dark);border-radius:var(--radius-control);font-weight:var(--weight-bold);text-transform:uppercase}
+/* Photo result/draft actions use the same opaque docking surface. */
+.photo-result-actions{background:var(--paper)}
+.photo-result-actions::before{content:'';position:absolute;inset:0 calc(-1 * var(--space-16)) calc(-1 * (var(--space-8) + env(safe-area-inset-bottom,0px)));background:var(--paper);z-index:-1;pointer-events:none}

@@ -1,0 +1,392 @@
+[
+  {
+    "engine": "chromium",
+    "w": 360,
+    "screens": [
+      {
+        "name": "kamera",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "analiz",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "sonuc",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "taslak",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "duzenle",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "kaydedildi",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "yayinlama",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "incelemede",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      }
+    ],
+    "pro": "PRO",
+    "noGate": true,
+    "resultBack": true,
+    "label": "Taslak · Yapay zekâ ile oluşturuldu",
+    "note": "Yalnız sana özel. Ölçüler fotoğraftan tahmin edildi; pişirmeden önce kontrol et.",
+    "editBack": true,
+    "saved": true,
+    "pending": "İncelemede · Yapay zekâ ile oluşturuldu",
+    "noDeveloperGate": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "chromium",
+    "w": 390,
+    "screens": [
+      {
+        "name": "kamera",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "analiz",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "sonuc",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "taslak",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "duzenle",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "kaydedildi",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "yayinlama",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "incelemede",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      }
+    ],
+    "pro": "PRO",
+    "noGate": true,
+    "resultBack": true,
+    "label": "Taslak · Yapay zekâ ile oluşturuldu",
+    "note": "Yalnız sana özel. Ölçüler fotoğraftan tahmin edildi; pişirmeden önce kontrol et.",
+    "editBack": true,
+    "saved": true,
+    "pending": "İncelemede · Yapay zekâ ile oluşturuldu",
+    "noDeveloperGate": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "chromium",
+    "w": 430,
+    "screens": [
+      {
+        "name": "kamera",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "analiz",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "sonuc",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "taslak",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "duzenle",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "kaydedildi",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "yayinlama",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "incelemede",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      }
+    ],
+    "pro": "PRO",
+    "noGate": true,
+    "resultBack": true,
+    "label": "Taslak · Yapay zekâ ile oluşturuldu",
+    "note": "Yalnız sana özel. Ölçüler fotoğraftan tahmin edildi; pişirmeden önce kontrol et.",
+    "editBack": true,
+    "saved": true,
+    "pending": "İncelemede · Yapay zekâ ile oluşturuldu",
+    "noDeveloperGate": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "webkit",
+    "w": 360,
+    "screens": [
+      {
+        "name": "kamera",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "analiz",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "sonuc",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "taslak",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "duzenle",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "kaydedildi",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "yayinlama",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "incelemede",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      }
+    ],
+    "pro": "PRO",
+    "noGate": true,
+    "resultBack": true,
+    "label": "Taslak · Yapay zekâ ile oluşturuldu",
+    "note": "Yalnız sana özel. Ölçüler fotoğraftan tahmin edildi; pişirmeden önce kontrol et.",
+    "editBack": true,
+    "saved": true,
+    "pending": "İncelemede · Yapay zekâ ile oluşturuldu",
+    "noDeveloperGate": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "webkit",
+    "w": 390,
+    "screens": [
+      {
+        "name": "kamera",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "analiz",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "sonuc",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "taslak",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "duzenle",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "kaydedildi",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "yayinlama",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "incelemede",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      }
+    ],
+    "pro": "PRO",
+    "noGate": true,
+    "resultBack": true,
+    "label": "Taslak · Yapay zekâ ile oluşturuldu",
+    "note": "Yalnız sana özel. Ölçüler fotoğraftan tahmin edildi; pişirmeden önce kontrol et.",
+    "editBack": true,
+    "saved": true,
+    "pending": "İncelemede · Yapay zekâ ile oluşturuldu",
+    "noDeveloperGate": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "webkit",
+    "w": 430,
+    "screens": [
+      {
+        "name": "kamera",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "analiz",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "sonuc",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "taslak",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "duzenle",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "kaydedildi",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "yayinlama",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      },
+      {
+        "name": "incelemede",
+        "overflow": 0,
+        "missing": 0,
+        "cameraRequests": 0
+      }
+    ],
+    "pro": "PRO",
+    "noGate": true,
+    "resultBack": true,
+    "label": "Taslak · Yapay zekâ ile oluşturuldu",
+    "note": "Yalnız sana özel. Ölçüler fotoğraftan tahmin edildi; pişirmeden önce kontrol et.",
+    "editBack": true,
+    "saved": true,
+    "pending": "İncelemede · Yapay zekâ ile oluşturuldu",
+    "noDeveloperGate": true,
+    "errors": [],
+    "network": []
+  }
+]

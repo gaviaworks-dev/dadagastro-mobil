@@ -1,0 +1,326 @@
+[
+  {
+    "w": 360,
+    "state": "kamera",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "analiz",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "sonuc",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "taslak",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "duzenle",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "eslesme-yok",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "bulanik",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "yemek-yok",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "izin",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "baglanti",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "olusturulamadi",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "misafir",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "uye",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "deneme",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "deneme-bitti",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "limit",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "yayinlama",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 360,
+    "state": "incelemede",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "kamera",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "analiz",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "sonuc",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "taslak",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "duzenle",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "eslesme-yok",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "bulanik",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "yemek-yok",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "izin",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "baglanti",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "olusturulamadi",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "misafir",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "uye",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "deneme",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "deneme-bitti",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "limit",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "yayinlama",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 390,
+    "state": "incelemede",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "kamera",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "analiz",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "sonuc",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "taslak",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "duzenle",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "eslesme-yok",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "bulanik",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "yemek-yok",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "izin",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "baglanti",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "olusturulamadi",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "misafir",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "uye",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "deneme",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "deneme-bitti",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "limit",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "yayinlama",
+    "errors": [],
+    "overflow": 0
+  },
+  {
+    "w": 430,
+    "state": "incelemede",
+    "errors": [],
+    "overflow": 0
+  }
+]

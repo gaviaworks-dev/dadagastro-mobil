@@ -150,4 +150,5 @@
 --role-nav-size:10px;--role-nav-weight:500;--role-nav-line:1.2;--role-nav-tracking:0em;
 --type-display:var(--role-display-size);--type-display-detail:var(--role-display-size);--type-section:var(--role-section-size);--type-card:var(--role-card-size);--type-body:var(--role-body-size);--type-meta:var(--role-meta-size);--type-photo-meta:var(--role-meta-size);--type-label:var(--role-label-size);--fa-solid-weight:900;
 }
+:root{--camera-shutter-size:72px;--photo-thumbnail-size:80px;--photo-error-height:220px;--photo-feature-height:320px}
 :root{--action-card-height:80px;--action-icon-size:44px}

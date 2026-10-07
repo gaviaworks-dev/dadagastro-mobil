@@ -155,3 +155,9 @@ Kullanıcının 7 Ekim izni: main’de üç ekran düzeltmeleri ve Tabaktan Tari
 - Bölüm başlığı düzenleyicisi ikonlu/metinsiz butonu boş kapsayıcı sayamaz; Malzemeler sepeti görünür ve44px hedeflidir.
 - Detay alt eylem çubuğunun opak beyaz yüzeyi yan/köşe/alt safe-area boşluğunu da örter; arka metin sızmaz.
 - Bu değişikliğe verilen son izin: tek main commit ve yalnız üç ekranlık yayin→gh-pages. Yayında Tabaktan Tarif satırı Yakında bildirir; kamera/taslak kodu ve dosyası dahil edilmez. İşlemden sonra git/yayın yasağı yeniden geçerli.
+
+## Tabaktan Tarif canlı demo — son onay
+- Bu yayın Tabaktan Tarif’i içerir. `data-demo-pro="true"` yalnız yayın çıktısında varsayılan Pro üye simülasyonunu etkinleştirir; eski oturum rolü bunu değiştirmez. Orta buton yine Ne Pişirsem ve üç seçenekli paneldir.
+- Canlıda kamera/AI örnek fotoğrafla simülasyondur; getUserMedia veya izin isteği yok. Durum seçici/önizleme yok; Pro/deneme kapısı URL durum parametreleriyle de açılmaz. Yerel önizlemede tüm durumlar korunur.
+- Kullanıcının özel taslağı gerçek veri setinin örneğinden gelir; AI taslak etiketi ve tahmini ölçü notu görünür. Yerel cihaz kaydı ve editör onayı simülasyonu açıkça belirtilir.
+- Bu görev için tek main commit ve yayin→gh-pages izni verildi; tamamlandıktan sonra yeni git/yayın izni gerekir.

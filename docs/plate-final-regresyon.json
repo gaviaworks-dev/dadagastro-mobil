@@ -1,0 +1,101 @@
+[
+  {
+    "w": 360,
+    "page": "index",
+    "errors": [],
+    "overflow": 0,
+    "header": 360,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 360,
+    "page": "tarifler",
+    "errors": [],
+    "overflow": 0,
+    "header": 360,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 360,
+    "page": "tarif-detay",
+    "errors": [],
+    "overflow": 0,
+    "header": 360,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 390,
+    "page": "index",
+    "errors": [],
+    "overflow": 0,
+    "header": 390,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 390,
+    "page": "tarifler",
+    "errors": [],
+    "overflow": 0,
+    "header": 390,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 390,
+    "page": "tarif-detay",
+    "errors": [],
+    "overflow": 0,
+    "header": 390,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 430,
+    "page": "index",
+    "errors": [],
+    "overflow": 0,
+    "header": 430,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 430,
+    "page": "tarifler",
+    "errors": [],
+    "overflow": 0,
+    "header": 430,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  },
+  {
+    "w": 430,
+    "page": "tarif-detay",
+    "errors": [],
+    "overflow": 0,
+    "header": 430,
+    "header0": "rgba(225, 72, 39, 0)",
+    "header60": "rgba(225, 72, 39, 0)",
+    "header120": "rgba(225, 72, 39, 0)",
+    "header300": "rgb(225, 72, 39)"
+  }
+]
