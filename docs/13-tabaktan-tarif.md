@@ -89,3 +89,8 @@ Kamera ve galeri native camera/image_picker karşılıklarıyla; kamera/analiz e
 ## Tam durum bağlantıları
 
 [18 durumun doğrudan bağlantısı](20-baslik-ve-durum-denetimi.md). Yayınlama sheet’i ve İncelemede doğrudan önizlenebilir.
+
+## Orta düğme kararı ve ortak eylem kartı
+Orta düğme tüm kullanıcı türlerinde **Ne Pişirsem** kalır; varsayılan Pro değildir. Üç seçenekli **Tarif bul** paneli açar. Pro üye için bile doğrudan kameraya dönüşmez. Yerel Tabaktan Tarif satırı mevcut Pro kapısına gider; üç ekranlık yayında aynı satır yalnız Yakında bildirir.
+
+Panel, paylaş/işlemler/giriş ve yeniden çek–adını yaz–malzemeyle ara seçenekleriyle aynı eylem kartını kullanır. Açıklamalar tek satır, taşanı üç nokta. Ana sayfa widget’ı, arama kamera ikonu ve çekmece girişine ilişkin bu mesajda ayrıntısı bulunmayan önceki tasarım maddeleri yeniden yorumlanarak eklenmedi; mevcut bileşenler korunur.

@@ -5,8 +5,8 @@ for folder in ['fonts','fontawesome','marka','bolumler']:
  shutil.copytree(root/'assets'/folder,out/'assets'/folder,dirs_exist_ok=True)
 media=json.loads(Path('docs/yayin-medya-envanteri.json').read_text())['mapping']; downloaded=[]
 js=Path('app.js').read_text().split('// Approved local-only mobile extra:')[0]
-js='\n'.join(line for line in js.splitlines() if "const entry=e.target.closest('[data-photo-entry]')" not in line)+'\n'
-js=js.replace("page==='tabaktan-tarif'?'<main id=photoApp></main>':",'').replace("${n===2?'data-photo-entry':''}",'')
+js=js.replace("href:'tabaktan-tarif.html'", "href:''")
+js=js.replace("page==='tabaktan-tarif'?'<main id=photoApp></main>':",'')
 css=Path('app.css').read_text();a=css.index('/* Tabaktan Tarif uses');b=css.index('/* Shared section heading:');css=css[:a]+css[b:]
 tokens=Path('tokens.css').read_text();tokens=re.sub(r':root\{--camera-shutter-size:.*?\}\n?', '',tokens)
 files={'app.js':js,'app.css':css,'tokens.css':tokens}
@@ -26,6 +26,6 @@ for name in ['index.html','tarifler.html','tarif-detay.html']:
 for name,s in files.items(): (out/name).write_text(s)
 (out/'robots.txt').write_text('User-agent: *\nDisallow: /\n');(out/'.nojekyll').touch()
 assert not any(out.glob('*tabaktan*'))
-assert 'Tabaktan Tarif' not in files['app.js']
+assert 'tabaktan-tarif.html' not in files['app.js']
 Path('docs/release-build.json').write_text(json.dumps({'files':list(files),'additional_media':downloaded,'mapping':media},ensure_ascii=False,indent=2))
 print('Release generated:',list(files),'additional media',len(downloaded))

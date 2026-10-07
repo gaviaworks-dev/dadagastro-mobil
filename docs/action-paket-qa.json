@@ -1,0 +1,212 @@
+[
+  {
+    "engine": "chromium",
+    "w": 360,
+    "panel": [
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      }
+    ],
+    "toast": "Yakında",
+    "noCamera": true,
+    "cart": 1,
+    "cartWorks": "Bu işlem için giriş yap",
+    "cover": {
+      "bg": "rgb(255, 255, 255)",
+      "left": "-16px",
+      "right": "-16px",
+      "bottom": "-8px"
+    },
+    "overflow": 0,
+    "font": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "chromium",
+    "w": 390,
+    "panel": [
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      }
+    ],
+    "toast": "Yakında",
+    "noCamera": true,
+    "cart": 1,
+    "cartWorks": "Bu işlem için giriş yap",
+    "cover": {
+      "bg": "rgb(255, 255, 255)",
+      "left": "-16px",
+      "right": "-16px",
+      "bottom": "-8px"
+    },
+    "overflow": 0,
+    "font": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "chromium",
+    "w": 430,
+    "panel": [
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      }
+    ],
+    "toast": "Yakında",
+    "noCamera": true,
+    "cart": 1,
+    "cartWorks": "Bu işlem için giriş yap",
+    "cover": {
+      "bg": "rgb(255, 255, 255)",
+      "left": "-16px",
+      "right": "-16px",
+      "bottom": "-8px"
+    },
+    "overflow": 0,
+    "font": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "webkit",
+    "w": 360,
+    "panel": [
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      }
+    ],
+    "toast": "Yakında",
+    "noCamera": true,
+    "cart": 1,
+    "cartWorks": "Bu işlem için giriş yap",
+    "cover": {
+      "bg": "rgb(255, 255, 255)",
+      "left": "-16px",
+      "right": "-16px",
+      "bottom": "-8px"
+    },
+    "overflow": 0,
+    "font": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "webkit",
+    "w": 390,
+    "panel": [
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      }
+    ],
+    "toast": "Yakında",
+    "noCamera": true,
+    "cart": 1,
+    "cartWorks": "Bu işlem için giriş yap",
+    "cover": {
+      "bg": "rgb(255, 255, 255)",
+      "left": "-16px",
+      "right": "-16px",
+      "bottom": "-8px"
+    },
+    "overflow": 0,
+    "font": true,
+    "errors": [],
+    "network": []
+  },
+  {
+    "engine": "webkit",
+    "w": 430,
+    "panel": [
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      },
+      {
+        "h": 80,
+        "iconX": 37,
+        "textX": 93
+      }
+    ],
+    "toast": "Yakında",
+    "noCamera": true,
+    "cart": 1,
+    "cartWorks": "Bu işlem için giriş yap",
+    "cover": {
+      "bg": "rgb(255, 255, 255)",
+      "left": "-16px",
+      "right": "-16px",
+      "bottom": "-8px"
+    },
+    "overflow": 0,
+    "font": true,
+    "errors": [],
+    "network": []
+  }
+]

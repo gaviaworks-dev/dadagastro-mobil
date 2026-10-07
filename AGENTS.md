@@ -148,3 +148,10 @@ Bölüm başlığı satırında eylem küçülmez, başlık kırılır; çakış
 
 ## Bu yayın güncellemesinin sınırı
 Kullanıcının 7 Ekim izni: main’de üç ekran düzeltmeleri ve Tabaktan Tarif taslağı iki ayrı commit; yalnız üç ekranın yayin/ içeriği gh-pages. Tabaktan Tarif yayına girmez. Bu iki commit ve yayın sonrasında yeniden git/yayın yasağı geçerlidir.
+
+## Ortak eylem kartı ve orta menü — son karar
+- Ortadaki düğme misafir, üye ve Pro için daima **Ne Pişirsem**; kamera düğmesine dönüşmez. Varsayılan kullanıcı Pro yapılmaz. Düğme **Tarif bul** sheet’inde Ne Pişirsem, Dolapta Ne Var, Tabaktan Tarif seçeneklerini açar. Pro kapısı yalnız son seçenek içindedir.
+- `.action-card`: kart radius’u, 16px iç boşluk, 44px kontrol-radius ikon kutusu, min-width:0 metin sütunu, 14px ok; 12px sütun/kart aralığı. Yükseklik80px (44px ikon + 32px iç boşluk + kenarlığa yeterli ortak ölçü). Başlık alt başlık rolü; açıklama küçük gövde, tek satır+ellipsis. Pro rozeti başlık taban çizgisinde, yüksekliği değiştirmez. Paylaş, daha fazla, giriş seçenekleri ve fotoğraf hata seçenekleri aynı bileşen.
+- Bölüm başlığı düzenleyicisi ikonlu/metinsiz butonu boş kapsayıcı sayamaz; Malzemeler sepeti görünür ve44px hedeflidir.
+- Detay alt eylem çubuğunun opak beyaz yüzeyi yan/köşe/alt safe-area boşluğunu da örter; arka metin sızmaz.
+- Bu değişikliğe verilen son izin: tek main commit ve yalnız üç ekranlık yayin→gh-pages. Yayında Tabaktan Tarif satırı Yakında bildirir; kamera/taslak kodu ve dosyası dahil edilmez. İşlemden sonra git/yayın yasağı yeniden geçerli.

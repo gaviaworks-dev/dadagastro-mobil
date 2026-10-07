@@ -124,3 +124,6 @@ Alternatif görünürlüğü, değiştirme, geri alma, alternatif ölçekleme, t
 | Hesap Ayarları | https://dadagastro.com #drawer; partials/mobile-drawer.blade.php (yerel sürüm farkı var) | Sağ çekmece; kapsam dışı Yakında | VAR |
 | Çözüm Merkezi | https://dadagastro.com #drawer; partials/mobile-drawer.blade.php (yerel sürüm farkı var) | Sağ çekmece; kapsam dışı Yakında | VAR |
 | Çıkış | https://dadagastro.com #drawer; partials/mobile-drawer.blade.php (yerel sürüm farkı var) | Sağ çekmece; kapsam dışı Yakında | VAR |
+
+### Eylem kartı sonrası tekrar kontrolü
+Malzemeler başlığındaki toplu alışveriş sepeti tekrar görünür; misafir tıklaması giriş sheet’ini açar. Paylaş ve daha fazla menüsünün hedefleri korunarak ortak eylem kartına bağlandı. 360/390/430, Chromium ve WebKit: `action-paket-qa.json`. Alt çubuk opaklığı yan/köşe boşluklarını da kapsar.

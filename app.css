@@ -409,3 +409,20 @@ dialog.cooking-dialog::backdrop{background:var(--overlay)}
 .engagement-dock{background:var(--paper)!important}
 .engagement-dock::after{content:'';position:absolute;top:100%;left:calc(-1 * var(--space-16));right:calc(-1 * var(--space-16));height:calc(var(--space-8) + env(safe-area-inset-bottom,0px));background:var(--paper);pointer-events:none}
 .detail-shell{padding-bottom:calc(var(--space-48) * 2 + env(safe-area-inset-bottom,0px))}
+/* One action-card pattern for entry, sharing, account and recipe actions. */
+.action-card-list,dialog.sheet .sheet-actions.action-card-list{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--space-12);padding:var(--space-0);margin-top:var(--space-16);position:static}
+.action-card-list>.action-card,.photo-entry-options>.action-card{display:grid;grid-template-columns:var(--action-icon-size) minmax(0,1fr) var(--icon-sm);gap:var(--space-12);align-items:center;height:var(--action-card-height);min-height:var(--action-card-height);padding:var(--space-16);border:var(--border-width) solid var(--line);border-radius:var(--radius-card);background:var(--paper);color:var(--ink);text-align:left;min-width:0;width:100%;margin:var(--space-0);box-shadow:none;transition:transform 180ms var(--ease),background 180ms var(--ease)}
+.action-card .action-card-icon{display:grid;place-items:center;width:var(--action-icon-size);height:var(--action-icon-size);background:var(--tomato-tint);color:var(--tomato-dark);border-radius:var(--radius-control);flex-shrink:0}
+.action-card .action-card-icon>.icon{font-size:var(--icon-md);margin:var(--space-0)}
+.action-card-copy{min-width:0;display:grid;gap:var(--space-4)}
+.action-card-title{display:flex;align-items:baseline;gap:var(--space-8);min-width:0;white-space:nowrap}
+.action-card-description{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;color:var(--slate-2)}
+.action-card .action-card-arrow{display:grid;place-items:center;color:var(--slate-2)}.action-card-arrow>.icon{font-size:var(--icon-sm)}
+.action-card .pro-badge{display:inline-flex;align-items:center;line-height:1;padding:var(--space-4);margin:var(--space-0);flex-shrink:0;font-size:var(--type-label);letter-spacing:normal}
+.action-card-list>.action-card-featured{border-color:var(--tomato-dark)}
+.action-card:active{transform:scale(.985);background:var(--bg)}.action-card:focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.action-card{transition:none}}
+/* Opaque docking surface includes corners, side margins and safe area. */
+.engagement-dock::before{content:'';position:absolute;inset:0 calc(-1 * var(--space-16)) calc(-1 * (var(--space-8) + env(safe-area-inset-bottom,0px)));background:var(--paper);z-index:-1;pointer-events:none}
+.sheet-body-content>.action-card-list:first-child{margin-top:var(--space-0)}
+.action-card .pro-badge{background:var(--tomato-tint);color:var(--tomato-dark);border-radius:var(--radius-control);font-weight:var(--weight-bold);text-transform:uppercase}
