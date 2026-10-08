@@ -1,0 +1,1 @@
+(()=>{const {banner,scene,seed,heading,search,recipe}=Y;banner.innerHTML=`${scene(seed)}${heading('Bir fikirden başla','Bugün ne<br>pişirsem?')}<div class="y-search-top six-hero-group">${search()}</div><div class="y-lower six-hero-group">${recipe(seed)}</div>`;window.Y_SCROLL=()=>banner.style.setProperty('--y-cut',`${76-Math.min(28,scrollY*.08)}px`);})();
