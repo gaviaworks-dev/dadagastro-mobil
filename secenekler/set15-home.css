@@ -1,0 +1,27 @@
+body[data-edition] .new-banner{height:540px;isolation:isolate}
+.new-banner .purpose-backdrop>.photo{width:100%;height:100%;background-size:cover;background-position:center}
+.new-banner .purpose-backdrop{mask-image:none;background:none}
+.new-banner .purpose-veil{background:linear-gradient(to bottom,color-mix(in srgb,var(--overlay) 85%,transparent),color-mix(in srgb,var(--overlay) 75%,transparent) 35%,color-mix(in srgb,var(--overlay) 20%,transparent) 62%,color-mix(in srgb,var(--overlay) 85%,transparent))}
+.set-intro{position:relative;z-index:2;padding:calc(var(--app-header) + var(--space-24)) var(--gutter) 0}
+.set-intro h1{font-size:var(--role-display-size);line-height:var(--role-display-line);margin:var(--space-8) 0 var(--space-20);max-width:340px}
+.set-intro .purpose-eyebrow{font-size:var(--role-meta-size);text-transform:none;letter-spacing:0}
+.set-search{height:52px;margin:0}.set-decision{position:relative;z-index:2;margin:var(--space-24) var(--gutter)}
+.set-answer{position:absolute;z-index:2;bottom:var(--space-32);left:var(--gutter);right:var(--gutter);display:flex;gap:var(--space-16);align-items:center;justify-content:space-between;color:var(--paper);text-decoration:none}
+.set-answer>span{min-width:0;display:grid;gap:var(--space-8)}.set-answer strong{font-size:var(--role-card-size);line-height:var(--role-card-line)}.set-answer small{font-size:var(--role-photo-meta-size,var(--role-meta-size))}.set-answer>.icon{width:44px;height:44px;display:grid;place-items:center;background:var(--paper);color:var(--tomato-deep);border-radius:var(--radius-control);flex-shrink:0}
+body.six-home[data-six=a] .new-kitchen{margin:0;border-radius:0;padding:var(--space-24) var(--gutter)}
+.new-kitchen .kitchen-heading h2{font-size:var(--role-section-size)}.new-kitchen .kitchen-suggestion{margin:var(--space-8) 0 var(--space-16)}
+.time-window{display:flex;gap:var(--space-16);align-items:center;margin-bottom:var(--space-20)}.time-symbol{width:56px;height:56px;display:grid;place-items:center;border:1px solid color-mix(in srgb,var(--paper) 50%,transparent);border-radius:var(--radius-control)}.time-symbol .icon{font-size:var(--icon-lg)}
+.set-options{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-12)}.set-options button,.cuisine-options button,.set-next{border:1px solid color-mix(in srgb,var(--paper) 50%,transparent);background:color-mix(in srgb,var(--overlay) 78%,transparent);color:var(--paper);border-radius:var(--radius-control);min-height:44px;font:inherit}
+.set-options button{display:grid;gap:var(--space-4);padding:var(--space-12)}.set-options strong{font-size:var(--role-page-size)}.set-options span{font-size:var(--role-meta-size)}.set-options [aria-pressed=true],.cuisine-options [aria-pressed=true]{background:var(--tomato);border-color:var(--tomato)}
+body[data-edition="7"] .new-banner{height:590px}body[data-edition="7"] .new-kitchen .kitchen-ingredients{grid-template-rows:44px}
+body[data-edition="7"] .new-kitchen .kitchen-previews{border-left:4px solid var(--tomato);padding-left:var(--space-12)}
+body[data-edition="8"] .new-banner{height:600px}.cuisine-window{height:176px;border-radius:var(--radius-card);overflow:hidden}.cuisine-window .photo{height:100%;background-size:cover;background-position:center}.cuisine-options{display:flex;gap:var(--space-8);margin-top:var(--space-12)}.cuisine-options button{flex:1}
+body[data-edition="8"] .new-kitchen{background:var(--bg)}body[data-edition="8"] .new-kitchen .kitchen-ingredients{grid-template-rows:44px}
+body[data-edition="9"] .new-banner{height:650px}body[data-edition="9"] .set-answer{display:none}.decision-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-12)}.pair-idea{border-radius:var(--radius-card);overflow:hidden;background:var(--paper);color:var(--ink);text-decoration:none;min-width:0}.pair-idea>.photo{aspect-ratio:1;background-size:cover;background-position:center}.pair-idea>span{padding:var(--space-12);display:grid;gap:var(--space-8)}.pair-idea strong{font-size:var(--role-card-size);line-height:var(--role-card-line);min-height:calc(3 * var(--role-card-size) * var(--role-card-line))}.pair-idea small{font-size:var(--role-meta-size);color:var(--slate-2)}.pair-idea .icon{color:var(--tomato)}.set-next{display:flex;gap:var(--space-12);align-items:center;justify-content:center;width:100%;margin-top:var(--space-16)}
+body[data-edition="9"] .new-kitchen .kitchen-previews{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible;margin:0;padding:0}
+@media(prefers-reduced-motion:reduce){.new-banner *{transition:none!important;scroll-behavior:auto!important}}
+/* Second visual review: the backdrop is a layer, not a zero-height wrapper. */
+body.six-home[data-six=a] .new-banner .purpose-backdrop{position:absolute;inset:0;height:100%;mask-image:none;background:none}
+body.six-home[data-six=a] .new-banner .purpose-backdrop:before{display:none}
+/* Keep the time prompt readable over the bright egg photograph. */
+.time-window{padding:var(--space-12);border-radius:var(--radius-control);background:color-mix(in srgb,var(--overlay) 85%,transparent)}
