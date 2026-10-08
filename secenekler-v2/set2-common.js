@@ -1,0 +1,6 @@
+(()=>{const H=SET_HOME,q=s=>document.querySelector(s),key=document.body.dataset.edition;document.body.classList.add('set2-nine');const banner=q('.new-banner');banner.className='purpose-banner new-banner x-hero';banner.innerHTML='';const image=(r,c='')=>`<div class="x-photo ${c}" style="background-image:url('${r.image}')" role="img" aria-label="${esc(H.short(r))}"></div>`;
+const search=()=>`<a class="x-search" href="arama.html?donus=${location.pathname.split('/').pop()}">${H.fa('magnifying-glass')}<span>Tarif, şef, video ara</span>${H.fa('arrow-right')}</a>`;
+const heading=(label,title)=>`<div class="x-heading"><div class="six-hero-group"><p class="x-eyebrow x-first">${label}</p><h1>${title}</h1></div></div>`;
+const recipe=(r,label='Bir yemek fikri')=>`<a class="x-recipe" href="${H.detail(r)}"><span><small>${label} · ${r.minutes} dk</small><strong>${esc(H.short(r))}</strong></span><span class="x-arrow">${H.fa('arrow-up-right-from-square')}</span></a>`;
+const dots=(n)=>`<div class="x-dots" role="group" aria-label="Kapak seç">${Array.from({length:n},(_,i)=>`<button data-x-dot="${i}" aria-label="${i+1}. kapak" aria-pressed="${i===0}"><span></span></button>`).join('')}</div>`;
+window.X={...H,q,key,banner,image,search,heading,recipe,dots,cfg:HOME_SETS[key]};})();
