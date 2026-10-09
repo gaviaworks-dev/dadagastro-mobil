@@ -1,0 +1,37 @@
+/* Ana sayfa seçenekleri: dört telefon yan yana (sığmazsa ölçeklenir); dar ekranda sekmeler. Tokenlar tokens.css'ten. */
+:root{--as-phone-w:390px;--as-phone-h:844px;--as-scale:1}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased}
+.as-head{padding:var(--space-40) var(--space-48) var(--space-24)}
+.as-logo{display:block;width:calc(var(--space-48) + var(--space-16));height:auto;margin-bottom:var(--space-16)}
+.as-head h1{margin:0 0 var(--space-8);font-family:GilroyBd,var(--font);font-size:var(--role-page-size);line-height:var(--role-page-line)}
+.as-head p{margin:0;font-size:var(--role-body-size);line-height:var(--role-body-line);color:var(--slate-2)}
+.as-tabs{display:none}
+.as-screens{display:flex;justify-content:center;align-items:flex-start;gap:var(--space-32);padding:var(--space-8) var(--space-24) var(--space-48)}
+.as-screen{display:flex;flex-direction:column;align-items:center;gap:var(--space-12)}
+.as-screen h2{align-self:stretch;margin:0;font-family:GilroyBd,var(--font);font-size:var(--role-section-size);line-height:var(--role-section-line)}
+/* The frame keeps a real 390×844 viewport inside; only its outer box is scaled to fit four side by side. */
+.as-phone{width:calc(var(--as-phone-w) * var(--as-scale));height:calc(var(--as-phone-h) * var(--as-scale));overflow:hidden;border-radius:var(--radius-card);background:var(--paper);box-shadow:var(--sh-md);outline:var(--border-width) solid var(--line)}
+.as-phone iframe{display:block;width:var(--as-phone-w);height:var(--as-phone-h);border:0;transform:scale(var(--as-scale));transform-origin:0 0}
+.as-open{display:inline-flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);color:var(--tomato-deep);font-size:var(--role-meta-size);text-decoration:none}
+.as-open .fa-solid{font-size:var(--icon-sm)}
+.as-open:focus-visible,.as-tabs button:focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+@media (max-width:1100px){
+  :root{--as-scale:1}
+  .as-head{padding:var(--space-24) var(--gutter) var(--space-16)}
+  .as-tabs{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-4);max-width:calc(var(--as-phone-w) + 2 * var(--gutter));margin:0 auto;padding:var(--space-4);border-radius:var(--radius-segment);background:var(--line)}
+  .as-tabs button{min-height:var(--touch-target);border:0;border-radius:var(--radius-control);background:transparent;color:var(--slate-2);font-family:var(--font);font-size:var(--role-body-size);cursor:pointer}
+  .as-tabs button[aria-selected=true]{background:var(--paper);color:var(--tomato-deep);font-family:GilroyBd,var(--font);box-shadow:var(--sh-sm)}
+  .as-screens{display:block;padding:var(--space-16) var(--gutter) var(--space-32)}
+  .as-screen{display:none}
+  .as-screen.is-active{display:flex}
+  .as-screen h2{display:none}
+  .as-phone{width:var(--as-phone-w);height:var(--as-phone-h)}
+  .as-phone iframe{transform:none}
+}
+@media (max-width:600px){
+  .as-head,.as-tabs{margin-inline:var(--gutter)}
+  .as-screens{padding:var(--space-12) 0 var(--space-24)}
+  .as-phone{width:100%;height:calc(100dvh - var(--space-48) - var(--space-24));border-radius:0;box-shadow:none;outline:0}
+  .as-phone iframe{width:100%;height:100%}
+}

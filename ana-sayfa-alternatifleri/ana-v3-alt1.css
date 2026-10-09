@@ -1,0 +1,42 @@
+/* Ana sayfa · 1. alternatif — "Kapak şeridi". Ortak bileşenler ana-v3.css'ten; burada yalnız hero kurgusu ve
+   modüllerin yatay şerit sunumu. Ölçüler token'dan; bileşen ölçüleri tek yerde adlandırıldı. */
+body.alt1{--alt1-hero-min:560px;--alt1-hero-max:660px;--alt1-video-card:300px;--alt1-cat-card:160px;--alt1-cuisine-card:88px;--alt1-dot-w:var(--space-20);--alt1-dot-h:var(--space-4)}
+
+/* Hero: full-bleed covers; the stack (suggestion, question, search) sits at the bottom; no crescent —
+   the content panel climbs over the photo with the sheet radius instead. */
+body.alt1.home-v3 .x-hero{height:calc(clamp(var(--alt1-hero-min),76dvh,var(--alt1-hero-max)) - var(--scene-collapse,0px));border-radius:0;box-shadow:none;margin-bottom:0}
+body.alt1.home-v3 .x-scene-shade{background:var(--alt-veil,var(--image-shade))}
+.alt1 .x-scene-photo{overflow:hidden}
+.alt1 .alt1-track{display:flex;height:100%;transition:transform 250ms var(--ease)}
+.alt1 .alt1-track>.x-photo{flex:0 0 100%;height:100%;transform:none}
+body.alt1 .x-hero .purpose-title{position:absolute;left:0;right:0;bottom:calc(var(--radius-sheet) + var(--space-24));padding:0 var(--gutter);z-index:6}
+.alt1 .v3-hero-top .six-hero-group{display:grid;gap:var(--space-16)}
+.alt1 .alt1-pick .x-recipe{color:var(--paper)}
+.alt1 .purpose-copy{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-12)}
+.alt1 .alt1-dots{display:flex;flex-shrink:0;margin-right:calc(-1 * var(--space-12))}
+.alt1 .alt1-dots button{display:grid;place-items:center;width:var(--touch-target);height:var(--touch-target);padding:0;border:0;background:none;cursor:pointer}
+.alt1 .alt1-dots span{display:block;width:var(--alt1-dot-w);height:var(--alt1-dot-h);border-radius:var(--radius-choice);background:color-mix(in srgb,var(--paper) 45%,transparent);transition:background 200ms var(--ease)}
+.alt1 .alt1-dots [aria-pressed=true] span{background:var(--paper)}
+.alt1 .alt1-dots button:focus-visible{outline:2px solid var(--paper);outline-offset:-4px;border-radius:var(--radius-control)}
+body.alt1 .v3-content{margin-top:calc(-1 * var(--radius-sheet));background:transparent;z-index:7}
+body.alt1 .v3-content>section:first-child{border-radius:var(--radius-sheet) var(--radius-sheet) 0 0}
+
+/* Video Mutfağı: one rail of equal 3:2 covers (stills stay at or below their 400px size). */
+.alt1 .v3-video-rail{margin-top:0}
+.alt1 .v3-video-rail>.v3-video{flex-basis:var(--alt1-video-card)}
+.alt1 .v3-video-rail .v3-video-cover{aspect-ratio:3/2}
+
+/* Kategoriler & Dünya Mutfakları: both tabs as rails. */
+.alt1 .v3-cat-grid,.alt1 .v3-cuisine-grid{display:flex;gap:var(--space-12);margin:0 calc(-1 * var(--gutter));padding:0 var(--gutter) var(--space-4);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--gutter);scrollbar-width:none}
+.alt1 .v3-cat-grid::-webkit-scrollbar,.alt1 .v3-cuisine-grid::-webkit-scrollbar{display:none}
+.alt1 .v3-cat-tile{flex:0 0 var(--alt1-cat-card);scroll-snap-align:start}
+.alt1 .v3-cuisine{flex:0 0 var(--alt1-cuisine-card);scroll-snap-align:start}
+
+/* En son eklenen tarifler: a rail of equal cards. */
+.alt1 .collection-block .collection-body{display:flex;gap:var(--space-12);margin:0 calc(-1 * var(--gutter));padding:0 var(--gutter);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--gutter);scrollbar-width:none}
+.alt1 .collection-block .collection-body::-webkit-scrollbar{display:none}
+.alt1 .collection-body>.recipe-card,.alt1 .collection-body>.recipe-card:first-child{flex:0 0 var(--v3-result-card);grid-column:auto;scroll-snap-align:start}
+.alt1 .collection-body>.recipe-card:first-child .card-media,.alt1 .collection-body>.recipe-card:not(:first-child) .card-media{aspect-ratio:4/5}
+.alt1 .collection-body>.recipe-card:not(:first-child) .card-body{padding:var(--space-16)}
+.alt1 .collection-body>.recipe-card:first-child .card-copy h3{max-height:calc(2 * var(--role-card-size) * var(--role-card-line))}
+@media (prefers-reduced-motion:reduce){.alt1 .alt1-track,.alt1 .alt1-dots span{transition:none}}
