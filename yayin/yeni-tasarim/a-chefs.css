@@ -1,0 +1,18 @@
+.a-chefs{--chef-avatar-size:72px;--chef-strip-line:rgba(255,255,255,.3)}
+.six-content>.a-chefs[data-chef-theme=light]{background:var(--bg);color:var(--ink);--chef-strip-line:var(--line)}
+.a-chefs[data-chef-theme=light] .six-heading h2,.a-chefs[data-chef-theme=light] .six-see,.a-chefs[data-chef-theme=light] .six-chef-intro{color:var(--ink)}
+.a-chefs .six-chef-intro{margin:var(--space-12) 0 var(--space-24);font-size:var(--role-meta-size)}
+.a-chef-strip{display:flex;align-items:stretch;gap:var(--space-8);width:calc(100% + var(--gutter));overflow-x:auto;scrollbar-width:none;scroll-snap-type:x mandatory;scroll-padding-left:0;padding:var(--space-4) 0}
+.a-chef-strip:after{content:'';flex:0 0 var(--space-12)}
+.a-chef-item,.a-chef-join{flex:0 0 calc((100% - var(--space-24))/3.5);min-width:0;text-align:center;scroll-snap-align:start;display:flex;flex-direction:column;align-items:center;color:inherit}
+.a-chef-person{display:flex;flex-direction:column;align-items:center;width:100%;padding:0;color:inherit;font:inherit}
+.a-chef-avatar{display:grid;place-items:center;width:var(--chef-avatar-size);height:var(--chef-avatar-size);min-width:var(--chef-avatar-size);min-height:var(--chef-avatar-size);aspect-ratio:1;flex-shrink:0;border-radius:50%;background:var(--tomato-tint);color:var(--tomato-deep);border:1px solid var(--tomato);font-size:var(--role-page-size);font-family:GilroyBd,var(--font)}
+.a-chef-person strong,.a-chef-join strong{display:flex;align-items:center;justify-content:center;min-width:0;width:100%;height:var(--space-40);margin-top:var(--space-8);padding:0 var(--space-4);font-size:var(--role-meta-size);line-height:var(--role-meta-line);font-weight:var(--role-featured-weight);overflow-wrap:normal}
+.a-chef-count{font-size:var(--role-meta-size);line-height:var(--role-meta-line);white-space:nowrap;margin:var(--space-4) 0 var(--space-8)}
+.a-chef-follow{display:flex;align-items:center;justify-content:center;gap:var(--space-4);min-height:44px;width:100%;padding:var(--space-8) var(--space-4);border:1px solid var(--chef-strip-line);border-radius:var(--radius-control);background:transparent;color:inherit;font:inherit;font-size:var(--role-meta-size);white-space:nowrap}
+.a-chef-follow .icon{font-size:var(--icon-sm)}
+.a-chef-join{padding:0 var(--space-4) var(--space-8);border:1px dashed var(--chef-strip-line);border-radius:var(--radius-card);background:transparent;font:inherit;justify-content:flex-start}
+.a-chef-join .a-chef-avatar{border:0;background:transparent;color:inherit}.a-chef-join .icon{font-size:var(--icon-lg)}
+.a-chef-join>span:last-child{font-size:var(--role-label-size);line-height:var(--role-label-line);margin-top:var(--space-4)}
+.a-chef-strip:focus-visible,.a-chefs button:focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.a-chef-strip{scroll-behavior:auto}}
