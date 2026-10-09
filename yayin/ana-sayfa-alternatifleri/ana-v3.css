@@ -1,0 +1,179 @@
+/* Ana sayfa V3 on a byte copy of ana-x6. Shared sources stay untouched.
+   The content container is .v3-content (renamed in ana-v3.js), so the shared forced
+   (important-flagged) .six-content child rules do not apply and no rule here is forced. */
+
+/* Component sizes, named once. */
+body.home-v3{--v3-result-card:230px;--v3-chef-card:146px;--v3-chef-avatar:96px;--v3-chef-ring:3px;--v3-cta-dash:2px}
+
+/* Hero: x6 scene; ana-1 title + search sit above the scene photo. */
+.home-v3 .x-hero .purpose-title{z-index:6}
+.home-v3 .x-scene-shade{background:var(--v3-scene-shade,linear-gradient(180deg,var(--x-shade),transparent 25%,transparent 45%,var(--x-shade) 75%,var(--overlay)))}
+
+/* Content column */
+.home-v3 .v3-content{display:grid;grid-template-columns:minmax(0,1fr);gap:0;padding:0;position:relative;background:var(--paper)}
+/* Section surfaces alternate by position after the hero: odd = light grey, even = white; edge to edge, no rules
+   between them. Cards read their surface from --v3-surface/--v3-surface-line, so any order stays correct. */
+body.home-v3 .v3-content>section{min-width:0;margin:0;padding:var(--space-32) var(--gutter);border:0;border-radius:0;color:var(--ink)}
+body.home-v3 .v3-content>section:nth-child(odd){background:var(--bg);--v3-surface:var(--paper);--v3-surface-line:transparent}
+body.home-v3 .v3-content>section:nth-child(even){background:var(--paper);--v3-surface:var(--paper);--v3-surface-line:var(--line)}
+.home-v3 .v3-surface{padding:var(--space-16);border:var(--border-width) solid var(--v3-surface-line);border-radius:var(--radius-card);background:var(--v3-surface)}
+.home-v3 .six-heading{gap:var(--space-12);align-items:baseline}
+.home-v3 .six-heading h2{min-width:0;margin:0;text-wrap:balance}
+/* One "see all" pattern on every section: "Tümü" + arrow at the end of the heading row (docs/40). */
+.home-v3 .v3-content .six-see{flex-shrink:0;white-space:nowrap;min-height:var(--touch-target);display:inline-flex;align-items:center;gap:var(--space-4);color:var(--tomato-deep);font-size:var(--role-meta-size);text-decoration:none}
+.home-v3 .v3-content .six-see .icon{font-size:var(--icon-sm);color:currentColor}
+.home-v3 .v3-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.home-v3 .v3-tabs{width:100%;background:var(--line);border-radius:var(--radius-segment)}
+
+/* Recipe card — "A · kaplama" (docs/40): the photo carries everything. Time + rating top-left,
+   save top-right; bold category, max two-line title and the author sit on the photo's lower part over
+   a text-geometry veil (--v3-veil, ana-v3.js). No description, no difficulty/servings/cost. */
+.home-v3 .recipe-card{position:relative;padding-bottom:0;height:auto}
+.home-v3 .recipe-card .card-media{height:auto;aspect-ratio:4/5}
+.home-v3 .recipe-card .card-visual,.home-v3 .recipe-card .card-photo{height:100%;width:100%}
+.home-v3 .recipe-card .card-image-shade{background:var(--v3-veil,var(--image-shade))}
+/* Photo-meta capsules (recipe time/rating, video duration, category count) carry small text: the shared
+   56% glass measured 3.9:1 over bright covers, so on this page the same source dark is 72% (>=4.5:1). */
+.home-v3 .photo-meta{background:color-mix(in srgb,var(--overlay) 72%,transparent)}
+.home-v3 .recipe-card .photo-meta{top:var(--space-12);bottom:auto;left:var(--space-12)}
+.home-v3 .recipe-card .card-body{position:absolute;left:0;right:0;bottom:0;z-index:3;display:flex;flex-direction:column;gap:var(--space-8);padding:var(--space-16);height:auto;pointer-events:none}
+.home-v3 .recipe-card .card-body a{pointer-events:auto}
+.home-v3 .recipe-card .card-copy{display:grid;align-content:end;gap:var(--space-4);min-height:var(--touch-target);color:var(--paper)}
+.home-v3 .recipe-card .card-category{color:var(--paper);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);text-shadow:var(--photo-text-shadow)}
+.home-v3 .recipe-card .card-copy h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;height:auto;min-height:0;max-height:calc(2 * var(--role-card-size) * var(--role-card-line));color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.home-v3 .recipe-card .card-footer{padding-top:0;margin-top:0;min-width:0}
+.home-v3 .recipe-card .card-author-row{display:flex;align-items:center;gap:var(--space-8);min-width:0;max-width:100%;min-height:0;margin:0;font-size:var(--type-photo-meta);line-height:var(--role-meta-line);color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.home-v3 .recipe-card .card-author-row .avatar{--avatar-size:var(--avatar-card);width:var(--avatar-card);height:var(--avatar-card);min-width:var(--avatar-card);min-height:var(--avatar-card);aspect-ratio:1;flex-shrink:0;border-radius:var(--radius-avatar);background:var(--paper);color:var(--tomato-deep);font-size:var(--role-label-size);display:grid;place-items:center;text-shadow:none}
+.home-v3 .v3-author-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:var(--role-meta-weight)}
+
+/* 1. Tarif bul: one working surface, two tabs (now / saved pantry). */
+.home-v3 .v3-finder .v3-tabs{margin-top:var(--space-12)}
+.home-v3 .v3-finder .v3-tabs .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-panel>.kitchen-suggestion{margin:var(--space-16) 0 var(--space-12);font-size:var(--role-meta-size);color:var(--slate-2)}
+.home-v3 .v3-finder .kitchen-ingredients button{background:var(--paper)}
+.home-v3 .v3-finder .kitchen-ingredients [aria-pressed=true]{background:var(--tomato-deep);color:var(--paper)}
+body.home-v3[data-edition=x6] .v3-finder .kitchen-previews{display:flex;gap:var(--space-12);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border:0;padding:0 0 var(--space-8);margin:0;align-items:stretch}
+.home-v3 .v3-finder .kitchen-previews>.recipe-card{flex:0 0 var(--v3-result-card);min-width:0;scroll-snap-align:start}
+body.home-v3[data-edition=x6] .v3-finder[data-has-selection=false] #v3-panel-now :is(.kitchen-previews,.kitchen-submit,.kitchen-result-head){display:none}
+.home-v3 .v3-pantry-group+.v3-pantry-group{margin-top:var(--space-16)}
+.home-v3 .v3-pantry-head{display:flex;align-items:center;gap:var(--space-8);margin-bottom:var(--space-8);font-size:var(--role-meta-size);font-family:GilroyBd,var(--font);color:var(--ink)}
+.home-v3 .v3-pantry-head .icon{font-size:var(--icon-sm);color:var(--tomato-deep)}
+.home-v3 .v3-pantry-head output{min-width:var(--space-24);padding:0 var(--space-8);border-radius:var(--radius-control);background:var(--paper);color:var(--slate-2);text-align:center}
+.home-v3 .v3-pantry-chips{display:flex;flex-wrap:wrap;gap:var(--space-8)}
+.home-v3 :is(.v3-pantry-chips,.v3-pool) .chip{min-height:var(--chip-height);padding:0 var(--space-12);gap:var(--space-8);border-radius:var(--radius-control);background:var(--paper)}
+.home-v3 .v3-saved-chip{border-color:var(--tomato-deep);color:var(--tomato-deep)}
+.home-v3 :is(.v3-pantry-chips,.v3-pool) .chip .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-pantry-empty{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-pantry-edit{width:100%;margin-top:var(--space-16);gap:var(--space-8)}
+.home-v3 #v3-panel-pantry .kitchen-result-head{margin:var(--space-16) 0 var(--space-8)}
+.home-v3 .v3-preview-note{display:flex;gap:var(--space-8);align-items:flex-start;margin:var(--space-12) 0 0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-preview-note .icon{font-size:var(--icon-sm);margin-top:var(--space-4)}
+.home-v3 .v3-pantry-sheet .v3-tabs{margin-bottom:var(--space-12)}
+.home-v3 .v3-sheet-note{margin:0 0 var(--space-12);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-pool{display:flex;flex-wrap:wrap;gap:var(--space-8)}
+.home-v3 .v3-pool .chip[aria-pressed=true]{background:var(--tomato-deep);border-color:var(--tomato-deep);color:var(--paper)}
+.home-v3 .v3-pantry-sheet .sheet-actions{grid-template-columns:minmax(0,1fr)}
+.home-v3 .v3-pool small{font-size:var(--role-label-size);color:inherit;opacity:.8}
+
+/* 2. Video Mutfağı (docs/40 · tur 4): picture-led cards in the recipe-card family on the web source's
+   light section surface (--bg band). Title + views inside the cover over the text-geometry veil (--v3-veil,
+   ana-v3.js); duration in the shared photo-meta capsule top-left; one play mark top-right (where a recipe card saves), same size and place on every card. */
+.home-v3 .v3-videos .six-heading{margin:0 0 var(--space-16)}
+.home-v3 .v3-videos .six-heading h2{color:var(--ink)}
+.home-v3 .v3-video{display:block;min-width:0;padding:0;border:0;background:none;text-align:left;font:inherit;color:var(--paper);cursor:pointer}
+.home-v3 .v3-video-lead{width:100%;margin:0}
+.home-v3 .v3-video-cover{position:relative;display:flex;align-items:flex-end;aspect-ratio:1;overflow:hidden;border-radius:var(--radius-card);background:var(--overlay);isolation:isolate}
+.home-v3 .v3-video-lead .v3-video-cover{aspect-ratio:3/2}
+.home-v3 .v3-video-cover>.photo{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center}
+.home-v3 .v3-video-shade{position:absolute;inset:0;z-index:-1;background:var(--v3-veil,var(--image-shade))}
+.home-v3 .v3-video-time{position:absolute;top:var(--space-12);left:var(--space-12)}
+.home-v3 .v3-play{position:absolute;top:var(--space-8);right:var(--space-8);display:grid;place-items:center;width:var(--touch-target);height:var(--touch-target);border-radius:var(--radius-control);background:var(--floating-icon-bg);backdrop-filter:blur(12px);color:var(--paper)}
+.home-v3 .v3-play .icon{font-size:var(--icon-md)}
+/* Hierarchy: bold title, then (one scale step = 8px below) a smaller, 78% views line. */
+.home-v3 .v3-video-text{display:grid;gap:var(--space-8);min-width:0;width:100%;padding:var(--space-12)}
+.home-v3 .v3-video-lead .v3-video-text{padding:var(--space-16)}
+.home-v3 .v3-video-text strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:GilroyBd,var(--font);font-size:var(--role-card-size);font-weight:var(--weight-bold);line-height:var(--role-card-line);letter-spacing:var(--role-card-tracking);color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.home-v3 .v3-video-lead .v3-video-text strong{font-family:GilroyBd,var(--font);font-size:var(--role-featured-size);font-weight:var(--role-featured-weight);line-height:var(--role-featured-line);letter-spacing:var(--role-featured-tracking)}
+.home-v3 .v3-video-text>span{display:flex;align-items:center;gap:var(--space-4);white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:color-mix(in srgb,var(--paper) 78%,transparent);text-shadow:var(--photo-text-shadow)}
+.home-v3 .v3-video-text>span .icon{line-height:1;color:currentColor}
+.home-v3 .v3-video-text .icon,.home-v3 .v3-video-time .icon{font-size:var(--type-meta)}
+.home-v3 .v3-video-rail{display:flex;gap:var(--space-12);margin:var(--space-12) calc(-1 * var(--gutter)) 0;padding:0 var(--gutter);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--gutter);scrollbar-width:none}
+.home-v3 .v3-video-rail::-webkit-scrollbar{display:none}
+.home-v3 .v3-video-rail>.v3-video{flex:0 0 var(--v3-result-card);scroll-snap-align:start}
+.home-v3 .v3-video:focus-visible{outline:2px solid var(--tomato);outline-offset:2px;border-radius:var(--radius-card)}
+
+/* 4. En son eklenen tarifler: one lead (4:3, featured role set in JS) + two tall (2:3) so the veil leaves the food clear. */
+.home-v3 .collection-block .collection-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-12);overflow:visible;margin:0;padding:0}
+.home-v3 .collection-body>.recipe-card{min-width:0}
+.home-v3 .collection-body>.recipe-card:not(:first-child) .card-media{aspect-ratio:2/3}
+.home-v3 .collection-body>.recipe-card:not(:first-child) .card-body{padding:var(--space-12)}
+.home-v3 .collection-body>.recipe-card:first-child{grid-column:1/-1}
+.home-v3 .collection-body>.recipe-card:first-child .card-media{aspect-ratio:4/3}
+.home-v3 .collection-body>.recipe-card:first-child .card-copy h3{max-height:calc(2 * var(--role-featured-size) * var(--role-featured-line))}
+
+/* 4. Şefler: web "Tarifin ustaları" structure on the neutral band. */
+.home-v3 .v3-chefs .six-heading{color:var(--ink)}
+.home-v3 .v3-chefs .six-heading>div{min-width:0}
+.home-v3 .v3-chefs .eyebrow{display:flex;align-items:center;gap:var(--space-4);margin-bottom:var(--space-4);color:var(--tomato-deep)}
+.home-v3 .v3-chefs .eyebrow .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-chef-row{display:flex;align-items:stretch;gap:var(--space-12);margin:var(--space-16) calc(-1 * var(--gutter)) 0 0;padding:var(--space-8) var(--gutter) var(--space-8) 0;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.home-v3 .v3-chef-row::-webkit-scrollbar{display:none}
+.home-v3 .v3-chef-card,.home-v3 .v3-chef-cta{flex:0 0 var(--v3-chef-card);min-width:0;scroll-snap-align:start}
+.home-v3 .v3-chef-card{display:flex;flex-direction:column;align-items:center;padding:var(--space-16) var(--space-8);border:var(--border-width) solid var(--v3-surface-line);border-radius:var(--radius-card);background:var(--v3-surface);text-align:center}
+.home-v3 .v3-chef-person{display:flex;flex-direction:column;align-items:center;width:100%;padding:0;border:0;background:none;color:inherit;font:inherit;cursor:pointer}
+.home-v3 .v3-chef-av{display:grid;place-items:center;width:var(--v3-chef-avatar);height:var(--v3-chef-avatar);min-width:var(--v3-chef-avatar);min-height:var(--v3-chef-avatar);aspect-ratio:1;flex-shrink:0;border:var(--v3-chef-ring) solid var(--paper);border-radius:var(--radius-avatar);box-shadow:var(--sh-sm);background:var(--neutral-surface);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-size:var(--role-display-size)}
+.home-v3 .v3-chef-person b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;width:100%;min-height:calc(2 * var(--role-card-size) * var(--role-card-line));margin-top:var(--space-12);font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line);color:var(--ink)}
+.home-v3 .v3-chef-count{max-width:100%;margin-top:var(--space-4);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-chef-follow{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-4);min-height:var(--touch-target);margin-top:var(--space-12);padding:0 var(--space-16);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);cursor:pointer}
+.home-v3 .v3-chef-follow .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-chef-cta{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-8);padding:var(--space-16) var(--space-12);border:var(--v3-cta-dash) dashed var(--choice-border-color);border-radius:var(--radius-card);background:transparent;color:var(--ink);font:inherit;text-align:center;cursor:pointer}
+.home-v3 .v3-chef-cta .icon{font-size:var(--icon-lg);color:var(--tomato)}
+.home-v3 .v3-chef-cta b{font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line)}
+.home-v3 .v3-chef-cta span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 :is(.v3-chef-person,.v3-chef-follow,.v3-chef-cta,.v3-chef-row):focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+
+/* 3. Kategoriler & Dünya Mutfakları: a clear switch, six photo gates (name + count under an unveiled photo), full list in a sheet. */
+.home-v3 .v3-cats .v3-tabs{margin:var(--space-12) 0 var(--space-16)}
+.home-v3 .v3-cats .v3-tabs .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-cat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-20) var(--space-12)}
+/* Both tab panels share one grid cell: the section keeps the taller panel's height (no jump). */
+.home-v3 .v3-cat-stage{display:grid}
+.home-v3 .v3-cat-stage>[data-v3-panel]{grid-area:1/1;align-self:start;visibility:hidden}
+.home-v3 .v3-cat-stage>[data-v3-panel].is-active{visibility:visible}
+/* Dünya Mutfakları: four columns at every phone width; one compact, identical item. */
+.home-v3 .v3-cuisine-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:start;gap:var(--space-16) var(--space-8)}
+.home-v3 .v3-cuisine{display:flex;flex-direction:column;align-items:center;gap:var(--space-8);min-width:0;min-height:var(--touch-target);padding:var(--space-8) var(--space-4);border-radius:var(--radius-control);color:var(--ink);text-align:center;text-decoration:none;-webkit-tap-highlight-color:transparent}
+.home-v3 .v3-cuisine:active{background:var(--tomato-tint)}
+.home-v3 .v3-cuisine:active .v3-flag-frame{box-shadow:0 0 0 2px var(--tomato)}
+.home-v3 .v3-cuisine:focus-visible{outline:2px solid var(--tomato);outline-offset:0}
+/* Name (max two lines) with the count directly under it: no reserved second line. */
+.home-v3 .v3-cuisine-text{display:grid;gap:var(--space-4);width:100%;min-width:0}
+.home-v3 .v3-cuisine b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;width:100%;font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.home-v3 .v3-cuisine-text>span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2);white-space:nowrap}
+/* Equal flag frame (control radius; the circle is reserved for avatars). Flags cover the square, centred. */
+.home-v3 .v3-flag-frame{display:grid;place-items:center;width:var(--space-48);height:var(--space-48);flex-shrink:0;overflow:hidden;border-radius:var(--radius-control);background:var(--paper);color:var(--slate-2);box-shadow:0 0 0 var(--border-width) var(--line)}
+.home-v3 .v3-flag-frame img{display:block;width:100%;height:100%;object-fit:cover}
+.home-v3 .v3-flag-frame .icon{font-size:var(--icon-lg)}
+.home-v3 .v3-cat-row .v3-flag-frame{width:var(--space-48);height:var(--space-48)}
+.home-v3 .v3-cat-tile{display:flex;flex-direction:column;gap:var(--space-8);min-width:0;color:var(--ink);text-decoration:none}
+.home-v3 .v3-cat-media{position:relative;display:grid;place-items:center;aspect-ratio:3/2;overflow:hidden;border-radius:var(--radius-card);background:var(--bg);color:var(--tomato-deep)}
+.home-v3 .v3-cat-media>.photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.home-v3 .v3-cat-count{position:absolute;left:var(--space-8);bottom:var(--space-8)}
+.home-v3 .v3-cat-name{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;padding:0 var(--space-4);font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line)}
+.home-v3 .v3-cat-text{display:grid;gap:var(--space-4);min-width:0}
+.home-v3 .v3-cat-text b{font-family:GilroyBd,var(--font)}
+.home-v3 .v3-cat-text>span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-cat-symbol{display:grid;place-items:center;width:var(--space-48);height:var(--space-48);flex-shrink:0;border-radius:var(--radius-control);background:var(--bg);color:var(--tomato-deep)}
+.home-v3 .v3-cat-symbol .icon{font-size:var(--icon-md)}
+.home-v3 .v3-cat-list{display:grid}
+.home-v3 .v3-cat-row{display:flex;align-items:center;gap:var(--space-12);min-height:calc(var(--space-48) + var(--space-16));padding:var(--space-8) 0;color:var(--ink);text-decoration:none}
+.home-v3 .v3-cat-row+.v3-cat-row{border-top:var(--border-width) solid var(--line)}
+.home-v3 .v3-cat-row>.photo{width:var(--space-48);height:var(--space-48);flex-shrink:0;border-radius:var(--radius-control);background-size:cover;background-position:center}
+.home-v3 .v3-cat-row .v3-cat-text{flex:1;padding:0}
+.home-v3 .v3-cat-row .v3-cat-text b{font-size:var(--role-card-size)}
+.home-v3 .v3-cat-row>.icon{font-size:var(--icon-sm);color:var(--slate-2)}
+
+/* 6. Tarifini paylaş: x6/web source copy on the light page surface. */
+.home-v3 .six-community .eyebrow{display:flex;align-items:center;gap:var(--space-4);color:var(--tomato-deep)}
+.home-v3 .six-community .eyebrow .icon{font-size:var(--icon-sm)}
+.home-v3 .six-community .button{gap:var(--space-8)}
