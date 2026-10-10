@@ -16,5 +16,7 @@
   document.querySelector('.sn-tabs').addEventListener('keydown', e => { if (!['ArrowLeft', 'ArrowRight'].includes(e.key)) return; e.preventDefault(); const i = tabs.findIndex(t => t.getAttribute('aria-selected') === 'true'); pick(tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length].dataset.snTab, true); });
   addEventListener('resize', fit); addEventListener('load', fit); narrow.addEventListener?.('change', fit);
   // Re-fit whenever the page's width settles or changes (WebKit can lay out after the first call).
-  new ResizeObserver(fit).observe(document.querySelector('.sn-groups')); fit();
+  // Only a width change re-fits, on the next frame: the fit changes heights, never the observed width (no observer loop).
+  let lastW = -1, frame = 0;
+  new ResizeObserver(([e]) => { const w = Math.round(e.contentRect.width); if (w === lastW) return; lastW = w; cancelAnimationFrame(frame); frame = requestAnimationFrame(fit); }).observe(document.querySelector('.sn-groups')); fit();
 })();
