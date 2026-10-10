@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /dadagastro-mobil/yeni-tasarim-v2/

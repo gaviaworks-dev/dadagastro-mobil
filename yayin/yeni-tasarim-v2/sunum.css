@@ -1,0 +1,40 @@
+/* Sunum sayfası: tokenlar tokens.css'ten; Gilroy, açık nötr zemin, Font Awesome solid. Kahverengi yok. */
+/* Telefon: talimattaki 390×844 cihaz ölçüsü. Masaüstünde çerçeve --sn-s ile ölçeklenir, içerik 390 genişlikte kalır. */
+:root{--sn-phone-w:390px;--sn-phone-h:844px;--sn-gap:var(--space-32)}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased}
+.sn-head,.sn-groups{max-width:calc(4 * var(--sn-phone-w) + 3 * var(--sn-gap) + 2 * var(--space-40));margin:0 auto;padding-inline:var(--space-40)}
+.sn-head{padding-top:var(--space-40);padding-bottom:var(--space-16)}
+.sn-logo{display:block;width:calc(var(--space-48) + var(--space-16));height:auto;margin-bottom:var(--space-16)}
+.sn-head h1{margin:0 0 var(--space-8);font-family:GilroyBd,var(--font);font-size:var(--role-page-size);line-height:var(--role-page-line);letter-spacing:var(--role-page-tracking)}
+.sn-head p{margin:0;font-size:var(--role-body-size);line-height:var(--role-body-line);color:var(--slate-2)}
+.sn-tabs{display:none}
+.sn-groups{display:grid;gap:var(--space-48);padding-top:var(--space-24);padding-bottom:var(--space-48)}
+.sn-group h2{margin:0 0 var(--space-16);font-family:GilroyBd,var(--font);font-size:var(--role-section-size);font-weight:var(--role-section-weight);line-height:var(--role-section-line);letter-spacing:var(--role-section-tracking)}
+.sn-group+.sn-group{padding-top:var(--space-48);border-top:var(--border-width) solid var(--line)}
+.sn-group{min-width:0}
+.sn-row{--sn-s:1;min-width:0;display:flex;justify-content:flex-start;align-items:flex-start;gap:var(--sn-gap)}
+.sn-screen{display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-12);margin:0}
+.sn-screen figcaption{font-family:GilroyBd,var(--font);font-size:var(--role-subheading-size);line-height:var(--role-subheading-line);color:var(--ink)}
+.sn-phone{width:calc(var(--sn-phone-w) * var(--sn-s));height:calc(var(--sn-phone-h) * var(--sn-s));overflow:hidden;border-radius:var(--radius-card);background:var(--paper);box-shadow:var(--sh-md);outline:var(--border-width) solid var(--line)}
+.sn-phone iframe{display:block;width:var(--sn-phone-w);height:var(--sn-phone-h);border:0;transform:scale(var(--sn-s));transform-origin:0 0}
+.sn-open{display:inline-flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);color:var(--tomato-deep);font-size:var(--role-meta-size);text-decoration:none}
+.sn-open .fa-solid{font-size:var(--icon-sm)}
+.sn-open:focus-visible,.sn-tabs button:focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+/* Narrow screens: three tabs (Seçenek 1 / Seçenek 2 / Şef kartları), the screens of the chosen tab stacked. */
+@media (max-width:900px){
+  .sn-head,.sn-groups{padding-inline:var(--gutter)}
+  .sn-head{padding-top:var(--space-24)}
+  .sn-tabs{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4);max-width:calc(var(--sn-phone-w) + 2 * var(--gutter));margin:0 auto;padding:var(--space-4);border-radius:var(--radius-segment);background:var(--line)}
+  .sn-tabs button{min-height:var(--touch-target);padding:0 var(--space-4);border:0;border-radius:var(--radius-control);background:transparent;color:var(--slate-2);font-family:var(--font);font-size:var(--role-meta-size);cursor:pointer}
+  .sn-tabs button[aria-selected=true]{background:var(--paper);color:var(--tomato-deep);font-family:GilroyBd,var(--font);box-shadow:var(--sh-sm)}
+  .sn-groups{display:block;padding-top:var(--space-16)}
+  .sn-group{display:none}
+  .sn-group.is-active{display:block}
+  .sn-group+.sn-group{padding-top:0;border-top:0}
+  .sn-row{flex-direction:column;align-items:center;gap:var(--space-32)}
+  .sn-screen{align-items:center}
+}
+@media (max-width:600px){
+  .sn-tabs{margin-inline:var(--gutter)}
+}

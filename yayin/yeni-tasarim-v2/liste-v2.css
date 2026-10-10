@@ -1,0 +1,181 @@
+/* Liste V2 — liste-1 tabanı. Ortak tokens/app/hero-light yalnız okunur; bütün değerler token'lardan.
+   Tarif kartı ailesi, kaydet, metrik rozeti, avatar ve kart radius'u ortak-kart.css'te (R3/R4/R7, EK 3).
+   Kontroller kanondaki --radius-control / --radius-segment / --radius-sheet değerlerindedir; ?radius onları etkilemez.
+   Bölüm 1: sayfa düzeni (lv2-*). Bölüm 2: sayfaya bağlı bileşenler (dg-chip, dg-sheet…). */
+body.liste-v2{
+  /* docs/46: header solid rengi üç ekranda tek token (ortak-menu.css --dg-header-solid, #DC3D17). */
+  --lv2-header-solid:var(--dg-header-solid);
+  --lv2-tools-h:0px;
+  --dg-mark:calc(var(--chip-height) - var(--space-8) * 2);
+  --dg-badge:var(--space-20);
+  --dg-flag-w:var(--space-20);
+  --dg-row:var(--space-48);
+  /* D2 · Panel üst köşesi: detaydaki .detail-main ile aynı sheet köşesi (24); yapışınca 0. ?radius etkilemez. */
+  --lv2-panel-r:var(--radius-sheet);
+}
+
+/* ============ 1 · Sayfa düzeni ============ */
+/* Sabit banner + üstüne kayan beyaz panel (liste-six.css choice 1 aktarımı). */
+.liste-v2 .app-shell{padding-bottom:0}
+.liste-v2 .list-editorial{position:relative;isolation:isolate}
+.liste-v2 .list-banner{position:sticky;top:0;z-index:0;overflow:hidden}
+.liste-v2 .lv2-panel{position:relative;z-index:2;margin-top:calc(-1 * var(--panel-overlap));background:var(--paper);border-radius:var(--lv2-panel-r) var(--lv2-panel-r) 0 0;min-height:calc(100dvh - var(--app-header))}
+.liste-v2 .list-tools.content-panel{position:sticky;top:var(--app-header);margin:0;z-index:30;background:var(--paper);padding:var(--space-16) var(--gutter);border-bottom:0;transition:border-radius 180ms var(--ease);border-radius:var(--lv2-panel-r) var(--lv2-panel-r) 0 0!important}
+.liste-v2 .list-tools.content-panel.is-stuck{border-radius:0!important;box-shadow:0 var(--border-width) 0 var(--line)}
+.liste-v2 .list-content{position:relative;background:var(--paper);padding:var(--space-16) var(--gutter) calc(var(--bottom-space) + env(safe-area-inset-bottom,0px))}
+/* R6 · Yapışık panelin altına kayan metin satırı yarım kesilmez; bütünüyle gizlenir (liste-v2.js syncHeader). */
+.liste-v2 .lv2-occluded{opacity:0;pointer-events:none}
+.liste-v2 :is(.lv2-themes__title,.lv2-theme-rail,.lv2-status,#pantryFilter){transition:opacity 150ms var(--ease),margin-top var(--dg-duration) var(--ease)}
+
+/* Banner: tek sürekli overlay (JS eğrisi) + sol üstten kaynak ışık token'ı (hero-light.css). */
+.liste-v2 .list-banner:before{background:var(--lv2-veil,var(--overlay-ease));background-blend-mode:normal}
+.liste-v2 .list-banner:after{content:'';position:absolute;inset:0 0 auto;height:var(--home-light-height);z-index:0;pointer-events:none;background:radial-gradient(ellipse at var(--home-light-origin),var(--home-light-color) 0%,transparent var(--home-light-end));mix-blend-mode:var(--home-light-blend)}
+/* Sayaç → panel: liste-1'den (24) bir ölçek adımı az (20). Başlık, sayaçlar ve panel aynı gutter hizasında. */
+.liste-v2 .list-banner-copy{left:var(--gutter);right:var(--gutter);bottom:calc(var(--panel-overlap) + var(--space-20));padding:0}
+.liste-v2 .list-banner h1{margin:0;color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.liste-v2 .list-banner .dg-stats{margin-top:var(--space-8)}
+
+/* Arama altı: kapsam sekmesi + şerit. */
+.liste-v2 .lv2-scope{margin-top:var(--space-12)}
+.liste-v2 .lv2-rail{margin-top:var(--space-12)}
+
+/* İçerik ritmi: tema 24 sonuç satırı 16 sonuçlar. */
+.liste-v2 .lv2-themes{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:1fr;margin:var(--space-8) 0 0;transition:grid-template-rows var(--dg-duration) var(--ease),margin-top var(--dg-duration) var(--ease),opacity var(--dg-duration) var(--ease)}
+/* D1 · Dünya Mutfakları sekmesinde (ya da hiç tema kalmayınca) bölüm yükseklikle birlikte kapanır; sayfa sıçramaz.
+   Kırpma yalnız hareket/kapalı hâlde: şeridin gutter taşması ve odak halkası açık hâlde kesilmez. */
+.liste-v2 .lv2-themes__inner{min-height:0;margin-inline:calc(-1 * var(--gutter));padding-inline:var(--gutter)}
+.liste-v2 .lv2-themes:is(.is-moving,.is-collapsed)>.lv2-themes__inner{overflow:hidden}
+.liste-v2 .lv2-themes.is-collapsed{grid-template-rows:0fr;margin-top:0;opacity:0;visibility:hidden;transition:grid-template-rows var(--dg-duration) var(--ease),margin-top var(--dg-duration) var(--ease),opacity var(--dg-duration) var(--ease),visibility 0s linear var(--dg-duration)}
+/* Başlık ve alt boşluğu ortak bölüm başlığından (ortak-baslik.css). */
+/* Bölüm kapalıyken şerit → sonuç satırı, şerit → tema başlığıyla aynı ritimde (40). */
+.liste-v2 .lv2-themes.is-collapsed+.lv2-status{margin-top:var(--space-8)}
+/* Arama kutusu: ikon · alan · temizle · filtre. Filtre 44px hedef, kontrol radius'u. */
+.liste-v2 .list-tools .search-box{padding-right:var(--space-4)}
+.liste-v2 .list-tools .search-box input{min-width:0;text-overflow:ellipsis}
+/* Odak halkası yalnız yazı alanı odaktayken; filtre düğmesi odaktaysa kendi focus-visible halkası görünür. */
+.liste-v2 .list-tools .search-box:focus-within:not(:has(input:focus)){outline:none;border-color:var(--line)}
+.liste-v2 .lv2-search-filter{position:relative;display:grid;place-items:center;flex:0 0 var(--touch-target);width:var(--touch-target);height:var(--touch-target);padding:0;border:0;border-radius:var(--radius-control);background:transparent;color:var(--slate-2);cursor:pointer}
+.liste-v2 .lv2-search-filter .icon{font-size:var(--icon-md);color:inherit}
+.liste-v2 .lv2-search-filter.is-active{color:var(--tomato)}
+.liste-v2 .lv2-search-filter:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:calc(-1 * var(--space-4))}
+.liste-v2 .lv2-search-filter__badge{position:absolute;top:var(--space-4);right:var(--space-4);min-width:var(--space-16);height:var(--space-16);padding:0 var(--space-4);font-size:var(--role-label-size)}
+.liste-v2 .list-tools .search-clear .icon{color:var(--slate-2)}
+/* Sonuç satırı: sayı solda; sıralama + görünüm aynı yükseklikte kontrol grubu sağda. */
+.liste-v2 .lv2-status{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12);margin:var(--space-24) 0 0;scroll-margin-top:calc(var(--app-header) + var(--lv2-tools-h) + var(--space-16))}
+.liste-v2 .lv2-status #resultCount{margin:0;flex-shrink:0;white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.liste-v2 .lv2-status #resultCount b{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);color:var(--ink)}
+.liste-v2 .lv2-status__controls{display:flex;align-items:stretch;justify-content:flex-end;gap:var(--space-8);flex:0 1 auto;min-width:0}
+.liste-v2 .lv2-status__controls .view-toggle{flex-shrink:0}
+.liste-v2 .lv2-sort-group{display:flex;padding:var(--space-4);border-radius:var(--radius-segment);background:var(--bg);min-width:0}
+.liste-v2 .lv2-sort-button{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-8);min-width:var(--touch-target);min-height:var(--touch-target);padding:0 var(--space-12);border:0;border-radius:var(--radius-control);background:transparent;color:var(--slate-2);font:inherit;font-size:var(--role-meta-size);line-height:var(--role-meta-line);white-space:nowrap;cursor:pointer}
+.liste-v2 .lv2-sort-button--a{width:var(--touch-target);padding:0}
+.liste-v2 .lv2-sort-button .icon{font-size:var(--icon-md);flex-shrink:0}
+.liste-v2 .lv2-sort-button.is-active{color:var(--tomato)}
+.liste-v2 .lv2-sort-button--b.is-active .lv2-sort-button__label{color:var(--tomato-deep)}
+.liste-v2 .lv2-sort-button__label{min-width:0;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
+.liste-v2 .lv2-sort-button--b{max-width:calc(var(--touch-target) * 3);flex:0 1 auto}
+.liste-v2 .lv2-sort-group:has(.lv2-sort-button--b){flex:0 1 auto}
+/* B: etiketli sıralamaya yer açmak için sonuç sayısı "N tarif"; "bulundu" ekran okuyucuda kalır. */
+body.liste-v2[data-siralama=b] .lv2-count-rest{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.liste-v2 .lv2-status .view-toggle.segmented{background:var(--bg);box-shadow:none;flex-shrink:0}
+.liste-v2 .lv2-status .view-toggle button{color:var(--slate-2)}
+.liste-v2 .lv2-status .view-toggle button[aria-pressed=true]{color:var(--tomato-deep)}
+.liste-v2 #pantryFilter:not(:empty){margin-top:var(--space-12)}
+.liste-v2 .lv2-results{margin-top:var(--space-16)}
+.liste-v2 .lv2-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-24) var(--space-12)}
+.liste-v2 .lv2-rows{display:grid;grid-template-columns:minmax(0,1fr)}
+/* Satırlar arasında ayraç yalnız iki satır arasında. */
+.liste-v2 .lv2-rows>.dg-card--row+.dg-card--row{margin-top:var(--space-16);padding-top:var(--space-16);border-top:var(--border-width) solid var(--line)}
+.liste-v2 :is(.dg-slider,.dg-feature)+:is(.lv2-grid,.lv2-rows){margin-top:var(--space-24)}
+.liste-v2 #pagination{display:flex;justify-content:center;gap:var(--space-8);margin:var(--space-32) 0 0}
+.liste-v2 #pagination:empty{display:none}
+.liste-v2 .lv2-empty{display:grid;justify-items:center;gap:var(--space-12);padding:var(--space-32) var(--space-16);text-align:center}
+.liste-v2 .lv2-empty__mark{display:grid;place-items:center;width:var(--space-48);height:var(--space-48);border-radius:var(--radius-control);background:var(--tomato-tint);color:var(--tomato-deep)}
+.liste-v2 .lv2-empty__mark .icon{font-size:var(--icon-lg)}
+.liste-v2 .lv2-empty h2,.liste-v2 .lv2-empty p{margin:0}
+.liste-v2 .lv2-empty p{color:var(--slate-2)}
+.liste-v2 .lv2-empty .button{margin-top:var(--space-4)}
+
+/* Header: solid zemin token'ı. */
+.liste-v2 .topbar.is-solid .icon-button:before{background:transparent}
+
+/* ============ 2 · Sayfaya bağlı bileşenler ============ */
+/* dg-stats: fotoğraf üstü sayaç satırı (liste-1 .list-stat-line ölçüleri); eşit aralık, ayraçlar ortada. */
+.dg-stats{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);width:100%;color:var(--paper);font-size:var(--type-photo-meta);line-height:var(--role-meta-line);text-shadow:var(--photo-text-shadow)}
+.dg-stats--single{justify-content:flex-start}
+.dg-stats__item{white-space:nowrap;font-size:var(--type-photo-meta);font-weight:var(--weight-body)}
+.dg-stats__item b{font-size:var(--type-photo-meta)}
+.dg-stats__sep{align-self:stretch;width:var(--border-width);flex:0 0 var(--border-width);background:color-mix(in srgb,var(--paper) 30%,transparent)}
+
+/* dg-badge: sayı rozeti. */
+.dg-badge{display:inline-grid;place-items:center;min-width:var(--dg-badge);height:var(--dg-badge);padding:0 var(--space-4);border-radius:var(--radius-choice);background:var(--tomato-deep);color:var(--paper);font-family:GilroyBd,var(--font);font-size:var(--role-label-size);line-height:1;letter-spacing:0}
+.dg-badge:empty{display:none}
+
+/* dg-chip + dg-chip-rail: 44px, 12px iç, 8px aralık, kontrol radius'u; seçimde yalnız renk değişir (genişlik sabit). */
+.dg-chip-rail{display:flex;gap:var(--chip-gap);overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;margin-inline:calc(-1 * var(--gutter));padding-inline:var(--gutter);scroll-padding-inline:var(--gutter)}
+.dg-chip-rail::-webkit-scrollbar{display:none}
+.dg-chip{display:inline-flex;align-items:center;gap:var(--space-8);flex:0 0 auto;height:var(--chip-height);min-height:var(--chip-height);padding:0 var(--chip-padding);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--slate-2);font:inherit;font-size:var(--role-meta-size);line-height:var(--role-meta-line);white-space:nowrap;cursor:pointer}
+.dg-chip:has(>.dg-mark){padding-left:var(--space-8)}
+.dg-chip[aria-pressed=true]{border-color:var(--tomato-dark);background:var(--tomato-tint);color:var(--tomato-deep)}
+.dg-chip__count{color:var(--slate-2)}
+.dg-chip[aria-pressed=true] .dg-chip__count{color:var(--tomato-deep)}
+.dg-chip--removable{color:var(--ink)}
+.dg-chip--removable>.icon:last-child{font-size:var(--icon-sm);color:var(--slate-2)}
+
+/* dg-mark: 28px işaret yuvası (kategori fotoğrafı, bayrak veya ikon); iç köşe = 12 − 8. */
+.dg-mark{display:grid;place-items:center;width:var(--dg-mark);height:var(--dg-mark);flex:0 0 var(--dg-mark);border-radius:calc(var(--radius-control) - var(--space-8));background:var(--bg);color:var(--tomato-deep);overflow:hidden}
+.dg-mark .icon{font-size:var(--icon-sm)}
+.dg-mark__photo{width:100%;height:100%;border-radius:0;background-color:var(--line);background-size:cover;background-position:center}
+.dg-mark__photo.image-failed{display:grid;place-items:center;font-size:var(--icon-sm)}
+.dg-mark--flag{background:transparent}
+.dg-mark--flag img{display:block;width:var(--dg-flag-w);height:auto;aspect-ratio:4/3;border-radius:var(--radius-choice);box-shadow:0 0 0 var(--border-width) var(--line)}
+.dg-chip[aria-pressed=true] .dg-mark:not(.dg-mark--flag){background:var(--paper)}
+
+/* dg-page: sayfalama, 44px. */
+.dg-page{display:grid;place-items:center;min-width:var(--touch-target);height:var(--touch-target);padding:0 var(--space-8);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);font:inherit;font-size:var(--role-body-size);cursor:pointer}
+.dg-page[aria-current=page]{background:var(--tomato-dark);border-color:var(--tomato-dark);color:var(--paper);font-family:GilroyBd,var(--font)}
+
+/* dg-sheet: ortak alttan açılan panel. Başlık + çip satırı + iç kaydırma + sabit alt eylem çubuğu. */
+dialog.dg-sheet[open]{display:flex;flex-direction:column;max-height:85dvh;padding-bottom:0;overflow:hidden}
+.dg-sheet>.handle{flex-shrink:0}
+dialog.dg-sheet .dg-sheet__head{flex-shrink:0;margin:0;min-height:var(--touch-target)}
+.dg-sheet__title{display:flex;align-items:center;gap:var(--space-8);margin:0}
+.dg-sheet__title>.icon{font-size:var(--icon-md);color:var(--tomato-deep)}
+.dg-sheet__chips{flex-shrink:0;align-items:center;height:var(--chip-height);margin-top:var(--space-12)}
+.dg-sheet__hint{color:var(--slate-2);font-size:var(--role-meta-size);line-height:var(--role-meta-line);white-space:nowrap}
+.dg-sheet__scroll{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;margin:var(--space-12) calc(-1 * var(--gutter)) 0;padding:0 var(--gutter);border-top:var(--border-width) solid var(--line)}
+.dg-sheet__foot{flex-shrink:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-12);margin:0 calc(-1 * var(--gutter));padding:var(--space-16) var(--gutter) calc(var(--space-16) + env(safe-area-inset-bottom,0px));border-top:var(--border-width) solid var(--line);background:var(--paper)}
+.dg-sheet__foot .button{margin:0}
+
+/* dg-facet: tek açık akordeon; yükseklik ızgara satırıyla yumuşak açılır; ayraç yalnız bölümler arasında. */
+.dg-facet+.dg-facet{border-top:var(--border-width) solid var(--line)}
+.dg-facet__heading{margin:0}
+.dg-facet__head{display:flex;align-items:center;gap:var(--space-12);width:100%;min-height:var(--dg-row);padding:0;border:0;background:none;color:var(--ink);text-align:left;cursor:pointer}
+.dg-facet__icon{display:grid;place-items:center;width:var(--space-24);flex:0 0 var(--space-24);color:var(--tomato-deep)}
+.dg-facet__icon .icon{font-size:var(--icon-md)}
+.dg-facet__label{flex:1;min-width:0}
+.dg-facet__head>.icon:last-child{font-size:var(--icon-sm);color:var(--slate-2);transition:transform var(--dg-duration) var(--ease)}
+.dg-facet.is-open .dg-facet__head>.icon:last-child{transform:rotate(180deg)}
+.dg-facet__body{display:grid;grid-template-rows:0fr;transition:grid-template-rows var(--dg-duration) var(--ease)}
+.dg-facet.is-open>.dg-facet__body{grid-template-rows:1fr}
+.dg-facet__inner{min-height:0;overflow:hidden}
+.dg-facet__inner>:last-child{margin-bottom:var(--space-12)}
+.dg-sheet .dg-option{display:flex;align-items:center;gap:var(--space-12);min-height:var(--touch-target);margin:0;font-weight:var(--weight-body);cursor:pointer}
+.dg-sheet .dg-option[hidden]{display:none}
+.dg-option__label{flex:1;min-width:0;color:var(--ink);font-size:var(--role-body-size);line-height:var(--role-meta-line);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dg-option__count{color:var(--slate-2);font-size:var(--role-meta-size);font-variant-numeric:tabular-nums}
+.dg-option:has(input:checked) .dg-option__label{color:var(--tomato-deep)}
+.dg-more{display:inline-flex;align-items:center;gap:var(--space-4);min-height:var(--touch-target);padding:0;border:0;background:none;color:var(--tomato-deep);font:inherit;font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);cursor:pointer}
+.dg-more .icon{font-size:var(--icon-sm)}
+
+/* dg-choice: tekli seçim listesi (sıralama); onay ikonu yeri hep ayrılır. */
+.dg-choice-list{margin-top:var(--space-12);padding-bottom:calc(var(--space-16) + env(safe-area-inset-bottom,0px))}
+.dg-choice{display:flex;align-items:center;gap:var(--space-12);width:100%;min-height:var(--dg-row);padding:0;border:0;background:none;color:var(--ink);font:inherit;font-size:var(--role-body-size);text-align:left;cursor:pointer}
+.dg-choice+.dg-choice{border-top:var(--border-width) solid var(--line)}
+.dg-choice__icon{display:grid;place-items:center;width:var(--space-24);flex:0 0 var(--space-24);color:var(--tomato-deep)}
+.dg-choice__label{flex:1}
+.dg-choice>.icon:last-child{visibility:hidden;color:var(--tomato-deep);font-size:var(--icon-sm)}
+.dg-choice[aria-checked=true]{color:var(--tomato-deep)}
+.dg-choice[aria-checked=true]>.icon:last-child{visibility:visible}
+
+@media(prefers-reduced-motion:reduce){.liste-v2 *,.dg-sheet *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
