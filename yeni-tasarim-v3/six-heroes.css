@@ -1,0 +1,70 @@
+/* Explicit banner heights; the shared decision panel overlaps by one sheet radius. */
+.six-hero{--banner-height:40svh;position:relative;isolation:isolate;background:var(--paper);overflow:hidden}
+.six-home[data-height=uzun] .six-hero,.hero-e{--banner-height:60svh}
+.six-home[data-height=kisa] .six-hero,.hero-c,.hero-f{--banner-height:28svh}
+.purpose-banner{height:var(--banner-height);min-height:236px;position:relative;isolation:isolate;overflow:hidden;background:var(--overlay);color:var(--paper)}
+.purpose-banner>.photo{position:absolute;inset:0;width:100%;height:100%;background-size:cover;background-position:center}
+.purpose-veil{position:absolute;inset:0;background:linear-gradient(to bottom,color-mix(in srgb,var(--overlay) 80%,transparent) 0%,color-mix(in srgb,var(--overlay) 78%,transparent) 18%,color-mix(in srgb,var(--overlay) 74%,transparent) 32%,color-mix(in srgb,var(--overlay) 45%,transparent) 44%,color-mix(in srgb,var(--overlay) 12%,transparent) 55%,color-mix(in srgb,var(--overlay) 8%,transparent) 62%,color-mix(in srgb,var(--overlay) 36%,transparent) 73%,color-mix(in srgb,var(--overlay) 78%,transparent) 84%,var(--overlay) 100%)}
+.purpose-title{position:relative;padding:calc(var(--app-header) + var(--space-20)) var(--gutter) 0;z-index:2}
+.purpose-title h1{margin:0;font-family:GilroyBd,var(--font);font-size:var(--role-display-size);font-weight:var(--role-display-weight);line-height:var(--role-display-line);letter-spacing:var(--role-display-tracking);color:inherit;text-wrap:balance}
+.purpose-title p{margin:var(--space-8) 0 0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);max-width:260px;color:inherit}
+.purpose-eyebrow{font-size:var(--role-label-size);line-height:var(--role-label-line);letter-spacing:var(--role-label-tracking);text-transform:uppercase}
+.purpose-title .purpose-eyebrow{display:block;margin-bottom:var(--space-4);font-size:var(--role-meta-size)}
+.purpose-answer{position:absolute;inset:auto var(--gutter) var(--space-48);z-index:2;display:flex;align-items:center;justify-content:space-between;gap:var(--space-12);min-height:44px;color:var(--paper);text-decoration:none}
+.purpose-answer>span{display:grid;gap:var(--space-4);min-width:0}.purpose-answer small{font-size:var(--role-meta-size)}.purpose-answer strong{font-size:var(--role-card-size);line-height:var(--role-card-line);font-weight:var(--role-card-weight)}
+.purpose-answer>.icon{display:grid;place-items:center;width:44px;height:44px;border-radius:var(--radius-control);background:var(--paper);color:var(--tomato-deep);flex-shrink:0;font-size:var(--icon-md)}
+.six-home[data-height=kisa] .banner-a .purpose-title p{display:none}
+.six-home[data-height=kisa] .banner-a .purpose-answer{bottom:var(--space-40)}
+.six-home[data-height=kisa] .banner-a .purpose-veil{background:linear-gradient(90deg,color-mix(in srgb,var(--overlay) 90%,transparent),color-mix(in srgb,var(--overlay) 40%,transparent))}
+.banner-b>.photo{left:40%;width:60%;background-position:65% center}.banner-b .purpose-veil{background:linear-gradient(90deg,var(--overlay) 0%,var(--overlay) 28%,color-mix(in srgb,var(--overlay) 85%,transparent) 46%,transparent 90%)}
+.banner-b .purpose-title{width:74%}.banner-b h1{font-size:var(--role-page-size)}
+.purpose-start{position:absolute;bottom:var(--space-48);left:var(--gutter);border:0;border-radius:var(--radius-control);min-height:44px;display:flex;align-items:center;gap:var(--space-12);padding:var(--space-8) var(--space-12);font:inherit;font-size:var(--role-button-size);background:var(--paper);color:var(--ink)}
+.purpose-filters{display:flex;gap:var(--space-8);overflow-x:auto;scrollbar-width:none;position:relative;z-index:2;padding:var(--space-12) var(--gutter) 0;white-space:nowrap}
+.purpose-filters button{border:1px solid color-mix(in srgb,var(--paper) 35%,transparent);border-radius:var(--radius-control);min-height:44px;flex-shrink:0;padding:var(--space-8) var(--space-12);color:var(--paper);background:color-mix(in srgb,var(--overlay) 80%,transparent);font:inherit;font-size:var(--role-meta-size)}
+.purpose-filters button[aria-pressed=true]{background:var(--paper);color:var(--tomato-deep)}
+.banner-c .purpose-title,.banner-f .purpose-title{padding-top:calc(var(--app-header) + var(--space-12))}
+.banner-c h1,.banner-f h1{font-size:var(--role-page-size);max-width:260px}
+.banner-c .purpose-filters,.banner-f .purpose-filters{padding-top:var(--space-8)}
+.banner-c .purpose-veil,.banner-f .purpose-veil{background:linear-gradient(90deg,color-mix(in srgb,var(--overlay) 96%,transparent) 0%,color-mix(in srgb,var(--overlay) 90%,transparent) 35%,color-mix(in srgb,var(--overlay) 60%,transparent) 65%,color-mix(in srgb,var(--overlay) 30%,transparent) 100%)}
+.banner-f .purpose-title p{display:none}
+.banner-d>.photo{display:none}.banner-d .purpose-veil{display:none}.banner-d .purpose-title{padding-top:calc(var(--app-header) + var(--space-12))}.banner-d h1{font-size:var(--role-page-size)}.banner-d .purpose-title p{display:none}
+.purpose-mosaic{display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--space-8);height:104px;margin:var(--space-12) var(--gutter) 0}.purpose-mosaic .photo{height:100%;background-size:cover;background-position:center;border-radius:var(--radius-card)}
+.banner-e .purpose-title h1{font-size:var(--role-page-size)}.banner-e .purpose-veil{background:color-mix(in srgb,var(--overlay) 88%,transparent)}
+.purpose-story-rail{position:relative;z-index:2;display:flex;gap:var(--space-12);overflow:auto;scrollbar-width:none;scroll-snap-type:x mandatory;padding:var(--space-20) var(--gutter) var(--space-40);height:calc(var(--banner-height) - 184px)}
+.purpose-story-rail button{position:relative;flex:0 0 62%;min-width:0;border:0;border-radius:var(--radius-card);overflow:hidden;padding:0;background:var(--paper);font:inherit;text-align:left;scroll-snap-align:start}
+.purpose-story-rail .photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.purpose-story-rail button>span{position:absolute;bottom:0;inset-inline:0;padding:var(--space-16);background:color-mix(in srgb,var(--overlay) 88%,transparent);color:var(--paper);display:flex;align-items:center;gap:var(--space-8);font-size:var(--role-card-size);line-height:var(--role-card-line)}
+.purpose-story-rail button[aria-pressed=true]{outline:4px solid var(--tomato);outline-offset:-4px}.purpose-story-rail button[aria-pressed=true] .icon{color:var(--tomato)}
+.decision-kitchen{position:relative;margin-top:calc(-1 * var(--space-24));border-radius:var(--radius-card) var(--radius-card) 0 0;background:var(--paper);padding:var(--space-20) var(--gutter) var(--space-24);scroll-margin-top:calc(var(--app-header) + var(--space-8));z-index:3}
+.kitchen-heading{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12)}.kitchen-heading .purpose-eyebrow{color:var(--tomato-deep)}.kitchen-heading h2{margin:var(--space-4) 0 0;font-size:var(--role-section-size);line-height:var(--role-section-line)}
+.kitchen-mark{display:grid;place-items:center;width:44px;height:44px;border-radius:var(--radius-control);background:var(--tomato-tint);color:var(--tomato-deep);font-size:var(--icon-md)}
+.kitchen-suggestion{margin:var(--space-12) 0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.kitchen-ingredients{display:grid;grid-template-rows:repeat(2,44px);grid-auto-flow:column;grid-auto-columns:max-content;gap:var(--space-8);overflow-x:auto;scrollbar-width:none;padding:0;scroll-snap-type:x mandatory}
+.kitchen-ingredients button{display:flex;align-items:center;justify-content:center;gap:var(--space-8);border:1px solid var(--line);border-radius:var(--radius-control);padding:var(--space-8) var(--space-12);background:var(--bg);color:var(--ink);font:inherit;font-size:var(--role-meta-size);scroll-snap-align:start;white-space:nowrap}
+.kitchen-ingredients .icon{font-size:var(--icon-sm)}.kitchen-check{display:none!important}.kitchen-ingredients button[aria-pressed=true]{background:var(--tomato);border-color:var(--tomato);color:var(--paper)}.kitchen-ingredients button[aria-pressed=true] .kitchen-check{display:block!important}
+.kitchen-result-head{display:flex;align-items:center;justify-content:space-between;gap:var(--space-8);margin:var(--space-16) 0 var(--space-12);min-height:44px}.kitchen-result-head output{font-size:var(--role-subheading-size);font-family:GilroyBd,var(--font)}.kitchen-result-head button{min-height:44px;font-size:var(--role-meta-size)}
+.kitchen-previews{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-12)}.kitchen-mini{min-width:0;color:var(--ink);text-decoration:none;display:flex;flex-direction:column;gap:var(--space-4)}.kitchen-mini .photo{width:100%;aspect-ratio:1;background-size:cover;background-position:center;border-radius:var(--radius-card)}.kitchen-mini strong{font-size:var(--role-meta-size);line-height:var(--role-meta-line);font-weight:var(--role-meta-weight);height:calc(var(--role-meta-size) * 2.8);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.kitchen-mini small{font-size:var(--role-meta-size);color:var(--muted)}
+.kitchen-submit{width:100%;margin-top:var(--space-16);min-height:52px}.kitchen-data-note{display:block;margin-top:var(--space-8);text-align:center;font-size:var(--role-label-size);color:var(--slate-2)}
+.kitchen-search-label{display:block;margin:var(--space-24) 0 var(--space-8);font-size:var(--role-subheading-size)}
+.kitchen-paths{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-12);margin-top:var(--space-12)}.kitchen-paths>a,.kitchen-paths>button{display:grid;gap:var(--space-12);min-width:0;padding:var(--space-16);border:1px solid var(--line);border-radius:var(--radius-card);background:var(--bg);color:var(--ink);text-decoration:none;text-align:left;font:inherit}.kitchen-path-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:var(--radius-control);background:var(--paper);color:var(--tomato-deep);font-size:var(--icon-md)}.kitchen-paths strong{display:block;font-size:var(--role-meta-size);line-height:var(--role-meta-line)}.kitchen-paths small{display:block;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2);margin-top:var(--space-4)}
+.kitchen-empty{grid-column:1/-1;display:grid;gap:var(--space-8);padding:var(--space-16);border-radius:var(--radius-card);background:var(--bg);font-size:var(--role-body-size)}
+.hero-b .decision-kitchen{box-shadow:var(--card-shadow)}.hero-d .decision-kitchen{border-top:4px solid var(--tomato)}.hero-f .kitchen-heading .kitchen-mark{background:var(--overlay);color:var(--paper)}
+.six-hero :focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.six-hero *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Three equally visible entry points, before ingredient picking. */
+.kitchen-paths{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-8);margin:var(--space-16) 0 var(--space-20)}
+.kitchen-paths>a,.kitchen-paths>button{padding:var(--space-12) var(--space-8);gap:var(--space-4);align-content:start;justify-items:center;text-align:center;border-radius:var(--radius-control)}
+.kitchen-path-icon{background:transparent;margin-bottom:var(--space-4)}.kitchen-paths strong{font-size:var(--role-meta-size);min-height:calc(var(--role-meta-size) * 2.8);display:flex;align-items:center;justify-content:center}.kitchen-paths small{font-size:var(--role-label-size);margin:0;line-height:var(--role-label-line)}
+.kitchen-search-panel{margin-bottom:var(--space-16)}.kitchen-search-label{margin-top:0}
+
+.banner-b .purpose-title{width:70%}.banner-b .purpose-title p{max-width:180px}
+.kitchen-ingredients button[aria-pressed=true]{background:var(--tomato-deep);border-color:var(--tomato-deep)}
+.kitchen-path-icon{width:32px;height:24px}
+/* The shared runtime wraps initially hidden inputs; keep this field in its outer frame. */
+.six-search>.input-frame{flex:1;min-width:0;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;outline:none!important}
+.six-search>.input-frame input{width:100%;min-height:44px}
+
+/* A: an external 4px primary crescent follows the rounded hero bottom. */
+.hero-a .purpose-banner{border-radius:0 0 var(--radius-card) var(--radius-card);box-shadow:0 var(--space-4) 0 var(--tomato);margin-bottom:var(--space-4)}
+.hero-a .decision-kitchen{margin-top:0;border-radius:0;border-top:0}
