@@ -1,0 +1,19 @@
+/* G6 · Sistem ve hata ekranları — yalnız token (docs/55 §7). Koyu/fotoğraflı üst alan yok: ortak sonuç durumu (DG.durum) + açıklama + çıkış satırları. */
+.sy-govde{padding-bottom:var(--space-40)}
+.sy-govde > .dgu-durum{padding-bottom:var(--space-24)}
+.sy-aciklama{padding-top:var(--space-8);padding-bottom:var(--space-16)}
+.sy-cikis{padding-top:var(--space-16)}
+.sy-cikis .u-yatay{padding-top:var(--space-4)}
+.sy-ara{display:grid;gap:var(--space-12);margin-top:var(--space-8)}
+.sy-ag{display:flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);margin-top:var(--space-8);padding:var(--space-8) var(--space-12);border-radius:var(--radius-control);background:var(--tomato-tint);color:var(--tomato-deep);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.sy-ag.is-acik{background:var(--bg);color:var(--green-deep)}
+.sy-ag .icon{flex-shrink:0;font-size:var(--icon-sm)}
+.sy-hesap .dgu-eylem-metin b{overflow-wrap:anywhere;font-size:var(--role-body-size);line-height:var(--role-body-line)}
+.sy-hesap .dgu-eylem-metin small{white-space:normal}
+.sy-hesap.is-hedef{border-color:var(--tomato-dark);background:var(--tomato-tint)}
+.sy-ayrac{display:flex;align-items:center;gap:var(--space-12)}
+.sy-ayrac::before,.sy-ayrac::after{content:'';flex:1;height:var(--border-width);background:var(--line)}
+.sy-tam{display:flex;flex-direction:column;min-height:100dvh;padding:calc(env(safe-area-inset-top) + var(--space-40)) var(--gutter) calc(env(safe-area-inset-bottom) + var(--space-24))}
+.sy-tam .dgu-durum{flex:1;align-content:center;padding-left:0;padding-right:0}
+.sy-logo{align-self:center;height:var(--space-32);width:auto}
+.sy-eylemler{width:100%}

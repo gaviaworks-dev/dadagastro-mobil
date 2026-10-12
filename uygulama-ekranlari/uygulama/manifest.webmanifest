@@ -1,0 +1,20 @@
+{
+ "name": "DadaGastro",
+ "short_name": "DadaGastro",
+ "lang": "tr",
+ "start_url": "index.html",
+ "scope": "../",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#211E16",
+ "theme_color": "#DC3D17",
+ "icons": [
+  {
+   "src": "ikon/ikon-yer-tutucu.svg",
+   "sizes": "any",
+   "type": "image/svg+xml",
+   "purpose": "any maskable"
+  }
+ ],
+ "description": "DadaGastro mobil uygulama prototipi (uygulama ikonu marka sahibinden bekleniyor)"
+}

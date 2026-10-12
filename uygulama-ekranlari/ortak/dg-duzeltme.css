@@ -1,0 +1,27 @@
+/* Kök ekran çelişki düzeltmeleri (docs/55 §4). Beyar kararı (12 Ekim): çelişkide en yeni ekranın (detay-v2) değeri esastır.
+   Üç kök ekranda (ana-v3, liste-v2, detay-v2) en son yüklenir. Değerler yalnız token'dan; elle değer yok.
+   Primary ailesi bu dosyada değil, dg-kopru.css üzerinden canlı token'lara bağlandı. */
+
+/* D2–D7 (segment ölçüsü, kart kategori aralığı, başlık/meta satır aralıkları, birincil düğme 52, Takip et) GERİ ALINDI —
+   Beyar, 12 Ekim: “Kök ekranlar yalnız onaylı kararlar kadar değişebilir (primary rengi, alt menü 4. öğe = Kaydettiklerim, justify);
+   bunun dışında birebir referans gibi olacak.” Eski kurallar: eski/dg-duzeltme-D2-D7-20261012.css. */
+
+/* D8 · (Beyar, 12 Ekim — önceki “sola yaslı” kararı GERİ ALINDI) Metin iki yana yaslı, ortak katmandan gelir (ortak/dg-metin.css). */
+body.editorial-v2 :is(.prose, .dv2-justify, .prose-long) {
+  text-align: justify;
+  text-align-last: left;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* D9 · Pişirme modu adım metni sayfa rolü 24/700 (Beyar kararı 12). */
+body.detay-v2 .cm2-text {
+  font-family: GilroyBd, var(--font);
+  font-size: var(--role-page-size);
+  font-weight: var(--role-page-weight);
+  line-height: var(--role-page-line);
+  letter-spacing: var(--role-page-tracking);
+}
+
+/* D10 · Küçük çip ve rozet köşesi (Beyar, 12 Ekim): yüksekliğe oranla ana düğme sertliği — yalnız küçük çip/rozet. */
+body.editorial-v2 :is(.timer-chip, .dv2-allergen-tag) { border-radius: var(--dg-radius-chip-sm) !important; }

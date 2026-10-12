@@ -1,0 +1,24 @@
+/* G5 · Arama ve bildirimler (ortak/sayfalar/arama.js). Yalnız sayfa yerleşimi; bileşenler dg-bilesen.css'ten, değerler token. */
+
+/* Arama: alan + sekmeler header'ın altında yapışık; zemin opak, header > panel > içerik katman sırası. */
+.ar-ust{position:sticky;top:var(--app-header);z-index:10;display:grid;grid-template-columns:minmax(0,1fr);gap:var(--space-12);padding:var(--space-12) var(--gutter);background:var(--paper)}
+.ar-sekme:empty{display:none}
+.ar-form .dgu-girdi input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
+.ar-govde .dgu-ic{padding-top:var(--space-8)}
+.ar-bos{gap:var(--space-24)}
+.ar-sonuc{gap:var(--space-32)}
+.ar-sonuc .ar-sayac{margin-bottom:calc(-1 * var(--space-16))}
+.ar-sonuc .dg-head{margin-bottom:0}
+.ar-tur-sayi{font-family:var(--font);font-weight:var(--role-body-weight)}
+.ar-bil-meta{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-4) var(--space-8)}
+.ar-yok{padding-top:0;gap:var(--space-24)}
+.ar-oneri{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-4) var(--space-8);color:var(--slate-2)}
+/* Metin içi bağlantı (canlı “giriş yap”, “Şunu mu demek istedin”): tomato-deep + alt çizgi. */
+.ar-link{display:inline;padding:0;border:0;background:none;color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);text-decoration:underline;text-underline-offset:var(--space-4);text-decoration-thickness:var(--border-width);cursor:pointer}
+
+/* Bildirimler */
+.ar-bil-bas{padding-bottom:var(--space-8)}
+.ar-bil-bas .u-ara .dgu-btn--metin{flex-shrink:0;margin-right:calc(-1 * var(--space-8))}
+.ar-bil-liste{display:grid;gap:var(--space-24);padding-top:var(--space-8)}
+.ar-bil-liste > .dgu-durum{padding-left:0;padding-right:0}
+.ar-bil-grup{display:grid;gap:var(--space-4)}
