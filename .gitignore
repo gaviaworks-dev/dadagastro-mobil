@@ -6,3 +6,20 @@ node_modules/
 *.log
 *.swp
 __pycache__/
+
+# Oturum kayıtları
+*.jsonl
+# Geçici çalışma alanı
+scratchpad/
+**/scratchpad/
+# Ekran görüntüleri ve denetim çıktıları (v3-app; kaynak betikler kalır)
+v3-app/**/screenshots/
+v3-app/**/docs/references-*/
+v3-app/**/ortak/denetim/referans/
+v3-app/**/ortak/denetim/*-rapor.json
+v3-app/**/ortak/denetim/*-rapor.md
+v3-app/**/verification/**
+!v3-app/**/verification/**/
+!v3-app/**/verification/**/*.mjs
+!v3-app/**/verification/**/*.py
+!v3-app/**/verification/**/*.md
