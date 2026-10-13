@@ -1,0 +1,9 @@
+/* Dolapta Ne Var sayfası (Beyar revize D2 + düzeltme 13 Ekim). Seçim görünümünün bütün kuralları ortak/dg-dolap.css'te (TEK İÇERİK —
+   ana sayfa bloğuyla aynı); burada yalnız sayfaya özgü: sonuç eşleşme satırları ve “Tarif bul” çubuğunun yapışkan konumu. */
+.dl-eslesmeler{display:grid;gap:var(--space-4)}
+.dl-eslesme{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dl-eslesme b{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);color:var(--ink)}
+.dl-eslesme .icon{margin-right:var(--space-4);font-size:var(--icon-sm)}
+.dl-eslesme.is-uyari{color:var(--tomato-deep)}
+.dgu-app .bul-cta{position:sticky;bottom:calc(var(--nav-height) + var(--space-40) + env(safe-area-inset-bottom,0px));z-index:20}
+body.dgu:has(.bul-cta) .dgu-snack{--pageEnd:calc(var(--nav-height) + var(--space-40) + var(--cook-height) + var(--space-48))}

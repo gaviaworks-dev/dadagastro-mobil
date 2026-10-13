@@ -1,0 +1,110 @@
+/* Hareket ve durumlar (docs/58 · Beyar, 12 Ekim) — Material 3 Expressive motion + Apple HIG + iOS yay hareketi; tek kaynak tokens.json
+   motion (süreler, easing, spring → --dg-motion-*). Sayfada elle süre/easing yazılmaz. Yalnız uygulama sayfaları (body.dgu); kök
+   ekranlar etkilenmez (docs/55 §2h). Hareketi azalt: bütün geçişler anlık (en altta). */
+
+/* ---------- 1 · İskelet: shimmer, gerçek yerleşimi taklit eden kalıplar (DG.iskelet) ---------- */
+body.dgu .dgu-iskelet{display:block;border-radius:var(--radius-choice);background:linear-gradient(90deg,var(--line) 0%,color-mix(in srgb,var(--line) 35%,var(--paper)) 45%,var(--line) 90%);background-size:220% 100%;animation:dgu-parilti calc(var(--dg-motion-skeleton) * 1.4) var(--dg-motion-easing-standard) infinite}
+@keyframes dgu-parilti{from{background-position:120% 0}to{background-position:-100% 0}}
+body.dgu .dgu-iskelet.is-kart{aspect-ratio:4/5;border-radius:var(--dg-card-r)}
+body.dgu .dgu-iskelet.is-satir{height:var(--space-12)}
+body.dgu .dgu-iskelet.is-etiket{width:40%;height:var(--space-8)}
+body.dgu .dgu-iskelet.is-kisa{width:60%}
+body.dgu .dgu-iskelet.is-ad{width:50%}
+body.dgu .dgu-iskelet.is-avatar20{width:var(--dg-size-avatar-card);height:var(--dg-size-avatar-card);flex-shrink:0;border-radius:var(--radius-avatar)}
+body.dgu .dgu-iskelet.is-avatar96{width:var(--dg-size-avatar-chef-card);height:var(--dg-size-avatar-chef-card);border-radius:var(--radius-avatar);box-shadow:0 0 0 calc(var(--border-width) * 3) var(--paper)}
+body.dgu .dgu-iskelet.is-kucuk{width:var(--dg-size-thumb);height:var(--dg-size-thumb);flex-shrink:0;border-radius:var(--radius-control)}
+body.dgu .dgu-iskelet.is-liste-foto{width:calc(var(--space-48) * 2);aspect-ratio:1;flex-shrink:0;border-radius:var(--dg-card-r)}
+body.dgu .dgu-iskelet.is-kare{aspect-ratio:1;border-radius:var(--dg-card-r)}
+body.dgu .dgu-iskelet.is-kapak{height:var(--dg-size-list-banner);border-radius:0}
+body.dgu .dgu-iskelet.is-kisa-kapak{height:calc(var(--app-header) + var(--space-48) * 2 + var(--space-24));border-radius:0 0 var(--radius-card) var(--radius-card)}
+body.dgu .dgu-iskelet.is-baslik{height:var(--space-24);width:80%}
+body.dgu .dgu-iskelet.is-orta{margin-inline:auto}
+body.dgu .dgu-iskelet.is-cip{width:calc(var(--space-48) + var(--space-24));height:var(--space-32);border-radius:var(--dg-radius-chip-sm)}
+body.dgu .dgu-iskelet.is-sayi{height:var(--space-40)}
+body.dgu .dgu-iskelet.is-sekme{height:var(--touch-target);border-radius:var(--radius-control)}
+.dgu-isk-kart{display:grid;gap:var(--space-8)}
+.dgu-isk-bayrak{display:grid;justify-items:center;gap:var(--space-8);padding:var(--space-8) var(--space-4)}
+body.dgu .dgu-iskelet.is-bayrak{width:var(--space-48);aspect-ratio:4/3;border-radius:var(--radius-choice)}
+.dgu-isk-bayrak .dgu-iskelet.is-satir,.dgu-isk-bayrak .dgu-iskelet.is-etiket{width:70%}
+.dgu-isk-yazar{display:flex;align-items:center;gap:var(--space-8)}
+.dgu-isk-satir{display:flex;align-items:center;gap:var(--space-12)}
+.dgu-isk-satir.is-kart{padding:var(--space-8);border-radius:var(--radius-card);background:var(--paper);box-shadow:var(--sh-sm)}
+.dgu-isk-metin{display:grid;gap:var(--space-8);flex:1;min-width:0}
+.dgu-isk-cipler{display:flex;gap:var(--space-8)}
+.dgu-isk-detay{display:grid}
+.dgu-isk-detay>.dgu-ic{position:relative;margin-top:calc(-1 * var(--panel-overlap));padding-top:var(--space-24);border-radius:var(--radius-sheet) var(--radius-sheet) 0 0;background:var(--paper)}
+.dgu-isk-profil{display:grid;gap:var(--space-16)}
+.dgu-isk-avatar{display:grid;justify-items:center;margin-top:calc(-1 * var(--dg-size-avatar-chef-card) / 2 - var(--space-24))}
+.dgu-isk-sayac{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-8)}
+
+/* ---------- 2 · Görsel yer tutucu + yumuşak geçiş: yüklenene kadar nötr zemin, yüklenince 250ms opaklık ---------- */
+body.dgu :is(.photo,.dgu-puf-foto,.dgu-mod-foto,.dgu-kucuk-foto,.dgu-blok-foto,.dgu-banner-foto,.dgu-secim-foto,.dgu-video-kapak>.photo){transition:opacity var(--dg-motion-sheet) var(--dg-motion-easing-standard)}
+body.dgu .is-gorsel-bekliyor{opacity:0}
+body.dgu :is(.dgu-puf-foto,.dgu-kucuk-foto,.dgu-blok-foto){background-color:var(--line)}
+
+/* ---------- 3 · Mikro etkileşimler ---------- */
+/* Basınca hafif küçülme (iOS/M3: 0.97, 100ms standart) */
+body.dgu :is(.dgu-btn,.dgu-chip,.dgu-ibtn,.dgu-hbtn,.dgu-eylem,.dgu-mod,.dgu-secim-kart,.dgu-bayrak-oge,.dgu-rozet-hucre,.dgu-sef-takip,.dgu-bolum-bas,.dgu-satir){transition:transform var(--dg-motion-press) var(--dg-motion-easing-standard),background-color var(--dg-motion-fast) var(--dg-motion-easing-standard),border-color var(--dg-motion-fast) var(--dg-motion-easing-standard),color var(--dg-motion-fast) var(--dg-motion-easing-standard),box-shadow var(--dg-motion-fast) var(--dg-motion-easing-standard)}
+body.dgu :is(.dgu-btn,.dgu-chip,.dgu-ibtn,.dgu-hbtn,.dgu-eylem,.dgu-mod,.dgu-secim-kart,.dgu-bayrak-oge,.dgu-rozet-hucre,.dgu-sef-takip):active{transform:scale(.97)}
+/* Kaydet / beğen / takip: ikon dolma (yay, hafif taşma) */
+@keyframes dgu-dol{0%{transform:scale(.55)}100%{transform:scale(1)}}
+body.dgu :is([data-kaydet],[data-yrm-begen],[data-takip],.dgu-ibtn,.save)[aria-pressed=true] .icon{animation:dgu-dol var(--dg-motion-spring-yaylanma-ms) var(--dg-motion-spring-yaylanma)}
+/* Sekme / segment: kayan gösterge (JS --dgu-seg-x/-w); seçili düğmenin kendi zemini göstergeye devredilir */
+body.dgu .dgu-seg.has-gosterge{position:relative;isolation:isolate}
+body.dgu .dgu-seg.has-gosterge::before{content:'';position:absolute;z-index:-1;top:var(--space-4);bottom:var(--space-4);left:0;width:var(--dgu-seg-w,0);border-radius:var(--radius-control);background:var(--paper);box-shadow:var(--sh-sm);transform:translateX(var(--dgu-seg-x,0));transition:transform var(--dg-motion-spring-varsayilan-ms) var(--dg-motion-spring-varsayilan),width var(--dg-motion-spring-varsayilan-ms) var(--dg-motion-spring-varsayilan)}
+body.dgu .dgu-seg.has-gosterge button[aria-selected=true],body.dgu .dgu-seg.has-gosterge button[aria-pressed=true]{background:transparent;box-shadow:none}
+body.dgu .dgu-seg.has-gosterge.is-ilk::before{transition:none}
+/* Seçim (çip, seçim kartı, bayrak, mod): renk geçişi yumuşak — yukarıdaki geçiş listesi; onay rozeti yayla belirir */
+body.dgu :is(.dgu-mod-onay,.dgu-bayrak-kutu){transition:opacity var(--dg-motion-fast) var(--dg-motion-easing-standard),transform var(--dg-motion-spring-yaylanma-ms) var(--dg-motion-spring-yaylanma)}
+
+/* ---------- 4 · Sheet, diyalog, snackbar: vurgulu giriş, hızlanarak çıkış ---------- */
+body.dgu dialog.dgu-sheet[open]{animation:dgu-sheet-gir var(--dg-motion-page) var(--dg-motion-easing-emphasized-decel)}
+body.dgu dialog.dgu-sheet.is-cikis{transition:transform var(--dg-motion-page-exit) var(--dg-motion-easing-emphasized-accel)}
+body.dgu dialog.dgu-sheet::backdrop{animation:dgu-perde-gir var(--dg-motion-page) var(--dg-motion-easing-standard)}
+@keyframes dgu-perde-gir{from{opacity:0}}
+body.dgu dialog.dgu-diyalog[open]{animation:dgu-diyalog-gir var(--dg-motion-spring-varsayilan-ms) var(--dg-motion-spring-varsayilan)}
+@keyframes dgu-diyalog-gir{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+body.dgu .dgu-snack{transition:opacity var(--dg-motion-base) var(--dg-motion-easing-standard),transform var(--dg-motion-spring-varsayilan-ms) var(--dg-motion-spring-varsayilan)}
+
+/* ---------- 5 · Liste öğeleri: ilk açılışta sırayla hafif belirme (8px, 40ms aralık, en çok 12 öğe) ---------- */
+@keyframes dgu-sira-gir{from{opacity:0;transform:translateY(var(--space-8))}to{opacity:1;transform:none}}
+body.dgu .dgu-sira-belir{animation:dgu-sira-gir var(--dg-motion-page) var(--dg-motion-easing-emphasized-decel) both;animation-delay:calc(var(--dgu-i,0) * var(--dg-motion-stagger))}
+
+/* ---------- 6 · Sayfa geçişleri: ileri sağdan, geri soldan, modal aşağıdan (aynı belge içi giriş; belgeler arası View Transitions) ---------- */
+@keyframes dgu-gir-ileri{from{opacity:0;transform:translateX(var(--space-24))}to{opacity:1;transform:none}}
+@keyframes dgu-gir-geri{from{opacity:0;transform:translateX(calc(-1 * var(--space-24)))}to{opacity:1;transform:none}}
+@keyframes dgu-gir-modal{from{opacity:0;transform:translateY(var(--space-32))}to{opacity:1;transform:none}}
+body.dgu.dgu-gecis-ileri #dgu{animation:dgu-gir-ileri var(--dg-motion-page) var(--dg-motion-easing-emphasized-decel) both}
+body.dgu.dgu-gecis-geri #dgu{animation:dgu-gir-geri var(--dg-motion-page) var(--dg-motion-easing-emphasized-decel) both}
+body.dgu.dgu-gecis-modal #dgu{animation:dgu-gir-modal var(--dg-motion-page) var(--dg-motion-easing-emphasized-decel) both}
+/* Ortak eleman (tarif kartı görseli → detay fotoğrafı): view-transition-name JS'te yalnız tıklanan karta verilir */
+::view-transition-group(dg-tarif-foto){animation-duration:var(--dg-motion-page);animation-timing-function:var(--dg-motion-easing-emphasized-decel)}
+::view-transition-old(root){animation:var(--dg-motion-page-exit) var(--dg-motion-easing-emphasized-accel) both dgu-vt-cik}
+::view-transition-new(root){animation:var(--dg-motion-page) var(--dg-motion-easing-emphasized-decel) both dgu-vt-gir}
+@keyframes dgu-vt-cik{to{opacity:0;transform:translateX(calc(-1 * var(--space-24)))}}
+@keyframes dgu-vt-gir{from{opacity:0;transform:translateX(var(--space-24))}}
+
+/* ---------- 7 · Aşağı çekip yenileme ve sonsuz kaydırma alt göstergesi ---------- */
+.dgu-yenile{position:fixed;top:calc(var(--app-header) + var(--space-8));left:50%;z-index:45;display:grid;place-items:center;width:var(--space-40);height:var(--space-40);margin-left:calc(-1 * var(--space-20));border-radius:var(--radius-avatar);background:var(--paper);color:var(--tomato);box-shadow:var(--sh-md);opacity:0;transform:translateY(calc(var(--dgu-cek,0px) - var(--space-48))) rotate(calc(var(--dgu-cek,0) * 3deg));pointer-events:none}
+.dgu-yenile .icon{font-size:var(--icon-md)}
+.dgu-yenile.is-gorunur{opacity:1}
+.dgu-yenile.is-donuyor .icon{animation:dgu-don var(--dg-motion-skeleton) linear infinite}
+.dgu-yenile.is-birak{transition:transform var(--dg-motion-spring-varsayilan-ms) var(--dg-motion-spring-varsayilan),opacity var(--dg-motion-base) var(--dg-motion-easing-standard)}
+@keyframes dgu-don{to{transform:rotate(360deg)}}
+.dgu-alt-yukleniyor{display:flex;justify-content:center;gap:var(--space-8);padding:var(--space-16) 0}
+.dgu-alt-yukleniyor i{width:var(--space-8);height:var(--space-8);border-radius:var(--radius-avatar);background:var(--tomato);animation:dgu-nokta var(--dg-motion-skeleton) var(--dg-motion-easing-standard) infinite;animation-delay:calc(var(--n) * var(--dg-motion-fast))}
+.dgu-alt-yukleniyor i:nth-child(1){--n:0}.dgu-alt-yukleniyor i:nth-child(2){--n:1}.dgu-alt-yukleniyor i:nth-child(3){--n:2}
+@keyframes dgu-nokta{0%,80%,100%{opacity:.25;transform:scale(.75)}40%{opacity:1;transform:none}}
+.dgu-sonsuz-son{height:1px}
+
+/* ---------- 8 · Düğmede “işlem sürüyor”: genişlik korunur, ikon yerine dönen halka, aria-busy ---------- */
+body.dgu .dgu-btn[aria-busy=true]{position:relative;pointer-events:none;color:transparent!important}
+body.dgu .dgu-btn[aria-busy=true]::after{content:'';position:absolute;left:50%;top:50%;width:var(--icon-md);height:var(--icon-md);margin:calc(-1 * var(--icon-md) / 2) 0 0 calc(-1 * var(--icon-md) / 2);border:calc(var(--border-width) * 2) solid currentColor;border-radius:var(--radius-avatar);border-right-color:transparent;color:var(--paper);animation:dgu-don calc(var(--dg-motion-skeleton) * .7) linear infinite}
+body.dgu .dgu-btn.dgu-btn--ikincil[aria-busy=true]::after,body.dgu .dgu-btn.dgu-btn--metin[aria-busy=true]::after,body.dgu .dgu-btn.dgu-btn--tonlu[aria-busy=true]::after{color:var(--tomato)}
+
+/* ---------- Hareketi azalt: bütün geçişler anlık, döngüler durur ---------- */
+@media (prefers-reduced-motion:reduce){
+  body.dgu *,body.dgu *::before,body.dgu *::after{animation-duration:1ms!important;animation-iteration-count:1!important;animation-delay:0ms!important;transition-duration:1ms!important}
+  ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
+  body.dgu .dgu-iskelet{animation:none!important}
+}

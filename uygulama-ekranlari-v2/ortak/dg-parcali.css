@@ -1,0 +1,25 @@
+/* Parçalı gri buton listesi (Beyar revize B6, 13 Ekim) — yalnız ana ajan yazar. Açık gri zeminli kare kare parçalar, aralarında ince
+   (2px) beyaz ayırıcı; dış köşeler kontrol radius'u (12), iç köşeler seçim kademesi (4). Her parça: 40'lık tint ikon kutusu + başlık
+   (gövde rolü, bold) + kısa açıklama (meta, en çok 2 satır) + sağda ok. Dokunma alanı satırın tamamı, en az 64.
+   Kullanım: sistem/hata “Buradan devam edebilirsin”, izin reddedildi maddeleri, Tabaktan Tarif sheet seçenekleri ve benzeri.
+   Uygulama sayfaları: DG.parcali(ogeler); kök runtime (Tabaktan) aynı işaretlemeyi yazar. Tek dosya: her iki yüzey yükler. */
+.dgu-parcali{display:grid;gap:calc(var(--border-width) * 2);margin:0;padding:0;list-style:none}
+.dgu-parcali-oge{display:flex;align-items:center;gap:var(--space-12);width:100%;min-height:calc(var(--space-48) + var(--space-16));margin:0;padding:var(--space-12) var(--space-12) var(--space-12) var(--space-12);border:0;border-radius:var(--radius-choice);background:var(--bg);color:var(--ink);font:inherit;text-align:justify;text-align-last:start;text-decoration:none;cursor:pointer;transition:background-color var(--transition-fast) var(--ease),transform var(--dg-motion-press,100ms) var(--ease)}
+.dgu-parcali>:first-child,.dgu-parcali>:first-child>.dgu-parcali-oge{border-top-left-radius:var(--radius-control);border-top-right-radius:var(--radius-control)}
+.dgu-parcali>:last-child,.dgu-parcali>:last-child>.dgu-parcali-oge{border-bottom-left-radius:var(--radius-control);border-bottom-right-radius:var(--radius-control)}
+@media (hover:hover){.dgu-parcali-oge:hover{background:color-mix(in srgb,var(--slate-2) 9%,var(--bg))}}
+.dgu-parcali-oge:active{transform:scale(.99)}
+.dgu-parcali-oge:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:calc(-2 * var(--border-width))}
+.dgu-parcali-ikon{display:grid;place-items:center;width:var(--space-40);height:var(--space-40);flex-shrink:0;border-radius:var(--radius-control);background:var(--tomato-tint);color:var(--tomato-deep)}
+.dgu-parcali-ikon .icon{font-size:var(--icon-md)}
+.dgu-parcali-metin{display:grid;gap:var(--space-4);flex:1;min-width:0;text-align:justify;text-align-last:start;--dg-baslik-hiza:start}
+.dgu-parcali-metin b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:GilroyBd,var(--font);font-weight:var(--weight-bold,700);font-size:var(--role-body-size);line-height:var(--role-body-line)}
+.dgu-parcali-metin small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dgu-parcali-ok{flex-shrink:0;color:var(--slate-2);font-size:var(--icon-sm)}
+.dgu-parcali-oge.is-ana .dgu-parcali-ikon{background:var(--tomato);color:var(--paper)}
+.dgu-parcali-oge.is-yikici .dgu-parcali-ikon{background:color-mix(in srgb,var(--tomato-tint) 60%,var(--bg));color:var(--tomato-deep)}
+.dgu-parcali-oge[aria-disabled=true]{opacity:.55;pointer-events:none}
+/* Bilgi maddesi (tıklanmaz): aynı parça, oksuz. */
+.dgu-parcali-oge.is-bilgi{cursor:default}
+@media (hover:hover){.dgu-parcali-oge.is-bilgi:hover{background:var(--bg)}}
+@media (prefers-reduced-motion:reduce){.dgu-parcali-oge{transition:none}}

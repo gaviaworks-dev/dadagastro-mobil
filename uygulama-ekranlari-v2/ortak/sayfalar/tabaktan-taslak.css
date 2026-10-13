@@ -1,0 +1,8 @@
+/* Tabaktan Tarif · taslak detayı (K22): detay-v2 aynen; yalnız taslak farklarının yerleşimi. Değerler token'dan. */
+body.tt-taslak .tt-ust{display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-8)}
+body.tt-taslak .tt-not{margin:0 0 var(--space-16)}
+body.tt-taslak .tt-not h4,body.tt-taslak .tt-not p{text-align:justify;text-align-last:start}
+body.tt-taslak .cook-bar .engagement-icon{width:auto;padding-inline:var(--space-4);text-decoration:none}
+body.tt-taslak .cook-bar .engagement-icon small{white-space:nowrap}
+/* 360 altı: ana eylemde yalnız metin (ikon yer açar); etiketli ikonlar sıkışmaz. */
+@media (max-width:359px){body.tt-taslak .cook-bar #startCooking .icon{display:none}body.tt-taslak .cook-bar .engagement-icons{gap:var(--space-4)}}

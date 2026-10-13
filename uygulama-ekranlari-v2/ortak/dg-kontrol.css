@@ -1,0 +1,41 @@
+/* Ortak kontroller (yalnız ana ajan yazar; Beyar revize EK, 13 Ekim) — uygulama sayfaları ve kök ekranlar (ana sayfa Dolapta Ne Var bloğu)
+   AYNI dosyayı yükler: ikon düğmesi (.dgu-ibtn), segment (.dgu-seg, kanondaki tek sekme ailesi) ve girdi kutusu (.dgu-girdi).
+   Girdi: TEK çerçeve — solda ikon, ortada alan, sağda temizle ve isteğe bağlı mikrofon (.dgu-girdi-ses) aynı kutunun içinde. Odakta
+   yalnız kutunun kendi ince primary halkası (içten); iç alan hiçbir çerçeve/halka/gölge çizmez (kökteki genel input stilleri dahil).
+   Hover yalnız fareli cihazlarda (@media (hover:hover)); dokunmatikte hover yok. */
+.dgu-ibtn{display:grid;place-items:center;width:var(--touch-target);height:var(--touch-target);flex-shrink:0;padding:0;border:0;border-radius:var(--radius-control);background:transparent;color:var(--slate-2)}
+
+/* ---------- Segment (detay ölçüsü: docs/55 §4 D2) ---------- */
+.dgu-seg{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:var(--space-4);padding:var(--space-4);border-radius:var(--radius-control);background:var(--line)}
+.dgu-seg button{display:flex;align-items:center;justify-content:center;gap:var(--space-4);min-height:var(--touch-target);padding:0 var(--space-4);border:0;border-radius:var(--radius-control);background:transparent;color:var(--slate-2);font-family:GilroyBd,var(--font);font-size:var(--role-body-size);font-weight:var(--weight-bold);white-space:nowrap;transition:background-color var(--transition-fast) var(--ease),color var(--transition-fast) var(--ease)}
+.dgu-seg button[aria-selected=true],.dgu-seg button[aria-pressed=true]{background:var(--paper);color:var(--tomato-dark);box-shadow:var(--sh-sm)}
+.dgu-seg .dgu-seg-sayi{font-family:var(--font);font-size:var(--role-meta-size);color:var(--slate-2)}
+.dgu-seg.is-kaydir{display:flex;overflow-x:auto;scrollbar-width:none}
+.dgu-seg.is-kaydir button{flex:0 0 auto;padding:0 var(--space-12)}
+/* Sekme (alt çizgili, Beyar revize eki 13 Ekim): içerik bölmeleri arasında geçiş — kayan segment değil. Aynı işaretleme/işleyici
+   ([data-seg], role=tab, aria-selected); DG.sekme() üretir. Zemin yok, alt ince çizgi; seçili sekme koyu domates + 2px primary alt çizgi. */
+.dgu-seg.dgu-seg--sekme{gap:0;padding:0;border-radius:0;background:transparent;box-shadow:inset 0 -1px 0 var(--line)}
+.dgu-seg.dgu-seg--sekme button{border-radius:0;color:var(--slate-2)}
+.dgu-seg.dgu-seg--sekme button[aria-selected=true],.dgu-seg.dgu-seg--sekme button[aria-pressed=true]{background:transparent;color:var(--tomato-dark);box-shadow:inset 0 -2px 0 var(--tomato)}
+.dgu-seg.dgu-seg--sekme button:focus-visible{outline:2px solid var(--tomato);outline-offset:-2px}
+
+.dgu-girdi{position:relative;display:flex;align-items:center;gap:var(--space-8);min-height:var(--cook-height);padding:0 var(--space-4) 0 var(--space-12);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);transition:border-color var(--transition-fast) var(--ease)}
+@media (hover:hover){.dgu-girdi:hover{border-color:color-mix(in srgb,var(--slate-2) 45%,var(--line))}}
+.dgu-girdi:focus-within{outline:0}
+.dgu-girdi:has(:focus-visible){border-color:var(--tomato);box-shadow:inset 0 0 0 var(--border-width) var(--tomato)}
+.dgu-girdi select{appearance:none;-webkit-appearance:none;padding-right:var(--space-32);background:transparent;cursor:pointer;text-overflow:ellipsis}
+.dgu-girdi:has(> select)::after{content:'';position:absolute;right:var(--space-16);top:50%;width:var(--space-8);height:var(--space-8);border-right:calc(var(--border-width) * 2) solid var(--slate-2);border-bottom:calc(var(--border-width) * 2) solid var(--slate-2);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.dgu-girdi > .icon{color:var(--slate-2);font-size:var(--icon-sm)}
+.dgu-girdi :is(input,select,textarea){flex:1;min-width:0;min-height:var(--touch-target);padding:0;border:0;background:transparent;outline:0;font-size:var(--role-body-size)}
+.dgu-girdi textarea{min-height:calc(var(--space-48) * 2);padding:var(--space-12) 0;resize:vertical;line-height:var(--role-body-line)}
+.dgu-girdi input::placeholder,.dgu-girdi textarea::placeholder{color:var(--muted)}
+.dgu-temizle{display:none}
+.dgu-girdi.has-text .dgu-temizle{display:grid}
+/* İç alan kökteki genel input kurallarını (çerçeve, köşe, odak halkası, gölge) taşımaz: tek çerçeve kutudadır. */
+.dgu-girdi :is(input,select,textarea),.dgu-girdi :is(input,select,textarea):focus,.dgu-girdi :is(input,select,textarea):focus-visible{border:0!important;border-radius:0!important;outline:0!important;box-shadow:none!important;background:transparent!important;-webkit-appearance:none;appearance:none;color:var(--ink);font-family:inherit}
+.dgu-girdi input[type=search]::-webkit-search-cancel-button,.dgu-girdi input[type=search]::-webkit-search-decoration{-webkit-appearance:none;display:none}
+.dgu-girdi .dgu-ibtn{width:var(--touch-target);height:var(--touch-target)}
+/* Mikrofon (sesli giriş): kutunun içinde, sağda; 40 görünür / 44 hedef, tint zemin; dinlerken primary. */
+.dgu-girdi .dgu-girdi-ses{width:var(--space-40);height:var(--space-40);margin-right:var(--space-4);background:var(--tomato-tint);color:var(--tomato-deep)}
+.dgu-girdi .dgu-girdi-ses.is-dinliyor{background:var(--tomato);color:var(--paper)}
+.dgu-girdi .dgu-ibtn:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:calc(-2 * var(--border-width))}

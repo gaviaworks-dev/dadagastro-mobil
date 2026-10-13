@@ -1,0 +1,89 @@
+/* G1 · Hesap sayfaları — yalnız token (docs/55 §7); dikey ritim gap ve ortak yığın sınıflarıyla (margin yok). */
+
+/* ---------- Gülücük kapak (Revize D1): gerçek fotoğraf + ortak koyu geçiş + primary ışık; alt kavis ve turuncu çizgi .dgu-gulucuk'tan ----------
+   Header kapağın üstündedir (ortak kapakHeader: .is-ust → üst boşluk header + 32). Fotoğrafın üstü temiz; logo, başlık ve açıklama
+   altta tek blok — koyu geçiş bu bloğun (logonun) üstünden başlar.
+   Üst geçiş .dg-veil-top (ortak-kart.css), alt geçiş metnin konumundan DGCard.veils → --dg-veil (.dg-veil-bottom + [data-dg-veil-from]). */
+.hs-kapak{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;min-height:calc(var(--space-48) * 6 + env(safe-area-inset-top,0px));padding:var(--space-24) var(--gutter);background-color:var(--overlay);background-size:cover;background-position:center;color:var(--paper)}
+.hs-kapak-golge{position:absolute;inset:0;z-index:1;pointer-events:none;background:var(--dg-veil,linear-gradient(180deg,transparent 40%,color-mix(in srgb,var(--overlay) 60%,transparent)))}
+/* Primary ışık: ana sayfa hero'sundaki katmanın birebir değeri (tomato %25, radyal 0→%65, screen; kaynak hero-light.css / .x-hero::after) */
+.hs-kapak-isik{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse at 0% 0%,color-mix(in srgb,var(--tomato) 25%,transparent) 0%,transparent 65%);mix-blend-mode:screen}
+.hs-kapak > :not(.hs-kapak-golge,.hs-kapak-isik){position:relative;z-index:2}
+.hs-kapak-metin{display:grid;gap:var(--space-8)}
+.hs-logo{display:block;width:calc(var(--space-48) * 2 + var(--space-16));height:auto;padding-bottom:var(--space-8)}
+.hs-kapak-metin h1{color:var(--paper);text-shadow:var(--dg-photo-shadow)}
+.hs-kapak-metin p{color:var(--paper);text-shadow:var(--dg-photo-shadow)}
+/* Kısa hero metni kapağın tam iç genişliğini kullanır: “pretty/balance” satır dengeleme sağda boşluk varken erken kırıyordu. */
+.hs-kapak-metin :is(h1,p){max-width:none;text-wrap:wrap}
+.hs-kapak-metin p b{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);color:var(--paper);overflow-wrap:anywhere}
+/* Header başlığı yalnız solid header'da (şeffafken logo kapakta zaten var). */
+.dgu-header .dgu-htitle{transition:opacity var(--transition-fast) var(--ease)}
+.dgu-header.is-saydam .dgu-htitle{opacity:0}
+
+.hs-govde{padding-top:var(--space-16);padding-bottom:var(--space-24)}
+/* Kapaklı (Giriş Yap / Kayıt Ol): beyaz alan kavisin hemen altından, bloklar arası 24 */
+.hs-kapak + .hs-govde{gap:var(--space-24);padding-top:var(--space-24);padding-bottom:var(--space-32)}
+.hs-kapak + .hs-govde > *{--dgu-ara:var(--space-24)}
+/* Düz hâl (V1; şifremi unuttum, yeni şifre, e-posta doğrulama, iki adımlı doğrulama): sayfa başlığı + açıklama beyaz alanda */
+.hs-bas{display:grid;gap:var(--space-8);padding-top:var(--space-8)}
+.hs-bas p{color:var(--slate-2)}
+.hs-bas p b{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);color:var(--ink)}
+.hs-geri{justify-self:center}
+.hs-ayrac{display:flex;align-items:center;gap:var(--space-12);color:var(--slate-2);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.hs-ayrac::before,.hs-ayrac::after{content:'';flex:1;height:var(--border-width);background:var(--line)}
+.hs-satir .dgu-secim{flex:1}
+.hs-satir .dgu-btn--metin{flex-shrink:0;padding:0 var(--space-4)}
+.hs-alt{text-align:justify;text-align-last:center;--dg-baslik-hiza:center;color:var(--slate-2)}
+.hs-link{color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);text-decoration:underline;text-underline-offset:var(--space-4);text-decoration-thickness:var(--border-width)}
+.hs-alt .hs-link{display:inline-flex;align-items:center;min-height:var(--touch-target)}
+
+/* Şifre kuralları: iki sütun, son kural tam satır; karşılanınca yeşil onay */
+.hs-kurallar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-4) var(--space-12)}
+.hs-kurallar li{display:flex;align-items:center;gap:var(--space-8);min-width:0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.hs-kurallar li:last-child{grid-column:1 / -1}
+.hs-kurallar .icon{flex-shrink:0;width:var(--icon-sm);font-size:var(--icon-sm);color:var(--muted);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+.hs-kurallar .icon.fa-circle{transform:scale(.5);color:var(--choice-border-color)}
+.hs-kurallar li.is-ok{color:var(--ink)}
+.hs-kurallar li.is-ok .icon{color:var(--green-deep)}
+
+/* Sözleşme onayları (canlı /kayit): meta rolünde iki satır; onay hatası kutunun hizasında */
+.hs-onaylar{display:grid;gap:var(--space-4)}
+.hs-onaylar .dgu-secim{align-items:flex-start;padding:var(--space-8) 0}
+.hs-onaylar .dgu-secim > span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);padding-top:var(--space-4)}
+.hs-onaylar input[aria-invalid]{border-color:var(--tomato-deep)}
+.hs-onaylar + .dgu-hata{padding-left:calc(var(--choice-size) + var(--space-12))}
+.hs-onaylar + .dgu-hata[hidden]{display:none}
+.hs-yildiz{color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold)}
+
+/* Avantaj maddeleri: ikon ilk satır hizasında (bilgi notları ortak DG.ipucu) */
+.hs-madde{display:flex;align-items:flex-start;gap:var(--space-8);font-size:var(--role-body-size);line-height:var(--role-body-line)}
+.hs-madde .icon{flex-shrink:0;width:var(--icon-md);padding-top:var(--space-4);color:var(--tomato-deep);font-size:var(--icon-sm);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+
+/* Başarı/durum blokları */
+.hs-eylemler{width:100%;padding-top:var(--space-8)}
+.hs-eylemler p{max-width:none}
+.hs-govde .dgu-durum{padding:var(--space-8) 0 0}
+.hs-govde h2[tabindex]{outline:0}
+[data-mesaj]:empty{display:none}
+.hs-govde > .hs-dg-kutu{padding:var(--space-16) 0}
+.hs-dg-kutu > p{max-width:none;color:var(--slate-2)}
+.hs-dg-kutu b{color:var(--ink);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);overflow-wrap:anywhere}
+
+.hs-govde .dgu-btn{text-wrap:balance}
+.hs-ad > .dgu-alan{min-width:0;grid-template-columns:minmax(0,1fr)}
+
+/* Sosyal giriş: iki eşit sütun (canlı /giris), renkli resmi logolar */
+.hs-sosyal{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-12)}
+.hs-sosyal-btn{min-width:0;gap:var(--space-8)}
+.hs-sosyal-logo{width:var(--icon-md);height:var(--icon-md);flex-shrink:0;object-fit:contain}
+
+/* Kurtarma kodu açılırı (iki adımlı doğrulama) */
+.hs-ac summary{display:flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);padding:0 var(--space-4);list-style:none;cursor:pointer;border-radius:var(--radius-control);color:var(--tomato-deep);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.hs-ac summary .icon{flex-shrink:0;font-size:var(--icon-sm);transition:transform var(--transition-fast)}
+.hs-ac summary span{flex:1;min-width:0;text-align:justify;text-align-last:start}
+.hs-ac summary::-webkit-details-marker{display:none}
+.hs-ac[open] summary .icon{transform:rotate(180deg)}
+.hs-ac > form{padding-top:var(--space-12)}
+.hs-link-btn{min-height:var(--touch-target);padding:0 var(--space-8);background:none;border:0;cursor:pointer;font-size:inherit}
+.hs-govde .dgu-istatistik{padding-top:var(--space-4)}
+@media (prefers-reduced-motion:reduce){.hs-ac summary .icon,.dgu-header .dgu-htitle{transition:none}}

@@ -1,0 +1,49 @@
+/* Ortak durum sahnesi — yalnız ana ajan yazar (docs/55 §2a). Kullananlar: DG.durumSahne / DG.hata(tam) ve Tabaktan Tarif hata/kenar ekranları. */
+   Koyu: overlay zemin + primary ışık; kullanıcının fotoğrafı tarama çerçevesi köşeleriyle (Tabaktan analiz dili) + ortada durum işareti
+   (soru, bulanıklık, bağlantı…); güvence notu. Açık: büyük ikon rozeti. Beyaz panel kubbe ile biner; başlık + açıklama (bold), tek ana
+   eylem + ikincil seçenekler (12 arayla), “Adını yaz” satır içi arama, ipuçları (ikonlu kartlar) ya da yatay öneriler. Alt boş kalmaz. */
+.dgu-sahne{display:grid;min-height:calc(100dvh - var(--app-header));background:var(--paper)}
+.dgu-sahne-ust{position:relative;display:grid;place-items:center;padding:var(--space-32) var(--gutter) calc(var(--panel-overlap) + var(--space-24))}
+.dgu-sahne-ust.is-koyu{background:radial-gradient(ellipse at 0% 0%,color-mix(in srgb,var(--tomato) 25%,transparent) 0%,transparent 65%),var(--overlay);color:var(--paper);gap:var(--space-12)}
+.dgu-sahne-cerceve{position:relative;width:min(70%,calc(var(--space-48) * 5));aspect-ratio:1;border-radius:var(--radius-card)}
+.dgu-sahne-foto{position:absolute;inset:var(--space-12);border-radius:var(--dg-card-r);background:color-mix(in srgb,var(--paper) 10%,transparent) center/cover;opacity:.72}
+.dgu-sahne-cerceve.is-bulanik .dgu-sahne-foto{filter:blur(var(--space-4))}
+.dgu-kose{position:absolute;width:var(--space-32);height:var(--space-32);border:calc(var(--border-width) * 3) solid var(--paper);opacity:.9}
+.dgu-kose.is-ust-sol{top:0;left:0;border-right:0;border-bottom:0;border-top-left-radius:var(--radius-control)}
+.dgu-kose.is-ust-sag{top:0;right:0;border-left:0;border-bottom:0;border-top-right-radius:var(--radius-control)}
+.dgu-kose.is-alt-sol{bottom:0;left:0;border-right:0;border-top:0;border-bottom-left-radius:var(--radius-control)}
+.dgu-kose.is-alt-sag{bottom:0;right:0;border-left:0;border-top:0;border-bottom-right-radius:var(--radius-control)}
+.dgu-sahne-isaret{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:calc(var(--space-48) + var(--space-16));height:calc(var(--space-48) + var(--space-16));border-radius:var(--radius-card);background:color-mix(in srgb,var(--overlay) 56%,transparent);color:var(--paper);-webkit-backdrop-filter:blur(var(--space-12));backdrop-filter:blur(var(--space-12))}
+.dgu-sahne-isaret .icon{font-size:var(--dg-size-icon-badge)}
+.dgu-sahne-not{display:flex;align-items:center;gap:var(--space-8);margin:0;font-size:var(--type-photo-meta);color:color-mix(in srgb,var(--paper) 86%,transparent)}
+.dgu-sahne-not .icon{font-size:var(--icon-sm)}
+.dgu-sahne-rozet{display:grid;place-items:center;width:calc(var(--space-48) + var(--space-24));height:calc(var(--space-48) + var(--space-24));border-radius:var(--radius-card);background:var(--tomato-tint);color:var(--tomato-deep)}
+.dgu-sahne-rozet .icon{font-size:var(--dg-size-icon-badge)}
+.dgu-sahne-panel{position:relative;display:grid;align-content:start;gap:var(--space-24);margin-top:calc(-1 * var(--panel-overlap));padding:var(--space-24) var(--gutter) calc(var(--space-48) * 2 + env(safe-area-inset-bottom,0px));border-radius:var(--radius-sheet) var(--radius-sheet) 0 0;background:var(--paper)}
+.dgu-sahne-metin{display:grid;gap:var(--space-8);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+.dgu-sahne-metin h1,.dgu-sahne-metin p{margin:0}
+.dgu-sahne-metin p{color:var(--slate-2);max-width:calc(var(--space-48) * 7);justify-self:center}
+.dgu-sahne-eylem{display:grid;gap:var(--space-12)}
+.dgu-sahne-ara>summary{justify-self:center;list-style:none;width:100%;justify-content:center}
+.dgu-sahne-ara>summary::-webkit-details-marker{display:none}
+.dgu-sahne-ara[open]>summary{display:none}
+.dgu-sahne-ek{display:grid;gap:var(--space-12)}
+.dgu-sahne-ek h2{margin:0}
+.dgu-sahne-ipuclari{display:grid;gap:var(--space-8);margin:0;padding:0;list-style:none}
+.dgu-sahne-ipuclari li{display:flex;align-items:center;gap:var(--space-12);padding:var(--space-12);border-radius:var(--radius-control);background:var(--bg)}
+.dgu-sahne-ipucu-ikon{display:grid;place-items:center;width:var(--space-40);height:var(--space-40);flex-shrink:0;border-radius:var(--radius-control);background:var(--tomato-tint);color:var(--tomato-deep)}
+.dgu-sahne-ipucu-ikon .icon{font-size:var(--icon-md)}
+.dgu-sahne-ipuclari b{display:block;font-family:GilroyBd,var(--font);font-size:var(--role-body-size);line-height:var(--role-body-line)}
+.dgu-sahne-ipuclari small{display:block;margin-top:var(--space-4);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dgu-sahne-oneriler>*{flex:0 0 calc(var(--space-48) * 3)}
+.dgu-app.has-nav .dgu-sahne{min-height:calc(100dvh - var(--app-header) - var(--dg-size-nav-bar))}
+/* Açık sahne (sayfa içi hata/boş): ikon + metin + eylem tek grup, dikeyde ortalı; renkli üst alan olmadığı için panel bindirmesi yok. Koyu sahnede panel kalan yüksekliği doldurur. */
+.dgu-sahne.is-koyu{grid-template-rows:auto 1fr}
+.dgu-sahne:not(.is-koyu){align-content:center;padding-block:var(--space-32)}
+.dgu-sahne:not(.is-koyu) .dgu-sahne-ust{padding-bottom:var(--space-24)}
+.dgu-sahne:not(.is-koyu) .dgu-sahne-panel{margin-top:0;padding-top:0;padding-bottom:var(--space-32)}
+.dgu-panel .dgu-sahne:not(.is-koyu){min-height:0;padding-block:var(--space-48)}
+/* Öneri şeridi: sahne kendi başına yüklendiğinde de (Tabaktan) yatay kaydırma; ilk kart gutter hizasında, sağa taşar. */
+.dgu-sahne-oneriler{display:flex;gap:var(--space-12);margin-inline:calc(-1 * var(--gutter));padding-inline:var(--gutter);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--gutter);scrollbar-width:none}
+.dgu-sahne-oneriler::-webkit-scrollbar{display:none}
+.dgu-sahne-oneriler>*{scroll-snap-align:start}
