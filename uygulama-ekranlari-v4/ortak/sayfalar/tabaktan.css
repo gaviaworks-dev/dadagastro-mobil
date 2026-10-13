@@ -1,0 +1,57 @@
+/* T1 · Tabaktan Tarif kanon uyarlaması (docs/52 §4.2). Akış ve animasyonlar runtime.js + app.css'te aynen kalır; burada
+   yalnız görsel dil kanona çekilir. Yalnız token; app.css'i ezmek için body.photo-flow önekiyle yüksek özgüllük; app.css'in
+   !important kullandığı üç yerde (kart/fotoğraf köşesi, sekme iç boşluğu) aynı ağırlık gerekir. Medya köşesi --dg-radius-media (16)
+   (bu sayfa ortak-kart.css yüklemez; --dg-card-r burada tanımsızdır). */
+
+/* Sonuç / düzenle / hata header'ı: kanon solid header rengi */
+body.photo-flow .topbar.photo-result-header,body.photo-flow .topbar.photo-result-header.is-solid{background:var(--dg-header-solid);color:var(--paper)}
+
+/* Kamera ikon düğmeleri: ortak yüzen ikon zemini + bulanıklık (uygulama header'ındaki fotoğraf düğmeleriyle aynı) */
+body.photo-flow .photo-camera .icon-button{background:var(--floating-icon-bg);-webkit-backdrop-filter:blur(var(--space-16));backdrop-filter:blur(var(--space-16));border-radius:var(--radius-control)}
+
+/* Sonuç kartları: fotoğraflı tarif kartı köşesi 16; ana sayfada olmayan alt başlık ve zorluk/porsiyon/maliyet satırı gizli */
+body.photo-flow .photo-results :is(.recipe-card,.recipe-card .card-media,.recipe-card .card-visual,.recipe-card .card-photo,.photo-best-match,.photo-best-match .hero-link,.photo-best-match .editorial-photo){border-radius:var(--dg-radius-media)!important}
+body.photo-flow .photo-results :is(.recipe-card,.photo-best-match) :is(.card-subtitle,.card-secondary,.card-detail-meta){display:none}
+/* Tanıma küçük resmi, kamera ipucu kartı, hata fotoğrafı: medya köşesi 16 (karar T2) */
+body.photo-flow :is(.photo-recognition-summary .capture-photo,.camera-tip,.photo-fallback .fallback-photo){border-radius:var(--dg-radius-media)}
+
+/* Chip: seçili = tint zemin + domates koyu kenar + derin domates metin */
+body.photo-flow .chip{border-radius:var(--radius-control)}
+body.photo-flow :is(.chip.active,.chip[aria-pressed=true],.chip.is-selected){background:var(--tomato-tint);border-color:var(--tomato-dark);color:var(--tomato-deep)}
+
+
+/* Alt çubuk düğmeleri: buton rolü 15/500, yükseklik 52 */
+body.photo-flow .photo-result-actions .button{height:var(--cook-height);min-height:var(--cook-height);font-size:var(--role-button-size);font-weight:var(--role-button-weight);line-height:var(--role-button-line)}
+
+/* Pro rozeti: tek rozet — GilroyBd, etiket aralığı */
+body.photo-flow .pro-badge,body.photo-flow .action-card .pro-badge{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);letter-spacing:var(--role-label-tracking)}
+
+/* Hata başlığı: sayfa rolü, GilroyBd (sentetik kalın yok) */
+body.photo-flow .photo-fallback .empty h1{font-family:GilroyBd,var(--font);font-size:var(--role-page-size);font-weight:var(--role-page-weight);line-height:var(--role-page-line);letter-spacing:var(--role-page-tracking)}
+
+/* Taşı ikon çifti: yukarı arrow-up / aşağı arrow-down (runtime chevron-down verir; aynı FA solid ailesinden ok glifi) */
+body.photo-flow .editor-row-actions [data-edit-move$=":1"] .fa-chevron-down::before{content:"\f063"}
+
+/* Küçük rozet köşesi (Beyar, 12 Ekim): Pro rozeti 24 → 6 */
+body .pro-badge{border-radius:var(--dg-radius-badge-sm)!important}
+
+/* Ekranda iç not yok (docs/55 §2c): yerel önizlemedeki “Örnek fotoğraf · Simülasyon” notu çizilmez. */
+body .photo-demo-note{display:none!important}
+/* K20 hata/kenar durumları: ortak durum sahnesi (ortak/dg-sahne.css) runtime düğmeleriyle; header başlığı solda (ortak header dili). */
+body.photo-flow .photo-result-header.is-sol>span{flex:1;margin-left:var(--space-8);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body.photo-flow .photo-fallback-sahne{padding-top:var(--app-header)}
+body.photo-flow .photo-fallback-sahne .dgu-sahne{min-height:calc(100dvh - var(--app-header))}
+body.photo-flow .photo-fallback-sahne .dgu-sahne-panel{padding-bottom:calc(var(--space-32) + env(safe-area-inset-bottom,0px))}
+body.photo-flow .photo-fallback-sahne .dgu-sahne-eylem .button{width:100%;gap:var(--space-8)}
+body.photo-flow .photo-fallback-sahne .dgu-sahne-ara>summary{display:flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);cursor:pointer;color:var(--tomato-deep);font-family:GilroyBd,var(--font)}
+body.photo-flow .photo-fallback-sahne .dgu-sahne-ara[open]>summary{display:none}
+body.photo-flow .photo-fallback-sahne h1{font-family:GilroyBd,var(--font);font-size:var(--role-page-size);font-weight:var(--role-page-weight);line-height:var(--role-page-line);letter-spacing:var(--role-page-tracking)}
+body.photo-flow .photo-fallback-sahne .dgu-sahne-ek h2{margin:0;font-size:var(--role-subheading-size);font-weight:var(--role-subheading-weight);line-height:var(--role-subheading-line);letter-spacing:var(--role-subheading-tracking)}
+/* Revize B6/D15: sheet gövdesi — açıklama, Pro rozeti ve parçalı gri buton listeleri dikey yığında (16); rozet başa yaslı. */
+.tt-sheet{display:grid;gap:var(--space-16)}
+.tt-sheet>.pro-badge{justify-self:start}
+/* Revize B3: sheet başlığı bold (uygulama sheet'leriyle aynı); runtime tip rolü [data-type-role] !important verdiği için aynı ağırlık */
+body.photo-flow .sheet-head h2,body.photo-flow .sheet-head h2[data-type-role]{font-family:GilroyBd,var(--font)!important;font-weight:var(--weight-bold)!important}
+/* Revize 5: tanıtım adımları — parçalı gri buton dilinde yan yana 3 kare (ikon üstte, başlık altta, açıklamasız); aralarında
+   parçalı grubun ince ayırıcısı; dış köşeler kontrol, iç köşeler seçim kademesi. Yalnız Tabaktan tanıtım sheet'leri kullanır. */
+.tt-sheet>.button{width:100%}

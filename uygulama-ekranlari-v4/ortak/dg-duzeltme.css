@@ -1,0 +1,51 @@
+/* Kök ekran çelişki düzeltmeleri (docs/55 §4). Beyar kararı (12 Ekim): çelişkide en yeni ekranın (detay-v2) değeri esastır.
+   Üç kök ekranda (ana-v3, liste-v2, detay-v2) en son yüklenir. Değerler yalnız token'dan; elle değer yok.
+   Primary ailesi bu dosyada değil, dg-kopru.css üzerinden canlı token'lara bağlandı. */
+
+/* D2–D7 (segment ölçüsü, kart kategori aralığı, başlık/meta satır aralıkları, birincil düğme 52, Takip et) GERİ ALINDI —
+   Beyar, 12 Ekim: “Kök ekranlar yalnız onaylı kararlar kadar değişebilir (primary rengi, alt menü 4. öğe = Kaydettiklerim, justify);
+   bunun dışında birebir referans gibi olacak.” Eski kurallar: eski/dg-duzeltme-D2-D7-20261012.css. */
+
+/* D8 · (Beyar, 12 Ekim — önceki “sola yaslı” kararı GERİ ALINDI) Metin iki yana yaslı, ortak katmandan gelir (ortak/dg-metin.css). */
+body.editorial-v2 :is(.prose, .dv2-justify, .prose-long) {
+  text-align: justify;
+  text-align-last: left;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* D9 · Pişirme modu adım metni sayfa rolü 24/700 (Beyar kararı 12). */
+body.detay-v2 .cm2-text {
+  font-family: GilroyBd, var(--font);
+  font-size: var(--role-page-size);
+  font-weight: var(--role-page-weight);
+  line-height: var(--role-page-line);
+  letter-spacing: var(--role-page-tracking);
+}
+
+/* D10 · Küçük çip ve rozet köşesi (Beyar, 12 Ekim): yüksekliğe oranla ana düğme sertliği — yalnız küçük çip/rozet. */
+body.editorial-v2 :is(.timer-chip, .dv2-allergen-tag) { border-radius: var(--dg-radius-chip-sm) !important; }
+
+/* D11 · Bayrak hücresi kompakt (Beyar revize B10, 13 Ekim): ana sayfa “Kategoriler & Dünya Mutfakları · Dünya Mutfakları” sekmesinde
+   bayrak kutusu kategori fotoğrafı yüksekliğinde (112) duruyordu; bayrak ile ad arası ~50px boşluk açılıyordu. Kutu bayrak kadar,
+   bayrak → ad 8 (ortak bayrak bileşeni DG.bayrakSecim ile aynı denge). */
+.home-v3 .v3-cuisine-flag{height:auto;margin-bottom:var(--space-8);padding-top:var(--space-8)}
+
+/* D12 · Bayrak çerçevesi (Beyar revize EK, 13 Ekim): ana sayfa Dünya Mutfakları bayrakları da ortak bayrak bileşeniyle aynı — 1px nötr
+   çizgi, küçük köşe (4); bayrağı olmayan bölge (Balkan) aynı çerçevede bölge ikonu. */
+.home-v3 .v3-flag{border-radius:var(--radius-choice);outline:var(--border-width) solid var(--line);outline-offset:calc(-1 * var(--border-width))}
+.home-v3 .v3-flag-none{outline:0;box-shadow:inset 0 0 0 var(--border-width) var(--line);border-radius:var(--radius-choice)}
+.liste-v2 .dg-mark--flag img,.dg-mark--flag img{border-radius:var(--radius-choice);outline:var(--border-width) solid var(--line);outline-offset:calc(-1 * var(--border-width))}
+/* Kök ekran hâlleri (Beyar V4 F): ortak bileşen çıktısı kaplarda; header (40) ve alt menünün (30) altında tam kaplama, çevrimdışı şeridi header'ın altında. */
+.dgk-durum.dgk-tam{position:fixed;inset:0;z-index:25;overflow:auto;max-width:var(--app-max,480px);margin:0 auto;padding-top:var(--app-header);background:var(--paper)}
+.dgk-durum.dgk-tam.is-iskelet{padding-top:var(--app-header)}
+/* Şeffaf header'ın arkası fotoğraf değilse solid primary (kanon: header metni/logosu beyaz kalır); detay iskeletinde kapak fotoğrafının yeri var. */
+.dgk-durum.dgk-tam:not(.is-kapakli){background:linear-gradient(var(--tomato) var(--app-header),var(--paper) var(--app-header))}
+.dgk-durum.dgk-tam.is-kapakli{padding-top:0}
+.dgk-durum.dgk-serit{position:fixed;top:var(--app-header);left:0;right:0;z-index:35;max-width:var(--app-max,480px);margin:0 auto}
+.dgk-durum.dgk-yenile{position:fixed;inset:0 0 auto 0;z-index:45;pointer-events:none}
+/* Tarif detayı segmenti iki sekmeyle (Tabaktan/Dolaptan taslağı: Malzemeler / Hazırlanış; Yorumlar yok): iki eşit sütun, boş üçüncü sütun kalmaz. */
+body.dv2 .dv2-tabs.segmented:not(:has(> :nth-child(3))){grid-template-columns:repeat(2,minmax(0,1fr))}
+/* Kök ekran düğmeleri de tek satır etiket (Beyar değişmez kuralı). */
+:is(.button,.sheet-actions .button){white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+

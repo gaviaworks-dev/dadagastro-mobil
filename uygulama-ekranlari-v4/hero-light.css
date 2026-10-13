@@ -1,0 +1,5 @@
+/* Source transfer: root app.css:292,324 detail-shade; 25% primary, 0/65% stops, screen blend.
+   Same primary, radial falloff and screen blend; origin moved to the requested top-left.
+   Bounded above the food instead of tinting the whole photograph. */
+body.six-home{--home-light-strength:25%;--home-light-color:color-mix(in srgb,var(--tomato) var(--home-light-strength),transparent);--home-light-origin:0% 0%;--home-light-end:65%;--home-light-height:calc(var(--app-header) + var(--space-48) + var(--space-48) + var(--space-48));--home-light-blend:screen}
+body.six-home .purpose-banner:after{content:'';position:absolute;inset:0 0 auto;height:var(--home-light-height);z-index:1;pointer-events:none;background:radial-gradient(ellipse at var(--home-light-origin),var(--home-light-color) 0%,transparent var(--home-light-end));mix-blend-mode:var(--home-light-blend)}

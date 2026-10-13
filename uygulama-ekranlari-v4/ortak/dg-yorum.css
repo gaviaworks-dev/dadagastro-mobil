@@ -1,0 +1,97 @@
+/* Yorum bölümü (docs/51 DgCommentSection) — kaynak detay-v2 yorumları BİREBİR (detay-v2.css 223–286, 326–327, 499; 12 Ekim taşıma).
+   Sınıf adları detayla aynı (dv2-rating, review, review-head, reply…); kapsayıcı .dgu-yrm. Detay-v2'nin yorum bölümü de bu sınıfı taşır
+   (dg-baglanti.js) → tek kaynak; değerler aynı olduğundan detay görünümü değişmez (referans denetimi). Püf/video/diğer sayfalar
+   DG.yorumBolumu ile çizer. Püf'e özgü web alanları (giriş kutusu, satır içi form, Püf Sahibi, Denetimde notu, iç içe yanıt) aşağıda. */
+.dgu-yrm{display:grid;gap:var(--space-16);margin:0;padding:0}
+.dgu-yrm>*{margin:0}
+.dgu-yrm .dv2-rating{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:var(--space-16);padding:var(--space-16);border:var(--border-width) solid var(--line);border-radius:var(--radius-control)}
+.dgu-yrm .dv2-rating-score{display:grid;justify-items:center;gap:var(--space-4);padding-right:var(--space-16);border-right:var(--border-width) solid var(--line);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+.dgu-yrm .dv2-rating-score>b{font-family:GilroyBd,var(--font);font-weight:var(--role-page-weight);font-size:var(--role-page-size);line-height:var(--role-page-line);letter-spacing:var(--role-page-tracking);color:var(--ink)}
+.dgu-yrm .dv2-rating-score small{color:var(--muted);white-space:nowrap}
+.dgu-yrm .dv2-recommend{display:inline-flex;align-items:center;gap:var(--space-4);color:var(--slate-2)!important}
+.dgu-yrm .dv2-recommend .icon{font-size:var(--icon-sm);color:var(--green-deep)}
+.dgu-yrm .dv2-stars{display:inline-flex;gap:var(--space-4)}
+.dgu-yrm .dv2-stars .icon{font-size:var(--icon-sm);color:var(--line)}
+.dgu-yrm .dv2-stars .icon.on{color:var(--yellow)}
+.dgu-yrm .dv2-rating-bars{display:grid;gap:var(--space-8);margin:0;padding:0;list-style:none}
+.dgu-yrm .dv2-rating-bars li{display:grid;grid-template-columns:var(--space-24) minmax(0,1fr) var(--space-16);align-items:center;gap:var(--space-8);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dgu-yrm .dv2-bar-label{display:inline-flex;align-items:center;gap:var(--space-4);color:var(--ink)}
+.dgu-yrm .dv2-bar-label .icon{font-size:var(--type-label);color:var(--yellow)}
+.dgu-yrm .dv2-bar-track{display:block;height:var(--space-8);background:var(--bg);border-radius:var(--radius-none);overflow:hidden}
+.dgu-yrm .dv2-bar-track i{display:block;height:100%;background:var(--yellow)}
+.dgu-yrm .dv2-bar-count{text-align:justify;text-align-last:end;color:var(--muted)}
+.dgu-yrm .dv2-rate{display:flex;align-items:center;justify-content:center;gap:var(--space-8);width:100%;min-height:var(--cook-height);border-radius:var(--radius-control)}
+.dgu-yrm .review-filters{display:flex;flex-wrap:nowrap;gap:var(--chip-gap);margin:0 calc(-1 * var(--gutter));padding:0 var(--gutter);overflow-x:auto;scroll-padding-left:var(--gutter);scrollbar-width:none}
+.dgu-yrm .review-filters::-webkit-scrollbar{display:none}
+.dgu-yrm .review-filters .chip{flex:none;display:inline-flex;align-items:center;gap:var(--space-4);min-height:var(--chip-height);padding:0 var(--chip-padding);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);white-space:nowrap}
+.dgu-yrm .review-filters .chip[aria-pressed=true]{background:var(--tomato-tint);border-color:var(--tomato-tint);color:var(--tomato-deep)}
+.dgu-yrm .dv2-chip-count{color:var(--muted)}
+.dgu-yrm [aria-pressed=true]>.dv2-chip-count{color:var(--tomato-deep)}
+body.dv2 #reviewItems{display:grid;gap:0}
+.dgu-yrm .review{display:grid;gap:var(--space-12);margin:0;padding:var(--space-16) 0;border:0;border-top:var(--border-width) solid var(--line);background:none;border-radius:0}
+.dgu-yrm .review:first-child{border-top:0;padding-top:0}
+.dgu-yrm .review-head{display:grid;grid-template-columns:var(--avatar-chef) minmax(0,1fr) auto;align-items:center;gap:var(--space-12);margin:0}
+.dgu-yrm .dv2-review-who{display:grid;gap:0;min-width:0}
+.dgu-yrm .dv2-review-who :is(a,.dv2-review-ad){min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);text-decoration:none}
+.dgu-yrm .dv2-review-who :is(a,.dv2-review-ad) b{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-body-size)}
+.dgu-yrm .dv2-review-meta{display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-4);color:var(--muted);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.dgu-yrm .dv2-review-meta .icon{font-size:var(--icon-sm);color:var(--tomato-dark)}
+.dgu-yrm .review>p{margin:0;color:var(--ink)}
+.dgu-yrm .dv2-review-photos{display:flex;gap:var(--space-8);overflow-x:auto}
+.dgu-yrm .review-photo{flex:0 0 calc(var(--touch-target) * 2);height:calc(var(--touch-target) * 2);border-radius:var(--radius-control);overflow:hidden}
+.dgu-yrm .review-actions{display:flex;flex-wrap:wrap;gap:var(--space-4);margin:calc(-1 * var(--space-8)) 0 0 calc(-1 * var(--space-12))}
+.dgu-yrm .review-actions button{display:inline-flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);padding:0 var(--space-12);border:0;border-radius:var(--radius-control);background:none;color:var(--slate-2);font-size:var(--role-meta-size)}
+.dgu-yrm .review-actions .icon{font-size:var(--icon-sm)}
+.dgu-yrm .reply{display:grid;gap:var(--space-4);margin:0 0 0 var(--space-16);padding:var(--space-12) var(--space-16);border:0;border-radius:var(--radius-control);background:var(--bg);font-size:inherit}
+.dgu-yrm .reply>*{margin:0}
+.dgu-yrm .dv2-owner{display:inline-flex;align-items:center;gap:var(--space-4);margin-left:var(--space-4);color:var(--tomato-dark);font-family:Gilroy,var(--font);font-weight:var(--weight-body)}
+.dgu-yrm .dv2-owner .icon{font-size:var(--icon-sm)}
+.dgu-yrm .review-empty{display:grid;justify-items:center;gap:var(--space-12);margin:0;padding:var(--space-24) var(--space-16);border:0;border-radius:var(--radius-control);background:var(--bg);text-align:justify;text-align-last:center;--dg-baslik-hiza:center;color:var(--slate-2)}
+.dgu-yrm .review-empty p{margin:0;max-width:calc(var(--recipe-rail-width) + var(--space-48))}
+body.dv2 #reviewEmpty{margin:0;color:var(--muted)}
+.dgu-yrm-form{display:grid;gap:var(--space-16)}
+.dgu-yrm-form>p{margin:0;color:var(--muted)}
+body.dv2 .star-picker{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--space-8);margin:0;padding:0;border:0}
+body.dv2 .star-picker label{position:relative;display:grid;justify-items:center;gap:var(--space-4);min-height:calc(var(--touch-target) + var(--space-16));padding:var(--space-8) 0;border-radius:var(--radius-control);cursor:pointer;color:var(--muted);font-size:var(--role-meta-size)}
+body.dv2 .star-picker label>.icon{font-size:var(--icon-lg);color:var(--line);transition:color var(--transition-fast) var(--ease),transform var(--transition-fast) var(--ease)}
+body.dv2 .star-picker .choice-shell,body.dv2 .star-picker input{position:absolute!important;inset:0;width:100%!important;height:100%!important;min-width:0!important;min-height:0!important;margin:0!important;opacity:0!important;cursor:pointer}
+body.dv2 .star-picker label:has(input:focus-visible){outline:2px solid var(--tomato-dark);outline-offset:-2px}
+body.dv2 .star-picker:has(input[value="1"]:checked) label:nth-child(-n+1)>.icon,body.dv2 .star-picker:has(input[value="2"]:checked) label:nth-child(-n+2)>.icon,body.dv2 .star-picker:has(input[value="3"]:checked) label:nth-child(-n+3)>.icon,body.dv2 .star-picker:has(input[value="4"]:checked) label:nth-child(-n+4)>.icon,body.dv2 .star-picker:has(input[value="5"]:checked) label:nth-child(-n+5)>.icon{color:var(--yellow)}
+body.dv2 .star-picker label:has(input:checked){color:var(--ink);background:var(--bg)}
+.dgu-yrm-form>label:not(.upload-label){display:grid;gap:var(--space-8);color:var(--ink)}
+.dgu-yrm-form textarea{min-height:calc(var(--touch-target) * 3);padding:var(--space-12);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--bg);resize:vertical;color:var(--ink)}
+.dgu-yrm-form textarea:focus{outline:none;border-color:var(--tomato);box-shadow:0 0 0 1px var(--tomato)}
+.dgu-yrm-form .upload-label{display:flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);padding:0 var(--space-12);border:var(--border-width) dashed var(--line);border-radius:var(--radius-control);color:var(--slate-2);cursor:pointer}
+.dgu-yrm-form .upload-label input{position:absolute;width:1px;height:1px;opacity:0}
+.dgu-yrm-form .button{min-height:var(--cook-height)}
+.dgu-yrm .avatar{background:var(--line)!important;color:var(--tomato-deep)!important}
+.dgu-yrm .review-head .avatar{--avatar-size:var(--avatar-chef);margin:0;font-family:GilroyBd,var(--font);font-size:var(--role-sheet-size)}
+.dgu-yrm .dv2-silent{color:var(--muted)}
+.dgu-yrm .dv2-box-icon{display:grid;place-items:center;width:var(--header-circle);height:var(--header-circle);flex:0 0 var(--header-circle);border-radius:var(--radius-control);background:var(--tomato-tint);color:var(--tomato-dark);font-size:var(--icon-md)}
+/* Avatar (yorum başı 56, baş harf) */
+.dgu-yrm .review-head .avatar{display:grid;place-items:center;width:var(--avatar-chef);height:var(--avatar-chef);min-width:var(--avatar-chef);aspect-ratio:1;border-radius:var(--radius-avatar);background:var(--line);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-size:var(--role-sheet-size)}
+/* Püf/web ekleri */
+.dgu-yrm-bas{display:grid;gap:var(--space-4)}
+.dgu-yrm-bas .t-label{display:inline-flex;align-items:center;gap:var(--space-4);color:var(--tomato-deep)}
+.dgu-yrm-giris{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:start;gap:var(--space-12);padding:var(--space-16);border-radius:var(--radius-control);background:var(--bg)}
+.dgu-yrm-giris>div{display:contents}
+.dgu-yrm-giris>div>b{grid-column:2;align-self:center}
+.dgu-yrm-giris>div>p{grid-column:1/-1;margin:0!important}
+.dgu-yrm-giris>div>.dgu-ikili{grid-column:1/-1}
+.dgu-yrm-giris b{display:block;font-family:GilroyBd,var(--font)}
+.dgu-yrm-giris p{margin:var(--space-4) 0 var(--space-12);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dgu-yrm-unvan,.dgu-yrm-sahip{display:inline-flex;align-items:center;gap:var(--space-4)}
+.dgu-yrm-sahip{color:var(--tomato-dark)}
+.dgu-yrm-denetim{display:inline-flex;align-items:center;gap:var(--space-4);font-size:var(--role-meta-size);color:var(--dg-color-status-uyari-fg)}
+.dgu-yrm-yanit-form{display:grid;gap:var(--space-8);margin-top:var(--space-8)}
+.dgu-yrm-daha{justify-self:start}
+.dgu-yrm-form{display:grid;gap:var(--space-12)}
+.dgu-yrm-form .dgu-yardim{margin:0}
+
+/* Kök app.css/detay-v2.css'te tanımlı yardımcılar (uygulama sayfaları yüklemez): aynı değerler. */
+.dgu-yrm .dv2-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.dgu-yrm .button{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-8);min-height:48px;padding:var(--space-12) var(--space-24);border:0;border-radius:var(--radius-control);font:inherit;font-size:var(--type-body);font-weight:var(--weight-bold);background:var(--tomato-dark);color:var(--paper);cursor:pointer}
+.dgu-yrm .review-photo{display:block;background-size:cover;background-position:center}
+.dgu-yrm-liste{display:grid}
+.dgu-yrm .dv2-dot{color:var(--muted)}
+.dgu-yrm .dv2-review-stars{align-self:center}

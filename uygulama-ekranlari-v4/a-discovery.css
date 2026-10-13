@@ -1,0 +1,25 @@
+/* A's approved photo and orange lower crescent stay in six-heroes.css. */
+body[data-six=a] .purpose-banner{height:55dvh;min-height:460px}
+body[data-six=a][data-height=uzun] .purpose-banner{height:70dvh;min-height:560px}
+body[data-six=a][data-height=kisa] .purpose-banner{height:51dvh;min-height:420px}
+.a-global-search{display:flex;align-items:center;gap:var(--space-12);min-height:52px;margin-top:var(--space-16);padding:var(--space-12) var(--space-16);border-radius:var(--radius-control);background:var(--paper);color:var(--slate-2);font-size:var(--role-body-size);text-decoration:none;border:0}
+.a-global-search .icon{font-size:var(--icon-md);color:var(--tomato-deep)}
+.a-global-search:focus-visible{outline:2px solid var(--tomato);outline-offset:4px}
+.a-header-search[hidden]{display:none!important}
+body[data-six=a] .kitchen-suggestion{margin:var(--space-12) 0 var(--space-16)}
+body[data-six=a] .kitchen-heading .purpose-eyebrow{display:none}
+body[data-six=a] .kitchen-heading h2{margin:0}
+body[data-six=a] .kitchen-result-head output{font-size:var(--role-meta-size);font-family:var(--font)}
+body[data-six=a] .kitchen-result-head{margin:var(--space-16) 0 var(--space-8)}
+body[data-six=a][data-kitchen-layout=rail] .kitchen-previews{display:flex;gap:var(--space-12);overflow:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-right:calc(-1 * var(--gutter));padding-right:var(--gutter)}
+body[data-six=a][data-kitchen-layout=rail] .kitchen-mini{flex:0 0 148px;scroll-snap-align:start}
+body[data-six=a][data-kitchen-layout=rail] .kitchen-mini .photo{aspect-ratio:4/3}
+body[data-six=a] .kitchen-mini strong{height:auto;min-height:calc(var(--role-meta-size) * 2.8)}
+body[data-six=a][data-kitchen-layout=card] .decision-kitchen{margin:var(--space-20);padding:var(--space-16);border-radius:var(--radius-card);background:var(--bg);border:1px solid var(--line)}
+body[data-six=a][data-kitchen-layout=card] .kitchen-mini .photo{border-radius:var(--radius-control)}
+.a-drawer-search{margin:0 var(--space-20) var(--space-12);border-bottom:1px solid var(--line)}
+
+/* Keep the plate beneath search without enlarging it beyond the mobile frame. */
+body[data-six=a] .purpose-backdrop{background-size:auto min(82%, 104vw);background-position:center calc(50% + var(--space-48));background-repeat:no-repeat;background-color:var(--overlay)}
+body[data-six=a] .purpose-backdrop:before{content:'';position:absolute;inset:0 0 auto;height:calc((100% - min(82%, 104vw))/2 + var(--space-48) + var(--space-48));background-image:inherit;background-size:auto 100dvh;background-position:center top;mask-image:linear-gradient(to bottom,#000 calc(100% - var(--space-48)),transparent 100%);pointer-events:none}
+body[data-six=a] .purpose-backdrop{mask-image:linear-gradient(to bottom,#000 calc((100% + min(82%, 104vw))/2),transparent calc((100% + min(82%, 104vw))/2 + var(--space-48)))}

@@ -1,0 +1,139 @@
+/* Dolapta Ne Var — ortak bileşen görünümü (Beyar revize D2, 13 Ekim; yalnız ana ajan yazar). Ana sayfa bloğu (kök ana-v3) ve
+   uygulama sayfası aynı dosyayı yükler; dg-bilesen.css'e bağlı değildir (kökte o dosya yok). Değerler yalnız token.
+   Dil: iki büyük mod sekmesi (Dolaba ekle = primary tint; Hariç tut = koyu, yasak işaretli), 52'lik malzeme alanı + 44'lük ses düğmesi,
+   44'lük kontrol radius'lu çipler (eklenmemiş artı · dolapta tint + onay · hariç gri + çizili + yasak), gri yüzeyli seçim paneli,
+   tam genişlik birincil eylem. */
+.dgd-kart{display:grid;gap:var(--space-16);min-width:0}
+.dgd-giris{margin:0;color:var(--slate-2);font-size:var(--role-body-size);line-height:var(--role-body-line)}
+.dgd-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Sekme: ortak .dgu-seg (dg-kontrol.css). Girdi: ortak .dgu-girdi + .dgu-girdi-ses (dg-kontrol.css). */
+.dgd-ipucu{margin:0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dgd-sekme button[aria-selected=true] .dgu-seg-sayi{color:var(--tomato-dark)}
+
+/* Çipler */
+.dgd-grup{display:grid;gap:var(--space-8)}
+.dgd-grup-ad{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--ink);text-align:justify;text-align-last:start}
+.dgd-ciplar{display:flex;flex-wrap:wrap;gap:var(--space-8)}
+.dgd-cip{display:inline-flex;align-items:center;gap:var(--space-4);min-height:var(--touch-target);padding:0 var(--space-12);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);font:inherit;font-size:var(--role-meta-size);line-height:var(--role-meta-line);cursor:pointer;transition:background-color var(--transition-fast) var(--ease),border-color var(--transition-fast) var(--ease)}
+.dgd-cip .icon{font-size:var(--role-label-size,11px);color:var(--tomato-deep)}
+.dgd-cip small{margin-left:var(--space-4);font-size:var(--role-label-size,11px);color:var(--slate-2);font-variant-numeric:tabular-nums}
+.dgd-cip.is-have{border-color:var(--tomato-dark);background:var(--tomato-tint);color:var(--tomato-deep);font-family:GilroyBd,var(--font)}
+.dgd-cip.is-haric{border-color:var(--ink);background:var(--ink);color:var(--paper);font-family:GilroyBd,var(--font)}
+.dgd-cip.is-haric .icon{color:var(--tomato)}
+.dgd-cip.is-filtre:not(.is-have) .icon{display:none}
+.dgd-cip:active{transform:scale(.98)}
+.dgd-cip:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:var(--border-width)}
+
+/* Malzeme şeridi (Beyar V4 B4): her grup TEK SATIR yatay kaydırma — ilk öğe gutter hizasında, sonda kısmi görünen öğe kaydırmayı anlatır;
+   scroll-snap; kaydırma çubuğu gizli. Ana sayfa metin çipi, sayfa görselli kart (.is-kart). */
+.dgd-ciplar.is-serit{flex-wrap:nowrap;margin-inline:calc(-1 * var(--gutter));padding:var(--space-4) var(--gutter);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scroll-padding-inline:var(--gutter);scrollbar-width:none}
+.dgd-ciplar.is-serit::-webkit-scrollbar{display:none}
+/* Şeridin kabı genişliği aşmasın: grid/akordeon ataları küçülebilir. */
+.dgd-icerik :is(.dgu-ic,.dgu-yigin,.dgu-akordeon,details,summary,.dgu-ak-govde,[data-dgd-katalog],.dgd-grup){min-width:0;max-width:100%}
+.dgd-ciplar.is-serit>*{flex:0 0 auto;scroll-snap-align:start}
+/* Görselli malzeme kartı: 88 genişlik, kare gerçek görsel (kart radius'u), altında ad (meta, tek satır + …); durum rozeti görselin sağ üstünde. */
+.dgd-ciplar.is-kart{gap:var(--space-8)}
+.dgd-mkart{display:grid;gap:var(--space-8);width:calc(var(--space-40) * 2 + var(--space-8));padding:0;border:0;background:none;color:var(--ink);font:inherit;text-align:justify;text-align-last:center;cursor:pointer}
+.dgd-mkart-foto{position:relative;display:grid;place-items:center;aspect-ratio:1;border:calc(var(--border-width) * 2) solid transparent;border-radius:var(--radius-card);background:var(--bg) center/cover no-repeat;color:var(--slate-2);font-size:var(--icon-md);transition:border-color var(--transition-fast) var(--ease)}
+.dgd-mkart-foto.is-bos{background-color:var(--line)}
+.dgd-mkart-durum{position:absolute;top:var(--space-4);right:var(--space-4);display:grid;place-items:center;width:var(--space-24);height:var(--space-24);border-radius:var(--radius-control);background:var(--paper);color:var(--tomato-deep);box-shadow:var(--sh-sm);font-size:var(--role-label-size,11px)}
+.dgd-mkart-ad{display:block;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.dgd-mkart.is-have .dgd-mkart-foto{border-color:var(--tomato-dark)}
+.dgd-mkart.is-have .dgd-mkart-durum{background:var(--tomato-dark);color:var(--paper)}
+.dgd-mkart.is-have .dgd-mkart-ad{color:var(--tomato-deep);font-family:GilroyBd,var(--font)}
+.dgd-mkart.is-haric .dgd-mkart-foto{border-color:var(--ink);box-shadow:inset 0 0 0 999px color-mix(in srgb,var(--ink) 55%,transparent)}
+.dgd-mkart.is-haric .dgd-mkart-durum{background:var(--ink);color:var(--paper)}
+.dgd-mkart.is-haric .dgd-mkart-ad{font-family:GilroyBd,var(--font)}
+.dgd-mkart:focus-visible{outline:none}
+.dgd-mkart:focus-visible .dgd-mkart-foto{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:var(--border-width)}
+.dgd-mkart:active .dgd-mkart-foto{transform:scale(.98)}
+@media (prefers-reduced-motion:reduce){.dgd-mkart-foto{transition:none}}
+
+/* Seçim paneli */
+.dgd-secim{display:grid;gap:var(--space-8);padding:var(--space-12);border-radius:var(--radius-control);background:var(--bg)}
+.dgd-secim.is-bos p{display:flex;align-items:flex-start;gap:var(--space-8);margin:0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2);text-align:justify;text-align-last:start}
+.dgd-secim.is-bos .icon{margin-top:var(--space-4);font-size:var(--role-label-size,11px)}
+.dgd-secim-bas{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12);min-height:var(--space-32)}
+.dgd-secim-bas b{font-family:GilroyBd,var(--font);font-size:var(--role-body-size)}
+.dgd-metin-btn{min-height:var(--touch-target);padding:0;border:0;background:none;color:var(--tomato-deep);font:inherit;font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);cursor:pointer}
+.dgd-secim-satir{display:flex;gap:var(--space-8);margin:0 calc(-1 * var(--space-12));padding:0 var(--space-12) var(--space-4);overflow-x:auto;scrollbar-width:none}
+.dgd-secim-satir::-webkit-scrollbar{display:none}
+.dgd-secili{display:inline-flex;align-items:center;gap:var(--space-4);flex-shrink:0;min-height:var(--space-40);padding:0 0 0 var(--space-12);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);font-size:var(--role-meta-size);white-space:nowrap}
+.dgd-secili > .icon{font-size:var(--role-label-size,11px)}
+.dgd-secili small{color:var(--slate-2);font-size:var(--role-label-size,11px)}
+.dgd-secili.is-have{border-color:var(--tomato-dark);background:var(--tomato-tint);color:var(--tomato-deep);font-family:GilroyBd,var(--font)}
+.dgd-secili.is-haric{border-color:var(--ink);background:var(--ink);color:var(--paper);font-family:GilroyBd,var(--font)}
+.dgd-secili.is-haric small{color:color-mix(in srgb,var(--paper) 72%,transparent)}
+.dgd-secili.is-haric button .icon{color:var(--tomato)}
+.dgd-secili button{display:grid;place-items:center;width:var(--space-40);height:var(--space-40);padding:0;border:0;background:none;color:inherit;cursor:pointer}
+.dgd-secili button .icon{font-size:var(--icon-sm)}
+
+/* Eylem ve bağlantı */
+.dgd-cta{display:flex;align-items:center;justify-content:center;gap:var(--space-8);min-height:var(--cook-height,52px);padding:0 var(--space-16);border-radius:var(--radius-control);background:var(--tomato-deep);color:var(--paper);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-button-size,15px);text-decoration:none;text-align:justify;text-align-last:center}
+.dgd-cta:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:calc(var(--border-width) * 2)}
+.dgd-daha{display:inline-flex;align-items:center;justify-self:center;gap:var(--space-8);min-height:var(--touch-target);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);text-decoration:none}
+
+/* Süzgeçler: besin değeri (çift kaydırıcı) ve vakit & zorluk */
+.dgd-besin{display:grid;gap:var(--space-16)}
+.dgd-kalori{display:grid;gap:var(--space-8)}
+.dgd-kalori-bas{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-12)}
+.dgd-kalori-bas span{font-family:GilroyBd,var(--font);font-size:var(--role-meta-size)}
+.dgd-kalori-bas output{font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);color:var(--tomato-deep);font-variant-numeric:tabular-nums}
+.dgd-kalori-ray{position:relative;height:var(--touch-target)}
+.dgd-kalori-ray::before{content:'';position:absolute;left:0;right:0;top:50%;height:var(--space-4);transform:translateY(-50%);border-radius:var(--dg-radius-dot,2px);background:linear-gradient(90deg,var(--line) var(--dgd-a),var(--tomato) var(--dgd-a),var(--tomato) var(--dgd-b),var(--line) var(--dgd-b))}
+.dgd-kalori-ray input{position:absolute;inset:0;width:100%;margin:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none}
+.dgd-kalori-ray input::-webkit-slider-thumb{-webkit-appearance:none;width:var(--space-24);height:var(--space-24);border:calc(var(--border-width) * 2) solid var(--tomato);border-radius:var(--radius-avatar);background:var(--paper);box-shadow:var(--sh-sm);pointer-events:auto;cursor:pointer}
+.dgd-kalori-ray input::-moz-range-thumb{width:var(--space-24);height:var(--space-24);border:calc(var(--border-width) * 2) solid var(--tomato);border-radius:var(--radius-avatar);background:var(--paper);pointer-events:auto;cursor:pointer}
+.dgd-kalori-ray input:focus-visible::-webkit-slider-thumb{outline:calc(var(--border-width) * 2) solid var(--tomato-dark);outline-offset:var(--border-width)}
+.dgd-kalori-uc{display:flex;justify-content:space-between;font-size:var(--role-label-size,11px);color:var(--slate-2)}
+@media (prefers-reduced-motion:reduce){.dgd-cip{transition:none}}
+
+
+/* Dolapta Ne Var TEK İÇERİK (sayfanın revize öncesi görünümü; Beyar düzeltmesi 13 Ekim: kaynak sayfa, ana sayfa bloğu onun aynısı).
+   Önceden ortak/sayfalar/dolap.css'teydi; bileşen ana sayfada da çizildiği için buraya taşındı (değerler aynı). Siyah seçili hariç türü
+   (.dl-htur) ve hassasiyette “Kesinlikle gösterme” (.dgd-cip.is-haric) yalnız bu bileşende; diğer çip/segmentlerin seçili rengi değişmez. */
+.dl-giris{color:var(--slate-2)}
+.dl-ak-ikon{display:grid;place-items:center;width:var(--space-24);flex-shrink:0;color:var(--tomato-dark);font-size:var(--icon-md)}
+.dl-katalog summary > span:not(.dl-ak-ikon):not(.dgu-sayac),.dl-suzgec summary > span:not(.dl-ak-ikon):not(.dgu-sayac){display:grid;gap:0}
+.dl-ak-alt{font-family:var(--font);font-weight:var(--role-meta-weight,500);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dgu-akordeon summary > :is(.dl-ak-ikon,.dgu-sayac){flex:0 0 auto}
+.dl-katalog .dgu-ak-govde,.dl-suzgec .dgu-ak-govde{padding-bottom:var(--space-16);color:var(--ink)}
+/* Hariç türü: 2×2 eşit sekme (canlı dört tür); seçili koyu yüzey — üstteki “Hariç tut” moduyla aynı dil. */
+.dl-htur{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-8)}
+.dl-htur button{display:flex;align-items:center;gap:var(--space-8);min-width:0;min-height:var(--touch-target);padding:0 var(--space-12);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);font:inherit;font-size:var(--role-meta-size);cursor:pointer}
+.dl-htur button .icon{flex-shrink:0;font-size:var(--icon-sm);color:var(--slate-2)}
+.dl-htur button span{flex:1;min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-align:justify;text-align-last:start}
+.dl-htur button small{flex-shrink:0;font-family:GilroyBd,var(--font);font-size:var(--role-label-size)}
+.dl-htur button[aria-selected=true]{border-color:var(--ink);background:var(--ink);color:var(--paper);font-family:GilroyBd,var(--font)}
+.dl-htur button[aria-selected=true] .icon{color:var(--tomato)}
+.dl-htur button:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:var(--border-width)}
+.dl-kutu{display:grid;gap:var(--space-12);padding:var(--space-12);border-radius:var(--radius-control);background:var(--bg)}
+.dl-kutu-bas{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-4) var(--space-8);margin:0}
+.dl-kutu-bas .icon{color:var(--tomato-dark);font-size:var(--icon-sm)}
+.dl-kutu-bas b{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold)}
+.dl-kutu-bas small{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.dl-hassas{display:grid;gap:var(--space-8);padding:var(--space-8) 0}
+.dl-hassas b{font-family:GilroyBd,var(--font);font-size:var(--role-body-size)}
+/* “Tarif bul” çubuğu: görünüm burada; sayfada alt menünün üstünde yapışkan konum ortak/sayfalar/dolap.css'te. */
+.bul-cta{padding:var(--space-12) var(--gutter);border-top:var(--border-width) solid var(--line);background:var(--paper)}
+
+/* Ana sayfa bloğu: bölümün kenar boşluğu kadar dışa taşar — içerik sayfadaki gibi ekran genişliğinde (dgu-ic kendi kenar boşluğunu verir). */
+.dgd-ana.dgd-ana.dgd-ana{margin-inline:calc(-1 * var(--gutter))!important}
+/* Ana sayfa bloğu (kök ana-v3): uygulama bileşen stilleri dg-baglanti.js ile @scope (.dgd-ana) içinde yüklenir (dg-tokens, dg-kopru, dg-bilesen,
+   dg-hareket) — sayfadaki kuralların aynısı. Kök runtime p/h2/small öğelerine data-type-role verip !important yazı boyutu basar
+   (runtime.js applyTypeRoles): bileşenin kendi rolleri burada aynı değerlerle ve daha yüksek özgüllükle geri verilir. */
+.dgd-ana.dgd-ana :is(p.dgu-yardim,.dgd-secim.is-bos p,.dgd-secim.is-bos p span){font-size:var(--role-meta-size)!important;line-height:var(--role-meta-line)!important;font-weight:var(--role-meta-weight,500)!important;letter-spacing:0!important}
+.dgd-ana.dgd-ana p.dl-giris{font-size:var(--role-body-size)!important;font-weight:var(--role-body-weight,500)!important;letter-spacing:0!important}
+.dgd-ana.dgd-ana h2.t-sub{font-size:var(--role-subheading-size)!important;font-weight:var(--weight-bold)!important;line-height:var(--role-subheading-line)!important;letter-spacing:var(--role-subheading-tracking)!important}
+.dgd-ana.dgd-ana :is(.dl-htur small,.dgd-cip small,.dgd-secili small){font-size:var(--role-label-size,11px)!important;letter-spacing:0!important}
+.dgd-ana.dgd-ana :is(.dl-ak-alt,.dl-kutu-bas small){font-size:var(--role-meta-size)!important;font-weight:var(--role-meta-weight,500)!important;letter-spacing:0!important}
+.dgd-ana.dgd-ana .dgu-girdi input{border-radius:0!important}
+.dgd-ana.dgd-ana :is(.dgd-cip,.dgd-secili) small{font-family:inherit!important;line-height:inherit!important}
+.dgd-ana.dgd-ana .dl-htur small{font-family:GilroyBd,var(--font)!important}
+.dgd-ana.dgd-ana .dgd-kalori-ray input{border-radius:0!important}
+/* Ana sayfa “Yakında bitecekler” (dg-baglanti.js): görselli malzeme kartı + altta ortak durum rozeti (kalan gün); şerit ve eylem arası 16. */
+.dgd-yakin{display:grid;gap:var(--space-16);min-width:0}
+.dgd-yakin .dgd-mkart{text-decoration:none}
+.dgd-yakin .dgd-mkart .dgu-durum-rozet{justify-self:center;max-width:100%}
+
