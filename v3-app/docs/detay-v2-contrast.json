@@ -1,0 +1,272 @@
+[
+ {
+  "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+  "text": "kategori",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(73,58,33)",
+  "contrast": 10.99,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+  "text": "başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(69,61,45)",
+  "contrast": 10.72,
+  "required": 3,
+  "pass": true
+ },
+ {
+  "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+  "text": "alt başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(63,55,41)",
+  "contrast": 11.73,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+  "text": "kapsül 1",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(87,84,77)",
+  "contrast": 7.55,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+  "text": "kapsül 2",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(86,83,77)",
+  "contrast": 7.66,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+  "text": "kapsül 3",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(88,85,78)",
+  "contrast": 7.44,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "iran-usulu-baharatli-acili-balik-kebabi-",
+  "text": "kategori",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(75,73,66)",
+  "contrast": 9.01,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "iran-usulu-baharatli-acili-balik-kebabi-",
+  "text": "başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(72,70,63)",
+  "contrast": 9.45,
+  "required": 3,
+  "pass": true
+ },
+ {
+  "slug": "iran-usulu-baharatli-acili-balik-kebabi-",
+  "text": "alt başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(63,61,53)",
+  "contrast": 10.88,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "iran-usulu-baharatli-acili-balik-kebabi-",
+  "text": "kapsül 1",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(90,88,83)",
+  "contrast": 7.11,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "iran-usulu-baharatli-acili-balik-kebabi-",
+  "text": "kapsül 2",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(90,88,82)",
+  "contrast": 7.11,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "iran-usulu-baharatli-acili-balik-kebabi-",
+  "text": "kapsül 3",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(90,87,82)",
+  "contrast": 7.19,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "sagdana-suudi-arabistan-hicaz-usulu-kaku",
+  "text": "kategori",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(76,73,66)",
+  "contrast": 8.98,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "sagdana-suudi-arabistan-hicaz-usulu-kaku",
+  "text": "başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(74,71,64)",
+  "contrast": 9.27,
+  "required": 3,
+  "pass": true
+ },
+ {
+  "slug": "sagdana-suudi-arabistan-hicaz-usulu-kaku",
+  "text": "alt başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(68,65,58)",
+  "contrast": 10.18,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "sagdana-suudi-arabistan-hicaz-usulu-kaku",
+  "text": "kapsül 1",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(95,93,87)",
+  "contrast": 6.58,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "sagdana-suudi-arabistan-hicaz-usulu-kaku",
+  "text": "kapsül 2",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(87,84,77)",
+  "contrast": 7.55,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "sagdana-suudi-arabistan-hicaz-usulu-kaku",
+  "text": "kapsül 3",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(89,85,79)",
+  "contrast": 7.4,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-ka",
+  "text": "kategori",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(75,72,66)",
+  "contrast": 9.11,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-ka",
+  "text": "başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(74,71,65)",
+  "contrast": 9.26,
+  "required": 3,
+  "pass": true
+ },
+ {
+  "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-ka",
+  "text": "alt başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(66,64,57)",
+  "contrast": 10.38,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-ka",
+  "text": "kapsül 1",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(93,91,86)",
+  "contrast": 6.78,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-ka",
+  "text": "kapsül 2",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(89,86,81)",
+  "contrast": 7.31,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-ka",
+  "text": "kapsül 3",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(90,87,82)",
+  "contrast": 7.19,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "duduklude-balkan-usulu-lahana-sarmasi-ka",
+  "text": "kategori",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(76,74,67)",
+  "contrast": 8.87,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "duduklude-balkan-usulu-lahana-sarmasi-ka",
+  "text": "başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(75,72,66)",
+  "contrast": 9.11,
+  "required": 3,
+  "pass": true
+ },
+ {
+  "slug": "duduklude-balkan-usulu-lahana-sarmasi-ka",
+  "text": "alt başlık",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(61,58,52)",
+  "contrast": 11.33,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "duduklude-balkan-usulu-lahana-sarmasi-ka",
+  "text": "kapsül 1",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(93,91,86)",
+  "contrast": 6.78,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "duduklude-balkan-usulu-lahana-sarmasi-ka",
+  "text": "kapsül 2",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(90,88,82)",
+  "contrast": 7.11,
+  "required": 4.5,
+  "pass": true
+ },
+ {
+  "slug": "duduklude-balkan-usulu-lahana-sarmasi-ka",
+  "text": "kapsül 3",
+  "textColor": "rgb(255,255,255)",
+  "lightestBg": "rgb(90,88,82)",
+  "contrast": 7.11,
+  "required": 4.5,
+  "pass": true
+ }
+]

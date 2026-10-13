@@ -1,0 +1,69 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#F9F9F9"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><title>DadaGastro Mobil · Önizleme</title>
+<link rel="icon" href="assets/marka/dadagastro-renkli.svg"><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+<style>
+/* docs/47 · P6 · Yerel önizleme: üç ekran yan yana (390×844 telefon). Masaüstünde çerçeve sığacak kadar küçülür (içerik 390
+   genişlikte kalır); dar ekranda üç sekme, seçilen ekran tek başına. Tokenlar tokens.css'ten; Gilroy, Font Awesome solid. */
+:root{--pv-w:390px;--pv-h:844px;--pv-gap:var(--space-32);--pv-s:1}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased}
+.pv-head,.pv-row{max-width:calc(3 * var(--pv-w) + 2 * var(--pv-gap) + 2 * var(--space-40));margin:0 auto;padding-inline:var(--space-40)}
+.pv-head{padding-top:var(--space-40);padding-bottom:var(--space-24)}
+.pv-logo{display:block;width:calc(var(--space-48) + var(--space-16));height:auto;margin-bottom:var(--space-16)}
+.pv-head h1{margin:0 0 var(--space-8);font-family:GilroyBd,var(--font);font-size:var(--role-page-size);line-height:var(--role-page-line);letter-spacing:var(--role-page-tracking)}
+.pv-head p{margin:0;font-size:var(--role-body-size);line-height:var(--role-body-line);color:var(--slate-2)}
+.pv-tabs{display:none}
+.pv-row{display:flex;justify-content:flex-start;align-items:flex-start;gap:var(--pv-gap);padding-bottom:var(--space-48)}
+.pv-screen{display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-12);margin:0;min-width:0}
+.pv-screen figcaption{font-family:GilroyBd,var(--font);font-size:var(--role-subheading-size);line-height:var(--role-subheading-line)}
+.pv-phone{width:calc(var(--pv-w) * var(--pv-s));height:calc(var(--pv-h) * var(--pv-s));overflow:hidden;border-radius:var(--radius-card);background:var(--paper);box-shadow:var(--sh-md);outline:var(--border-width) solid var(--line)}
+.pv-phone iframe{display:block;width:var(--pv-w);height:var(--pv-h);border:0;transform:scale(var(--pv-s));transform-origin:0 0}
+.pv-open{display:inline-flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);color:var(--tomato-deep);font-size:var(--role-meta-size);text-decoration:none}
+.pv-open .fa-solid{font-size:var(--icon-sm)}
+.pv-open:focus-visible,.pv-tabs button:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:calc(var(--border-width) * 2)}
+/* Dar ekran: üç sekme (Ana Sayfa / Tarif Listesi / Tarif Detay); seçilen ekran tek başına, ortalı. */
+@media (max-width:900px){
+  .pv-head,.pv-row{padding-inline:var(--gutter)}
+  .pv-head{padding-top:var(--space-24);padding-bottom:var(--space-16)}
+  .pv-tabs{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4);max-width:calc(var(--pv-w) + 2 * var(--gutter));margin:0 auto;padding:var(--space-4);border-radius:var(--radius-segment);background:var(--line)}
+  .pv-tabs button{min-height:var(--touch-target);padding:0 var(--space-4);border:0;border-radius:var(--radius-control);background:transparent;color:var(--slate-2);font-family:var(--font);font-size:var(--role-meta-size);cursor:pointer}
+  .pv-tabs button[aria-selected=true]{background:var(--paper);color:var(--tomato-deep);font-family:GilroyBd,var(--font);box-shadow:var(--sh-sm)}
+  .pv-row{display:block;padding-top:var(--space-16)}
+  /* Pasif ekranlar yerleşimde kalır ama görünmez: çerçeveler gerçek ölçüde çizilir, sekme değişince yeniden ölçüm gerekmez. */
+  .pv-row{position:relative}
+  .pv-screen{align-items:center}
+  .pv-screen:not(.is-active){position:absolute;top:0;left:0;right:0;visibility:hidden;pointer-events:none}
+}
+@media (max-width:600px){.pv-tabs{margin-inline:var(--gutter)}}
+</style></head><body>
+<header class="pv-head"><img class="pv-logo" src="assets/marka/dadagastro-renkli.svg" alt="DadaGastro" width="96" height="60"><h1>DadaGastro Mobil Uygulama — Önizleme</h1><p>Üç ekran yan yana. Ekranların içinde kaydırabilir, kartlardan tarife, “Tümü”den listeye geçebilir, menüyü açabilirsiniz.</p></header>
+<nav class="pv-tabs" role="tablist" aria-label="Ekranlar"><button role="tab" id="pv-t1" aria-controls="pv-s1" aria-selected="true" data-pv-tab="pv-s1">Ana Sayfa</button><button role="tab" id="pv-t2" aria-controls="pv-s2" aria-selected="false" tabindex="-1" data-pv-tab="pv-s2">Tarif Listesi</button><button role="tab" id="pv-t3" aria-controls="pv-s3" aria-selected="false" tabindex="-1" data-pv-tab="pv-s3">Tarif Detay</button></nav>
+<main class="pv-row">
+<figure class="pv-screen is-active" id="pv-s1" role="tabpanel" aria-labelledby="pv-t1"><figcaption>1. Ana Sayfa</figcaption><div class="pv-phone"><iframe data-src="ana-v3.html" title="1. Ana Sayfa" width="390" height="844"></iframe></div><a class="pv-open" href="ana-v3.html" target="_blank" rel="noopener">Tam ekran aç <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></figure>
+<figure class="pv-screen" id="pv-s2" role="tabpanel" aria-labelledby="pv-t2"><figcaption>2. Tarif Listesi</figcaption><div class="pv-phone"><iframe data-src="liste-v2.html" title="2. Tarif Listesi" width="390" height="844"></iframe></div><a class="pv-open" href="liste-v2.html" target="_blank" rel="noopener">Tam ekran aç <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></figure>
+<figure class="pv-screen" id="pv-s3" role="tabpanel" aria-labelledby="pv-t3"><figcaption>3. Tarif Detay</figcaption><div class="pv-phone"><iframe data-src="detay-v2.html" title="3. Tarif Detay" width="390" height="844"></iframe></div><a class="pv-open" href="detay-v2.html" target="_blank" rel="noopener">Tam ekran aç <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></figure>
+</main>
+<script>
+(() => {
+  const narrow = matchMedia('(max-width:900px)'), row = document.querySelector('.pv-row');
+  // Masaüstünde üç telefon satıra sığacak kadar küçülür (en çok 1); dar ekranda tek telefon.
+  function fit() {
+    const n = narrow.matches ? 1 : 3, cs = getComputedStyle(row), gap = parseFloat(cs.columnGap) || 0;
+    const room = row.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    document.documentElement.style.setProperty('--pv-s', Math.min(1, (room - gap * (n - 1)) / (n * 390)).toFixed(4));
+  }
+  const tabs = [...document.querySelectorAll('[data-pv-tab]')];
+  const pick = (id, focus) => tabs.forEach(t => { const on = t.dataset.pvTab === id; t.setAttribute('aria-selected', on); t.tabIndex = on ? 0 : -1; document.getElementById(id === t.dataset.pvTab ? id : t.dataset.pvTab).classList.toggle('is-active', on); if (on && focus) t.focus(); });
+  tabs.forEach(t => t.addEventListener('click', () => pick(t.dataset.pvTab)));
+  document.querySelector('.pv-tabs').addEventListener('keydown', e => { if (!['ArrowLeft', 'ArrowRight'].includes(e.key)) return; e.preventDefault(); const i = tabs.findIndex(t => t.getAttribute('aria-selected') === 'true'); pick(tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length].dataset.pvTab, true); });
+  // Yalnız genişlik değişince bir sonraki karede yeniden ölçülür (gözlemci döngüsü yok).
+  let lastW = -1, frame = 0;
+  new ResizeObserver(([e]) => { const w = Math.round(e.contentRect.width); if (w === lastW) return; lastW = w; cancelAnimationFrame(frame); frame = requestAnimationFrame(fit); }).observe(row);
+  narrow.addEventListener?.('change', fit); fit();
+  // Çerçeveler sırayla yüklenir: yerel Python sunucusunun küçük bağlantı kuyruğu üç ekranın aynı anda istediği ~150
+  // dosyada bağlantı düşürebiliyordu. Biri yüklenince sıradaki başlar (en geç 8 sn sonra yine de başlar).
+  const frames = [...document.querySelectorAll('iframe[data-src]')];
+  const next = () => { const f = frames.shift(); if (!f) return; let done = false; const go = () => { if (!done) { done = true; next(); } }; f.addEventListener('load', go, {once: true}); setTimeout(go, 8000); f.src = f.dataset.src; };
+  next();
+})();
+</script>
+</body></html>

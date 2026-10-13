@@ -1,0 +1,5 @@
+/* Scale the comparison frame; both iframe viewports remain 390 × 844. */
+.alternatives{grid-template-columns:minmax(0,392px) minmax(0,282px);justify-content:center;align-items:start}
+.comparison{width:282px}
+.caption{min-height:0}
+@media(max-width:759px){.alternatives{grid-template-columns:minmax(0,392px)}.comparison{justify-self:center}}

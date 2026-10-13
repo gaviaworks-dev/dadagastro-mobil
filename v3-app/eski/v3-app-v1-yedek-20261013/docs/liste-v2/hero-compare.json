@@ -1,0 +1,182 @@
+{
+ "overlay-kisa-360": {
+  "height": 240,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "panel-kisa-360": {
+  "height": 361,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "glass-kisa-360": {
+  "height": 240,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "overlay-uzun-360": {
+  "height": 240,
+  "titleLines": 2,
+  "titleBox": 48,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "panel-uzun-360": {
+  "height": 361,
+  "titleLines": 2,
+  "titleBox": 48,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "glass-uzun-360": {
+  "height": 240,
+  "titleLines": 2,
+  "titleBox": 48,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "overlay-kisa-390": {
+  "height": 263,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "panel-kisa-390": {
+  "height": 384,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "glass-kisa-390": {
+  "height": 263,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "overlay-uzun-390": {
+  "height": 263,
+  "titleLines": 2,
+  "titleBox": 48,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "panel-uzun-390": {
+  "height": 384,
+  "titleLines": 2,
+  "titleBox": 48,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "glass-uzun-390": {
+  "height": 263,
+  "titleLines": 2,
+  "titleBox": 48,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "overlay-kisa-430": {
+  "height": 293,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "panel-kisa-430": {
+  "height": 414,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "glass-kisa-430": {
+  "height": 293,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "Sagdana",
+  "author": "Şahnur Poyrazoğlu",
+  "meta": true,
+  "save": true
+ },
+ "overlay-uzun-430": {
+  "height": 293,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "panel-uzun-430": {
+  "height": 414,
+  "titleLines": 1,
+  "titleBox": 24,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ },
+ "glass-uzun-430": {
+  "height": 293,
+  "titleLines": 2,
+  "titleBox": 48,
+  "clamp": "2",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "author": "Şahnur Ilıcalı",
+  "meta": true,
+  "save": true
+ }
+}

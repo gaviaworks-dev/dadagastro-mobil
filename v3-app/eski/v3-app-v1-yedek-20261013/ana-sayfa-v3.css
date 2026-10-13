@@ -1,0 +1,79 @@
+/* Ana sayfa V3. Shared sources and V2 stay untouched.
+   The content container is .v3-content (renamed from .six-content in ana-sayfa-v3.js), so the shared
+   forced (important-flagged) .six-content child rules no longer apply and no rule here is forced. */
+
+/* Component sizes, named once. */
+body.home-v3{--v3-hero-min:520px;--v3-hero-max:600px;--v3-category-size:96px;--v3-result-card:230px;--v3-invite-copy:240px;--v3-drawer-logo:144px}
+
+/* Hero: one cover photograph; the crop puts the source shelf behind the search, not below it. */
+body.home-v3[data-edition=x6] .x-hero{height:calc(clamp(var(--v3-hero-min),64dvh,var(--v3-hero-max)) - var(--scene-collapse,0px))}
+.home-v3 .x-hero .purpose-title{z-index:6}
+.home-v3 .x-scene-shade{background:var(--v3-scene-curve)}
+.home-v3 .x-scene-photo .x-photo{transform:scale(1.18);transform-origin:center bottom}
+/* Source detail light: 25% primary/screen; an uncut ellipse in a full-height layer. */
+body.home-v3 .x-hero:after{inset:0;height:100%;background:radial-gradient(ellipse var(--v3-light-x) var(--v3-light-y) at var(--home-light-origin),var(--home-light-color) 0%,transparent var(--home-light-end))}
+
+/* Content column */
+.home-v3 .v3-content{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--space-40);padding:var(--space-24) var(--gutter) var(--space-16);position:relative;background:var(--paper)}
+.home-v3 .v3-content>*{min-width:0;margin:0;padding:0}
+.home-v3 .six-heading{gap:var(--space-12);align-items:baseline}
+.home-v3 .six-heading h2{min-width:0;text-wrap:balance}
+.home-v3 .six-see{flex-shrink:0;white-space:nowrap;min-height:var(--touch-target);display:inline-flex;align-items:center}
+
+/* Recipe card: photo, time/rating, bold category, two-line title. */
+.home-v3 .recipe-card{padding-bottom:0}
+.home-v3 .recipe-card .card-media{height:auto;aspect-ratio:4/5}
+.home-v3 .recipe-card .card-visual,.home-v3 .recipe-card .card-photo{height:100%;width:100%}
+.home-v3 .recipe-card .card-body{gap:var(--space-4);padding:var(--space-8) var(--space-4) 0;height:auto}
+.home-v3 .recipe-card .card-copy{display:grid;gap:var(--space-4)}
+.home-v3 .recipe-card .card-category{font-family:GilroyBd,var(--font);font-weight:var(--role-section-weight)}
+.home-v3 .recipe-card .card-copy h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;min-height:calc(2 * var(--role-card-size) * var(--role-card-line));max-height:calc(2 * var(--role-card-size) * var(--role-card-line));margin:0}
+
+/* Latest recipes: one lead card on the canonical featured role (set in JS), two below. */
+.home-v3 .collection-block .collection-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-20) var(--space-12);overflow:visible;margin:0;padding:0}
+.home-v3 .collection-body>.recipe-card{min-width:0}
+.home-v3 .collection-body>.recipe-card:first-child{grid-column:1/-1}
+.home-v3 .collection-body>.recipe-card:first-child .card-media{aspect-ratio:4/3}
+.home-v3 .collection-body>.recipe-card:first-child .card-copy h3{min-height:calc(2 * var(--role-featured-size) * var(--role-featured-line));max-height:calc(2 * var(--role-featured-size) * var(--role-featured-line));height:calc(2 * var(--role-featured-size) * var(--role-featured-line))}
+
+/* The decision tool is an inset working surface, not another content carousel. */
+body.home-v3[data-six=a] .v3-content>.new-kitchen{padding:var(--space-16);border:var(--border-width) solid var(--line);border-radius:var(--radius-card);background:var(--bg)}
+.home-v3 .v3-tool-symbol{display:grid;place-items:center;width:var(--touch-target);height:var(--touch-target);flex-shrink:0;border-radius:var(--radius-control);background:var(--paper);color:var(--tomato-deep)}
+.home-v3 .new-kitchen .kitchen-heading h2{margin:0}
+.home-v3 .new-kitchen .kitchen-suggestion{margin:var(--space-4) 0 var(--space-16)}
+.home-v3 .new-kitchen .kitchen-ingredients button{background:var(--paper)}
+.home-v3 .new-kitchen .kitchen-ingredients [aria-pressed=true]{background:var(--tomato-deep);color:var(--paper)}
+body.home-v3[data-edition=x6] .new-kitchen .kitchen-previews{display:flex;gap:var(--space-12);overflow-x:auto;scroll-snap-type:x mandatory;border:0;padding:0 0 var(--space-8);align-items:stretch}
+.home-v3 .new-kitchen .kitchen-previews>.recipe-card{flex:0 0 var(--v3-result-card);min-width:0;scroll-snap-align:start}
+body.home-v3[data-edition=x6] .new-kitchen[data-has-selection=false] :is(.kitchen-previews,.kitchen-submit,.kitchen-result-head){display:none}
+
+/* Compact category photographs form the only navigation rail. */
+.home-v3 .six-category-rail{gap:var(--space-12)}
+.home-v3 .six-category{display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-8);border:0;background:none;padding:0;flex:0 0 var(--v3-category-size);white-space:normal;min-width:0}
+.home-v3 .six-category .photo,.home-v3 .six-category-icon{width:var(--v3-category-size);height:var(--v3-category-size);aspect-ratio:1;border-radius:var(--radius-card);flex-shrink:0}
+.home-v3 .six-category>span:last-child{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:calc(2 * var(--role-meta-size) * var(--role-meta-line));font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+
+/* Chefs: a neutral full-bleed band; white pages of three identities scroll sideways. */
+body.home-v3 .v3-content>.a-chefs{margin-inline:calc(-1 * var(--gutter));padding:var(--space-32) var(--gutter);background:var(--bg);color:var(--ink);border:0;border-radius:0;--chef-avatar-size:var(--avatar-chef)}
+.home-v3 .a-chef-strip.v3-chef-grid{display:flex;gap:var(--space-12);width:calc(100% + var(--gutter));max-width:calc(100% + var(--gutter));overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--gutter) 0 0}
+.home-v3 .a-chef-strip:after{display:none}
+.home-v3 .v3-chef-page{flex:0 0 calc(100% - var(--space-16));min-width:0;padding:0 var(--space-16);border-radius:var(--radius-card);background:var(--paper);scroll-snap-align:start}
+.home-v3 .a-chef-item{display:flex;flex-direction:row;align-items:center;gap:var(--space-8);min-width:0;padding:var(--space-16) 0;border-radius:0;background:var(--paper);text-align:left}
+.home-v3 .a-chef-item+.a-chef-item{border-top:var(--border-width) solid var(--line)}
+.home-v3 .a-chef-avatar{background:var(--neutral-surface);border:0;color:var(--tomato-deep);font-size:var(--role-sheet-size)}
+.home-v3 .a-chef-person{flex:1;min-width:0;min-height:var(--touch-target);display:flex;flex-direction:row;align-items:center;gap:var(--space-8);text-align:left}
+.home-v3 .v3-chef-identity{min-width:0;display:grid;gap:var(--space-4)}
+.home-v3 .a-chef-person strong{height:auto;justify-content:flex-start;margin:0;padding:0;font-size:var(--role-meta-size)}
+.home-v3 .a-chef-count{margin:0;font-size:var(--role-meta-size);color:var(--slate-2)}
+.home-v3 .a-chef-follow{width:auto;flex:0 0 auto;padding:var(--space-8);border:0;background:transparent;color:var(--tomato-deep);font-size:var(--role-meta-size)}
+
+/* Closing invitation. */
+body.home-v3 .v3-content>.six-community{position:relative;padding:var(--space-32) var(--space-24);border-radius:var(--radius-card);background-color:var(--paper);background-image:linear-gradient(90deg,color-mix(in srgb,var(--overlay) 90%,transparent),color-mix(in srgb,var(--overlay) 65%,transparent)),var(--invitation-photo);background-position:center;background-size:cover;color:var(--paper)}
+.home-v3 .six-community h2{color:var(--paper);margin:0 0 var(--space-8);padding-right:var(--space-48)}
+.home-v3 .six-community p{color:var(--paper);margin:0 0 var(--space-20);max-width:var(--v3-invite-copy);font-size:var(--role-body-size)}
+.home-v3 .v3-invite-symbol{position:absolute;right:var(--space-24);top:var(--space-24);display:grid;place-items:center;width:var(--touch-target);height:var(--touch-target);border:var(--border-width) solid color-mix(in srgb,var(--paper) 40%,transparent);border-radius:var(--radius-control);background:color-mix(in srgb,var(--overlay) 40%,transparent)}
+
+/* Drawer: official colour logo on top. */
+.home-v3 .v3-drawer-logo{display:flex;align-items:center;min-height:var(--touch-target)}
+.home-v3 .v3-drawer-logo img{width:var(--v3-drawer-logo);height:auto;display:block}
+.home-v3 .drawer-top>div{min-width:0}

@@ -1,0 +1,514 @@
+{
+ "hashsiz": {
+  "loadScroll": {
+   "liste": 0,
+   "detay": 0
+  },
+  "frames": [
+   {
+    "name": "01-baslangic",
+    "liste": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 296,
+     "stickyTop": 296,
+     "gap": 228,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 1560
+    },
+    "detay": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 410,
+     "stickyTop": 410,
+     "gap": 342,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 1023.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 1560
+    }
+   },
+   {
+    "name": "02-yapismadan-100-once",
+    "liste": {
+     "scrollY": 128,
+     "alpha": 1,
+     "panelTop": 168,
+     "stickyTop": 168,
+     "gap": 100,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 1560
+    },
+    "detay": {
+     "scrollY": 242,
+     "alpha": 1,
+     "panelTop": 168,
+     "stickyTop": 168,
+     "gap": 100,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 781.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 1560
+    }
+   },
+   {
+    "name": "03-yapisma-1-once",
+    "liste": {
+     "scrollY": 227,
+     "alpha": 1,
+     "panelTop": 69,
+     "stickyTop": 69,
+     "gap": 1,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 484
+    },
+    "detay": {
+     "scrollY": 341,
+     "alpha": 1,
+     "panelTop": 69,
+     "stickyTop": 69,
+     "gap": 1,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 682.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 484
+    }
+   },
+   {
+    "name": "04-yapisma-ani",
+    "liste": {
+     "scrollY": 228,
+     "alpha": 1,
+     "panelTop": 68,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detay": {
+     "scrollY": 342,
+     "alpha": 1,
+     "panelTop": 68,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 681.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "05-yapisma-1-sonra",
+    "liste": {
+     "scrollY": 229,
+     "alpha": 1,
+     "panelTop": 67,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detay": {
+     "scrollY": 343,
+     "alpha": 1,
+     "panelTop": 67,
+     "stickyTop": 67,
+     "gap": -1,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 680.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "06-yapisma-200-sonra",
+    "liste": {
+     "scrollY": 428,
+     "alpha": 1,
+     "panelTop": -132,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detay": {
+     "scrollY": 542,
+     "alpha": 1,
+     "panelTop": -132,
+     "stickyTop": -132,
+     "gap": -200,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 481.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "07-yapisma-600-sonra",
+    "liste": {
+     "scrollY": 828,
+     "alpha": 1,
+     "panelTop": -532,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detay": {
+     "scrollY": 942,
+     "alpha": 1,
+     "panelTop": -532,
+     "stickyTop": -532,
+     "gap": -600,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 81.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "08-uste-donus",
+    "liste": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 296,
+     "stickyTop": 296,
+     "gap": 228,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 1560
+    },
+    "detay": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 410,
+     "stickyTop": 410,
+     "gap": 342,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 1023.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 1560
+    }
+   }
+  ]
+ },
+ "hashli": {
+  "loadScroll": {
+   "liste": 0,
+   "detayHash": 1024
+  },
+  "frames": [
+   {
+    "name": "01-baslangic",
+    "liste": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 296,
+     "stickyTop": 296,
+     "gap": 228,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 1560
+    },
+    "detayHash": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 410,
+     "stickyTop": 410,
+     "gap": 342,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 1023.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 1560
+    }
+   },
+   {
+    "name": "02-yapismadan-100-once",
+    "liste": {
+     "scrollY": 128,
+     "alpha": 1,
+     "panelTop": 168,
+     "stickyTop": 168,
+     "gap": 100,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 1560
+    },
+    "detayHash": {
+     "scrollY": 242,
+     "alpha": 1,
+     "panelTop": 168,
+     "stickyTop": 168,
+     "gap": 100,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 781.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 1560
+    }
+   },
+   {
+    "name": "03-yapisma-1-once",
+    "liste": {
+     "scrollY": 227,
+     "alpha": 1,
+     "panelTop": 69,
+     "stickyTop": 69,
+     "gap": 1,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 484
+    },
+    "detayHash": {
+     "scrollY": 341,
+     "alpha": 1,
+     "panelTop": 69,
+     "stickyTop": 69,
+     "gap": 1,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 682.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 484
+    }
+   },
+   {
+    "name": "04-yapisma-ani",
+    "liste": {
+     "scrollY": 228,
+     "alpha": 1,
+     "panelTop": 68,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detayHash": {
+     "scrollY": 342,
+     "alpha": 1,
+     "panelTop": 68,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 681.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "05-yapisma-1-sonra",
+    "liste": {
+     "scrollY": 229,
+     "alpha": 1,
+     "panelTop": 67,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detayHash": {
+     "scrollY": 343,
+     "alpha": 1,
+     "panelTop": 67,
+     "stickyTop": 67,
+     "gap": -1,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 680.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "06-yapisma-200-sonra",
+    "liste": {
+     "scrollY": 428,
+     "alpha": 1,
+     "panelTop": -132,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detayHash": {
+     "scrollY": 542,
+     "alpha": 1,
+     "panelTop": -132,
+     "stickyTop": -132,
+     "gap": -200,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 481.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "07-yapisma-600-sonra",
+    "liste": {
+     "scrollY": 828,
+     "alpha": 1,
+     "panelTop": -532,
+     "stickyTop": 68,
+     "gap": 0,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 0
+    },
+    "detayHash": {
+     "scrollY": 942,
+     "alpha": 1,
+     "panelTop": -532,
+     "stickyTop": -532,
+     "gap": -600,
+     "radius": "0px",
+     "width": 390,
+     "stuck": true,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 81.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 0
+    }
+   },
+   {
+    "name": "08-uste-donus",
+    "liste": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 296,
+     "stickyTop": 296,
+     "gap": 228,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "darkUnderHeader": 1560
+    },
+    "detayHash": {
+     "scrollY": 0,
+     "alpha": 0,
+     "panelTop": 410,
+     "stickyTop": 410,
+     "gap": 342,
+     "radius": "24px",
+     "width": 390,
+     "stuck": false,
+     "photoTop": 0,
+     "photoTf": "none",
+     "tabsGap": 1023.7,
+     "tabsStuck": false,
+     "darkUnderHeader": 1560
+    }
+   }
+  ]
+ }
+}

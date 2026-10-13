@@ -1,0 +1,80 @@
+[
+ {
+  "engine": "chromium",
+  "w": 360,
+  "toolbarH": 44,
+  "toolbarTop": 618,
+  "statusTop": 674,
+  "themesBottom": 594,
+  "resultsTop": 734,
+  "docH": 2429,
+  "toolsH": 194,
+  "searchH": 50,
+  "stuckAt": 250
+ },
+ {
+  "engine": "chromium",
+  "w": 390,
+  "toolbarH": 44,
+  "toolbarTop": 618,
+  "statusTop": 674,
+  "themesBottom": 594,
+  "resultsTop": 734,
+  "docH": 2527,
+  "toolsH": 194,
+  "searchH": 50,
+  "stuckAt": 250
+ },
+ {
+  "engine": "chromium",
+  "w": 430,
+  "toolbarH": 44,
+  "toolbarTop": 618,
+  "statusTop": 674,
+  "themesBottom": 594,
+  "resultsTop": 734,
+  "docH": 2657,
+  "toolsH": 194,
+  "searchH": 50,
+  "stuckAt": 251
+ },
+ {
+  "engine": "webkit",
+  "w": 360,
+  "toolbarH": 44,
+  "toolbarTop": 618,
+  "statusTop": 674,
+  "themesBottom": 594,
+  "resultsTop": 734,
+  "docH": 2429,
+  "toolsH": 194,
+  "searchH": 50,
+  "stuckAt": 228
+ },
+ {
+  "engine": "webkit",
+  "w": 390,
+  "toolbarH": 44,
+  "toolbarTop": 618,
+  "statusTop": 674,
+  "themesBottom": 594,
+  "resultsTop": 734,
+  "docH": 2527,
+  "toolsH": 194,
+  "searchH": 50,
+  "stuckAt": 228
+ },
+ {
+  "engine": "webkit",
+  "w": 430,
+  "toolbarH": 44,
+  "toolbarTop": 618,
+  "statusTop": 674,
+  "themesBottom": 594,
+  "resultsTop": 734,
+  "docH": 2657,
+  "toolsH": 194,
+  "searchH": 50,
+  "stuckAt": 228
+ }
+]

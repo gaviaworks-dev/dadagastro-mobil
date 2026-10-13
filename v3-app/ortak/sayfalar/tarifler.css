@@ -1,0 +1,12 @@
+/* G3 · Kategoriler ve Dünya Mutfakları dizini (ortak/sayfalar/tarifler.js). Yalnız token; kategori kutusu (.dgu-kat),
+   bayrak ızgarası (.dgu-bayrak-izgara), sekme (.dgu-seg) ortak katmanda. Burada yalnız sayfa yerleşimi. */
+.tf-ust{padding-bottom:0}
+.tf-govde{padding-bottom:var(--space-32)}
+/* Görseli olmayan kategori (canlıda da boş): nötr zemin + ikon. */
+.tf-kat-bos{display:grid;place-items:center;color:var(--slate-2)}
+.tf-kat-bos .icon{font-size:var(--icon-lg)}
+/* Mutfak iskeleti: bayrak yuvasını ve iki metin satırını doldurur. */
+.tf-isk-bayrak{width:100%;height:100%}
+.tf-isk-orta{margin-inline:auto}
+/* Ad alanı iki satır yer ayırır: aynı sıradaki tarif sayıları tek çizgide. */
+.tf-govde .dgu-kat b{min-height:calc(2 * var(--role-meta-size) * var(--role-meta-line))}

@@ -1,0 +1,9646 @@
+{
+ "tarih": "2026-10-11T11:16:41.542Z",
+ "summary": {
+  "ana-v3.html hata yok": "5/6",
+  "ana-v3.html yatay taşma yok": "6/6",
+  "ana-v3.html outline ikon yok": "6/6",
+  "ana-v3.html seçenek niteliği yok": "6/6",
+  "ana-v3.html görünür metinde iç kod yok": "6/6",
+  "P2 ana sayfada dışa açılan ok düğmesi yok": "6/6",
+  "liste-v2.html hata yok": "6/6",
+  "liste-v2.html yatay taşma yok": "6/6",
+  "liste-v2.html outline ikon yok": "6/6",
+  "liste-v2.html seçenek niteliği yok": "6/6",
+  "liste-v2.html görünür metinde iç kod yok": "6/6",
+  "detay-v2.html hata yok": "6/6",
+  "detay-v2.html yatay taşma yok": "6/6",
+  "detay-v2.html outline ikon yok": "6/6",
+  "detay-v2.html seçenek niteliği yok": "6/6",
+  "detay-v2.html görünür metinde iç kod yok": "6/6",
+  "P0 eski link hatasız": "24/24",
+  "P0 detay şef kartı 2 (eski b)": "12/12",
+  "P0 kart köşesi 16, rozet zemini yok": "24/24",
+  "P0 kaldırılan parametre yeni bağlantılara taşınmıyor": "24/24",
+  "P0 liste sıralama yalnız ikon 44px": "6/6",
+  "P0 gösterge noktalar, sayaç yok": "12/12",
+  "P1 serbest çubukta sekme geçişi kaydırmayı korur": "18/18",
+  "P1 yapışık çubuk header altında 0px": "18/18",
+  "P1 yapışık geçişte panel çubuğun hemen altında, kaydırma = çapa": "18/18",
+  "P1 kuyruk sırası Besin → şef → Hatırlatma/Alerjen → Tarif bilgileri → Benzer": "6/6",
+  "P1 çubuğun üstünde özet · özellikler · açıklama": "6/6",
+  "P2 slaydın tamamı tarife gider": "6/6",
+  "P2 erişilebilir ad korunur": "6/6",
+  "P2 arama hedefi kendi bağlantısı": "6/6",
+  "P2 bilgi bağlantısı tam genişlik (ok boşluğu yok)": "6/6",
+  "P2 Ne Pişirsem panelinde de ok düğmesi yok": "6/6",
+  "P3 ana sayfa iki sekme panel yüksekliği eşit (0px)": "6/6",
+  "P3 ana sayfa bayrak çıplak": "6/6",
+  "P3 ana sayfa sayı etiket ölçeği, sönük": "6/6",
+  "P3 liste iki sekme şerit yüksekliği eşit (0px)": "6/6",
+  "P3 liste bayrak çıplak": "6/6",
+  "P4 süre/puan rozet zemini yok": "24/24",
+  "P4 kaydet zeminsiz, 44×44, beyaz": "24/24",
+  "P4 her görselde üst geçiş": "24/24",
+  "EK kartlarda yıldız/puan yok": "24/24",
+  "EK süre/görüntülenme kalın, saat + göz ikonu": "24/24",
+  "EK kategori kartında kutulu sayı etiketi yok": "24/24",
+  "P5 öne çıkan kart bağlantısı ≥ 44px": "18/18",
+  "EK görüntülenme biçimi (0 ve yok çizilmez, Türkçe kısaltma)": "24/24",
+  "P4 kaydedilince ikon primary, zemin yok": "24/24",
+  "Sağ menü üç ekranda aynı": "6/6",
+  "P6 üç çerçeve parametresiz 390×844": "4/4",
+  "P6 başlıklar ve tam ekran bağlantıları": "4/4",
+  "P6 taşma yok, hata yok": "4/4",
+  "P6 görünür metinde iç kod / seçenek yok": "4/4",
+  "P6 masaüstünde üçü yan yana, sekme yok": "2/2",
+  "P6 ana sayfa kartı → detay (çerçeve içinde)": "2/2",
+  "P6 Tümü → liste (çerçeve içinde)": "2/2",
+  "P6 liste kartı → detay (çerçeve içinde)": "2/2",
+  "P6 benzer tarif → detay (çerçeve içinde)": "2/2",
+  "P6 gezinmede hata yok": "2/2",
+  "P6 dar ekranda sekmeli tek ekran": "2/2"
+ },
+ "fails": [
+  "ana-v3.html hata yok {\"tag\":\"chromium-390\",\"errs\":[\"failed https://dadagastro.com/varliklar/storage/pagedef/anasayfa/hero/5JfoMeFbRNs8MvkEIzIbY3rOtln0ZIp0WFQpJzBa.webp net::ERR_ABORTED\"]}"
+ ],
+ "measures": {
+  "chromium-360": {
+   "P1once": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "dv2-chef",
+      "description-wrap",
+      "dv2-info"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1024,
+      "before": 1724,
+      "after": 1024,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.28,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1024,
+      "before": 1568,
+      "after": 1024,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.28,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1024,
+      "before": 1724,
+      "after": 1024,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.28,
+      "stuckClass": true
+     }
+    }
+   },
+   "P1sonra": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   "P3ana": {
+    "a": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 370.6875,
+     "next": 1573.359375
+    },
+    "b": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 370.6875,
+     "next": 1573.359375
+    },
+    "flag": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "shadow": "none",
+     "frShadow": "none",
+     "border": "0px",
+     "r": "4px",
+     "w": 64
+    },
+    "count": {
+     "size": "11px",
+     "color": "rgb(86, 81, 74)",
+     "gap": 4
+    },
+    "name": "13px"
+   },
+   "P3liste": {
+    "before": {
+     "rail": 44,
+     "status": 622
+    },
+    "after": {
+     "rail": 44
+    },
+    "flag": {
+     "shadow": "none",
+     "markBg": "rgba(0, 0, 0, 0)",
+     "r": "4px"
+    }
+   },
+   "P4 ana-v3.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 17,
+    "medias": 17,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     44,
+     44
+    ],
+    "plays": [
+     "none|rgba(0, 0, 0, 0)"
+    ],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "33.2%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 detay-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 4,
+    "medias": 4,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html?gorunum=liste": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "42.1%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   }
+  },
+  "chromium-390": {
+   "P1once": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "dv2-chef",
+      "description-wrap",
+      "dv2-info"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1024,
+      "before": 1724,
+      "after": 1024,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.28,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1024,
+      "before": 1573,
+      "after": 1024,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.28,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1024,
+      "before": 1724,
+      "after": 1024,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.28,
+      "stuckClass": true
+     }
+    }
+   },
+   "P1sonra": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   "P3ana": {
+    "a": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1594.359375
+    },
+    "b": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1594.359375
+    },
+    "flag": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "shadow": "none",
+     "frShadow": "none",
+     "border": "0px",
+     "r": "4px",
+     "w": 64
+    },
+    "count": {
+     "size": "11px",
+     "color": "rgb(86, 81, 74)",
+     "gap": 4
+    },
+    "name": "13px"
+   },
+   "P3liste": {
+    "before": {
+     "rail": 44,
+     "status": 622
+    },
+    "after": {
+     "rail": 44
+    },
+    "flag": {
+     "shadow": "none",
+     "markBg": "rgba(0, 0, 0, 0)",
+     "r": "4px"
+    }
+   },
+   "P4 ana-v3.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 17,
+    "medias": 17,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     44,
+     44
+    ],
+    "plays": [
+     "none|rgba(0, 0, 0, 0)"
+    ],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 detay-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 4,
+    "medias": 4,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html?gorunum=liste": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "42.1%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   }
+  },
+  "chromium-430": {
+   "P1once": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "dv2-chef",
+      "description-wrap",
+      "dv2-info"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 671,
+      "after": 671
+     },
+     "stuck": {
+      "dock": 971,
+      "before": 1671,
+      "after": 971,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.47,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 671,
+      "after": 671
+     },
+     "stuck": {
+      "dock": 971,
+      "before": 1549,
+      "after": 971,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.47,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 671,
+      "after": 671
+     },
+     "stuck": {
+      "dock": 971,
+      "before": 1671,
+      "after": 971,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.47,
+      "stuckClass": true
+     }
+    }
+   },
+   "P1sonra": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 262,
+      "after": 262
+     },
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 262,
+      "after": 262
+     },
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 262,
+      "after": 262
+     },
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   "P3ana": {
+    "a": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1654.359375
+    },
+    "b": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1654.359375
+    },
+    "flag": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "shadow": "none",
+     "frShadow": "none",
+     "border": "0px",
+     "r": "4px",
+     "w": 64
+    },
+    "count": {
+     "size": "11px",
+     "color": "rgb(86, 81, 74)",
+     "gap": 4
+    },
+    "name": "13px"
+   },
+   "P3liste": {
+    "before": {
+     "rail": 44,
+     "status": 622
+    },
+    "after": {
+     "rail": 44
+    },
+    "flag": {
+     "shadow": "none",
+     "markBg": "rgba(0, 0, 0, 0)",
+     "r": "4px"
+    }
+   },
+   "P4 ana-v3.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 17,
+    "medias": 17,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     44,
+     44
+    ],
+    "plays": [
+     "none|rgba(0, 0, 0, 0)"
+    ],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 detay-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 4,
+    "medias": 4,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html?gorunum=liste": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "42.1%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   }
+  },
+  "webkit-360": {
+   "P1once": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "dv2-chef",
+      "description-wrap",
+      "dv2-info"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1025,
+      "before": 1724,
+      "after": 1025,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.55,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1025,
+      "before": 1569,
+      "after": 1025,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.55,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1025,
+      "before": 1724,
+      "after": 1025,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.55,
+      "stuckClass": true
+     }
+    }
+   },
+   "P1sonra": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   "P3ana": {
+    "a": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 370.6875,
+     "next": 1573.359375
+    },
+    "b": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 370.6875,
+     "next": 1573.359375
+    },
+    "flag": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "shadow": "none",
+     "frShadow": "none",
+     "border": "0px",
+     "r": "4px",
+     "w": 64
+    },
+    "count": {
+     "size": "11px",
+     "color": "rgb(86, 81, 74)",
+     "gap": 4
+    },
+    "name": "13px"
+   },
+   "P3liste": {
+    "before": {
+     "rail": 44,
+     "status": 622
+    },
+    "after": {
+     "rail": 44
+    },
+    "flag": {
+     "shadow": "none",
+     "markBg": "rgba(0, 0, 0, 0)",
+     "r": "4px"
+    }
+   },
+   "P4 ana-v3.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 17,
+    "medias": 17,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     44,
+     44
+    ],
+    "plays": [
+     "none|rgba(0, 0, 0, 0)"
+    ],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "33.2%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 detay-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 4,
+    "medias": 4,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html?gorunum=liste": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "42.1%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   }
+  },
+  "webkit-390": {
+   "P1once": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "dv2-chef",
+      "description-wrap",
+      "dv2-info"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1025,
+      "before": 1724,
+      "after": 1025,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.55,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1025,
+      "before": 1574,
+      "after": 1025,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.55,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 724,
+      "after": 724
+     },
+     "stuck": {
+      "dock": 1025,
+      "before": 1724,
+      "after": 1025,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.55,
+      "stuckClass": true
+     }
+    }
+   },
+   "P1sonra": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 297,
+      "after": 297
+     },
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   "P3ana": {
+    "a": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1594.359375
+    },
+    "b": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1594.359375
+    },
+    "flag": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "shadow": "none",
+     "frShadow": "none",
+     "border": "0px",
+     "r": "4px",
+     "w": 64
+    },
+    "count": {
+     "size": "11px",
+     "color": "rgb(86, 81, 74)",
+     "gap": 4
+    },
+    "name": "13px"
+   },
+   "P3liste": {
+    "before": {
+     "rail": 44,
+     "status": 622
+    },
+    "after": {
+     "rail": 44
+    },
+    "flag": {
+     "shadow": "none",
+     "markBg": "rgba(0, 0, 0, 0)",
+     "r": "4px"
+    }
+   },
+   "P4 ana-v3.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 17,
+    "medias": 17,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     44,
+     44
+    ],
+    "plays": [
+     "none|rgba(0, 0, 0, 0)"
+    ],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 detay-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 4,
+    "medias": 4,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html?gorunum=liste": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "42.1%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   }
+  },
+  "webkit-430": {
+   "P1once": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "dv2-chef",
+      "description-wrap",
+      "dv2-info"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 671,
+      "after": 671
+     },
+     "stuck": {
+      "dock": 972,
+      "before": 1671,
+      "after": 972,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.73,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 671,
+      "after": 671
+     },
+     "stuck": {
+      "dock": 972,
+      "before": 1550,
+      "after": 972,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.73,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 671,
+      "after": 671
+     },
+     "stuck": {
+      "dock": 972,
+      "before": 1671,
+      "after": 972,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.73,
+      "stuckClass": true
+     }
+    }
+   },
+   "P1sonra": {
+    "order": {
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ],
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    },
+    "hazirlanis": {
+     "free": {
+      "before": 262,
+      "after": 262
+     },
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    },
+    "yorumlar": {
+     "free": {
+      "before": 262,
+      "after": 262
+     },
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    },
+    "malzemeler": {
+     "free": {
+      "before": 262,
+      "after": 262
+     },
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   "P3ana": {
+    "a": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1654.359375
+    },
+    "b": {
+     "cat": 182.6875,
+     "cui": 182.6875,
+     "sec": 346.6875,
+     "next": 1654.359375
+    },
+    "flag": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "shadow": "none",
+     "frShadow": "none",
+     "border": "0px",
+     "r": "4px",
+     "w": 64
+    },
+    "count": {
+     "size": "11px",
+     "color": "rgb(86, 81, 74)",
+     "gap": 4
+    },
+    "name": "13px"
+   },
+   "P3liste": {
+    "before": {
+     "rail": 44,
+     "status": 622
+    },
+    "after": {
+     "rail": 44
+    },
+    "flag": {
+     "shadow": "none",
+     "markBg": "rgba(0, 0, 0, 0)",
+     "r": "4px"
+    }
+   },
+   "P4 ana-v3.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 17,
+    "medias": 17,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     44,
+     44
+    ],
+    "plays": [
+     "none|rgba(0, 0, 0, 0)"
+    ],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 detay-v2.html": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 4,
+    "medias": 4,
+    "veilH": [
+     "32.0%"
+    ],
+    "featureText": [],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   },
+   "P4 liste-v2.html?gorunum=liste": {
+    "metaBg": [
+     "rgba(0, 0, 0, 0)|none|none"
+    ],
+    "saveBefore": [
+     "none"
+    ],
+    "saveBg": [
+     "rgba(0, 0, 0, 0)|none"
+    ],
+    "saveSize": [
+     "44x44"
+    ],
+    "saveColor": [
+     "rgb(255, 255, 255)"
+    ],
+    "veils": 12,
+    "medias": 12,
+    "veilH": [
+     "32.0%",
+     "42.1%"
+    ],
+    "featureText": [
+     44,
+     66.296875,
+     66.296875,
+     44
+    ],
+    "plays": [],
+    "inRecipeCard": 0,
+    "saved": {
+     "pressed": "false",
+     "color": "rgb(255, 255, 255)",
+     "bg": "rgba(0, 0, 0, 0)",
+     "before": "none",
+     "gate": true
+    }
+   }
+  }
+ },
+ "results": {
+  "ana-v3.html hata yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "errs": []
+    }
+   },
+   {
+    "ok": false,
+    "detail": {
+     "tag": "chromium-390",
+     "errs": [
+      "failed https://dadagastro.com/varliklar/storage/pagedef/anasayfa/hero/5JfoMeFbRNs8MvkEIzIbY3rOtln0ZIp0WFQpJzBa.webp net::ERR_ABORTED"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "errs": []
+    }
+   }
+  ],
+  "ana-v3.html yatay taşma yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "ana-v3.html outline ikon yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "ana-v3.html seçenek niteliği yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": []
+    }
+   }
+  ],
+  "ana-v3.html görünür metinde iç kod yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "P2 ana sayfada dışa açılan ok düğmesi yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "liste-v2.html hata yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "errs": []
+    }
+   }
+  ],
+  "liste-v2.html yatay taşma yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "liste-v2.html outline ikon yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "liste-v2.html seçenek niteliği yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": []
+    }
+   }
+  ],
+  "liste-v2.html görünür metinde iç kod yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "detay-v2.html hata yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "errs": []
+    }
+   }
+  ],
+  "detay-v2.html yatay taşma yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "detay-v2.html outline ikon yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "detay-v2.html seçenek niteliği yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": []
+    }
+   }
+  ],
+  "detay-v2.html görünür metinde iç kod yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "P0 eski link hatasız": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "errs": []
+    }
+   }
+  ],
+  "P0 detay şef kartı 2 (eski b)": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": "dv2-chef dv2-chef-x dv2-chef-b"
+    }
+   }
+  ],
+  "P0 kart köşesi 16, rozet zemini yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=c&radius=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=c&radius=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=c&radius=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=c&radius=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=c&radius=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=c&radius=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": {
+      "chef": "dv2-chef dv2-chef-x dv2-chef-b",
+      "counter": 0,
+      "dots": 0,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   }
+  ],
+  "P0 kaldırılan parametre yeni bağlantılara taşınmıyor": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=c&radius=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "detay-v2.html?yazar=d&radius=b&rozet=b&gosterge=b&siralama=b&not=a",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": 0
+    }
+   }
+  ],
+  "P0 liste sıralama yalnız ikon 44px": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   }
+  ],
+  "P0 gösterge noktalar, sayaç yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 1,
+      "sortLabel": 0,
+      "sortW": 44,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": ""
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "url": "ana-v3.html?gosterge=b&radius=b&rozet=b&yazar=b",
+     "v": {
+      "chef": "",
+      "counter": 0,
+      "dots": 2,
+      "sortLabel": 0,
+      "cardR": "16px",
+      "metaBg": "rgba(0, 0, 0, 0)",
+      "links": 0,
+      "url": "?gosterge=b&radius=b&rozet=b&yazar=b"
+     }
+    }
+   }
+  ],
+  "P1 serbest çubukta sekme geçişi kaydırmayı korur": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "hazirlanis",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "yorumlar",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "malzemeler",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "hazirlanis",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "yorumlar",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "malzemeler",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "hazirlanis",
+     "free": {
+      "before": 262,
+      "after": 262
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "yorumlar",
+     "free": {
+      "before": 262,
+      "after": 262
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "malzemeler",
+     "free": {
+      "before": 262,
+      "after": 262
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "hazirlanis",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "yorumlar",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "malzemeler",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "hazirlanis",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "yorumlar",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "malzemeler",
+     "free": {
+      "before": 297,
+      "after": 297
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "hazirlanis",
+     "free": {
+      "before": 262,
+      "after": 262
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "yorumlar",
+     "free": {
+      "before": 262,
+      "after": 262
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "malzemeler",
+     "free": {
+      "before": 262,
+      "after": 262
+     }
+    }
+   }
+  ],
+  "P1 yapışık çubuk header altında 0px": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   }
+  ],
+  "P1 yapışık geçişte panel çubuğun hemen altında, kaydırma = çapa": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.88,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 598,
+      "before": 1297,
+      "after": 598,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "hazirlanis",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "yorumlar",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tab": "malzemeler",
+     "stuck": {
+      "dock": 563,
+      "before": 1262,
+      "after": 563,
+      "gapStuck": 0,
+      "barToHeader": 0,
+      "paneToBar": -0.02,
+      "stuckClass": true
+     }
+    }
+   }
+  ],
+  "P1 kuyruk sırası Besin → şef → Hatırlatma/Alerjen → Tarif bilgileri → Benzer": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "tail": [
+      "dv2-nutrition:Besin Değerleri",
+      "dv2-chef",
+      "dv2-info",
+      "recipe-metadata",
+      "dv2-similar:Benzer Tarifler"
+     ]
+    }
+   }
+  ],
+  "P1 çubuğun üstünde özet · özellikler · açıklama": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "head": [
+      "dv2-facts",
+      "dv2-features",
+      "description-wrap"
+     ]
+    }
+   }
+  ],
+  "P2 slaydın tamamı tarife gider": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "st": {
+      "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen: Burcu Akyüz",
+      "href": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "hitHref": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "cover": [
+       0,
+       0
+      ],
+      "photoTarget": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "infoRight": 0,
+      "searchTarget": "arama.html?donus=ana-v3.html"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "st": {
+      "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen: Burcu Akyüz",
+      "href": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "hitHref": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "cover": [
+       0,
+       0
+      ],
+      "photoTarget": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "infoRight": 0,
+      "searchTarget": "arama.html?donus=ana-v3.html"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "st": {
+      "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen: Burcu Akyüz",
+      "href": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "hitHref": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "cover": [
+       0,
+       0
+      ],
+      "photoTarget": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "infoRight": 0,
+      "searchTarget": "arama.html?donus=ana-v3.html"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "st": {
+      "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen:Burcu Akyüz",
+      "href": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "hitHref": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "cover": [
+       0,
+       0
+      ],
+      "photoTarget": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "infoRight": 0,
+      "searchTarget": "arama.html?donus=ana-v3.html"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "st": {
+      "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen:Burcu Akyüz",
+      "href": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "hitHref": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "cover": [
+       0,
+       0
+      ],
+      "photoTarget": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "infoRight": 0,
+      "searchTarget": "arama.html?donus=ana-v3.html"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "st": {
+      "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen:Burcu Akyüz",
+      "href": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "hitHref": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "cover": [
+       0,
+       0
+      ],
+      "photoTarget": "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&donus=ana-v3.html",
+      "infoRight": 0,
+      "searchTarget": "arama.html?donus=ana-v3.html"
+     }
+    }
+   }
+  ],
+  "P2 erişilebilir ad korunur": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen: Burcu Akyüz"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen: Burcu Akyüz"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen: Burcu Akyüz"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen:Burcu Akyüz"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen:Burcu Akyüz"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "name": "Bugün deneyebilirsin · 40 dk Jiao Yan Karides B Tarifi ekleyen:Burcu Akyüz"
+    }
+   }
+  ],
+  "P2 arama hedefi kendi bağlantısı": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "st": "arama.html?donus=ana-v3.html"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "st": "arama.html?donus=ana-v3.html"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "st": "arama.html?donus=ana-v3.html"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "st": "arama.html?donus=ana-v3.html"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "st": "arama.html?donus=ana-v3.html"
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "st": "arama.html?donus=ana-v3.html"
+    }
+   }
+  ],
+  "P2 bilgi bağlantısı tam genişlik (ok boşluğu yok)": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "P2 Ne Pişirsem panelinde de ok düğmesi yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "v": 0
+    }
+   }
+  ],
+  "P3 ana sayfa iki sekme panel yüksekliği eşit (0px)": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "st": {
+      "a": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 370.6875,
+       "next": 1573.359375
+      },
+      "b": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 370.6875,
+       "next": 1573.359375
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "st": {
+      "a": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1594.359375
+      },
+      "b": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1594.359375
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "st": {
+      "a": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1654.359375
+      },
+      "b": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1654.359375
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "st": {
+      "a": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 370.6875,
+       "next": 1573.359375
+      },
+      "b": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 370.6875,
+       "next": 1573.359375
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "st": {
+      "a": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1594.359375
+      },
+      "b": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1594.359375
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "st": {
+      "a": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1654.359375
+      },
+      "b": {
+       "cat": 182.6875,
+       "cui": 182.6875,
+       "sec": 346.6875,
+       "next": 1654.359375
+      }
+     }
+    }
+   }
+  ],
+  "P3 ana sayfa bayrak çıplak": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "flag": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "shadow": "none",
+      "frShadow": "none",
+      "border": "0px",
+      "r": "4px",
+      "w": 64
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "flag": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "shadow": "none",
+      "frShadow": "none",
+      "border": "0px",
+      "r": "4px",
+      "w": 64
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "flag": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "shadow": "none",
+      "frShadow": "none",
+      "border": "0px",
+      "r": "4px",
+      "w": 64
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "flag": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "shadow": "none",
+      "frShadow": "none",
+      "border": "0px",
+      "r": "4px",
+      "w": 64
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "flag": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "shadow": "none",
+      "frShadow": "none",
+      "border": "0px",
+      "r": "4px",
+      "w": 64
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "flag": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "shadow": "none",
+      "frShadow": "none",
+      "border": "0px",
+      "r": "4px",
+      "w": 64
+     }
+    }
+   }
+  ],
+  "P3 ana sayfa sayı etiket ölçeği, sönük": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "count": {
+      "size": "11px",
+      "color": "rgb(86, 81, 74)",
+      "gap": 4
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "count": {
+      "size": "11px",
+      "color": "rgb(86, 81, 74)",
+      "gap": 4
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "count": {
+      "size": "11px",
+      "color": "rgb(86, 81, 74)",
+      "gap": 4
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "count": {
+      "size": "11px",
+      "color": "rgb(86, 81, 74)",
+      "gap": 4
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "count": {
+      "size": "11px",
+      "color": "rgb(86, 81, 74)",
+      "gap": 4
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "count": {
+      "size": "11px",
+      "color": "rgb(86, 81, 74)",
+      "gap": 4
+     }
+    }
+   }
+  ],
+  "P3 liste iki sekme şerit yüksekliği eşit (0px)": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "ls": {
+      "before": {
+       "rail": 44,
+       "status": 622
+      },
+      "after": {
+       "rail": 44
+      },
+      "flag": {
+       "shadow": "none",
+       "markBg": "rgba(0, 0, 0, 0)",
+       "r": "4px"
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "ls": {
+      "before": {
+       "rail": 44,
+       "status": 622
+      },
+      "after": {
+       "rail": 44
+      },
+      "flag": {
+       "shadow": "none",
+       "markBg": "rgba(0, 0, 0, 0)",
+       "r": "4px"
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "ls": {
+      "before": {
+       "rail": 44,
+       "status": 622
+      },
+      "after": {
+       "rail": 44
+      },
+      "flag": {
+       "shadow": "none",
+       "markBg": "rgba(0, 0, 0, 0)",
+       "r": "4px"
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "ls": {
+      "before": {
+       "rail": 44,
+       "status": 622
+      },
+      "after": {
+       "rail": 44
+      },
+      "flag": {
+       "shadow": "none",
+       "markBg": "rgba(0, 0, 0, 0)",
+       "r": "4px"
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "ls": {
+      "before": {
+       "rail": 44,
+       "status": 622
+      },
+      "after": {
+       "rail": 44
+      },
+      "flag": {
+       "shadow": "none",
+       "markBg": "rgba(0, 0, 0, 0)",
+       "r": "4px"
+      }
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "ls": {
+      "before": {
+       "rail": 44,
+       "status": 622
+      },
+      "after": {
+       "rail": 44
+      },
+      "flag": {
+       "shadow": "none",
+       "markBg": "rgba(0, 0, 0, 0)",
+       "r": "4px"
+      }
+     }
+    }
+   }
+  ],
+  "P3 liste bayrak çıplak": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "ls": {
+      "shadow": "none",
+      "markBg": "rgba(0, 0, 0, 0)",
+      "r": "4px"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "ls": {
+      "shadow": "none",
+      "markBg": "rgba(0, 0, 0, 0)",
+      "r": "4px"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "ls": {
+      "shadow": "none",
+      "markBg": "rgba(0, 0, 0, 0)",
+      "r": "4px"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "ls": {
+      "shadow": "none",
+      "markBg": "rgba(0, 0, 0, 0)",
+      "r": "4px"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "ls": {
+      "shadow": "none",
+      "markBg": "rgba(0, 0, 0, 0)",
+      "r": "4px"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "ls": {
+      "shadow": "none",
+      "markBg": "rgba(0, 0, 0, 0)",
+      "r": "4px"
+     }
+    }
+   }
+  ],
+  "P4 süre/puan rozet zemini yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "rgba(0, 0, 0, 0)|none|none"
+     ]
+    }
+   }
+  ],
+  "P4 kaydet zeminsiz, 44×44, beyaz": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 17,
+      "medias": 17,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       44,
+       44
+      ],
+      "plays": [
+       "none|rgba(0, 0, 0, 0)"
+      ],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "33.2%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 4,
+      "medias": 4,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "42.1%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 17,
+      "medias": 17,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       44,
+       44
+      ],
+      "plays": [
+       "none|rgba(0, 0, 0, 0)"
+      ],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 4,
+      "medias": 4,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "42.1%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 17,
+      "medias": 17,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       44,
+       44
+      ],
+      "plays": [
+       "none|rgba(0, 0, 0, 0)"
+      ],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 4,
+      "medias": 4,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "42.1%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 17,
+      "medias": 17,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       44,
+       44
+      ],
+      "plays": [
+       "none|rgba(0, 0, 0, 0)"
+      ],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "33.2%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 4,
+      "medias": 4,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "42.1%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 17,
+      "medias": 17,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       44,
+       44
+      ],
+      "plays": [
+       "none|rgba(0, 0, 0, 0)"
+      ],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 4,
+      "medias": 4,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "42.1%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 17,
+      "medias": 17,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       44,
+       44
+      ],
+      "plays": [
+       "none|rgba(0, 0, 0, 0)"
+      ],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 4,
+      "medias": 4,
+      "veilH": [
+       "32.0%"
+      ],
+      "featureText": [],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": {
+      "metaBg": [
+       "rgba(0, 0, 0, 0)|none|none"
+      ],
+      "saveBefore": [
+       "none"
+      ],
+      "saveBg": [
+       "rgba(0, 0, 0, 0)|none"
+      ],
+      "saveSize": [
+       "44x44"
+      ],
+      "saveColor": [
+       "rgb(255, 255, 255)"
+      ],
+      "veils": 12,
+      "medias": 12,
+      "veilH": [
+       "32.0%",
+       "42.1%"
+      ],
+      "featureText": [
+       44,
+       66.296875,
+       66.296875,
+       44
+      ],
+      "plays": [],
+      "inRecipeCard": 0
+     }
+    }
+   }
+  ],
+  "P4 her görselde üst geçiş": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": [
+      17,
+      17,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "33.2%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "v": [
+      4,
+      4,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "42.1%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": [
+      17,
+      17,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "v": [
+      4,
+      4,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "42.1%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": [
+      17,
+      17,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "v": [
+      4,
+      4,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "42.1%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": [
+      17,
+      17,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "33.2%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "v": [
+      4,
+      4,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "42.1%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": [
+      17,
+      17,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "v": [
+      4,
+      4,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "42.1%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": [
+      17,
+      17,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "v": [
+      4,
+      4,
+      [
+       "32.0%"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      12,
+      12,
+      [
+       "32.0%",
+       "42.1%"
+      ]
+     ]
+    }
+   }
+  ],
+  "EK kartlarda yıldız/puan yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   }
+  ],
+  "EK süre/görüntülenme kalın, saat + göz ikonu": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "80 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk3",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "160 dk1",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "75 dk",
+       "icons": "clock"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk98",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "80 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk3",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "160 dk1",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "75 dk",
+       "icons": "clock"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk98",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "80 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk3",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "160 dk1",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "75 dk",
+       "icons": "clock"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk98",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "80 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk3",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "160 dk1",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "75 dk",
+       "icons": "clock"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk98",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "80 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk3",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "160 dk1",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "75 dk",
+       "icons": "clock"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk98",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "80 dk3",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk3",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "160 dk1",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "75 dk",
+       "icons": "clock"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk98",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "55 dk172",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "15 dk156",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "60 dk154",
+       "icons": "clock,eye"
+      },
+      {
+       "w": "700",
+       "f": "GilroyBd",
+       "t": "45 dk154",
+       "icons": "clock,eye"
+      }
+     ]
+    }
+   }
+  ],
+  "EK kategori kartında kutulu sayı etiketi yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "v": 0
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": 0
+    }
+   }
+  ],
+  "P5 öne çıkan kart bağlantısı ≥ 44px": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": [
+      44,
+      44,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": [
+      44,
+      44,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": [
+      44,
+      44,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": [
+      44,
+      44,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": [
+      44,
+      44,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": [
+      44,
+      44,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      44,
+      66.296875,
+      66.296875,
+      44
+     ]
+    }
+   }
+  ],
+  "EK görüntülenme biçimi (0 ve yok çizilmez, Türkçe kısaltma)": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "v": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "1"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "v": [
+      "1",
+      "98",
+      "154"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "v": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "1"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "v": [
+      "1",
+      "98",
+      "154"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "v": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "1"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "v": [
+      "1",
+      "98",
+      "154"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "v": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "1"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "v": [
+      "1",
+      "98",
+      "154"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "v": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "1"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "v": [
+      "1",
+      "98",
+      "154"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "v": [
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "1"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "v": [
+      "1",
+      "98",
+      "154"
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "v": [
+      "172",
+      "156",
+      "154",
+      "154",
+      "3",
+      "3"
+     ]
+    }
+   }
+  ],
+  "P4 kaydedilince ikon primary, zemin yok": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "ana-v3.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "detay-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "ana-v3.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "detay-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "ana-v3.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "detay-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "ana-v3.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "detay-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "pg": "liste-v2.html?gorunum=liste",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "ana-v3.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "detay-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "pg": "liste-v2.html?gorunum=liste",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "ana-v3.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "detay-v2.html",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "pg": "liste-v2.html?gorunum=liste",
+     "saved": {
+      "pressed": "false",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "before": "none",
+      "gate": true
+     }
+    }
+   }
+  ],
+  "Sağ menü üç ekranda aynı": [
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-360",
+     "n": 38,
+     "hedefFarki": [
+      [
+       "Ne Pişirsem?→",
+       "Ne Pişirsem?→ana-v3.html"
+      ],
+      [
+       "Dolapta Ne Var?→",
+       "Dolapta Ne Var?→ana-v3.html"
+      ],
+      [
+       "Püf Noktaları→",
+       "Püf Noktaları→ana-v3.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-390",
+     "n": 38,
+     "hedefFarki": [
+      [
+       "Ne Pişirsem?→",
+       "Ne Pişirsem?→ana-v3.html"
+      ],
+      [
+       "Dolapta Ne Var?→",
+       "Dolapta Ne Var?→ana-v3.html"
+      ],
+      [
+       "Püf Noktaları→",
+       "Püf Noktaları→ana-v3.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "chromium-430",
+     "n": 38,
+     "hedefFarki": [
+      [
+       "Ne Pişirsem?→",
+       "Ne Pişirsem?→ana-v3.html"
+      ],
+      [
+       "Dolapta Ne Var?→",
+       "Dolapta Ne Var?→ana-v3.html"
+      ],
+      [
+       "Püf Noktaları→",
+       "Püf Noktaları→ana-v3.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-360",
+     "n": 38,
+     "hedefFarki": [
+      [
+       "Ne Pişirsem?→",
+       "Ne Pişirsem?→ana-v3.html"
+      ],
+      [
+       "Dolapta Ne Var?→",
+       "Dolapta Ne Var?→ana-v3.html"
+      ],
+      [
+       "Püf Noktaları→",
+       "Püf Noktaları→ana-v3.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-390",
+     "n": 38,
+     "hedefFarki": [
+      [
+       "Ne Pişirsem?→",
+       "Ne Pişirsem?→ana-v3.html"
+      ],
+      [
+       "Dolapta Ne Var?→",
+       "Dolapta Ne Var?→ana-v3.html"
+      ],
+      [
+       "Püf Noktaları→",
+       "Püf Noktaları→ana-v3.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "tag": "webkit-430",
+     "n": 38,
+     "hedefFarki": [
+      [
+       "Ne Pişirsem?→",
+       "Ne Pişirsem?→ana-v3.html"
+      ],
+      [
+       "Dolapta Ne Var?→",
+       "Dolapta Ne Var?→ana-v3.html"
+      ],
+      [
+       "Püf Noktaları→",
+       "Püf Noktaları→ana-v3.html"
+      ]
+     ]
+    }
+   }
+  ],
+  "P6 üç çerçeve parametresiz 390×844": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 1440,
+     "v": [
+      [
+       "ana-v3.html",
+       390,
+       390,
+       844,
+       390
+      ],
+      [
+       "liste-v2.html",
+       390,
+       390,
+       844,
+       390
+      ],
+      [
+       "detay-v2.html",
+       390,
+       390,
+       844,
+       390
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 390,
+     "v": [
+      [
+       "ana-v3.html",
+       349.98602294921875,
+       390,
+       844,
+       390
+      ],
+      [
+       "liste-v2.html",
+       349.98602294921875,
+       390,
+       844,
+       390
+      ],
+      [
+       "detay-v2.html",
+       349.98602294921875,
+       390,
+       844,
+       390
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 1440,
+     "v": [
+      [
+       "ana-v3.html",
+       390,
+       390,
+       844,
+       390
+      ],
+      [
+       "liste-v2.html",
+       390,
+       390,
+       844,
+       390
+      ],
+      [
+       "detay-v2.html",
+       390,
+       390,
+       844,
+       390
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 390,
+     "v": [
+      [
+       "ana-v3.html",
+       349.9859924316406,
+       390,
+       844,
+       390
+      ],
+      [
+       "liste-v2.html",
+       349.9859924316406,
+       390,
+       844,
+       390
+      ],
+      [
+       "detay-v2.html",
+       349.9859924316406,
+       390,
+       844,
+       390
+      ]
+     ]
+    }
+   }
+  ],
+  "P6 başlıklar ve tam ekran bağlantıları": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 1440,
+     "st": [
+      [
+       "1. Ana Sayfa",
+       "2. Tarif Listesi",
+       "3. Tarif Detay"
+      ],
+      [
+       "ana-v3.html",
+       "liste-v2.html",
+       "detay-v2.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 390,
+     "st": [
+      [
+       "1. Ana Sayfa",
+       "2. Tarif Listesi",
+       "3. Tarif Detay"
+      ],
+      [
+       "ana-v3.html",
+       "liste-v2.html",
+       "detay-v2.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 1440,
+     "st": [
+      [
+       "1. Ana Sayfa",
+       "2. Tarif Listesi",
+       "3. Tarif Detay"
+      ],
+      [
+       "ana-v3.html",
+       "liste-v2.html",
+       "detay-v2.html"
+      ]
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 390,
+     "st": [
+      [
+       "1. Ana Sayfa",
+       "2. Tarif Listesi",
+       "3. Tarif Detay"
+      ],
+      [
+       "ana-v3.html",
+       "liste-v2.html",
+       "detay-v2.html"
+      ]
+     ]
+    }
+   }
+  ],
+  "P6 taşma yok, hata yok": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 1440,
+     "overflow": 0,
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 390,
+     "overflow": 0,
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 1440,
+     "overflow": 0,
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 390,
+     "overflow": 0,
+     "errs": []
+    }
+   }
+  ],
+  "P6 görünür metinde iç kod / seçenek yok": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 1440
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 390
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 1440
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 390
+    }
+   }
+  ],
+  "P6 masaüstünde üçü yan yana, sekme yok": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 1440,
+     "st": [
+      "none",
+      3
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 1440,
+     "st": [
+      "none",
+      3
+     ]
+    }
+   }
+  ],
+  "P6 ana sayfa kartı → detay (çerçeve içinde)": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "n1": {
+      "href": "detay-v2.html?tarif=tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart&donus=ana-v3.html",
+      "url": "http://127.0.0.1:8765/v3-app/detay-v2.html?tarif=tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart&donus=ana-v3.html"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "n1": {
+      "href": "detay-v2.html?tarif=tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart&donus=ana-v3.html",
+      "url": "http://127.0.0.1:8765/v3-app/detay-v2.html?tarif=tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart&donus=ana-v3.html"
+     }
+    }
+   }
+  ],
+  "P6 Tümü → liste (çerçeve içinde)": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "n2": {
+      "href": "liste-v2.html?sirala=en_yeni",
+      "url": "http://127.0.0.1:8765/v3-app/liste-v2.html?sirala=en_yeni"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "n2": {
+      "href": "liste-v2.html?sirala=en_yeni",
+      "url": "http://127.0.0.1:8765/v3-app/liste-v2.html?sirala=en_yeni"
+     }
+    }
+   }
+  ],
+  "P6 liste kartı → detay (çerçeve içinde)": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "n3": {
+      "href": "detay-v2.html?tarif=patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver&donus=liste-v2.html",
+      "url": "http://127.0.0.1:8765/v3-app/detay-v2.html?tarif=patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver&donus=liste-v2.html"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "n3": {
+      "href": "detay-v2.html?tarif=patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver&donus=liste-v2.html",
+      "url": "http://127.0.0.1:8765/v3-app/detay-v2.html?tarif=patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver&donus=liste-v2.html"
+     }
+    }
+   }
+  ],
+  "P6 benzer tarif → detay (çerçeve içinde)": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "n4": {
+      "href": "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+      "url": "http://127.0.0.1:8765/v3-app/detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek"
+     }
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "n4": {
+      "href": "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+      "url": "http://127.0.0.1:8765/v3-app/detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek"
+     }
+    }
+   }
+  ],
+  "P6 gezinmede hata yok": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "errs": []
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "errs": []
+    }
+   }
+  ],
+  "P6 dar ekranda sekmeli tek ekran": [
+   {
+    "ok": true,
+    "detail": {
+     "name": "chromium",
+     "w": 390,
+     "st": [
+      "grid",
+      1
+     ]
+    }
+   },
+   {
+    "ok": true,
+    "detail": {
+     "name": "webkit",
+     "w": 390,
+     "st": [
+      "grid",
+      1
+     ]
+    }
+   }
+  ]
+ }
+}

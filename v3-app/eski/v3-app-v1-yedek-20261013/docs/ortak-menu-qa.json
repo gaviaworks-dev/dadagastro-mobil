@@ -1,0 +1,317 @@
+{
+ "tarih": "2026-10-09T17:16:25.520Z",
+ "gorunumler": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "misafir": {
+    "width": 310,
+    "right": 0,
+    "overflow": false,
+    "labels": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Görüş Bildir"
+    ],
+    "rowHeights": [
+     48
+    ],
+    "iconSize": [
+     "18px"
+    ],
+    "textSize": [
+     "15px"
+    ],
+    "logo": 64,
+    "logoSrc": "assets/marka/dadagastro-renkli.svg",
+    "dividers": 7,
+    "items": 8,
+    "small": [],
+    "activeContrast": 5.67,
+    "rowContrast": 16.64,
+    "open": 0
+   },
+   "eylemler": "Dolapta Ne Var → kayıtlı dolap; Kategoriler/Dünya Mutfakları → kategori modülü sekmesi; Ne Pişirsem → Tarif bul paneli; Püf Noktaları → püf sheet; Tabaktan Tarif → tabaktan-tarif.html",
+   "uye": {
+    "etiketler": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Hesabım",
+     "Görüş Bildir"
+    ],
+    "kisayollar": 3,
+    "hesap_satirlari": 10
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "misafir": {
+    "width": 335,
+    "right": 0,
+    "overflow": false,
+    "labels": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Görüş Bildir"
+    ],
+    "rowHeights": [
+     48
+    ],
+    "iconSize": [
+     "18px"
+    ],
+    "textSize": [
+     "15px"
+    ],
+    "logo": 64,
+    "logoSrc": "assets/marka/dadagastro-renkli.svg",
+    "dividers": 7,
+    "items": 8,
+    "small": [],
+    "activeContrast": 5.67,
+    "rowContrast": 16.64,
+    "open": 0
+   },
+   "eylemler": "Dolapta Ne Var → kayıtlı dolap; Kategoriler/Dünya Mutfakları → kategori modülü sekmesi; Ne Pişirsem → Tarif bul paneli; Püf Noktaları → püf sheet; Tabaktan Tarif → tabaktan-tarif.html",
+   "uye": {
+    "etiketler": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Hesabım",
+     "Görüş Bildir"
+    ],
+    "kisayollar": 3,
+    "hesap_satirlari": 10
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "misafir": {
+    "width": 360,
+    "right": 0,
+    "overflow": false,
+    "labels": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Görüş Bildir"
+    ],
+    "rowHeights": [
+     48
+    ],
+    "iconSize": [
+     "18px"
+    ],
+    "textSize": [
+     "15px"
+    ],
+    "logo": 64,
+    "logoSrc": "assets/marka/dadagastro-renkli.svg",
+    "dividers": 7,
+    "items": 8,
+    "small": [],
+    "activeContrast": 5.67,
+    "rowContrast": 16.64,
+    "open": 0
+   },
+   "eylemler": "Dolapta Ne Var → kayıtlı dolap; Kategoriler/Dünya Mutfakları → kategori modülü sekmesi; Ne Pişirsem → Tarif bul paneli; Püf Noktaları → püf sheet; Tabaktan Tarif → tabaktan-tarif.html",
+   "uye": {
+    "etiketler": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Hesabım",
+     "Görüş Bildir"
+    ],
+    "kisayollar": 3,
+    "hesap_satirlari": 10
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "misafir": {
+    "width": 310,
+    "right": 0,
+    "overflow": false,
+    "labels": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Görüş Bildir"
+    ],
+    "rowHeights": [
+     48
+    ],
+    "iconSize": [
+     "18px"
+    ],
+    "textSize": [
+     "15px"
+    ],
+    "logo": 64,
+    "logoSrc": "assets/marka/dadagastro-renkli.svg",
+    "dividers": 7,
+    "items": 8,
+    "small": [],
+    "activeContrast": 5.67,
+    "rowContrast": 16.64,
+    "open": 0
+   },
+   "eylemler": "Dolapta Ne Var → kayıtlı dolap; Kategoriler/Dünya Mutfakları → kategori modülü sekmesi; Ne Pişirsem → Tarif bul paneli; Püf Noktaları → püf sheet; Tabaktan Tarif → tabaktan-tarif.html",
+   "uye": {
+    "etiketler": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Hesabım",
+     "Görüş Bildir"
+    ],
+    "kisayollar": 3,
+    "hesap_satirlari": 10
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "misafir": {
+    "width": 335,
+    "right": 0,
+    "overflow": false,
+    "labels": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Görüş Bildir"
+    ],
+    "rowHeights": [
+     48
+    ],
+    "iconSize": [
+     "18px"
+    ],
+    "textSize": [
+     "15px"
+    ],
+    "logo": 64,
+    "logoSrc": "assets/marka/dadagastro-renkli.svg",
+    "dividers": 7,
+    "items": 8,
+    "small": [],
+    "activeContrast": 5.67,
+    "rowContrast": 16.64,
+    "open": 0
+   },
+   "eylemler": "Dolapta Ne Var → kayıtlı dolap; Kategoriler/Dünya Mutfakları → kategori modülü sekmesi; Ne Pişirsem → Tarif bul paneli; Püf Noktaları → püf sheet; Tabaktan Tarif → tabaktan-tarif.html",
+   "uye": {
+    "etiketler": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Hesabım",
+     "Görüş Bildir"
+    ],
+    "kisayollar": 3,
+    "hesap_satirlari": 10
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "misafir": {
+    "width": 360,
+    "right": 0,
+    "overflow": false,
+    "labels": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Görüş Bildir"
+    ],
+    "rowHeights": [
+     48
+    ],
+    "iconSize": [
+     "18px"
+    ],
+    "textSize": [
+     "15px"
+    ],
+    "logo": 64,
+    "logoSrc": "assets/marka/dadagastro-renkli.svg",
+    "dividers": 7,
+    "items": 8,
+    "small": [],
+    "activeContrast": 5.67,
+    "rowContrast": 16.64,
+    "open": 0
+   },
+   "eylemler": "Dolapta Ne Var → kayıtlı dolap; Kategoriler/Dünya Mutfakları → kategori modülü sekmesi; Ne Pişirsem → Tarif bul paneli; Püf Noktaları → püf sheet; Tabaktan Tarif → tabaktan-tarif.html",
+   "uye": {
+    "etiketler": [
+     "Ana Sayfa",
+     "Tarifler",
+     "Ne Pişirsem?",
+     "Dolapta Ne Var?",
+     "Püf Noktaları",
+     "Tabaktan Tarif",
+     "Mutfak Sırları",
+     "Hesabım",
+     "Görüş Bildir"
+    ],
+    "kisayollar": 3,
+    "hesap_satirlari": 10
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+import {chromium} from '/Users/gaviaworks/Developer/Backend Projects/dadagastro/node_modules/playwright/index.mjs';
+import fs from 'node:fs';
+const dir='v3-app/verification/a-primary-join', rows=JSON.parse(fs.readFileSync(`${dir}/after.json`));
+const b=await chromium.launch(),p=await b.newPage({viewport:{width:860,height:1200}});
+const uri=(n,w)=>'data:image/png;base64,'+fs.readFileSync(`${dir}/after-${n}-${w}.png`).toString('base64');
+const crop=(n,w)=>{const r=rows.find(x=>x.name===n&&x.width===w);return `<div style="height:160px;overflow:hidden"><img style="display:block;transform:translateY(-${r.panelTop-60}px)" src="${uri(n,w)}"></div>`};
+await p.setContent(`<body style="margin:0;background:#eee;font:16px sans-serif;display:grid;grid-template-columns:430px 430px">${[360,390,430].flatMap(w=>['a','a-uzun','a-orta','a-kisa'].map(n=>`<section>Kaynak D · ${w}px${crop('d',w)}</section><section>Hedef ${n.toUpperCase()} · ${w}px${crop(n,w)}</section>`)).join('')}</body>`);
+await p.screenshot({path:`${dir}/source-target-all.png`,fullPage:true});
+await p.setViewportSize({width:780,height:880});await p.setContent(`<body style="margin:0;display:flex;font:18px sans-serif"><div>Kaynak · Canın ne çekiyor?<img style="display:block" src="${uri('d',390)}"></div><div>Hedef · Ne pişirsem?<img style="display:block" src="${uri('a',390)}"></div></body>`);await p.screenshot({path:`${dir}/source-target.png`,fullPage:true});
+await b.close();
+const a=rows.filter(r=>r.name?.startsWith('a'));console.log(JSON.stringify({source:rows.find(r=>r.name==='d'),targets:a.map(r=>({name:r.name,width:r.width,radius:r.panelRadius,border:r.panelBorder,color:r.panelColor,overlap:r.overlap,heroRadius:r.bannerRadius,answerGap:r.answerGap,overflow:r.overflow,headerOverlaps:r.scrollChecks.filter(s=>s.overlaps).length})),gallery:rows.at(-1)},null,2));

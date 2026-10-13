@@ -1,0 +1,844 @@
+{
+ "engine": "chromium",
+ "edgeAlpha": ".45",
+ "measured": 199,
+ "min": {
+  "where": "ana · video",
+  "title": "Meal Prep: 1 Saatte Haftalık Sebze Hazır",
+  "brightest": [
+   156,
+   154,
+   151
+  ],
+  "meanLuma": 105,
+  "ratio": 2.81
+ },
+ "below45": 47,
+ "rows": [
+  {
+   "where": "ana · video",
+   "title": "Meal Prep: 1 Saatte Haftalık Sebze Hazır",
+   "brightest": [
+    156,
+    154,
+    151
+   ],
+   "meanLuma": 105,
+   "ratio": 2.81
+  },
+  {
+   "where": "ana · video",
+   "title": "Pratik Kahvaltı Tabağı — 5 Dakika",
+   "brightest": [
+    156,
+    154,
+    151
+   ],
+   "meanLuma": 143,
+   "ratio": 2.81
+  },
+  {
+   "where": "ana · video",
+   "title": "Bıçak Tutuşu ve Julyen Doğrama",
+   "brightest": [
+    156,
+    154,
+    151
+   ],
+   "meanLuma": 105,
+   "ratio": 2.81
+  },
+  {
+   "where": "liste · satır",
+   "title": "Sagdana | Suudi Arabistan Hicaz Usulü Ka",
+   "brightest": [
+    156,
+    154,
+    150
+   ],
+   "meanLuma": 148,
+   "ratio": 2.81
+  },
+  {
+   "where": "ana · video",
+   "title": "Gaziantep Baklavası — Ustadan İzle",
+   "brightest": [
+    155,
+    154,
+    150
+   ],
+   "meanLuma": 153,
+   "ratio": 2.82
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Sagdana | Suudi Arabistan Hicaz Usulü Ka",
+   "brightest": [
+    155,
+    154,
+    149
+   ],
+   "meanLuma": 132,
+   "ratio": 2.82
+  },
+  {
+   "where": "ana · video",
+   "title": "Tam Kıvamında Karnıyarık — Şefin Bütün S",
+   "brightest": [
+    153,
+    154,
+    148
+   ],
+   "meanLuma": 149,
+   "ratio": 2.84
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Frijoles Refritos | Meksika Usulü Ezme F",
+   "brightest": [
+    154,
+    153,
+    149
+   ],
+   "meanLuma": 135,
+   "ratio": 2.85
+  },
+  {
+   "where": "liste · satır",
+   "title": "Ördek Dolması | Fırında İç Pilavlı Bütün",
+   "brightest": [
+    154,
+    153,
+    148
+   ],
+   "meanLuma": 119,
+   "ratio": 2.85
+  },
+  {
+   "where": "liste · satır",
+   "title": "Asam Pedas | Malezya Usulü Demirhindili ",
+   "brightest": [
+    154,
+    153,
+    150
+   ],
+   "meanLuma": 83,
+   "ratio": 2.85
+  },
+  {
+   "where": "liste · satır",
+   "title": "Frijoles Refritos | Meksika Usulü Ezme F",
+   "brightest": [
+    154,
+    152,
+    147
+   ],
+   "meanLuma": 128,
+   "ratio": 2.88
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Karabuğday Kaplamalı Levrek | Fırında Ta",
+   "brightest": [
+    151,
+    149,
+    147
+   ],
+   "meanLuma": 116,
+   "ratio": 2.98
+  },
+  {
+   "where": "liste · satır",
+   "title": "Karabuğday Kaplamalı Levrek | Fırında Ta",
+   "brightest": [
+    151,
+    149,
+    147
+   ],
+   "meanLuma": 116,
+   "ratio": 2.98
+  },
+  {
+   "where": "liste · satır",
+   "title": "Enfrijoladas | Meksika Usulü Fasulye Sos",
+   "brightest": [
+    151,
+    149,
+    146
+   ],
+   "meanLuma": 103,
+   "ratio": 2.99
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Güveçte Ayvalı Tavuk | Mayhoş Ayvayla Kı",
+   "brightest": [
+    151,
+    148,
+    142
+   ],
+   "meanLuma": 84,
+   "ratio": 3.02
+  },
+  {
+   "where": "ana · küçük kart",
+   "title": "Güveçte Ayvalı Tavuk | Mayhoş Ayvayla Kı",
+   "brightest": [
+    150,
+    148,
+    143
+   ],
+   "meanLuma": 105,
+   "ratio": 3.03
+  },
+  {
+   "where": "liste · satır",
+   "title": "Güveçte Ayvalı Tavuk | Mayhoş Ayvayla Kı",
+   "brightest": [
+    149,
+    148,
+    142
+   ],
+   "meanLuma": 91,
+   "ratio": 3.04
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Sardalya Izgara | Limon Kekikli",
+   "brightest": [
+    147,
+    147,
+    143
+   ],
+   "meanLuma": 111,
+   "ratio": 3.08
+  },
+  {
+   "where": "liste · satır",
+   "title": "Sardalya Izgara | Limon Kekikli",
+   "brightest": [
+    146,
+    146,
+    143
+   ],
+   "meanLuma": 95,
+   "ratio": 3.12
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Enfrijoladas | Meksika Usulü Fasulye Sos",
+   "brightest": [
+    146,
+    145,
+    141
+   ],
+   "meanLuma": 83,
+   "ratio": 3.15
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Patates Mücveri | Çiğ Rendelenmiş Patate",
+   "brightest": [
+    147,
+    143,
+    137
+   ],
+   "meanLuma": 104,
+   "ratio": 3.22
+  },
+  {
+   "where": "liste · satır",
+   "title": "İran Usulü Baharatlı Acılı Balık Kebabı ",
+   "brightest": [
+    145,
+    143,
+    138
+   ],
+   "meanLuma": 102,
+   "ratio": 3.23
+  },
+  {
+   "where": "liste · satır",
+   "title": "Patates Mücveri | Çiğ Rendelenmiş Patate",
+   "brightest": [
+    151,
+    140,
+    129
+   ],
+   "meanLuma": 96,
+   "ratio": 3.29
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Moin Moin | Nijerya Usulü Buharda Börülc",
+   "brightest": [
+    142,
+    139,
+    129
+   ],
+   "meanLuma": 85,
+   "ratio": 3.41
+  },
+  {
+   "where": "liste · satır",
+   "title": "Jiao Yan Karides | Çin Usulü Tuz ve Bibe",
+   "brightest": [
+    140,
+    139,
+    136
+   ],
+   "meanLuma": 114,
+   "ratio": 3.41
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Chelsea Bun | Yeni Zelanda Usulü Tarçınl",
+   "brightest": [
+    140,
+    138,
+    132
+   ],
+   "meanLuma": 123,
+   "ratio": 3.45
+  },
+  {
+   "where": "detay · benzer",
+   "title": "Ördek Dolması | Fırında İç Pilavlı Bütün",
+   "brightest": [
+    139,
+    138,
+    133
+   ],
+   "meanLuma": 131,
+   "ratio": 3.46
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Ördek Dolması | Fırında İç Pilavlı Bütün",
+   "brightest": [
+    138,
+    137,
+    132
+   ],
+   "meanLuma": 129,
+   "ratio": 3.5
+  },
+  {
+   "where": "liste · satır",
+   "title": "Chelsea Bun | Yeni Zelanda Usulü Tarçınl",
+   "brightest": [
+    140,
+    136,
+    130
+   ],
+   "meanLuma": 124,
+   "ratio": 3.52
+  },
+  {
+   "where": "liste · satır",
+   "title": "Mamounia | Halep Usulü Tereyağlı İrmik K",
+   "brightest": [
+    138,
+    136,
+    132
+   ],
+   "meanLuma": 122,
+   "ratio": 3.54
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Tamriyeh | Şam Usulü İrmik Kremalı Hurma",
+   "brightest": [
+    137,
+    136,
+    132
+   ],
+   "meanLuma": 135,
+   "ratio": 3.55
+  },
+  {
+   "where": "liste · satır",
+   "title": "Tamriyeh | Şam Usulü İrmik Kremalı Hurma",
+   "brightest": [
+    137,
+    136,
+    132
+   ],
+   "meanLuma": 135,
+   "ratio": 3.55
+  },
+  {
+   "where": "liste · satır",
+   "title": "Pastéis de Feijão | Portekiz Torres Vedr",
+   "brightest": [
+    137,
+    135,
+    132
+   ],
+   "meanLuma": 85,
+   "ratio": 3.58
+  },
+  {
+   "where": "liste · satır",
+   "title": "Moin Moin | Nijerya Usulü Buharda Börülc",
+   "brightest": [
+    140,
+    134,
+    125
+   ],
+   "meanLuma": 108,
+   "ratio": 3.61
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Pastéis de Feijão | Portekiz Torres Vedr",
+   "brightest": [
+    135,
+    134,
+    131
+   ],
+   "meanLuma": 98,
+   "ratio": 3.64
+  },
+  {
+   "where": "liste · satır",
+   "title": "Waakye | Gana Usulü Sorgum Yapraklı Piri",
+   "brightest": [
+    132,
+    130,
+    126
+   ],
+   "meanLuma": 80,
+   "ratio": 3.84
+  },
+  {
+   "where": "ana · öne çıkan",
+   "title": "Patates Mücveri | Çiğ Rendelenmiş Patate",
+   "brightest": [
+    135,
+    129,
+    119
+   ],
+   "meanLuma": 94,
+   "ratio": 3.86
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Lor Dolması | Bayburt Usulü Lorlu Yaprak",
+   "brightest": [
+    130,
+    129,
+    124
+   ],
+   "meanLuma": 93,
+   "ratio": 3.9
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Waakye | Gana Usulü Sorgum Yapraklı Piri",
+   "brightest": [
+    130,
+    129,
+    124
+   ],
+   "meanLuma": 75,
+   "ratio": 3.9
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Mamounia | Halep Usulü Tereyağlı İrmik K",
+   "brightest": [
+    132,
+    128,
+    123
+   ],
+   "meanLuma": 121,
+   "ratio": 3.92
+  },
+  {
+   "where": "detay · benzer",
+   "title": "Lor Dolması | Bayburt Usulü Lorlu Yaprak",
+   "brightest": [
+    128,
+    128,
+    124
+   ],
+   "meanLuma": 111,
+   "ratio": 3.96
+  },
+  {
+   "where": "detay · benzer",
+   "title": "Jamaika Usulü Ananas Zencefil Reçeli | D",
+   "brightest": [
+    127,
+    127,
+    124
+   ],
+   "meanLuma": 105,
+   "ratio": 4.02
+  },
+  {
+   "where": "liste · satır",
+   "title": "Lor Dolması | Bayburt Usulü Lorlu Yaprak",
+   "brightest": [
+    130,
+    125,
+    119
+   ],
+   "meanLuma": 75,
+   "ratio": 4.08
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Asam Pedas | Malezya Usulü Demirhindili ",
+   "brightest": [
+    128,
+    125,
+    119
+   ],
+   "meanLuma": 96,
+   "ratio": 4.1
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "İran Usulü Baharatlı Acılı Balık Kebabı ",
+   "brightest": [
+    130,
+    124,
+    116
+   ],
+   "meanLuma": 91,
+   "ratio": 4.13
+  },
+  {
+   "where": "ana · küçük kart",
+   "title": "Asam Pedas | Malezya Usulü Demirhindili ",
+   "brightest": [
+    128,
+    124,
+    119
+   ],
+   "meanLuma": 94,
+   "ratio": 4.14
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Jiao Yan Karides | Çin Usulü Tuz ve Bibe",
+   "brightest": [
+    130,
+    118,
+    103
+   ],
+   "meanLuma": 111,
+   "ratio": 4.43
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Kiev Pastası | Ukrayna Usulü Fındıklı Be",
+   "brightest": [
+    125,
+    116,
+    106
+   ],
+   "meanLuma": 116,
+   "ratio": 4.59
+  },
+  {
+   "where": "liste · satır",
+   "title": "Kiev Pastası | Ukrayna Usulü Fındıklı Be",
+   "brightest": [
+    125,
+    116,
+    106
+   ],
+   "meanLuma": 116,
+   "ratio": 4.59
+  },
+  {
+   "where": "liste · satır",
+   "title": "Muska Tatlısı | Üçgen Katlanmış Cevizli ",
+   "brightest": [
+    120,
+    110,
+    99
+   ],
+   "meanLuma": 108,
+   "ratio": 4.99
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Muska Tatlısı | Üçgen Katlanmış Cevizli ",
+   "brightest": [
+    120,
+    109,
+    97
+   ],
+   "meanLuma": 107,
+   "ratio": 5.05
+  },
+  {
+   "where": "liste · satır",
+   "title": "İrimşik | Kazak Usulü Kızarana Kadar Piş",
+   "brightest": [
+    104,
+    106,
+    98
+   ],
+   "meanLuma": 93,
+   "ratio": 5.49
+  },
+  {
+   "where": "liste · satır",
+   "title": "Mercimekli Yaprak Sarma | Adıyaman Usulü",
+   "brightest": [
+    114,
+    102,
+    84
+   ],
+   "meanLuma": 100,
+   "ratio": 5.61
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Mercimekli Yaprak Sarma | Adıyaman Usulü",
+   "brightest": [
+    115,
+    101,
+    84
+   ],
+   "meanLuma": 100,
+   "ratio": 5.65
+  },
+  {
+   "where": "liste · satır",
+   "title": "Tarte de Amêndoa | Portekiz Algarve Usul",
+   "brightest": [
+    112,
+    101,
+    90
+   ],
+   "meanLuma": 100,
+   "ratio": 5.68
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Tepsi Kadayıfı | Cevizli Tel Kadayıflı Ş",
+   "brightest": [
+    112,
+    100,
+    90
+   ],
+   "meanLuma": 99,
+   "ratio": 5.74
+  },
+  {
+   "where": "ana · küçük kart",
+   "title": "Mercimekli Yaprak Sarma | Adıyaman Usulü",
+   "brightest": [
+    113,
+    100,
+    83
+   ],
+   "meanLuma": 99,
+   "ratio": 5.75
+  },
+  {
+   "where": "liste · satır",
+   "title": "Tepsi Kadayıfı | Cevizli Tel Kadayıflı Ş",
+   "brightest": [
+    111,
+    100,
+    90
+   ],
+   "meanLuma": 99,
+   "ratio": 5.76
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Tarte de Amêndoa | Portekiz Algarve Usul",
+   "brightest": [
+    111,
+    100,
+    88
+   ],
+   "meanLuma": 99,
+   "ratio": 5.77
+  },
+  {
+   "where": "ana · küçük kart",
+   "title": "Tarte de Amêndoa | Portekiz Algarve Usul",
+   "brightest": [
+    110,
+    98,
+    87
+   ],
+   "meanLuma": 98,
+   "ratio": 5.92
+  },
+  {
+   "where": "liste · satır",
+   "title": "Tuzsuz Bebek Tavuk Suyu | Mamaların Taba",
+   "brightest": [
+    103,
+    99,
+    89
+   ],
+   "meanLuma": 90,
+   "ratio": 5.99
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Tuzsuz Bebek Tavuk Suyu | Mamaların Taba",
+   "brightest": [
+    94,
+    98,
+    88
+   ],
+   "meanLuma": 92,
+   "ratio": 6.24
+  },
+  {
+   "where": "liste · satır",
+   "title": "Arroz con Pato | Peru Usulü Kişnişli Örd",
+   "brightest": [
+    106,
+    93,
+    77
+   ],
+   "meanLuma": 90,
+   "ratio": 6.39
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "İrimşik | Kazak Usulü Kızarana Kadar Piş",
+   "brightest": [
+    91,
+    96,
+    87
+   ],
+   "meanLuma": 93,
+   "ratio": 6.45
+  },
+  {
+   "where": "detay · benzer",
+   "title": "Şadok Kabuğu Reçeli | Kalın Kabuklu Pome",
+   "brightest": [
+    96,
+    94,
+    88
+   ],
+   "meanLuma": 72,
+   "ratio": 6.48
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Arroz con Pato | Peru Usulü Kişnişli Örd",
+   "brightest": [
+    102,
+    90,
+    73
+   ],
+   "meanLuma": 88,
+   "ratio": 6.72
+  },
+  {
+   "where": "detay · benzer",
+   "title": "Mürver Çiçeği Jölesi | Limonlu Çiçek Dem",
+   "brightest": [
+    96,
+    85,
+    74
+   ],
+   "meanLuma": 84,
+   "ratio": 7.25
+  },
+  {
+   "where": "detay · benzer",
+   "title": "Düdüklüde Balkan Usulü Lahana Sarması | ",
+   "brightest": [
+    91,
+    86,
+    79
+   ],
+   "meanLuma": 73,
+   "ratio": 7.27
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Masabeeb | Suudi Arabistan Usulü Tam Buğ",
+   "brightest": [
+    93,
+    85,
+    77
+   ],
+   "meanLuma": 67,
+   "ratio": 7.31
+  },
+  {
+   "where": "liste · satır",
+   "title": "Masabeeb | Suudi Arabistan Usulü Tam Buğ",
+   "brightest": [
+    93,
+    85,
+    76
+   ],
+   "meanLuma": 64,
+   "ratio": 7.32
+  },
+  {
+   "where": "ana · küçük kart",
+   "title": "Semizotlu Yumurta | Soğanla Kavrulan Sem",
+   "brightest": [
+    75,
+    69,
+    59
+   ],
+   "meanLuma": 59,
+   "ratio": 9.49
+  },
+  {
+   "where": "liste · ızgara",
+   "title": "Semizotlu Yumurta | Soğanla Kavrulan Sem",
+   "brightest": [
+    73,
+    68,
+    58
+   ],
+   "meanLuma": 58,
+   "ratio": 9.67
+  },
+  {
+   "where": "ana · video",
+   "title": "Soğan Doğrarken Ağlamamanın Yolu",
+   "brightest": [
+    102,
+    57,
+    28
+   ],
+   "meanLuma": 26,
+   "ratio": 9.69
+  },
+  {
+   "where": "liste · satır",
+   "title": "Semizotlu Yumurta | Soğanla Kavrulan Sem",
+   "brightest": [
+    70,
+    67,
+    57
+   ],
+   "meanLuma": 49,
+   "ratio": 9.89
+  },
+  {
+   "where": "liste · öne çıkan",
+   "title": "Tavuk Curry | Hindistan Cevizli Hint Usu",
+   "brightest": [
+    62,
+    50,
+    35
+   ],
+   "meanLuma": 23,
+   "ratio": 12.46
+  }
+ ]
+}

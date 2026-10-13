@@ -1,0 +1,406 @@
+{
+ "tarih": "2026-10-09T16:07:58.058Z",
+ "sira": [
+  "Tarif bul — elindekiyle",
+  "Video Mutfağı",
+  "Kategoriler & Dünya Mutfakları",
+  "En son eklenen tarifler",
+  "Tarifin ustaları",
+  "Senin de bir tarifin var"
+ ],
+ "kart": "A · kaplama",
+ "gorunumler": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "kart_kontrast": {
+    "kart1_baslik": 10.8,
+    "kart1_kategori": 9.92,
+    "kart1_yazar": 12.84,
+    "kart2_baslik": 10.5,
+    "kart2_kategori": 10.14,
+    "kart2_yazar": 14.57,
+    "kart3_baslik": 14.7,
+    "kart3_kategori": 13.37,
+    "kart3_yazar": 15.21
+   },
+   "kontrast": {
+    "baslik": 9.09,
+    "bugun": 11.91,
+    "tarif_adi": 13.7,
+    "ipucu": 15.09
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "uzun_ad": {
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "kart_kontrast": {
+    "kart1_baslik": 12.43,
+    "kart1_kategori": 11.9,
+    "kart1_yazar": 12.66,
+    "kart2_baslik": 10.5,
+    "kart2_kategori": 9.69,
+    "kart2_yazar": 14.52,
+    "kart3_baslik": 14.85,
+    "kart3_kategori": 13.37,
+    "kart3_yazar": 15.02
+   },
+   "kontrast": {
+    "baslik": 9.1,
+    "bugun": 13.51,
+    "tarif_adi": 14.09,
+    "ipucu": 15.09
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "uzun_ad": {
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "kart_kontrast": {
+    "kart1_baslik": 12.25,
+    "kart1_kategori": 11.9,
+    "kart1_yazar": 12.65,
+    "kart2_baslik": 10.68,
+    "kart2_kategori": 9.56,
+    "kart2_yazar": 14.33,
+    "kart3_baslik": 15.39,
+    "kart3_kategori": 14.04,
+    "kart3_yazar": 15.01
+   },
+   "kontrast": {
+    "baslik": 9.23,
+    "bugun": 13.51,
+    "tarif_adi": 13.89,
+    "ipucu": 15.09
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "uzun_ad": {
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "uzun_ad": {
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "uzun_ad": {
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "uzun_ad": {
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  }
+ ],
+ "header390": [
+  {
+   "y": 0,
+   "alpha": 0,
+   "collision": false,
+   "searchHidden": false,
+   "headerSearch": false
+  },
+  {
+   "y": 20,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 40,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 60,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 80,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 100,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 120,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 140,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 160,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 180,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 200,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 220,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 240,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 260,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 280,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 300,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 320,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 340,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 360,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 380,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 400,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  }
+ ]
+}

@@ -1,0 +1,1247 @@
+{
+ "runs": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=a&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=a&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=b&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=c",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=d&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "q": "yazar=a&not=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=a&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=a&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=b&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=c",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=d&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "q": "yazar=a&not=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=a&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=a&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=b&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=c",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=d&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "q": "yazar=a&not=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=a&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=a&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=b&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=c",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=d&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "q": "yazar=a&not=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=a&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=a&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=b&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=c",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=d&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "q": "yazar=a&not=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "visible",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=a&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=a&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=b&not=a",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "b"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=c",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "c"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=d&not=b",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    },
+    {
+     "title": "Alerjen",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "d"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "q": "yazar=a&not=a&tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "m": [
+    {
+     "title": "Hatırlatma",
+     "bg": "rgb(249, 249, 249)",
+     "border": "0px",
+     "stripe": "rgb(225, 72, 39)",
+     "titleUpper": "uppercase",
+     "more": "hidden",
+     "yazar": "a"
+    }
+   ]
+  }
+ ],
+ "failures": []
+}

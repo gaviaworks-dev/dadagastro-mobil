@@ -1,0 +1,377 @@
+{
+ "tarih": "2026-10-10T21:16:13.632Z",
+ "sayfalar": {
+  "ana-v3.html": {
+   "heads": [
+    {
+     "text": "En son eklenen tarifler",
+     "cls": "",
+     "parent": "section-heading-row six-heading",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "",
+     "link": "Tümü → liste.html?sirala=en_yeni"
+    },
+    {
+     "text": "Kategoriler & Dünya Mutfakları",
+     "cls": "",
+     "parent": "section-heading-row six-heading",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "",
+     "link": "Tümü → "
+    },
+    {
+     "text": "Dolapta Ne Var?",
+     "cls": "",
+     "parent": "section-heading-row six-heading",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "",
+     "link": ""
+    },
+    {
+     "text": "Video Mutfağı",
+     "cls": "",
+     "parent": "section-heading-row six-heading",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "",
+     "link": "Tümü → "
+    },
+    {
+     "text": "Tarifin ustaları",
+     "cls": "",
+     "parent": "",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "Şefler & Yazarlar",
+     "link": ""
+    },
+    {
+     "text": "Senin de bir tarifin var",
+     "cls": "",
+     "parent": "six-module six-community",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "Şefler & Yazarlar",
+     "link": "Tümü → liste.html?sirala=en_yeni"
+    }
+   ],
+   "patterns": {
+    "ana-v3.html": 2,
+    "arama.html": 3,
+    "detay-v2.html": 28,
+    "liste.html": 31
+   },
+   "cardLinks": [
+    "detay-v2.html"
+   ],
+   "tumu": [
+    "Tümü → liste.html?sirala=en_yeni",
+    "Tümü → ",
+    "Tümü → ",
+    "Tümü → arama.html?tur=sef&donus=ana-v3.html"
+   ],
+   "avatars": [
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "B"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "D"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "Ş"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "A"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "B"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "B"
+    }
+   ],
+   "grey": [],
+   "cards": {
+    "dg": 0,
+    "recipe": 8,
+    "feature": 3
+   },
+   "header": {
+    "cls": "topbar is-solid is-scrolled",
+    "bg": "color(srgb 0.882353 0.282353 0.152941)",
+    "alpha": "1.000"
+   },
+   "bad": [],
+   "errors": []
+  },
+  "liste-v2.html": {
+   "heads": [
+    {
+     "text": "Tema & pişirme tipi",
+     "cls": "lv2-themes__title",
+     "parent": "lv2-themes__inner",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "",
+     "link": ""
+    }
+   ],
+   "patterns": {
+    "ana-v3.html": 2,
+    "detay-c.html": 24,
+    "liste-v2.html": 1
+   },
+   "cardLinks": [
+    "detay-c.html"
+   ],
+   "tumu": [],
+   "avatars": [
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "D"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "C"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "Ş"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "G"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "E"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "Ş"
+    }
+   ],
+   "grey": [
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1604909052743-94e838986d24.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1474979266404-7eaacbcd87c5.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1547592180-85f173990554.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1505253716362-afaea1d3d1af.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1565958011703-44f9829ba187.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1563245372-f21724e3856d.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1563245372-f21724e3856d.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1544145945-f90425340c7e.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1533089860892-a7c6f0a88666.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1455619452474-d2be8b1e70cd.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1432139555190-58524dae6a55.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1432139555190-58524dae6a55.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1509440159596-0249088772ff.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1473093295043-cdd812d0e601.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1563245372-f21724e3856d.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1540420773420-3366772f4999.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1541529086526-db283c563270.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1516684732162-798a0062be99.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1565299624946-b28f40a0ae38.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1515543904379-3d757afe72e4.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1432139555190-58524dae6a55.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1540420773420-3366772f4999.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1541529086526-db283c563270.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1476718406336-bb5a9690ee2a.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1505253716362-afaea1d3d1af.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1565958011703-44f9829ba187.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1604909052743-94e838986d24.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1505253716362-afaea1d3d1af.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1533089860892-a7c6f0a88666.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1505253716362-afaea1d3d1af.avif",
+    "https://dadagastro.com/varliklar/_dis/images.unsplash.com/photo-1467003909585-2f8a72700288.avif",
+    "https://dadagastro.com/varliklar/media/6685.webp",
+    "https://dadagastro.com/varliklar/media/7937.webp",
+    "https://dadagastro.com/varliklar/media/8069.webp",
+    "https://dadagastro.com/varliklar/media/2793.webp",
+    "https://dadagastro.com/varliklar/media/yayilim/t-guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci-kapak.webp",
+    "https://dadagastro.com/varliklar/media/yayilim/t-ordek-dolmasi-firinda-ic-pilavli-butun-ordek-kapak.webp",
+    "https://dadagastro.com/varliklar/media/yayilim/t-tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu-kapak.we"
+   ],
+   "cards": {
+    "dg": 8,
+    "recipe": 0,
+    "feature": 4
+   },
+   "header": {
+    "cls": "topbar is-solid is-scrolled",
+    "bg": "color(srgb 0.768627 0.239216 0.12549)",
+    "alpha": "1.000"
+   },
+   "bad": [],
+   "errors": []
+  },
+  "detay-v2.html": {
+   "heads": [
+    {
+     "text": "Malzemeler",
+     "cls": "",
+     "parent": "section-heading-copy",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "",
+     "link": ""
+    },
+    {
+     "text": "Besin Değerleri",
+     "cls": "",
+     "parent": "dv2-heading",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "",
+     "link": ""
+    },
+    {
+     "text": "Bunları da seveceksin",
+     "cls": "",
+     "parent": "",
+     "size": "20px",
+     "weight": "700",
+     "family": "GilroyBd",
+     "color": "rgb(33, 30, 22)",
+     "line": "24px",
+     "ls": "-0.4px",
+     "eyebrow": "Benzer Tarifler",
+     "link": ""
+    }
+   ],
+   "patterns": {
+    "liste-v2.html": 8,
+    "detay-v2.html": 8
+   },
+   "cardLinks": [
+    "detay-v2.html"
+   ],
+   "tumu": [
+    "Tümü → liste-v2.html"
+   ],
+   "avatars": [
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "İ"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "D"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "G"
+    },
+    {
+     "cls": "dg-avatar",
+     "w": 20,
+     "fs": "13px",
+     "ff": "GilroyBd",
+     "t": "Ş"
+    }
+   ],
+   "grey": [],
+   "cards": {
+    "dg": 0,
+    "recipe": 4,
+    "feature": 0
+   },
+   "header": {
+    "cls": "topbar detail-header is-solid is-scrolled is-compact",
+    "bg": "color(srgb 0.882353 0.282353 0.152941)",
+    "alpha": "1.000"
+   },
+   "bad": [],
+   "errors": []
+  }
+ }
+}

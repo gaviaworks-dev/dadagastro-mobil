@@ -1,0 +1,1382 @@
+[
+  {
+    "engine": "chromium",
+    "width": 360,
+    "initial": {
+      "overflow": false,
+      "heading": "visible",
+      "sections": [
+        "Elinde ne var?",
+        "Kategoriler",
+        "En son eklenen tarifler",
+        "Şefler",
+        "Tarifini paylaş"
+      ],
+      "dates": [
+        1789419600000,
+        1789419600000,
+        1789419600000
+      ],
+      "unwanted": 0,
+      "cards": [
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 320,
+          "clamp": "2",
+          "titleHeight": 48,
+          "lineHeight": 24,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 154,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 154,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        }
+      ],
+      "avatars": [
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "gutter": 20
+    },
+    "touch": [],
+    "scroll": [
+      {
+        "y": 0,
+        "alpha": 0,
+        "color": "color(srgb 0 0 0 / 0)",
+        "collision": false
+      },
+      {
+        "y": 20,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 40,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 60,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 80,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 100,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 120,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 140,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 160,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 180,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 200,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 220,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 240,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 260,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 280,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 300,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 320,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 340,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 360,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 380,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 400,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      }
+    ],
+    "errors": [],
+    "bad": [],
+    "interactions": "menu logo, category switch, ingredient match/reset, share gate, reduced motion passed"
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "initial": {
+      "overflow": false,
+      "heading": "visible",
+      "sections": [
+        "Elinde ne var?",
+        "Kategoriler",
+        "En son eklenen tarifler",
+        "Şefler",
+        "Tarifini paylaş"
+      ],
+      "dates": [
+        1789419600000,
+        1789419600000,
+        1789419600000
+      ],
+      "unwanted": 0,
+      "cards": [
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 350,
+          "clamp": "2",
+          "titleHeight": 48,
+          "lineHeight": 24,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 169,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 169,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        }
+      ],
+      "avatars": [
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "gutter": 20
+    },
+    "touch": [],
+    "scroll": [
+      {
+        "y": 0,
+        "alpha": 0,
+        "color": "color(srgb 0 0 0 / 0)",
+        "collision": false
+      },
+      {
+        "y": 20,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 40,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 60,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 80,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 100,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 120,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 140,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 160,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 180,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 200,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 220,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 240,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 260,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 280,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 300,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 320,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 340,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 360,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 380,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 400,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      }
+    ],
+    "errors": [],
+    "bad": [],
+    "interactions": "menu logo, category switch, ingredient match/reset, share gate, reduced motion passed"
+  },
+  {
+    "engine": "chromium",
+    "width": 430,
+    "initial": {
+      "overflow": false,
+      "heading": "visible",
+      "sections": [
+        "Elinde ne var?",
+        "Kategoriler",
+        "En son eklenen tarifler",
+        "Şefler",
+        "Tarifini paylaş"
+      ],
+      "dates": [
+        1789419600000,
+        1789419600000,
+        1789419600000
+      ],
+      "unwanted": 0,
+      "cards": [
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 390,
+          "clamp": "2",
+          "titleHeight": 48,
+          "lineHeight": 24,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 189,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 189,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        }
+      ],
+      "avatars": [
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "gutter": 20
+    },
+    "touch": [],
+    "scroll": [
+      {
+        "y": 0,
+        "alpha": 0,
+        "color": "color(srgb 0 0 0 / 0)",
+        "collision": false
+      },
+      {
+        "y": 20,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 40,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 60,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 80,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 100,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 120,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 140,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 160,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 180,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 200,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 220,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 240,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 260,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 280,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 300,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 320,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 340,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 360,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 380,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 400,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      }
+    ],
+    "errors": [],
+    "bad": [],
+    "interactions": "menu logo, category switch, ingredient match/reset, share gate, reduced motion passed"
+  },
+  {
+    "engine": "webkit",
+    "width": 360,
+    "initial": {
+      "overflow": false,
+      "heading": "visible",
+      "sections": [
+        "Elinde ne var?",
+        "Kategoriler",
+        "En son eklenen tarifler",
+        "Şefler",
+        "Tarifini paylaş"
+      ],
+      "dates": [
+        1789419600000,
+        1789419600000,
+        1789419600000
+      ],
+      "unwanted": 0,
+      "cards": [
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 320,
+          "clamp": "2",
+          "titleHeight": 48,
+          "lineHeight": 24,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 154,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 154,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        }
+      ],
+      "avatars": [
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "gutter": 20
+    },
+    "touch": [],
+    "scroll": [
+      {
+        "y": 0,
+        "alpha": 0,
+        "color": "color(srgb 0 0 0 / 0)",
+        "collision": false
+      },
+      {
+        "y": 20,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 40,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 60,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 80,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 100,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 120,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 140,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 160,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 180,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 200,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 220,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 240,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 260,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 280,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 300,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 320,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 340,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 360,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 380,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 400,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      }
+    ],
+    "errors": [],
+    "bad": [],
+    "interactions": "menu logo, category switch, ingredient match/reset, share gate, reduced motion passed"
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "initial": {
+      "overflow": false,
+      "heading": "visible",
+      "sections": [
+        "Elinde ne var?",
+        "Kategoriler",
+        "En son eklenen tarifler",
+        "Şefler",
+        "Tarifini paylaş"
+      ],
+      "dates": [
+        1789419600000,
+        1789419600000,
+        1789419600000
+      ],
+      "unwanted": 0,
+      "cards": [
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 350,
+          "clamp": "2",
+          "titleHeight": 48,
+          "lineHeight": 24,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 169,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 169,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        }
+      ],
+      "avatars": [
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "gutter": 20
+    },
+    "touch": [],
+    "scroll": [
+      {
+        "y": 0,
+        "alpha": 0,
+        "color": "color(srgb 0 0 0 / 0)",
+        "collision": false
+      },
+      {
+        "y": 20,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 40,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 60,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 80,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 100,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 120,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 140,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 160,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 180,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 200,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 220,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 240,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 260,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 280,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 300,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 320,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 340,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 360,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 380,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 400,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      }
+    ],
+    "errors": [],
+    "bad": [],
+    "interactions": "menu logo, category switch, ingredient match/reset, share gate, reduced motion passed"
+  },
+  {
+    "engine": "webkit",
+    "width": 430,
+    "initial": {
+      "overflow": false,
+      "heading": "visible",
+      "sections": [
+        "Elinde ne var?",
+        "Kategoriler",
+        "En son eklenen tarifler",
+        "Şefler",
+        "Tarifini paylaş"
+      ],
+      "dates": [
+        1789419600000,
+        1789419600000,
+        1789419600000
+      ],
+      "unwanted": 0,
+      "cards": [
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 0,
+          "clamp": "2",
+          "titleHeight": 0,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 390,
+          "clamp": "2",
+          "titleHeight": 48,
+          "lineHeight": 24,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 189,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        },
+        {
+          "width": 189,
+          "clamp": "2",
+          "titleHeight": 40,
+          "lineHeight": 20,
+          "categoryWeight": "700",
+          "radius": "24px"
+        }
+      ],
+      "avatars": [
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        },
+        {
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "gutter": 20
+    },
+    "touch": [],
+    "scroll": [
+      {
+        "y": 0,
+        "alpha": 0,
+        "color": "color(srgb 0 0 0 / 0)",
+        "collision": false
+      },
+      {
+        "y": 20,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 40,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 60,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 80,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 100,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 120,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 140,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 160,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 180,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 200,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 220,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 240,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 260,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 280,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 300,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 320,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 340,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 360,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 380,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      },
+      {
+        "y": 400,
+        "alpha": 1,
+        "color": "color(srgb 0.882353 0.282353 0.152941)",
+        "collision": false
+      }
+    ],
+    "errors": [],
+    "bad": [],
+    "interactions": "menu logo, category switch, ingredient match/reset, share gate, reduced motion passed"
+  }
+]

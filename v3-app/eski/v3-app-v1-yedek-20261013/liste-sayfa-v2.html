@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>DadaGastro · Tarif listesi</title>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="six-presentation.css">
+  <script src="six-presentation.js" defer></script>
+  <style>
+    /* İki iframe da 390 × 844 görünümde, yan yana. */
+    .alternatives{grid-template-columns:repeat(2,minmax(0,392px));justify-content:center;align-items:start}
+    .caption{min-height:0}
+    @media(max-width:819px){.alternatives{grid-template-columns:minmax(0,392px)}}
+  </style>
+</head>
+<body>
+  <header class="intro">
+    <a class="brand" href="liste-sayfa-v2.html"><img src="assets/marka/dadagastro-renkli.svg" alt="DadaGastro"></a>
+    <h1>Tarif listesi</h1>
+    <p class="intro-copy">Revize liste ile başlangıç tasarımı yan yana.</p>
+    <nav aria-label="İlgili karşılaştırmalar"><a class="comparison-link" href="liste-v2-hero-adaylari.html">Öne çıkan kart adayları</a></nav>
+  </header>
+  <main class="alternatives">
+    <article class="option">
+      <div class="phone-stage"><div class="phone"><iframe src="liste-v2.html?gallery=1" width="390" height="844" title="Liste V2"></iframe></div></div>
+      <div class="caption"><div><h2>Liste V2</h2><a href="liste-v2.html" target="_blank" rel="noopener">Tek başına aç <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></div></div>
+    </article>
+    <article class="option">
+      <div class="phone-stage"><div class="phone"><iframe src="liste-1.html?gallery=1" width="390" height="844" title="Başlangıç: liste-1"></iframe></div></div>
+      <div class="caption"><div><h2>Başlangıç: liste-1</h2><a href="liste-1.html" target="_blank" rel="noopener">Tek başına aç <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a></div></div>
+    </article>
+  </main>
+</body>
+</html>

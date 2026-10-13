@@ -1,0 +1,806 @@
+{
+ "tarih": "2026-10-10T21:17:09.812Z",
+ "sayfalar": {
+  "ana-v3.html": {
+   "toplam": 206,
+   "goreli": 56,
+   "hatali": [
+    {
+     "u": "/varliklar/media/yayilim/t-guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-ordek-dolmasi-firinda-ic-pilavli-butun-ordek-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-ordek-dolmasi-firinda-ic-pilavli-butun-ordek-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi-kapak.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-kapak.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/8444.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/8444.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/8551.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/8551.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-kapak.webp",
+     "where": "PARITY.recipes.duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-kapak.webp",
+     "where": "PARITY.recipes.duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/7868.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/7868.webp",
+     "where": "PARITY.recipes.duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-kapak.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-kapak.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-kapak.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/6936.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/6936.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi-kapak.webp",
+     "where": "PARITY.recipes.pasteis-de-feijao-portekiz-torres-vedras-usulu-bademli-fasulyeli-mini-tart.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim1.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim1.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim2.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim3.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim4.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim6.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim6.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim1.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim1.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim2.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim4.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim5.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim3.webp",
+     "where": "PARITY.recipes.lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim5.webp",
+     "where": "PARITY.recipes.lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim4.webp",
+     "where": "PARITY.recipes.moin-moin-nijerya-usulu-buharda-borulce-pudingi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim5.webp",
+     "where": "PARITY.recipes.moin-moin-nijerya-usulu-buharda-borulce-pudingi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim3.webp",
+     "where": "PARITY.recipes.waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim4.webp",
+     "where": "PARITY.recipes.waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-adim5.webp",
+     "where": "PARITY.recipes.enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim2.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim3.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim4.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim5.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim1.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim1.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim2.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim3.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim4.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim5.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim6.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim6.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim2.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim3.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim4.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim5.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim3.webp",
+     "where": "PARITY.recipes.muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim4.webp",
+     "where": "PARITY.recipes.muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    }
+   ]
+  },
+  "liste-v2.html": {
+   "toplam": 173,
+   "goreli": 56,
+   "hatali": [
+    {
+     "u": "/varliklar/media/yayilim/t-guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-ordek-dolmasi-firinda-ic-pilavli-butun-ordek-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-ordek-dolmasi-firinda-ic-pilavli-butun-ordek-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav-kapak.webp",
+     "where": "PARITY.recipes.tavuk-curry-hindistan-cevizli-hint-usulu.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi-kapak.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-kapak.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/8444.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/8444.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/8551.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/8551.webp",
+     "where": "PARITY.recipes.yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-kapak.webp",
+     "where": "PARITY.recipes.duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-kapak.webp",
+     "where": "PARITY.recipes.duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/7868.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/7868.webp",
+     "where": "PARITY.recipes.duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-kapak.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-kapak.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-kapak.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/6936.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/6936.webp",
+     "where": "PARITY.recipes.kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-kapak.webp",
+     "where": "PARITY.recipes.patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-kapak.webp",
+     "where": "PARITY.recipes.sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi-kapak.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi-kapak.webp",
+     "where": "PARITY.recipes.pasteis-de-feijao-portekiz-torres-vedras-usulu-bademli-fasulyeli-mini-tart.similar.image",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim1.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim1.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim2.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim3.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim4.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim6.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides-adim6.webp",
+     "where": "PARITY.recipes.jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim1.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim1.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim2.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim4.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli-adim5.webp",
+     "where": "PARITY.recipes.mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim3.webp",
+     "where": "PARITY.recipes.lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma-adim5.webp",
+     "where": "PARITY.recipes.lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim4.webp",
+     "where": "PARITY.recipes.moin-moin-nijerya-usulu-buharda-borulce-pudingi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-moin-moin-nijerya-usulu-buharda-borulce-pudingi-adim5.webp",
+     "where": "PARITY.recipes.moin-moin-nijerya-usulu-buharda-borulce-pudingi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim3.webp",
+     "where": "PARITY.recipes.waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye-adim4.webp",
+     "where": "PARITY.recipes.waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla-adim5.webp",
+     "where": "PARITY.recipes.enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim2.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim3.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim4.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-mamounia-halep-usulu-tereyagli-irmik-kahvaltisi-adim5.webp",
+     "where": "PARITY.recipes.mamounia-halep-usulu-tereyagli-irmik-kahvaltisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim1.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim1.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim2.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim3.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim4.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim5.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim6.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma-adim6.webp",
+     "where": "PARITY.recipes.tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim2.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim2.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim3.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim4.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim5.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi-adim5.webp",
+     "where": "PARITY.recipes.tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim3.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim3.webp",
+     "where": "PARITY.recipes.muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    },
+    {
+     "u": "/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim4.webp",
+     "abs": "http://127.0.0.1:8765/varliklar/media/yayilim/t-muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi-adim4.webp",
+     "where": "PARITY.recipes.muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi.steps.images",
+     "status": 404,
+     "relative": true
+    }
+   ]
+  },
+  "detay-v2.html": {
+   "toplam": 150,
+   "goreli": 0,
+   "hatali": []
+  }
+ }
+}

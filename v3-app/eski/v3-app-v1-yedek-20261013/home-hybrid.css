@@ -1,0 +1,119 @@
+/* Composition overrides on the root application's copied components. Brand scales stay unchanged. */
+.hybrid-home{--hybrid-height:660px;--hybrid-header:68px;--hybrid-photo-position:50% 53%;background:var(--ink)}
+.hybrid-home .app-shell{max-width:var(--app-max);background:var(--paper);padding-bottom:calc(var(--nav-height) + var(--space-8) + var(--space-16) + env(safe-area-inset-bottom,0px));overflow:clip}
+.hybrid-home .home-editorial{padding:var(--space-0)!important;margin:var(--space-0)!important}
+.hybrid-home .topbar{height:calc(var(--hybrid-header) + env(safe-area-inset-top,0px));min-height:0;padding:env(safe-area-inset-top,0px) var(--gutter) var(--space-0)!important;z-index:70;box-shadow:none;gap:var(--space-12);color:var(--paper)}
+.hybrid-home .topbar .brand-logo{width:64px;flex-shrink:0;filter:drop-shadow(0 2px 4px color-mix(in srgb,var(--ink) 20%,transparent))}
+.hybrid-home .topbar .brand-logo img{width:64px;height:40px;object-fit:contain}
+.hybrid-home .top-actions{display:flex;gap:var(--space-8)}
+.hybrid-home .topbar .icon-button{color:var(--paper)!important;background:transparent!important;flex-shrink:0}
+.hybrid-home .topbar:not(.is-solid) .icon-button::before{background:var(--floating-icon-bg)!important}
+.hybrid-home .topbar.is-solid .icon-button::before{background:transparent!important;border-color:transparent!important}
+.hybrid-compact-title{display:none;font-size:var(--role-subheading-size);font-weight:var(--role-subheading-weight);line-height:var(--role-subheading-line);letter-spacing:var(--role-subheading-tracking);white-space:nowrap;min-width:0}
+
+.hybrid-home .nav-dock{z-index:65!important}.hybrid-home .bottom-nav{background:color-mix(in srgb,var(--paper) 96%,transparent)!important}
+.hybrid-stage{height:calc(var(--hybrid-height) + env(safe-area-inset-top,0px));position:relative;isolation:isolate;overflow:hidden;background:var(--overlay);color:var(--paper)}
+.hybrid-picture-link,.hybrid-photo,.hybrid-veil{position:absolute;inset:0}
+.hybrid-picture-link{z-index:0;display:block}.hybrid-photo{background-size:cover;background-position:var(--hybrid-photo-position);background-repeat:no-repeat;opacity:0;transform:scale(var(--photo-scale,1.04));transition:opacity 250ms ease-out,transform 200ms ease-out;background-color:var(--overlay)}
+.hybrid-photo.is-active{opacity:1}.hybrid-stage .hybrid-photo:first-child{animation:hybrid-arrive 650ms ease-out}
+/* One continuous field; mid-scene stays clear. Text zones use source overlay colour, not new brown. */
+.hybrid-veil{z-index:1;pointer-events:none;background:linear-gradient(to bottom,color-mix(in srgb,var(--overlay) 75%,transparent) 0%,color-mix(in srgb,var(--overlay) 85%,transparent) 15%,color-mix(in srgb,var(--overlay) 84%,transparent) 29%,color-mix(in srgb,var(--overlay) 66%,transparent) 35%,color-mix(in srgb,var(--overlay) 30%,transparent) 41%,color-mix(in srgb,var(--overlay) 4%,transparent) 47%,color-mix(in srgb,var(--overlay) 8%,transparent) 53%,color-mix(in srgb,var(--overlay) 28%,transparent) 58%,color-mix(in srgb,var(--overlay) 66%,transparent) 64%,color-mix(in srgb,var(--overlay) 86%,transparent) 70%,color-mix(in srgb,var(--overlay) 93%,transparent) 84%,var(--overlay) 100%)}
+.hybrid-tool{position:absolute;top:calc(var(--hybrid-header) + var(--space-24) + env(safe-area-inset-top,0px));left:var(--gutter);right:var(--gutter);z-index:2}
+.hybrid-tool h1{font-family:'GilroyBd',var(--font);font-size:var(--role-display-size)!important;font-weight:var(--role-display-weight)!important;line-height:var(--role-display-line);letter-spacing:var(--role-display-tracking);color:var(--paper);margin:var(--space-0) var(--space-0) var(--space-16);text-align:center}
+.hybrid-tool h1 em{font-style:normal;color:var(--paper)}
+.hybrid-home .hybrid-input{position:relative;display:flex;gap:var(--space-8);align-items:center;width:100%;height:var(--cook-height);min-height:var(--cook-height);padding:var(--space-4) var(--space-4) var(--space-4) var(--space-16)!important;margin:var(--space-0)!important;background:var(--paper)!important;border:0!important;border-radius:var(--radius-control);box-shadow:var(--sh-sm);color:var(--ink)}
+.hybrid-home .hybrid-input input{font-size:var(--role-body-size)!important;border:0!important;outline:none!important;box-shadow:none!important;background:transparent!important;min-width:0;flex:1;padding:var(--space-0)!important;color:var(--ink)}
+.hybrid-home .hybrid-input:focus-within{box-shadow:0 0 0 2px var(--tomato)!important}
+.hybrid-home .hybrid-input>.icon{font-size:var(--icon-md);color:var(--muted)}
+.hybrid-home .hybrid-input .camera-entry{background:var(--tomato-tint)!important;color:var(--tomato-deep)!important;border-radius:var(--radius-control);flex-shrink:0}
+.hybrid-home .hybrid-input .camera-entry:before{display:none}
+.hybrid-home .hybrid-input .search-clear{position:static;flex-shrink:0;transform:none;width:var(--touch-target);height:var(--touch-target);min-width:var(--touch-target);background:transparent;color:var(--ink)}
+.hybrid-home .hybrid-input .search-clear[hidden]{display:none!important}
+.hybrid-chips{display:flex;gap:var(--chip-gap);overflow-x:auto;scrollbar-width:none;margin-top:var(--space-12);margin-right:calc(-1 * var(--gutter));padding-right:var(--gutter);scroll-padding-left:var(--gutter)}
+.hybrid-home .hybrid-chips .chip{color:var(--paper);border-color:color-mix(in srgb,var(--paper) 40%,transparent);background:color-mix(in srgb,var(--overlay) 64%,transparent);flex-shrink:0;gap:var(--space-8);height:var(--chip-height);padding-inline:var(--chip-padding);font-size:var(--role-meta-size)}
+.hybrid-home .hybrid-chips .chip[aria-pressed=true]{background:var(--paper);border-color:var(--paper);color:var(--tomato-deep)}
+.hybrid-home .hybrid-chips .icon{font-size:var(--icon-sm)}
+.hybrid-answer{position:absolute;z-index:2;bottom:var(--space-48);left:var(--gutter);right:var(--gutter);display:grid;gap:var(--space-12);color:var(--paper)}
+.answer-context{display:flex;align-items:center;gap:var(--space-8);font-size:var(--role-meta-size);line-height:var(--role-meta-line);font-weight:var(--role-meta-weight);min-height:var(--space-24)}
+.answer-context>span:first-child{font-family:'GilroyBd',var(--font)}
+.answer-context .result-number{font-size:var(--role-meta-size);letter-spacing:normal}
+.clear-selection{margin-left:auto;border:0;color:var(--paper);background:transparent;padding:var(--space-0);font-size:var(--role-meta-size);height:var(--touch-target);text-decoration:underline;flex-shrink:0}
+.answer-identity{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12)}.answer-identity>div{min-width:0;flex:1}
+.hybrid-answer h2{font-size:var(--role-page-size)!important;font-family:'GilroyBd',var(--font);font-weight:var(--role-page-weight)!important;line-height:var(--role-page-line);letter-spacing:var(--role-page-tracking);color:var(--paper)!important;margin:var(--space-0);text-wrap:balance}
+.hybrid-answer h2 a{color:inherit;text-decoration:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hybrid-meta{display:flex;align-items:center;gap:var(--space-16);margin-top:var(--space-8);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}.hybrid-meta span{display:inline-flex;align-items:center;gap:var(--space-4)}.hybrid-meta .icon{font-size:var(--icon-sm)}
+.hybrid-home .hybrid-answer .next-answer{color:var(--paper);background:color-mix(in srgb,var(--paper) 12%,transparent)}
+.hybrid-home .hybrid-cta{height:var(--cook-height);min-height:var(--cook-height);background:var(--paper)!important;color:var(--ink)!important;justify-content:space-between;padding-inline:var(--space-16);border:0;margin:var(--space-0);font-size:var(--role-button-size)}
+.hybrid-home .hybrid-answer p{color:var(--paper);margin:var(--space-0);font-size:var(--role-meta-size)}
+.hybrid-stage.has-no-results .hybrid-picture-link{opacity:.3}
+.home-continuation{display:grid;gap:var(--space-32);padding:var(--space-24) var(--gutter) var(--space-16);background:var(--paper);position:relative;z-index:2;border-radius:var(--radius-sheet) var(--radius-sheet) 0 0;margin-top:calc(-1 * var(--space-24))}
+.home-module{margin:var(--space-0)!important;padding:var(--space-0);min-width:0}
+.home-module .home-row{display:flex;align-items:baseline;gap:var(--space-12);justify-content:space-between;margin:var(--space-0) var(--space-0) var(--space-12);padding:var(--space-0)}
+.hybrid-home .home-row h2{font-size:var(--role-section-size)!important;line-height:var(--role-section-line);font-weight:var(--role-section-weight)!important;letter-spacing:var(--role-section-tracking);margin:var(--space-0)!important;color:var(--ink);min-width:0;flex:1}
+.home-row .icon-button{flex-shrink:0;align-self:center;margin:var(--space-0)}
+.home-module .home-recipe-rail{display:flex;gap:var(--space-12);overflow-x:auto;scroll-snap-type:x mandatory;margin:var(--space-0) calc(-1 * var(--gutter));padding:var(--space-0) var(--gutter);scroll-padding-left:var(--gutter);scrollbar-width:none}
+.home-recipe-rail>.recipe-card{flex:0 0 calc(var(--shell-width) * .55);min-width:0;scroll-snap-align:start}
+.hybrid-home .recipe-card .card-photo{background-size:cover;background-position:center}
+.hybrid-home .recipe-card .avatar{width:var(--avatar-card)!important;height:var(--avatar-card)!important;min-width:var(--avatar-card)!important;min-height:var(--avatar-card)!important}
+.home-module .tip-rail{display:flex;gap:var(--space-12);overflow-x:auto;margin:var(--space-0) calc(-1 * var(--gutter));padding:var(--space-0) var(--gutter);scroll-padding-left:var(--gutter);scroll-snap-type:x mandatory;scrollbar-width:none}
+.home-module .web-tip{flex:0 0 calc(var(--shell-width) * .65);min-width:0;display:flex;flex-direction:column;gap:var(--space-8);color:var(--ink);scroll-snap-align:start}
+.home-module .web-tip .photo{aspect-ratio:4/3;height:auto;width:100%;border-radius:var(--radius-card)}
+.home-module .web-tip h3{color:var(--ink)!important;font-size:var(--role-card-size)!important;line-height:var(--role-card-line);font-weight:var(--role-card-weight)!important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:var(--space-0)}
+.home-module .web-tip small{color:var(--muted);font-size:var(--role-meta-size)}
+/* 1: one task per compact row, using the shared horizontal card DOM. */
+.hybrid-home .short-fridge .action-card{background:var(--bg);width:100%;min-height:80px;padding:var(--space-12)!important;grid-template-columns:44px minmax(0,1fr) 14px;gap:var(--space-12)}
+.short-fridge .action-card-description{font-size:var(--role-meta-size)}
+.home-recipe-rail.is-list>.recipe-card,.gate-recipe>.recipe-card{display:grid;grid-template-columns:34% minmax(0,1fr);gap:var(--space-12);width:100%;flex-basis:100%;align-items:start}
+.home-recipe-rail.is-list .card-media,.gate-recipe .card-media{aspect-ratio:4/5;min-width:0;overflow:hidden;border-radius:var(--radius-card)}
+.home-recipe-rail.is-list .card-body,.gate-recipe .card-body{padding:var(--space-0)!important;display:flex;flex-direction:column;min-width:0;height:auto!important;gap:var(--space-8)!important}
+.home-recipe-rail.is-list .card-footer,.gate-recipe .card-footer{margin-top:var(--space-0)!important;padding:var(--space-0)!important}
+.home-recipe-rail.is-list .card-body h3,.gate-recipe h3{min-height:0!important;height:auto!important}
+.home-recipe-rail.is-list .card-subtitle,.gate-recipe .card-subtitle{min-height:0!important;height:auto!important}
+.home-recipe-rail.is-list .card-secondary,.gate-recipe .card-secondary{flex-wrap:wrap}
+.home-module.compact-tip .tip-rail{overflow:visible;margin:var(--space-0);padding:var(--space-0)}
+.home-module.compact-tip .web-tip{display:grid;grid-template-columns:80px minmax(0,1fr);grid-template-rows:auto auto;gap:var(--space-4) var(--space-16);flex-basis:100%;align-items:center;padding:var(--space-0)}
+.home-module.compact-tip .web-tip .photo{grid-row:1/3;width:80px;height:80px;aspect-ratio:1}.home-module.compact-tip .web-tip h3{-webkit-line-clamp:3}.home-module.compact-tip .web-tip small{align-self:start}
+/* 2: five distinct task doors; no new card family. */
+.home-choice-2 .home-continuation{gap:var(--space-24)}
+.home-choice-2 .module-doors,.home-choice-2 .ask-door,.home-choice-2 .fridge-door,.home-choice-2 .tips-module{border:1px solid var(--line);border-radius:var(--radius-card);padding:var(--space-16)!important;background:var(--paper)}
+.hybrid-home .ask-door{background:var(--tomato-tint)!important;display:grid;grid-template-columns:44px minmax(0,1fr);align-items:center;gap:var(--space-12)}
+.ask-door h2{font-size:var(--role-section-size)!important;margin:var(--space-0)!important;color:var(--ink)}
+.door-symbol{width:44px;height:44px;display:grid;place-items:center;background:var(--paper);border-radius:var(--radius-control);color:var(--tomato-deep)}
+.door-choice{display:flex;gap:var(--space-8);grid-column:1/-1;overflow-x:auto;scrollbar-width:none}.door-choice .chip{flex-shrink:0;gap:var(--space-8);padding-inline:var(--space-12)}
+.ask-door>.button{grid-column:1/-1;width:100%;background:var(--paper)}
+.home-choice-2 .fridge-door{background:var(--bg)!important;display:grid;gap:var(--space-12);box-shadow:none!important;color:var(--ink)!important}
+.home-choice-2 .fridge-door h2{font-size:var(--role-section-size)!important;margin:var(--space-0)!important}.home-choice-2 .fridge-door p{margin:var(--space-0)!important;font-size:var(--role-meta-size);color:var(--muted)}
+.home-choice-2 .fridge-door .fridge-chips{margin:var(--space-0)!important;gap:var(--space-8);display:flex;flex-wrap:wrap}
+.home-choice-2 .fridge-door .chip{height:var(--chip-height);padding-inline:var(--chip-padding);border-radius:var(--radius-control)}
+.plate-door .action-card{background:var(--paper);border:1px solid var(--tomato);grid-template-columns:44px minmax(0,1fr) 14px;padding:var(--space-16)!important;gap:var(--space-12)}
+/* 3: shelves kept from the root home, with five compact navigation cells. */
+.module-strip{display:flex;gap:var(--space-8);overflow-x:auto;margin:var(--space-0) calc(-1 * var(--gutter));padding:var(--space-0) var(--gutter);scrollbar-width:none;scroll-snap-type:x mandatory}
+.module-strip>a{flex:0 0 72px;display:flex;flex-direction:column;align-items:center;gap:var(--space-8);text-align:center;scroll-snap-align:start;text-decoration:none;color:var(--ink);min-height:88px}
+.module-strip>a>span{width:48px;height:48px;display:grid;place-items:center;border-radius:var(--radius-control);background:var(--bg);color:var(--tomato-deep)}
+.module-strip b{font-weight:var(--role-meta-weight);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.module-strip .icon{font-size:var(--icon-lg)}
+.resume-module small{color:var(--muted)}.resume-content{display:flex;align-items:center;gap:var(--space-12);margin-top:var(--space-12);padding:var(--space-16);background:var(--bg);border-radius:var(--radius-card)}.resume-content>.photo{width:64px;height:80px;flex-shrink:0;border-radius:var(--radius-control)}.resume-content>div:not(.photo){flex:1;min-width:0}.resume-content h3{margin:var(--space-0) var(--space-0) var(--space-8);font-size:var(--role-subheading-size)}.resume-content span{font-size:var(--role-meta-size)}.resume-content progress{display:block;width:100%;margin-top:var(--space-8)}
+.home-tips-sheet{display:grid;gap:var(--space-12)}.home-tips-sheet .action-card-title{white-space:normal!important}.home-tips-sheet .action-card{min-height:96px!important}
+@keyframes hybrid-arrive{from{transform:scale(1.09);opacity:.75}to{transform:scale(1.04);opacity:1}}
+@media(max-width:374px){.hybrid-home{--hybrid-height:644px}.answer-context .result-number{font-size:var(--role-meta-size)}.clear-selection{font-size:var(--role-meta-size)}.home-recipe-rail.is-list>.recipe-card,.gate-recipe>.recipe-card{grid-template-columns:32% minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){.hybrid-photo{animation:none!important;transition:none!important;transform:none!important}.hybrid-home *{scroll-behavior:auto!important}}
+/* Second visual pass: compact shared card rhythm and equal action-card boxes. */
+.hybrid-home .home-row{margin-bottom:var(--space-12)!important}
+.hybrid-home .card-footer .card-author-row{min-height:var(--touch-target)!important;height:var(--touch-target);padding:var(--space-0)!important}
+.hybrid-home .home-recipe-rail.is-list .card-secondary,.hybrid-home .gate-recipe .card-secondary{margin-top:var(--space-0)!important}
+.hybrid-home .home-recipe-rail.is-list .card-footer,.hybrid-home .gate-recipe .card-footer{min-height:var(--touch-target);height:var(--touch-target)}
+.hybrid-home .home-recipe-rail:not(.is-list) .card-footer{padding-top:var(--space-8);margin-top:var(--space-0)}
+.hybrid-home .home-module .action-card{display:grid;align-items:center}
+.hybrid-home .home-module .action-card-title{font-weight:var(--role-subheading-weight);font-size:var(--role-subheading-size);line-height:var(--role-subheading-line)}
+.hybrid-home .home-module .action-card-description{font-size:var(--role-meta-size);line-height:var(--role-meta-line);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hybrid-home .fridge-door h2{margin-bottom:var(--space-0)!important}
+/* Narrow horizontal photos retain both time and score inside the shared meta pill. */
+.home-recipe-rail.is-list>.recipe-card,.gate-recipe>.recipe-card{grid-template-columns:38% minmax(0,1fr)}
+.home-recipe-rail.is-list .photo-meta,.gate-recipe .photo-meta{left:var(--space-4);gap:var(--space-4);padding:var(--space-4)}
+.module-strip{scroll-padding-left:var(--gutter)}
+
+/* Home always keeps its logo. Full dock backing prevents text in safe-area/corner gaps. */
+.hybrid-home .topbar .brand-logo{display:block!important}
+.hybrid-home .nav-dock{background:var(--paper)!important}
+.hybrid-home .source-featured{padding:var(--space-0)!important}
+.hybrid-home .nav-dock{padding-top:var(--space-12)!important}

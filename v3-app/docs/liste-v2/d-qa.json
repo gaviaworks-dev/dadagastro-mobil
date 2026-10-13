@@ -1,0 +1,1887 @@
+{
+ "generated": "2026-10-10T14:54:37.956Z",
+ "themes": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "kategori-tumu",
+   "scope": "Kategoriler",
+   "selection": "Tümü",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 32 tarif",
+    "Glutensiz 11 tarif",
+    "Fırın Yemekleri 2 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "kategori-tatli",
+   "scope": "Kategoriler",
+   "selection": "Tatlı",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 1 tarif",
+    "Fırın Yemekleri 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "kategori-balik",
+   "scope": "Kategoriler",
+   "selection": "Balık ve Deniz Ürünleri",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 3 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "mutfak-tumu",
+   "scope": "Dünya Mutfakları",
+   "selection": "Tümü",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "mutfak-turk",
+   "scope": "Dünya Mutfakları",
+   "selection": "Türk Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "11 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "mutfak-meksika",
+   "scope": "Dünya Mutfakları",
+   "selection": "Meksika Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "2 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "kategori-tumu",
+   "scope": "Kategoriler",
+   "selection": "Tümü",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 32 tarif",
+    "Glutensiz 11 tarif",
+    "Fırın Yemekleri 2 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "kategori-tatli",
+   "scope": "Kategoriler",
+   "selection": "Tatlı",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 1 tarif",
+    "Fırın Yemekleri 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "kategori-balik",
+   "scope": "Kategoriler",
+   "selection": "Balık ve Deniz Ürünleri",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 3 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "mutfak-tumu",
+   "scope": "Dünya Mutfakları",
+   "selection": "Tümü",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "mutfak-turk",
+   "scope": "Dünya Mutfakları",
+   "selection": "Türk Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "11 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "mutfak-meksika",
+   "scope": "Dünya Mutfakları",
+   "selection": "Meksika Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "2 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "kategori-tumu",
+   "scope": "Kategoriler",
+   "selection": "Tümü",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 32 tarif",
+    "Glutensiz 11 tarif",
+    "Fırın Yemekleri 2 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "kategori-tatli",
+   "scope": "Kategoriler",
+   "selection": "Tatlı",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 1 tarif",
+    "Fırın Yemekleri 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "kategori-balik",
+   "scope": "Kategoriler",
+   "selection": "Balık ve Deniz Ürünleri",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 3 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "mutfak-tumu",
+   "scope": "Dünya Mutfakları",
+   "selection": "Tümü",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "mutfak-turk",
+   "scope": "Dünya Mutfakları",
+   "selection": "Türk Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "11 tarif bulundu"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "mutfak-meksika",
+   "scope": "Dünya Mutfakları",
+   "selection": "Meksika Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "2 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "kategori-tumu",
+   "scope": "Kategoriler",
+   "selection": "Tümü",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 32 tarif",
+    "Glutensiz 11 tarif",
+    "Fırın Yemekleri 2 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "kategori-tatli",
+   "scope": "Kategoriler",
+   "selection": "Tatlı",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 1 tarif",
+    "Fırın Yemekleri 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "kategori-balik",
+   "scope": "Kategoriler",
+   "selection": "Balık ve Deniz Ürünleri",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 3 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "mutfak-tumu",
+   "scope": "Dünya Mutfakları",
+   "selection": "Tümü",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "mutfak-turk",
+   "scope": "Dünya Mutfakları",
+   "selection": "Türk Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "11 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "mutfak-meksika",
+   "scope": "Dünya Mutfakları",
+   "selection": "Meksika Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "2 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "kategori-tumu",
+   "scope": "Kategoriler",
+   "selection": "Tümü",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 32 tarif",
+    "Glutensiz 11 tarif",
+    "Fırın Yemekleri 2 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "kategori-tatli",
+   "scope": "Kategoriler",
+   "selection": "Tatlı",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 1 tarif",
+    "Fırın Yemekleri 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "kategori-balik",
+   "scope": "Kategoriler",
+   "selection": "Balık ve Deniz Ürünleri",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 3 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "mutfak-tumu",
+   "scope": "Dünya Mutfakları",
+   "selection": "Tümü",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "mutfak-turk",
+   "scope": "Dünya Mutfakları",
+   "selection": "Türk Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "11 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "mutfak-meksika",
+   "scope": "Dünya Mutfakları",
+   "selection": "Meksika Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "2 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "kategori-tumu",
+   "scope": "Kategoriler",
+   "selection": "Tümü",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 32 tarif",
+    "Glutensiz 11 tarif",
+    "Fırın Yemekleri 2 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "kategori-tatli",
+   "scope": "Kategoriler",
+   "selection": "Tatlı",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 1 tarif",
+    "Fırın Yemekleri 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "kategori-balik",
+   "scope": "Kategoriler",
+   "selection": "Balık ve Deniz Ürünleri",
+   "shown": true,
+   "height": 80,
+   "inert": false,
+   "items": [
+    "Tümü 6 tarif",
+    "Glutensiz 3 tarif",
+    "Düşük Kalorili 2 tarif"
+   ],
+   "railToStatus": 144,
+   "result": "6 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "mutfak-tumu",
+   "scope": "Dünya Mutfakları",
+   "selection": "Tümü",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "32 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "mutfak-turk",
+   "scope": "Dünya Mutfakları",
+   "selection": "Türk Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "11 tarif bulundu"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "mutfak-meksika",
+   "scope": "Dünya Mutfakları",
+   "selection": "Meksika Mutfağı",
+   "shown": false,
+   "height": 0,
+   "inert": true,
+   "items": [],
+   "railToStatus": 40,
+   "result": "2 tarif bulundu"
+  }
+ ],
+ "jump": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "where": "ust",
+   "target": "mutfak",
+   "before": {
+    "tabs": 374,
+    "status": 618,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": -104,
+   "statusMaxFrameStep": 9.52,
+   "scrollDelta": 0,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "where": "ust",
+   "target": "kategori",
+   "before": {
+    "tabs": 374,
+    "status": 514,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 104,
+   "statusMaxFrameStep": 19.03,
+   "scrollDelta": 0,
+   "frames": 55
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "where": "yapisik",
+   "target": "mutfak",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 388,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.73,
+   "scrollDelta": -104,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "where": "yapisik",
+   "target": "kategori",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 284,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.89,
+   "scrollDelta": 104,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "where": "ust",
+   "target": "mutfak",
+   "before": {
+    "tabs": 374,
+    "status": 618,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": -104,
+   "statusMaxFrameStep": 10.22,
+   "scrollDelta": 0,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "where": "ust",
+   "target": "kategori",
+   "before": {
+    "tabs": 374,
+    "status": 514,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 104,
+   "statusMaxFrameStep": 14.23,
+   "scrollDelta": 0,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "where": "yapisik",
+   "target": "mutfak",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 388,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.8,
+   "scrollDelta": -104,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "where": "yapisik",
+   "target": "kategori",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 284,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.81,
+   "scrollDelta": 104,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "where": "ust",
+   "target": "mutfak",
+   "before": {
+    "tabs": 374,
+    "status": 618,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": -104,
+   "statusMaxFrameStep": 9.61,
+   "scrollDelta": 0,
+   "frames": 55
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "where": "ust",
+   "target": "kategori",
+   "before": {
+    "tabs": 374,
+    "status": 514,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 104,
+   "statusMaxFrameStep": 9.86,
+   "scrollDelta": 0,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "where": "yapisik",
+   "target": "mutfak",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 388,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.81,
+   "scrollDelta": -104,
+   "frames": 56
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "where": "yapisik",
+   "target": "kategori",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 284,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.78,
+   "scrollDelta": 104,
+   "frames": 56
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "where": "ust",
+   "target": "mutfak",
+   "before": {
+    "tabs": 374,
+    "status": 618,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": -104,
+   "statusMaxFrameStep": 18.69,
+   "scrollDelta": 0,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "where": "ust",
+   "target": "kategori",
+   "before": {
+    "tabs": 374,
+    "status": 514,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 104,
+   "statusMaxFrameStep": 17.56,
+   "scrollDelta": 0,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "where": "yapisik",
+   "target": "mutfak",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 388,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 1.41,
+   "scrollDelta": -104,
+   "frames": 28
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "where": "yapisik",
+   "target": "kategori",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 284,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.95,
+   "scrollDelta": 104,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "where": "ust",
+   "target": "mutfak",
+   "before": {
+    "tabs": 374,
+    "status": 618,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": -104,
+   "statusMaxFrameStep": 18.48,
+   "scrollDelta": 0,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "where": "ust",
+   "target": "kategori",
+   "before": {
+    "tabs": 374,
+    "status": 514,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 104,
+   "statusMaxFrameStep": 19.91,
+   "scrollDelta": 0,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "where": "yapisik",
+   "target": "mutfak",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 388,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.64,
+   "scrollDelta": -104,
+   "frames": 28
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "where": "yapisik",
+   "target": "kategori",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 284,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.95,
+   "scrollDelta": 104,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "where": "ust",
+   "target": "mutfak",
+   "before": {
+    "tabs": 374,
+    "status": 618,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": -104,
+   "statusMaxFrameStep": 19.63,
+   "scrollDelta": 0,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "where": "ust",
+   "target": "kategori",
+   "before": {
+    "tabs": 374,
+    "status": 514,
+    "y": 0,
+    "stuck": false
+   },
+   "stuckAfter": false,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 104,
+   "statusMaxFrameStep": 17.7,
+   "scrollDelta": 0,
+   "frames": 29
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "where": "yapisik",
+   "target": "mutfak",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 388,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 1.41,
+   "scrollDelta": -104,
+   "frames": 28
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "where": "yapisik",
+   "target": "kategori",
+   "before": {
+    "tabs": 146,
+    "status": 230,
+    "y": 284,
+    "stuck": true
+   },
+   "stuckAfter": true,
+   "tabsMaxMove": 0,
+   "statusFinalDrift": 0,
+   "statusMaxFrameStep": 0.95,
+   "scrollDelta": 104,
+   "frames": 29
+  }
+ ],
+ "panel": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "radius": "a",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "16px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "16px"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "radius": "b",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "20px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "20px"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "radius": "a",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "16px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "16px"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "radius": "b",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "20px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "20px"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "radius": "a",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "16px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "16px"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "radius": "b",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "20px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "20px"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "radius": "a",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "16px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "16px"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "radius": "b",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "20px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "20px"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "radius": "a",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "16px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "16px"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "radius": "b",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "20px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "20px"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "radius": "a",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "16px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "16px"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "radius": "b",
+   "before": {
+    "tools": "24px / 24px",
+    "panel": "24px",
+    "stuck": false,
+    "top": 296,
+    "token": "24px",
+    "cardR": "20px"
+   },
+   "stuck": {
+    "tools": "0px / 0px",
+    "panel": "24px",
+    "stuck": true,
+    "top": 68,
+    "token": "24px",
+    "cardR": "20px"
+   }
+  }
+ ],
+ "avatar": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "page": "izgara+slider",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "kart"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "page": "satir",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "satir"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "page": "tek-one-cikan",
+   "count": 1,
+   "kinds": [
+    "one-cikan"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "Ş"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "page": "izgara+slider",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "kart"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "page": "satir",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "satir"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "page": "tek-one-cikan",
+   "count": 1,
+   "kinds": [
+    "one-cikan"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "Ş"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "page": "izgara+slider",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "kart"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "page": "satir",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "satir"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "page": "tek-one-cikan",
+   "count": 1,
+   "kinds": [
+    "one-cikan"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "Ş"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "page": "izgara+slider",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "kart"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "page": "satir",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "satir"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "page": "tek-one-cikan",
+   "count": 1,
+   "kinds": [
+    "one-cikan"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "Ş"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "page": "izgara+slider",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "kart"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "page": "satir",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "satir"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "page": "tek-one-cikan",
+   "count": 1,
+   "kinds": [
+    "one-cikan"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "Ş"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "page": "izgara+slider",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "kart"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "page": "satir",
+   "count": 12,
+   "kinds": [
+    "slider",
+    "satir"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "DCŞGEAİ"
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "page": "tek-one-cikan",
+   "count": 1,
+   "kinds": [
+    "one-cikan"
+   ],
+   "sizes": [
+    "20x20"
+   ],
+   "fontSizes": [
+    "13px"
+   ],
+   "fonts": [
+    "GilroyBd 700"
+   ],
+   "allLoaded": true,
+   "letters": "Ş"
+  }
+ ],
+ "overflow": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "kategori-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "kategori-tatli",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "kategori-balik",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "mutfak-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "mutfak-turk",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "state": "mutfak-meksika",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "kategori-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "kategori-tatli",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "kategori-balik",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "mutfak-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "mutfak-turk",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "state": "mutfak-meksika",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "kategori-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "kategori-tatli",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "kategori-balik",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "mutfak-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "mutfak-turk",
+   "overflow": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "state": "mutfak-meksika",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "kategori-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "kategori-tatli",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "kategori-balik",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "mutfak-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "mutfak-turk",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "state": "mutfak-meksika",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "kategori-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "kategori-tatli",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "kategori-balik",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "mutfak-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "mutfak-turk",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "state": "mutfak-meksika",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "kategori-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "kategori-tatli",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "kategori-balik",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "mutfak-tumu",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "mutfak-turk",
+   "overflow": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "state": "mutfak-meksika",
+   "overflow": 0
+  }
+ ],
+ "errors": [
+  "chromium-360 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED",
+  "chromium-360 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: Failed to load resource: net::ERR_CONNECTION_RESET",
+  "chromium-390 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: Failed to load resource: net::ERR_CONNECTION_RESET",
+  "chromium-390 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: Failed to load resource: net::ERR_CONNECTION_RESET"
+ ],
+ "http": [
+  "chromium-360 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: başarısız http://127.0.0.1:8765/v3-app/assets/flags/tn.svg net::ERR_SOCKET_NOT_CONNECTED",
+  "chromium-360 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: başarısız http://127.0.0.1:8765/v3-app/assets/flags/et.svg net::ERR_CONNECTION_RESET",
+  "chromium-390 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: başarısız http://127.0.0.1:8765/v3-app/assets/flags/pk.svg net::ERR_CONNECTION_RESET",
+  "chromium-390 liste-v2.html?siralama=a&gosterge=a&radius=a&rozet=a: başarısız http://127.0.0.1:8765/v3-app/assets/flags/cn.svg net::ERR_CONNECTION_RESET"
+ ],
+ "avatarCrops": [
+  {
+   "kind": "kart",
+   "phase": "once",
+   "path": "docs/screenshots/liste-v2/d/avatar-kart-once.png",
+   "letter": "İ",
+   "name": "Tarifi ekleyen: İrem Akşit"
+  },
+  {
+   "kind": "kart",
+   "phase": "sonra",
+   "path": "docs/screenshots/liste-v2/d/avatar-kart-sonra.png",
+   "letter": "İ",
+   "name": "Tarifi ekleyen: İrem Akşit"
+  },
+  {
+   "kind": "satir",
+   "phase": "once",
+   "path": "docs/screenshots/liste-v2/d/avatar-satir-once.png",
+   "letter": "İ",
+   "name": "Tarifi ekleyen: İrem Akşit"
+  },
+  {
+   "kind": "satir",
+   "phase": "sonra",
+   "path": "docs/screenshots/liste-v2/d/avatar-satir-sonra.png",
+   "letter": "İ",
+   "name": "Tarifi ekleyen: İrem Akşit"
+  },
+  {
+   "kind": "slider",
+   "phase": "once",
+   "path": "docs/screenshots/liste-v2/d/avatar-slider-once.png",
+   "letter": "D",
+   "name": "Tarifi ekleyen: Doruk Solmaz"
+  },
+  {
+   "kind": "slider",
+   "phase": "sonra",
+   "path": "docs/screenshots/liste-v2/d/avatar-slider-sonra.png",
+   "letter": "D",
+   "name": "Tarifi ekleyen: Doruk Solmaz"
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "runs": [
+  {
+   "engine": "chromium",
+   "k": "varsayilan",
+   "a": {
+    "open": true,
+    "n": 5,
+    "idx": 0,
+    "count": "1 / 5",
+    "countVisible": true,
+    "arrows": true,
+    "close": true,
+    "nw": 1600,
+    "fit": "contain",
+    "inView": true,
+    "bg": "rgb(33, 30, 22)",
+    "error": false,
+    "caption": "Kapak",
+    "htmlOverflow": "hidden",
+    "y": 0
+   }
+  },
+  {
+   "engine": "chromium",
+   "k": "misir",
+   "a": {
+    "open": true,
+    "n": 3,
+    "idx": 0,
+    "count": "1 / 3",
+    "countVisible": true,
+    "arrows": true,
+    "close": true,
+    "nw": 1600,
+    "fit": "contain",
+    "inView": true,
+    "bg": "rgb(33, 30, 22)",
+    "error": false,
+    "caption": "Kapak",
+    "htmlOverflow": "hidden",
+    "y": 0
+   }
+  },
+  {
+   "engine": "chromium",
+   "k": "shami",
+   "a": {
+    "open": true,
+    "n": 1,
+    "idx": 0,
+    "count": "",
+    "countVisible": false,
+    "arrows": false,
+    "close": true,
+    "nw": 1600,
+    "fit": "contain",
+    "inView": true,
+    "bg": "rgb(33, 30, 22)",
+    "error": false,
+    "caption": "Kapak",
+    "htmlOverflow": "hidden",
+    "y": 0
+   }
+  },
+  {
+   "engine": "webkit",
+   "k": "varsayilan",
+   "a": {
+    "open": true,
+    "n": 5,
+    "idx": 0,
+    "count": "1 / 5",
+    "countVisible": true,
+    "arrows": true,
+    "close": true,
+    "nw": 1600,
+    "fit": "contain",
+    "inView": true,
+    "bg": "rgb(33, 30, 22)",
+    "error": false,
+    "caption": "Kapak",
+    "htmlOverflow": "hidden",
+    "y": 0
+   }
+  },
+  {
+   "engine": "webkit",
+   "k": "misir",
+   "a": {
+    "open": true,
+    "n": 3,
+    "idx": 0,
+    "count": "1 / 3",
+    "countVisible": true,
+    "arrows": true,
+    "close": true,
+    "nw": 1600,
+    "fit": "contain",
+    "inView": true,
+    "bg": "rgb(33, 30, 22)",
+    "error": false,
+    "caption": "Kapak",
+    "htmlOverflow": "hidden",
+    "y": 0
+   }
+  },
+  {
+   "engine": "webkit",
+   "k": "shami",
+   "a": {
+    "open": true,
+    "n": 1,
+    "idx": 0,
+    "count": "",
+    "countVisible": false,
+    "arrows": false,
+    "close": true,
+    "nw": 1600,
+    "fit": "contain",
+    "inView": true,
+    "bg": "rgb(33, 30, 22)",
+    "error": false,
+    "caption": "Kapak",
+    "htmlOverflow": "hidden",
+    "y": 0
+   }
+  }
+ ],
+ "all": [
+  {
+   "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+   "title": "Tavuk Curry",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi",
+   "title": "Yunan Usulü Limonlu Karides Sote",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi",
+   "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas",
+   "title": "Kırmızı Fasulye Yahnisi",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver",
+   "title": "Patates Mücveri",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "title": "Sagdana",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "pasteis-de-feijao-portekiz-torres-vedras-usulu-bademli-fasulyeli-mini-tart",
+   "title": "Pastéis de Feijão",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart",
+   "title": "Tarte de Amêndoa",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "sardalya-izgara-limon-kekikli",
+   "title": "Sardalya Izgara",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci",
+   "title": "Güveçte Ayvalı Tavuk",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "title": "Ördek Dolması",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+   "title": "Tuzsuz Bebek Tavuk Suyu",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+   "title": "Arroz con Pato",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "title": "Asam Pedas",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "title": "Jiao Yan Karides",
+   "n": 6,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+   "title": "Karabuğday Kaplamalı Levrek",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+   "title": "Mercimekli Yaprak Sarma",
+   "n": 5,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+   "title": "Lor Dolması",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+   "title": "Chelsea Bun",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+   "title": "Moin Moin",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+   "title": "Waakye",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+   "title": "Enfrijoladas",
+   "n": 2,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "frijoles-refritos-meksika-usulu-ezme-fasulye",
+   "title": "Frijoles Refritos",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+   "title": "Semizotlu Yumurta",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+   "title": "Masabeeb",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+   "title": "İrimşik",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+   "title": "Mamounia",
+   "n": 5,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "title": "Kiev Pastası",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "title": "Tamriyeh",
+   "n": 7,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+   "title": "Tepsi Kadayıfı",
+   "n": 5,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi",
+   "title": "Muska Tatlısı",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "title": "Mısır Koçanı Jölesi",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+   "title": "Şadok Kabuğu Reçeli",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+   "title": "Mürver Çiçeği Jölesi",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+   "title": "Japon Ayvası Jölesi",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz",
+   "title": "Jamaika Usulü Ananas Zencefil Reçeli",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+   "title": "Shami Kebap",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+   "title": "Tire Köfte",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+   "title": "Pırasa Köftesi",
+   "n": 2,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+   "title": "Yeni Dünya Kebabı",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte",
+   "title": "Kağıtta Köfte",
+   "n": 3,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "huhnerfrikassee-alman-usulu-kuskonmazli-mantarli-kremali-tavuk-yahnisi",
+   "title": "Hühnerfrikassee",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+   "title": "Arpa Şehriyeli Sebze Çorbası",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+   "title": "Köz Patlıcan ve Yoğurt Ezmesi",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi",
+   "title": "Firik Lapası",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "izgara-misir-puresi-arjantin-usulu-bebek-mamasi",
+   "title": "Izgara Mısır Püresi",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+   "title": "Saleeg",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+   "title": "Arpa Şehriyeli Pilav",
+   "n": 2,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi",
+   "title": "Greçka Po-Kupeçeski",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav",
+   "title": "Kuşkonmazlı Makademya Pilavı",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi",
+   "title": "Airfryer'da Hamsili Ekmek",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "bogrulce-yemegi-kuzu-etli-duduklu-tencerede",
+   "title": "Böğrülce Yemeği",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+   "title": "Sumaklı Yumurta",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+   "title": "Nohutlu Baharatlı Yumurta Güveci",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik",
+   "title": "Suudi Usulü Düdüklüde Yumurtalı Cerişe",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta",
+   "title": "Huevos Rellenos",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu",
+   "title": "Agedashi Tofu",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+   "title": "Pancarlı Kek",
+   "n": 5,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+   "title": "Vişneli Islak Kek",
+   "n": 5,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi",
+   "title": "Znoud el-Sit",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  },
+  {
+   "slug": "kastera-kek-japon-usulu-bal-serbetli-sunger-kek",
+   "title": "Kastera Kek",
+   "n": 1,
+   "nw": 1600,
+   "error": false
+  }
+ ],
+ "failures": []
+}

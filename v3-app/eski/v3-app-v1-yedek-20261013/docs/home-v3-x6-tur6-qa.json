@@ -1,0 +1,1015 @@
+{
+ "tarih": "2026-10-09T17:21:03.003Z",
+ "sira": [
+  "Tarif bul — elindekiyle",
+  "Video Mutfağı",
+  "Kategoriler & Dünya Mutfakları",
+  "En son eklenen tarifler",
+  "Tarifin ustaları",
+  "Senin de bir tarifin var"
+ ],
+ "kart": "A · kaplama",
+ "video": "tur 5 · kalın başlık + %78 izlenme",
+ "tumu": "başlık sağında Tümü",
+ "hero": "Jiao Yan Karides",
+ "gorunumler": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "zeminler": [
+    {
+     "h2": "Tarif bul — elindekiyle",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Video Mutfağı",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Kategoriler & Dünya Mutfakları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "En son eklenen tarifler",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Tarifin ustaları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Senin de bir tarifin var",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    }
+   ],
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "kart_kontrast": {
+    "kart1_baslik": 10.8,
+    "kart1_kategori": 10.03,
+    "kart1_yazar": 12.84,
+    "kart1_sure": 11.54,
+    "kart2_baslik": 10.5,
+    "kart2_kategori": 10.14,
+    "kart2_yazar": 14.57,
+    "kart2_sure": 6.91,
+    "kart3_baslik": 14.7,
+    "kart3_kategori": 13.37,
+    "kart3_yazar": 15.21,
+    "kart3_sure": 8.19
+   },
+   "video_kontrast": {
+    "baslik": 16.64,
+    "tumu": 6.66,
+    "buyuk_kart_baslik": 9.7,
+    "buyuk_kart_izlenme": 7.85,
+    "buyuk_kart_sure": 6.8,
+    "kucuk1_baslik": 10.07,
+    "kucuk1_izlenme": 7.66,
+    "kucuk1_sure": 10.94,
+    "kucuk2_baslik": 9.75,
+    "kucuk2_izlenme": 7.99,
+    "kucuk2_sure": 9.77,
+    "kucuk3_baslik": 9.71,
+    "kucuk3_izlenme": 7.63,
+    "kucuk3_sure": 6.58,
+    "kucuk4_baslik": 9.74,
+    "kucuk4_izlenme": 8.03,
+    "kucuk4_sure": 6.81,
+    "kucuk5_baslik": 9.71,
+    "kucuk5_izlenme": 7.94,
+    "kucuk5_sure": 9.77
+   },
+   "tumu": [
+    "Video Mutfağı | rgb(168, 51, 26) | 13px | 44",
+    "Kategoriler & Dünya Mutfakları | rgb(168, 51, 26) | 13px | 44",
+    "En son eklenen tarifler | rgb(168, 51, 26) | 13px | 44",
+    "Tarifin ustaları | rgb(168, 51, 26) | 13px | 44"
+   ],
+   "gorsel_olcek": {
+    "buyuk_video": {
+     "kaynak": "400×266",
+     "alan": "320×213",
+     "olcek": 0.802
+    },
+    "kucuk_video_1": {
+     "kaynak": "400×712",
+     "alan": "230×230",
+     "olcek": 0.575
+    },
+    "kucuk_video_2": {
+     "kaynak": "400×300",
+     "alan": "230×230",
+     "olcek": 0.767
+    },
+    "kucuk_video_3": {
+     "kaynak": "266×400",
+     "alan": "230×230",
+     "olcek": 0.865
+    },
+    "kucuk_video_4": {
+     "kaynak": "400×712",
+     "alan": "230×230",
+     "olcek": 0.575
+    },
+    "kucuk_video_5": {
+     "kaynak": "400×300",
+     "alan": "230×230",
+     "olcek": 0.767
+    },
+    "hero": {
+     "kaynak": "1600×1074",
+     "alan_dinlenme": "360×608",
+     "olcek": 0.566
+    }
+   },
+   "video_geometri": {
+    "izlenme_icerde": true,
+    "baslik_2_satir": true,
+    "kucuk_esit": true,
+    "oynat_ayni": true,
+    "oynat_metinle_cakismaz": true,
+    "sure_ayni_konum": true,
+    "son_kart_sag_bosluk": 20,
+    "gorunen_kart": 1.49
+   },
+   "kontrast": {
+    "baslik": 10.43,
+    "bugun": 13.41,
+    "tarif_adi": 13.73,
+    "ipucu": 15.09
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "mutfak": {
+    "count": 16,
+    "cols": 4,
+    "flags": 16,
+    "globes": 0,
+    "frames": [
+     "48×48"
+    ],
+    "minH": 130.5625,
+    "minW": 74,
+    "names2": true,
+    "centred": true,
+    "photos": 0,
+    "h": 764
+   },
+   "bayraksiz": "Balkan Mutfağı",
+   "uzun_ad": {
+    "videoTwoLines": true,
+    "videoViewsVisible": true,
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "zeminler": [
+    {
+     "h2": "Tarif bul — elindekiyle",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Video Mutfağı",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Kategoriler & Dünya Mutfakları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "En son eklenen tarifler",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Tarifin ustaları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Senin de bir tarifin var",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    }
+   ],
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "kart_kontrast": {
+    "kart1_baslik": 12.43,
+    "kart1_kategori": 11.9,
+    "kart1_yazar": 12.66,
+    "kart1_sure": 11.54,
+    "kart2_baslik": 10.5,
+    "kart2_kategori": 9.68,
+    "kart2_yazar": 14.52,
+    "kart2_sure": 6.88,
+    "kart3_baslik": 14.85,
+    "kart3_kategori": 13.42,
+    "kart3_yazar": 15.21,
+    "kart3_sure": 8.32
+   },
+   "video_kontrast": {
+    "baslik": 16.64,
+    "tumu": 6.66,
+    "buyuk_kart_baslik": 9.7,
+    "buyuk_kart_izlenme": 9.65,
+    "buyuk_kart_sure": 6.74,
+    "kucuk1_baslik": 10.07,
+    "kucuk1_izlenme": 7.66,
+    "kucuk1_sure": 10.94,
+    "kucuk2_baslik": 9.71,
+    "kucuk2_izlenme": 7.94,
+    "kucuk2_sure": 9.77,
+    "kucuk3_baslik": 9.71,
+    "kucuk3_izlenme": 7.63,
+    "kucuk3_sure": 6.58,
+    "kucuk4_baslik": 9.74,
+    "kucuk4_izlenme": 7.89,
+    "kucuk4_sure": 6.81,
+    "kucuk5_baslik": 9.71,
+    "kucuk5_izlenme": 7.94,
+    "kucuk5_sure": 9.77
+   },
+   "tumu": [
+    "Video Mutfağı | rgb(168, 51, 26) | 13px | 44",
+    "Kategoriler & Dünya Mutfakları | rgb(168, 51, 26) | 13px | 44",
+    "En son eklenen tarifler | rgb(168, 51, 26) | 13px | 44",
+    "Tarifin ustaları | rgb(168, 51, 26) | 13px | 44"
+   ],
+   "gorsel_olcek": {
+    "buyuk_video": {
+     "kaynak": "400×266",
+     "alan": "350×233",
+     "olcek": 0.877
+    },
+    "kucuk_video_1": {
+     "kaynak": "400×712",
+     "alan": "230×230",
+     "olcek": 0.575
+    },
+    "kucuk_video_2": {
+     "kaynak": "400×300",
+     "alan": "230×230",
+     "olcek": 0.767
+    },
+    "kucuk_video_3": {
+     "kaynak": "266×400",
+     "alan": "230×230",
+     "olcek": 0.865
+    },
+    "kucuk_video_4": {
+     "kaynak": "400×712",
+     "alan": "230×230",
+     "olcek": 0.575
+    },
+    "kucuk_video_5": {
+     "kaynak": "400×300",
+     "alan": "230×230",
+     "olcek": 0.767
+    },
+    "hero": {
+     "kaynak": "1600×1074",
+     "alan_dinlenme": "390×608",
+     "olcek": 0.566
+    }
+   },
+   "video_geometri": {
+    "izlenme_icerde": true,
+    "baslik_2_satir": true,
+    "kucuk_esit": true,
+    "oynat_ayni": true,
+    "oynat_metinle_cakismaz": true,
+    "sure_ayni_konum": true,
+    "son_kart_sag_bosluk": 20,
+    "gorunen_kart": 1.61
+   },
+   "kontrast": {
+    "baslik": 10.42,
+    "bugun": 13.35,
+    "tarif_adi": 13.73,
+    "ipucu": 15.09
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "mutfak": {
+    "count": 16,
+    "cols": 4,
+    "flags": 16,
+    "globes": 0,
+    "frames": [
+     "48×48"
+    ],
+    "minH": 112.375,
+    "minW": 81.5,
+    "names2": true,
+    "centred": true,
+    "photos": 0,
+    "h": 754
+   },
+   "bayraksiz": "Balkan Mutfağı",
+   "uzun_ad": {
+    "videoTwoLines": true,
+    "videoViewsVisible": true,
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "zeminler": [
+    {
+     "h2": "Tarif bul — elindekiyle",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Video Mutfağı",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Kategoriler & Dünya Mutfakları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "En son eklenen tarifler",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Tarifin ustaları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Senin de bir tarifin var",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    }
+   ],
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "kart_kontrast": {
+    "kart1_baslik": 12.25,
+    "kart1_kategori": 11.9,
+    "kart1_yazar": 12.62,
+    "kart1_sure": 11.23,
+    "kart2_baslik": 10.68,
+    "kart2_kategori": 9.68,
+    "kart2_yazar": 14.33,
+    "kart2_sure": 6.8,
+    "kart3_baslik": 15.39,
+    "kart3_kategori": 14.03,
+    "kart3_yazar": 15.01,
+    "kart3_sure": 8.59
+   },
+   "video_kontrast": {
+    "baslik": 16.64,
+    "tumu": 6.66,
+    "buyuk_kart_baslik": 9.78,
+    "buyuk_kart_izlenme": 9.77,
+    "buyuk_kart_sure": 6.77,
+    "kucuk1_baslik": 10.07,
+    "kucuk1_izlenme": 7.65,
+    "kucuk1_sure": 10.94,
+    "kucuk2_baslik": 9.71,
+    "kucuk2_izlenme": 7.94,
+    "kucuk2_sure": 9.77,
+    "kucuk3_baslik": 9.71,
+    "kucuk3_izlenme": 7.63,
+    "kucuk3_sure": 6.58,
+    "kucuk4_baslik": 9.74,
+    "kucuk4_izlenme": 7.89,
+    "kucuk4_sure": 6.81,
+    "kucuk5_baslik": 9.71,
+    "kucuk5_izlenme": 7.94,
+    "kucuk5_sure": 9.77
+   },
+   "tumu": [
+    "Video Mutfağı | rgb(168, 51, 26) | 13px | 44",
+    "Kategoriler & Dünya Mutfakları | rgb(168, 51, 26) | 13px | 44",
+    "En son eklenen tarifler | rgb(168, 51, 26) | 13px | 44",
+    "Tarifin ustaları | rgb(168, 51, 26) | 13px | 44"
+   ],
+   "gorsel_olcek": {
+    "buyuk_video": {
+     "kaynak": "400×266",
+     "alan": "390×260",
+     "olcek": 0.977
+    },
+    "kucuk_video_1": {
+     "kaynak": "400×712",
+     "alan": "230×230",
+     "olcek": 0.575
+    },
+    "kucuk_video_2": {
+     "kaynak": "400×300",
+     "alan": "230×230",
+     "olcek": 0.767
+    },
+    "kucuk_video_3": {
+     "kaynak": "266×400",
+     "alan": "230×230",
+     "olcek": 0.865
+    },
+    "kucuk_video_4": {
+     "kaynak": "400×712",
+     "alan": "230×230",
+     "olcek": 0.575
+    },
+    "kucuk_video_5": {
+     "kaynak": "400×300",
+     "alan": "230×230",
+     "olcek": 0.767
+    },
+    "hero": {
+     "kaynak": "1600×1074",
+     "alan_dinlenme": "430×608",
+     "olcek": 0.566
+    }
+   },
+   "video_geometri": {
+    "izlenme_icerde": true,
+    "baslik_2_satir": true,
+    "kucuk_esit": true,
+    "oynat_ayni": true,
+    "oynat_metinle_cakismaz": true,
+    "sure_ayni_konum": true,
+    "son_kart_sag_bosluk": 20,
+    "gorunen_kart": 1.78
+   },
+   "kontrast": {
+    "baslik": 10.27,
+    "bugun": 12.97,
+    "tarif_adi": 13.73,
+    "ipucu": 15.09
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "mutfak": {
+    "count": 16,
+    "cols": 4,
+    "flags": 16,
+    "globes": 0,
+    "frames": [
+     "48×48"
+    ],
+    "minH": 112.375,
+    "minW": 91.5,
+    "names2": true,
+    "centred": true,
+    "photos": 0,
+    "h": 754
+   },
+   "bayraksiz": "Balkan Mutfağı",
+   "uzun_ad": {
+    "videoTwoLines": true,
+    "videoViewsVisible": true,
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "zeminler": [
+    {
+     "h2": "Tarif bul — elindekiyle",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Video Mutfağı",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Kategoriler & Dünya Mutfakları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "En son eklenen tarifler",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Tarifin ustaları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Senin de bir tarifin var",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 360,
+     "borders": "0px/0px"
+    }
+   ],
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "mutfak": {
+    "count": 16,
+    "cols": 4,
+    "flags": 16,
+    "globes": 0,
+    "frames": [
+     "48×48"
+    ],
+    "minH": 130.5625,
+    "minW": 74,
+    "names2": true,
+    "centred": true,
+    "photos": 0,
+    "h": 765
+   },
+   "bayraksiz": "Balkan Mutfağı",
+   "uzun_ad": {
+    "videoTwoLines": true,
+    "videoViewsVisible": true,
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "zeminler": [
+    {
+     "h2": "Tarif bul — elindekiyle",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Video Mutfağı",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Kategoriler & Dünya Mutfakları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "En son eklenen tarifler",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Tarifin ustaları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Senin de bir tarifin var",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 390,
+     "borders": "0px/0px"
+    }
+   ],
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "mutfak": {
+    "count": 16,
+    "cols": 4,
+    "flags": 16,
+    "globes": 0,
+    "frames": [
+     "48×48"
+    ],
+    "minH": 112.375,
+    "minW": 81.5,
+    "names2": true,
+    "centred": true,
+    "photos": 0,
+    "h": 754
+   },
+   "bayraksiz": "Balkan Mutfağı",
+   "uzun_ad": {
+    "videoTwoLines": true,
+    "videoViewsVisible": true,
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "zeminler": [
+    {
+     "h2": "Tarif bul — elindekiyle",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Video Mutfağı",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Kategoriler & Dünya Mutfakları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "En son eklenen tarifler",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Tarifin ustaları",
+     "bg": "rgb(249, 249, 249)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    },
+    {
+     "h2": "Senin de bir tarifin var",
+     "bg": "rgb(255, 255, 255)",
+     "left": 0,
+     "width": 430,
+     "borders": "0px/0px"
+    }
+   ],
+   "kartlar": 3,
+   "yazarlar_ok": true,
+   "sef_avatar": "96×96",
+   "kart_avatar": "20×20",
+   "bolum_sirasi_ok": true,
+   "header": {
+    "ilk_tam_opak_y": 20,
+    "cakisma": 0,
+    "arama_ikonu_tutarli": true
+   },
+   "menu": "logo + Dolapta Ne Var satırı → kayıtlı dolap sekmesi",
+   "dolap": "kalıcı (yeniden yükleme sonrası), 3 sonuç kartı, hepsinde yazar",
+   "elinde": "1 sonuç, hepsinde yazar",
+   "mutfak": {
+    "count": 16,
+    "cols": 4,
+    "flags": 16,
+    "globes": 0,
+    "frames": [
+     "48×48"
+    ],
+    "minH": 112.375,
+    "minW": 91.5,
+    "names2": true,
+    "centred": true,
+    "photos": 0,
+    "h": 754
+   },
+   "bayraksiz": "Balkan Mutfağı",
+   "uzun_ad": {
+    "videoTwoLines": true,
+    "videoViewsVisible": true,
+    "authorEllipsis": true,
+    "authorOneLine": true,
+    "titleTwoLines": true,
+    "chefTwoLines": true
+   },
+   "reduced_motion": [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hatalar": [],
+   "http": []
+  }
+ ],
+ "header390": [
+  {
+   "y": 0,
+   "alpha": 0,
+   "collision": false,
+   "searchHidden": false,
+   "headerSearch": false
+  },
+  {
+   "y": 20,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 40,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 60,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 80,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 100,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 120,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 140,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 160,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 180,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 200,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 220,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 240,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 260,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 280,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 300,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 320,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 340,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 360,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 380,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  },
+  {
+   "y": 400,
+   "alpha": 1,
+   "collision": false,
+   "searchHidden": true,
+   "headerSearch": true
+  }
+ ]
+}

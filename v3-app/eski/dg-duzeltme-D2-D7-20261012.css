@@ -1,0 +1,77 @@
+/* Kök ekran çelişki düzeltmeleri (docs/55 §4). Beyar kararı (12 Ekim): çelişkide en yeni ekranın (detay-v2) değeri esastır.
+   Üç kök ekranda (ana-v3, liste-v2, detay-v2) en son yüklenir. Değerler yalnız token'dan; elle değer yok.
+   Primary ailesi bu dosyada değil, dg-kopru.css üzerinden canlı token'lara bağlandı. */
+
+/* D2 · Sekme kontrolü (segment) tek ölçü = detay sekmeleri: dış kontrol köşesi 12, iç boşluk 4, düğme 44 hedef,
+   zemin --line, etkin düğme beyaz + sh-sm, yazı GilroyBd gövde ölçeği. Ana sayfa sekmeleri (44, boşluksuz, 16 köşe, 13px)
+   ve liste kapsam/görünüm/sıralama grupları buna çekildi. */
+body.editorial-v2 .segmented:is(.v3-tabs, .ld-scope, .view-toggle, .dv2-tabs),
+body.editorial-v2 .lv2-sort-group {
+  padding: var(--space-4);
+  gap: var(--space-4);
+  border-radius: var(--radius-control);
+  background: var(--line);
+  box-shadow: none;
+}
+body.editorial-v2 .segmented:is(.v3-tabs, .ld-scope, .view-toggle, .dv2-tabs) > button,
+body.editorial-v2 .lv2-sort-group > button {
+  min-height: var(--touch-target);
+  border-radius: var(--radius-control);
+  font-family: GilroyBd, var(--font);
+  font-size: var(--role-body-size);
+  font-weight: var(--role-section-weight);
+}
+
+/* D3 · Kart kategorisi tek rol = detay benzer tarif kartı: kalın 11, etiket tracking'i, meta satır yüksekliği. */
+body.editorial-v2 .dg-card__category {
+  letter-spacing: var(--role-label-tracking);
+  line-height: var(--role-meta-line);
+}
+
+/* D4 · Başlık rolleri: hero slayt tarif adı ve şef kartı adı = öne çıkan rolü (detay şef adı 20/700/1.2);
+   video kartı başlığı = kart rolünün kalın hâli yerine öne çıkan/kart rol satırı ve tracking'i. */
+body.home-v3 .purpose-banner strong {
+  font-size: var(--role-featured-size);
+  line-height: var(--role-featured-line);
+  letter-spacing: var(--role-featured-tracking);
+}
+body.home-v3 .v3-video-text strong {
+  line-height: var(--role-card-line);
+  letter-spacing: var(--role-card-tracking);
+}
+body.home-v3 .v3-chef-card b {
+  line-height: var(--role-card-line);
+  letter-spacing: var(--role-card-tracking);
+}
+
+/* D5 · Meta satır yüksekliği tek değer (1.4): "Tümü" bağlantıları ve sayfalama 1.2/1.55 idi. */
+body.editorial-v2 .dg-head__link { line-height: var(--role-meta-line); }
+
+/* D6 · Birincil düğme yüksekliği = detay CTA'ları (52): ana sayfa "Tarif bul" (44), liste boş durum (48). */
+body.editorial-v2 :is(.v3-dolap-find, .lv2-empty .button) { min-height: var(--cook-height); }
+
+/* D7 · Takip et = detay şef kartındaki düğme: açık primary zemin, koyu primary kalın metin, 44 hedef. */
+body.home-v3 .v3-chef-follow {
+  background: var(--tomato-tint);
+  border-color: transparent;
+  color: var(--tomato-deep);
+  font-family: GilroyBd, var(--font);
+  font-weight: var(--role-section-weight);
+}
+
+/* D8 · (Beyar, 12 Ekim — önceki “sola yaslı” kararı GERİ ALINDI) Metin iki yana yaslı, ortak katmandan gelir (ortak/dg-metin.css). */
+body.editorial-v2 :is(.prose, .dv2-justify, .prose-long) {
+  text-align: justify;
+  text-align-last: left;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* D9 · Pişirme modu adım metni sayfa rolü 24/700 (Beyar kararı 12). */
+body.detay-v2 .cm2-text {
+  font-family: GilroyBd, var(--font);
+  font-size: var(--role-page-size);
+  font-weight: var(--role-page-weight);
+  line-height: var(--role-page-line);
+  letter-spacing: var(--role-page-tracking);
+}

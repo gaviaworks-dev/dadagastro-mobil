@@ -1,0 +1,5925 @@
+{
+ "date": "2026-10-10T20:40:27.751Z",
+ "failures": [],
+ "results": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "recipe": "tavuk-curry",
+   "layout": {
+    "overflowX": false,
+    "factLines": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "chefLines": [
+     1
+    ],
+    "chefButtons": [
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     },
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     }
+    ],
+    "removed": {
+     "engagementCopy": 0,
+     "tags": 0,
+     "splitRow": 0,
+     "factCells": 3,
+     "boxedFacts": "0px",
+     "boxedChef": "1px"
+    },
+    "singleLineJustified": 0,
+    "tabs": [
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     }
+    ],
+    "chefCount": 1,
+    "rowGapMin": 13,
+    "tooSmall": [],
+    "titleText": "Tavuk Curry"
+   },
+   "stages": {
+    "baslangic": {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1029,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "binerken": {
+     "y": 154,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 221,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 875,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "yapisik": {
+     "y": 1001,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -626,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "son": {
+     "y": 1615,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -1240,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "sweep": [
+    {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "23.3613px",
+     "capRadius": "23.3613px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1029,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 20,
+     "alpha": 0.417,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.417)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 355,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1009,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 40,
+     "alpha": 0.833,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.833)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 335,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 989,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 60,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 315,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 969,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 80,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 295,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 949,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 100,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 275,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 929,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 120,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 255,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 909,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 140,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 235,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 889,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 160,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 215,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 869,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 180,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 195,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 849,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 200,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 175,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 829,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 220,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 155,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 809,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 240,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 135,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 789,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 260,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 115,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 769,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 280,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 95,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 749,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 300,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 75,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 729,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 320,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 55,
+     "headerBottom": 68,
+     "panelRadius": "0.923036px",
+     "capRadius": "0.923036px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 709,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 340,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 35,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 689,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 360,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 15,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 669,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   ],
+   "parity": {
+    "features": [
+     "Hint Mutfağı",
+     "Glutensiz",
+     "Laktozsuz",
+     "Süt İçermez",
+     "Orta Bütçe (₺₺)"
+    ],
+    "flag": true,
+    "featureLabel": "Özellikler",
+    "cards": [
+     "Hatırlatma"
+    ],
+    "cardVisibleRatio": null,
+    "cardHeights": [
+     167
+    ],
+    "oldAllergenBox": 0,
+    "portionDup": false,
+    "portionMeta": "9 malzeme",
+    "silent": "2 kişi yorum yazmadan puan verdi",
+    "desc": {
+     "text": "Hindistan cevizi sütü ve curry baharatla",
+     "more": true
+    }
+   },
+   "tabs": {
+    "malzemeler": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 13,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "hazirlanis": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 21,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "yorumlar": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": null,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    }
+   },
+   "stepDone": {
+    "badgeBg": "rgb(225, 72, 39)",
+    "check": true,
+    "textOpacity": "0.55",
+    "hintGone": true,
+    "separateButton": 0,
+    "badge": 44,
+    "done": true,
+    "strike": false,
+    "progress": 1,
+    "status": "1 / 4 adım tamamlandı"
+   },
+   "stepUndo": {
+    "done": false,
+    "progress": 0
+   },
+   "descOpen": {
+    "full": true,
+    "label": "Daha az göster"
+   },
+   "accordion": {
+    "open": true,
+    "radius": "0px",
+    "borders": [
+     "1px",
+     "1px",
+     "0px",
+     "0px"
+    ]
+   },
+   "similar": [
+    {
+     "unwanted": 0,
+     "author": "CTarifi ekleyen: Cem Aydan",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "İTarifi ekleyen: İrem Egeli",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "ETarifi ekleyen: Ege Bakırcıoğlu",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "BTarifi ekleyen: Burcu Yıldırım",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    }
+   ],
+   "cook": {
+    "first": {
+     "open": true,
+     "overflowX": false,
+     "count": "Adım 1/ 4",
+     "text": "left",
+     "timer": true,
+     "auto": true,
+     "dots": [
+      44,
+      44,
+      44,
+      44
+     ]
+    },
+    "running": "07:59",
+    "alarm": true,
+    "swipe": 1,
+    "lastLabel": "Bitir",
+    "done": {
+     "made": true,
+     "title": "Afiyet olsun, tarifiniz hazır!"
+    },
+    "closed": true
+   },
+   "share": {
+    "items": [
+     "Facebook",
+     "X",
+     "WhatsApp",
+     "Telegram",
+     "Pinterest",
+     "E-posta"
+    ],
+    "brandFonts": [
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\""
+    ],
+    "columns": 3,
+    "sameRow": true,
+    "urlTruncated": true,
+    "ellipsis": "ellipsis",
+    "buttonInside": true,
+    "overflowX": false,
+    "copied": "Kopyalandı"
+   },
+   "longTitle": {
+    "start": {
+     "copyTop": 220,
+     "headerBottom": 68,
+     "h1Lines": 2,
+     "subLines": 1,
+     "subEllipsis": "ellipsis",
+     "metaRows": 1
+    },
+    "stuck": {
+     "y": 1064,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -654,
+     "headerBottom": 68,
+     "panelRadius": "0.634501px",
+     "capRadius": "0.634501px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "alt": {
+    "alternatives": [
+     "sagu incisi yerine ne kullanabilirim?",
+     "tam yağlı süt yerine ne kullanabilirim?",
+     "gül suyu yerine ne kullanabilirim?",
+     "iç antep fıstığı yerine ne kullanabilirim?"
+    ],
+    "allergen": "Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.",
+    "features": [
+     "Suudi Arabistan Mutfağı",
+     "Vejetaryen",
+     "Glutensiz",
+     "Orta Bütçe (₺₺)"
+    ],
+    "overflowX": false,
+    "cards": {
+     "titles": [
+      "Hatırlatma",
+      "Alerjen"
+     ],
+     "visibleRatio": 1.24,
+     "heights": [
+      231
+     ]
+    }
+   },
+   "misir": {
+    "groups": [
+     "uppercase:Koçan suyu için",
+     "uppercase:Jöle için"
+    ],
+    "before": [
+     "8",
+     "2.000",
+     "60",
+     "12",
+     "750"
+    ],
+    "rowOrder": {
+     "amountLeftOfName": true,
+     "amountColor": "rgb(196, 61, 32)"
+    },
+    "swaps": 3,
+    "cartX": 1,
+    "shopAll": "rgb(225, 72, 39)",
+    "after": [
+     "4",
+     "1.000",
+     "30",
+     "6",
+     "375"
+    ],
+    "portions": "30",
+    "sheet": {
+     "title": "Yerine ne kullanabilirim?",
+     "items": [
+      "sitrik asit"
+     ]
+    },
+    "step": {
+     "figureAboveText": true,
+     "ratio": 1.6,
+     "bg": "cover",
+     "chip": "15 dk"
+    },
+    "print": "Tarifi yazdır / PDF",
+    "filters": [
+     "Tümü 6",
+     "Fotoğraflı 0",
+     "5 yıldız 1",
+     "4 yıldız 0",
+     "3 ve altı 0",
+     "Puansız 5"
+    ],
+    "nullShown": 5
+   },
+   "reviews": {
+    "cards": 5,
+    "avatars": [
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40"
+    ],
+    "nullStars": 0,
+    "bars": 5
+   },
+   "rateGuest": "Bu işlem için giriş yap",
+   "rateMember": {
+    "title": "Tarifi değerlendir",
+    "checked": "4",
+    "lit": [
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(236, 236, 236)"
+    ],
+    "textarea": true
+   },
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "recipe": "tavuk-curry",
+   "layout": {
+    "overflowX": false,
+    "factLines": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "chefLines": [
+     1
+    ],
+    "chefButtons": [
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     },
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     }
+    ],
+    "removed": {
+     "engagementCopy": 0,
+     "tags": 0,
+     "splitRow": 0,
+     "factCells": 3,
+     "boxedFacts": "0px",
+     "boxedChef": "1px"
+    },
+    "singleLineJustified": 0,
+    "tabs": [
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     }
+    ],
+    "chefCount": 1,
+    "rowGapMin": 13,
+    "tooSmall": [],
+    "titleText": "Tavuk Curry"
+   },
+   "stages": {
+    "baslangic": {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1010,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "binerken": {
+     "y": 154,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 221,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 856,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "yapisik": {
+     "y": 982,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -607,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "son": {
+     "y": 1619,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -1244,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "sweep": [
+    {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "23.3521px",
+     "capRadius": "23.3521px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1010,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 20,
+     "alpha": 0.417,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.417)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 355,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 990,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 40,
+     "alpha": 0.833,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.833)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 335,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 970,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 60,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 315,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 950,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 80,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 295,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 930,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 100,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 275,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 910,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 120,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 255,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 890,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 140,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 235,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 870,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 160,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 215,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 850,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 180,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 195,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 830,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 200,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 175,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 810,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 220,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 155,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 790,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 240,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 135,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 770,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 260,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 115,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 750,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 280,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 95,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 730,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 300,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 75,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 710,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 320,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 55,
+     "headerBottom": 68,
+     "panelRadius": "0.914578px",
+     "capRadius": "0.914578px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 690,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 340,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 35,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 670,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 360,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 15,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 650,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   ],
+   "parity": {
+    "features": [
+     "Hint Mutfağı",
+     "Glutensiz",
+     "Laktozsuz",
+     "Süt İçermez",
+     "Orta Bütçe (₺₺)"
+    ],
+    "flag": true,
+    "featureLabel": "Özellikler",
+    "cards": [
+     "Hatırlatma"
+    ],
+    "cardVisibleRatio": null,
+    "cardHeights": [
+     167
+    ],
+    "oldAllergenBox": 0,
+    "portionDup": false,
+    "portionMeta": "9 malzeme",
+    "silent": "2 kişi yorum yazmadan puan verdi",
+    "desc": {
+     "text": "Hindistan cevizi sütü ve curry baharatla",
+     "more": true
+    }
+   },
+   "tabs": {
+    "malzemeler": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 13,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "hazirlanis": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 21,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "yorumlar": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": null,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    }
+   },
+   "stepDone": {
+    "badgeBg": "rgb(225, 72, 39)",
+    "check": true,
+    "textOpacity": "0.55",
+    "hintGone": true,
+    "separateButton": 0,
+    "badge": 44,
+    "done": true,
+    "strike": false,
+    "progress": 1,
+    "status": "1 / 4 adım tamamlandı"
+   },
+   "stepUndo": {
+    "done": false,
+    "progress": 0
+   },
+   "descOpen": {
+    "full": true,
+    "label": "Daha az göster"
+   },
+   "accordion": {
+    "open": true,
+    "radius": "0px",
+    "borders": [
+     "1px",
+     "1px",
+     "0px",
+     "0px"
+    ]
+   },
+   "similar": [
+    {
+     "unwanted": 0,
+     "author": "CTarifi ekleyen: Cem Aydan",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "İTarifi ekleyen: İrem Egeli",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "ETarifi ekleyen: Ege Bakırcıoğlu",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "BTarifi ekleyen: Burcu Yıldırım",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    }
+   ],
+   "cook": {
+    "first": {
+     "open": true,
+     "overflowX": false,
+     "count": "Adım 1/ 4",
+     "text": "left",
+     "timer": true,
+     "auto": true,
+     "dots": [
+      44,
+      44,
+      44,
+      44
+     ]
+    },
+    "running": "07:59",
+    "alarm": true,
+    "swipe": 1,
+    "lastLabel": "Bitir",
+    "done": {
+     "made": true,
+     "title": "Afiyet olsun, tarifiniz hazır!"
+    },
+    "closed": true
+   },
+   "share": {
+    "items": [
+     "Facebook",
+     "X",
+     "WhatsApp",
+     "Telegram",
+     "Pinterest",
+     "E-posta"
+    ],
+    "brandFonts": [
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\""
+    ],
+    "columns": 3,
+    "sameRow": true,
+    "urlTruncated": true,
+    "ellipsis": "ellipsis",
+    "buttonInside": true,
+    "overflowX": false,
+    "copied": "Kopyalandı"
+   },
+   "longTitle": {
+    "start": {
+     "copyTop": 220,
+     "headerBottom": 68,
+     "h1Lines": 2,
+     "subLines": 1,
+     "subEllipsis": "ellipsis",
+     "metaRows": 1
+    },
+    "stuck": {
+     "y": 1064,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -654,
+     "headerBottom": 68,
+     "panelRadius": "0.922149px",
+     "capRadius": "0.922149px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "alt": {
+    "alternatives": [
+     "sagu incisi yerine ne kullanabilirim?",
+     "tam yağlı süt yerine ne kullanabilirim?",
+     "gül suyu yerine ne kullanabilirim?",
+     "iç antep fıstığı yerine ne kullanabilirim?"
+    ],
+    "allergen": "Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.",
+    "features": [
+     "Suudi Arabistan Mutfağı",
+     "Vejetaryen",
+     "Glutensiz",
+     "Orta Bütçe (₺₺)"
+    ],
+    "overflowX": false,
+    "cards": {
+     "titles": [
+      "Hatırlatma",
+      "Alerjen"
+     ],
+     "visibleRatio": 1.24,
+     "heights": [
+      231
+     ]
+    }
+   },
+   "misir": {
+    "groups": [
+     "uppercase:Koçan suyu için",
+     "uppercase:Jöle için"
+    ],
+    "before": [
+     "8",
+     "2.000",
+     "60",
+     "12",
+     "750"
+    ],
+    "rowOrder": {
+     "amountLeftOfName": true,
+     "amountColor": "rgb(196, 61, 32)"
+    },
+    "swaps": 3,
+    "cartX": 1,
+    "shopAll": "rgb(225, 72, 39)",
+    "after": [
+     "4",
+     "1.000",
+     "30",
+     "6",
+     "375"
+    ],
+    "portions": "30",
+    "sheet": {
+     "title": "Yerine ne kullanabilirim?",
+     "items": [
+      "sitrik asit"
+     ]
+    },
+    "step": {
+     "figureAboveText": true,
+     "ratio": 1.6,
+     "bg": "cover",
+     "chip": "15 dk"
+    },
+    "print": "Tarifi yazdır / PDF",
+    "filters": [
+     "Tümü 6",
+     "Fotoğraflı 0",
+     "5 yıldız 1",
+     "4 yıldız 0",
+     "3 ve altı 0",
+     "Puansız 5"
+    ],
+    "nullShown": 5
+   },
+   "reviews": {
+    "cards": 5,
+    "avatars": [
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40"
+    ],
+    "nullStars": 0,
+    "bars": 5
+   },
+   "rateGuest": "Bu işlem için giriş yap",
+   "rateMember": {
+    "title": "Tarifi değerlendir",
+    "checked": "4",
+    "lit": [
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(236, 236, 236)"
+    ],
+    "textarea": true
+   },
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "recipe": "tavuk-curry",
+   "layout": {
+    "overflowX": false,
+    "factLines": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "chefLines": [
+     1
+    ],
+    "chefButtons": [
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     },
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     }
+    ],
+    "removed": {
+     "engagementCopy": 0,
+     "tags": 0,
+     "splitRow": 0,
+     "factCells": 3,
+     "boxedFacts": "0px",
+     "boxedChef": "1px"
+    },
+    "singleLineJustified": 0,
+    "tabs": [
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     }
+    ],
+    "chefCount": 1,
+    "rowGapMin": 13,
+    "tooSmall": [],
+    "titleText": "Tavuk Curry"
+   },
+   "stages": {
+    "baslangic": {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1010,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "binerken": {
+     "y": 154,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 221,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 856,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "yapisik": {
+     "y": 982,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -607,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "son": {
+     "y": 1637,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -1262,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "sweep": [
+    {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "23.3643px",
+     "capRadius": "23.3643px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1010,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 20,
+     "alpha": 0.417,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.417)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 355,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 990,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 40,
+     "alpha": 0.833,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.833)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 335,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 970,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 60,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 315,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 950,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 80,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 295,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 930,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 100,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 275,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 910,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 120,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 255,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 890,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 140,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 235,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 870,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 160,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 215,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 850,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 180,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 195,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 830,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 200,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 175,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 810,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 220,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 155,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 790,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 240,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 135,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 770,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 260,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 115,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 750,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 280,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 95,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 730,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 300,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 75,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 710,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 320,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 55,
+     "headerBottom": 68,
+     "panelRadius": "0.923383px",
+     "capRadius": "0.923383px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 690,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 340,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 35,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 670,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 360,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 15,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 650,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   ],
+   "parity": {
+    "features": [
+     "Hint Mutfağı",
+     "Glutensiz",
+     "Laktozsuz",
+     "Süt İçermez",
+     "Orta Bütçe (₺₺)"
+    ],
+    "flag": true,
+    "featureLabel": "Özellikler",
+    "cards": [
+     "Hatırlatma"
+    ],
+    "cardVisibleRatio": null,
+    "cardHeights": [
+     167
+    ],
+    "oldAllergenBox": 0,
+    "portionDup": false,
+    "portionMeta": "9 malzeme",
+    "silent": "2 kişi yorum yazmadan puan verdi",
+    "desc": {
+     "text": "Hindistan cevizi sütü ve curry baharatla",
+     "more": true
+    }
+   },
+   "tabs": {
+    "malzemeler": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 13,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "hazirlanis": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 33,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "yorumlar": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": null,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    }
+   },
+   "stepDone": {
+    "badgeBg": "rgb(225, 72, 39)",
+    "check": true,
+    "textOpacity": "0.55",
+    "hintGone": true,
+    "separateButton": 0,
+    "badge": 44,
+    "done": true,
+    "strike": false,
+    "progress": 1,
+    "status": "1 / 4 adım tamamlandı"
+   },
+   "stepUndo": {
+    "done": false,
+    "progress": 0
+   },
+   "descOpen": {
+    "full": true,
+    "label": "Daha az göster"
+   },
+   "accordion": {
+    "open": true,
+    "radius": "0px",
+    "borders": [
+     "1px",
+     "1px",
+     "0px",
+     "0px"
+    ]
+   },
+   "similar": [
+    {
+     "unwanted": 0,
+     "author": "CTarifi ekleyen: Cem Aydan",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "İTarifi ekleyen: İrem Egeli",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "ETarifi ekleyen: Ege Bakırcıoğlu",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "BTarifi ekleyen: Burcu Yıldırım",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    }
+   ],
+   "cook": {
+    "first": {
+     "open": true,
+     "overflowX": false,
+     "count": "Adım 1/ 4",
+     "text": "left",
+     "timer": true,
+     "auto": true,
+     "dots": [
+      44,
+      44,
+      44,
+      44
+     ]
+    },
+    "running": "07:59",
+    "alarm": true,
+    "swipe": 1,
+    "lastLabel": "Bitir",
+    "done": {
+     "made": true,
+     "title": "Afiyet olsun, tarifiniz hazır!"
+    },
+    "closed": true
+   },
+   "share": {
+    "items": [
+     "Facebook",
+     "X",
+     "WhatsApp",
+     "Telegram",
+     "Pinterest",
+     "E-posta"
+    ],
+    "brandFonts": [
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\""
+    ],
+    "columns": 3,
+    "sameRow": true,
+    "urlTruncated": true,
+    "ellipsis": "ellipsis",
+    "buttonInside": true,
+    "overflowX": false,
+    "copied": "Kopyalandı"
+   },
+   "longTitle": {
+    "start": {
+     "copyTop": 220,
+     "headerBottom": 68,
+     "h1Lines": 2,
+     "subLines": 1,
+     "subEllipsis": "ellipsis",
+     "metaRows": 1
+    },
+    "stuck": {
+     "y": 1046,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -636,
+     "headerBottom": 68,
+     "panelRadius": "0.410555px",
+     "capRadius": "0.410555px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "alt": {
+    "alternatives": [
+     "sagu incisi yerine ne kullanabilirim?",
+     "tam yağlı süt yerine ne kullanabilirim?",
+     "gül suyu yerine ne kullanabilirim?",
+     "iç antep fıstığı yerine ne kullanabilirim?"
+    ],
+    "allergen": "Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.",
+    "features": [
+     "Suudi Arabistan Mutfağı",
+     "Vejetaryen",
+     "Glutensiz",
+     "Orta Bütçe (₺₺)"
+    ],
+    "overflowX": false,
+    "cards": {
+     "titles": [
+      "Hatırlatma",
+      "Alerjen"
+     ],
+     "visibleRatio": 1.24,
+     "heights": [
+      195
+     ]
+    }
+   },
+   "misir": {
+    "groups": [
+     "uppercase:Koçan suyu için",
+     "uppercase:Jöle için"
+    ],
+    "before": [
+     "8",
+     "2.000",
+     "60",
+     "12",
+     "750"
+    ],
+    "rowOrder": {
+     "amountLeftOfName": true,
+     "amountColor": "rgb(196, 61, 32)"
+    },
+    "swaps": 3,
+    "cartX": 1,
+    "shopAll": "rgb(225, 72, 39)",
+    "after": [
+     "4",
+     "1.000",
+     "30",
+     "6",
+     "375"
+    ],
+    "portions": "30",
+    "sheet": {
+     "title": "Yerine ne kullanabilirim?",
+     "items": [
+      "sitrik asit"
+     ]
+    },
+    "step": {
+     "figureAboveText": true,
+     "ratio": 1.6,
+     "bg": "cover",
+     "chip": "15 dk"
+    },
+    "print": "Tarifi yazdır / PDF",
+    "filters": [
+     "Tümü 6",
+     "Fotoğraflı 0",
+     "5 yıldız 1",
+     "4 yıldız 0",
+     "3 ve altı 0",
+     "Puansız 5"
+    ],
+    "nullShown": 5
+   },
+   "reviews": {
+    "cards": 5,
+    "avatars": [
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40"
+    ],
+    "nullStars": 0,
+    "bars": 5
+   },
+   "rateGuest": "Bu işlem için giriş yap",
+   "rateMember": {
+    "title": "Tarifi değerlendir",
+    "checked": "4",
+    "lit": [
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(236, 236, 236)"
+    ],
+    "textarea": true
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "recipe": "tavuk-curry",
+   "layout": {
+    "overflowX": false,
+    "factLines": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "chefLines": [
+     1
+    ],
+    "chefButtons": [
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     },
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     }
+    ],
+    "removed": {
+     "engagementCopy": 0,
+     "tags": 0,
+     "splitRow": 0,
+     "factCells": 3,
+     "boxedFacts": "0px",
+     "boxedChef": "1px"
+    },
+    "singleLineJustified": 0,
+    "tabs": [
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     }
+    ],
+    "chefCount": 1,
+    "rowGapMin": 13,
+    "tooSmall": [],
+    "titleText": "Tavuk Curry"
+   },
+   "stages": {
+    "baslangic": {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1029,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "binerken": {
+     "y": 154,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 221,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 875,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "yapisik": {
+     "y": 1001,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -626,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "son": {
+     "y": 1615,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -1240,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "sweep": [
+    {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "23.355145px",
+     "capRadius": "23.355145px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1029,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 20,
+     "alpha": 0.417,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.417)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 355,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1009,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 40,
+     "alpha": 0.833,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.833)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 335,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 989,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 60,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 315,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 969,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 80,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 295,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 949,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 100,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 275,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 929,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 120,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 255,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 909,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 140,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 235,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 889,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 160,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 215,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 869,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 180,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 195,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 849,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 200,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 175,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 829,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 220,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 155,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 809,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 240,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 135,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 789,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 260,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 115,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 769,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 280,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 95,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 749,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 300,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 75,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 729,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 320,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 55,
+     "headerBottom": 68,
+     "panelRadius": "0.614516px",
+     "capRadius": "0.614516px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 709,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 340,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 35,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 689,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 360,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": 15,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 669,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   ],
+   "parity": {
+    "features": [
+     "Hint Mutfağı",
+     "Glutensiz",
+     "Laktozsuz",
+     "Süt İçermez",
+     "Orta Bütçe (₺₺)"
+    ],
+    "flag": true,
+    "featureLabel": "Özellikler",
+    "cards": [
+     "Hatırlatma"
+    ],
+    "cardVisibleRatio": null,
+    "cardHeights": [
+     167
+    ],
+    "oldAllergenBox": 0,
+    "portionDup": false,
+    "portionMeta": "9 malzeme",
+    "silent": "2 kişi yorum yazmadan puan verdi",
+    "desc": {
+     "text": "Hindistan cevizi sütü ve curry baharatla",
+     "more": true
+    }
+   },
+   "tabs": {
+    "malzemeler": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 13,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "hazirlanis": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 21,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "yorumlar": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": null,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    }
+   },
+   "stepDone": {
+    "badgeBg": "rgb(225, 72, 39)",
+    "check": true,
+    "textOpacity": "0.55",
+    "hintGone": true,
+    "separateButton": 0,
+    "badge": 44,
+    "done": true,
+    "strike": false,
+    "progress": 1,
+    "status": "1 / 4 adım tamamlandı"
+   },
+   "stepUndo": {
+    "done": false,
+    "progress": 0
+   },
+   "descOpen": {
+    "full": true,
+    "label": "Daha az göster"
+   },
+   "accordion": {
+    "open": true,
+    "radius": "0px",
+    "borders": [
+     "1px",
+     "1px",
+     "0px",
+     "0px"
+    ]
+   },
+   "similar": [
+    {
+     "unwanted": 0,
+     "author": "CTarifi ekleyen: Cem Aydan",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "İTarifi ekleyen: İrem Egeli",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "ETarifi ekleyen: Ege Bakırcıoğlu",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "BTarifi ekleyen: Burcu Yıldırım",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    }
+   ],
+   "cook": {
+    "first": {
+     "open": true,
+     "overflowX": false,
+     "count": "Adım 1/ 4",
+     "text": "left",
+     "timer": true,
+     "auto": true,
+     "dots": [
+      44,
+      44,
+      44,
+      44
+     ]
+    },
+    "running": "07:59",
+    "alarm": true,
+    "swipe": 1,
+    "lastLabel": "Bitir",
+    "done": {
+     "made": true,
+     "title": "Afiyet olsun, tarifiniz hazır!"
+    },
+    "closed": true
+   },
+   "share": {
+    "items": [
+     "Facebook",
+     "X",
+     "WhatsApp",
+     "Telegram",
+     "Pinterest",
+     "E-posta"
+    ],
+    "brandFonts": [
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\""
+    ],
+    "columns": 3,
+    "sameRow": true,
+    "urlTruncated": true,
+    "ellipsis": "ellipsis",
+    "buttonInside": true,
+    "overflowX": false
+   },
+   "longTitle": {
+    "start": {
+     "copyTop": 220,
+     "headerBottom": 68,
+     "h1Lines": 2,
+     "subLines": 1,
+     "subEllipsis": "ellipsis",
+     "metaRows": 1
+    },
+    "stuck": {
+     "y": 1064,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -654,
+     "headerBottom": 68,
+     "panelRadius": "0.31617px",
+     "capRadius": "0.31617px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "alt": {
+    "alternatives": [
+     "sagu incisi yerine ne kullanabilirim?",
+     "tam yağlı süt yerine ne kullanabilirim?",
+     "gül suyu yerine ne kullanabilirim?",
+     "iç antep fıstığı yerine ne kullanabilirim?"
+    ],
+    "allergen": "Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.",
+    "features": [
+     "Suudi Arabistan Mutfağı",
+     "Vejetaryen",
+     "Glutensiz",
+     "Orta Bütçe (₺₺)"
+    ],
+    "overflowX": false,
+    "cards": {
+     "titles": [
+      "Hatırlatma",
+      "Alerjen"
+     ],
+     "visibleRatio": 1.24,
+     "heights": [
+      231
+     ]
+    }
+   },
+   "misir": {
+    "groups": [
+     "uppercase:Koçan suyu için",
+     "uppercase:Jöle için"
+    ],
+    "before": [
+     "8",
+     "2.000",
+     "60",
+     "12",
+     "750"
+    ],
+    "rowOrder": {
+     "amountLeftOfName": true,
+     "amountColor": "rgb(196, 61, 32)"
+    },
+    "swaps": 3,
+    "cartX": 1,
+    "shopAll": "rgb(225, 72, 39)",
+    "after": [
+     "4",
+     "1.000",
+     "30",
+     "6",
+     "375"
+    ],
+    "portions": "30",
+    "sheet": {
+     "title": "Yerine ne kullanabilirim?",
+     "items": [
+      "sitrik asit"
+     ]
+    },
+    "step": {
+     "figureAboveText": true,
+     "ratio": 1.6,
+     "bg": "cover",
+     "chip": "15 dk"
+    },
+    "print": "Tarifi yazdır / PDF",
+    "filters": [
+     "Tümü 6",
+     "Fotoğraflı 0",
+     "5 yıldız 1",
+     "4 yıldız 0",
+     "3 ve altı 0",
+     "Puansız 5"
+    ],
+    "nullShown": 5
+   },
+   "reviews": {
+    "cards": 5,
+    "avatars": [
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40"
+    ],
+    "nullStars": 0,
+    "bars": 5
+   },
+   "rateGuest": "Bu işlem için giriş yap",
+   "rateMember": {
+    "title": "Tarifi değerlendir",
+    "checked": "4",
+    "lit": [
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(236, 236, 236)"
+    ],
+    "textarea": true
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "recipe": "tavuk-curry",
+   "layout": {
+    "overflowX": false,
+    "factLines": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "chefLines": [
+     1
+    ],
+    "chefButtons": [
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     },
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     }
+    ],
+    "removed": {
+     "engagementCopy": 0,
+     "tags": 0,
+     "splitRow": 0,
+     "factCells": 3,
+     "boxedFacts": "0px",
+     "boxedChef": "1px"
+    },
+    "singleLineJustified": 0,
+    "tabs": [
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     }
+    ],
+    "chefCount": 1,
+    "rowGapMin": 13,
+    "tooSmall": [],
+    "titleText": "Tavuk Curry"
+   },
+   "stages": {
+    "baslangic": {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1011,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "binerken": {
+     "y": 154,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 221,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 857,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "yapisik": {
+     "y": 983,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -608,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "son": {
+     "y": 1620,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -1245,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "sweep": [
+    {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "23.355145px",
+     "capRadius": "23.355145px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1011,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 20,
+     "alpha": 0.417,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.417)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 355,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 991,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 40,
+     "alpha": 0.833,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.833)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 335,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 971,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 60,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 315,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 951,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 80,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 295,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 931,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 100,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 275,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 911,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 120,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 255,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 891,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 140,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 235,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 871,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 160,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 215,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 851,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 180,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 195,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 831,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 200,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 175,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 811,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 220,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 155,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 791,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 240,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 135,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 771,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 260,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 115,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 751,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 280,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 95,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 731,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 300,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 75,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 711,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 320,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 55,
+     "headerBottom": 68,
+     "panelRadius": "0.644856px",
+     "capRadius": "0.644856px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 691,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 340,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 35,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 671,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 360,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 15,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 651,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   ],
+   "parity": {
+    "features": [
+     "Hint Mutfağı",
+     "Glutensiz",
+     "Laktozsuz",
+     "Süt İçermez",
+     "Orta Bütçe (₺₺)"
+    ],
+    "flag": true,
+    "featureLabel": "Özellikler",
+    "cards": [
+     "Hatırlatma"
+    ],
+    "cardVisibleRatio": null,
+    "cardHeights": [
+     167
+    ],
+    "oldAllergenBox": 0,
+    "portionDup": false,
+    "portionMeta": "9 malzeme",
+    "silent": "2 kişi yorum yazmadan puan verdi",
+    "desc": {
+     "text": "Hindistan cevizi sütü ve curry baharatla",
+     "more": true
+    }
+   },
+   "tabs": {
+    "malzemeler": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 13,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "hazirlanis": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 21,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "yorumlar": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": null,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    }
+   },
+   "stepDone": {
+    "badgeBg": "rgb(225, 72, 39)",
+    "check": true,
+    "textOpacity": "0.55",
+    "hintGone": true,
+    "separateButton": 0,
+    "badge": 44,
+    "done": true,
+    "strike": false,
+    "progress": 1,
+    "status": "1 / 4 adım tamamlandı"
+   },
+   "stepUndo": {
+    "done": false,
+    "progress": 0
+   },
+   "descOpen": {
+    "full": true,
+    "label": "Daha az göster"
+   },
+   "accordion": {
+    "open": true,
+    "radius": "0px",
+    "borders": [
+     "1px",
+     "1px",
+     "0px",
+     "0px"
+    ]
+   },
+   "similar": [
+    {
+     "unwanted": 0,
+     "author": "CTarifi ekleyen: Cem Aydan",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "İTarifi ekleyen: İrem Egeli",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "ETarifi ekleyen: Ege Bakırcıoğlu",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "BTarifi ekleyen: Burcu Yıldırım",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    }
+   ],
+   "cook": {
+    "first": {
+     "open": true,
+     "overflowX": false,
+     "count": "Adım 1/ 4",
+     "text": "left",
+     "timer": true,
+     "auto": true,
+     "dots": [
+      44,
+      44,
+      44,
+      44
+     ]
+    },
+    "running": "07:59",
+    "alarm": true,
+    "swipe": 1,
+    "lastLabel": "Bitir",
+    "done": {
+     "made": true,
+     "title": "Afiyet olsun, tarifiniz hazır!"
+    },
+    "closed": true
+   },
+   "share": {
+    "items": [
+     "Facebook",
+     "X",
+     "WhatsApp",
+     "Telegram",
+     "Pinterest",
+     "E-posta"
+    ],
+    "brandFonts": [
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\""
+    ],
+    "columns": 3,
+    "sameRow": true,
+    "urlTruncated": true,
+    "ellipsis": "ellipsis",
+    "buttonInside": true,
+    "overflowX": false
+   },
+   "longTitle": {
+    "start": {
+     "copyTop": 220,
+     "headerBottom": 68,
+     "h1Lines": 2,
+     "subLines": 1,
+     "subEllipsis": "ellipsis",
+     "metaRows": 1
+    },
+    "stuck": {
+     "y": 1064,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -654,
+     "headerBottom": 68,
+     "panelRadius": "0.241482px",
+     "capRadius": "0.241482px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "alt": {
+    "alternatives": [
+     "sagu incisi yerine ne kullanabilirim?",
+     "tam yağlı süt yerine ne kullanabilirim?",
+     "gül suyu yerine ne kullanabilirim?",
+     "iç antep fıstığı yerine ne kullanabilirim?"
+    ],
+    "allergen": "Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.",
+    "features": [
+     "Suudi Arabistan Mutfağı",
+     "Vejetaryen",
+     "Glutensiz",
+     "Orta Bütçe (₺₺)"
+    ],
+    "overflowX": false,
+    "cards": {
+     "titles": [
+      "Hatırlatma",
+      "Alerjen"
+     ],
+     "visibleRatio": 1.24,
+     "heights": [
+      231
+     ]
+    }
+   },
+   "misir": {
+    "groups": [
+     "uppercase:Koçan suyu için",
+     "uppercase:Jöle için"
+    ],
+    "before": [
+     "8",
+     "2.000",
+     "60",
+     "12",
+     "750"
+    ],
+    "rowOrder": {
+     "amountLeftOfName": true,
+     "amountColor": "rgb(196, 61, 32)"
+    },
+    "swaps": 3,
+    "cartX": 1,
+    "shopAll": "rgb(225, 72, 39)",
+    "after": [
+     "4",
+     "1.000",
+     "30",
+     "6",
+     "375"
+    ],
+    "portions": "30",
+    "sheet": {
+     "title": "Yerine ne kullanabilirim?",
+     "items": [
+      "sitrik asit"
+     ]
+    },
+    "step": {
+     "figureAboveText": true,
+     "ratio": 1.6,
+     "bg": "cover",
+     "chip": "15 dk"
+    },
+    "print": "Tarifi yazdır / PDF",
+    "filters": [
+     "Tümü 6",
+     "Fotoğraflı 0",
+     "5 yıldız 1",
+     "4 yıldız 0",
+     "3 ve altı 0",
+     "Puansız 5"
+    ],
+    "nullShown": 5
+   },
+   "reviews": {
+    "cards": 5,
+    "avatars": [
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40"
+    ],
+    "nullStars": 0,
+    "bars": 5
+   },
+   "rateGuest": "Bu işlem için giriş yap",
+   "rateMember": {
+    "title": "Tarifi değerlendir",
+    "checked": "4",
+    "lit": [
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(236, 236, 236)"
+    ],
+    "textarea": true
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "recipe": "tavuk-curry",
+   "layout": {
+    "overflowX": false,
+    "factLines": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "chefLines": [
+     1
+    ],
+    "chefButtons": [
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     },
+     {
+      "visible": 44,
+      "target": 44,
+      "clip": false
+     }
+    ],
+    "removed": {
+     "engagementCopy": 0,
+     "tags": 0,
+     "splitRow": 0,
+     "factCells": 3,
+     "boxedFacts": "0px",
+     "boxedChef": "1px"
+    },
+    "singleLineJustified": 0,
+    "tabs": [
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     },
+     {
+      "h": 44,
+      "clip": false
+     }
+    ],
+    "chefCount": 1,
+    "rowGapMin": 13,
+    "tooSmall": [],
+    "titleText": "Tavuk Curry"
+   },
+   "stages": {
+    "baslangic": {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1011,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "binerken": {
+     "y": 154,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 221,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 857,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "yapisik": {
+     "y": 983,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -608,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    "son": {
+     "y": 1638,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": -1263,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "sweep": [
+    {
+     "y": 0,
+     "alpha": 0,
+     "bg": "color(srgb 0 0 0 / 0)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 375,
+     "headerBottom": 68,
+     "panelRadius": "23.385485px",
+     "capRadius": "23.385485px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 1011,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 20,
+     "alpha": 0.417,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.417)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 355,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 991,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 40,
+     "alpha": 0.833,
+     "bg": "color(srgb 0.882353 0.282353 0.152941 / 0.833)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 335,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 971,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 60,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 315,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 951,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 80,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 295,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 931,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 100,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 275,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 911,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 120,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 255,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 891,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 140,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 235,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 871,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 160,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 215,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 851,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 180,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 195,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 831,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 200,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 175,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 811,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 220,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 155,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 791,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 240,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 135,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 771,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 260,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 115,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 751,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 280,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 95,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 731,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 300,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": false,
+     "titleVisible": false,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 75,
+     "headerBottom": 68,
+     "panelRadius": "24px",
+     "capRadius": "24px",
+     "capStuck": false,
+     "tabsStuck": false,
+     "barTop": 711,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 320,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 55,
+     "headerBottom": 68,
+     "panelRadius": "0.644856px",
+     "capRadius": "0.644856px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 691,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 340,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 35,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 671,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    },
+    {
+     "y": 360,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": false,
+     "ellipsis": "ellipsis",
+     "panelTop": 15,
+     "headerBottom": 68,
+     "panelRadius": "0px",
+     "capRadius": "0px",
+     "capStuck": true,
+     "tabsStuck": false,
+     "barTop": 651,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   ],
+   "parity": {
+    "features": [
+     "Hint Mutfağı",
+     "Glutensiz",
+     "Laktozsuz",
+     "Süt İçermez",
+     "Orta Bütçe (₺₺)"
+    ],
+    "flag": true,
+    "featureLabel": "Özellikler",
+    "cards": [
+     "Hatırlatma"
+    ],
+    "cardVisibleRatio": null,
+    "cardHeights": [
+     167
+    ],
+    "oldAllergenBox": 0,
+    "portionDup": false,
+    "portionMeta": "9 malzeme",
+    "silent": "2 kişi yorum yazmadan puan verdi",
+    "desc": {
+     "text": "Hindistan cevizi sütü ve curry baharatla",
+     "more": true
+    }
+   },
+   "tabs": {
+    "malzemeler": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 13,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "hazirlanis": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": 33,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    },
+    "yorumlar": {
+     "selected": "true",
+     "visible": true,
+     "overflowX": false,
+     "layout": {
+      "overflowX": false,
+      "factLines": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "chefLines": [
+       1
+      ],
+      "chefButtons": [
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       },
+       {
+        "visible": 44,
+        "target": 44,
+        "clip": false
+       }
+      ],
+      "removed": {
+       "engagementCopy": 0,
+       "tags": 0,
+       "splitRow": 0,
+       "factCells": 3,
+       "boxedFacts": "0px",
+       "boxedChef": "1px"
+      },
+      "singleLineJustified": 0,
+      "tabs": [
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       },
+       {
+        "h": 44,
+        "clip": false
+       }
+      ],
+      "chefCount": 1,
+      "rowGapMin": null,
+      "tooSmall": [],
+      "titleText": "Tavuk Curry"
+     }
+    }
+   },
+   "stepDone": {
+    "badgeBg": "rgb(225, 72, 39)",
+    "check": true,
+    "textOpacity": "0.55",
+    "hintGone": true,
+    "separateButton": 0,
+    "badge": 44,
+    "done": true,
+    "strike": false,
+    "progress": 1,
+    "status": "1 / 4 adım tamamlandı"
+   },
+   "stepUndo": {
+    "done": false,
+    "progress": 0
+   },
+   "descOpen": {
+    "full": true,
+    "label": "Daha az göster"
+   },
+   "accordion": {
+    "open": true,
+    "radius": "0px",
+    "borders": [
+     "1px",
+     "1px",
+     "0px",
+     "0px"
+    ]
+   },
+   "similar": [
+    {
+     "unwanted": 0,
+     "author": "CTarifi ekleyen: Cem Aydan",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "İTarifi ekleyen: İrem Egeli",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "ETarifi ekleyen: Ege Bakırcıoğlu",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    },
+    {
+     "unwanted": 0,
+     "author": "BTarifi ekleyen: Burcu Yıldırım",
+     "cat": "700",
+     "clamp": "2",
+     "meta": true
+    }
+   ],
+   "cook": {
+    "first": {
+     "open": true,
+     "overflowX": false,
+     "count": "Adım 1/ 4",
+     "text": "left",
+     "timer": true,
+     "auto": true,
+     "dots": [
+      44,
+      44,
+      44,
+      44
+     ]
+    },
+    "running": "07:59",
+    "alarm": true,
+    "swipe": 1,
+    "lastLabel": "Bitir",
+    "done": {
+     "made": true,
+     "title": "Afiyet olsun, tarifiniz hazır!"
+    },
+    "closed": true
+   },
+   "share": {
+    "items": [
+     "Facebook",
+     "X",
+     "WhatsApp",
+     "Telegram",
+     "Pinterest",
+     "E-posta"
+    ],
+    "brandFonts": [
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\"",
+     "\"Font Awesome 6 Brands\""
+    ],
+    "columns": 3,
+    "sameRow": true,
+    "urlTruncated": true,
+    "ellipsis": "ellipsis",
+    "buttonInside": true,
+    "overflowX": false
+   },
+   "longTitle": {
+    "start": {
+     "copyTop": 220,
+     "headerBottom": 68,
+     "h1Lines": 2,
+     "subLines": 1,
+     "subEllipsis": "ellipsis",
+     "metaRows": 1
+    },
+    "stuck": {
+     "y": 1046,
+     "alpha": 1,
+     "bg": "color(srgb 0.882353 0.282353 0.152941)",
+     "compact": true,
+     "titleVisible": true,
+     "titleLines": 1,
+     "titleTruncated": true,
+     "ellipsis": "ellipsis",
+     "panelTop": -636,
+     "headerBottom": 68,
+     "panelRadius": "0.241482px",
+     "capRadius": "0.241482px",
+     "capStuck": true,
+     "tabsStuck": true,
+     "barTop": 68,
+     "copyOpacity": 1,
+     "heroTop": 0,
+     "photoUnderHeaderOnly": true
+    }
+   },
+   "alt": {
+    "alternatives": [
+     "sagu incisi yerine ne kullanabilirim?",
+     "tam yağlı süt yerine ne kullanabilirim?",
+     "gül suyu yerine ne kullanabilirim?",
+     "iç antep fıstığı yerine ne kullanabilirim?"
+    ],
+    "allergen": "Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.",
+    "features": [
+     "Suudi Arabistan Mutfağı",
+     "Vejetaryen",
+     "Glutensiz",
+     "Orta Bütçe (₺₺)"
+    ],
+    "overflowX": false,
+    "cards": {
+     "titles": [
+      "Hatırlatma",
+      "Alerjen"
+     ],
+     "visibleRatio": 1.24,
+     "heights": [
+      195
+     ]
+    }
+   },
+   "misir": {
+    "groups": [
+     "uppercase:Koçan suyu için",
+     "uppercase:Jöle için"
+    ],
+    "before": [
+     "8",
+     "2.000",
+     "60",
+     "12",
+     "750"
+    ],
+    "rowOrder": {
+     "amountLeftOfName": true,
+     "amountColor": "rgb(196, 61, 32)"
+    },
+    "swaps": 3,
+    "cartX": 1,
+    "shopAll": "rgb(225, 72, 39)",
+    "after": [
+     "4",
+     "1.000",
+     "30",
+     "6",
+     "375"
+    ],
+    "portions": "30",
+    "sheet": {
+     "title": "Yerine ne kullanabilirim?",
+     "items": [
+      "sitrik asit"
+     ]
+    },
+    "step": {
+     "figureAboveText": true,
+     "ratio": 1.6,
+     "bg": "cover",
+     "chip": "15 dk"
+    },
+    "print": "Tarifi yazdır / PDF",
+    "filters": [
+     "Tümü 6",
+     "Fotoğraflı 0",
+     "5 yıldız 1",
+     "4 yıldız 0",
+     "3 ve altı 0",
+     "Puansız 5"
+    ],
+    "nullShown": 5
+   },
+   "reviews": {
+    "cards": 5,
+    "avatars": [
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40",
+     "40x40"
+    ],
+    "nullStars": 0,
+    "bars": 5
+   },
+   "rateGuest": "Bu işlem için giriş yap",
+   "rateMember": {
+    "title": "Tarifi değerlendir",
+    "checked": "4",
+    "lit": [
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(250, 192, 69)",
+     "rgb(236, 236, 236)"
+    ],
+    "textarea": true
+   },
+   "errors": []
+  },
+  {
+   "liste1Comparison": [
+    {
+     "page": "liste-1",
+     "stage": "baslangic",
+     "y": 0,
+     "alpha": 0,
+     "panelTop": 296,
+     "stickyTop": 296,
+     "radius": "24px",
+     "stuck": false,
+     "transition": "0.18s"
+    },
+    {
+     "page": "liste-1",
+     "stage": "binerken",
+     "y": 114,
+     "alpha": 1,
+     "panelTop": 182,
+     "stickyTop": 182,
+     "radius": "24px",
+     "stuck": false,
+     "transition": "0.18s"
+    },
+    {
+     "page": "liste-1",
+     "stage": "yapisik",
+     "y": 229,
+     "alpha": 1,
+     "panelTop": 67,
+     "stickyTop": 68,
+     "radius": "0px",
+     "stuck": true,
+     "transition": "0.18s"
+    },
+    {
+     "page": "liste-1",
+     "stage": "yapisik-sonra",
+     "y": 428,
+     "alpha": 1,
+     "panelTop": -132,
+     "stickyTop": 68,
+     "radius": "0px",
+     "stuck": true,
+     "transition": "0.18s"
+    },
+    {
+     "page": "detay-v2",
+     "stage": "baslangic",
+     "y": 0,
+     "alpha": 0,
+     "panelTop": 410,
+     "stickyTop": 410,
+     "radius": "24px",
+     "stuck": false,
+     "transition": "0.18s"
+    },
+    {
+     "page": "detay-v2",
+     "stage": "binerken",
+     "y": 171,
+     "alpha": 1,
+     "panelTop": 239,
+     "stickyTop": 239,
+     "radius": "24px",
+     "stuck": false,
+     "transition": "0.18s"
+    },
+    {
+     "page": "detay-v2",
+     "stage": "yapisik",
+     "y": 343,
+     "alpha": 1,
+     "panelTop": 67,
+     "stickyTop": 67,
+     "radius": "0px",
+     "stuck": true,
+     "transition": "0.18s"
+    },
+    {
+     "page": "detay-v2",
+     "stage": "yapisik-sonra",
+     "y": 542,
+     "alpha": 1,
+     "panelTop": -132,
+     "stickyTop": -132,
+     "radius": "0px",
+     "stuck": true,
+     "transition": "0.18s"
+    }
+   ]
+  },
+  {
+   "chefStates": {
+    "gate": "Bu işlem için giriş yap",
+    "gate2": "Bu işlem için giriş yap",
+    "states": [
+     "Takip et:false",
+     "Abonesin:true"
+    ]
+   }
+  },
+  {
+   "reducedMotion": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  }
+ ]
+}

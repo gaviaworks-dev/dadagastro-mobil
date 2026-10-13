@@ -1,0 +1,12 @@
+import { chromium } from '/Users/gaviaworks/Developer/Backend Projects/dadagastro/node_modules/playwright/index.mjs';
+import fs from 'node:fs';
+const dir='v3-app/verification/a-join', data=JSON.parse(fs.readFileSync(`${dir}/after.json`));
+const b=await chromium.launch(),p=await b.newPage({viewport:{width:1290,height:900}});
+const uri=f=>'data:image/png;base64,'+fs.readFileSync(`${dir}/${f}`).toString('base64');
+const cases=data.filter(x=>x.name?.startsWith('a'));
+await p.setContent(`<body style="margin:0;display:grid;grid-template-columns:repeat(3,430px);background:#ddd;font:18px sans-serif">${cases.map(x=>`<div>${x.name} · ${x.width}<div style="height:200px;overflow:hidden"><img style="display:block;transform:translateY(-${x.bannerBottom-100}px)" src="${uri(`after-${x.name}-${x.width}.png`)}"></div></div>`).join('')}</body>`);
+await p.screenshot({path:`${dir}/joins-all-widths.png`,fullPage:true});
+await p.setViewportSize({width:780,height:844});await p.setContent(`<body style="margin:0;display:flex"><img src="${uri('before-a-390.png')}"><img src="${uri('after-a-390.png')}"></body>`);await p.screenshot({path:`${dir}/before-after.png`});
+await p.setViewportSize({width:1290,height:844});await p.setContent(`<body style="margin:0;display:flex">${[360,390,430].map(w=>`<img src="${uri(`scroll-a-${w}.png`)}">`).join('')}</body>`);await p.screenshot({path:`${dir}/scroll-widths.png`});
+await b.close();
+console.log(JSON.stringify({a:cases.map(({name,width,scrollChecks,...r})=>({name,width,...r,overlaps:scrollChecks.filter(x=>x.overlaps).length})),bfIdentical:['b','c','d','e','f'].map(n=>({name:n,equal:fs.readFileSync(`${dir}/before-${n}-390.png`).equals(fs.readFileSync(`${dir}/after-${n}-390.png`))})),gallery:data.at(-1)},null,2));

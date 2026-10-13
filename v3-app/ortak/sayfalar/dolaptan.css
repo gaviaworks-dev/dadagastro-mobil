@@ -1,0 +1,12 @@
+/* Dolaptan Tarife (ortak/sayfalar/dolaptan.js). Yalnız yerleşim; görsel stil ortak bileşenlerden (DG.vizor, DG.fotoSerit, DG.adimlayici,
+   dg-bilesen, dg-sahne, dg-parcali, dg-kontrol), değerler token. */
+.dt-govde{grid-template-columns:minmax(0,1fr);padding-top:var(--space-16);padding-bottom:var(--space-32)}
+.dt-pro{justify-self:start}
+
+/* Tanınan malzeme satırı: miktar + “Emin değiliz” rozeti tek meta satırında */
+.dt-meta{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-4) var(--space-8)}
+
+/* Sonuç kartı: tarif görseli, başlık + meta, kullanılan malzemeler (kart içinde şerit kart kenarında başlar), eksikler, Tarifi aç */
+.dt-tarif{grid-template-columns:minmax(0,1fr)}
+.dt-tarif .dgu-foto-serit{margin-inline:0;padding-inline:0}
+.dt-tarif-foto{display:block;aspect-ratio:4/3}

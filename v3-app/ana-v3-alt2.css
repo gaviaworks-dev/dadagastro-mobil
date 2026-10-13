@@ -1,0 +1,41 @@
+/* Ana sayfa · 2. alternatif — "Masadaki kart". Ortak bileşenler ana-v3.css'ten; burada hero kurgusu ve
+   ızgara sunumu. Ölçüler token'dan. */
+body.alt2{--alt2-overhang:calc(var(--space-48) + var(--space-16));--alt2-cat-cols:3}
+
+/* Hero: a dark band (the dish photo blurred + one flat source-dark veil + the shared primary light); the
+   question and search on top; the dish on a floating card that leaves the band at the bottom. */
+body.alt2 .six-hero{overflow:visible;z-index:8}
+body.alt2.home-v3 .x-hero{height:auto;overflow:visible;padding-bottom:0;border-radius:0;box-shadow:none;margin-bottom:0}
+body.alt2.home-v3 .x-scene-photo{inset:0 0 var(--alt2-overhang) 0;overflow:hidden;transform:none}
+.alt2 .x-scene-photo .x-photo{filter:blur(var(--space-24));transform:scale(1.2)}
+body.alt2.home-v3 .x-scene-shade{inset:0 0 var(--alt2-overhang) 0;background:color-mix(in srgb,var(--overlay) 78%,transparent)}
+body.alt2.home-v3 .x-hero:after{height:calc(100% - var(--alt2-overhang))}
+body.alt2 .x-hero .purpose-title{position:relative;z-index:6}
+.alt2 .alt2-card{position:relative;z-index:6;margin:var(--space-24) var(--gutter) 0;aspect-ratio:4/3;overflow:hidden;border-radius:var(--radius-card);box-shadow:var(--sh-lg);isolation:isolate}
+.alt2 .alt2-card-photo{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center}
+.alt2 .alt2-card-shade{position:absolute;inset:0;z-index:-1;background:var(--alt-veil,var(--image-shade))}
+.alt2 .alt2-card-copy{position:absolute;left:0;right:0;bottom:0;padding:var(--space-16)}
+.alt2 .alt2-card-copy .x-recipe{color:var(--paper)}
+body.alt2 .v3-content>section:first-child{padding-top:calc(var(--alt2-overhang) + var(--space-32))}
+body.alt2 .v3-content{margin-top:calc(-1 * var(--alt2-overhang))}
+
+/* Video Mutfağı: lead on top, four equal squares in two columns (no rail). */
+.alt2 .v3-video-rail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-12);margin:var(--space-12) 0 0;padding:0;overflow:visible}
+.alt2 .v3-video-rail>.v3-video{min-width:0}
+.alt2 .v3-video-rail>.v3-video:nth-child(n+5){display:none}
+
+/* Kategoriler: three columns. */
+.alt2 .v3-cat-grid{grid-template-columns:repeat(var(--alt2-cat-cols),minmax(0,1fr));gap:var(--space-16) var(--space-8)}
+.alt2 .v3-cat-grid .photo-meta{left:var(--space-4);bottom:var(--space-4);padding:var(--space-4) var(--space-8)}
+.alt2 .v3-cuisine-grid>.v3-cuisine:nth-child(n+13){display:none}
+
+/* En son eklenen tarifler: four equal cards, two columns. */
+.alt2 .collection-block .collection-body{grid-template-columns:repeat(2,minmax(0,1fr))}
+.alt2 .collection-body>.recipe-card:first-child{grid-column:auto}
+.alt2 .collection-body>.recipe-card:first-child .card-media,.alt2 .collection-body>.recipe-card .card-media{aspect-ratio:2/3}
+.alt2 .collection-body>.recipe-card .card-body{padding:var(--space-12)}
+.alt2 .collection-body>.recipe-card:first-child .card-copy h3{max-height:calc(2 * var(--role-card-size) * var(--role-card-line))}
+
+/* Şefler: the same cards wrap into a two-column grid instead of a rail. */
+.alt2 .v3-chef-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin-right:0;padding-right:0;overflow:visible}
+.alt2 .v3-chef-card,.alt2 .v3-chef-cta{flex:none}

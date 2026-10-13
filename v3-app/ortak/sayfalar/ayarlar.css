@@ -1,0 +1,63 @@
+/* G5 · Ayarlar ve destek (ortak/sayfalar/ayarlar.js). Yalnız sayfa yerleşimi; bileşenler dg-bilesen.css'ten, değerler token. */
+
+/* Ayar grupları ve başlıklı bölümler: ortak bölüm başlığı (DG.bas, alt boşluğu 16) → içerik blok akışında; grup arası 24 */
+.ay-gruplar{display:grid;gap:var(--space-24);padding-bottom:var(--space-32)}
+.ay-grup,.ay-bolum{min-width:0}
+.ay-govde{gap:var(--space-24);padding-bottom:var(--space-32)}
+.ay-govde > p.c-muted{margin-bottom:calc(-1 * var(--space-8))}
+/* Anahtarlı / durum satırları: dgu-satir ailesi, tıklanabilir değil ya da label */
+.ay-anahtar-satir{cursor:pointer}
+.ay-durum-satir{cursor:default}
+.ay-durum-satir > .dgu-rozet{flex-shrink:0}
+.ay-fieldset{display:grid;gap:var(--space-8);min-width:0;margin:0;padding:0;border:0}
+.ay-fieldset legend{padding:0;margin-bottom:var(--space-8)}
+.ay-etiket{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.ay-fieldset legend.ay-etiket{margin-bottom:var(--space-4)}
+.ay-onay .dgu-secim{align-items:flex-start;padding:var(--space-8) 0}
+.ay-onay .dgu-secim > span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);padding-top:var(--space-4)}
+.ay-onay .dgu-hata{margin-left:calc(var(--choice-size) + var(--space-12))}
+.ay-dosya{position:relative;cursor:pointer}
+.ay-dosya:focus-within{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:var(--border-width)}
+/* Metin içi bağlantı (canlı metinlerdeki iç bağlantılar): tomato-deep + alt çizgi */
+.ay-link{display:inline;padding:0;border:0;background:none;color:var(--tomato-deep);font:inherit;font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);text-decoration:underline;text-underline-offset:var(--space-4);text-decoration-thickness:var(--border-width);cursor:pointer}
+/* Madde listesi (dondur/sil uyarıları) */
+.ay-maddeler{display:grid;gap:var(--space-12)}
+.ay-maddeler li{display:flex;align-items:flex-start;gap:var(--space-8);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.ay-maddeler .icon{flex-shrink:0;width:var(--icon-md);margin-top:var(--space-4);color:var(--tomato-deep);font-size:var(--icon-sm);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+/* Verilerim: grup → sayı */
+.ay-veri > div{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-12);min-height:var(--touch-target);padding:var(--space-8) 0}
+.ay-veri dt{min-width:0}
+.ay-veri dd{margin:0;font-variant-numeric:tabular-nums}
+.ay-bos-kart{padding:0}
+.ay-bos-kart .dgu-durum{padding:var(--space-24) var(--space-16)}
+
+/* Çözüm Merkezi */
+.ay-bas{padding-bottom:0}
+.ay-sekme{padding-bottom:var(--space-8)}
+.ay-sss{display:grid;gap:var(--space-24);padding-top:0}
+.ay-sss > .dgu-durum{padding-left:0;padding-right:0}
+.ay-sss-grup{display:grid;gap:var(--space-4)}
+.ay-sss-bas{display:flex;align-items:center;gap:var(--space-8)}
+.ay-sss-bas .icon{font-size:var(--icon-sm)}
+.ay-cevap-metin{line-height:var(--role-body-line)}
+.ay-cevap-metin a,.ay-cevap-metin [data-yakinda]{display:inline;padding:0;border:0;background:none;color:var(--tomato-deep);font:inherit;font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);text-decoration:underline;text-underline-offset:var(--space-4);text-decoration-thickness:var(--border-width);cursor:pointer}
+.ay-cevap-metin strong{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);color:var(--ink)}
+.ay-cevap{gap:var(--space-8)}
+.ay-cevap .dgu-ikili{margin-top:var(--space-4)}
+.ay-mesaj{gap:var(--space-8)}
+/* İki adımlı doğrulama: kurulum anahtarı ve kurtarma kodları (eş genişlikli rakam) */
+.ay-anahtar{gap:var(--space-4)}
+.ay-kod{font-variant-numeric:tabular-nums;letter-spacing:var(--role-label-tracking)}
+.ay-kodlar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-8) var(--space-12);margin:0;padding:var(--space-12) var(--space-16);border-radius:var(--radius-control);background:var(--bg);list-style:none}
+.ay-kodlar li{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold)}
+.ay-govde .dgu-bilgi .u-ara .dgu-btn--metin{flex-shrink:0;margin-right:calc(-1 * var(--space-8))}
+.ay-ara-bas{padding-top:var(--space-8)}
+.ay-sayacli{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-12)}
+.ay-sayac{flex-shrink:0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2);font-variant-numeric:tabular-nums}
+.ay-ikili-alan{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-12);align-items:start}
+.ay-ikili-alan > .dgu-alan{min-width:0}
+
+/* Görüş Bildir (Beyar V4 C8): konu seçenekleri tek satır yatay şerit — ortak .dgu-serit (ilk öğe gutter hizasında, sağa taşar,
+   scroll-snap) içinde ortalı ikonlu seçim kartı; genişlik üçü tam, dördüncüsü kısmen görünecek kadar (şerit / 3,4; en az 96). */
+.ay-serit-kart.dgu-secim-izgara{display:flex}
+.ay-serit-kart > .dgu-secim-kart{flex:0 0 max(calc(var(--space-48) * 2),calc((100% - var(--space-8) * 3) / 3.4))}

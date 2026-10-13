@@ -1,0 +1,247 @@
+/* Ana sayfa V3 on a byte copy of ana-x6. Shared sources stay untouched.
+   The content container is .v3-content (renamed in ana-v3.js), so the shared forced
+   (important-flagged) .six-content child rules do not apply and no rule here is forced. */
+
+/* docs/46 · Header solid hâli tek renge bağlı: ortak-menu.css --dg-header-solid (canlı site ve logo rengi #DC3D17).
+   Paylaşılan header betiği zemini var(--tomato) ile karıştırır; yalnız header'da bu değişken ortak token'a bağlanır. */
+body.home-v3 .topbar{--tomato:var(--dg-header-solid)}
+
+/* Component sizes, named once. */
+body.home-v3{--v3-result-card:230px;--v3-chef-card:146px;--v3-chef-avatar:96px;--v3-chef-ring:3px;--v3-cta-dash:2px}
+
+/* Hero: x6 scene; ana-1 title + search stay fixed above a recipe slider (R1). The track is its own stacking
+   layer under the primary light (z 5) and the title (z 6); every slide carries the same shade, so a swipe has no seam. */
+.home-v3 .x-hero .purpose-title{z-index:6;pointer-events:none}
+.home-v3 .x-hero .purpose-title a{pointer-events:auto}
+.home-v3 .x-scene-shade{position:absolute;inset:0;background:var(--v3-scene-shade,linear-gradient(180deg,var(--x-shade),transparent 25%,transparent 45%,var(--x-shade) 75%,var(--overlay)))}
+.home-v3 .v3-hero-track{position:absolute;inset:0;z-index:0;display:flex;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none}
+.home-v3 .v3-hero-track::-webkit-scrollbar{display:none}
+.home-v3 .v3-hero-track:focus-visible{outline:2px solid var(--paper);outline-offset:calc(-1 * var(--space-4))}
+.home-v3 .v3-hero-slide{position:relative;flex:0 0 100%;min-width:0;height:100%;overflow:hidden;scroll-snap-align:start;scroll-snap-stop:always}
+.home-v3 .v3-hero-photo{position:absolute;inset:0;transform-origin:center 30%;will-change:transform}
+/* Suggestion: label, title (max two lines), author; the indicator sits under it, in the hero, at a fixed place. */
+.home-v3 .v3-hero-info{position:absolute;left:var(--gutter);right:var(--gutter);bottom:calc(var(--space-24) + var(--avatar-card) + var(--space-16));z-index:1}
+.home-v3 .v3-hero-copy{min-width:0;display:grid;gap:var(--space-8)}
+.home-v3 .v3-hero-author{display:flex;align-items:center;gap:var(--space-8);min-width:0;font-size:var(--type-photo-meta);line-height:var(--role-meta-line);color:var(--paper)}
+.home-v3 .v3-hero-pager{position:absolute;left:var(--gutter);bottom:var(--space-24);z-index:6}
+
+/* Slider indicator (hero + featured card): ?gosterge=a dots (active one long, primary) / b "2 / 5" counter.
+   Same options as the list's featured slider (ortak-kart.js); not interactive, the slides carry "n / N" labels. */
+.home-v3 .v3-pager{display:flex;align-items:center;height:var(--avatar-card);pointer-events:none}
+.home-v3 .v3-pager-dots{display:flex;align-items:center;gap:var(--space-4)}
+.home-v3 .v3-pager-dots i{display:block;width:var(--space-8);height:var(--space-8);border-radius:calc(var(--radius-choice) / 2);background:color-mix(in srgb,var(--paper) 60%,transparent);transition:width 250ms var(--ease),background-color 250ms var(--ease)}
+.home-v3 .v3-pager-dots i.is-on{width:var(--space-24);background:var(--tomato)}
+.home-v3 .v3-pager-count{display:inline-flex;align-items:center;height:var(--avatar-card);padding:0 var(--space-8);border-radius:var(--radius-choice);background:color-mix(in srgb,var(--overlay) 72%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:var(--paper);font-size:var(--type-photo-meta);line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media (prefers-reduced-motion:reduce){.home-v3 .v3-pager-dots i{transition:none}}
+
+/* Content column */
+.home-v3 .v3-content{display:grid;grid-template-columns:minmax(0,1fr);gap:0;padding:0;position:relative;background:var(--paper)}
+/* Section surfaces alternate by position after the hero: odd = light grey, even = white; edge to edge, no rules
+   between them. Cards read their surface from --v3-surface/--v3-surface-line, so any order stays correct. */
+body.home-v3 .v3-content>section{min-width:0;margin:0;padding:var(--space-32) var(--gutter);border:0;border-radius:0;color:var(--ink)}
+body.home-v3 .v3-content>section:nth-child(odd){background:var(--bg);--v3-surface:var(--paper);--v3-surface-line:transparent}
+body.home-v3 .v3-content>section:nth-child(even){background:var(--paper);--v3-surface:var(--paper);--v3-surface-line:var(--line)}
+.home-v3 .v3-surface{padding:var(--space-16);border:var(--border-width) solid var(--v3-surface-line);border-radius:var(--radius-card);background:var(--v3-surface)}
+/* Section headings: the shared component (ortak-baslik.css, docs/46). The in-card "Daha fazla süzgeç" link keeps this style. */
+.home-v3 .v3-content .six-see{flex-shrink:0;white-space:nowrap;min-height:var(--touch-target);display:inline-flex;align-items:center;gap:var(--space-4);color:var(--tomato-deep);font-size:var(--role-meta-size);text-decoration:none}
+.home-v3 .v3-content .six-see .icon{font-size:var(--icon-sm);color:currentColor}
+.home-v3 .v3-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.home-v3 .v3-tabs{width:100%;background:var(--line);border-radius:var(--radius-segment)}
+
+/* Recipe card — "A · kaplama" (docs/40): the photo carries everything. docs/46: the page's own recipe tiles (latest pairs,
+   Dolapta Ne Var results) are now the shared DGCard.tile; these rules stay for recipe cards the shared sheets may draw. Time + rating top-left,
+   save top-right; bold category, max two-line title and the author sit on the photo's lower part over
+   a text-geometry veil (--v3-veil, ana-v3.js). No description, no difficulty/servings/cost. */
+.home-v3 .recipe-card{position:relative;padding-bottom:0;height:auto}
+.home-v3 .recipe-card .card-media{height:auto;aspect-ratio:4/5;border-radius:var(--dg-card-r)}
+.home-v3 .recipe-card .card-visual,.home-v3 .recipe-card .card-photo{height:100%;width:100%}
+.home-v3 .recipe-card .card-image-shade{background:var(--v3-veil,var(--image-shade))}
+/* Photo-meta capsules (recipe time/rating, video duration, category count) carry small text: the shared
+   56% glass measured 3.9:1 over bright covers, so on this page the same source dark is 72% (>=4.5:1). */
+.home-v3 .photo-meta{background:color-mix(in srgb,var(--overlay) 72%,transparent)}
+.home-v3 .recipe-card .card-body{position:absolute;left:0;right:0;bottom:0;z-index:3;display:flex;flex-direction:column;gap:var(--space-8);padding:var(--space-16);height:auto;pointer-events:none}
+.home-v3 .recipe-card .card-body a{pointer-events:auto}
+.home-v3 .recipe-card .card-copy{display:grid;align-content:end;gap:var(--space-4);min-height:var(--touch-target);color:var(--paper)}
+.home-v3 .recipe-card .card-category{color:var(--paper);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);text-shadow:var(--photo-text-shadow)}
+.home-v3 .recipe-card .card-copy h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;height:auto;min-height:0;max-height:calc(2 * var(--role-card-size) * var(--role-card-line));color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.home-v3 .recipe-card .card-footer{padding-top:0;margin-top:0;min-width:0}
+.home-v3 .recipe-card .card-author-row{display:flex;align-items:center;gap:var(--space-8);min-width:0;max-width:100%;min-height:0;margin:0;font-size:var(--type-photo-meta);line-height:var(--role-meta-line);color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.home-v3 .v3-author-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:var(--role-meta-weight)}
+
+/* 3. Dolapta Ne Var? (R4 + EK A2): write/add with an include/exclude switch, two chip strips (Dolaptakiler /
+   Hariç tuttuklarım), popular chips, a live "N tarif bul", results. Every row has a fixed height: adding, moving or
+   removing an ingredient never moves the rest of the module (strips scroll sideways instead of wrapping). */
+.home-v3 .v3-dolap{scroll-margin-top:var(--app-header)}
+.home-v3 .v3-dolap-card{display:grid;gap:var(--space-16);min-width:0}
+.home-v3 .v3-dolap-lead{margin:0;font-size:var(--role-body-size);line-height:var(--role-body-line);color:var(--slate-2)}
+.home-v3 .v3-dolap-box{position:relative;min-width:0}
+/* One frame (the shared .input-frame: 2px primary ring on focus-within): icon, input and clear; the input draws none. */
+.home-v3 .v3-dolap-field{display:flex;align-items:center;gap:var(--space-8);min-height:var(--chip-height);padding:0 0 0 var(--space-12);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--slate-2)}
+.home-v3 .v3-dolap-field>.icon{font-size:var(--icon-sm);color:var(--tomato-deep);flex-shrink:0}
+.home-v3 .v3-dolap-field input{flex:1;min-width:0;height:var(--chip-height);padding:0;border:0;outline:0;background:transparent;color:var(--ink);font:inherit;font-size:var(--role-body-size)}
+.home-v3 .v3-dolap-field input::placeholder{color:var(--slate-2);opacity:1}
+.home-v3 .v3-dolap-clear{display:none;place-items:center;width:var(--touch-target);height:var(--touch-target);flex-shrink:0;padding:0;border:0;background:none;color:var(--slate-2);cursor:pointer}
+.home-v3 .v3-dolap-field[data-filled=true] .v3-dolap-clear{display:grid}
+.home-v3 .v3-dolap-clear .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-dolap-options{position:absolute;left:0;right:0;top:calc(100% + var(--space-4));z-index:20;max-height:calc(var(--touch-target) * 5);margin:0;padding:var(--space-4) 0;overflow-y:auto;list-style:none;border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);box-shadow:var(--sh-md)}
+.home-v3 .v3-dolap-option{display:flex;align-items:center;gap:var(--space-12);min-height:var(--touch-target);padding:0 var(--space-12);font-size:var(--role-body-size);color:var(--ink);cursor:pointer}
+.home-v3 .v3-dolap-option .icon{width:var(--icon-md);font-size:var(--icon-sm);color:var(--tomato-deep);text-align:center;flex-shrink:0}
+.home-v3 .v3-dolap-option>span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.home-v3 .v3-dolap-option small{flex-shrink:0;font-size:var(--role-meta-size);color:var(--slate-2)}
+.home-v3 .v3-dolap-option[aria-selected=true],.home-v3 .v3-dolap-option:hover{background:var(--tomato-tint)}
+.home-v3 .v3-dolap-mode .icon{font-size:var(--icon-sm)}
+/* Group heading: icon + name + count; one line, fixed. */
+.home-v3 .v3-dolap-group{display:grid;gap:var(--space-8);min-width:0}
+.home-v3 .v3-dolap-row{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12);min-width:0}
+.home-v3 .v3-dolap-label{display:flex;align-items:center;gap:var(--space-8);margin:0;font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--ink)}
+.home-v3 .v3-dolap-label .icon{font-size:var(--icon-sm)}
+.home-v3 [data-v3-dolap-group=have] .v3-dolap-label .icon{color:var(--tomato-deep)}
+.home-v3 [data-v3-dolap-group=ex] .v3-dolap-label .icon{color:var(--slate-2)}
+.home-v3 .v3-dolap-label output{display:inline-grid;place-items:center;min-width:var(--avatar-card);height:var(--avatar-card);padding:0 var(--space-4);border-radius:var(--radius-choice);background:var(--paper);color:var(--slate-2);font-family:var(--font);font-weight:var(--weight-body)}
+.home-v3 .v3-dolap-reset{min-height:var(--touch-target);padding:0;border:0;background:none;color:var(--tomato-deep);font:inherit;font-size:var(--role-meta-size);cursor:pointer}
+/* Chip strip: always one chip high (empty text included), scrolls sideways; never wraps. */
+.home-v3 .v3-dolap-picks{display:flex;align-items:center;gap:var(--chip-gap);height:calc(var(--chip-height) + var(--space-8));min-width:0;margin:0 calc(-1 * var(--space-12));padding:0 var(--space-12);overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scrollbar-width:none}
+.home-v3 .v3-dolap-picks::-webkit-scrollbar{display:none}
+.home-v3 .v3-dolap-empty{display:flex;align-items:center;height:var(--chip-height);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* Selection panel: an inset surface under the inputs (nested radius = card − padding). */
+.home-v3 .v3-dolap-picked{display:grid;gap:var(--space-12);min-width:0;padding:var(--space-4) var(--space-12) var(--space-12);border-radius:calc(var(--radius-card) - var(--space-16));background:var(--bg)}
+.home-v3 .v3-dolap-title{font-size:var(--role-body-size);line-height:var(--role-body-line)}
+/* Picked chip = two targets in one control-radius frame: name (tap = switch include/exclude) + remove. */
+.home-v3 .v3-pick{display:inline-flex;align-items:stretch;flex:0 0 auto;max-width:100%;height:var(--chip-height);border:var(--border-width) solid;border-radius:var(--radius-control);font-size:var(--role-meta-size)}
+.home-v3 .v3-pick button{display:inline-flex;align-items:center;min-height:0;padding:0;border:0;background:none;color:inherit;font:inherit;cursor:pointer}
+.home-v3 .v3-pick button.v3-pick-main{gap:var(--space-8);min-width:0;padding-left:var(--chip-padding)}
+.home-v3 .v3-pick-main>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.home-v3 .v3-pick-x{justify-content:center;width:var(--touch-target);flex-shrink:0}
+.home-v3 .v3-pick .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-pick.is-have{border-color:var(--tomato-deep);background:var(--tomato-tint);color:var(--tomato-deep)}
+.home-v3 .v3-pick.is-ex{border-color:var(--line);background:var(--paper);color:var(--ink)}
+.home-v3 .v3-pick.is-ex .v3-pick-main .icon,.home-v3 .v3-pick.is-ex .v3-pick-x{color:var(--slate-2)}
+.home-v3 .v3-pick button:focus-visible{outline:2px solid var(--tomato);outline-offset:-2px;border-radius:var(--radius-control)}
+/* Popular: wrap once (static list); state changes only the one icon slot and colours, never the width. */
+.home-v3 .v3-dolap-popular{display:grid;gap:var(--space-8)}
+.home-v3 .v3-dolap-chips{display:flex;flex-wrap:wrap;gap:var(--chip-gap)}
+.home-v3 .v3-dolap-chip{display:inline-flex;align-items:center;gap:var(--space-8);min-height:var(--chip-height);padding:0 var(--chip-padding);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);font:inherit;font-size:var(--role-meta-size);cursor:pointer}
+.home-v3 .v3-dolap-chip .icon{display:none;font-size:var(--icon-sm);color:var(--tomato-deep)}
+.home-v3 .v3-dolap-chip[data-state=none] .fa-plus,.home-v3 .v3-dolap-chip[data-state=have] .fa-check,.home-v3 .v3-dolap-chip[data-state=ex] .fa-minus{display:inline-block}
+.home-v3 .v3-dolap-chip[data-state=have]{border-color:var(--tomato-deep);background:var(--tomato-tint);color:var(--tomato-deep)}
+.home-v3 .v3-dolap-chip[data-state=ex]{border-color:var(--line);background:var(--bg)}
+.home-v3 .v3-dolap-chip[data-state=ex] .icon{color:var(--slate-2)}
+.home-v3 .v3-dolap-chip:focus-visible,.home-v3 .v3-dolap-reset:focus-visible,.home-v3 .v3-dolap-more:focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+.home-v3 .v3-dolap-find{width:100%;min-height:var(--chip-height);margin:0;font-variant-numeric:tabular-nums}
+.home-v3 .v3-dolap-find .icon{font-size:var(--icon-sm)}
+/* Results: the body keeps the card strip's height for cards and messages alike. */
+.home-v3 .v3-dolap-results{display:grid;gap:var(--space-12);min-width:0}
+.home-v3 .v3-dolap-count{font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.home-v3 .v3-dolap-results-body{display:grid;min-height:calc(var(--v3-result-card) * 5 / 4);min-width:0}
+.home-v3 .v3-dolap-rail{display:flex;gap:var(--space-12);margin:0 calc(-1 * var(--space-16));padding:0 var(--space-16);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--space-16);scrollbar-width:none}
+.home-v3 .v3-dolap-rail::-webkit-scrollbar{display:none}
+.home-v3 .v3-dolap-rail>.dg-tile{flex:0 0 var(--v3-result-card);min-width:0;scroll-snap-align:start}
+.home-v3 .v3-dolap-rail .dg-tile__media{aspect-ratio:4/5}
+.home-v3 .v3-dolap .kitchen-empty{display:grid;align-content:center;justify-items:center;gap:var(--space-4);padding:var(--space-16);border:var(--border-width) dashed var(--line);border-radius:var(--dg-card-r);text-align:center;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-dolap .kitchen-empty strong{color:var(--ink)}
+.home-v3 .v3-dolap-more{justify-self:start}
+
+/* 4. Video tarifler — Video Mutfağı (docs/40 · tur 4): picture-led cards in the recipe-card family on the web source's
+   light section surface (--bg band). Title + views inside the cover over the text-geometry veil (--v3-veil,
+   ana-v3.js); duration in the shared photo-meta capsule top-left; one play mark top-right (where a recipe card saves), same size and place on every card. */
+.home-v3 .v3-video{display:block;min-width:0;padding:0;border:0;background:none;text-align:left;font:inherit;color:var(--paper);cursor:pointer}
+.home-v3 .v3-video-lead{width:100%;margin:0}
+.home-v3 .v3-video-cover{position:relative;display:flex;align-items:flex-end;aspect-ratio:1;overflow:hidden;border-radius:var(--dg-card-r);background:var(--overlay);isolation:isolate}
+.home-v3 .v3-video-lead .v3-video-cover{aspect-ratio:3/2}
+.home-v3 .v3-video-cover>.photo{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center}
+.home-v3 .v3-video-shade{position:absolute;inset:0;z-index:-1;background:var(--v3-veil,var(--image-shade))}
+/* EK A3 / docs/46 · duration and play are one pair in the same glass: ortak-kart.css .dg-meta + .dg-play. */
+/* Hierarchy: bold title, then (one scale step = 8px below) a smaller, 78% views line. */
+.home-v3 .v3-video-text{display:grid;gap:var(--space-8);min-width:0;width:100%;padding:var(--space-12)}
+.home-v3 .v3-video-lead .v3-video-text{padding:var(--space-16)}
+.home-v3 .v3-video-text strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:GilroyBd,var(--font);font-size:var(--role-card-size);font-weight:var(--weight-bold);line-height:var(--role-card-line);letter-spacing:var(--role-card-tracking);color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.home-v3 .v3-video-lead .v3-video-text strong{font-family:GilroyBd,var(--font);font-size:var(--role-featured-size);font-weight:var(--role-featured-weight);line-height:var(--role-featured-line);letter-spacing:var(--role-featured-tracking)}
+.home-v3 .v3-video-text>span{display:flex;align-items:center;gap:var(--space-4);white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:color-mix(in srgb,var(--paper) 78%,transparent);text-shadow:var(--photo-text-shadow)}
+.home-v3 .v3-video-text>span .icon{line-height:1;color:currentColor}
+.home-v3 .v3-video-text .icon{font-size:var(--type-meta)}
+.home-v3 .v3-video-rail{display:flex;gap:var(--space-12);margin:var(--space-12) calc(-1 * var(--gutter)) 0;padding:0 var(--gutter);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--gutter);scrollbar-width:none}
+.home-v3 .v3-video-rail::-webkit-scrollbar{display:none}
+.home-v3 .v3-video-rail>.v3-video{flex:0 0 var(--v3-result-card);scroll-snap-align:start}
+.home-v3 .v3-video:focus-visible{outline:2px solid var(--tomato);outline-offset:2px;border-radius:var(--dg-card-r)}
+
+/* 1. En son eklenen tarifler: featured slider (one 4:3 lead card per slide, manual) + the two 2:3 cards, unchanged. */
+.home-v3 .v3-latest{display:grid;gap:var(--space-16);min-width:0}
+/* EK A3 · one save: app.css's .recipe-card .save::before is more specific than ortak-kart's .dg-save::before, so the
+   home recipe cards point it back at the same shared tokens (ortak-kart.css itself is not edited). */
+.home-v3 .recipe-card .dg-save:before{border-radius:var(--dg-pair-r);background:var(--dg-pair-bg);backdrop-filter:var(--dg-pair-filter);-webkit-backdrop-filter:var(--dg-pair-filter);box-shadow:inset 0 0 0 var(--border-width) var(--dg-pair-line)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.home-v3 .recipe-card .dg-save:before{background:var(--dg-pair-fallback)}}
+/* The featured card's text link keeps a 44px target with a one-line title (ortak-kart gives it 42). */
+.home-v3 .dg-feature .dg-card__text{min-height:var(--touch-target);align-content:end}
+/* Featured: the list's DGCard.slider (4:3 dg-feature, indicator inside, ?radius/?rozet/?gosterge). */
+.home-v3 .v3-latest .dg-slider__track:focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+/* EK A1 / docs/46 · small cards two by two: the shared DGCard.pairs + DGCard.tile (ortak-kart.css), no page indicator. */
+
+/* 5. Şefler: web "Tarifin ustaları" structure on the neutral band. */
+.home-v3 .v3-chef-row{display:flex;align-items:stretch;gap:var(--space-12);margin:0 calc(-1 * var(--gutter)) 0 0;padding:var(--space-8) var(--gutter) var(--space-8) 0;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.home-v3 .v3-chef-row::-webkit-scrollbar{display:none}
+.home-v3 .v3-chef-card,.home-v3 .v3-chef-cta{flex:0 0 var(--v3-chef-card);min-width:0;scroll-snap-align:start}
+.home-v3 .v3-chef-card{display:flex;flex-direction:column;align-items:center;padding:var(--space-16) var(--space-8);border:var(--border-width) solid var(--v3-surface-line);border-radius:var(--radius-card);background:var(--v3-surface);text-align:center}
+.home-v3 .v3-chef-person{display:flex;flex-direction:column;align-items:center;width:100%;padding:0;border:0;background:none;color:inherit;font:inherit;cursor:pointer}
+.home-v3 .v3-chef-av{display:grid;place-items:center;width:var(--v3-chef-avatar);height:var(--v3-chef-avatar);min-width:var(--v3-chef-avatar);min-height:var(--v3-chef-avatar);aspect-ratio:1;flex-shrink:0;border:var(--v3-chef-ring) solid var(--paper);border-radius:var(--radius-avatar);box-shadow:var(--sh-sm);background:var(--neutral-surface);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-size:var(--role-display-size)}
+.home-v3 .v3-chef-person b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;width:100%;min-height:calc(2 * var(--role-card-size) * var(--role-card-line));margin-top:var(--space-12);font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line);color:var(--ink)}
+.home-v3 .v3-chef-count{max-width:100%;margin-top:var(--space-4);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-chef-follow{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-4);min-height:var(--touch-target);margin-top:var(--space-12);padding:0 var(--space-16);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);cursor:pointer}
+.home-v3 .v3-chef-follow .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-chef-cta{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-8);padding:var(--space-16) var(--space-12);border:var(--v3-cta-dash) dashed var(--choice-border-color);border-radius:var(--radius-card);background:transparent;color:var(--ink);font:inherit;text-align:center;cursor:pointer}
+.home-v3 .v3-chef-cta .icon{font-size:var(--icon-lg);color:var(--tomato)}
+.home-v3 .v3-chef-cta b{font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line)}
+.home-v3 .v3-chef-cta span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 :is(.v3-chef-person,.v3-chef-follow,.v3-chef-cta,.v3-chef-row):focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+
+/* 2. Kategoriler & Dünya Mutfakları (R2.2): two one-row strips. Kategoriler = big square photo cards;
+   Dünya Mutfakları = four items across the screen, 4:3 flag with a hairline ring (liste-v2 dg-mark family).
+   Equal panel height by construction: one media height (--v3-strip-media) and one text block for both. */
+.home-v3 .v3-cats .v3-tabs{margin:var(--space-12) 0 var(--space-16)}
+.home-v3 .v3-cats .v3-tabs .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-cats{--v3-strip-media:calc(var(--space-48) * 2 + var(--space-16))}
+/* Both tab panels share one grid cell: the section never changes height when the tab changes. */
+.home-v3 .v3-cat-stage{display:grid;min-width:0}
+.home-v3 .v3-cat-stage>[data-v3-panel]{grid-area:1/1;align-self:start;visibility:hidden}
+.home-v3 .v3-cat-stage>[data-v3-panel].is-active{visibility:visible}
+.home-v3 .v3-strip{display:flex;gap:var(--space-12);min-width:0;margin:0 calc(-1 * var(--gutter));padding:var(--space-4) var(--gutter);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--gutter);scrollbar-width:none}
+.home-v3 .v3-strip::-webkit-scrollbar{display:none}
+.home-v3 .v3-cuisine-strip{gap:var(--space-8)}
+.home-v3 .v3-strip-item{display:flex;flex-direction:column;gap:var(--space-8);min-width:0;color:var(--ink);text-decoration:none;scroll-snap-align:start;-webkit-tap-highlight-color:transparent}
+.home-v3 .v3-cat-card{flex:0 0 var(--v3-strip-media)}
+/* Four across: (strip content width − three gaps) / 4; the fifth item peeks into the right gutter. */
+.home-v3 .v3-cuisine{flex:0 0 calc((100% - var(--space-8) * 3) / 4)}
+.home-v3 .v3-strip-media{position:relative;display:grid;place-items:center;height:var(--v3-strip-media);overflow:hidden;border-radius:var(--radius-card);background:var(--bg)}
+.home-v3 .v3-cat-media{width:var(--v3-strip-media)}
+.home-v3 .v3-cat-media>.photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.home-v3 .v3-cuisine-media{width:100%;align-content:center;gap:var(--space-12);box-shadow:inset 0 0 0 var(--border-width) var(--line)}
+.home-v3 .v3-cat-count{position:absolute;left:var(--space-8);bottom:var(--space-8)}
+.home-v3 .v3-cuisine-count{max-width:100%;padding:0 var(--space-4);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-flag{display:block;width:calc(100% - var(--space-16) * 2);max-width:var(--space-48);height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius-choice);box-shadow:0 0 0 var(--border-width) var(--line)}
+.home-v3 .v3-flag-none{display:grid;place-items:center;background:var(--paper);color:var(--slate-2)}
+.home-v3 .v3-flag-none .icon{font-size:var(--icon-md)}
+/* Same text block in both strips: the name in two reserved lines. */
+.home-v3 .v3-strip-text{display:grid;min-width:0;padding:0 var(--space-4)}
+.home-v3 .v3-strip-text b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;height:calc(2 * var(--role-meta-size) * var(--role-meta-line));font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.home-v3 .v3-cuisine .v3-strip-text{text-align:center;padding:0}
+.home-v3 .v3-strip-item:active .v3-strip-media{box-shadow:inset 0 0 0 2px var(--tomato)}
+.home-v3 .v3-strip-item:focus-visible{outline:2px solid var(--tomato);outline-offset:2px;border-radius:var(--radius-card)}
+/* Full lists (sheet): one row per category / cuisine. */
+.home-v3 .v3-flag-frame{display:grid;place-items:center;width:var(--space-48);height:var(--space-48);flex-shrink:0;border-radius:var(--radius-control);background:var(--bg)}
+.home-v3 .v3-flag-frame .v3-flag{width:var(--space-32);max-width:none}
+.home-v3 .v3-cat-text{display:grid;gap:var(--space-4);min-width:0}
+.home-v3 .v3-cat-text b{font-family:GilroyBd,var(--font)}
+.home-v3 .v3-cat-text>span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-cat-symbol{display:grid;place-items:center;width:var(--space-48);height:var(--space-48);flex-shrink:0;border-radius:var(--radius-control);background:var(--bg);color:var(--tomato-deep)}
+.home-v3 .v3-cat-symbol .icon{font-size:var(--icon-md)}
+.home-v3 .v3-cat-list{display:grid}
+.home-v3 .v3-cat-row{display:flex;align-items:center;gap:var(--space-12);min-height:calc(var(--space-48) + var(--space-16));padding:var(--space-8) 0;color:var(--ink);text-decoration:none}
+.home-v3 .v3-cat-row+.v3-cat-row{border-top:var(--border-width) solid var(--line)}
+.home-v3 .v3-cat-row>.photo{width:var(--space-48);height:var(--space-48);flex-shrink:0;border-radius:var(--radius-control);background-size:cover;background-position:center}
+.home-v3 .v3-cat-row .v3-cat-text{flex:1;padding:0}
+.home-v3 .v3-cat-row .v3-cat-text b{font-size:var(--role-card-size)}
+.home-v3 .v3-cat-row>.icon{font-size:var(--icon-sm);color:var(--slate-2)}
+
+/* 6. Topluluğa Katıl / Tarifini paylaş (unchanged): x6/web source copy on the light page surface. */
+.home-v3 .six-community .eyebrow{display:flex;align-items:center;gap:var(--space-4);color:var(--tomato-deep)}
+.home-v3 .six-community .eyebrow .icon{font-size:var(--icon-sm)}
+.home-v3 .six-community .button{gap:var(--space-8)}

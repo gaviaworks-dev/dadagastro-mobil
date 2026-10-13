@@ -1,0 +1,6603 @@
+{
+ "generated": "2026-10-10T14:58:25.441Z",
+ "matrix": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "view": "grid",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 8,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22.2
+   },
+   "rowsEdge": null,
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "header": [
+    [
+     0,
+     [
+      0,
+      false,
+      296
+     ]
+    ],
+    [
+     20,
+     [
+      0.417,
+      false,
+      276
+     ]
+    ],
+    [
+     40,
+     [
+      0.813,
+      false,
+      257
+     ]
+    ],
+    [
+     60,
+     [
+      1,
+      false,
+      237
+     ]
+    ],
+    [
+     80,
+     [
+      1,
+      false,
+      216
+     ]
+    ],
+    [
+     100,
+     [
+      1,
+      false,
+      197
+     ]
+    ],
+    [
+     120,
+     [
+      1,
+      false,
+      176
+     ]
+    ],
+    [
+     140,
+     [
+      1,
+      false,
+      157
+     ]
+    ],
+    [
+     160,
+     [
+      1,
+      false,
+      137
+     ]
+    ],
+    [
+     180,
+     [
+      1,
+      false,
+      117
+     ]
+    ],
+    [
+     200,
+     [
+      1,
+      false,
+      97
+     ]
+    ],
+    [
+     220,
+     [
+      1,
+      false,
+      76
+     ]
+    ],
+    [
+     240,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     260,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     280,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     300,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     320,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     340,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     360,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     380,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     400,
+     [
+      1,
+      true,
+      68
+     ]
+    ]
+   ],
+   "logo": [
+    6.27,
+    5.95,
+    5.2,
+    5.2
+   ],
+   "bannerTextContrast": 10.5,
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "view": "liste",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 0,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22.2
+   },
+   "rowsEdge": {
+    "firstTop": "0px",
+    "lastBottom": "0px"
+   },
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "view": "grid",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 8,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22.2
+   },
+   "rowsEdge": null,
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "header": [
+    [
+     0,
+     [
+      0,
+      false,
+      296
+     ]
+    ],
+    [
+     20,
+     [
+      0.417,
+      false,
+      276
+     ]
+    ],
+    [
+     40,
+     [
+      0.813,
+      false,
+      257
+     ]
+    ],
+    [
+     60,
+     [
+      1,
+      false,
+      237
+     ]
+    ],
+    [
+     80,
+     [
+      1,
+      false,
+      217
+     ]
+    ],
+    [
+     100,
+     [
+      1,
+      false,
+      196
+     ]
+    ],
+    [
+     120,
+     [
+      1,
+      false,
+      177
+     ]
+    ],
+    [
+     140,
+     [
+      1,
+      false,
+      157
+     ]
+    ],
+    [
+     160,
+     [
+      1,
+      false,
+      137
+     ]
+    ],
+    [
+     180,
+     [
+      1,
+      false,
+      117
+     ]
+    ],
+    [
+     200,
+     [
+      1,
+      false,
+      96
+     ]
+    ],
+    [
+     220,
+     [
+      1,
+      false,
+      77
+     ]
+    ],
+    [
+     240,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     260,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     280,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     300,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     320,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     340,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     360,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     380,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     400,
+     [
+      1,
+      true,
+      68
+     ]
+    ]
+   ],
+   "logo": [
+    6.25,
+    5.95,
+    5.2,
+    5.2
+   ],
+   "bannerTextContrast": 10.39,
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "view": "liste",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 0,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22.2
+   },
+   "rowsEdge": {
+    "firstTop": "0px",
+    "lastBottom": "0px"
+   },
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "view": "grid",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 8,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22.2
+   },
+   "rowsEdge": null,
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "header": [
+    [
+     0,
+     [
+      0,
+      false,
+      296
+     ]
+    ],
+    [
+     20,
+     [
+      0.417,
+      false,
+      276
+     ]
+    ],
+    [
+     40,
+     [
+      0.813,
+      false,
+      257
+     ]
+    ],
+    [
+     60,
+     [
+      1,
+      false,
+      236
+     ]
+    ],
+    [
+     80,
+     [
+      1,
+      false,
+      217
+     ]
+    ],
+    [
+     100,
+     [
+      1,
+      false,
+      196
+     ]
+    ],
+    [
+     120,
+     [
+      1,
+      false,
+      177
+     ]
+    ],
+    [
+     140,
+     [
+      1,
+      false,
+      157
+     ]
+    ],
+    [
+     160,
+     [
+      1,
+      false,
+      136
+     ]
+    ],
+    [
+     180,
+     [
+      1,
+      false,
+      117
+     ]
+    ],
+    [
+     200,
+     [
+      1,
+      false,
+      96
+     ]
+    ],
+    [
+     220,
+     [
+      1,
+      false,
+      77
+     ]
+    ],
+    [
+     240,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     260,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     280,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     300,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     320,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     340,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     360,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     380,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     400,
+     [
+      1,
+      true,
+      68
+     ]
+    ]
+   ],
+   "logo": [
+    6.31,
+    5.99,
+    5.2,
+    5.2
+   ],
+   "bannerTextContrast": 10.39,
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "view": "liste",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 0,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22.2
+   },
+   "rowsEdge": {
+    "firstTop": "0px",
+    "lastBottom": "0px"
+   },
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "view": "grid",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      154,
+      193
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 8,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22
+   },
+   "rowsEdge": null,
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "header": [
+    [
+     0,
+     [
+      0,
+      false,
+      296
+     ]
+    ],
+    [
+     20,
+     [
+      0.417,
+      false,
+      276
+     ]
+    ],
+    [
+     40,
+     [
+      0.833,
+      false,
+      256
+     ]
+    ],
+    [
+     60,
+     [
+      1,
+      false,
+      236
+     ]
+    ],
+    [
+     80,
+     [
+      1,
+      false,
+      216
+     ]
+    ],
+    [
+     100,
+     [
+      1,
+      false,
+      196
+     ]
+    ],
+    [
+     120,
+     [
+      1,
+      false,
+      176
+     ]
+    ],
+    [
+     140,
+     [
+      1,
+      false,
+      156
+     ]
+    ],
+    [
+     160,
+     [
+      1,
+      false,
+      136
+     ]
+    ],
+    [
+     180,
+     [
+      1,
+      false,
+      116
+     ]
+    ],
+    [
+     200,
+     [
+      1,
+      false,
+      96
+     ]
+    ],
+    [
+     220,
+     [
+      1,
+      false,
+      76
+     ]
+    ],
+    [
+     240,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     260,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     280,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     300,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     320,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     340,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     360,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     380,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     400,
+     [
+      1,
+      true,
+      68
+     ]
+    ]
+   ],
+   "logo": [
+    6.07,
+    5.9,
+    5.2,
+    5.2
+   ],
+   "bannerTextContrast": 10.34,
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "view": "liste",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      320,
+      240
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 0,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22
+   },
+   "rowsEdge": {
+    "firstTop": "0px",
+    "lastBottom": "0px"
+   },
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "view": "grid",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      169,
+      211
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 8,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22
+   },
+   "rowsEdge": null,
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "header": [
+    [
+     0,
+     [
+      0,
+      false,
+      296
+     ]
+    ],
+    [
+     20,
+     [
+      0.417,
+      false,
+      276
+     ]
+    ],
+    [
+     40,
+     [
+      0.833,
+      false,
+      256
+     ]
+    ],
+    [
+     60,
+     [
+      1,
+      false,
+      236
+     ]
+    ],
+    [
+     80,
+     [
+      1,
+      false,
+      216
+     ]
+    ],
+    [
+     100,
+     [
+      1,
+      false,
+      196
+     ]
+    ],
+    [
+     120,
+     [
+      1,
+      false,
+      176
+     ]
+    ],
+    [
+     140,
+     [
+      1,
+      false,
+      156
+     ]
+    ],
+    [
+     160,
+     [
+      1,
+      false,
+      136
+     ]
+    ],
+    [
+     180,
+     [
+      1,
+      false,
+      116
+     ]
+    ],
+    [
+     200,
+     [
+      1,
+      false,
+      96
+     ]
+    ],
+    [
+     220,
+     [
+      1,
+      false,
+      76
+     ]
+    ],
+    [
+     240,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     260,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     280,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     300,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     320,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     340,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     360,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     380,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     400,
+     [
+      1,
+      true,
+      68
+     ]
+    ]
+   ],
+   "logo": [
+    6.18,
+    5.95,
+    5.2,
+    5.2
+   ],
+   "bannerTextContrast": 10.34,
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "view": "liste",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      350,
+      263
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 0,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22
+   },
+   "rowsEdge": {
+    "firstTop": "0px",
+    "lastBottom": "0px"
+   },
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "view": "grid",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      189,
+      236
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 8,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22
+   },
+   "rowsEdge": null,
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "header": [
+    [
+     0,
+     [
+      0,
+      false,
+      296
+     ]
+    ],
+    [
+     20,
+     [
+      0.417,
+      false,
+      276
+     ]
+    ],
+    [
+     40,
+     [
+      0.833,
+      false,
+      256
+     ]
+    ],
+    [
+     60,
+     [
+      1,
+      false,
+      236
+     ]
+    ],
+    [
+     80,
+     [
+      1,
+      false,
+      216
+     ]
+    ],
+    [
+     100,
+     [
+      1,
+      false,
+      196
+     ]
+    ],
+    [
+     120,
+     [
+      1,
+      false,
+      176
+     ]
+    ],
+    [
+     140,
+     [
+      1,
+      false,
+      156
+     ]
+    ],
+    [
+     160,
+     [
+      1,
+      false,
+      136
+     ]
+    ],
+    [
+     180,
+     [
+      1,
+      false,
+      116
+     ]
+    ],
+    [
+     200,
+     [
+      1,
+      false,
+      96
+     ]
+    ],
+    [
+     220,
+     [
+      1,
+      false,
+      76
+     ]
+    ],
+    [
+     240,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     260,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     280,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     300,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     320,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     340,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     360,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     380,
+     [
+      1,
+      true,
+      68
+     ]
+    ],
+    [
+     400,
+     [
+      1,
+      true,
+      68
+     ]
+    ]
+   ],
+   "logo": [
+    6.24,
+    5.99,
+    5.2,
+    5.2
+   ],
+   "bannerTextContrast": 10.34,
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "view": "liste",
+   "overflowX": false,
+   "rawText": false,
+   "cards": [
+    {
+     "kind": "dg-feature",
+     "title": "Tavuk Curry",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Doruk Solmaz",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Yunan Usulü Limonlu Karides Sote",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ceren Tosun",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Ilıcalı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 2,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-feature",
+     "title": "Kırmızı Fasulye Yahnisi",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Göktürk Dizdar",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      390,
+      293
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Patates Mücveri",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ebru Bolatlı",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sagdana",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Şahnur Poyrazoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Pastéis de Feijão",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Atakan Erçetin",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tarte de Amêndoa",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Akşit",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Sardalya Izgara",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Erez",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Güveçte Ayvalı Tavuk",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Cem Aydan",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Ördek Dolması",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: İrem Egeli",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    },
+    {
+     "kind": "dg-card dg-card--row",
+     "title": "Tuzsuz Bebek Tavuk Suyu",
+     "authorVisible": true,
+     "authorName": "Tarifi ekleyen: Ege Bakırcıoğlu",
+     "authorSingleLine": true,
+     "authorEllipsis": "ellipsis",
+     "avatar": [
+      20,
+      20
+     ],
+     "titleLines": 1,
+     "titleClamp": "2",
+     "categoryFont": "GilroyBd",
+     "forbidden": 0,
+     "media": [
+      152,
+      152
+     ],
+     "metaInside": true,
+     "metaOverflow": false,
+     "save": {
+      "hit": [
+       44,
+       44
+      ],
+      "fromRight": 8,
+      "fromTop": 8
+     }
+    }
+   ],
+   "gridCount": 0,
+   "gridEven": true,
+   "feature": true,
+   "smallTargets": [],
+   "targetCount": 69,
+   "banner": {
+    "veil": {
+     "stops": 49,
+     "maxStep": 7.4
+    },
+    "gutter": 20,
+    "statsLeft": 20,
+    "statsRight": 20,
+    "searchLeft": 20,
+    "sepBalance": [
+     0,
+     0
+    ],
+    "statFont": "13px",
+    "copyToPanel": 20,
+    "textToPanel": 22
+   },
+   "rowsEdge": {
+    "firstTop": "0px",
+    "lastBottom": "0px"
+   },
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "removed": {
+    "fridge": false,
+    "themeExpander": false,
+    "oldChips": 0,
+    "activeFacets": false
+   },
+   "rhythm": {
+    "searchToScope": 12,
+    "scopeToRail": 12
+   },
+   "errors": []
+  }
+ ],
+ "states": {
+  "kategori": {
+   "errors": [],
+   "count": "6 tarif bulundu",
+   "badge": "1",
+   "cards": 6,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Balık ve Deniz Ürünleri",
+   "bannerStats": "260 tarif",
+   "logoContrast": 6.7
+  },
+  "dunya-mutfaklari": {
+   "errors": [],
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "cards": 12,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "mutfakSecili": {
+   "count": "11 tarif bulundu",
+   "title": "Türk Mutfağı",
+   "stats": "2.803 tarif"
+  },
+  "sifir-sonuc": {
+   "errors": [],
+   "count": "0 tarif bulundu",
+   "badge": "",
+   "cards": 0,
+   "gridEven": true,
+   "feature": false,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "menu-acik": {
+   "errors": [],
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "cards": 12,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "yukleniyor": {
+   "errors": [],
+   "count": "Tarifler yükleniyor",
+   "badge": "",
+   "cards": 13,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "header-0": {
+   "errors": [],
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "cards": 12,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "header-60": {
+   "errors": [],
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "cards": 12,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "header-120": {
+   "errors": [],
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "cards": 12,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "header-300": {
+   "errors": [],
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "cards": 12,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  },
+  "satir-gorunumu": {
+   "errors": [],
+   "count": "32 tarif bulundu",
+   "badge": "",
+   "cards": 12,
+   "gridEven": true,
+   "feature": true,
+   "overflowX": false,
+   "bannerTitle": "Tarifler",
+   "bannerStats": "6.112 Denenmiş tarif 34 Kategori 50 Dünya mutfağı"
+  }
+ },
+ "functional": {
+  "flags": {
+   "chips": 51,
+   "flags": 49,
+   "globe": 2,
+   "chipHeights": [
+    44
+   ],
+   "loaded": true
+  },
+  "empty": {
+   "empty": true,
+   "banner": true
+  },
+  "clearRestores": "32 tarif bulundu",
+  "drawer": {
+   "opened": {
+    "open": true,
+    "shown": true,
+    "logo": "assets/marka/dadagastro-renkli.svg",
+    "active": [
+     "all"
+    ],
+    "recipesOpen": true,
+    "closeSize": [
+     44,
+     44
+    ],
+    "locked": true
+   },
+   "afterClose": {
+    "open": false,
+    "shown": false,
+    "logo": "assets/marka/dadagastro-renkli.svg",
+    "active": [
+     "all"
+    ],
+    "recipesOpen": true,
+    "closeSize": [
+     0,
+     0
+    ],
+    "locked": false
+   },
+   "afterEscape": {
+    "open": false,
+    "shown": false,
+    "logo": "assets/marka/dadagastro-renkli.svg",
+    "active": [
+     "all"
+    ],
+    "recipesOpen": true,
+    "closeSize": [
+     0,
+     0
+    ],
+    "locked": false
+   },
+   "withCategory": {
+    "open": true,
+    "shown": true,
+    "logo": "assets/marka/dadagastro-renkli.svg",
+    "active": [
+     "categories"
+    ],
+    "recipesOpen": true,
+    "closeSize": [
+     44,
+     44
+    ],
+    "locked": true
+   }
+  },
+  "loading": {
+   "busy": "true",
+   "inert": true,
+   "skeleton": 13
+  }
+ },
+ "stability": {
+  "tema": {
+   "maxShift": 0,
+   "detail": {
+    "search": [
+     0,
+     0,
+     0
+    ],
+    "themes": [
+     0,
+     0,
+     0
+    ],
+    "status": [
+     0,
+     0,
+     0
+    ],
+    "rail": [
+     0,
+     0,
+     0
+    ],
+    "filter": [
+     0,
+     0,
+     0
+    ],
+    "sort": [
+     0,
+     0,
+     0
+    ]
+   },
+   "count": "11 tarif bulundu",
+   "themeActive": "Glutensiz",
+   "sort": "Sıralama: Önerilen"
+  },
+  "tema-tumu": {
+   "maxShift": 0,
+   "detail": {
+    "search": [
+     0,
+     0,
+     0
+    ],
+    "themes": [
+     0,
+     0,
+     0
+    ],
+    "status": [
+     0,
+     0,
+     0
+    ],
+    "rail": [
+     0,
+     0,
+     0
+    ],
+    "filter": [
+     0,
+     0,
+     0
+    ],
+    "sort": [
+     0,
+     0,
+     0
+    ]
+   },
+   "count": "32 tarif bulundu",
+   "themeActive": "Tümü",
+   "sort": "Sıralama: Önerilen"
+  },
+  "kategori": {
+   "maxShift": 0,
+   "detail": {
+    "search": [
+     0,
+     0,
+     0
+    ],
+    "themes": [
+     0,
+     0,
+     0
+    ],
+    "status": [
+     0,
+     0,
+     0
+    ],
+    "rail": [
+     0,
+     0,
+     0
+    ],
+    "filter": [
+     0,
+     0,
+     0
+    ],
+    "sort": [
+     0,
+     0,
+     0
+    ]
+   },
+   "count": "6 tarif bulundu",
+   "themeActive": "Tümü",
+   "sort": "Sıralama: Önerilen"
+  },
+  "kategori-tumu": {
+   "maxShift": 0,
+   "detail": {
+    "search": [
+     0,
+     0,
+     0
+    ],
+    "themes": [
+     0,
+     0,
+     0
+    ],
+    "status": [
+     0,
+     0,
+     0
+    ],
+    "rail": [
+     0,
+     0,
+     0
+    ],
+    "filter": [
+     0,
+     0,
+     0
+    ],
+    "sort": [
+     0,
+     0,
+     0
+    ]
+   },
+   "count": "32 tarif bulundu",
+   "themeActive": "Tümü",
+   "sort": "Sıralama: Önerilen"
+  },
+  "siralama": {
+   "maxShift": 0,
+   "detail": {
+    "search": [
+     0,
+     0,
+     0
+    ],
+    "themes": [
+     0,
+     0,
+     0
+    ],
+    "status": [
+     0,
+     0,
+     0
+    ],
+    "rail": [
+     0,
+     0,
+     0
+    ],
+    "filter": [
+     0,
+     0,
+     0
+    ],
+    "sort": [
+     0,
+     0,
+     0
+    ]
+   },
+   "count": "32 tarif bulundu",
+   "themeActive": "Tümü",
+   "sort": "Sıralama: En Çok Puanlanan"
+  },
+  "gorunum": {
+   "maxShift": 0,
+   "detail": {
+    "search": [
+     0,
+     0,
+     0
+    ],
+    "themes": [
+     0,
+     0,
+     0
+    ],
+    "status": [
+     0,
+     0,
+     0
+    ],
+    "rail": [
+     0,
+     0,
+     0
+    ],
+    "filter": [
+     0,
+     0,
+     0
+    ],
+    "sort": [
+     0,
+     0,
+     0
+    ]
+   },
+   "count": "32 tarif bulundu",
+   "themeActive": "Tümü",
+   "sort": "Sıralama: En Çok Puanlanan"
+  },
+  "gorunum-geri": {
+   "maxShift": 0,
+   "detail": {
+    "search": [
+     0,
+     0,
+     0
+    ],
+    "themes": [
+     0,
+     0,
+     0
+    ],
+    "status": [
+     0,
+     0,
+     0
+    ],
+    "rail": [
+     0,
+     0,
+     0
+    ],
+    "filter": [
+     0,
+     0,
+     0
+    ],
+    "sort": [
+     0,
+     0,
+     0
+    ]
+   },
+   "count": "32 tarif bulundu",
+   "themeActive": "Tümü",
+   "sort": "Sıralama: En Çok Puanlanan"
+  }
+ },
+ "sheet": {
+  "structure": [
+   {
+    "key": "kategori",
+    "label": "Kategori",
+    "icon": null,
+    "options": 34,
+    "visible": 8,
+    "more": "26 seçenek daha",
+    "flags": 0,
+    "photos": 33,
+    "icons": 1,
+    "counts": 34
+   },
+   {
+    "key": "mutfak",
+    "label": "Mutfak",
+    "icon": "fa-earth-americas",
+    "options": 50,
+    "visible": 8,
+    "more": "42 seçenek daha",
+    "flags": 49,
+    "photos": 0,
+    "icons": 1,
+    "counts": 50
+   },
+   {
+    "key": "yemek_modu",
+    "label": "Yemek Modu",
+    "icon": "fa-kitchen-set",
+    "options": 20,
+    "visible": 8,
+    "more": "12 seçenek daha",
+    "flags": 0,
+    "photos": 0,
+    "icons": 0,
+    "counts": 20
+   },
+   {
+    "key": "ogun",
+    "label": "Öğün",
+    "icon": "fa-utensils",
+    "options": 8,
+    "visible": 8,
+    "more": null,
+    "flags": 0,
+    "photos": 0,
+    "icons": 0,
+    "counts": 8
+   },
+   {
+    "key": "sure",
+    "label": "Süre",
+    "icon": "fa-clock",
+    "options": 6,
+    "visible": 6,
+    "more": null,
+    "flags": 0,
+    "photos": 0,
+    "icons": 0,
+    "counts": 6
+   },
+   {
+    "key": "zorluk",
+    "label": "Zorluk",
+    "icon": "fa-gauge-simple",
+    "options": 5,
+    "visible": 5,
+    "more": null,
+    "flags": 0,
+    "photos": 0,
+    "icons": 0,
+    "counts": 5
+   },
+   {
+    "key": "beslenme",
+    "label": "Beslenme / Tip",
+    "icon": "fa-heart-pulse",
+    "options": 21,
+    "visible": 8,
+    "more": "13 seçenek daha",
+    "flags": 0,
+    "photos": 0,
+    "icons": 21,
+    "counts": 21
+   },
+   {
+    "key": "icerik_turu",
+    "label": "İçerik Türü",
+    "icon": null,
+    "options": 3,
+    "visible": 3,
+    "more": null,
+    "flags": 0,
+    "photos": 0,
+    "icons": 0,
+    "counts": 3
+   },
+   {
+    "key": "butce",
+    "label": "Bütçe",
+    "icon": null,
+    "options": 3,
+    "visible": 3,
+    "more": null,
+    "flags": 0,
+    "photos": 0,
+    "icons": 0,
+    "counts": 3
+   }
+  ],
+  "dividers": {
+   "firstTop": "0px",
+   "lastBottom": "0px",
+   "between": "1px",
+   "optionBorders": 0
+  },
+  "allClosed": 0,
+  "accordion": {
+   "fromTop": {
+    "before": 724.6,
+    "after": 316.6,
+    "maxFrameStep": 37.6,
+    "frames": 52
+   },
+   "open": [
+    "mutfak"
+   ],
+   "scrolled": {
+    "before": 612.6,
+    "maxDrift": 51,
+    "frames": 52
+   }
+  },
+  "selection": {
+   "title": "Filtreler 3",
+   "chips": [
+    "Balık ve Deniz Ürünleri",
+    "Tatlı",
+    "Türk Mutfağı"
+   ],
+   "groupCounts": [
+    "kategori:2",
+    "mutfak:1"
+   ],
+   "apply": "4 tarifi göster"
+  },
+  "bottom": {
+   "footFlush": 0,
+   "scrolls": true,
+   "sheetHeight": 717,
+   "viewport": 844
+  },
+  "unpick": [
+   2,
+   false,
+   "2 tarifi göster"
+  ],
+  "applied": {
+   "closed": true,
+   "count": "2 tarif bulundu",
+   "badge": "2",
+   "banner": "Balık ve Deniz Ürünleri"
+  },
+  "reset": {
+   "checked": 0,
+   "apply": "32 tarifi göster",
+   "hint": true
+  },
+  "sort": [
+   "Önerilen ✓ fa-wand-magic-sparkles",
+   "En Yeni fa-calendar-plus",
+   "En Çok Puanlanan fa-star",
+   "En Hızlı fa-bolt"
+  ]
+ },
+ "compare": {
+  "liste1": {
+   "copyToPanel": 24,
+   "textToPanel": 28,
+   "statsTextLeft": 24,
+   "titleLeft": 20,
+   "statFont": "13px",
+   "valueFont": "GilroyBd, Gilroy, sans-serif",
+   "h1ToStats": 8,
+   "logo0": 1.1
+  },
+  "v2": {
+   "h1ToStats": 8,
+   "valueFont": "GilroyBd, Gilroy, sans-serif",
+   "statFont": "13px"
+  }
+ }
+}

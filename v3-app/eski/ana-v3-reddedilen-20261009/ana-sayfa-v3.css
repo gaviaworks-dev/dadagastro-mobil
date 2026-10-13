@@ -1,0 +1,19 @@
+/* V3-only composition, using the existing role, spacing and component tokens. */
+.home-v3 .x-hero .purpose-title{z-index:6}
+.home-v3 .x-scene-shade{background:linear-gradient(180deg,var(--x-shade) 0%,var(--x-shade) 24%,var(--x-soft) 44%,transparent 52%,var(--x-soft) 64%,var(--x-shade) 84%,var(--overlay) 100%)}
+.home-v3 .collection-block .six-heading h2{min-width:0;text-wrap:balance}
+.home-v3 .collection-block .six-see{flex-shrink:0;white-space:nowrap}
+.home-v3 .recipe-card .card-category{font-family:GilroyBd,var(--font);font-weight:var(--role-section-weight)}
+.home-v3 .recipe-card .card-body{gap:var(--space-4);padding:var(--space-8) var(--space-4) 0}
+.home-v3 .recipe-card .card-copy{display:grid;gap:var(--space-4)}
+.home-v3 .recipe-card .card-copy h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;min-height:calc(2 * var(--role-card-size) * var(--role-card-line));max-height:calc(2 * var(--role-card-size) * var(--role-card-line));margin:0}
+body.home-v3[data-edition=x6] .new-kitchen .kitchen-previews{display:flex;gap:var(--space-12);overflow-x:auto;scroll-snap-type:x mandatory;border:0;padding:0 0 var(--space-8);align-items:stretch}
+.home-v3 .new-kitchen .kitchen-previews>.recipe-card{flex:0 0 270px;min-width:0;scroll-snap-align:start}
+.home-v3 .new-kitchen .kitchen-previews .card-media{aspect-ratio:4/3;height:auto}
+.home-v3 .new-kitchen .kitchen-previews .card-visual{height:100%}
+.home-v3 .new-kitchen .kitchen-previews .card-photo{height:100%;width:100%}
+.home-v3 .v3-drawer-logo{display:flex;align-items:center;min-height:44px}
+.home-v3 .v3-drawer-logo img{width:calc(3 * var(--space-48));height:auto;display:block}
+.home-v3 .drawer-top>div{min-width:0}
+.home-v3 .a-chefs{--chef-avatar-size:var(--space-40)}
+.home-v3 .a-chef-avatar{background:var(--neutral-surface);border:0;color:var(--tomato-deep);font-size:var(--role-sheet-size)}

@@ -1,0 +1,647 @@
+{
+ "generated": "2026-10-10T14:18:34.333Z",
+ "baseline": {
+  "liste1": {
+   "aramaKutusu": "12px",
+   "gorunumKapsayici": "12px",
+   "gorunumDugmesi": "12px",
+   "sayfalama": "12px",
+   "chip": "12px",
+   "panel": "24px",
+   "sheet": "24px",
+   "sheetDugmesi": "12px"
+  },
+  "liste5": {
+   "sekmeKapsayici": "12px",
+   "sekmeDugmesi": "12px"
+  },
+  "tokens": {
+   "--radius-control": "12px",
+   "--radius-segment": "calc(12px + 4px)",
+   "--radius-sheet": "24px",
+   "--radius-choice": "calc(12px / 3)",
+   "--radius-card": "24px"
+  }
+ },
+ "controls": [
+  {
+   "engine": "chromium",
+   "radius": "a",
+   "Sekme kapsayıcı (Kategoriler/Dünya Mutfakları)": "12px",
+   "Sekme düğmesi": "12px",
+   "Kategori çipi": "12px",
+   "Çip içi işaret": "4px",
+   "Tema çipi": "12px",
+   "Arama kutusu": "12px",
+   "Arama içi filtre düğmesi": "12px",
+   "Sayı rozeti": "4px",
+   "Sıralama grubu": "16px",
+   "Sıralama düğmesi": "12px",
+   "Görünüm kapsayıcı": "12px",
+   "Görünüm düğmesi": "12px",
+   "Sayfalama": "12px",
+   "Panel (üst köşe)": "24px",
+   "Sheet (üst köşe)": "24px",
+   "Sheet düğmesi": "12px",
+   "Sheet çipi/ipucu satırı": "0px",
+   "Sheet kapat": "12px",
+   "Seçim kutusu": "4px",
+   "Boş durum düğmesi": "12px"
+  },
+  {
+   "engine": "chromium",
+   "radius": "b",
+   "Sekme kapsayıcı (Kategoriler/Dünya Mutfakları)": "12px",
+   "Sekme düğmesi": "12px",
+   "Kategori çipi": "12px",
+   "Çip içi işaret": "4px",
+   "Tema çipi": "12px",
+   "Arama kutusu": "12px",
+   "Arama içi filtre düğmesi": "12px",
+   "Sayı rozeti": "4px",
+   "Sıralama grubu": "16px",
+   "Sıralama düğmesi": "12px",
+   "Görünüm kapsayıcı": "12px",
+   "Görünüm düğmesi": "12px",
+   "Sayfalama": "12px",
+   "Panel (üst köşe)": "24px",
+   "Sheet (üst köşe)": "24px",
+   "Sheet düğmesi": "12px",
+   "Sheet çipi/ipucu satırı": "0px",
+   "Sheet kapat": "12px",
+   "Seçim kutusu": "4px",
+   "Boş durum düğmesi": "12px"
+  },
+  {
+   "engine": "webkit",
+   "radius": "a",
+   "Sekme kapsayıcı (Kategoriler/Dünya Mutfakları)": "12px",
+   "Sekme düğmesi": "12px",
+   "Kategori çipi": "12px",
+   "Çip içi işaret": "4px",
+   "Tema çipi": "12px",
+   "Arama kutusu": "12px",
+   "Arama içi filtre düğmesi": "12px",
+   "Sayı rozeti": "4px",
+   "Sıralama grubu": "16px",
+   "Sıralama düğmesi": "12px",
+   "Görünüm kapsayıcı": "12px",
+   "Görünüm düğmesi": "12px",
+   "Sayfalama": "12px",
+   "Panel (üst köşe)": "24px",
+   "Sheet (üst köşe)": "24px",
+   "Sheet düğmesi": "12px",
+   "Sheet çipi/ipucu satırı": "0px",
+   "Sheet kapat": "12px",
+   "Seçim kutusu": "4px",
+   "Boş durum düğmesi": "12px"
+  },
+  {
+   "engine": "webkit",
+   "radius": "b",
+   "Sekme kapsayıcı (Kategoriler/Dünya Mutfakları)": "12px",
+   "Sekme düğmesi": "12px",
+   "Kategori çipi": "12px",
+   "Çip içi işaret": "4px",
+   "Tema çipi": "12px",
+   "Arama kutusu": "12px",
+   "Arama içi filtre düğmesi": "12px",
+   "Sayı rozeti": "4px",
+   "Sıralama grubu": "16px",
+   "Sıralama düğmesi": "12px",
+   "Görünüm kapsayıcı": "12px",
+   "Görünüm düğmesi": "12px",
+   "Sayfalama": "12px",
+   "Panel (üst köşe)": "24px",
+   "Sheet (üst köşe)": "24px",
+   "Sheet düğmesi": "12px",
+   "Sheet çipi/ipucu satırı": "0px",
+   "Sheet kapat": "12px",
+   "Seçim kutusu": "4px",
+   "Boş durum düğmesi": "12px"
+  }
+ ],
+ "cards": [
+  {
+   "engine": "chromium",
+   "radius": "a",
+   "kart": "16px",
+   "oneCikan": "16px",
+   "slider": "16px",
+   "rozet": "8px",
+   "kaydet": "8px",
+   "oneCikanRozet": "8px",
+   "oneCikanKaydet": "8px",
+   "nokta": "2px",
+   "avatar": "50%",
+   "sayac": "6px",
+   "satirKaresi": "16px",
+   "satirRozet": "8px",
+   "satirKaydet": "8px"
+  },
+  {
+   "engine": "chromium",
+   "radius": "b",
+   "kart": "20px",
+   "oneCikan": "20px",
+   "slider": "20px",
+   "rozet": "12px",
+   "kaydet": "12px",
+   "oneCikanRozet": "12px",
+   "oneCikanKaydet": "12px",
+   "nokta": "2px",
+   "avatar": "50%",
+   "sayac": "6px",
+   "satirKaresi": "20px",
+   "satirRozet": "12px",
+   "satirKaydet": "12px"
+  },
+  {
+   "engine": "webkit",
+   "radius": "a",
+   "kart": "16px",
+   "oneCikan": "16px",
+   "slider": "16px",
+   "rozet": "8px",
+   "kaydet": "8px",
+   "oneCikanRozet": "8px",
+   "oneCikanKaydet": "8px",
+   "nokta": "2px",
+   "avatar": "50%",
+   "sayac": "6px",
+   "satirKaresi": "16px",
+   "satirRozet": "8px",
+   "satirKaydet": "8px"
+  },
+  {
+   "engine": "webkit",
+   "radius": "b",
+   "kart": "20px",
+   "oneCikan": "20px",
+   "slider": "20px",
+   "rozet": "12px",
+   "kaydet": "12px",
+   "oneCikanRozet": "12px",
+   "oneCikanKaydet": "12px",
+   "nokta": "2px",
+   "avatar": "50%",
+   "sayac": "6px",
+   "satirKaresi": "20px",
+   "satirRozet": "12px",
+   "satirKaydet": "12px"
+  }
+ ],
+ "avatars": [
+  {
+   "url": "liste-v2.html",
+   "in": "slider",
+   "name": "Doruk Solmaz",
+   "text": "D",
+   "expected": "D",
+   "transform": "none",
+   "code": "44"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "slider",
+   "name": "Ceren Tosun",
+   "text": "C",
+   "expected": "C",
+   "transform": "none",
+   "code": "43"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "slider",
+   "name": "Şahnur Ilıcalı",
+   "text": "Ş",
+   "expected": "Ş",
+   "transform": "none",
+   "code": "15e"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "slider",
+   "name": "Göktürk Dizdar",
+   "text": "G",
+   "expected": "G",
+   "transform": "none",
+   "code": "47"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "Ebru Bolatlı",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "Şahnur Poyrazoğlu",
+   "text": "Ş",
+   "expected": "Ş",
+   "transform": "none",
+   "code": "15e"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "Atakan Erçetin",
+   "text": "A",
+   "expected": "A",
+   "transform": "none",
+   "code": "41"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "İrem Akşit",
+   "text": "İ",
+   "expected": "İ",
+   "transform": "none",
+   "code": "130"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "Cem Erez",
+   "text": "C",
+   "expected": "C",
+   "transform": "none",
+   "code": "43"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "Cem Aydan",
+   "text": "C",
+   "expected": "C",
+   "transform": "none",
+   "code": "43"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "İrem Egeli",
+   "text": "İ",
+   "expected": "İ",
+   "transform": "none",
+   "code": "130"
+  },
+  {
+   "url": "liste-v2.html",
+   "in": "kart",
+   "name": "Ege Bakırcıoğlu",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Burcu Yıldırım",
+   "text": "B",
+   "expected": "B",
+   "transform": "none",
+   "code": "42"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Ece Sarıoğlu",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Burcu Akyüz",
+   "text": "B",
+   "expected": "B",
+   "transform": "none",
+   "code": "42"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Şahnur Ilıcalı",
+   "text": "Ş",
+   "expected": "Ş",
+   "transform": "none",
+   "code": "15e"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Emel Aksu",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Mert Taşlı",
+   "text": "M",
+   "expected": "M",
+   "transform": "none",
+   "code": "4d"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Dağhan Fahri",
+   "text": "D",
+   "expected": "D",
+   "transform": "none",
+   "code": "44"
+  },
+  {
+   "url": "liste-v2.html?sayfa=2",
+   "in": "kart",
+   "name": "Göktürk Dizdar",
+   "text": "G",
+   "expected": "G",
+   "transform": "none",
+   "code": "47"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "Atakan Atan",
+   "text": "A",
+   "expected": "A",
+   "transform": "none",
+   "code": "41"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "Hüseyin Koç",
+   "text": "H",
+   "expected": "H",
+   "transform": "none",
+   "code": "48"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "Erhan Yıldırım",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "Aşkın Akay",
+   "text": "A",
+   "expected": "A",
+   "transform": "none",
+   "code": "41"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "Esra Yıldırım",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "Esma Çevik",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "İrem Akgül",
+   "text": "İ",
+   "expected": "İ",
+   "transform": "none",
+   "code": "130"
+  },
+  {
+   "url": "liste-v2.html?sayfa=3",
+   "in": "kart",
+   "name": "Barlas Egeli",
+   "text": "B",
+   "expected": "B",
+   "transform": "none",
+   "code": "42"
+  },
+  {
+   "url": "liste-v2.html?sayfa=4",
+   "in": "kart",
+   "name": "İlker Bozkurt",
+   "text": "İ",
+   "expected": "İ",
+   "transform": "none",
+   "code": "130"
+  },
+  {
+   "url": "liste-v2.html?sayfa=4",
+   "in": "kart",
+   "name": "Ece Ekici",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?sayfa=4",
+   "in": "kart",
+   "name": "Ahmet Örge",
+   "text": "A",
+   "expected": "A",
+   "transform": "none",
+   "code": "41"
+  },
+  {
+   "url": "liste-v2.html?sayfa=4",
+   "in": "kart",
+   "name": "Ece Örge",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "slider",
+   "name": "Doruk Solmaz",
+   "text": "D",
+   "expected": "D",
+   "transform": "none",
+   "code": "44"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "slider",
+   "name": "Ceren Tosun",
+   "text": "C",
+   "expected": "C",
+   "transform": "none",
+   "code": "43"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "slider",
+   "name": "Şahnur Ilıcalı",
+   "text": "Ş",
+   "expected": "Ş",
+   "transform": "none",
+   "code": "15e"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "slider",
+   "name": "Göktürk Dizdar",
+   "text": "G",
+   "expected": "G",
+   "transform": "none",
+   "code": "47"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "Ebru Bolatlı",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "Şahnur Poyrazoğlu",
+   "text": "Ş",
+   "expected": "Ş",
+   "transform": "none",
+   "code": "15e"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "Atakan Erçetin",
+   "text": "A",
+   "expected": "A",
+   "transform": "none",
+   "code": "41"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "İrem Akşit",
+   "text": "İ",
+   "expected": "İ",
+   "transform": "none",
+   "code": "130"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "Cem Erez",
+   "text": "C",
+   "expected": "C",
+   "transform": "none",
+   "code": "43"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "Cem Aydan",
+   "text": "C",
+   "expected": "C",
+   "transform": "none",
+   "code": "43"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "İrem Egeli",
+   "text": "İ",
+   "expected": "İ",
+   "transform": "none",
+   "code": "130"
+  },
+  {
+   "url": "liste-v2.html?gorunum=liste",
+   "in": "satır",
+   "name": "Ege Bakırcıoğlu",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?kategori[]=tatli",
+   "in": "slider",
+   "name": "Şahnur Poyrazoğlu",
+   "text": "Ş",
+   "expected": "Ş",
+   "transform": "none",
+   "code": "15e"
+  },
+  {
+   "url": "liste-v2.html?kategori[]=tatli",
+   "in": "slider",
+   "name": "Atakan Erçetin",
+   "text": "A",
+   "expected": "A",
+   "transform": "none",
+   "code": "41"
+  },
+  {
+   "url": "liste-v2.html?kategori[]=tatli",
+   "in": "slider",
+   "name": "İrem Akşit",
+   "text": "İ",
+   "expected": "İ",
+   "transform": "none",
+   "code": "130"
+  },
+  {
+   "url": "liste-v2.html?kategori[]=tatli",
+   "in": "slider",
+   "name": "Ece Ekici",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  },
+  {
+   "url": "liste-v2.html?kategori[]=tatli",
+   "in": "kart",
+   "name": "Ahmet Örge",
+   "text": "A",
+   "expected": "A",
+   "transform": "none",
+   "code": "41"
+  },
+  {
+   "url": "liste-v2.html?kategori[]=tatli",
+   "in": "kart",
+   "name": "Ece Örge",
+   "text": "E",
+   "expected": "E",
+   "transform": "none",
+   "code": "45"
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,55 @@
+/* Ana sayfa · 3. alternatif — "Tarif defteri". Ortak bileşenler ana-v3.css'ten; burada hero kurgusu ve
+   "öne çıkan + liste" sunumu. Ölçüler token'dan; bileşen ölçüleri tek yerde adlandırıldı. */
+body.alt3{--alt3-photo-h:clamp(380px,52dvh,460px);--alt3-overlap:calc(var(--space-48) + var(--space-24));--alt3-row-media:calc(var(--space-48) * 2 + var(--space-16))}
+
+/* Hero: a photo window ending on a straight edge (no crescent, no radius); the decision card overlaps it. */
+body.alt3 .six-hero{overflow:visible;z-index:8;background:var(--bg)}
+body.alt3.home-v3 .x-hero{height:var(--alt3-photo-h);border-radius:0;box-shadow:none;margin-bottom:0}
+body.alt3.home-v3 .x-scene-shade{background:var(--alt-veil,var(--image-shade))}
+.alt3 .alt3-decision{position:relative;z-index:6;display:grid;gap:var(--space-16);margin:calc(-1 * var(--alt3-overlap)) var(--gutter) 0;padding:var(--space-20) var(--space-16) var(--space-16);border-radius:var(--radius-card);background:var(--paper);color:var(--ink);box-shadow:var(--sh-md)}
+.alt3 .alt3-decision .six-hero-group{display:grid;gap:var(--space-12)}
+.alt3 .alt3-decision h1{margin:0;color:var(--ink)}
+.alt3 .alt3-decision .six-search{background:var(--bg);border:var(--border-width) solid var(--line);box-shadow:none}
+.alt3 .alt3-pick{padding-top:var(--space-16);border-top:var(--border-width) solid var(--line);color:var(--ink)}
+.alt3 .alt3-pick small{color:var(--slate-2)}
+.alt3 .alt3-pick strong{font-size:var(--role-card-size)}
+.alt3 .alt3-pick .x-arrow{background:var(--tomato-tint)}
+body.alt3 .v3-content{margin-top:var(--space-24)}
+
+/* Video Mutfağı: the lead stays large; the others become rows (picture left, title + views right). */
+.alt3 .alt3-rows{display:grid;gap:var(--space-12);margin:var(--space-16) 0 0;padding:0;overflow:visible}
+.alt3 .alt3-rows>.v3-video{display:grid;grid-template-columns:var(--alt3-row-media) minmax(0,1fr);gap:var(--space-12);align-items:center;color:var(--ink)}
+.alt3 .alt3-rows .v3-video-cover{aspect-ratio:4/3;border-radius:var(--radius-card)}
+.alt3 .alt3-rows .v3-video-shade,.alt3 .alt3-rows .v3-video-time{display:none}
+.alt3 .alt3-rows .v3-play{top:50%;left:50%;right:auto;transform:translate(-50%,-50%)}
+.alt3 .alt3-rows .v3-video-text{position:static;grid-column:2;grid-row:1;padding:0}
+.alt3 .alt3-rows .v3-video-text strong{color:var(--ink);text-shadow:none}
+.alt3 .alt3-rows .v3-video-text>span{color:var(--slate-2);text-shadow:none}
+.alt3 .alt3-rows .v3-video-cover{grid-column:1;grid-row:1}
+.alt3 .alt3-rows .v3-video-cover>.v3-video-text{display:none}
+.alt3 .alt3-row-copy{display:grid;gap:var(--space-8);min-width:0}
+.alt3 .alt3-row-copy strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line);color:var(--ink)}
+.alt3 .alt3-row-copy span{display:flex;align-items:center;gap:var(--space-4);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.alt3 .alt3-row-copy .icon{font-size:var(--type-meta)}
+
+/* En son eklenen tarifler: one lead card + rows of the same card (picture left). */
+.alt3 .collection-block .collection-body.alt3-latest{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--space-16)}
+.alt3 .alt3-latest>.recipe-card:not(:first-child){display:grid;grid-template-columns:var(--alt3-row-media) minmax(0,1fr);gap:var(--space-12);align-items:center}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) .card-media{aspect-ratio:4/5;border-radius:var(--radius-card)}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) .card-image-shade{display:none}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) .photo-meta{top:auto;bottom:var(--space-4);left:var(--space-4);padding:var(--space-4)}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) .card-save{display:none}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) .card-body{position:static;padding:0;pointer-events:auto}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) :is(.card-category,.card-copy h3,.card-author-row){color:var(--ink);text-shadow:none}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) .card-category{color:var(--tomato-deep)}
+.alt3 .alt3-latest>.recipe-card:not(:first-child) .card-author-row .avatar{background:var(--line)}
+
+/* Şefler: the same chef cards as a vertical list of rows. */
+.alt3 .alt3-chef-list{display:grid;gap:var(--space-8);margin-right:0;padding:var(--space-8) 0;overflow:visible}
+.alt3 .alt3-chef-list>.v3-chef-card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:var(--space-12);padding:var(--space-12);text-align:left}
+.alt3 .alt3-chef-list .v3-chef-person{display:contents}
+.alt3 .alt3-chef-list .v3-chef-av{grid-row:1/3;width:var(--avatar-lg);height:var(--avatar-lg);min-width:var(--avatar-lg);min-height:var(--avatar-lg);border-width:0;box-shadow:none;font-size:var(--role-section-size)}
+.alt3 .alt3-chef-list .v3-chef-person b{margin:0;min-height:0;grid-column:2;-webkit-line-clamp:1;text-align:left;justify-self:start}
+.alt3 .alt3-chef-list .v3-chef-count{grid-column:2;margin:0;text-align:left;justify-self:start}
+.alt3 .alt3-chef-list .v3-chef-follow{grid-column:3;grid-row:1/3;margin:0}
+.alt3 .alt3-chef-list>.v3-chef-cta{display:grid;grid-template-columns:auto auto minmax(0,1fr);align-items:center;justify-content:flex-start;gap:var(--space-12);padding:var(--space-12) var(--space-16);text-align:left}

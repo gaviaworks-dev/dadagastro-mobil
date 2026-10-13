@@ -1,0 +1,960 @@
+{
+ "label": "sonra",
+ "runs": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "varsayilan",
+   "h": 252.6,
+   "values": [
+    "Kalori=459kcalKalori",
+    "Protein=Protein13.9g%12",
+    "Karbonhidrat=Karbonhidrat55.5g%48",
+    "Yağ=Yağ20.2g%40",
+    "Lif=Lif13.3g",
+    "Şeker=Şeker8.6g",
+    "Sodyum=Sodyum693mg",
+    "Doymuş Yağ=Doymuş Yağ2.9g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     58
+    ],
+    "widths": [
+     85,
+     77
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "ddBottom": [
+     386
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "shami",
+   "h": 252.6,
+   "values": [
+    "Kalori=391kcalKalori",
+    "Protein=Protein31g%31",
+    "Karbonhidrat=Karbonhidrat25g%25",
+    "Yağ=Yağ19g%43",
+    "Lif=Lif5g",
+    "Şeker=Şeker5g",
+    "Sodyum=Sodyum722mg",
+    "Doymuş Yağ=Doymuş Yağ4g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     58
+    ],
+    "widths": [
+     85,
+     77
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "ddBottom": [
+     386
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "misir",
+   "h": 252.6,
+   "values": [
+    "Kalori=52kcalKalori",
+    "Protein=Protein0g%0",
+    "Karbonhidrat=Karbonhidrat12.9g%100",
+    "Yağ=Yağ0g%0",
+    "Lif=Lif0g",
+    "Şeker=Şeker12.6g",
+    "Sodyum=Sodyum1mg",
+    "Doymuş Yağ=Doymuş Yağ0g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     58
+    ],
+    "widths": [
+     85,
+     77
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "ddBottom": [
+     386
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "varsayilan",
+   "h": 234.4,
+   "values": [
+    "Kalori=459kcalKalori",
+    "Protein=Protein13.9g%12",
+    "Karbonhidrat=Karbonhidrat55.5g%48",
+    "Yağ=Yağ20.2g%40",
+    "Lif=Lif13.3g",
+    "Şeker=Şeker8.6g",
+    "Sodyum=Sodyum693mg",
+    "Doymuş Yağ=Doymuş Yağ2.9g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     39
+    ],
+    "widths": [
+     93,
+     85
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     368
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "shami",
+   "h": 234.4,
+   "values": [
+    "Kalori=391kcalKalori",
+    "Protein=Protein31g%31",
+    "Karbonhidrat=Karbonhidrat25g%25",
+    "Yağ=Yağ19g%43",
+    "Lif=Lif5g",
+    "Şeker=Şeker5g",
+    "Sodyum=Sodyum722mg",
+    "Doymuş Yağ=Doymuş Yağ4g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     39
+    ],
+    "widths": [
+     93,
+     85
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     368
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "misir",
+   "h": 234.4,
+   "values": [
+    "Kalori=52kcalKalori",
+    "Protein=Protein0g%0",
+    "Karbonhidrat=Karbonhidrat12.9g%100",
+    "Yağ=Yağ0g%0",
+    "Lif=Lif0g",
+    "Şeker=Şeker12.6g",
+    "Sodyum=Sodyum1mg",
+    "Doymuş Yağ=Doymuş Yağ0g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     39
+    ],
+    "widths": [
+     93,
+     85
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     368
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "varsayilan",
+   "h": 234.4,
+   "values": [
+    "Kalori=459kcalKalori",
+    "Protein=Protein13.9g%12",
+    "Karbonhidrat=Karbonhidrat55.5g%48",
+    "Yağ=Yağ20.2g%40",
+    "Lif=Lif13.3g",
+    "Şeker=Şeker8.6g",
+    "Sodyum=Sodyum693mg",
+    "Doymuş Yağ=Doymuş Yağ2.9g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     39
+    ],
+    "widths": [
+     103,
+     95
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     368
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "shami",
+   "h": 234.4,
+   "values": [
+    "Kalori=391kcalKalori",
+    "Protein=Protein31g%31",
+    "Karbonhidrat=Karbonhidrat25g%25",
+    "Yağ=Yağ19g%43",
+    "Lif=Lif5g",
+    "Şeker=Şeker5g",
+    "Sodyum=Sodyum722mg",
+    "Doymuş Yağ=Doymuş Yağ4g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     39
+    ],
+    "widths": [
+     103,
+     95
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     368
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "misir",
+   "h": 234.4,
+   "values": [
+    "Kalori=52kcalKalori",
+    "Protein=Protein0g%0",
+    "Karbonhidrat=Karbonhidrat12.9g%100",
+    "Yağ=Yağ0g%0",
+    "Lif=Lif0g",
+    "Şeker=Şeker12.6g",
+    "Sodyum=Sodyum1mg",
+    "Doymuş Yağ=Doymuş Yağ0g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     39
+    ],
+    "widths": [
+     103,
+     95
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     368
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "varsayilan",
+   "h": 252.9,
+   "values": [
+    "Kalori=459kcalKalori",
+    "Protein=Protein13.9g%12",
+    "Karbonhidrat=Karbonhidrat55.5g%48",
+    "Yağ=Yağ20.2g%40",
+    "Lif=Lif13.3g",
+    "Şeker=Şeker8.6g",
+    "Sodyum=Sodyum693mg",
+    "Doymuş Yağ=Doymuş Yağ2.9g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     58
+    ],
+    "widths": [
+     85,
+     77
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "ddBottom": [
+     387
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "shami",
+   "h": 252.9,
+   "values": [
+    "Kalori=391kcalKalori",
+    "Protein=Protein31g%31",
+    "Karbonhidrat=Karbonhidrat25g%25",
+    "Yağ=Yağ19g%43",
+    "Lif=Lif5g",
+    "Şeker=Şeker5g",
+    "Sodyum=Sodyum722mg",
+    "Doymuş Yağ=Doymuş Yağ4g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     58
+    ],
+    "widths": [
+     85,
+     77
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "ddBottom": [
+     387
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "misir",
+   "h": 252.9,
+   "values": [
+    "Kalori=52kcalKalori",
+    "Protein=Protein0g%0",
+    "Karbonhidrat=Karbonhidrat12.9g%100",
+    "Yağ=Yağ0g%0",
+    "Lif=Lif0g",
+    "Şeker=Şeker12.6g",
+    "Sodyum=Sodyum1mg",
+    "Doymuş Yağ=Doymuş Yağ0g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     58
+    ],
+    "widths": [
+     85,
+     77
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "ddBottom": [
+     387
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "varsayilan",
+   "h": 234.7,
+   "values": [
+    "Kalori=459kcalKalori",
+    "Protein=Protein13.9g%12",
+    "Karbonhidrat=Karbonhidrat55.5g%48",
+    "Yağ=Yağ20.2g%40",
+    "Lif=Lif13.3g",
+    "Şeker=Şeker8.6g",
+    "Sodyum=Sodyum693mg",
+    "Doymuş Yağ=Doymuş Yağ2.9g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     40
+    ],
+    "widths": [
+     93,
+     85
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     369
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "shami",
+   "h": 234.7,
+   "values": [
+    "Kalori=391kcalKalori",
+    "Protein=Protein31g%31",
+    "Karbonhidrat=Karbonhidrat25g%25",
+    "Yağ=Yağ19g%43",
+    "Lif=Lif5g",
+    "Şeker=Şeker5g",
+    "Sodyum=Sodyum722mg",
+    "Doymuş Yağ=Doymuş Yağ4g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     40
+    ],
+    "widths": [
+     93,
+     85
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     369
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "misir",
+   "h": 234.7,
+   "values": [
+    "Kalori=52kcalKalori",
+    "Protein=Protein0g%0",
+    "Karbonhidrat=Karbonhidrat12.9g%100",
+    "Yağ=Yağ0g%0",
+    "Lif=Lif0g",
+    "Şeker=Şeker12.6g",
+    "Sodyum=Sodyum1mg",
+    "Doymuş Yağ=Doymuş Yağ0g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     40
+    ],
+    "widths": [
+     93,
+     85
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     368
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "varsayilan",
+   "h": 234.7,
+   "values": [
+    "Kalori=459kcalKalori",
+    "Protein=Protein13.9g%12",
+    "Karbonhidrat=Karbonhidrat55.5g%48",
+    "Yağ=Yağ20.2g%40",
+    "Lif=Lif13.3g",
+    "Şeker=Şeker8.6g",
+    "Sodyum=Sodyum693mg",
+    "Doymuş Yağ=Doymuş Yağ2.9g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     40
+    ],
+    "widths": [
+     103,
+     95
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     369
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "shami",
+   "h": 234.7,
+   "values": [
+    "Kalori=391kcalKalori",
+    "Protein=Protein31g%31",
+    "Karbonhidrat=Karbonhidrat25g%25",
+    "Yağ=Yağ19g%43",
+    "Lif=Lif5g",
+    "Şeker=Şeker5g",
+    "Sodyum=Sodyum722mg",
+    "Doymuş Yağ=Doymuş Yağ4g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     40
+    ],
+    "widths": [
+     103,
+     95
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     369
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "misir",
+   "h": 234.7,
+   "values": [
+    "Kalori=52kcalKalori",
+    "Protein=Protein0g%0",
+    "Karbonhidrat=Karbonhidrat12.9g%100",
+    "Yağ=Yağ0g%0",
+    "Lif=Lif0g",
+    "Şeker=Şeker12.6g",
+    "Sodyum=Sodyum1mg",
+    "Doymuş Yağ=Doymuş Yağ0g"
+   ],
+   "rail": null,
+   "rest": {
+    "cols": 4,
+    "labels": [
+     "Lif",
+     "Şeker",
+     "Sodyum",
+     "Doymuş Yağ"
+    ],
+    "heights": [
+     40
+    ],
+    "widths": [
+     103,
+     95
+    ],
+    "numLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "labelLines": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "ddBottom": [
+     369
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "divider": true
+   },
+   "noteLines": 1,
+   "clipped": [],
+   "overflowX": false
+  }
+ ],
+ "failures": []
+}

@@ -1,0 +1,127 @@
+/* Ana sayfa V3 on a byte copy of ana-x6. Shared sources stay untouched.
+   The content container is .v3-content (renamed in ana-v3.js), so the shared forced
+   (important-flagged) .six-content child rules do not apply and no rule here is forced. */
+
+/* Component sizes, named once. */
+body.home-v3{--v3-result-card:230px;--v3-chef-card:146px;--v3-chef-avatar:96px;--v3-chef-ring:3px;--v3-cta-dash:2px;--v3-drawer-logo:120px}
+
+/* Hero: x6 scene; ana-1 title + search sit above the scene photo. */
+.home-v3 .x-hero .purpose-title{z-index:6}
+.home-v3 .x-scene-shade{background:var(--v3-scene-shade,linear-gradient(180deg,var(--x-shade),transparent 25%,transparent 45%,var(--x-shade) 75%,var(--overlay)))}
+
+/* Content column */
+.home-v3 .v3-content{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--space-40);padding:var(--space-24) var(--gutter) var(--space-16);position:relative;background:var(--paper)}
+.home-v3 .v3-content>*{min-width:0;margin:0;padding:0}
+.home-v3 .six-heading{gap:var(--space-12);align-items:baseline}
+.home-v3 .six-heading h2{min-width:0;margin:0;text-wrap:balance}
+.home-v3 .six-see{flex-shrink:0;white-space:nowrap;min-height:var(--touch-target);display:inline-flex;align-items:center;gap:var(--space-4)}
+.home-v3 .v3-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.home-v3 .v3-tabs{width:100%;background:var(--line);border-radius:var(--radius-segment)}
+
+/* Recipe card: time/rating on the photo, bold category, two-line title, author always visible. */
+.home-v3 .recipe-card{padding-bottom:0;height:auto}
+.home-v3 .recipe-card .card-media{height:auto;aspect-ratio:4/5}
+.home-v3 .recipe-card .card-visual,.home-v3 .recipe-card .card-photo{height:100%;width:100%}
+.home-v3 .recipe-card .card-body{gap:var(--space-8);padding:var(--space-8) var(--space-4) 0;height:auto}
+.home-v3 .recipe-card .card-copy{display:grid;gap:var(--space-4)}
+.home-v3 .recipe-card .card-category{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold)}
+.home-v3 .recipe-card .card-copy h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;min-height:calc(2 * var(--role-card-size) * var(--role-card-line));max-height:calc(2 * var(--role-card-size) * var(--role-card-line));margin:0}
+.home-v3 .recipe-card .card-footer{padding-top:0;margin-top:0;min-width:0}
+.home-v3 .recipe-card .card-author-row{display:flex;align-items:center;gap:var(--space-8);min-width:0;max-width:100%;margin:0;min-height:0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--ink)}
+.home-v3 .recipe-card .card-author-row .avatar{--avatar-size:var(--avatar-card);width:var(--avatar-card);height:var(--avatar-card);min-width:var(--avatar-card);min-height:var(--avatar-card);aspect-ratio:1;flex-shrink:0;border-radius:var(--radius-avatar);background:var(--line);color:var(--tomato-deep);font-size:var(--role-label-size);display:grid;place-items:center}
+.home-v3 .v3-author-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:var(--role-meta-weight)}
+
+/* 1. Tarif bul: one working surface, two tabs (now / saved pantry). */
+body.home-v3[data-six=a] .v3-content>.v3-finder{padding:var(--space-16);border:var(--border-width) solid var(--line);border-radius:var(--radius-card);background:var(--bg)}
+.home-v3 .v3-finder .v3-tabs{margin-top:var(--space-12)}
+.home-v3 .v3-finder .v3-tabs .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-panel>.kitchen-suggestion{margin:var(--space-16) 0 var(--space-12);font-size:var(--role-meta-size);color:var(--slate-2)}
+.home-v3 .v3-finder .kitchen-ingredients button{background:var(--paper)}
+.home-v3 .v3-finder .kitchen-ingredients [aria-pressed=true]{background:var(--tomato-deep);color:var(--paper)}
+body.home-v3[data-edition=x6] .v3-finder .kitchen-previews{display:flex;gap:var(--space-12);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border:0;padding:0 0 var(--space-8);margin:0;align-items:stretch}
+.home-v3 .v3-finder .kitchen-previews>.recipe-card{flex:0 0 var(--v3-result-card);min-width:0;scroll-snap-align:start}
+body.home-v3[data-edition=x6] .v3-finder[data-has-selection=false] #v3-panel-now :is(.kitchen-previews,.kitchen-submit,.kitchen-result-head){display:none}
+.home-v3 .v3-pantry-group+.v3-pantry-group{margin-top:var(--space-16)}
+.home-v3 .v3-pantry-head{display:flex;align-items:center;gap:var(--space-8);margin-bottom:var(--space-8);font-size:var(--role-meta-size);font-family:GilroyBd,var(--font);color:var(--ink)}
+.home-v3 .v3-pantry-head .icon{font-size:var(--icon-sm);color:var(--tomato-deep)}
+.home-v3 .v3-pantry-head output{min-width:var(--space-24);padding:0 var(--space-8);border-radius:var(--radius-control);background:var(--paper);color:var(--slate-2);text-align:center}
+.home-v3 .v3-pantry-chips{display:flex;flex-wrap:wrap;gap:var(--space-8)}
+.home-v3 :is(.v3-pantry-chips,.v3-pool) .chip{min-height:var(--chip-height);padding:0 var(--space-12);gap:var(--space-8);border-radius:var(--radius-control);background:var(--paper)}
+.home-v3 .v3-saved-chip{border-color:var(--tomato-deep);color:var(--tomato-deep)}
+.home-v3 :is(.v3-pantry-chips,.v3-pool) .chip .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-pantry-empty{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-pantry-edit{width:100%;margin-top:var(--space-16);gap:var(--space-8)}
+.home-v3 #v3-panel-pantry .kitchen-result-head{margin:var(--space-16) 0 var(--space-8)}
+.home-v3 .v3-preview-note{display:flex;gap:var(--space-8);align-items:flex-start;margin:var(--space-12) 0 0;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-preview-note .icon{font-size:var(--icon-sm);margin-top:var(--space-4)}
+.home-v3 .v3-pantry-sheet .v3-tabs{margin-bottom:var(--space-12)}
+.home-v3 .v3-sheet-note{margin:0 0 var(--space-12);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-pool{display:flex;flex-wrap:wrap;gap:var(--space-8)}
+.home-v3 .v3-pool .chip[aria-pressed=true]{background:var(--tomato-deep);border-color:var(--tomato-deep);color:var(--paper)}
+.home-v3 .v3-pantry-sheet .sheet-actions{grid-template-columns:minmax(0,1fr)}
+.home-v3 .v3-pool small{font-size:var(--role-label-size);color:inherit;opacity:.8}
+
+/* 2. Video Mutfağı: x6 photo band (source dark veil + primary glow), lead cover, sideways rail. */
+body.home-v3 .v3-content>.v3-videos{margin-inline:calc(-1 * var(--gutter));padding:var(--space-32) var(--gutter);background-image:var(--section-glow),var(--section-veil),var(--section-image);background-blend-mode:screen,normal,normal;background-size:cover;background-position:center;color:var(--paper)}
+.home-v3 .v3-videos :is(h2,.six-see,.six-video-card){color:var(--paper)}
+.home-v3 .v3-videos .six-heading{margin-bottom:var(--space-16)}
+.home-v3 .v3-videos .six-video-picture{aspect-ratio:16/9}
+.home-v3 .v3-video-lead .six-play{width:var(--space-48);height:var(--space-48)}
+.home-v3 .v3-video-lead .six-play .icon{font-size:var(--icon-lg)}
+.home-v3 .v3-videos .six-video-copy>span{color:color-mix(in srgb,var(--paper) 80%,transparent)}
+.home-v3 .v3-video-rail{margin:var(--space-24) calc(-1 * var(--gutter)) 0}
+.home-v3 .v3-video-rail>.six-video-card{flex:0 0 var(--v3-result-card)}
+
+/* 3. En son eklenen tarifler: one lead (featured role, set in JS) + two. */
+.home-v3 .collection-block .collection-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-20) var(--space-12);overflow:visible;margin:0;padding:0}
+.home-v3 .collection-body>.recipe-card{min-width:0}
+.home-v3 .collection-body>.recipe-card:first-child{grid-column:1/-1}
+.home-v3 .collection-body>.recipe-card:first-child .card-media{aspect-ratio:4/3}
+/* The lead stands alone: no reserved second line; still at most two lines. */
+.home-v3 .collection-body>.recipe-card:first-child .card-copy h3{height:auto;min-height:0;max-height:calc(2 * var(--role-featured-size) * var(--role-featured-line))}
+
+/* 4. Şefler: web "Tarifin ustaları" structure on the neutral band. */
+body.home-v3 .v3-content>.v3-chefs{margin-inline:calc(-1 * var(--gutter));padding:var(--space-32) 0 var(--space-32) var(--gutter);background:var(--bg);color:var(--ink);border:0;border-radius:0}
+.home-v3 .v3-chefs .six-heading{padding-right:var(--gutter);color:var(--ink)}
+.home-v3 .v3-chefs .six-heading>div{min-width:0}
+.home-v3 .v3-chefs .eyebrow{display:flex;align-items:center;gap:var(--space-4);margin-bottom:var(--space-4);color:var(--tomato-deep)}
+.home-v3 .v3-chefs .eyebrow .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-chef-row{display:flex;align-items:stretch;gap:var(--space-12);margin-top:var(--space-16);padding:var(--space-8) var(--gutter) var(--space-8) 0;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.home-v3 .v3-chef-row::-webkit-scrollbar{display:none}
+.home-v3 .v3-chef-card,.home-v3 .v3-chef-cta{flex:0 0 var(--v3-chef-card);min-width:0;scroll-snap-align:start}
+.home-v3 .v3-chef-card{display:flex;flex-direction:column;align-items:center;text-align:center}
+.home-v3 .v3-chef-person{display:flex;flex-direction:column;align-items:center;width:100%;padding:0;border:0;background:none;color:inherit;font:inherit;cursor:pointer}
+.home-v3 .v3-chef-av{display:grid;place-items:center;width:var(--v3-chef-avatar);height:var(--v3-chef-avatar);min-width:var(--v3-chef-avatar);min-height:var(--v3-chef-avatar);aspect-ratio:1;flex-shrink:0;border:var(--v3-chef-ring) solid var(--paper);border-radius:var(--radius-avatar);box-shadow:var(--sh-sm);background:var(--neutral-surface);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-size:var(--role-display-size)}
+.home-v3 .v3-chef-person b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;width:100%;min-height:calc(2 * var(--role-card-size) * var(--role-card-line));margin-top:var(--space-12);font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line);color:var(--ink)}
+.home-v3 .v3-chef-count{max-width:100%;margin-top:var(--space-4);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 .v3-chef-follow{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-4);min-height:var(--touch-target);margin-top:var(--space-12);padding:0 var(--space-16);border:var(--border-width) solid var(--line);border-radius:var(--radius-control);background:var(--paper);color:var(--ink);font-family:GilroyBd,var(--font);font-size:var(--role-meta-size);cursor:pointer}
+.home-v3 .v3-chef-follow .icon{font-size:var(--icon-sm)}
+.home-v3 .v3-chef-cta{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-8);padding:var(--space-16) var(--space-12);border:var(--v3-cta-dash) dashed var(--choice-border-color);border-radius:var(--radius-card);background:transparent;color:var(--ink);font:inherit;text-align:center;cursor:pointer}
+.home-v3 .v3-chef-cta .icon{font-size:var(--icon-lg);color:var(--tomato)}
+.home-v3 .v3-chef-cta b{font-family:GilroyBd,var(--font);font-size:var(--role-card-size);line-height:var(--role-card-line)}
+.home-v3 .v3-chef-cta span{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}
+.home-v3 :is(.v3-chef-person,.v3-chef-follow,.v3-chef-cta,.v3-chef-row):focus-visible{outline:2px solid var(--tomato);outline-offset:2px}
+
+/* 5. Kategoriler & Dünya Mutfakları: compact grid that expands in place. */
+.home-v3 .six-categories .v3-tabs{margin:var(--space-12) 0 var(--space-16)}
+.home-v3 .v3-cat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-16) var(--space-12)}
+.home-v3 .v3-cat{display:flex;flex-direction:column;gap:var(--space-8);min-width:0;color:var(--ink);text-decoration:none}
+.home-v3 .v3-cat .photo,.home-v3 .v3-cat-icon{display:block;width:100%;aspect-ratio:1;border-radius:var(--radius-card);background-color:var(--bg);background-size:cover;background-position:center}
+.home-v3 .v3-cat-icon{display:grid;place-items:center;color:var(--tomato-deep)}
+.home-v3 .v3-cat-icon .icon{font-size:var(--icon-lg)}
+.home-v3 .v3-cat>span:last-child{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:calc(2 * var(--role-meta-size) * var(--role-meta-line));font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.home-v3 .v3-cat-more{display:inline-flex;align-items:center;gap:var(--space-8);min-height:var(--touch-target);margin-top:var(--space-8);color:var(--tomato-deep);font-size:var(--role-meta-size)}
+.home-v3 .v3-cat-more .icon{font-size:var(--icon-sm)}
+
+/* 6. Tarifini paylaş: x6/web source copy on the light page surface. */
+/* A thin rule closes the page: categories and the invitation share the white surface. */
+body.home-v3 .v3-content>.six-community{padding:var(--space-32) 0 var(--space-24);border-top:var(--border-width) solid var(--line);background:var(--paper)}
+.home-v3 .six-community .eyebrow{display:flex;align-items:center;gap:var(--space-4);color:var(--tomato-deep)}
+.home-v3 .six-community .eyebrow .icon{font-size:var(--icon-sm)}
+.home-v3 .six-community .button{gap:var(--space-8)}
+
+/* Drawer: official colour logo on top. */
+.home-v3 .v3-drawer-logo{display:flex;align-items:center;min-height:var(--touch-target);margin-bottom:var(--space-4)}
+.home-v3 .v3-drawer-logo img{width:var(--v3-drawer-logo);height:auto;display:block}
+.home-v3 .drawer-top{align-items:flex-start}
+.home-v3 .drawer-top>div{min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-4)}

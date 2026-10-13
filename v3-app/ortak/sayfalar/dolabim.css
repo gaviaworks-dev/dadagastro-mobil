@@ -1,0 +1,9 @@
+/* Dolabım (ortak/sayfalar/dolabim.js). YALNIZ YERLEŞİM (display/grid/flex, token'lı boşluk, boyut); görsel stil ortak bileşenlerden. */
+
+/* Detay başı: küçük fotoğraf + ad/rozet yığını */
+.dl-bas{display:flex;align-items:center;gap:var(--space-16)}
+.dl-bas > .dgu-yigin-8{flex:1;min-width:0}
+
+/* Form: iki sütunlu alanlar */
+.dl-ikili{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-12);align-items:start}
+.dl-ikili[hidden]{display:none}

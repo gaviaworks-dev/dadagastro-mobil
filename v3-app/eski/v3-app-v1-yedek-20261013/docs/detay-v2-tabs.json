@@ -1,0 +1,5928 @@
+{
+ "runs": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "order": {
+    "kids": [
+     "dv2-head",
+     "dv2-tabs-anchor",
+     "dv2-tabs-bar",
+     "dv2-content"
+    ],
+    "head": [
+     "sheet-grip",
+     "dv2-facts",
+     "dv2-features",
+     "dv2-chef",
+     "description-wrap",
+     "dv2-info"
+    ],
+    "content": [
+     "dv2-pane-malzemeler",
+     "dv2-pane-hazirlanis",
+     "dv2-pane-yorumlar",
+     "dv2-tail"
+    ]
+   },
+   "aria": {
+    "tablist": "tablist",
+    "tabs": [
+     {
+      "sel": "true",
+      "ctl": "dv2-pane-malzemeler",
+      "pane": "tabpanel",
+      "tabindex": 0,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-hazirlanis",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-yorumlar",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     }
+    ]
+   },
+   "free": [
+    {
+     "id": "hazirlanis",
+     "before": 724,
+     "after": 724,
+     "docBefore": 3063,
+     "docAfter": 4257,
+     "stuck": false
+    },
+    {
+     "id": "yorumlar",
+     "before": 724,
+     "after": 724,
+     "docBefore": 4257,
+     "docAfter": 2449,
+     "stuck": false
+    },
+    {
+     "id": "malzemeler",
+     "before": 724,
+     "after": 724,
+     "docBefore": 2449,
+     "docAfter": 3063,
+     "stuck": false
+    }
+   ],
+   "stuck": [
+    {
+     "id": "hazirlanis",
+     "before": 1724,
+     "after": 1024,
+     "anchor": 1024,
+     "frames": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+     ],
+     "gap": 0,
+     "paneTop": -0.3,
+     "docAfter": 4257,
+     "dockBottom": 836
+    },
+    {
+     "id": "yorumlar",
+     "before": 1724,
+     "after": 1024,
+     "anchor": 1024,
+     "frames": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+     ],
+     "gap": 0,
+     "paneTop": -0.3,
+     "docAfter": 2449,
+     "dockBottom": 836
+    },
+    {
+     "id": "malzemeler",
+     "before": 1605,
+     "after": 1024,
+     "anchor": 1024,
+     "frames": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+     ],
+     "gap": 0,
+     "paneTop": -0.3,
+     "docAfter": 3063,
+     "dockBottom": 836
+    }
+   ],
+   "yorumlarEnd": {
+    "y": 1605,
+    "docH": 2449,
+    "sel": "yorumlar",
+    "tabsGap": 0,
+    "tabsStuck": true,
+    "paneTopMinusTabs": -581.3,
+    "anchor": 1024,
+    "dockBottom": 836,
+    "overflowX": false,
+    "lastGap": 24
+   },
+   "keyboard": {
+    "seq": [
+     "malzemeler",
+     "hazirlanis",
+     "yorumlar",
+     "malzemeler"
+    ],
+    "ys": [
+     724,
+     724,
+     724,
+     724
+    ],
+    "focus": "malzemeler"
+   },
+   "cook": true,
+   "hashhazirlanis": {
+    "ys": [
+     1024
+    ],
+    "final": 1024,
+    "anchor": 1024,
+    "sel": "hazirlanis",
+    "gap": 0,
+    "url": "?sekme=hazirlanis"
+   },
+   "hashyorumlar": {
+    "ys": [
+     1024
+    ],
+    "final": 1024,
+    "anchor": 1024,
+    "sel": "yorumlar",
+    "gap": 0,
+    "url": "?sekme=yorumlar"
+   },
+   "paramhazirlanis": {
+    "sel": "hazirlanis",
+    "y": 0
+   },
+   "paramyorumlar": {
+    "sel": "yorumlar",
+    "y": 0
+   },
+   "seceneka": {
+    "items": [
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 16,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-follow",
+      "txt": "Takip et",
+      "size": 13,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-subscribe",
+      "txt": "Abone ol",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef-id",
+      "h": 80,
+      "w": 286
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 188
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 90
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekb": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 207,
+      "w": 320
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 158
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 120
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekc": {
+    "items": [
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 200,
+      "w": 320
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 139
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 139
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekd": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 4.94
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 285,
+      "w": 320
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 288
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 110
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "0px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "yazarX": {
+    "b": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 1,
+      "ellipsis": true,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "before": {
+      "h": 206.6875,
+      "w": 158.359375,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 206.6875,
+      "w": 158.359375,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "c": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 200,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 224,
+      "photo": "none"
+     },
+     "before": {
+      "h": 200.296875,
+      "w": 139,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 200.296875,
+      "w": 139,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "d": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 285,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 309,
+      "photo": "none"
+     },
+     "before": {
+      "h": 285.484375,
+      "w": 288,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 285.484375,
+      "w": 288,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    }
+   },
+   "yazarBSekme": {
+    "malzemeler": "{\"w\":320,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,184,24],[17,89,286,41],[17,146,158,44],[183,146,120,44]]}",
+    "&sekme=hazirlanis": "{\"w\":320,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,184,24],[17,89,286,41],[17,146,158,44],[183,146,120,44]]}",
+    "&sekme=yorumlar": "{\"w\":320,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,184,24],[17,89,286,41],[17,146,158,44],[183,146,120,44]]}"
+   },
+   "profile": {
+    "sameUrl": true,
+    "toast": "Mert Taşlı profili yakında. Bu prototipte profil sayfası yok."
+   },
+   "alt": [
+    {
+     "name": "tanesi alınmış taze mısır koçanı",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "su",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "limon suyu",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 308,
+       "r": 352,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz pektin",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 308,
+       "r": 352,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz şeker",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 308,
+       "r": 352,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    }
+   ],
+   "altSheets": [
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "60 mllimon suyu",
+     "alts": [
+      {
+       "name": "sitrik asit",
+       "ratio": "Oran: 60 ml limon suyu 4 g sitrik asit",
+       "note": "60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "12 gtoz pektin",
+     "alts": [
+      {
+       "name": "elma kabuğu ve çekirdek evi",
+       "ratio": null,
+       "note": "8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "750 gtoz şeker",
+     "alts": [
+      {
+       "name": "esmer şeker",
+       "ratio": null,
+       "note": "jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    }
+   ],
+   "measureButtons": 0,
+   "noAlt": {
+    "swaps": 0,
+    "hasSwapsClass": false,
+    "actions": [
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44
+    ]
+   },
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "order": {
+    "kids": [
+     "dv2-head",
+     "dv2-tabs-anchor",
+     "dv2-tabs-bar",
+     "dv2-content"
+    ],
+    "head": [
+     "sheet-grip",
+     "dv2-facts",
+     "dv2-features",
+     "dv2-chef",
+     "description-wrap",
+     "dv2-info"
+    ],
+    "content": [
+     "dv2-pane-malzemeler",
+     "dv2-pane-hazirlanis",
+     "dv2-pane-yorumlar",
+     "dv2-tail"
+    ]
+   },
+   "aria": {
+    "tablist": "tablist",
+    "tabs": [
+     {
+      "sel": "true",
+      "ctl": "dv2-pane-malzemeler",
+      "pane": "tabpanel",
+      "tabindex": 0,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-hazirlanis",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-yorumlar",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     }
+    ]
+   },
+   "free": [
+    {
+     "id": "hazirlanis",
+     "before": 724,
+     "after": 724,
+     "docBefore": 3067,
+     "docAfter": 4268,
+     "stuck": false
+    },
+    {
+     "id": "yorumlar",
+     "before": 724,
+     "after": 724,
+     "docBefore": 4268,
+     "docAfter": 2453,
+     "stuck": false
+    },
+    {
+     "id": "malzemeler",
+     "before": 724,
+     "after": 724,
+     "docBefore": 2453,
+     "docAfter": 3067,
+     "stuck": false
+    }
+   ],
+   "stuck": [
+    {
+     "id": "hazirlanis",
+     "before": 1724,
+     "after": 1024,
+     "anchor": 1024,
+     "frames": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+     ],
+     "gap": 0,
+     "paneTop": -0.3,
+     "docAfter": 4268,
+     "dockBottom": 836
+    },
+    {
+     "id": "yorumlar",
+     "before": 1724,
+     "after": 1024,
+     "anchor": 1024,
+     "frames": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+     ],
+     "gap": 0,
+     "paneTop": -0.3,
+     "docAfter": 2453,
+     "dockBottom": 836
+    },
+    {
+     "id": "malzemeler",
+     "before": 1609,
+     "after": 1024,
+     "anchor": 1024,
+     "frames": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+     ],
+     "gap": 0,
+     "paneTop": -0.3,
+     "docAfter": 3067,
+     "dockBottom": 836
+    }
+   ],
+   "yorumlarEnd": {
+    "y": 1609,
+    "docH": 2453,
+    "sel": "yorumlar",
+    "tabsGap": 0,
+    "tabsStuck": true,
+    "paneTopMinusTabs": -585.3,
+    "anchor": 1024,
+    "dockBottom": 836,
+    "overflowX": false,
+    "lastGap": 24
+   },
+   "keyboard": {
+    "seq": [
+     "malzemeler",
+     "hazirlanis",
+     "yorumlar",
+     "malzemeler"
+    ],
+    "ys": [
+     724,
+     724,
+     724,
+     724
+    ],
+    "focus": "malzemeler"
+   },
+   "cook": true,
+   "hashhazirlanis": {
+    "ys": [
+     1024
+    ],
+    "final": 1024,
+    "anchor": 1024,
+    "sel": "hazirlanis",
+    "gap": 0,
+    "url": "?sekme=hazirlanis"
+   },
+   "hashyorumlar": {
+    "ys": [
+     0,
+     1024
+    ],
+    "final": 1024,
+    "anchor": 1024,
+    "sel": "yorumlar",
+    "gap": 0,
+    "url": "?sekme=yorumlar"
+   },
+   "paramhazirlanis": {
+    "sel": "hazirlanis",
+    "y": 0
+   },
+   "paramyorumlar": {
+    "sel": "yorumlar",
+    "y": 0
+   },
+   "seceneka": {
+    "items": [
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 16,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-follow",
+      "txt": "Takip et",
+      "size": 13,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-subscribe",
+      "txt": "Abone ol",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef-id",
+      "h": 62,
+      "w": 316
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 218
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 90
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekb": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 207,
+      "w": 350
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 188
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 120
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekc": {
+    "items": [
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 200,
+      "w": 350
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 154
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 154
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekd": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 4.94
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 285,
+      "w": 350
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 318
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 110
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "0px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "yazarX": {
+    "b": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 1,
+      "ellipsis": true,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "before": {
+      "h": 206.6875,
+      "w": 188.359375,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 206.6875,
+      "w": 188.359375,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "c": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 200,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 224,
+      "photo": "none"
+     },
+     "before": {
+      "h": 200.296875,
+      "w": 154,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 200.296875,
+      "w": 154,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "d": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 285,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 309,
+      "photo": "none"
+     },
+     "before": {
+      "h": 285.484375,
+      "w": 318,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 285.484375,
+      "w": 318,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    }
+   },
+   "yazarBSekme": {
+    "malzemeler": "{\"w\":350,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,214,24],[17,89,316,41],[17,146,188,44],[213,146,120,44]]}",
+    "&sekme=hazirlanis": "{\"w\":350,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,214,24],[17,89,316,41],[17,146,188,44],[213,146,120,44]]}",
+    "&sekme=yorumlar": "{\"w\":350,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,214,24],[17,89,316,41],[17,146,188,44],[213,146,120,44]]}"
+   },
+   "profile": {
+    "sameUrl": true,
+    "toast": "Mert Taşlı profili yakında. Bu prototipte profil sayfası yok."
+   },
+   "alt": [
+    {
+     "name": "tanesi alınmış taze mısır koçanı",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "su",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "limon suyu",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 338,
+       "r": 382,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz pektin",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 338,
+       "r": 382,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz şeker",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 338,
+       "r": 382,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    }
+   ],
+   "altSheets": [
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "60 mllimon suyu",
+     "alts": [
+      {
+       "name": "sitrik asit",
+       "ratio": "Oran: 60 ml limon suyu 4 g sitrik asit",
+       "note": "60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "12 gtoz pektin",
+     "alts": [
+      {
+       "name": "elma kabuğu ve çekirdek evi",
+       "ratio": null,
+       "note": "8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "750 gtoz şeker",
+     "alts": [
+      {
+       "name": "esmer şeker",
+       "ratio": null,
+       "note": "jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    }
+   ],
+   "measureButtons": 0,
+   "noAlt": {
+    "swaps": 0,
+    "hasSwapsClass": false,
+    "actions": [
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44
+    ]
+   },
+   "errors": []
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "order": {
+    "kids": [
+     "dv2-head",
+     "dv2-tabs-anchor",
+     "dv2-tabs-bar",
+     "dv2-content"
+    ],
+    "head": [
+     "sheet-grip",
+     "dv2-facts",
+     "dv2-features",
+     "dv2-chef",
+     "description-wrap",
+     "dv2-info"
+    ],
+    "content": [
+     "dv2-pane-malzemeler",
+     "dv2-pane-hazirlanis",
+     "dv2-pane-yorumlar",
+     "dv2-tail"
+    ]
+   },
+   "aria": {
+    "tablist": "tablist",
+    "tabs": [
+     {
+      "sel": "true",
+      "ctl": "dv2-pane-malzemeler",
+      "pane": "tabpanel",
+      "tabindex": 0,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-hazirlanis",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-yorumlar",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     }
+    ]
+   },
+   "free": [
+    {
+     "id": "hazirlanis",
+     "before": 671,
+     "after": 671,
+     "docBefore": 3044,
+     "docAfter": 4255,
+     "stuck": false
+    },
+    {
+     "id": "yorumlar",
+     "before": 671,
+     "after": 671,
+     "docBefore": 4255,
+     "docAfter": 2430,
+     "stuck": false
+    },
+    {
+     "id": "malzemeler",
+     "before": 671,
+     "after": 671,
+     "docBefore": 2430,
+     "docAfter": 3044,
+     "stuck": false
+    }
+   ],
+   "stuck": [
+    {
+     "id": "hazirlanis",
+     "before": 1671,
+     "after": 971,
+     "anchor": 971,
+     "frames": [
+      971,
+      971,
+      971,
+      971,
+      971,
+      971
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 4255,
+     "dockBottom": 836
+    },
+    {
+     "id": "yorumlar",
+     "before": 1671,
+     "after": 971,
+     "anchor": 971,
+     "frames": [
+      971,
+      971,
+      971,
+      971,
+      971,
+      971
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 2430,
+     "dockBottom": 836
+    },
+    {
+     "id": "malzemeler",
+     "before": 1586,
+     "after": 971,
+     "anchor": 971,
+     "frames": [
+      971,
+      971,
+      971,
+      971,
+      971,
+      971
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 3044,
+     "dockBottom": 836
+    }
+   ],
+   "yorumlarEnd": {
+    "y": 1586,
+    "docH": 2430,
+    "sel": "yorumlar",
+    "tabsGap": 0,
+    "tabsStuck": true,
+    "paneTopMinusTabs": -615.5,
+    "anchor": 971,
+    "dockBottom": 836,
+    "overflowX": false,
+    "lastGap": 24
+   },
+   "keyboard": {
+    "seq": [
+     "malzemeler",
+     "hazirlanis",
+     "yorumlar",
+     "malzemeler"
+    ],
+    "ys": [
+     671,
+     671,
+     671,
+     671
+    ],
+    "focus": "malzemeler"
+   },
+   "cook": true,
+   "hashhazirlanis": {
+    "ys": [
+     971
+    ],
+    "final": 971,
+    "anchor": 971,
+    "sel": "hazirlanis",
+    "gap": 0,
+    "url": "?sekme=hazirlanis"
+   },
+   "hashyorumlar": {
+    "ys": [
+     971
+    ],
+    "final": 971,
+    "anchor": 971,
+    "sel": "yorumlar",
+    "gap": 0,
+    "url": "?sekme=yorumlar"
+   },
+   "paramhazirlanis": {
+    "sel": "hazirlanis",
+    "y": 0
+   },
+   "paramyorumlar": {
+    "sel": "yorumlar",
+    "y": 0
+   },
+   "seceneka": {
+    "items": [
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 16,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-follow",
+      "txt": "Takip et",
+      "size": 13,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-subscribe",
+      "txt": "Abone ol",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef-id",
+      "h": 62,
+      "w": 356
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 258
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 90
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekb": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 207,
+      "w": 390
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 228
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 120
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekc": {
+    "items": [
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 200,
+      "w": 390
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 174
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 174
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekd": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 4.94
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 285,
+      "w": 390
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 358
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 110
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "0px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "yazarX": {
+    "b": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 1,
+      "ellipsis": true,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "before": {
+      "h": 206.6875,
+      "w": 228.359375,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 206.6875,
+      "w": 228.359375,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "c": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 200,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 224,
+      "photo": "none"
+     },
+     "before": {
+      "h": 200.296875,
+      "w": 174,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 200.296875,
+      "w": 174,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "d": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 285,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 309,
+      "photo": "none"
+     },
+     "before": {
+      "h": 285.484375,
+      "w": 358,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 285.484375,
+      "w": 358,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    }
+   },
+   "yazarBSekme": {
+    "malzemeler": "{\"w\":390,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,254,24],[17,89,356,41],[17,146,228,44],[253,146,120,44]]}",
+    "&sekme=hazirlanis": "{\"w\":390,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,254,24],[17,89,356,41],[17,146,228,44],[253,146,120,44]]}",
+    "&sekme=yorumlar": "{\"w\":390,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,254,24],[17,89,356,41],[17,146,228,44],[253,146,120,44]]}"
+   },
+   "profile": {
+    "sameUrl": true,
+    "toast": "Mert Taşlı profili yakında. Bu prototipte profil sayfası yok."
+   },
+   "alt": [
+    {
+     "name": "tanesi alınmış taze mısır koçanı",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "su",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "limon suyu",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 378,
+       "r": 422,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz pektin",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 378,
+       "r": 422,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz şeker",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 378,
+       "r": 422,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    }
+   ],
+   "altSheets": [
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "60 mllimon suyu",
+     "alts": [
+      {
+       "name": "sitrik asit",
+       "ratio": "Oran: 60 ml limon suyu 4 g sitrik asit",
+       "note": "60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "12 gtoz pektin",
+     "alts": [
+      {
+       "name": "elma kabuğu ve çekirdek evi",
+       "ratio": null,
+       "note": "8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "750 gtoz şeker",
+     "alts": [
+      {
+       "name": "esmer şeker",
+       "ratio": null,
+       "note": "jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    }
+   ],
+   "measureButtons": 0,
+   "noAlt": {
+    "swaps": 0,
+    "hasSwapsClass": false,
+    "actions": [
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44
+    ]
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "order": {
+    "kids": [
+     "dv2-head",
+     "dv2-tabs-anchor",
+     "dv2-tabs-bar",
+     "dv2-content"
+    ],
+    "head": [
+     "sheet-grip",
+     "dv2-facts",
+     "dv2-features",
+     "dv2-chef",
+     "description-wrap",
+     "dv2-info"
+    ],
+    "content": [
+     "dv2-pane-malzemeler",
+     "dv2-pane-hazirlanis",
+     "dv2-pane-yorumlar",
+     "dv2-tail"
+    ]
+   },
+   "aria": {
+    "tablist": "tablist",
+    "tabs": [
+     {
+      "sel": "true",
+      "ctl": "dv2-pane-malzemeler",
+      "pane": "tabpanel",
+      "tabindex": 0,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-hazirlanis",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-yorumlar",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     }
+    ]
+   },
+   "free": [
+    {
+     "id": "hazirlanis",
+     "before": 725,
+     "after": 725,
+     "docBefore": 3064,
+     "docAfter": 4258,
+     "stuck": false
+    },
+    {
+     "id": "yorumlar",
+     "before": 725,
+     "after": 725,
+     "docBefore": 4258,
+     "docAfter": 2450,
+     "stuck": false
+    },
+    {
+     "id": "malzemeler",
+     "before": 725,
+     "after": 725,
+     "docBefore": 2450,
+     "docAfter": 3064,
+     "stuck": false
+    }
+   ],
+   "stuck": [
+    {
+     "id": "hazirlanis",
+     "before": 1725,
+     "after": 1025,
+     "anchor": 1025,
+     "frames": [
+      1025,
+      1025,
+      1025,
+      1025,
+      1025,
+      1025
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 4258,
+     "dockBottom": 836
+    },
+    {
+     "id": "yorumlar",
+     "before": 1725,
+     "after": 1025,
+     "anchor": 1025,
+     "frames": [
+      1025,
+      1025,
+      1025,
+      1025,
+      1025,
+      1025
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 2450,
+     "dockBottom": 836
+    },
+    {
+     "id": "malzemeler",
+     "before": 1606,
+     "after": 1025,
+     "anchor": 1025,
+     "frames": [
+      1025,
+      1025,
+      1025,
+      1025,
+      1025,
+      1025
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 3064,
+     "dockBottom": 836
+    }
+   ],
+   "yorumlarEnd": {
+    "y": 1606,
+    "docH": 2450,
+    "sel": "yorumlar",
+    "tabsGap": 0,
+    "tabsStuck": true,
+    "paneTopMinusTabs": -581.5,
+    "anchor": 1025,
+    "dockBottom": 836,
+    "overflowX": false,
+    "lastGap": 24
+   },
+   "keyboard": {
+    "seq": [
+     "malzemeler",
+     "hazirlanis",
+     "yorumlar",
+     "malzemeler"
+    ],
+    "ys": [
+     725,
+     725,
+     725,
+     725
+    ],
+    "focus": "malzemeler"
+   },
+   "cook": true,
+   "hashhazirlanis": {
+    "ys": [
+     1025
+    ],
+    "final": 1025,
+    "anchor": 1025,
+    "sel": "hazirlanis",
+    "gap": 0,
+    "url": "?sekme=hazirlanis"
+   },
+   "hashyorumlar": {
+    "ys": [
+     1025
+    ],
+    "final": 1025,
+    "anchor": 1025,
+    "sel": "yorumlar",
+    "gap": 0,
+    "url": "?sekme=yorumlar"
+   },
+   "paramhazirlanis": {
+    "sel": "hazirlanis",
+    "y": 0
+   },
+   "paramyorumlar": {
+    "sel": "yorumlar",
+    "y": 0
+   },
+   "seceneka": {
+    "items": [
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 16,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-follow",
+      "txt": "Takip et",
+      "size": 13,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-subscribe",
+      "txt": "Abone ol",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef-id",
+      "h": 80,
+      "w": 286
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 188
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 90
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekb": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 207,
+      "w": 320
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 158
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 120
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekc": {
+    "items": [
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 200,
+      "w": 320
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 139
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 139
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekd": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 4.94
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 285,
+      "w": 320
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 288
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 110
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 320
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "0px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "yazarX": {
+    "b": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 1,
+      "ellipsis": true,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "before": {
+      "h": 206.6875,
+      "w": 158.359375,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 206.6875,
+      "w": 158.359375,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "c": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 200,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 224,
+      "photo": "none"
+     },
+     "before": {
+      "h": 200.296875,
+      "w": 139,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 200.296875,
+      "w": 139,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "d": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 285,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 309,
+      "photo": "none"
+     },
+     "before": {
+      "h": 285.359375,
+      "w": 288,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 285.359375,
+      "w": 288,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    }
+   },
+   "yazarBSekme": {
+    "malzemeler": "{\"w\":320,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,184,24],[17,89,286,41],[17,146,158,44],[183,146,120,44]]}",
+    "&sekme=hazirlanis": "{\"w\":320,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,184,24],[17,89,286,41],[17,146,158,44],[183,146,120,44]]}",
+    "&sekme=yorumlar": "{\"w\":320,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,184,24],[17,89,286,41],[17,146,158,44],[183,146,120,44]]}"
+   },
+   "profile": {
+    "sameUrl": true,
+    "toast": "Mert Taşlı profili yakında. Bu prototipte profil sayfası yok."
+   },
+   "alt": [
+    {
+     "name": "tanesi alınmış taze mısır koçanı",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "su",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "limon suyu",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 308,
+       "r": 352,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz pektin",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 308,
+       "r": 352,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz şeker",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 264,
+       "r": 308,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 308,
+       "r": 352,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    }
+   ],
+   "altSheets": [
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "60 mllimon suyu",
+     "alts": [
+      {
+       "name": "sitrik asit",
+       "ratio": "Oran: 60 ml limon suyu 4 g sitrik asit",
+       "note": "60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "12 gtoz pektin",
+     "alts": [
+      {
+       "name": "elma kabuğu ve çekirdek evi",
+       "ratio": null,
+       "note": "8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "750 gtoz şeker",
+     "alts": [
+      {
+       "name": "esmer şeker",
+       "ratio": null,
+       "note": "jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    }
+   ],
+   "measureButtons": 0,
+   "noAlt": {
+    "swaps": 0,
+    "hasSwapsClass": false,
+    "actions": [
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44
+    ]
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "order": {
+    "kids": [
+     "dv2-head",
+     "dv2-tabs-anchor",
+     "dv2-tabs-bar",
+     "dv2-content"
+    ],
+    "head": [
+     "sheet-grip",
+     "dv2-facts",
+     "dv2-features",
+     "dv2-chef",
+     "description-wrap",
+     "dv2-info"
+    ],
+    "content": [
+     "dv2-pane-malzemeler",
+     "dv2-pane-hazirlanis",
+     "dv2-pane-yorumlar",
+     "dv2-tail"
+    ]
+   },
+   "aria": {
+    "tablist": "tablist",
+    "tabs": [
+     {
+      "sel": "true",
+      "ctl": "dv2-pane-malzemeler",
+      "pane": "tabpanel",
+      "tabindex": 0,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-hazirlanis",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-yorumlar",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     }
+    ]
+   },
+   "free": [
+    {
+     "id": "hazirlanis",
+     "before": 725,
+     "after": 725,
+     "docBefore": 3068,
+     "docAfter": 4269,
+     "stuck": false
+    },
+    {
+     "id": "yorumlar",
+     "before": 725,
+     "after": 725,
+     "docBefore": 4269,
+     "docAfter": 2454,
+     "stuck": false
+    },
+    {
+     "id": "malzemeler",
+     "before": 725,
+     "after": 725,
+     "docBefore": 2454,
+     "docAfter": 3068,
+     "stuck": false
+    }
+   ],
+   "stuck": [
+    {
+     "id": "hazirlanis",
+     "before": 1725,
+     "after": 1025,
+     "anchor": 1025,
+     "frames": [
+      1025,
+      1025,
+      1025,
+      1025,
+      1025,
+      1025
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 4269,
+     "dockBottom": 836
+    },
+    {
+     "id": "yorumlar",
+     "before": 1725,
+     "after": 1025,
+     "anchor": 1025,
+     "frames": [
+      1025,
+      1025,
+      1025,
+      1025,
+      1025,
+      1025
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 2454,
+     "dockBottom": 836
+    },
+    {
+     "id": "malzemeler",
+     "before": 1610,
+     "after": 1025,
+     "anchor": 1025,
+     "frames": [
+      1025,
+      1025,
+      1025,
+      1025,
+      1025,
+      1025
+     ],
+     "gap": 0,
+     "paneTop": -0.5,
+     "docAfter": 3068,
+     "dockBottom": 836
+    }
+   ],
+   "yorumlarEnd": {
+    "y": 1610,
+    "docH": 2454,
+    "sel": "yorumlar",
+    "tabsGap": 0,
+    "tabsStuck": true,
+    "paneTopMinusTabs": -585.5,
+    "anchor": 1025,
+    "dockBottom": 836,
+    "overflowX": false,
+    "lastGap": 24
+   },
+   "keyboard": {
+    "seq": [
+     "malzemeler",
+     "hazirlanis",
+     "yorumlar",
+     "malzemeler"
+    ],
+    "ys": [
+     725,
+     725,
+     725,
+     725
+    ],
+    "focus": "malzemeler"
+   },
+   "cook": true,
+   "hashhazirlanis": {
+    "ys": [
+     1025
+    ],
+    "final": 1025,
+    "anchor": 1025,
+    "sel": "hazirlanis",
+    "gap": 0,
+    "url": "?sekme=hazirlanis"
+   },
+   "hashyorumlar": {
+    "ys": [
+     1025
+    ],
+    "final": 1025,
+    "anchor": 1025,
+    "sel": "yorumlar",
+    "gap": 0,
+    "url": "?sekme=yorumlar"
+   },
+   "paramhazirlanis": {
+    "sel": "hazirlanis",
+    "y": 0
+   },
+   "paramyorumlar": {
+    "sel": "yorumlar",
+    "y": 0
+   },
+   "seceneka": {
+    "items": [
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 16,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-follow",
+      "txt": "Takip et",
+      "size": 13,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-subscribe",
+      "txt": "Abone ol",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef-id",
+      "h": 62,
+      "w": 316
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 218
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 90
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekb": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 207,
+      "w": 350
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 188
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 120
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekc": {
+    "items": [
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 200,
+      "w": 350
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 154
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 154
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekd": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 4.94
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 285,
+      "w": 350
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 318
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 110
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 350
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "0px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "yazarX": {
+    "b": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 1,
+      "ellipsis": true,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "before": {
+      "h": 206.6875,
+      "w": 188.359375,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 206.6875,
+      "w": 188.359375,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "c": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 200,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 224,
+      "photo": "none"
+     },
+     "before": {
+      "h": 200.296875,
+      "w": 154,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 200.296875,
+      "w": 154,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "d": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 285,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 309,
+      "photo": "none"
+     },
+     "before": {
+      "h": 285.359375,
+      "w": 318,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 285.359375,
+      "w": 318,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    }
+   },
+   "yazarBSekme": {
+    "malzemeler": "{\"w\":350,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,214,24],[17,89,316,41],[17,146,188,44],[213,146,120,44]]}",
+    "&sekme=hazirlanis": "{\"w\":350,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,214,24],[17,89,316,41],[17,146,188,44],[213,146,120,44]]}",
+    "&sekme=yorumlar": "{\"w\":350,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,214,24],[17,89,316,41],[17,146,188,44],[213,146,120,44]]}"
+   },
+   "profile": {
+    "sameUrl": true,
+    "toast": "Mert Taşlı profili yakında. Bu prototipte profil sayfası yok."
+   },
+   "alt": [
+    {
+     "name": "tanesi alınmış taze mısır koçanı",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "su",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "limon suyu",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 338,
+       "r": 382,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz pektin",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 338,
+       "r": 382,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz şeker",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 294,
+       "r": 338,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 338,
+       "r": 382,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    }
+   ],
+   "altSheets": [
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "60 mllimon suyu",
+     "alts": [
+      {
+       "name": "sitrik asit",
+       "ratio": "Oran: 60 ml limon suyu 4 g sitrik asit",
+       "note": "60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "12 gtoz pektin",
+     "alts": [
+      {
+       "name": "elma kabuğu ve çekirdek evi",
+       "ratio": null,
+       "note": "8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "750 gtoz şeker",
+     "alts": [
+      {
+       "name": "esmer şeker",
+       "ratio": null,
+       "note": "jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    }
+   ],
+   "measureButtons": 0,
+   "noAlt": {
+    "swaps": 0,
+    "hasSwapsClass": false,
+    "actions": [
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44
+    ]
+   },
+   "errors": []
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "order": {
+    "kids": [
+     "dv2-head",
+     "dv2-tabs-anchor",
+     "dv2-tabs-bar",
+     "dv2-content"
+    ],
+    "head": [
+     "sheet-grip",
+     "dv2-facts",
+     "dv2-features",
+     "dv2-chef",
+     "description-wrap",
+     "dv2-info"
+    ],
+    "content": [
+     "dv2-pane-malzemeler",
+     "dv2-pane-hazirlanis",
+     "dv2-pane-yorumlar",
+     "dv2-tail"
+    ]
+   },
+   "aria": {
+    "tablist": "tablist",
+    "tabs": [
+     {
+      "sel": "true",
+      "ctl": "dv2-pane-malzemeler",
+      "pane": "tabpanel",
+      "tabindex": 0,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-hazirlanis",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     },
+     {
+      "sel": "false",
+      "ctl": "dv2-pane-yorumlar",
+      "pane": "tabpanel",
+      "tabindex": -1,
+      "h": 44
+     }
+    ]
+   },
+   "free": [
+    {
+     "id": "hazirlanis",
+     "before": 672,
+     "after": 672,
+     "docBefore": 3045,
+     "docAfter": 4256,
+     "stuck": false
+    },
+    {
+     "id": "yorumlar",
+     "before": 672,
+     "after": 672,
+     "docBefore": 4256,
+     "docAfter": 2431,
+     "stuck": false
+    },
+    {
+     "id": "malzemeler",
+     "before": 672,
+     "after": 672,
+     "docBefore": 2431,
+     "docAfter": 3045,
+     "stuck": false
+    }
+   ],
+   "stuck": [
+    {
+     "id": "hazirlanis",
+     "before": 1672,
+     "after": 972,
+     "anchor": 972,
+     "frames": [
+      972,
+      972,
+      972,
+      972,
+      972,
+      972
+     ],
+     "gap": 0,
+     "paneTop": -0.7,
+     "docAfter": 4256,
+     "dockBottom": 836
+    },
+    {
+     "id": "yorumlar",
+     "before": 1672,
+     "after": 972,
+     "anchor": 972,
+     "frames": [
+      972,
+      972,
+      972,
+      972,
+      972,
+      972
+     ],
+     "gap": 0,
+     "paneTop": -0.7,
+     "docAfter": 2431,
+     "dockBottom": 836
+    },
+    {
+     "id": "malzemeler",
+     "before": 1587,
+     "after": 972,
+     "anchor": 972,
+     "frames": [
+      972,
+      972,
+      972,
+      972,
+      972,
+      972
+     ],
+     "gap": 0,
+     "paneTop": -0.7,
+     "docAfter": 3045,
+     "dockBottom": 836
+    }
+   ],
+   "yorumlarEnd": {
+    "y": 1587,
+    "docH": 2431,
+    "sel": "yorumlar",
+    "tabsGap": 0,
+    "tabsStuck": true,
+    "paneTopMinusTabs": -615.7,
+    "anchor": 972,
+    "dockBottom": 836,
+    "overflowX": false,
+    "lastGap": 24
+   },
+   "keyboard": {
+    "seq": [
+     "malzemeler",
+     "hazirlanis",
+     "yorumlar",
+     "malzemeler"
+    ],
+    "ys": [
+     672,
+     672,
+     672,
+     672
+    ],
+    "focus": "malzemeler"
+   },
+   "cook": true,
+   "hashhazirlanis": {
+    "ys": [
+     972
+    ],
+    "final": 972,
+    "anchor": 972,
+    "sel": "hazirlanis",
+    "gap": 0,
+    "url": "?sekme=hazirlanis"
+   },
+   "hashyorumlar": {
+    "ys": [
+     972
+    ],
+    "final": 972,
+    "anchor": 972,
+    "sel": "yorumlar",
+    "gap": 0,
+    "url": "?sekme=yorumlar"
+   },
+   "paramhazirlanis": {
+    "sel": "hazirlanis",
+    "y": 0
+   },
+   "paramyorumlar": {
+    "sel": "yorumlar",
+    "y": 0
+   },
+   "seceneka": {
+    "items": [
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 16,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-follow",
+      "txt": "Takip et",
+      "size": 13,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-subscribe",
+      "txt": "Abone ol",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef-id",
+      "h": 62,
+      "w": 356
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 258
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 90
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekb": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 207,
+      "w": 390
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 228
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 120
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekc": {
+    "items": [
+     {
+      "cls": "",
+      "txt": "3",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Tarif",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "13",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Takipçi",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "",
+      "txt": "2026",
+      "size": 18,
+      "ratio": 16.64
+     },
+     {
+      "cls": "",
+      "txt": "Üyelik",
+      "size": 13,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 16.64
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.67
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.86
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 200,
+      "w": 390
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 174
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 174
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "1px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "secenekd": {
+    "items": [
+     {
+      "cls": "dv2-chef-name",
+      "txt": "Tarık Kaptan",
+      "size": 20,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-chef-badge",
+      "txt": "Mutfak Meraklısı",
+      "size": 11,
+      "ratio": 4.94
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "3 tarif",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "13 takipçi",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-stat",
+      "txt": "2026'dan beri üye",
+      "size": 13,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip et",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Takip ediliyor",
+      "size": 15,
+      "ratio": 5.2
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abone ol",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-x-state",
+      "txt": "Abonesin",
+      "size": 15,
+      "ratio": 7.47
+     },
+     {
+      "cls": "dv2-card-title",
+      "txt": "Hatırlatma",
+      "size": 11,
+      "ratio": 6.33
+     },
+     {
+      "cls": "dv2-card-text prose prose-long",
+      "txt": "Mısır düşük asitli bir s",
+      "size": 13,
+      "ratio": 15.81
+     },
+     {
+      "cls": "dv2-card-more",
+      "txt": "Devamını oku",
+      "size": 13,
+      "ratio": 4.94
+     }
+    ],
+    "targets": [
+     {
+      "cls": "dv2-chef",
+      "h": 285,
+      "w": 390
+     },
+     {
+      "cls": "dv2-follow",
+      "h": 44,
+      "w": 358
+     },
+     {
+      "cls": "dv2-subscribe",
+      "h": 44,
+      "w": 110
+     },
+     {
+      "cls": "dv2-info-card",
+      "h": 167,
+      "w": 390
+     }
+    ],
+    "chefCount": 1,
+    "chefBorder": "0px",
+    "chefRadius": "24px",
+    "factsBorder": "0px",
+    "avatar": [
+     "56px",
+     "56px",
+     "56px",
+     "56px",
+     "50%"
+    ],
+    "overflowX": false
+   },
+   "yazarX": {
+    "b": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 1,
+      "ellipsis": true,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 207,
+      "photo": "none"
+     },
+     "before": {
+      "h": 206.6875,
+      "w": 228.359375,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 206.6875,
+      "w": 228.359375,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "c": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 200,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 224,
+      "photo": "none"
+     },
+     "before": {
+      "h": 200.296875,
+      "w": 174,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 200.296875,
+      "w": 174,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    },
+    "d": {
+     "real": {
+      "nameLines": 1,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 285,
+      "photo": "none"
+     },
+     "stres": {
+      "nameLines": 2,
+      "ellipsis": false,
+      "clipped": 0,
+      "overlap": 0,
+      "outside": 0,
+      "h": 309,
+      "photo": "none"
+     },
+     "before": {
+      "h": 285.359375,
+      "w": 358,
+      "label": "Takip et"
+     },
+     "after": {
+      "h": 285.359375,
+      "w": 358,
+      "label": "Takip ediliyor",
+      "pressed": "true",
+      "toast": "Önizleme: şef takip edildi (bu oturumda)."
+     }
+    }
+   },
+   "yazarBSekme": {
+    "malzemeler": "{\"w\":390,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,254,24],[17,89,356,41],[17,146,228,44],[253,146,120,44]]}",
+    "&sekme=hazirlanis": "{\"w\":390,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,254,24],[17,89,356,41],[17,146,228,44],[253,146,120,44]]}",
+    "&sekme=yorumlar": "{\"w\":390,\"h\":207,\"bg\":\"rgb(255, 255, 255)\",\"b\":\"1px\",\"r\":\"24px\",\"kids\":[[17,17,56,56],[89,24,254,24],[17,89,356,41],[17,146,228,44],[253,146,120,44]]}"
+   },
+   "profile": {
+    "sameUrl": true,
+    "toast": "Mert Taşlı profili yakında. Bu prototipte profil sayfası yok."
+   },
+   "alt": [
+    {
+     "name": "tanesi alınmış taze mısır koçanı",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "su",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "limon suyu",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 378,
+       "r": 422,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz pektin",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 378,
+       "r": 422,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    },
+    {
+     "name": "toz şeker",
+     "btn": [
+      {
+       "k": "cart",
+       "l": 334,
+       "r": 378,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-cart-plus"
+      },
+      {
+       "k": "swap",
+       "l": 378,
+       "r": 422,
+       "w": 44,
+       "h": 44,
+       "icon": "icon fa-solid fa-shuffle"
+      }
+     ],
+     "info": ""
+    }
+   ],
+   "altSheets": [
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "60 mllimon suyu",
+     "alts": [
+      {
+       "name": "sitrik asit",
+       "ratio": "Oran: 60 ml limon suyu 4 g sitrik asit",
+       "note": "60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "12 gtoz pektin",
+     "alts": [
+      {
+       "name": "elma kabuğu ve çekirdek evi",
+       "ratio": null,
+       "note": "8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    },
+    {
+     "title": "Yerine ne kullanabilirim?",
+     "base": "750 gtoz şeker",
+     "alts": [
+      {
+       "name": "esmer şeker",
+       "ratio": null,
+       "note": "jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+      }
+     ],
+     "grip": true,
+     "overflowX": false
+    }
+   ],
+   "measureButtons": 0,
+   "noAlt": {
+    "swaps": 0,
+    "hasSwapsClass": false,
+    "actions": [
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44,
+     44
+    ]
+   },
+   "errors": []
+  }
+ ],
+ "failures": []
+}

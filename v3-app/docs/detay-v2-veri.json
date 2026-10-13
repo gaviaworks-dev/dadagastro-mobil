@@ -1,0 +1,4844 @@
+[
+ {
+  "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+  "title": "Tavuk Curry",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Önemli: Curry baharatını yağda kısa süre kavurmadan doğrudan sıvıya eklerseniz ham tat kalabilir, önce yağda birkaç saniye çevirin. Dikkat: Hindistan cevizi sütünü kaynatırken kesilmemesi için ateşi orta-kısıkta tutup sürekli karıştırın."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Önemli: Curry baharatını yağda kısa süre kavurmadan doğrudan sıvıya eklerseniz ham tat kalabilir, önce yağda birkaç saniye çevirin. Dikkat: Hindistan cevizi sütünü kaynatırken kesilmemesi için ateşi orta-kısıkta tutup sürekli karıştırın."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Tavuk göğsü kuşbaşı",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan ince kıyılmış",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "zencefil rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "curry baharatı",
+    "substitutes": []
+   },
+   {
+    "name": "Hindistan cevizi sütü",
+    "substitutes": []
+   },
+   {
+    "name": "Domates rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Sıvı yağ",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Tavuk göğsü kuşbaşı",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan ince kıyılmış",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "zencefil rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "curry baharatı",
+    "substitutes": []
+   },
+   {
+    "name": "Hindistan cevizi sütü",
+    "substitutes": []
+   },
+   {
+    "name": "Domates rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Sıvı yağ",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi",
+  "title": "Yunan Usulü Limonlu Karides Sote",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Karidesi yüksek ateşte 5 dakikadan fazla çevirmeyin, uzun pişirme lastik gibi sertleştirir. Alerjen: kabuklu deniz ürünü (karides) içerir."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Karidesi yüksek ateşte 5 dakikadan fazla çevirmeyin, uzun pişirme lastik gibi sertleştirir. Alerjen: kabuklu deniz ürünü (karides) içerir."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Karides ayıklanmış",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak ince doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Limon",
+    "substitutes": []
+   },
+   {
+    "name": "Maydanoz doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Karides ayıklanmış",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak ince doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Limon",
+    "substitutes": []
+   },
+   {
+    "name": "Maydanoz doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e4-01.json",
+   "remind": "Karidesi yüksek ateşte 5 dakikadan fazla çevirmeyin, uzun pişirme lastik gibi sertleştirir. Alerjen: kabuklu deniz ürünü (karides) içerir.",
+   "subs": 0,
+   "ingredients": 7
+  }
+ },
+ {
+  "slug": "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi",
+  "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Sarmaları düdüklü tencereye dizerken sıkı yerleştirin, gevşek dizilirse pişerken açılabilir. Tencerenin dibine birkaç lahana yaprağı sermeniz sarmaların yapışmasını önler."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Sarmaları düdüklü tencereye dizerken sıkı yerleştirin, gevşek dizilirse pişerken açılabilir. Tencerenin dibine birkaç lahana yaprağı sermeniz sarmaların yapışmasını önler."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Lahana yaprakları ayrılmış",
+    "substitutes": []
+   },
+   {
+    "name": "Pirinç yıkanmış",
+    "substitutes": []
+   },
+   {
+    "name": "Kıyma",
+    "substitutes": []
+   },
+   {
+    "name": "Soğan rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Domates salçası",
+    "substitutes": []
+   },
+   {
+    "name": "Pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Nane",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Su",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Lahana yaprakları ayrılmış",
+    "substitutes": []
+   },
+   {
+    "name": "Pirinç yıkanmış",
+    "substitutes": []
+   },
+   {
+    "name": "Kıyma",
+    "substitutes": []
+   },
+   {
+    "name": "Soğan rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Domates salçası",
+    "substitutes": []
+   },
+   {
+    "name": "Pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Nane",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Su",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e14-05.json",
+   "remind": "Sarmaları düdüklü tencereye dizerken sıkı yerleştirin, gevşek dizilirse pişerken açılabilir. Tencerenin dibine birkaç lahana yaprağı sermeniz sarmaların yapışmasını önler.",
+   "subs": 0,
+   "ingredients": 11
+  }
+ },
+ {
+  "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas",
+  "title": "Kırmızı Fasulye Yahnisi",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Un toplarını eklerken kaynayan yahniye tek tek bırakın, hepsini bir anda dökerseniz birbirine yapışıp tek bir kütle oluşturur. Alerjen: buğday (gluten) içerir."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Un toplarını eklerken kaynayan yahniye tek tek bırakın, hepsini bir anda dökerseniz birbirine yapışıp tek bir kütle oluşturur. Alerjen: buğday (gluten) içerir."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kırmızı fasulye haşlanmış ya da konserve, süzülmüş",
+    "substitutes": []
+   },
+   {
+    "name": "Hindistan cevizi sütü",
+    "substitutes": []
+   },
+   {
+    "name": "Soğan doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "zencefil rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Kekik",
+    "substitutes": []
+   },
+   {
+    "name": "Pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Un un topları için",
+    "substitutes": []
+   },
+   {
+    "name": "Su un topları için",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kırmızı fasulye haşlanmış ya da konserve, süzülmüş",
+    "substitutes": []
+   },
+   {
+    "name": "Hindistan cevizi sütü",
+    "substitutes": []
+   },
+   {
+    "name": "Soğan doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "zencefil rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Kekik",
+    "substitutes": []
+   },
+   {
+    "name": "Pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Un un topları için",
+    "substitutes": []
+   },
+   {
+    "name": "Su un topları için",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e15-06.json",
+   "remind": "Un toplarını eklerken kaynayan yahniye tek tek bırakın, hepsini bir anda dökerseniz birbirine yapışıp tek bir kütle oluşturur. Alerjen: buğday (gluten) içerir.",
+   "subs": 0,
+   "ingredients": 10
+  }
+ },
+ {
+  "slug": "patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver",
+  "title": "Patates Mücveri",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Rendelenmiş patatesin suyunu bezle iyice sıkın ve harcı bekletmeden kızartın; ıslak harç tavada dağılır, bekleyen patates kararır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Rendelenmiş patatesin suyunu bezle iyice sıkın ve harcı bekletmeden kızartın; ıslak harç tavada dağılır, bekleyen patates kararır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "patates",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "un",
+    "substitutes": [
+     "mısır nişastası — aynı miktarda kullanılır, kabuk daha çıtır olur"
+    ]
+   },
+   {
+    "name": "dereotu",
+    "substitutes": [
+     "maydanoz — daha düz bir tat verir, aynı miktarda"
+    ]
+   },
+   {
+    "name": "beyaz peynir",
+    "substitutes": [
+     "kaşar peyniri — rendelenir, tavada daha çok uzar ve kızarır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": []
+   },
+   {
+    "name": "süzme yoğurt",
+    "substitutes": [
+     "yoğurt — daha sulu olur ve tabakta yayılır"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "patates",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "un",
+    "substitutes": [
+     "mısır nişastası — aynı miktarda kullanılır, kabuk daha çıtır olur"
+    ]
+   },
+   {
+    "name": "dereotu",
+    "substitutes": [
+     "maydanoz — daha düz bir tat verir, aynı miktarda"
+    ]
+   },
+   {
+    "name": "beyaz peynir",
+    "substitutes": [
+     "kaşar peyniri — rendelenir, tavada daha çok uzar ve kızarır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": []
+   },
+   {
+    "name": "süzme yoğurt",
+    "substitutes": [
+     "yoğurt — daha sulu olur ve tabakta yayılır"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+  "title": "Sagdana",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Sagu pişirmeden önce 30 dakika soğuk suda bekletilir, kaseler de buzdolabında en az 2 saat soğutulur; ocakta sulu görünen tatlı soğudukça koyulaşır, ocakta fazla koyulaştırılırsa soğuyunca sertleşir.\nAlerjen: Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Sagu pişirmeden önce 30 dakika soğuk suda bekletilir, kaseler de buzdolabında en az 2 saat soğutulur; ocakta sulu görünen tatlı soğudukça koyulaşır, ocakta fazla koyulaştırılırsa soğuyunca sertleşir. Alerjen: Malzeme listesine göre süt ve süt ürünleri, sert kabuklu yemiş içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "sagu incisi",
+    "substitutes": [
+     "tapyoka incisi — aynı biçimde ve aynı sürede şeffaflaşır, aynı miktar"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tam yağlı süt",
+    "substitutes": [
+     "laktozsuz süt — aynı miktarda kullanılır, fark edilmez"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "toz kakule",
+    "substitutes": []
+   },
+   {
+    "name": "safran",
+    "substitutes": []
+   },
+   {
+    "name": "gül suyu",
+    "substitutes": [
+     "portakal çiçeği suyu — daha narenciyemsi kokar, aynı miktar"
+    ]
+   },
+   {
+    "name": "sade yağ",
+    "substitutes": []
+   },
+   {
+    "name": "iç antep fıstığı",
+    "substitutes": [
+     "çiğ badem — dilimlenerek kullanılır, yeşil renk vermez; aynı miktar"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "sagu incisi",
+    "substitutes": [
+     "tapyoka incisi — aynı biçimde ve aynı sürede şeffaflaşır, aynı miktar"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tam yağlı süt",
+    "substitutes": [
+     "laktozsuz süt — aynı miktarda kullanılır, fark edilmez"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "toz kakule",
+    "substitutes": []
+   },
+   {
+    "name": "safran",
+    "substitutes": []
+   },
+   {
+    "name": "gül suyu",
+    "substitutes": [
+     "portakal çiçeği suyu — daha narenciyemsi kokar, aynı miktar"
+    ]
+   },
+   {
+    "name": "sade yağ",
+    "substitutes": []
+   },
+   {
+    "name": "iç antep fıstığı",
+    "substitutes": [
+     "çiğ badem — dilimlenerek kullanılır, yeşil renk vermez; aynı miktar"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "pasteis-de-feijao-portekiz-torres-vedras-usulu-bademli-fasulyeli-mini-tart",
+  "title": "Pastéis de Feijão",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamur açılmadan önce 30 dakika dinlenir ve dolgu kalıplara ılıdıktan sonra dökülür; sıcak dolgu ince hamuru yumuşatıp yırtar. Şurup 115 °C'de ocaktan alınır, daha koyu pişen şurup dolguyu sert ve kumlu yapar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamur açılmadan önce 30 dakika dinlenir ve dolgu kalıplara ılıdıktan sonra dökülür; sıcak dolgu ince hamuru yumuşatıp yırtar. Şurup 115 °C'de ocaktan alınır, daha koyu pişen şurup dolguyu sert ve kumlu yapar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "margarin",
+    "substitutes": [
+     "tereyağı — hamur daha kokulu ve biraz daha kırılgan olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "soğuk su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "haşlanmış beyaz fasulye (süzülmüş)",
+    "substitutes": [
+     "kuru beyaz fasulye — 90 g alınır, bir gece ıslatılıp 60 dakika haşlanır; konserve tuzu olmadığı için dolgu daha temiz tatlanır"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "öğütülmüş badem",
+    "substitutes": [
+     "öğütülmüş fındık — dolgu daha koyu renkli ve fındık kokulu olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta sarısı",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta akı",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "pudra şekeri",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "margarin",
+    "substitutes": [
+     "tereyağı — hamur daha kokulu ve biraz daha kırılgan olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "soğuk su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "haşlanmış beyaz fasulye (süzülmüş)",
+    "substitutes": [
+     "kuru beyaz fasulye — 90 g alınır, bir gece ıslatılıp 60 dakika haşlanır; konserve tuzu olmadığı için dolgu daha temiz tatlanır"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "öğütülmüş badem",
+    "substitutes": [
+     "öğütülmüş fındık — dolgu daha koyu renkli ve fındık kokulu olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta sarısı",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta akı",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "pudra şekeri",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart",
+  "title": "Tarte de Amêndoa",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Tart fırından çıktıktan 20 dakika sonra, karamel ılıkken kalıptan çıkarılır ve kenarı hemen bıçakla dolaşılır; tamamen soğuyan karamel kalıba yapışır ve tabanı kırar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Tart fırından çıktıktan 20 dakika sonra, karamel ılıkken kalıptan çıkarılır ve kenarı hemen bıçakla dolaşılır; tamamen soğuyan karamel kalıba yapışır ve tabanı kırar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "tereyağı (oda sıcaklığında)",
+    "substitutes": [
+     "margarin — daha ekonomiktir ancak taban tereyağı kokusu vermez, aynı miktar"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "kabartma tozu",
+    "substitutes": []
+   },
+   {
+    "name": "dilimlenmiş badem",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — karamel daha koyu ve daha derin tatlı olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": [
+     "krema — karamel daha yumuşak ve daha az yapışkan olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "tereyağı (oda sıcaklığında)",
+    "substitutes": [
+     "margarin — daha ekonomiktir ancak taban tereyağı kokusu vermez, aynı miktar"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "kabartma tozu",
+    "substitutes": []
+   },
+   {
+    "name": "dilimlenmiş badem",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — karamel daha koyu ve daha derin tatlı olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": [
+     "krema — karamel daha yumuşak ve daha az yapışkan olur, aynı miktar"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "sardalya-izgara-limon-kekikli",
+  "title": "Sardalya Izgara",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Önemli: Sardalyalar küçük ve ince yapılı olduğundan ızgarada 2-3 dakikadan fazla tutulmamalı, aksi halde kuruyabilir. Alerjen: yalnızca balık içerir. Dikkat: ızgara teli iyice ısınmadan balıkları koymayın, aksi halde deriler ızgaraya yapışıp parçalanabilir."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Önemli: Sardalyalar küçük ve ince yapılı olduğundan ızgarada 2-3 dakikadan fazla tutulmamalı, aksi halde kuruyabilir. Alerjen: yalnızca balık içerir. Dikkat: ızgara teli iyice ısınmadan balıkları koymayın, aksi halde deriler ızgaraya yapışıp parçalanabilir."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Sardalya temizlenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "Kekik",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "Limon dilimlenmiş",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Sardalya temizlenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "Kekik",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "Limon dilimlenmiş",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci",
+  "title": "Güveçte Ayvalı Tavuk",
+  "status": 200,
+  "protoSubs": 6,
+  "liveSubs": 6,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Ayvayı soyup çekirdek yatağını çıkardığınız anda limonlu suya atın; havada bekleyen ayva kısa sürede kahverengileşir ve güveçte de o renkte kalır.\nAlerjen: Malzeme listesine göre süt ve süt ürünleri içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Ayvayı soyup çekirdek yatağını çıkardığınız anda limonlu suya atın; havada bekleyen ayva kısa sürede kahverengileşir ve güveçte de o renkte kalır. Alerjen: Malzeme listesine göre süt ve süt ürünleri içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "tavuk but (kemikli, derisi alınmış)",
+    "substitutes": [
+     "kemiksiz tavuk but — kemik payı olmadığı için 1 kg yeter ve daha çabuk pişer, 74 °C'yi ayvayı dizerken ölçün"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — daha yüksek ısıya dayanır ve kokusu belirginleşir"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "domates salçası",
+    "substitutes": [
+     "biber salçası — daha kırmızı bir renk ve hafif acı verir"
+    ]
+   },
+   {
+    "name": "tarçın çubuğu",
+    "substitutes": [
+     "toz tarçın — bir tutam yeter, sosu hafifçe bulandırır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "ayva g (2 iri boy)",
+    "substitutes": []
+   },
+   {
+    "name": "su (ayvayı bekletmek için)",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — aynı miktarda kullanılır, kokusu daha keskin kalır"
+    ]
+   },
+   {
+    "name": "üzüm pekmezi",
+    "substitutes": [
+     "bal — aynı miktarda kullanılır, daha açık renkli bir parlaklık verir"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "tavuk but (kemikli, derisi alınmış)",
+    "substitutes": [
+     "kemiksiz tavuk but — kemik payı olmadığı için 1 kg yeter ve daha çabuk pişer, 74 °C'yi ayvayı dizerken ölçün"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — daha yüksek ısıya dayanır ve kokusu belirginleşir"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "domates salçası",
+    "substitutes": [
+     "biber salçası — daha kırmızı bir renk ve hafif acı verir"
+    ]
+   },
+   {
+    "name": "tarçın çubuğu",
+    "substitutes": [
+     "toz tarçın — bir tutam yeter, sosu hafifçe bulandırır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "ayva g (2 iri boy)",
+    "substitutes": []
+   },
+   {
+    "name": "su (ayvayı bekletmek için)",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — aynı miktarda kullanılır, kokusu daha keskin kalır"
+    ]
+   },
+   {
+    "name": "üzüm pekmezi",
+    "substitutes": [
+     "bal — aynı miktarda kullanılır, daha açık renkli bir parlaklık verir"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+  "title": "Ördek Dolması",
+  "status": 200,
+  "protoSubs": 6,
+  "liveSubs": 6,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Deriyi çizerken bıçağı eti göreceğiniz kadar bastırmayın; ete ulaşan kesik pişerken suyu dışarı salar ve göğüs kurur."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Deriyi çizerken bıçağı eti göreceğiniz kadar bastırmayın; ete ulaşan kesik pişerken suyu dışarı salar ve göğüs kurur."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "ördek g (1 adet, temizlenmiş)",
+    "substitutes": [
+     "kaz — neredeyse iki katı ağırlıktadır, fırın süresini bir katına çıkarın"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "kekik",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — üçte iki miktarı yeter, keskinliği daha düzdür"
+    ]
+   },
+   {
+    "name": "pirinç",
+    "substitutes": [
+     "bulgur — aynı miktarda, iç daha sıkı olur ve dağılmaz"
+    ]
+   },
+   {
+    "name": "kuru soğan g (1,5 orta boy)",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — daha yüksek ısıya dayanır ve kokusu belirginleşir"
+    ]
+   },
+   {
+    "name": "kuş üzümü",
+    "substitutes": [
+     "kuru kızılcık — daha ekşidir, bir tutam şeker ekleyin"
+    ]
+   },
+   {
+    "name": "ceviz içi",
+    "substitutes": [
+     "çam fıstığı — daha yumuşak bir doku verir",
+     "kabak çekirdeği içi — kuruyemiş alerjisinde kullanılır, dokusu daha sert kalır"
+    ]
+   },
+   {
+    "name": "tarçın",
+    "substitutes": []
+   },
+   {
+    "name": "yenibahar",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "ördek g (1 adet, temizlenmiş)",
+    "substitutes": [
+     "kaz — neredeyse iki katı ağırlıktadır, fırın süresini bir katına çıkarın"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "kekik",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — üçte iki miktarı yeter, keskinliği daha düzdür"
+    ]
+   },
+   {
+    "name": "pirinç",
+    "substitutes": [
+     "bulgur — aynı miktarda, iç daha sıkı olur ve dağılmaz"
+    ]
+   },
+   {
+    "name": "kuru soğan g (1,5 orta boy)",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — daha yüksek ısıya dayanır ve kokusu belirginleşir"
+    ]
+   },
+   {
+    "name": "kuş üzümü",
+    "substitutes": [
+     "kuru kızılcık — daha ekşidir, bir tutam şeker ekleyin"
+    ]
+   },
+   {
+    "name": "ceviz içi",
+    "substitutes": [
+     "çam fıstığı — daha yumuşak bir doku verir",
+     "kabak çekirdeği içi — kuruyemiş alerjisinde kullanılır, dokusu daha sert kalır"
+    ]
+   },
+   {
+    "name": "tarçın",
+    "substitutes": []
+   },
+   {
+    "name": "yenibahar",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+  "title": "Tuzsuz Bebek Tavuk Suyu",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Süzdüğünüz suyu buzdolabında bir gece bekletin; üstte katılaşan yağ tabakası kaşıkla tek parça hâlinde kaldırılır, sıcakken sıyırmaya çalışırsanız yağın çoğu suda kalır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Süzdüğünüz suyu buzdolabında bir gece bekletin; üstte katılaşan yağ tabakası kaşıkla tek parça hâlinde kaldırılır, sıcakken sıyırmaya çalışırsanız yağın çoğu suda kalır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "tavuk but (derisiz, kemikli)",
+    "substitutes": [
+     "hindi kanat ve boyun — daha koyu renkli ve daha dolgun bir su verir, pişirme süresi yirmi dakika uzar",
+     "tavuk göğsü kemiği ve karkas — daha berrak ama daha zayıf bir su verir"
+    ]
+   },
+   {
+    "name": "havuç",
+    "substitutes": [
+     "şalgam — daha keskin bir tat verir, aynı sürede pişer"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": [
+     "pırasanın beyaz kısmı — daha yumuşak bir tat verir, aynı sürede pişer"
+    ]
+   },
+   {
+    "name": "kereviz sapı",
+    "substitutes": [
+     "rezene sapı — daha tatlımsı bir koku verir, aynı miktarda kullanılır"
+    ]
+   },
+   {
+    "name": "içme suyu",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "tavuk but (derisiz, kemikli)",
+    "substitutes": [
+     "hindi kanat ve boyun — daha koyu renkli ve daha dolgun bir su verir, pişirme süresi yirmi dakika uzar",
+     "tavuk göğsü kemiği ve karkas — daha berrak ama daha zayıf bir su verir"
+    ]
+   },
+   {
+    "name": "havuç",
+    "substitutes": [
+     "şalgam — daha keskin bir tat verir, aynı sürede pişer"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": [
+     "pırasanın beyaz kısmı — daha yumuşak bir tat verir, aynı sürede pişer"
+    ]
+   },
+   {
+    "name": "kereviz sapı",
+    "substitutes": [
+     "rezene sapı — daha tatlımsı bir koku verir, aynı miktarda kullanılır"
+    ]
+   },
+   {
+    "name": "içme suyu",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+  "title": "Arroz con Pato",
+  "status": 200,
+  "protoSubs": 2,
+  "liveSubs": 2,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Pilav piştikten sonra ocaktan alıp kapağı kapalı 10 dakika demlendirin; hemen karıştırılan pilav ezilir ve taneler birbirine yapışır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Pilav piştikten sonra ocaktan alıp kapağı kapalı 10 dakika demlendirin; hemen karıştırılan pilav ezilir ve taneler birbirine yapışır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "ördek but",
+    "substitutes": [
+     "kemikli tavuk but — 1,2 kg kullanılır, daha az yağlıdır ve pişme süresi 20 dakika kısalır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "taze kişniş",
+    "substitutes": []
+   },
+   {
+    "name": "ıspanak",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "aji amarillo ezmesi",
+    "substitutes": [
+     "közlenmiş kırmızı biber ezmesi ve 1 tutam acı toz biber — rengi ve tatlılığı yakındır, ama aji amarillonun meyvemsi kokusunu vermez"
+    ]
+   },
+   {
+    "name": "et suyu",
+    "substitutes": []
+   },
+   {
+    "name": "portakal suyu",
+    "substitutes": []
+   },
+   {
+    "name": "pirinç",
+    "substitutes": []
+   },
+   {
+    "name": "bezelye",
+    "substitutes": []
+   },
+   {
+    "name": "kırmızı dolma biber",
+    "substitutes": []
+   },
+   {
+    "name": "havuç",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "ördek but",
+    "substitutes": [
+     "kemikli tavuk but — 1,2 kg kullanılır, daha az yağlıdır ve pişme süresi 20 dakika kısalır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "taze kişniş",
+    "substitutes": []
+   },
+   {
+    "name": "ıspanak",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "aji amarillo ezmesi",
+    "substitutes": [
+     "közlenmiş kırmızı biber ezmesi ve 1 tutam acı toz biber — rengi ve tatlılığı yakındır, ama aji amarillonun meyvemsi kokusunu vermez"
+    ]
+   },
+   {
+    "name": "et suyu",
+    "substitutes": []
+   },
+   {
+    "name": "portakal suyu",
+    "substitutes": []
+   },
+   {
+    "name": "pirinç",
+    "substitutes": []
+   },
+   {
+    "name": "bezelye",
+    "substitutes": []
+   },
+   {
+    "name": "kırmızı dolma biber",
+    "substitutes": []
+   },
+   {
+    "name": "havuç",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+  "title": "Asam Pedas",
+  "status": 200,
+  "protoSubs": 10,
+  "liveSubs": 10,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Demirhindi suyu süzülmeden kullanılmaz: ezmenin içinde sert çekirdek ve lif kalır, bunlar sosta kum gibi durur ve yenmez."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Demirhindi suyu süzülmeden kullanılmaz: ezmenin içinde sert çekirdek ve lif kalır, bunlar sosta kum gibi durur ve yenmez."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kurutulmuş kırmızı acı biber",
+    "substitutes": [
+     "2 yemek kaşığı acı biber salçası — rengi aynı olur ancak kuru biberin dumanlı alt tadını vermez"
+    ]
+   },
+   {
+    "name": "arpacık soğan",
+    "substitutes": [
+     "kuru soğan — aynı miktarda kullanılır, ezme daha sulu olur ve kavrulması uzar"
+    ]
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "havlıcan (galangal)",
+    "substitutes": [
+     "taze zencefil — yarısı kadar kullanılır, keskinliği daha öne çıkar ve havlıcanın çam benzeri kokusunu vermez"
+    ]
+   },
+   {
+    "name": "limon otu sap",
+    "substitutes": [
+     "1 çay kaşığı rendelenmiş limon kabuğu — kokunun taze kısmını verir, odunsu alt tadı eksik kalır"
+    ]
+   },
+   {
+    "name": "karides ezmesi (belacan)",
+    "substitutes": [
+     "2 çay kaşığı balık sosu — benzer tuzlu derinliği verir, sosun rengini koyulaştırmaz"
+    ]
+   },
+   {
+    "name": "uskumru (temizlenmiş, kalın dilim)",
+    "substitutes": [
+     "levrek dilimi — daha az yağlıdır ve 2 dakika daha kısa pişer",
+     "beyaz etli fileto — kılçıksız seçenektir, tadı daha yalın kalır"
+    ]
+   },
+   {
+    "name": "demirhindi ezmesi",
+    "substitutes": [
+     "50 ml nar ekşisi — benzer koyu ekşilik verir, sosun rengi daha koyu kırmızı olur"
+    ]
+   },
+   {
+    "name": "sıvı yağ",
+    "substitutes": []
+   },
+   {
+    "name": "bamya",
+    "substitutes": [
+     "taze yeşil fasulye — aynı sürede pişer, bamyanın sosu bağlayan yapışkanlığını vermez"
+    ]
+   },
+   {
+    "name": "patlıcan",
+    "substitutes": []
+   },
+   {
+    "name": "domates",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "hindistan cevizi şekeri",
+    "substitutes": [
+     "esmer şeker — aynı miktarda kullanılır, ekşiliği aynı biçimde yuvarlar"
+    ]
+   },
+   {
+    "name": "nane ve taze kişniş",
+    "substitutes": [
+     "taze reyhan — özgün daun kesum yaprağına en yakın kokudur, tadı biraz daha tatlımsı olur"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kurutulmuş kırmızı acı biber",
+    "substitutes": [
+     "2 yemek kaşığı acı biber salçası — rengi aynı olur ancak kuru biberin dumanlı alt tadını vermez"
+    ]
+   },
+   {
+    "name": "arpacık soğan",
+    "substitutes": [
+     "kuru soğan — aynı miktarda kullanılır, ezme daha sulu olur ve kavrulması uzar"
+    ]
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "havlıcan (galangal)",
+    "substitutes": [
+     "taze zencefil — yarısı kadar kullanılır, keskinliği daha öne çıkar ve havlıcanın çam benzeri kokusunu vermez"
+    ]
+   },
+   {
+    "name": "limon otu sap",
+    "substitutes": [
+     "1 çay kaşığı rendelenmiş limon kabuğu — kokunun taze kısmını verir, odunsu alt tadı eksik kalır"
+    ]
+   },
+   {
+    "name": "karides ezmesi (belacan)",
+    "substitutes": [
+     "2 çay kaşığı balık sosu — benzer tuzlu derinliği verir, sosun rengini koyulaştırmaz"
+    ]
+   },
+   {
+    "name": "uskumru (temizlenmiş, kalın dilim)",
+    "substitutes": [
+     "levrek dilimi — daha az yağlıdır ve 2 dakika daha kısa pişer",
+     "beyaz etli fileto — kılçıksız seçenektir, tadı daha yalın kalır"
+    ]
+   },
+   {
+    "name": "demirhindi ezmesi",
+    "substitutes": [
+     "50 ml nar ekşisi — benzer koyu ekşilik verir, sosun rengi daha koyu kırmızı olur"
+    ]
+   },
+   {
+    "name": "sıvı yağ",
+    "substitutes": []
+   },
+   {
+    "name": "bamya",
+    "substitutes": [
+     "taze yeşil fasulye — aynı sürede pişer, bamyanın sosu bağlayan yapışkanlığını vermez"
+    ]
+   },
+   {
+    "name": "patlıcan",
+    "substitutes": []
+   },
+   {
+    "name": "domates",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "hindistan cevizi şekeri",
+    "substitutes": [
+     "esmer şeker — aynı miktarda kullanılır, ekşiliği aynı biçimde yuvarlar"
+    ]
+   },
+   {
+    "name": "nane ve taze kişniş",
+    "substitutes": [
+     "taze reyhan — özgün daun kesum yaprağına en yakın kokudur, tadı biraz daha tatlımsı olur"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+  "title": "Jiao Yan Karides",
+  "status": 200,
+  "protoSubs": 5,
+  "liveSubs": 5,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Tuz-biber karışımını kızartma sırasında değil, karidesler wok'a döndükten sonra atın. Yağa giren tuz karideslerin suyunu çeker ve kaplama yumuşar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Tuz-biber karışımını kızartma sırasında değil, karidesler wok'a döndükten sonra atın. Yağa giren tuz karideslerin suyunu çeker ve kaplama yumuşar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "iri karides (kabuklu)",
+    "substitutes": [
+     "kabuğu soyulmuş karides — daha kolay yenir ancak kabuğun çıtırlığı ve tadı kaybolur, kızartma süresi 2 dakika kısalır"
+    ]
+   },
+   {
+    "name": "mısır nişastası",
+    "substitutes": []
+   },
+   {
+    "name": "pirinç unu",
+    "substitutes": [
+     "aynı miktarda mısır nişastası — kaplama biraz daha kırılgan olur, çıtırlık aynı kalır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "beyaz biber",
+    "substitutes": [
+     "karabiber — daha keskin ve odunsu, beyaz biberin toprağımsı sıcaklığını vermez"
+    ]
+   },
+   {
+    "name": "yumurta akı",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Sichuan biberi",
+    "substitutes": [
+     "yarım çay kaşığı karabiber ve bir tutam kişniş tozu — Sichuan biberinin dilde uyuşturan etkisini vermez, yalnız keskinliği karşılar"
+    ]
+   },
+   {
+    "name": "beyaz biber",
+    "substitutes": []
+   },
+   {
+    "name": "pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "yeşil soğan",
+    "substitutes": []
+   },
+   {
+    "name": "kırmızı ve yeşil sivri biber",
+    "substitutes": [
+     "renkli kapya biber — hiç acı olmaz ve daha tatlıdır, aynı miktar"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "iri karides (kabuklu)",
+    "substitutes": [
+     "kabuğu soyulmuş karides — daha kolay yenir ancak kabuğun çıtırlığı ve tadı kaybolur, kızartma süresi 2 dakika kısalır"
+    ]
+   },
+   {
+    "name": "mısır nişastası",
+    "substitutes": []
+   },
+   {
+    "name": "pirinç unu",
+    "substitutes": [
+     "aynı miktarda mısır nişastası — kaplama biraz daha kırılgan olur, çıtırlık aynı kalır"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "beyaz biber",
+    "substitutes": [
+     "karabiber — daha keskin ve odunsu, beyaz biberin toprağımsı sıcaklığını vermez"
+    ]
+   },
+   {
+    "name": "yumurta akı",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Sichuan biberi",
+    "substitutes": [
+     "yarım çay kaşığı karabiber ve bir tutam kişniş tozu — Sichuan biberinin dilde uyuşturan etkisini vermez, yalnız keskinliği karşılar"
+    ]
+   },
+   {
+    "name": "beyaz biber",
+    "substitutes": []
+   },
+   {
+    "name": "pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "yeşil soğan",
+    "substitutes": []
+   },
+   {
+    "name": "kırmızı ve yeşil sivri biber",
+    "substitutes": [
+     "renkli kapya biber — hiç acı olmaz ve daha tatlıdır, aynı miktar"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+  "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Balığı şişe dizerken parçaları çok sıkı bastırmayın, aksi halde pişerken dağılabilir. Metal şiş kullanıyorsanız pişirmeden önce hafifçe yağlayın, balık yapışmasın.\nAlerjen: Malzeme listesine göre balık içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Balığı şişe dizerken parçaları çok sıkı bastırmayın, aksi halde pişerken dağılabilir. Metal şiş kullanıyorsanız pişirmeden önce hafifçe yağlayın, balık yapışmasın. Alerjen: Malzeme listesine göre balık içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "levrek fileto küp doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "acı kırmızı biber ezmesi",
+    "substitutes": []
+   },
+   {
+    "name": "Zerdeçal",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "taze kişniş ince kıyılmış",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "levrek fileto küp doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "acı kırmızı biber ezmesi",
+    "substitutes": []
+   },
+   {
+    "name": "Zerdeçal",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "taze kişniş ince kıyılmış",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e15-05.json",
+   "remind": "Balığı şişe dizerken parçaları çok sıkı bastırmayın, aksi halde pişerken dağılabilir. Metal şiş kullanıyorsanız pişirmeden önce hafifçe yağlayın, balık yapışmasın.",
+   "subs": 0,
+   "ingredients": 8
+  }
+ },
+ {
+  "slug": "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+  "title": "Karabuğday Kaplamalı Levrek",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Kaplamayı yaptıktan hemen sonra fileto pişirilmezse karabuğday unu nemlenip fırında çıtırlığını kaybeder; kaplamayı bekletmeden fırına verin. Alerjen: balık, yumurta içerir."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Kaplamayı yaptıktan hemen sonra fileto pişirilmezse karabuğday unu nemlenip fırında çıtırlığını kaybeder; kaplamayı bekletmeden fırına verin. Alerjen: balık, yumurta içerir."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kılçıksız levrek fileto",
+    "substitutes": []
+   },
+   {
+    "name": "Karabuğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "Yumurta Akı",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "Maydanoz ince kıyılmış, servis için",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kılçıksız levrek fileto",
+    "substitutes": []
+   },
+   {
+    "name": "Karabuğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "Yumurta Akı",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "Zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "Maydanoz ince kıyılmış, servis için",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e15-03.json",
+   "remind": "Kaplamayı yaptıktan hemen sonra fileto pişirilmezse karabuğday unu nemlenip fırında çıtırlığını kaybeder; kaplamayı bekletmeden fırına verin. Alerjen: yumurta içerir.",
+   "subs": 0,
+   "ingredients": 8
+  }
+ },
+ {
+  "slug": "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+  "title": "Mercimekli Yaprak Sarma",
+  "status": 200,
+  "protoSubs": 7,
+  "liveSubs": 7,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Harcı sıcakken sarmaya kalkışmayın: sıcak mercimek lapası yaprağı içeriden buharlar, yaprak gevşer ve sarma tencerede açılır.\nAlerjen: Malzeme listesine göre buğday (gluten) içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Harcı sıcakken sarmaya kalkışmayın: sıcak mercimek lapası yaprağı içeriden buharlar, yaprak gevşer ve sarma tencerede açılır. Alerjen: Malzeme listesine göre buğday (gluten) içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kırmızı mercimek",
+    "substitutes": [
+     "sarı mercimek — daha geç dağılır, pişirme süresini 10 dakika uzatın"
+    ]
+   },
+   {
+    "name": "ince bulgur",
+    "substitutes": [
+     "irmik — üçte iki miktarı yeter, harç daha çabuk tutar ancak tane dokusu olmaz"
+    ]
+   },
+   {
+    "name": "kuru soğan g (2 orta boy)",
+    "substitutes": []
+   },
+   {
+    "name": "domates salçası",
+    "substitutes": [
+     "biber salçası — daha kırmızı bir renk ve hafif acı verir"
+    ]
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "kuru nane",
+    "substitutes": [
+     "taze nane — üç katı miktar gerekir, kokusu daha uçucudur"
+    ]
+   },
+   {
+    "name": "pul biber",
+    "substitutes": [
+     "isot — daha koyu renk ve dumanlı bir tat verir, aynı miktarda"
+    ]
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "asma yaprağı g (yaklaşık 45 yaprak)",
+    "substitutes": [
+     "pazı yaprağı — daha büyüktür, ikiye bölerek kullanın ve haşlamayın",
+     "kabak yaprağı — orta damarı kalındır, kesip almanız gerekir"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "nar ekşisi",
+    "substitutes": [
+     "limon suyu — iki katı miktar gerekir, tatlılığı olmaz"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kırmızı mercimek",
+    "substitutes": [
+     "sarı mercimek — daha geç dağılır, pişirme süresini 10 dakika uzatın"
+    ]
+   },
+   {
+    "name": "ince bulgur",
+    "substitutes": [
+     "irmik — üçte iki miktarı yeter, harç daha çabuk tutar ancak tane dokusu olmaz"
+    ]
+   },
+   {
+    "name": "kuru soğan g (2 orta boy)",
+    "substitutes": []
+   },
+   {
+    "name": "domates salçası",
+    "substitutes": [
+     "biber salçası — daha kırmızı bir renk ve hafif acı verir"
+    ]
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "kuru nane",
+    "substitutes": [
+     "taze nane — üç katı miktar gerekir, kokusu daha uçucudur"
+    ]
+   },
+   {
+    "name": "pul biber",
+    "substitutes": [
+     "isot — daha koyu renk ve dumanlı bir tat verir, aynı miktarda"
+    ]
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "asma yaprağı g (yaklaşık 45 yaprak)",
+    "substitutes": [
+     "pazı yaprağı — daha büyüktür, ikiye bölerek kullanın ve haşlamayın",
+     "kabak yaprağı — orta damarı kalındır, kesip almanız gerekir"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "nar ekşisi",
+    "substitutes": [
+     "limon suyu — iki katı miktar gerekir, tatlılığı olmaz"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+  "title": "Lor Dolması",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Salamura yaprak kullanıyorsanız kaynar suda 5 dakika bekletip durulayın ve harca hiç tuz eklemeyin; yaprağın tuzu harcın tuzuyla birleşince sarma yenmez olur.\nAlerjen: Malzeme listesine göre süt ve süt ürünleri, yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Salamura yaprak kullanıyorsanız kaynar suda 5 dakika bekletip durulayın ve harca hiç tuz eklemeyin; yaprağın tuzu harcın tuzuyla birleşince sarma yenmez olur. Alerjen: Malzeme listesine göre süt ve süt ürünleri, yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "lor peyniri",
+    "substitutes": [
+     "çökelek — daha kuru ve daha tuzludur, harca 2 yemek kaşığı süt ekleyin",
+     "minci peyniri — Rize'nin yağsız taze peyniridir, daha ekşi bir tat verir"
+    ]
+   },
+   {
+    "name": "asma yaprağı (salamura)",
+    "substitutes": [
+     "karalahana yaprağı — daha kalın ve daha iri sarmalar olur, haşlama süresini 5 dakika artırın"
+    ]
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "dereotu",
+    "substitutes": [
+     "taze nane — daha ferah ve daha keskin kokar, yarım demet yeterlidir"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "margarin — daha ekonomiktir ancak tereyağının kokusunu vermez"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "lor peyniri",
+    "substitutes": [
+     "çökelek — daha kuru ve daha tuzludur, harca 2 yemek kaşığı süt ekleyin",
+     "minci peyniri — Rize'nin yağsız taze peyniridir, daha ekşi bir tat verir"
+    ]
+   },
+   {
+    "name": "asma yaprağı (salamura)",
+    "substitutes": [
+     "karalahana yaprağı — daha kalın ve daha iri sarmalar olur, haşlama süresini 5 dakika artırın"
+    ]
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "dereotu",
+    "substitutes": [
+     "taze nane — daha ferah ve daha keskin kokar, yarım demet yeterlidir"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "margarin — daha ekonomiktir ancak tereyağının kokusunu vermez"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+  "title": "Chelsea Bun",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamuru şekillendirirken çok sıkı sarmayın, gevşek sarılan rulo pişerken katmanlarını daha iyi korur. Alerjen: gluten (un), süt ve süt ürünleri (süt, tereyağı) içerir."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamuru şekillendirirken çok sıkı sarmayın, gevşek sarılan rulo pişerken katmanlarını daha iyi korur. Alerjen: gluten (un), süt ve süt ürünleri (süt, tereyağı) içerir."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Un",
+    "substitutes": []
+   },
+   {
+    "name": "maya kuru",
+    "substitutes": []
+   },
+   {
+    "name": "Süt ılık",
+    "substitutes": []
+   },
+   {
+    "name": "Toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "Tereyağı eritilmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "esmer şeker",
+    "substitutes": []
+   },
+   {
+    "name": "Tarçın toz",
+    "substitutes": []
+   },
+   {
+    "name": "kuru üzüm",
+    "substitutes": []
+   },
+   {
+    "name": "Pudra şekeri kaplama için",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Un",
+    "substitutes": []
+   },
+   {
+    "name": "maya kuru",
+    "substitutes": []
+   },
+   {
+    "name": "Süt ılık",
+    "substitutes": []
+   },
+   {
+    "name": "Toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "Tereyağı eritilmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "esmer şeker",
+    "substitutes": []
+   },
+   {
+    "name": "Tarçın toz",
+    "substitutes": []
+   },
+   {
+    "name": "kuru üzüm",
+    "substitutes": []
+   },
+   {
+    "name": "Pudra şekeri kaplama için",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e12-02.json",
+   "remind": "Hamuru şekillendirirken çok sıkı sarmayın, gevşek sarılan rulo pişerken katmanlarını daha iyi korur. Alerjen: gluten (un), süt ve süt ürünleri (süt, tereyağı) içerir.",
+   "subs": 0,
+   "ingredients": 10
+  }
+ },
+ {
+  "slug": "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+  "title": "Moin Moin",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Börülceyi 2 saat ılık suda bekletip kabuğunu ovarak çıkarın. Buhar tenceresinin suyu bitmesin; pişme boyunca en az iki kez kontrol edip sıcak su ekleyin, kuruyan tencere kapları yakar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Börülceyi 2 saat ılık suda bekletip kabuğunu ovarak çıkarın. Buhar tenceresinin suyu bitmesin; pişme boyunca en az iki kez kontrol edip sıcak su ekleyin, kuruyan tencere kapları yakar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kuru börülce",
+    "substitutes": [
+     "kabuğu soyulmuş hazır börülce unu — soyma ve çekme adımları düşer, 380 g kullanılır ve 400 ml suyla açılır"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "kırmızı kapya biber",
+    "substitutes": []
+   },
+   {
+    "name": "acı kırmızı biber",
+    "substitutes": [
+     "pul biber — daha eşit dağılır ama tazenin canlılığını vermez, 3 gram yeterlidir"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": [
+     "zeytinyağı — daha belirgin bir tat verir, aynı miktarda kullanılır"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "haşlanmış yumurta",
+    "substitutes": [
+     "haşlanmış havuç dilimleri — pudingi tamamen bitkisel yapar, aynı şekilde kaplara yerleştirilir"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kuru börülce",
+    "substitutes": [
+     "kabuğu soyulmuş hazır börülce unu — soyma ve çekme adımları düşer, 380 g kullanılır ve 400 ml suyla açılır"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "kırmızı kapya biber",
+    "substitutes": []
+   },
+   {
+    "name": "acı kırmızı biber",
+    "substitutes": [
+     "pul biber — daha eşit dağılır ama tazenin canlılığını vermez, 3 gram yeterlidir"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": [
+     "zeytinyağı — daha belirgin bir tat verir, aynı miktarda kullanılır"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "haşlanmış yumurta",
+    "substitutes": [
+     "haşlanmış havuç dilimleri — pudingi tamamen bitkisel yapar, aynı şekilde kaplara yerleştirilir"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+  "title": "Waakye",
+  "status": 200,
+  "protoSubs": 2,
+  "liveSubs": 2,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Börülceyi 6–8 saat soğuk suda bekletip suyunu dökün. Sorgum yapraklarını pirinci eklemeden önce mutlaka çıkarın; tencerede kalan yaprak pişme sonunda acımsı bir tat bırakır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Börülceyi 6–8 saat soğuk suda bekletip suyunu dökün. Sorgum yapraklarını pirinci eklemeden önce mutlaka çıkarın; tencerede kalan yaprak pişme sonunda acımsı bir tat bırakır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kuru börülce",
+    "substitutes": [
+     "konserve börülce — süzülüp yıkanarak kullanılır, haşlama düşer ve pirinç için 900 ml sıcak su gerekir, 550 g kullanılır"
+    ]
+   },
+   {
+    "name": "pirinç",
+    "substitutes": []
+   },
+   {
+    "name": "kurutulmuş sorgum yaprağı",
+    "substitutes": [
+     "bir tutam karbonat ve 1 tatlı kaşığı tatlı toz biber — yaprağın kırmızımsı rengini yaklaşık verir ama kendine özgü toprak kokusunu vermez"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kuru börülce",
+    "substitutes": [
+     "konserve börülce — süzülüp yıkanarak kullanılır, haşlama düşer ve pirinç için 900 ml sıcak su gerekir, 550 g kullanılır"
+    ]
+   },
+   {
+    "name": "pirinç",
+    "substitutes": []
+   },
+   {
+    "name": "kurutulmuş sorgum yaprağı",
+    "substitutes": [
+     "bir tutam karbonat ve 1 tatlı kaşığı tatlı toz biber — yaprağın kırmızımsı rengini yaklaşık verir ama kendine özgü toprak kokusunu vermez"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+  "title": "Enfrijoladas",
+  "status": 200,
+  "protoSubs": 6,
+  "liveSubs": 6,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Siyah fasulyeyi bir gece ıslatıp suyunu dökün ve ilk kaynamayı en az 10 dakika fokur fokur yapın. Kuru ancho biberini ılık suda 20 dakika bekletip süzün; ıslatılmamış kuru biber blenderda pürüzlü kalır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Siyah fasulyeyi bir gece ıslatıp suyunu dökün ve ilk kaynamayı en az 10 dakika fokur fokur yapın. Kuru ancho biberini ılık suda 20 dakika bekletip süzün; ıslatılmamış kuru biber blenderda pürüzlü kalır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kuru siyah fasulye",
+    "substitutes": [
+     "konserve siyah fasulye — süzülüp yıkanarak kullanılır, haşlama düşer, 350 g gerekir"
+    ]
+   },
+   {
+    "name": "kuru ancho biberi",
+    "substitutes": [
+     "tatlı toz biber ve bir tutam isot — ancho'nun kuru meyvemsi tadını tam vermez, 10 g toz biber yeterlidir"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": [
+     "zeytinyağı — daha belirgin bir tat verir, aynı miktarda kullanılır"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "mısır tortillası",
+    "substitutes": [
+     "lavaş — daha ince ve daha yumuşaktır, sosta yırtılmaması için yalnız bir saniye batırın"
+    ]
+   },
+   {
+    "name": "beyaz peynir",
+    "substitutes": [
+     "lor peyniri — daha yumuşak ve az tuzludur, üzerine bir tutam tuz serpin"
+    ]
+   },
+   {
+    "name": "taze kişniş",
+    "substitutes": [
+     "maydanoz — kişnişin sabunsu kokusunu sevmeyenler için, aynı miktarda kullanılır"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kuru siyah fasulye",
+    "substitutes": [
+     "konserve siyah fasulye — süzülüp yıkanarak kullanılır, haşlama düşer, 350 g gerekir"
+    ]
+   },
+   {
+    "name": "kuru ancho biberi",
+    "substitutes": [
+     "tatlı toz biber ve bir tutam isot — ancho'nun kuru meyvemsi tadını tam vermez, 10 g toz biber yeterlidir"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": [
+     "zeytinyağı — daha belirgin bir tat verir, aynı miktarda kullanılır"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "mısır tortillası",
+    "substitutes": [
+     "lavaş — daha ince ve daha yumuşaktır, sosta yırtılmaması için yalnız bir saniye batırın"
+    ]
+   },
+   {
+    "name": "beyaz peynir",
+    "substitutes": [
+     "lor peyniri — daha yumuşak ve az tuzludur, üzerine bir tutam tuz serpin"
+    ]
+   },
+   {
+    "name": "taze kişniş",
+    "substitutes": [
+     "maydanoz — kişnişin sabunsu kokusunu sevmeyenler için, aynı miktarda kullanılır"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "frijoles-refritos-meksika-usulu-ezme-fasulye",
+  "title": "Frijoles Refritos",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Fasulyeyi ezerken ocağı çok kısık tutun, aksi halde dibi tutar. Alerjen: süt ve süt ürünleri içerir."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Fasulyeyi ezerken ocağı çok kısık tutun, aksi halde dibi tutar. Alerjen: süt ve süt ürünleri içerir."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Kuru fasulye haşlanmış",
+    "substitutes": []
+   },
+   {
+    "name": "Tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Soğan ince doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "Kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "dumanlı pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Kaşar peyniri rendelenmiş, üzerine",
+    "substitutes": []
+   },
+   {
+    "name": "Kişniş taze, kıyılmış",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Kuru fasulye haşlanmış",
+    "substitutes": []
+   },
+   {
+    "name": "Tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "Soğan ince doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "Sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "Kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "dumanlı pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "Tuz",
+    "substitutes": []
+   },
+   {
+    "name": "Kaşar peyniri rendelenmiş, üzerine",
+    "substitutes": []
+   },
+   {
+    "name": "Kişniş taze, kıyılmış",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e7-02.json",
+   "remind": "Fasulyeyi ezerken ocağı çok kısık tutun, aksi halde dibi tutar. Alerjen: süt ve süt ürünleri içerir.",
+   "subs": 0,
+   "ingredients": 9
+  }
+ },
+ {
+  "slug": "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+  "title": "Semizotlu Yumurta",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Semizotunun yapraklarını saplarla birlikte tavaya atmayın; sap yumuşayana kadar yaprak lapaya döner ve tavanın dibine su bırakır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Semizotunun yapraklarını saplarla birlikte tavaya atmayın; sap yumuşayana kadar yaprak lapaya döner ve tavanın dibine su bırakır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "semizotu (ayıklanmış)",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan g (1 orta boy)",
+    "substitutes": [
+     "taze soğan — 4 dal kullanılır, daha hafif ve yeşil bir tat verir"
+    ]
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": [
+     "tereyağı — 30 g kullanılır, semizotunun ekşimsi tadını yuvarlar"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "pul biber",
+    "substitutes": [
+     "isot — daha koyu renk ve is kokusu verir, aynı miktar"
+    ]
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "semizotu (ayıklanmış)",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan g (1 orta boy)",
+    "substitutes": [
+     "taze soğan — 4 dal kullanılır, daha hafif ve yeşil bir tat verir"
+    ]
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": [
+     "tereyağı — 30 g kullanılır, semizotunun ekşimsi tadını yuvarlar"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "pul biber",
+    "substitutes": [
+     "isot — daha koyu renk ve is kokusu verir, aynı miktar"
+    ]
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+  "title": "Masabeeb",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamur pişirilmeden önce ılık bir yerde 45 dakika, yüzeyi baştan sona kabarcıkla kaplanıp hacmi iki katına çıkana kadar bekler; kabarmamış hamur tavada delik açmaz ve masabeeb hamur gibi yoğun kalır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamur pişirilmeden önce ılık bir yerde 45 dakika, yüzeyi baştan sona kabarcıkla kaplanıp hacmi iki katına çıkana kadar bekler; kabarmamış hamur tavada delik açmaz ve masabeeb hamur gibi yoğun kalır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "tam buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": [
+     "tam buğday unu — masabeeb daha koyu ve daha yoğun olur, suyu 20 ml artırın"
+    ]
+   },
+   {
+    "name": "instant kuru maya",
+    "substitutes": [
+     "yaş maya — 15 g kullanılır ve önce ılık suyun içinde eritilir"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "ılık su",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (tava için)",
+    "substitutes": []
+   },
+   {
+    "name": "sade yağ",
+    "substitutes": [
+     "tereyağı — eritilip aynı miktarda gezdirilir, süt kokusu verir"
+    ]
+   },
+   {
+    "name": "bal",
+    "substitutes": [
+     "hurma pekmezi — Suudi sofrasında en çok bununla yenir, daha koyu ve daha az tatlıdır; aynı miktar"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "tam buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "buğday unu",
+    "substitutes": [
+     "tam buğday unu — masabeeb daha koyu ve daha yoğun olur, suyu 20 ml artırın"
+    ]
+   },
+   {
+    "name": "instant kuru maya",
+    "substitutes": [
+     "yaş maya — 15 g kullanılır ve önce ılık suyun içinde eritilir"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "ılık su",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (tava için)",
+    "substitutes": []
+   },
+   {
+    "name": "sade yağ",
+    "substitutes": [
+     "tereyağı — eritilip aynı miktarda gezdirilir, süt kokusu verir"
+    ]
+   },
+   {
+    "name": "bal",
+    "substitutes": [
+     "hurma pekmezi — Suudi sofrasında en çok bununla yenir, daha koyu ve daha az tatlıdır; aynı miktar"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+  "title": "İrimşik",
+  "status": 200,
+  "protoSubs": 2,
+  "liveSubs": 2,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Son yarım saatte tencerenin başından ayrılmayın; peynir suyu bitip şeker karamelleşmeye başladığında lor bir dakikada kahverengiden yanığa geçer. Parçalar gölgede 2–3 gün, kırıldığında içi nemsiz görünene kadar kurutulur.\nAlerjen: Malzeme listesine göre süt ve süt ürünleri içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Son yarım saatte tencerenin başından ayrılmayın; peynir suyu bitip şeker karamelleşmeye başladığında lor bir dakikada kahverengiden yanığa geçer. Parçalar gölgede 2–3 gün, kırıldığında içi nemsiz görünene kadar kurutulur. Alerjen: Malzeme listesine göre süt ve süt ürünleri içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "tam yağlı inek sütü",
+    "substitutes": [
+     "koyun sütü — bozkırda asıl kullanılan süttür, daha yağlı olur ve verim artar"
+    ]
+   },
+   {
+    "name": "ekşimiş tuzsuz ayran",
+    "substitutes": [
+     "yoğurt — 300 g, 200 ml suyla açılır ve sütü aynı şekilde keser"
+    ]
+   },
+   {
+    "name": "limon suyu (süt kesilmezse)",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı (tepsi için)",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "tam yağlı inek sütü",
+    "substitutes": [
+     "koyun sütü — bozkırda asıl kullanılan süttür, daha yağlı olur ve verim artar"
+    ]
+   },
+   {
+    "name": "ekşimiş tuzsuz ayran",
+    "substitutes": [
+     "yoğurt — 300 g, 200 ml suyla açılır ve sütü aynı şekilde keser"
+    ]
+   },
+   {
+    "name": "limon suyu (süt kesilmezse)",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı (tepsi için)",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+  "title": "Mamounia",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Şurubu irmiğin üzerine dökerken tencereyi ocaktan alın ve yüzünüzü uzak tutun; sıcak irmik sıcak şurupla buluştuğunda şiddetle fokurdayıp sıçrar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Şurubu irmiğin üzerine dökerken tencereyi ocaktan alın ve yüzünüzü uzak tutun; sıcak irmik sıcak şurupla buluştuğunda şiddetle fokurdayıp sıçrar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "iri irmik",
+    "substitutes": [
+     "ince irmik — daha pürüzsüz ve lapa gibi olur, kavurma süresini 3 dakika kısaltın"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — daha yüksek sıcaklığa dayanır ve daha yoğun fındıksı kokar, aynı miktar"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "taze beyaz peynir",
+    "substitutes": [
+     "lor peyniri — daha yumuşak ve az tuzludur, aynı miktar",
+     "süzme peynir — daha taneli ve nötrdür, üzerine bir tutam tuz serpin"
+    ]
+   },
+   {
+    "name": "tarçın",
+    "substitutes": []
+   },
+   {
+    "name": "antep fıstığı",
+    "substitutes": [
+     "ceviz içi — çok daha ekonomiktir, kabaca dövülerek serpilir"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "iri irmik",
+    "substitutes": [
+     "ince irmik — daha pürüzsüz ve lapa gibi olur, kavurma süresini 3 dakika kısaltın"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — daha yüksek sıcaklığa dayanır ve daha yoğun fındıksı kokar, aynı miktar"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": []
+   },
+   {
+    "name": "taze beyaz peynir",
+    "substitutes": [
+     "lor peyniri — daha yumuşak ve az tuzludur, aynı miktar",
+     "süzme peynir — daha taneli ve nötrdür, üzerine bir tutam tuz serpin"
+    ]
+   },
+   {
+    "name": "tarçın",
+    "substitutes": []
+   },
+   {
+    "name": "antep fıstığı",
+    "substitutes": [
+     "ceviz içi — çok daha ekonomiktir, kabaca dövülerek serpilir"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+  "title": "Kiev Pastası",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Bezeyi fırının kapağını aralayıp içinde 1 saat soğutun, sıcak beze dışarıda çatlar; kremalanan pasta buzdolabında en az 3 saat dinlenmeden kesilmez, katlar kayar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Bezeyi fırının kapağını aralayıp içinde 1 saat soğutun, sıcak beze dışarıda çatlar; kremalanan pasta buzdolabında en az 3 saat dinlenmeden kesilmez, katlar kayar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "yumurta akı (oda sıcaklığında)",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "fındık",
+    "substitutes": [
+     "kaju — Kiev pastasının ilk tariflerindeki kuruyemiştir, daha yumuşak ve tatlıdır",
+     "badem — daha kuru ve sert bir beze verir, kabuğu soyulmuş kullanın"
+    ]
+   },
+   {
+    "name": "un",
+    "substitutes": [
+     "mısır nişastası — pasta glutensiz olur, beze biraz daha kırılgan çıkar"
+    ]
+   },
+   {
+    "name": "vanilin",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı (oda sıcaklığında)",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "kakao",
+    "substitutes": [
+     "eritilmiş bitter çikolata — 30 g, kremayı daha koyu ve yoğun yapar"
+    ]
+   },
+   {
+    "name": "vanilin",
+    "substitutes": []
+   },
+   {
+    "name": "fındık (kenar için)",
+    "substitutes": []
+   },
+   {
+    "name": "pudra şekeri",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "yumurta akı (oda sıcaklığında)",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "fındık",
+    "substitutes": [
+     "kaju — Kiev pastasının ilk tariflerindeki kuruyemiştir, daha yumuşak ve tatlıdır",
+     "badem — daha kuru ve sert bir beze verir, kabuğu soyulmuş kullanın"
+    ]
+   },
+   {
+    "name": "un",
+    "substitutes": [
+     "mısır nişastası — pasta glutensiz olur, beze biraz daha kırılgan çıkar"
+    ]
+   },
+   {
+    "name": "vanilin",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı (oda sıcaklığında)",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "kakao",
+    "substitutes": [
+     "eritilmiş bitter çikolata — 30 g, kremayı daha koyu ve yoğun yapar"
+    ]
+   },
+   {
+    "name": "vanilin",
+    "substitutes": []
+   },
+   {
+    "name": "fındık (kenar için)",
+    "substitutes": []
+   },
+   {
+    "name": "pudra şekeri",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+  "title": "Tamriyeh",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamuru yoğurduktan sonra 1 saat dinlendirin ve irmik kremasını en az 2 saat buzdolabında soğutun. İki bekleme de kısaltılamaz: dinlenmemiş hamur ince açılmaz, soğumamış krema kızartmada dışarı akar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Hamuru yoğurduktan sonra 1 saat dinlendirin ve irmik kremasını en az 2 saat buzdolabında soğutun. İki bekleme de kısaltılamaz: dinlenmemiş hamur ince açılmaz, soğumamış krema kızartmada dışarı akar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": [
+     "ayçiçek yağı — daha nötr kalır, hamurun kokusu yalnız undan gelir"
+    ]
+   },
+   {
+    "name": "ince irmik",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": [
+     "badem sütü — laktozsuz olur, krema biraz daha az kremamsı çıkar"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "gül suyu",
+    "substitutes": [
+     "portakal çiçeği suyu — daha narenciyeli ve az çiçeksidir, aynı miktar"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": []
+   },
+   {
+    "name": "pudra şekeri",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "buğday unu",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": [
+     "ayçiçek yağı — daha nötr kalır, hamurun kokusu yalnız undan gelir"
+    ]
+   },
+   {
+    "name": "ince irmik",
+    "substitutes": []
+   },
+   {
+    "name": "süt",
+    "substitutes": [
+     "badem sütü — laktozsuz olur, krema biraz daha az kremamsı çıkar"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "gül suyu",
+    "substitutes": [
+     "portakal çiçeği suyu — daha narenciyeli ve az çiçeksidir, aynı miktar"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": []
+   },
+   {
+    "name": "pudra şekeri",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+  "title": "Tepsi Kadayıfı",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Şerbet soğuk, tepsi fırından yeni çıkmış olmalı. Tepsi kadayıfında alt kat şerbeti son çeker; tepsiyi şerbetledikten sonra 15 dakika beklemeden kesmeyin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Şerbet soğuk, tepsi fırından yeni çıkmış olmalı. Tepsi kadayıfında alt kat şerbeti son çeker; tepsiyi şerbetledikten sonra 15 dakika beklemeden kesmeyin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "tel kadayıf",
+    "substitutes": []
+   },
+   {
+    "name": "iri dövülmüş ceviz içi",
+    "substitutes": [
+     "Antep fıstığı içi — rengi ve tadı canlanır, maliyeti artar",
+     "iç fındık — kavrulup zarı alınarak kullanılır, daha tatlı durur"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — teller daha çıtır olur ve alt kat daha iyi kızarır",
+     "margarin — daha ekonomiktir ancak tereyağının kokusunu vermez"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — aynı miktarda kullanılır, şerbetin şekerlenmesini aynı şekilde engeller"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "tel kadayıf",
+    "substitutes": []
+   },
+   {
+    "name": "iri dövülmüş ceviz içi",
+    "substitutes": [
+     "Antep fıstığı içi — rengi ve tadı canlanır, maliyeti artar",
+     "iç fındık — kavrulup zarı alınarak kullanılır, daha tatlı durur"
+    ]
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": [
+     "sadeyağ — teller daha çıtır olur ve alt kat daha iyi kızarır",
+     "margarin — daha ekonomiktir ancak tereyağının kokusunu vermez"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — aynı miktarda kullanılır, şerbetin şekerlenmesini aynı şekilde engeller"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi",
+  "title": "Muska Tatlısı",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Yufka şeritleri kesildikten sonra üzerini nemli bezle örtün. Açıkta bekleyen yufka kurur, katlarken çatlar ve kızartma sırasında ceviz dışarı dökülür."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Yufka şeritleri kesildikten sonra üzerini nemli bezle örtün. Açıkta bekleyen yufka kurur, katlarken çatlar ve kızartma sırasında ceviz dışarı dökülür."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "yufka",
+    "substitutes": [
+     "baklavalık yufka — daha ince olduğu için iki kat kullanın, sonuç daha çıtır olur"
+    ]
+   },
+   {
+    "name": "iri dövülmüş ceviz içi",
+    "substitutes": [
+     "iç fındık — kavrulup zarı alınarak kullanılır, daha tatlı durur",
+     "Antep fıstığı içi — rengi ve tadı canlandırır, maliyeti yükselir"
+    ]
+   },
+   {
+    "name": "toz şeker (iç için)",
+    "substitutes": []
+   },
+   {
+    "name": "toz tarçın",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": [
+     "mısırözü yağı — aynı sıcaklığa dayanır, tadı daha nötrdür"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — aynı miktarda kullanılır, şerbetin şekerlenmesini aynı şekilde engeller"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "yufka",
+    "substitutes": [
+     "baklavalık yufka — daha ince olduğu için iki kat kullanın, sonuç daha çıtır olur"
+    ]
+   },
+   {
+    "name": "iri dövülmüş ceviz içi",
+    "substitutes": [
+     "iç fındık — kavrulup zarı alınarak kullanılır, daha tatlı durur",
+     "Antep fıstığı içi — rengi ve tadı canlandırır, maliyeti yükselir"
+    ]
+   },
+   {
+    "name": "toz şeker (iç için)",
+    "substitutes": []
+   },
+   {
+    "name": "toz tarçın",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı (kızartmak için)",
+    "substitutes": [
+     "mısırözü yağı — aynı sıcaklığa dayanır, tadı daha nötrdür"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "elma sirkesi — aynı miktarda kullanılır, şerbetin şekerlenmesini aynı şekilde engeller"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+  "title": "Mısır Koçanı Jölesi",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Mısır düşük asitli bir sebzedir: bu jöle kaynar su banyosuyla kilere kaldırılmaz, buzdolabında saklanır ve 4 hafta içinde tüketilir; limon suyunu azaltmayın. Jöle kavanozda tam donmak için 24 saat ister, bu bekleme süreye sayılmaz."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Mısır düşük asitli bir sebzedir: bu jöle kaynar su banyosuyla kilere kaldırılmaz, buzdolabında saklanır ve 4 hafta içinde tüketilir; limon suyunu azaltmayın. Jöle kavanozda tam donmak için 24 saat ister, bu bekleme süreye sayılmaz."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "tanesi alınmış taze mısır koçanı",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "sitrik asit — 60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+    ]
+   },
+   {
+    "name": "toz pektin",
+    "substitutes": [
+     "elma kabuğu ve çekirdek evi — 8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "tanesi alınmış taze mısır koçanı",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "sitrik asit — 60 ml limon suyu yerine 4 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+    ]
+   },
+   {
+    "name": "toz pektin",
+    "substitutes": [
+     "elma kabuğu ve çekirdek evi — 8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — jöle bal renginden koyu kehribara döner ve karamel tadı koçan kokusunu örter"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+  "title": "Şadok Kabuğu Reçeli",
+  "status": 200,
+  "protoSubs": 2,
+  "liveSubs": 2,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Haşlanan kabuğu sıkarken avucunuzla bastırın, bükmeyin; bükülen şerit dağılır ve reçelde lapaya döner. Kavanozların soğuyup kapaklarının içe çökmesi birkaç saat sürer; bu bekleme süreye sayılmaz."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Haşlanan kabuğu sıkarken avucunuzla bastırın, bükmeyin; bükülen şerit dağılır ve reçelde lapaya döner. Kavanozların soğuyup kapaklarının içe çökmesi birkaç saat sürer; bu bekleme süreye sayılmaz."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "şadok (yaklaşık 1,5 kg, yalnız kabuğu)",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — rengi koyulaşır ve hafif karamel tadı gelir"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "sitrik asit — 30 ml limon suyu yerine 2 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "şadok (yaklaşık 1,5 kg, yalnız kabuğu)",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — rengi koyulaşır ve hafif karamel tadı gelir"
+    ]
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "sitrik asit — 30 ml limon suyu yerine 2 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+  "title": "Mürver Çiçeği Jölesi",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Çiçekler kapalı kapta buzdolabında ya da serin bir yerde 24 saat demlenir; jöle de kavanozda tam donmak için 24 saat ister. İki bekleme de süreye sayılmaz. Kara mürver odunsu dallı bir çalı ya da küçük ağaçtır; otsu gövdeli bodur mürverle (Sambucus ebulus) ve baldıran gibi şemsiye çiçekli otlarla karıştırılmaz, tanımadığınız bitkiyi toplamayın."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Çiçekler kapalı kapta buzdolabında ya da serin bir yerde 24 saat demlenir; jöle de kavanozda tam donmak için 24 saat ister. İki bekleme de süreye sayılmaz. Kara mürver odunsu dallı bir çalı ya da küçük ağaçtır; otsu gövdeli bodur mürverle (Sambucus ebulus) ve baldıran gibi şemsiye çiçekli otlarla karıştırılmaz, tanımadığınız bitkiyi toplamayın."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kara mürver çiçeği şemsiyesi (Sambucus nigra, tam açmış)",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon (dilimlenmiş)",
+    "substitutes": [
+     "misket limonu — 3 adet dilimlenerek; jöle daha keskin ve yeşil bir koku alır"
+    ]
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "sitrik asit — 45 ml limon suyu yerine 3 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+    ]
+   },
+   {
+    "name": "toz pektin",
+    "substitutes": [
+     "elma kabuğu ve çekirdek evi — 8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kara mürver çiçeği şemsiyesi (Sambucus nigra, tam açmış)",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "limon (dilimlenmiş)",
+    "substitutes": [
+     "misket limonu — 3 adet dilimlenerek; jöle daha keskin ve yeşil bir koku alır"
+    ]
+   },
+   {
+    "name": "limon suyu",
+    "substitutes": [
+     "sitrik asit — 45 ml limon suyu yerine 3 g, 1 yemek kaşığı suda eritilerek; asitlik aynı kalır ama limon kokusu gelmez"
+    ]
+   },
+   {
+    "name": "toz pektin",
+    "substitutes": [
+     "elma kabuğu ve çekirdek evi — 8 ekşi elmanınki (yaklaşık 400 g) tülbente bağlanıp sıvıyla birlikte 30 dakika kaynatılır ve çıkarılır; ek pektin gerekmez ama pişirme uzar ve hafif elma tadı geçer"
+    ]
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+  "title": "Japon Ayvası Jölesi",
+  "status": 200,
+  "protoSubs": 1,
+  "liveSubs": 1,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Tülbentteki meyvenin suyu kendi kendine süzülürken 8–12 saat bekler; bu bekleme süreye sayılmaz ve tülbent sıkılmaz. Japon ayvası zaten çok ekşidir, jöleye limon gerekmez."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Tülbentteki meyvenin suyu kendi kendine süzülürken 8–12 saat bekler; bu bekleme süreye sayılmaz ve tülbent sıkılmaz. Japon ayvası zaten çok ekşidir, jöleye limon gerekmez."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Japon ayvası (Chaenomeles)",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — jöle kehribardan koyu kahveye döner, berraklığı korunur ama meyve kokusu geri planda kalır"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Japon ayvası (Chaenomeles)",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "toz şeker",
+    "substitutes": [
+     "esmer şeker — jöle kehribardan koyu kahveye döner, berraklığı korunur ama meyve kokusu geri planda kalır"
+    ]
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz",
+  "title": "Jamaika Usulü Ananas Zencefil Reçeli",
+  "status": 200,
+  "protoSubs": 0,
+  "liveSubs": 0,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Dondurucuya kaldıracağınız kavanozlarda üstte 1-2 santim boşluk bırakın, aksi halde donarken genişleyen karışım kapağı iter. Çözdürdükten sonra buzdolabında bir hafta içinde tüketin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Dondurucuya kaldıracağınız kavanozlarda üstte 1-2 santim boşluk bırakın, aksi halde donarken genişleyen karışım kapağı iter. Çözdürdükten sonra buzdolabında bir hafta içinde tüketin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "Ananas soyulmuş, doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "taze zencefil rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "Ananas soyulmuş, doğranmış",
+    "substitutes": []
+   },
+   {
+    "name": "taze zencefil rendelenmiş",
+    "substitutes": []
+   },
+   {
+    "name": "Toz şeker",
+    "substitutes": []
+   },
+   {
+    "name": "Limon suyu",
+    "substitutes": []
+   }
+  ],
+  "repo": {
+   "file": "e14-06.json",
+   "remind": "Dondurucuya kaldıracağınız kavanozlarda üstte 1-2 santim boşluk bırakın, aksi halde donarken genişleyen karışım kapağı iter. Çözdürdükten sonra buzdolabında bir hafta içinde tüketin.",
+   "subs": 0,
+   "ingredients": 4
+  }
+ },
+ {
+  "slug": "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+  "title": "Shami Kebap",
+  "status": 200,
+  "protoSubs": 5,
+  "liveSubs": 5,
+  "protoAllergen": true,
+  "liveAllergen": true,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Chana dal bir gece önceden suda bekletilir ve bu süre pişirmeye dahil değildir. Ezilen harç şekillendirilmeden önce en az 30 dakika buzdolabında dinlenir; soğuyan harç tavada tutunur, ılık harç yayılıp dağılır. Alerjen: Malzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Chana dal bir gece önceden suda bekletilir ve bu süre pişirmeye dahil değildir. Ezilen harç şekillendirilmeden önce en az 30 dakika buzdolabında dinlenir; soğuyan harç tavada tutunur, ılık harç yayılıp dağılır. Alerjen: Malzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "yağsız dana kuşbaşı",
+    "substitutes": [
+     "kuzu kuşbaşı — daha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzar"
+    ]
+   },
+   {
+    "name": "chana dal (kabuğu ayrılmış sarı nohut)",
+    "substitutes": [
+     "sarı mercimek — 15 dakika daha kısa pişer ve harcı biraz daha yumuşak bağlar"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "taze zencefil",
+    "substitutes": [
+     "hazır zencefil-sarımsak ezmesi — 2 yemek kaşığı kullanılır ve sarımsak ayrıca eklenmez"
+    ]
+   },
+   {
+    "name": "kuru kırmızı biber",
+    "substitutes": [
+     "pul biber — 2 çay kaşığı kullanılır, acılığı daha keskin ve daha az meyvemsi olur"
+    ]
+   },
+   {
+    "name": "kimyon tohumu",
+    "substitutes": []
+   },
+   {
+    "name": "kişniş tohumu",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber tanesi",
+    "substitutes": []
+   },
+   {
+    "name": "kakule",
+    "substitutes": []
+   },
+   {
+    "name": "karanfil",
+    "substitutes": []
+   },
+   {
+    "name": "tarçın çubuğu",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "taze kişniş",
+    "substitutes": [
+     "maydanoz — kişnişin sabunsu kokusunu sevmeyenler için, tadı daha nötrdür"
+    ]
+   },
+   {
+    "name": "yeşil acı biber",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "yağsız dana kuşbaşı",
+    "substitutes": [
+     "kuzu kuşbaşı — daha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzar"
+    ]
+   },
+   {
+    "name": "chana dal (kabuğu ayrılmış sarı nohut)",
+    "substitutes": [
+     "sarı mercimek — 15 dakika daha kısa pişer ve harcı biraz daha yumuşak bağlar"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "taze zencefil",
+    "substitutes": [
+     "hazır zencefil-sarımsak ezmesi — 2 yemek kaşığı kullanılır ve sarımsak ayrıca eklenmez"
+    ]
+   },
+   {
+    "name": "kuru kırmızı biber",
+    "substitutes": [
+     "pul biber — 2 çay kaşığı kullanılır, acılığı daha keskin ve daha az meyvemsi olur"
+    ]
+   },
+   {
+    "name": "kimyon tohumu",
+    "substitutes": []
+   },
+   {
+    "name": "kişniş tohumu",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber tanesi",
+    "substitutes": []
+   },
+   {
+    "name": "kakule",
+    "substitutes": []
+   },
+   {
+    "name": "karanfil",
+    "substitutes": []
+   },
+   {
+    "name": "tarçın çubuğu",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "su",
+    "substitutes": []
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "taze kişniş",
+    "substitutes": [
+     "maydanoz — kişnişin sabunsu kokusunu sevmeyenler için, tadı daha nötrdür"
+    ]
+   },
+   {
+    "name": "yeşil acı biber",
+    "substitutes": []
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+  "title": "Tire Köfte",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Şişe sarılan köfteleri köze vermeden önce buzdolabında 30 dakika bekletin ve mangalda alevin sönüp korun külle örtülmesini bekleyin; ılık harç ve alevli ateş köfteyi şişten düşürür."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Şişe sarılan köfteleri köze vermeden önce buzdolabında 30 dakika bekletin ve mangalda alevin sönüp korun külle örtülmesini bekleyin; ılık harç ve alevli ateş köfteyi şişten düşürür."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kuzu ve dana karışık kıyma (%20 yağlı)",
+    "substitutes": [
+     "yalnız dana kıyma (yağlı) — daha sade tat verir; yağ oranı %15'in altına düşerse harç şişte tutunmaz ve kayar"
+    ]
+   },
+   {
+    "name": "kuru soğan (suyu için)",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "domates (rendelenmiş)",
+    "substitutes": [
+     "konserve küp domates — kışın daha dolgun renk verir, aynı miktar"
+    ]
+   },
+   {
+    "name": "domates salçası",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "ince pide",
+    "substitutes": [
+     "lavaş — daha ince olduğu için sosu hemen çeker, tabak kurulur kurulmaz sofraya gider"
+    ]
+   },
+   {
+    "name": "süzme yoğurt",
+    "substitutes": [
+     "tam yağlı yoğurt — daha sulu ve ekşimsidir, tabağa değil ayrı kâseye konur"
+    ]
+   },
+   {
+    "name": "tereyağı (üstüne)",
+    "substitutes": []
+   },
+   {
+    "name": "sivri biber",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kuzu ve dana karışık kıyma (%20 yağlı)",
+    "substitutes": [
+     "yalnız dana kıyma (yağlı) — daha sade tat verir; yağ oranı %15'in altına düşerse harç şişte tutunmaz ve kayar"
+    ]
+   },
+   {
+    "name": "kuru soğan (suyu için)",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "domates (rendelenmiş)",
+    "substitutes": [
+     "konserve küp domates — kışın daha dolgun renk verir, aynı miktar"
+    ]
+   },
+   {
+    "name": "domates salçası",
+    "substitutes": []
+   },
+   {
+    "name": "tereyağı",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "ince pide",
+    "substitutes": [
+     "lavaş — daha ince olduğu için sosu hemen çeker, tabak kurulur kurulmaz sofraya gider"
+    ]
+   },
+   {
+    "name": "süzme yoğurt",
+    "substitutes": [
+     "tam yağlı yoğurt — daha sulu ve ekşimsidir, tabağa değil ayrı kâseye konur"
+    ]
+   },
+   {
+    "name": "tereyağı (üstüne)",
+    "substitutes": []
+   },
+   {
+    "name": "sivri biber",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+  "title": "Pırasa Köftesi",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Haşlanan pırasayı elinizi yakmayacak kadar soğumaya bırakın ve sıkarken acımayın; suyu alınmamış pırasa köfteyi yağda dağıtır."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Haşlanan pırasayı elinizi yakmayacak kadar soğumaya bırakın ve sıkarken acımayın; suyu alınmamış pırasa köfteyi yağda dağıtır."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "pırasa",
+    "substitutes": []
+   },
+   {
+    "name": "dana kıyma (orta yağlı)",
+    "substitutes": [
+     "kuzu kıyma — daha yağlı ve kokulu olur",
+     "haşlanmış patates — kıymanın yerine 300 g ezilip konunca köfte etsiz olur, harç biraz daha yumuşak kalır"
+    ]
+   },
+   {
+    "name": "bayat ekmek içi",
+    "substitutes": [
+     "galeta unu — daha az nem tutar, 60 g yeter"
+    ]
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "un (bulamak için)",
+    "substitutes": [
+     "mısır unu — daha çıtır bir kabuk verir, aynı miktar"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": []
+   },
+   {
+    "name": "limon",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "pırasa",
+    "substitutes": []
+   },
+   {
+    "name": "dana kıyma (orta yağlı)",
+    "substitutes": [
+     "kuzu kıyma — daha yağlı ve kokulu olur",
+     "haşlanmış patates — kıymanın yerine 300 g ezilip konunca köfte etsiz olur, harç biraz daha yumuşak kalır"
+    ]
+   },
+   {
+    "name": "bayat ekmek içi",
+    "substitutes": [
+     "galeta unu — daha az nem tutar, 60 g yeter"
+    ]
+   },
+   {
+    "name": "yumurta",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "un (bulamak için)",
+    "substitutes": [
+     "mısır unu — daha çıtır bir kabuk verir, aynı miktar"
+    ]
+   },
+   {
+    "name": "ayçiçek yağı",
+    "substitutes": []
+   },
+   {
+    "name": "limon",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+  "title": "Yeni Dünya Kebabı",
+  "status": 200,
+  "protoSubs": 3,
+  "liveSubs": 3,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Yeni dünyanın sert ve hafif ekşi olanını seçin, fazla olgun meyve közde dağılır; közü de alevi sönüp korları külle örtülene kadar bekletin."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Yeni dünyanın sert ve hafif ekşi olanını seçin, fazla olgun meyve közde dağılır; közü de alevi sönüp korları külle örtülene kadar bekletin."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "kuzu kıyma (yağlı)",
+    "substitutes": [
+     "dana kıyma (yağlı) — daha az kokulu ve daha az yağlıdır; yağ oranı %20'nin altındaysa köfte şişte kurur"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "isot",
+    "substitutes": [
+     "pul biber ve tatlı toz biber (yarı yarıya) — rengi tutar ama isotun is kokusunu vermez"
+    ]
+   },
+   {
+    "name": "pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "yeni dünya (malta eriği)",
+    "substitutes": []
+   },
+   {
+    "name": "lavaş",
+    "substitutes": []
+   },
+   {
+    "name": "sivri biber",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan (piyazlık)",
+    "substitutes": [
+     "mor soğan — daha tatlı ve daha az keskindir"
+    ]
+   },
+   {
+    "name": "sumak",
+    "substitutes": []
+   },
+   {
+    "name": "maydanoz",
+    "substitutes": []
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "kuzu kıyma (yağlı)",
+    "substitutes": [
+     "dana kıyma (yağlı) — daha az kokulu ve daha az yağlıdır; yağ oranı %20'nin altındaysa köfte şişte kurur"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "isot",
+    "substitutes": [
+     "pul biber ve tatlı toz biber (yarı yarıya) — rengi tutar ama isotun is kokusunu vermez"
+    ]
+   },
+   {
+    "name": "pul biber",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "yeni dünya (malta eriği)",
+    "substitutes": []
+   },
+   {
+    "name": "lavaş",
+    "substitutes": []
+   },
+   {
+    "name": "sivri biber",
+    "substitutes": []
+   },
+   {
+    "name": "kuru soğan (piyazlık)",
+    "substitutes": [
+     "mor soğan — daha tatlı ve daha az keskindir"
+    ]
+   },
+   {
+    "name": "sumak",
+    "substitutes": []
+   },
+   {
+    "name": "maydanoz",
+    "substitutes": []
+   }
+  ],
+  "repo": null
+ },
+ {
+  "slug": "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte",
+  "title": "Kağıtta Köfte",
+  "status": 200,
+  "protoSubs": 4,
+  "liveSubs": 4,
+  "protoAllergen": false,
+  "liveAllergen": false,
+  "protoNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Fırını 200 °C'ye önceden ısıtın ve paketi sofrada açarken yüzünüzü uzak tutun; içeride biriken buhar kâğıt yırtılınca bir anda çıkar."
+   }
+  ],
+  "liveNotes": [
+   {
+    "title": "Hatırlatma",
+    "body": "Fırını 200 °C'ye önceden ısıtın ve paketi sofrada açarken yüzünüzü uzak tutun; içeride biriken buhar kâğıt yırtılınca bir anda çıkar."
+   }
+  ],
+  "protoIngredients": [
+   {
+    "name": "dana kıyma (orta yağlı)",
+    "substitutes": [
+     "kuzu kıyma — daha yağlı ve kokuludur, patatese daha çok yağ işler"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "bayat ekmek içi",
+    "substitutes": [
+     "galeta unu — daha az nem tutar, 30 g yeter"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "patates",
+    "substitutes": [
+     "tatlı patates — daha tatlı olur ve aynı sürede daha yumuşak pişer"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sivri biber",
+    "substitutes": []
+   },
+   {
+    "name": "domates",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "kekik",
+    "substitutes": []
+   },
+   {
+    "name": "pişirme kâğıdı (40×40 santim)",
+    "substitutes": [
+     "alüminyum folyo — buharı daha sıkı tutar; domatesin asidi folyoya değmesin diye içine bir kat pişirme kâğıdı serin"
+    ]
+   }
+  ],
+  "liveIngredients": [
+   {
+    "name": "dana kıyma (orta yağlı)",
+    "substitutes": [
+     "kuzu kıyma — daha yağlı ve kokuludur, patatese daha çok yağ işler"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "bayat ekmek içi",
+    "substitutes": [
+     "galeta unu — daha az nem tutar, 30 g yeter"
+    ]
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "karabiber",
+    "substitutes": []
+   },
+   {
+    "name": "kimyon",
+    "substitutes": []
+   },
+   {
+    "name": "patates",
+    "substitutes": [
+     "tatlı patates — daha tatlı olur ve aynı sürede daha yumuşak pişer"
+    ]
+   },
+   {
+    "name": "kuru soğan",
+    "substitutes": []
+   },
+   {
+    "name": "sivri biber",
+    "substitutes": []
+   },
+   {
+    "name": "domates",
+    "substitutes": []
+   },
+   {
+    "name": "sarımsak",
+    "substitutes": []
+   },
+   {
+    "name": "zeytinyağı",
+    "substitutes": []
+   },
+   {
+    "name": "tuz",
+    "substitutes": []
+   },
+   {
+    "name": "kekik",
+    "substitutes": []
+   },
+   {
+    "name": "pişirme kâğıdı (40×40 santim)",
+    "substitutes": [
+     "alüminyum folyo — buharı daha sıkı tutar; domatesin asidi folyoya değmesin diye içine bir kat pişirme kâğıdı serin"
+    ]
+   }
+  ],
+  "repo": null
+ }
+]

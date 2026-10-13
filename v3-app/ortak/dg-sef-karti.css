@@ -1,0 +1,57 @@
+/* Şef / yazar kartı (Beyar revize D6, 13 Ekim) — kök tarif detayındaki (detay-v2) “Şef kartı 2”nin BİREBİR aynısı: kurallar
+   detay-v2.css'ten (satır 42–104) aynen alındı, değerler token. Uygulama sayfaları DG.sefKarti ile aynı işaretlemeyi yazar
+   (halkalı 56 avatar + ad + kademe rozeti + ok, eşit sayaç sütunları, geniş “Takip et” + kompakt “Abone ol”). Yalnız ana ajan yazar.
+   detay-v2 değişirse bu dosya da aynı satırlarla güncellenir. */
+.dv2-chef-id{display:grid;align-items:center;gap:var(--space-12);min-width:0;min-height:var(--touch-target);color:var(--ink);text-decoration:none;border-radius:var(--radius-control)}
+.dv2-chef-id:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato-dark);outline-offset:var(--space-4)}
+.dv2-avatar{display:grid;place-items:center;width:var(--avatar-chef);height:var(--avatar-chef);min-width:var(--avatar-chef);min-height:var(--avatar-chef);aspect-ratio:1;flex-shrink:0;border-radius:var(--radius-avatar);background:var(--line);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-sheet-size);line-height:1;background-size:cover;background-position:center}
+.dv2-avatar.dv2-avatar-lg{width:var(--avatar-lg);height:var(--avatar-lg);min-width:var(--avatar-lg);min-height:var(--avatar-lg);font-size:var(--role-page-size)}
+.dv2-chef-name{display:flex;align-items:center;gap:var(--space-8);max-width:100%;min-width:0;font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-subheading-size);line-height:var(--role-subheading-line);letter-spacing:var(--role-subheading-tracking)}
+/* Unvan rozeti: canlı .side-chef .sc-badge dili — zeminsiz, büyük harf etiket, domates metin + fa-award. */
+.dv2-chef-badge{display:inline-flex;align-items:center;gap:var(--space-4);max-width:100%;padding:0;border-radius:0;background:none;color:var(--tomato-dark);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-label-size);line-height:var(--role-label-line);letter-spacing:var(--role-label-tracking);text-transform:uppercase;white-space:nowrap}
+.dv2-chef-badge span{overflow:hidden;text-overflow:ellipsis}
+.dv2-chef-badge .icon{font-size:var(--type-label)}
+.dv2-chef-go{font-size:var(--icon-sm);color:var(--muted)}
+.dv2-chef-bio{margin:var(--space-12) 0 0;color:var(--slate-2)}
+/* Eylemler: Takip et ana eylem (primary dolu), Abone ol minimal metin eylemi; ikisi de 44px hedef. */
+.dv2-follow,.dv2-subscribe{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:var(--space-8);border:0;cursor:pointer;white-space:nowrap;font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.dv2-follow{min-height:var(--touch-target);padding:0 var(--space-16);border:var(--border-width) solid var(--tomato-tint);border-radius:var(--radius-control);background:var(--tomato-tint);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);transition:background var(--transition-fast) var(--ease),color var(--transition-fast) var(--ease)}
+.dv2-follow .icon{font-size:var(--icon-sm);color:currentColor}
+.dv2-follow[aria-pressed=true]{border-color:var(--line);background:var(--paper);color:var(--ink)}
+.dv2-subscribe{min-height:var(--touch-target);padding:0 var(--space-8);border-radius:var(--radius-control);background:none;color:var(--slate-2)}
+.dv2-subscribe .icon{font-size:var(--icon-sm);color:var(--slate-2)}
+.dv2-subscribe[aria-pressed=true],.dv2-subscribe[aria-pressed=true] .icon{color:var(--tomato-deep)}
+.dv2-follow:focus-visible,.dv2-subscribe:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato-dark);outline-offset:calc(var(--border-width) * 2)}
+.dv2-chef-x{position:relative;display:grid;justify-items:start;gap:var(--space-8);padding:var(--space-16);border-radius:var(--radius-card)}
+.dv2-chef-x .dv2-chef-link{position:static;display:block;min-height:0;max-width:100%;border-radius:0}
+/* Kartı kaplayan profil bağlantısı; eylemler üstte ayrı 44px hedef. */
+.dv2-chef-x .dv2-chef-link::after{content:'';position:absolute;inset:0;z-index:0;border-radius:var(--radius-card)}
+.dv2-chef-x .dv2-chef-link:focus-visible{outline:none}
+.dv2-chef-x .dv2-chef-link:focus-visible::after{outline:calc(var(--border-width) * 2) solid var(--tomato-dark);outline-offset:calc(var(--border-width) * 2)}
+.dv2-chef-x .dv2-follow,.dv2-chef-x .dv2-subscribe{position:relative;z-index:1}
+.dv2-chef-x .dv2-chef-name{display:flex;align-items:center;gap:var(--space-8);font-size:var(--role-featured-size);line-height:var(--role-featured-line);letter-spacing:var(--role-featured-tracking);color:var(--ink)}
+.dv2-chef-x .dv2-chef-go{flex:none;color:var(--slate-2)}
+.dv2-chef-x .dv2-chef-bio{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0}
+/* Durum katmanları: "Takip et" ve "Takip ediliyor" aynı hücrede; genişlik büyük etikete sabit. */
+.dv2-chef-x .dv2-follow,.dv2-chef-x .dv2-subscribe{display:inline-grid;place-items:center;font-size:var(--role-button-size);line-height:var(--role-button-line)}
+.dv2-x-state{grid-area:1/1;display:inline-flex;align-items:center;gap:var(--space-8);white-space:nowrap}
+.dv2-x-state[data-on=false]{visibility:hidden}
+.dv2-chef-x .dv2-follow .icon,.dv2-chef-x .dv2-subscribe .icon{font-size:var(--icon-sm);color:currentColor}
+/* Şef kartı 2 (10 Ekim, eski b): beyaz kart, ince çizgi, kart radius'u; satırlar arası eşit 16px ritim. */
+.dv2-chef-b{gap:var(--space-16);border:var(--border-width) solid var(--line);background:var(--paper)}
+.dv2-chef-b .dv2-b-top{display:grid;grid-template-columns:var(--avatar-lg) minmax(0,1fr) var(--icon-sm);align-items:center;gap:var(--space-16);width:100%}
+.dv2-chef-b .dv2-x-avatar{box-shadow:0 0 0 calc(var(--space-4) / 2) var(--paper),0 0 0 var(--space-4) var(--tomato)}
+.dv2-chef-b .dv2-b-id{display:grid;justify-items:start;gap:var(--space-4);min-width:0}
+.dv2-chef-b .dv2-chef-link{width:100%}
+/* Ad tek satır; uzun adda "…" (2 satıra taşmaz). */
+.dv2-chef-b .dv2-chef-name{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dv2-chef-b .dv2-b-actions{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--space-8);width:100%}
+.dv2-chef-b .dv2-b-follow,.dv2-chef-b .dv2-b-sub{min-height:var(--touch-target);height:var(--touch-target);border-radius:var(--radius-control)}
+.dv2-chef-b .dv2-b-follow{padding:0 var(--space-16);border:var(--border-width) solid var(--tomato-tint);background:var(--tomato-tint);color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold)}
+.dv2-chef-b .dv2-b-follow[aria-pressed=true]{border-color:var(--line);background:var(--paper);color:var(--ink)}
+.dv2-chef-b .dv2-b-follow[aria-pressed=true] .icon{color:var(--tomato-dark)}
+.dv2-chef-b .dv2-b-sub{padding:0 var(--space-16);border:var(--border-width) solid var(--line);background:var(--paper);color:var(--slate-2)}
+.dv2-chef-b .dv2-b-sub[aria-pressed=true]{color:var(--tomato-deep)}
+
+/* Üyelik yılı (revize eki 13 Ekim): sayaç değil, ad altında anlaşılır ifade — “2026'dan beri üye”. */
+.dgu-skart .dgu-skart-uyelik{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--slate-2)}

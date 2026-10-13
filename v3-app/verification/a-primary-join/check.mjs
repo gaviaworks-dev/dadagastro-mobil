@@ -1,0 +1,14 @@
+import { chromium } from '/Users/gaviaworks/Developer/Backend Projects/dadagastro/node_modules/playwright/index.mjs';
+import fs from 'node:fs';
+const phase=process.argv[2]||'before', dir='v3-app/verification/a-primary-join';
+const browser=await chromium.launch(); const report=[];
+for(const name of ['a','a-uzun','a-orta','a-kisa','b','c','d','e','f']) for(const width of ((name.startsWith('a')||name==='d')?[360,390,430]:[390])){
+ const page=await browser.newPage({viewport:{width,height:844},reducedMotion:'reduce'});
+ await page.goto(`http://127.0.0.1:8765/v3-app/ana-${name}.html`);await page.evaluate(()=>document.fonts.ready);await page.waitForTimeout(600);
+ await page.screenshot({path:`${dir}/${phase}-${name}-${width}.png`});
+ const geometry=await page.evaluate(()=>{const b=document.querySelector('.purpose-banner'),p=document.querySelector('.decision-kitchen'),h=p.querySelector('.kitchen-heading');return {scroll:scrollY,overflow:document.documentElement.scrollWidth-innerWidth,bannerBottom:b.getBoundingClientRect().bottom,panelTop:p.getBoundingClientRect().top,contentTop:h.getBoundingClientRect().top,bannerRadius:getComputedStyle(b).borderBottomLeftRadius,panelRadius:getComputedStyle(p).borderTopLeftRadius,panelBorder:getComputedStyle(p).borderTopWidth,panelColor:getComputedStyle(p).borderTopColor,overlap:b.getBoundingClientRect().bottom-p.getBoundingClientRect().top,answerGap:document.querySelector(".purpose-answer")?p.getBoundingClientRect().top-document.querySelector(".purpose-answer").getBoundingClientRect().bottom:null}});
+ const scroll=[];if(phase==='after'&&name.startsWith('a')){for(let y=0;y<=400;y+=20){await page.evaluate(y=>window.scrollTo(0,y),y);await page.waitForTimeout(30);scroll.push(await page.evaluate(()=>{const h=document.querySelector('.topbar');const hr=h.getBoundingClientRect();return {y:scrollY,background:getComputedStyle(h).backgroundColor,overlaps:[...document.querySelectorAll('.six-hero-group')].filter(e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return s.visibility!=='hidden'&&Number(s.opacity)>0&&r.top<hr.bottom&&r.bottom>hr.top}).length}}));}await page.evaluate(()=>scrollTo(0,120));await page.waitForTimeout(80);await page.screenshot({path:`${dir}/scroll-${name}-${width}.png`});}
+ report.push({name,width,...geometry,scrollChecks:scroll});await page.close();
+}
+if(phase==='after'){const p=await browser.newPage({viewport:{width:1440,height:1000}});await p.goto('http://127.0.0.1:8765/v3-app/ana-sayfa-alti.html');await p.waitForTimeout(2000);await p.screenshot({path:`${dir}/gallery-1440.png`,fullPage:true});report.push({gallery:await Promise.all(p.frames().slice(1).map(f=>f.evaluate(()=>({width:innerWidth,height:innerHeight,scroll:scrollY}))))});}
+fs.writeFileSync(`${dir}/${phase}.json`,JSON.stringify(report,null,2));await browser.close();

@@ -1,0 +1,448 @@
+{
+ "tarih": "2026-10-09T19:04:59.053Z",
+ "sayfalar": {
+  "ana-v3-alt1.html": [
+   {
+    "engine": "chromium",
+    "width": 360,
+    "kartlar": 6,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.238
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 11.16,
+     "oneri": 9.69,
+     "oneri_kucuk": 9.47
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "chromium",
+    "width": 390,
+    "kartlar": 6,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.238
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 11.17,
+     "oneri": 9.36,
+     "oneri_kucuk": 9.43
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "chromium",
+    "width": 430,
+    "kartlar": 6,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.238
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 11.17,
+     "oneri": 9.36,
+     "oneri_kucuk": 9.43
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 360,
+    "kartlar": 6,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.238
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 390,
+    "kartlar": 6,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.238
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 430,
+    "kartlar": 6,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.238
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   }
+  ],
+  "ana-v3-alt2.html": [
+   {
+    "engine": "chromium",
+    "width": 360,
+    "kartlar": 4,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.248
+    },
+    "header": {
+     "ilk_tam_opak_y": 20,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 9.55,
+     "oneri": 13.12,
+     "oneri_kucuk": 10.5
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "chromium",
+    "width": 390,
+    "kartlar": 4,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.245
+    },
+    "header": {
+     "ilk_tam_opak_y": 20,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 9.65,
+     "oneri": 12.93,
+     "oneri_kucuk": 11.82
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "chromium",
+    "width": 430,
+    "kartlar": 4,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.247
+    },
+    "header": {
+     "ilk_tam_opak_y": 20,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 9.81,
+     "oneri": 12.93,
+     "oneri_kucuk": 11.87
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 360,
+    "kartlar": 4,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.248
+    },
+    "header": {
+     "ilk_tam_opak_y": 20,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 390,
+    "kartlar": 4,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.245
+    },
+    "header": {
+     "ilk_tam_opak_y": 20,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 430,
+    "kartlar": 4,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 1.247
+    },
+    "header": {
+     "ilk_tam_opak_y": 20,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   }
+  ],
+  "ana-v3-alt3.html": [
+   {
+    "engine": "chromium",
+    "width": 360,
+    "kartlar": 5,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 0.716
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 16.64,
+     "oneri": 16.64,
+     "oneri_kucuk": 7.86
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "chromium",
+    "width": 390,
+    "kartlar": 5,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 0.716
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 16.64,
+     "oneri": 16.64,
+     "oneri_kucuk": 7.86
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "chromium",
+    "width": 430,
+    "kartlar": 5,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 0.716
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kontrast": {
+     "baslik": 16.64,
+     "oneri": 16.64,
+     "oneri_kucuk": 7.86
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 360,
+    "kartlar": 5,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 0.716
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 390,
+    "kartlar": 5,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 0.716
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   },
+   {
+    "engine": "webkit",
+    "width": 430,
+    "kartlar": 5,
+    "sira_ok": true,
+    "zeminler_ok": true,
+    "overlay": {
+     "duraklar": 41,
+     "en_dik_egim_yuzde_px": 0.716
+    },
+    "header": {
+     "ilk_tam_opak_y": 60,
+     "cakisma": 0
+    },
+    "kategori_sekme": {
+     "fark": 0,
+     "sonraki": 0
+    }
+   }
+  ]
+ },
+ "statik": {
+  "ana-v3-alt1.css": {
+   "px_disi": [
+    ".alt1 .alt1-dots button:focus-visible{outline:2px solid var(--paper);outline-off"
+   ],
+   "outline": 0,
+   "important": 0
+  },
+  "ana-v3-alt2.css": {
+   "px_disi": [],
+   "outline": 0,
+   "important": 0
+  },
+  "ana-v3-alt3.css": {
+   "px_disi": [],
+   "outline": 0,
+   "important": 0
+  },
+  "ana-v3-alt-ortak.js": {
+   "px_disi": [
+    "// from the first text line, a long smooth rise (80% reached 24px above the text"
+   ],
+   "outline": 0,
+   "important": 0
+  },
+  "ana-v3-alt1.js": {
+   "px_disi": [],
+   "outline": 0,
+   "important": 0
+  },
+  "ana-v3-alt2.js": {
+   "px_disi": [],
+   "outline": 0,
+   "important": 0
+  },
+  "ana-v3-alt3.js": {
+   "px_disi": [],
+   "outline": 0,
+   "important": 0
+  },
+  "ana-sayfa-alternatifler.css": {
+   "px_disi": [
+    ".as-open:focus-visible,.as-tabs button:focus-visible{outline:2px solid var(--tom",
+    "@media (max-width:1100px){",
+    "@media (max-width:600px){"
+   ],
+   "outline": 0,
+   "important": 0
+  }
+ }
+}

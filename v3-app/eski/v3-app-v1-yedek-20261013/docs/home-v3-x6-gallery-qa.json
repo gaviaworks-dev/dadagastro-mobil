@@ -1,0 +1,42 @@
+{
+ "390": {
+  "overflow": false,
+  "frames": [
+   {
+    "url": "ana-v3.html?gallery=1&v=x6-1",
+    "scrollY": 0,
+    "vw": 390,
+    "vh": 844,
+    "ready": true
+   },
+   {
+    "url": "ana-x6.html?gallery=1",
+    "scrollY": 0,
+    "vw": 390,
+    "vh": 844,
+    "ready": true
+   }
+  ],
+  "errs": []
+ },
+ "1440": {
+  "overflow": false,
+  "frames": [
+   {
+    "url": "ana-v3.html?gallery=1&v=x6-1",
+    "scrollY": 0,
+    "vw": 390,
+    "vh": 844,
+    "ready": true
+   },
+   {
+    "url": "ana-x6.html?gallery=1",
+    "scrollY": 0,
+    "vw": 390,
+    "vh": 844,
+    "ready": true
+   }
+  ],
+  "errs": []
+ }
+}

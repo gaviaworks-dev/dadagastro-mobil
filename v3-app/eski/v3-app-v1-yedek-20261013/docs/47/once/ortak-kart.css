@@ -1,0 +1,145 @@
+/* Ortak tarif kartı ailesi + kart radius kuralı (docs/41 · R3/R4/R7, EK 3; docs/46 birleştirme).
+   Üç ekran bağlı: liste kartları/öne çıkan slider, ana sayfa ve detayın fotoğraf üstü küçük kartı (dg-tile) ile
+   ikişerli slider'ı (dg-pairs), video kartının süre + oynat çifti (dg-meta + dg-play).
+   tokens.css değişmez: buradaki token'lar karar verilince kalıcı hâle getirilir.
+   Seçenekler <html> üzerindeki data-dg-* niteliklerinden gelir (ortak-kart.js, adres parametresi). */
+
+/* ---------- R3 · Tarif kartı radius'u (EK 3) ----------
+   ?radius yalnız tarif kartlarını etkiler (normal kart, öne çıkan kart/slider, satır kartı); kontroller kanondaki
+   --radius-control / --radius-segment / --radius-sheet değerlerinde kalır. Eski 24 çok yuvarlak, EK 2'deki 8–12 çok
+   keskindi: a = 16, b = 20. Kart içindeki öğeler iç içe kuralıyla türetilir: kart − kenar boşluğu, en az 6. */
+:root,:root[data-dg-radius=a]{--dg-card-r:var(--space-16)}
+:root[data-dg-radius=b]{--dg-card-r:var(--space-20)}
+:root{
+  --dg-r-avatar:var(--radius-avatar);
+  --dg-r-min:calc(var(--space-4) * 1.5);
+  /* R4 · Metrik rozeti ve kaydet karesi: aynı yükseklik, aynı kenar boşluğu, radius karttan türetilir. */
+  --dg-pair-size:var(--save-visible);
+  --dg-pair-inset:var(--space-8);
+  --dg-pair-r:max(var(--dg-r-min), calc(var(--dg-card-r) - var(--dg-pair-inset)));
+  /* Slider sayacı kart kenarından 16 içeride. */
+  --dg-pager-r:max(var(--dg-r-min), calc(var(--dg-card-r) - var(--space-16)));
+  --dg-glass-dark:color-mix(in srgb,black 56%,transparent);
+  --dg-row-media:calc(var(--space-48) * 3 + var(--space-8));
+  --dg-duration:250ms;
+}
+/* a: açık cam (beyaz zemin, nötr koyu metin) · b: nötr koyu cam (siyah, beyaz metin). Kahverengi ton yok. */
+/* EK 4 · a: yumuşak koyu cam. Kaynak koyu (--overlay, #211E16) %64: filtre hiç uygulanmasa da beyaz metin en
+   açık (beyaz) fotoğrafta ≥ 4,5:1 kalan en düşük opaklık. Bulanıklık + hafif karartma yalnız yumuşatır.
+   Arka plan doygunluğu düşürülür (saturate .8): fotoğrafın sıcak tonu cama kahverengi olarak yansımaz.
+   Çok ince yarı saydam beyaz kenar.
+   b: nötr koyu cam (EK 2), karşılaştırma için olduğu gibi. backdrop-filter yoksa aynı tonda opak zemin. */
+:root,:root[data-dg-rozet=a]{--dg-pair-bg:color-mix(in srgb,var(--overlay) 64%,transparent);--dg-pair-fg:var(--paper);--dg-pair-line:color-mix(in srgb,var(--paper) 16%,transparent);--dg-pair-filter:blur(16px) brightness(.85) saturate(.8);--dg-pair-fallback:color-mix(in srgb,var(--overlay) 88%,var(--paper))}
+:root[data-dg-rozet=b]{--dg-pair-bg:var(--dg-glass-dark);--dg-pair-fg:var(--paper);--dg-pair-line:transparent;--dg-pair-filter:blur(12px);--dg-pair-fallback:color-mix(in srgb,black 80%,var(--paper))}
+
+/* ---------- R7 · Avatar: fotoğraf varsa kapak; yoksa detaydaki gibi baş harf dairesi ----------
+   D3: baş harf etiket (11) yerine bir üst basamak meta (13) ve GilroyBd (mevcut en kalın dosya, ExtraBold);
+   11px'te "İ" küçük "i" gibi okunuyordu. Avatar ölçüsü (--avatar-card) değişmez. */
+.dg-avatar{display:grid;place-items:center;width:var(--avatar-card);height:var(--avatar-card);min-width:var(--avatar-card);min-height:var(--avatar-card);aspect-ratio:1;flex-shrink:0;border-radius:var(--dg-r-avatar);background:var(--line);background-size:cover;background-position:center;color:var(--tomato-deep);font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-meta-size);line-height:1;letter-spacing:0;text-shadow:none}
+.dg-avatar.has-photo{color:transparent}
+.dg-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* ---------- R4 · Metrik rozeti + kaydet karesi (tek kalıp: kart, öne çıkan, satır) ---------- */
+.dg-meta,.dg-save:before,.dg-play:before{background:var(--dg-pair-bg);backdrop-filter:var(--dg-pair-filter);-webkit-backdrop-filter:var(--dg-pair-filter);box-shadow:inset 0 0 0 var(--border-width) var(--dg-pair-line);border-radius:var(--dg-pair-r)}
+.dg-meta{position:absolute;left:var(--dg-pair-inset);top:var(--dg-pair-inset);z-index:3;display:inline-flex;align-items:center;gap:var(--space-8);height:var(--dg-pair-size);max-width:calc(100% - var(--dg-pair-size) - var(--dg-pair-inset) * 3);padding:0 var(--space-8);color:var(--dg-pair-fg);font-family:var(--font);font-size:var(--type-photo-meta);font-weight:var(--weight-body);line-height:1;white-space:nowrap;pointer-events:none}
+.dg-meta>span{display:inline-flex;align-items:center;gap:var(--space-4)}
+.dg-meta .icon{font-size:var(--type-meta)}
+.dg-meta__rating .icon{color:var(--yellow)}
+.dg-save{position:absolute;top:calc(var(--dg-pair-inset) - var(--save-inset));right:calc(var(--dg-pair-inset) - var(--save-inset));z-index:4;display:grid;place-items:center;width:var(--touch-target);height:var(--touch-target);padding:0;border:0;background:transparent;color:var(--dg-pair-fg);isolation:isolate;cursor:pointer}
+.dg-save:before{content:'';position:absolute;inset:var(--save-inset);z-index:-1}
+.dg-save .icon{font-size:var(--icon-sm);transition:color var(--dg-duration) var(--ease)}
+/* İki durum, tek bileşen: zemin aynı kalır, yalnız ikon değişir (kaydedilince primary).
+   docs/46: app.css'teki genel .save gölgesi ve kayıtlı zemin (tomato-tint) 44px dokunma alanını boyuyordu (açık fotoğrafta
+   kaydet karesinin çevresinde açık hale); görünür yüzey yalnız 32px :before camıdır. */
+.dg-save,.dg-save[aria-pressed=true]{background:transparent;box-shadow:none}
+.dg-save[aria-pressed=true]{color:var(--tomato)}
+.dg-save:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:calc(-1 * var(--save-inset))}
+
+/* docs/46 · Video kartının oynat işareti: kaydet karesiyle aynı yer, ölçü ve cam (32px görünür / 44px hedef, 8px kenar). */
+.dg-play{position:absolute;top:calc(var(--dg-pair-inset) - var(--save-inset));right:calc(var(--dg-pair-inset) - var(--save-inset));z-index:4;display:grid;place-items:center;width:var(--touch-target);height:var(--touch-target);color:var(--dg-pair-fg);isolation:isolate;pointer-events:none}
+.dg-play:before{content:'';position:absolute;inset:var(--save-inset);z-index:-1}
+.dg-play .icon{font-size:var(--icon-sm)}
+
+/* ---------- Tarif kartı (dikey) ---------- */
+.dg-card{position:relative;display:flex;flex-direction:column;min-width:0}
+.dg-card__media,.dg-feature__media{position:relative;overflow:hidden;background:var(--line)}
+.dg-card__media{aspect-ratio:4/5;border-radius:var(--dg-card-r)}
+.dg-card__visual,.dg-feature__visual{position:absolute;inset:0;display:block;border-radius:0}
+.dg-photo{position:absolute;inset:0;border-radius:0;background-size:cover;background-position:center;transition:transform var(--dg-duration) var(--ease)}
+.dg-photo.image-failed{display:grid;place-items:center;color:var(--slate-2)}
+.dg-card__body{display:flex;flex-direction:column;gap:var(--space-12);padding:var(--space-12) var(--space-4) 0;min-width:0}
+.dg-card__text{display:grid;gap:var(--space-4);min-width:0;color:inherit;text-decoration:none}
+.dg-card__category{display:block;font-family:GilroyBd,var(--font);font-weight:var(--weight-bold);font-size:var(--role-label-size);line-height:var(--role-label-line);color:var(--tomato-deep);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dg-card__title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;margin:0;color:var(--ink);height:calc(2 * var(--role-card-size) * var(--role-card-line))}
+.dg-author{display:flex;align-items:center;gap:var(--space-8);min-width:0;margin:0;color:var(--slate-2);font-size:var(--role-meta-size);line-height:var(--role-meta-line)}
+.dg-author__name{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dg-card:active .dg-photo,.dg-feature:active .dg-photo{transform:scale(1.02)}
+
+/* ---------- Satır kartı: aynı kalıp ve kart radius'u; kare görsel (rozet + kaydet aynı satırda sığar) ---------- */
+.dg-card--row{display:grid;grid-template-columns:var(--dg-row-media) minmax(0,1fr);column-gap:var(--space-16);align-items:center}
+.dg-card--row .dg-card__media{width:var(--dg-row-media);aspect-ratio:1}
+.dg-card--row .dg-card__body{padding:0}
+.dg-card--row .dg-card__title{height:auto;max-height:calc(2 * var(--role-card-size) * var(--role-card-line))}
+
+/* ---------- Öne çıkan kart: ana sayfa V3 ailesi (görsel üstü metin, tek sürekli gradient) ---------- */
+.dg-feature{position:relative;min-width:0}
+.dg-feature__media{aspect-ratio:4/3;border-radius:var(--dg-card-r)}
+.dg-feature__veil{position:absolute;inset:0;z-index:1;background:var(--dg-veil);pointer-events:none}
+.dg-feature__info{position:absolute;left:var(--space-16);right:calc(var(--space-16) + var(--dg-pager-room, 0px));bottom:var(--space-16);z-index:2;display:flex;flex-direction:column;gap:var(--space-8);min-width:0}
+.dg-feature .dg-card__category,.dg-feature .dg-card__title,.dg-feature .dg-author{color:var(--paper);text-shadow:var(--photo-text-shadow)}
+.dg-feature .dg-card__title{height:auto;max-height:calc(2 * var(--role-featured-size) * var(--role-featured-line))}
+.dg-feature .dg-avatar{text-shadow:none}
+
+/* ---------- R2 · Öne çıkan slider: kaydırma + snap; gösterge kartın içinde ---------- */
+.dg-slider{position:relative;--dg-pager-room:0px}
+.dg-slider__track{display:flex;gap:var(--space-12);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:var(--dg-card-r)}
+.dg-slider__track::-webkit-scrollbar{display:none}
+.dg-slider__track:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:var(--border-width)}
+.dg-slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
+.dg-slider[data-count="1"] .dg-slider__pager{display:none}
+.dg-slider__pager{position:absolute;right:var(--space-16);bottom:var(--space-16);z-index:5;display:flex;align-items:center;height:var(--avatar-card);pointer-events:none}
+/* a: noktalar; etkin nokta uzun ve primary. Tam yuvarlak yalnız avatarda: 8px noktada radius seçim kademesinin yarısı. */
+.dg-pager-dots{display:flex;align-items:center;gap:var(--space-4)}
+.dg-pager-dots i{display:block;width:var(--space-8);height:var(--space-8);border-radius:calc(var(--radius-choice) / 2);background:color-mix(in srgb,var(--paper) 60%,transparent);transition:width var(--dg-duration) var(--ease),background-color var(--dg-duration) var(--ease)}
+.dg-pager-dots i.is-on{width:var(--space-24);background:var(--tomato)}
+/* b: "2 / 5" sayacı; metrik rozetiyle aynı aile. */
+.dg-pager-count{display:inline-flex;align-items:center;height:var(--avatar-card);padding:0 var(--space-8);border-radius:var(--dg-pager-r);background:var(--dg-pair-bg);backdrop-filter:var(--dg-pair-filter);-webkit-backdrop-filter:var(--dg-pair-filter);color:var(--dg-pair-fg);font-size:var(--type-photo-meta);line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* ---------- docs/46 · Fotoğraf üstü küçük kart (dg-tile): ana sayfa ve detayda aynı ----------
+   2:3 fotoğraf, kart radius'u (?radius), rozet + kaydet çifti; kalın kategori, en çok 2 satır başlık ve yazar fotoğrafın
+   altında, metin konumundan hesaplanan koyu geçişin (--dg-veil, DGCard.veils) üstünde. Açıklama/meta yok. */
+.dg-tile{position:relative;min-width:0}
+.dg-tile__media{position:relative;overflow:hidden;aspect-ratio:2/3;border-radius:var(--dg-card-r);background:var(--line)}
+.dg-tile__visual{position:absolute;inset:0;display:block;border-radius:0}
+.dg-tile__veil{position:absolute;inset:0;z-index:1;background:var(--dg-veil,linear-gradient(180deg,transparent 40%,color-mix(in srgb,var(--overlay) 90%,transparent)));pointer-events:none}
+.dg-tile__info{position:absolute;left:0;right:0;bottom:0;z-index:2;display:flex;flex-direction:column;gap:var(--space-8);padding:var(--space-12);min-width:0;pointer-events:none}
+.dg-tile__info a{pointer-events:auto}
+.dg-tile .dg-card__text{min-height:var(--touch-target);align-content:end}
+.dg-tile .dg-card__category{color:var(--paper);line-height:var(--role-meta-line);letter-spacing:var(--role-label-tracking);text-shadow:var(--photo-text-shadow)}
+.dg-tile .dg-card__title{height:auto;max-height:calc(2 * var(--role-card-size) * var(--role-card-line));color:var(--paper);font-family:var(--font);font-size:var(--role-card-size);font-weight:var(--role-card-weight);line-height:var(--role-card-line);letter-spacing:var(--role-card-tracking);text-shadow:var(--photo-text-shadow)}
+.dg-tile .dg-author{color:var(--paper);font-size:var(--type-photo-meta);text-shadow:var(--photo-text-shadow)}
+.dg-tile .dg-avatar{text-shadow:none}
+.dg-tile:active .dg-photo{transform:scale(1.02)}
+.dg-tile .dg-card__text:focus-visible{outline:calc(var(--border-width) * 2) solid var(--paper);outline-offset:var(--border-width);border-radius:var(--radius-choice)}
+
+/* ---------- docs/46 · İkişerli slider (dg-pairs): tam 2 kart, yarım kart yok, sayfa sayfa snap, gösterge yok ----------
+   Şerit içerik genişliğindedir ve orada kırpılır; kart = (içerik − 12) / 2; her tek sıradaki kart bir sayfa başlatır. */
+.dg-pairs{display:grid;min-width:0}
+.dg-pairs__track{display:flex;gap:var(--space-12);min-width:0;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:var(--dg-card-r)}
+.dg-pairs__track::-webkit-scrollbar{display:none}
+.dg-pairs__track:focus-visible{outline:calc(var(--border-width) * 2) solid var(--tomato);outline-offset:calc(var(--border-width) * 2)}
+.dg-pairs__item{flex:0 0 calc((100% - var(--space-12)) / 2);min-width:0}
+.dg-pairs__item:nth-child(odd){scroll-snap-align:start;scroll-snap-stop:always}
+
+/* backdrop-filter desteklenmezse cam yerine aynı tonda opak zemin: kontrast korunur. */
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.dg-meta,.dg-save:before,.dg-play:before,.dg-pager-count{background:var(--dg-pair-fallback)}}
+
+/* İskelet: aynı DOM ve ölçüler. */
+.is-loading :is(.dg-meta,.dg-save,.dg-feature__veil,.dg-tile__veil,.dg-slider__pager){visibility:hidden}
+.is-loading .dg-photo{background:var(--line)!important}
+.is-loading :is(.dg-card__category,.dg-card__title,.dg-author__name){color:transparent!important;text-shadow:none!important;background:var(--line);border-radius:var(--radius-choice)}
+.is-loading .dg-feature .dg-feature__info{visibility:hidden}
+.is-loading .dg-avatar{color:transparent!important}
+.is-loading :is(.dg-card,.dg-feature){animation:skeleton-breathe 1s ease-in-out infinite alternate}
+
+@media(prefers-reduced-motion:reduce){.dg-photo,.dg-save .icon,.dg-pager-dots i{transition:none}.dg-slider__track{scroll-behavior:auto}}

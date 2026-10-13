@@ -1,0 +1,268 @@
+/* Açılış ve tanıtım (G7) · üç alternatif: 1 Sahne · 2 Kolaj · 3 Perde. docs/57.
+   Ana sayfa hero'sunun dili: tek tam boy gerçek fotoğraf, smootherstep koyu perde (yalnız --overlay #211E16; eğri JS'te metin
+   konumundan hesaplanır, 4px'te bir durak), sol üst primary radyal ışık (tomato %25, 0→%65, screen; kaynak hero-light.css
+   --home-light-*), alt hilal (0 4px 0 tomato + alt köşeler 24). Süreler yalnız hareket token'larının katları; reduced-motion anlık.
+   Değer yazılmaz: renk/boşluk/radius/süre token'dan. */
+
+/* ---------- Sayfalar arası geçiş ----------
+   Belge geçişi (@view-transition) kullanılmaz: headless Chromium'da yeni sayfanın çizimini durdurduğu ölçüldü (rAF çalışmıyor).
+   Süreklilik yerine son kare = sonraki ekranın ilk karesi: aynı fotoğraf, aynı logo konumu; çıkışta logo solar. */
+.ac-s1.is-cikis .ac-orta .ac-logo{opacity:0;transform:scale(.96);transition:opacity var(--dg-motion-base) var(--ease),transform var(--dg-motion-base) var(--ease)}
+.ac-k1 .ac-ust,.ac-k1 .ac-cubuklar{animation:ac-sol var(--dg-motion-reveal) var(--ease) both}
+
+/* ---------- Ortak katmanlar ---------- */
+body.dgu.ac-koyu-govde{background:var(--overlay)}
+.dgu-app.ac-app{padding-bottom:0;background:var(--overlay)}
+.dgu-app.ac-app.has-bar{background:var(--paper);padding-bottom:calc(var(--cook-height) + var(--space-40) + var(--space-16) + env(safe-area-inset-bottom,0px))}
+.ac-ekran{
+  --ac-isik:color-mix(in srgb,var(--tomato) 25%,transparent);
+  --ac-isik-son:65%;
+  --ac-isik-h:calc(var(--app-header) + var(--space-48) * 3);
+  --ac-otomatik:var(--dg-motion-hero-autoplay);
+  --ac-cizgi:color-mix(in srgb,var(--paper) 32%,transparent);
+  --ac-yuzey:color-mix(in srgb,var(--paper) 8%,transparent);
+  --ac-yuzey-on:color-mix(in srgb,var(--tomato) 24%,var(--overlay));
+  --ac-soluk:color-mix(in srgb,var(--paper) 78%,transparent);
+  position:relative;min-height:100dvh;overflow:hidden;isolation:isolate;background:var(--overlay);color:var(--paper)
+}
+.ac-foto{position:absolute;inset:0;background-color:var(--overlay);background-size:cover;background-position:center;transform-origin:center 40%}
+.ac-perde{position:absolute;inset:0;z-index:1;pointer-events:none}
+.ac-isik{position:absolute;inset:0 0 auto;z-index:2;height:var(--ac-isik-h);pointer-events:none;background:radial-gradient(ellipse at 0% 0%,var(--ac-isik) 0%,transparent var(--ac-isik-son));mix-blend-mode:screen}
+.ac-ekran :is(h1,h2,p,.ac-kanit){text-shadow:var(--dg-photo-shadow)}
+
+/* Üst satır: header konumunda resmi beyaz logo (64 genişlik), sağda ikon/“Atla” (44 hedef, fotoğraf üstünde yarı saydam koyu + blur) */
+.ac-ust{position:absolute;inset:0 0 auto;z-index:6;display:flex;align-items:center;gap:var(--header-gap);height:var(--app-header);padding:env(safe-area-inset-top,0px) var(--gutter) 0}
+.ac-ust .ac-logo{width:calc(var(--space-48) + var(--space-16));height:auto}
+.ac-bosluk{flex:1}
+.ac-atla,.ac-ibtn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:var(--icon-text-gap);min-width:var(--touch-target);min-height:var(--touch-target);padding:0 var(--space-12);border:0;border-radius:var(--radius-control);background:var(--floating-icon-bg);-webkit-backdrop-filter:blur(var(--space-16));backdrop-filter:blur(var(--space-16));color:var(--paper);font-size:var(--role-button-size);line-height:var(--role-button-line)}
+.ac-ibtn{padding:0}
+.ac-ibtn .icon{font-size:var(--icon-md)}
+.ac-ekran :is(a,button):focus-visible{outline:calc(var(--border-width) * 2) solid var(--paper);outline-offset:var(--border-width)}
+
+/* Koyu zeminde ikincil düğme ve yardım metni */
+.ac-ekran .dgu-btn--ikincil{background:color-mix(in srgb,var(--paper) 12%,transparent);border-color:var(--ac-cizgi);color:var(--paper);-webkit-backdrop-filter:blur(var(--space-16));backdrop-filter:blur(var(--space-16))}
+.ac-ekran .dgu-btn--ikincil:active{background:color-mix(in srgb,var(--paper) 20%,transparent)}
+.ac-ekran .dgu-btn--metin{color:var(--paper)}
+.ac-yardim{font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--ac-soluk)}
+.ac-yardim a{color:var(--paper);text-decoration:underline;text-underline-offset:var(--space-4);display:inline-flex;align-items:center;min-height:var(--touch-target)}
+.ac-ekran .dgu-rozet{background:var(--tomato);color:var(--paper)}
+
+/* Modül ikonu: kontrol radius'lu kutu (action-card ikon kutusu ölçüsü) */
+.ac-mikon{display:inline-grid;place-items:center;width:var(--action-icon-size);height:var(--action-icon-size);flex-shrink:0;border-radius:var(--radius-control);background:var(--tomato);color:var(--paper)}
+.ac-mikon .icon{font-size:var(--icon-md)}
+.ac-kanit{display:flex;align-items:center;gap:var(--icon-text-gap);min-width:0;font-family:var(--dg-font-bold);font-size:var(--dg-type-photo-meta-size);font-weight:var(--dg-type-photo-meta-weight);line-height:var(--role-meta-line);color:var(--paper)}
+.ac-kanit .icon{font-size:var(--icon-sm);flex-shrink:0}
+.ac-kanit span{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
+/* Alt hilal: ana hero'nun 4px primary çizgisi; açılışta soldan sağa dolan ilerleme olarak */
+.ac-hilal{position:absolute;left:0;right:0;bottom:0;z-index:5;height:var(--space-4);background:var(--tomato);transform-origin:0 50%}
+
+/* Ortak giriş hareketi */
+@keyframes ac-belir{from{opacity:0;transform:translateY(var(--space-8))}to{opacity:1;transform:none}}
+@keyframes ac-sol{from{opacity:0}to{opacity:1}}
+@keyframes ac-son{from{opacity:1}to{opacity:0}}
+@keyframes ac-yakin{from{transform:scale(1.14)}to{transform:scale(1.02)}}
+@keyframes ac-yakin-az{from{transform:scale(1.08)}to{transform:scale(1)}}
+@keyframes ac-dolu{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.ac-gir{animation:ac-belir var(--dg-motion-reveal) var(--ease) both}
+
+/* =====================================================================================
+   AÇILIŞ 1 · Sahne — iki gerçek fotoğraf, yavaş yakınlaşma ve çapraz geçiş; perde kalkar, ışık açılır, logo belirir
+   ===================================================================================== */
+.ac-s1 .ac-foto{animation:ac-yakin calc(var(--dg-motion-reveal) * 6) var(--ease) both}
+.ac-s1 .ac-foto.is-b{opacity:0;animation:ac-yakin calc(var(--dg-motion-reveal) * 6) var(--ease) both,ac-sol var(--dg-motion-reveal) var(--ease) calc(var(--dg-motion-reveal) * 2) both}
+.ac-ortu{position:absolute;inset:0;z-index:3;background:var(--overlay);pointer-events:none;animation:ac-son var(--dg-motion-reveal) var(--ease) var(--dg-motion-fast) both}
+.ac-s1 .ac-isik,.ac-s2 .ac-isik{animation:ac-sol var(--dg-motion-reveal) var(--ease) var(--dg-motion-reveal) both}
+.ac-orta{position:absolute;inset:0;z-index:4;display:grid;place-items:center;pointer-events:none}
+.ac-orta .ac-logo{width:calc(var(--space-48) * 3);height:auto;animation:ac-belir var(--dg-motion-reveal) var(--ease) var(--dg-motion-base) both}
+.ac-s1 .ac-hilal,.ac-s2 .ac-hilal{bottom:0;animation:ac-dolu calc(var(--dg-motion-reveal) * 4) var(--ease) var(--dg-motion-reveal) both}
+.ac-dokun{position:absolute;inset:0;z-index:7;width:100%;border:0;background:transparent;padding:0}
+
+/* =====================================================================================
+   AÇILIŞ 2 · Kolaj — eğik üç sütun gerçek tarif fotoğrafı ters yönlerde akar (ana sayfa x4 kolaj açısı)
+   ===================================================================================== */
+.ac-kolaj{position:absolute;inset:calc(var(--space-48) * -2) calc(var(--space-48) * -1);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-8);transform:rotate(-6deg);transition:transform var(--dg-motion-reveal) var(--ease),opacity var(--dg-motion-reveal) var(--ease)}
+.ac-sutun{display:grid;align-content:start;gap:var(--space-8);animation:ac-akis-yukari calc(var(--dg-motion-reveal) * 8) linear both}
+.ac-sutun:nth-child(2){animation-name:ac-akis-asagi}
+.ac-karo{aspect-ratio:4/5;border-radius:var(--dg-radius-media);background-color:var(--slate);background-size:cover;background-position:center;animation:ac-sol var(--dg-motion-reveal) var(--ease) both;animation-delay:calc(var(--i,0) * var(--dg-motion-fast) / 3)}
+@keyframes ac-akis-yukari{from{transform:translateY(0)}to{transform:translateY(calc(var(--space-48) * -3))}}
+@keyframes ac-akis-asagi{from{transform:translateY(calc(var(--space-48) * -3))}to{transform:translateY(0)}}
+.ac-s2.is-cikis .ac-kolaj{transform:rotate(0deg) scale(1.08);opacity:0}
+.ac-s2.is-cikis .ac-orta .ac-logo{opacity:0;transition:opacity var(--dg-motion-base) var(--ease)}
+
+/* =====================================================================================
+   AÇILIŞ 3 · Perde — koyu ekranda logo; sahne ortadan açılır (hero biçimi + hilal), logo alt alana iner; slogan, sayaç, yükleme çubuğu
+   ===================================================================================== */
+.ac-sahne{position:absolute;inset:0 0 auto;z-index:1;height:var(--ac-sahne-h);overflow:hidden;border-radius:0 0 var(--radius-sheet) var(--radius-sheet);box-shadow:var(--dg-shadow-hero-crescent);background:var(--overlay)}
+/* Sahne yüksekliği Karşılama 3 ile ortak: alttaki seçici + düğme alanı (48×5 + 24) dışında kalan ekran, en az 48×7 + 24 */
+.ac-ekran{--ac-sahne-h:max(calc(var(--space-48) * 7 + var(--space-24)),calc(100dvh - var(--space-48) * 5 - var(--space-24)))}
+.ac-s3 .ac-sahne{animation:ac-perde calc(var(--dg-motion-reveal) * 2) var(--ease) calc(var(--dg-motion-reveal) + var(--dg-motion-fast)) both}
+@keyframes ac-perde{from{clip-path:inset(50% 0 50% 0);box-shadow:none}to{clip-path:inset(0 0 calc(var(--space-4) * -2) 0)}}
+.ac-s3 .ac-sahne .ac-foto{animation:ac-yakin calc(var(--dg-motion-reveal) * 5) var(--ease) calc(var(--dg-motion-reveal) + var(--dg-motion-fast)) both}
+.ac-s3 .ac-isik{animation:ac-sol var(--dg-motion-reveal) var(--ease) calc(var(--dg-motion-reveal) * 3) both}
+/* Alt alan (sahnenin altındaki koyu bölge): ortada büyük resmi beyaz logo, altında kaynak slogan ve sayaç, en altta ince yükleme çubuğu.
+   Logo ekran ortasında belirir; perde açılırken kendi yerine iner (dy JS'te ölçülür). Metin perde açıldıktan sonra belirir. */
+.ac-s3-alt{position:absolute;inset:var(--ac-sahne-h) 0 0;z-index:3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-16);padding:calc(var(--space-4) + var(--space-16)) var(--gutter) calc(var(--space-32) + env(safe-area-inset-bottom,0px));text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+.ac-s3-alt .ac-logo{width:calc(var(--space-48) * 3 + var(--space-16));height:auto;animation:ac-logo-in var(--dg-motion-reveal) var(--ease) both,ac-logo-in2 calc(var(--dg-motion-reveal) * 2) var(--ease) calc(var(--dg-motion-reveal) + var(--dg-motion-fast)) both}
+@keyframes ac-logo-in{from{opacity:0}to{opacity:1}}
+@keyframes ac-logo-in2{from{transform:translateY(var(--ac-dy,0))}to{transform:none}}
+.ac-s3-metin{display:grid;justify-items:center;gap:var(--space-8);animation:ac-belir var(--dg-motion-reveal) var(--ease) calc(var(--dg-motion-reveal) * 3) both}
+.ac-s3-metin .t-section{color:var(--paper)}
+.ac-s3-sayac{display:flex;align-items:center;gap:var(--icon-text-gap);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--ac-soluk);font-variant-numeric:tabular-nums}
+.ac-s3-sayac b{font-family:var(--dg-font-bold);font-weight:var(--weight-bold);color:var(--paper)}
+.ac-s3-sayac .icon{font-size:var(--icon-sm);color:var(--hero-accent)}
+/* İnce marka yükleme çubuğu: 2px iz + primary dolgu; açılış süresi boyunca dolar (reduced-motion: dolu, hareketsiz) */
+.ac-s3-yukle{position:absolute;left:50%;bottom:calc(var(--space-16) + env(safe-area-inset-bottom,0px));width:calc(var(--space-48) * 2);height:var(--nav-indicator-height);margin-left:calc(var(--space-48) * -1);overflow:hidden;border-radius:var(--dg-radius-dot);background:var(--ac-cizgi)}
+.ac-s3-yukle i{display:block;height:100%;background:var(--tomato);transform-origin:0 50%;animation:ac-dolu calc(var(--dg-motion-reveal) * 5 - var(--dg-motion-reveal)) var(--ease) var(--dg-motion-reveal) both}
+.ac-s3.is-cikis .ac-s3-alt,.ac-s3.is-cikis .ac-s3-yukle{opacity:0;transition:opacity var(--dg-motion-base) var(--ease)}
+@media (prefers-reduced-motion:reduce){.ac-s3-yukle i{transform:none}.ac-s3-alt .ac-logo{transform:none}}
+
+/* =====================================================================================
+   KARŞILAMA 1 · Hikâye — tam ekran, beş modül sırayla (6 sn), dokun: ileri/geri, duraklat
+   ===================================================================================== */
+.ac-k1{height:100dvh;min-height:calc(var(--space-48) * 12)}
+.ac-k1 .ac-foto{opacity:0;transition:opacity var(--dg-motion-reveal) var(--ease)}
+.ac-k1 .ac-foto.is-on{opacity:1;animation:ac-yakin-az var(--ac-otomatik) linear both}
+.ac-k1.is-dur .ac-foto.is-on,.ac-k1.is-dur .ac-dolum.is-on i{animation-play-state:paused}
+.ac-cubuklar{position:absolute;left:var(--gutter);right:var(--gutter);top:calc(var(--app-header) + var(--space-4));z-index:6;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--space-4)}
+.ac-dolum{height:var(--space-4);overflow:hidden;border-radius:var(--dg-radius-dot);background:var(--ac-cizgi)}
+.ac-dolum i{display:block;height:100%;background:var(--paper);transform:scaleX(0);transform-origin:0 50%}
+.ac-dolum.is-gecti i{transform:none}
+.ac-dolum.is-on i{animation:ac-dolu var(--ac-otomatik) linear both}
+.ac-dolum.is-on.is-elle i{animation:none;transform:none}
+.ac-bolge{position:absolute;top:calc(var(--app-header) + var(--space-24));bottom:0;z-index:3;width:50%;border:0;padding:0;background:transparent}
+.ac-bolge.is-geri{left:0}
+.ac-bolge.is-ileri{right:0}
+.ac-alt{position:absolute;left:var(--gutter);right:var(--gutter);bottom:calc(var(--space-24) + env(safe-area-inset-bottom,0px));z-index:4;display:grid;gap:var(--space-24);pointer-events:none}
+.ac-alt :is(a,button){pointer-events:auto}
+.ac-metin{display:grid;gap:var(--space-12)}
+.ac-metin .ac-bas{display:flex;align-items:center;gap:var(--space-12)}
+.ac-metin p.t-body{color:var(--paper);max-width:36ch}
+.ac-cta{display:grid;gap:var(--space-8)}
+.ac-cta .dgu-ikili{gap:var(--space-12)}
+.ac-cta .ac-yardim{text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+
+/* =====================================================================================
+   KARŞILAMA 2 · Kolaj — koyu zemin, beş fotoğraflı modül karosu (bento), kolaj açılıştan yerine oturur
+   ===================================================================================== */
+.ac-k2{display:flex;flex-direction:column;height:100dvh;min-height:calc(var(--space-48) * 13);padding:var(--app-header) var(--gutter) calc(var(--space-16) + env(safe-area-inset-bottom,0px))}
+.ac-k2 .ac-isik{animation:none}
+.ac-k2-bas{position:relative;z-index:3;display:grid;gap:var(--space-8);padding:var(--space-4) 0 var(--space-20)}
+.ac-sayilar{display:flex;flex-wrap:wrap;gap:var(--space-4) var(--space-16);font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--ac-soluk)}
+.ac-sayilar b{font-family:var(--dg-font-bold);font-weight:var(--weight-bold);color:var(--paper)}
+.ac-bento{position:relative;z-index:3;flex:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:var(--space-12);min-height:0}
+.ac-karo-m{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:var(--space-4);padding:var(--space-12);border-radius:var(--dg-radius-media);background:var(--slate);color:var(--paper);animation:ac-otur var(--dg-motion-reveal) var(--ease) both;animation-delay:calc(var(--i,0) * var(--dg-motion-fast) / 3)}
+.ac-karo-m:first-child{grid-row:1 / span 2}
+.ac-karo-m .ac-foto{z-index:0}
+.ac-karo-m .ac-perde{z-index:1}
+.ac-karo-m > :not(.ac-foto,.ac-perde){position:relative;z-index:2}
+.ac-karo-m .ac-mikon{width:calc(var(--space-32) + var(--space-4));height:calc(var(--space-32) + var(--space-4));margin-bottom:auto}
+.ac-karo-m .ac-mikon .icon{font-size:var(--icon-sm)}
+.ac-karo-m h2{font-family:var(--dg-font-bold);font-size:var(--role-card-size);font-weight:var(--weight-bold);line-height:var(--role-card-line);letter-spacing:var(--role-card-tracking);display:flex;align-items:center;gap:var(--space-8);flex-wrap:wrap}
+.ac-karo-m:first-child h2{font-size:var(--role-featured-size);line-height:var(--role-featured-line);letter-spacing:var(--role-featured-tracking)}
+.ac-karo-m p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:var(--role-meta-size);line-height:var(--role-meta-line);color:var(--paper)}
+.ac-karo-m:first-child p{-webkit-line-clamp:3}
+@keyframes ac-otur{from{opacity:0;transform:scale(.92) rotate(-3deg)}to{opacity:1;transform:none}}
+.ac-k2 .ac-cta{position:relative;z-index:3;padding-top:var(--space-20)}
+
+/* =====================================================================================
+   KARŞILAMA 3 · Perde/vitrin — ana sayfa hero'su; altta beş modül seçicisi, fotoğraf ve metin birlikte değişir
+   ===================================================================================== */
+.ac-k3{display:flex;flex-direction:column;min-height:100dvh}
+.ac-k3 .ac-sahne{position:relative;inset:auto;flex-shrink:0}
+.ac-k3 .ac-sahne .ac-foto{opacity:0;transition:opacity var(--dg-motion-reveal) var(--ease)}
+.ac-k3 .ac-sahne .ac-foto.is-on{opacity:1;animation:ac-yakin-az var(--ac-otomatik) linear both}
+.ac-k3 .ac-sahne .ac-metin{position:absolute;left:var(--gutter);right:var(--gutter);bottom:var(--space-24);z-index:4}
+.ac-k3-alt{position:relative;z-index:3;flex:1;display:grid;align-content:space-between;gap:var(--space-20);padding:var(--space-24) var(--gutter) calc(var(--space-16) + env(safe-area-inset-bottom,0px))}
+.ac-secici{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--space-4)}
+.ac-secici button{position:relative;display:grid;justify-items:center;align-content:start;gap:var(--space-8);min-height:var(--touch-target);padding:var(--space-8) 0 0;border:0;border-radius:var(--radius-control);background:transparent;color:var(--ac-soluk);font-size:var(--role-meta-size);line-height:var(--dg-type-label-line);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+.ac-secici button::before{content:'';position:absolute;top:0;left:50%;width:var(--nav-indicator-width);height:var(--nav-indicator-height);margin-left:calc(var(--nav-indicator-width) / -2);border-radius:var(--dg-radius-dot);background:var(--tomato);opacity:0;transition:opacity var(--dg-motion-base) var(--ease)}
+.ac-secici .ac-mikon{background:var(--ac-yuzey);box-shadow:inset 0 0 0 var(--border-width) var(--ac-cizgi);color:var(--paper);transition:background-color var(--dg-motion-base) var(--ease)}
+.ac-secici button[aria-pressed=true]{color:var(--paper);font-family:var(--dg-font-bold);font-weight:var(--weight-bold)}
+.ac-secici button[aria-pressed=true]::before{opacity:1}
+.ac-secici button[aria-pressed=true] .ac-mikon{background:var(--tomato);box-shadow:none}
+
+/* =====================================================================================
+   TERCİHLER — ortak parçalar
+   ===================================================================================== */
+.ac-ilerle{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:var(--space-4);flex:1}
+.ac-ilerle i{height:var(--space-4);border-radius:var(--dg-radius-dot);background:var(--ac-cizgi);transition:background-color var(--dg-motion-base) var(--ease)}
+.ac-ilerle i.is-on{background:var(--tomato)}
+.ac-chipler{display:flex;flex-wrap:wrap;gap:var(--chip-gap)}
+.ac-chipler .dgu-chip img{width:var(--space-20);height:calc(var(--space-12) + var(--space-4) - var(--border-width));object-fit:cover;border-radius:var(--radius-choice)}
+.ac-alt-bas{display:flex;align-items:center;gap:var(--space-8);margin-top:var(--space-24);margin-bottom:var(--space-12);font-family:var(--dg-font-bold);font-size:var(--role-subheading-size);font-weight:var(--weight-bold);line-height:var(--role-subheading-line)}
+.ac-alt-bas .icon{font-size:var(--icon-md);color:var(--tomato-deep)}
+.ac-not{margin-top:var(--space-12)}
+.ac-aciklama{margin-bottom:var(--space-16)}
+.ac-soru .ac-aciklama{margin-bottom:0}
+.ac-adim-ic{animation:ac-kay var(--dg-motion-sheet) var(--ease) both}
+.ac-adim-ic.is-geri{animation-name:ac-kay-geri}
+@keyframes ac-kay{from{opacity:0;transform:translateX(var(--space-24))}to{opacity:1;transform:none}}
+@keyframes ac-kay-geri{from{opacity:0;transform:translateX(calc(var(--space-24) * -1))}to{opacity:1;transform:none}}
+
+
+
+
+
+/* =====================================================================================
+   TERCİHLER 1 · Adım adım — her adımda gerçek fotoğraflı başlık, üstüne binen beyaz panel
+   ===================================================================================== */
+.ac-t1-bas{position:relative;min-height:0;height:calc(var(--app-header) + var(--space-48) * 2 + var(--panel-overlap));overflow:hidden;background:var(--overlay);color:var(--paper)}
+.ac-t1-bas .ac-foto{opacity:0;transition:opacity var(--dg-motion-reveal) var(--ease)}
+.ac-t1-bas .ac-foto.is-on{opacity:1;animation:ac-yakin-az calc(var(--dg-motion-reveal) * 4) var(--ease) both}
+.ac-t1-bas .ac-ust .ac-ilerle{margin:0 var(--space-8)}
+.ac-t1-bas .ac-baslik{position:absolute;left:var(--gutter);right:var(--gutter);bottom:calc(var(--panel-overlap) + var(--space-24));z-index:4;display:grid;gap:var(--space-4)}
+.ac-t1-bas .t-label{color:var(--paper)}
+.ac-panel{position:relative;z-index:5;margin-top:calc(var(--panel-overlap) * -1);padding:var(--panel-top-space) var(--gutter) var(--space-24);border-radius:var(--radius-sheet) var(--radius-sheet) 0 0;background:var(--paper)}
+.ac-panel .ac-yardim{color:var(--slate-2)}
+.ac-panel .ac-ozet{margin-bottom:var(--space-16)}
+
+/* =====================================================================================
+   TERCİHLER 2 · Profil vitrini — soru başına bir ekran; üst alanda seçilen seçeneğin gerçek fotoğrafı, kubbe panel yatay kayar
+   ===================================================================================== */
+.ac-t2{display:flex;flex-direction:column;min-height:calc(100dvh - var(--cook-height) - var(--space-40) - var(--space-16) - env(safe-area-inset-bottom,0px))}
+.ac-t2-ust{min-height:0;overflow:hidden;background:var(--overlay);color:var(--paper)}
+.ac-t2-ust .ac-foto{opacity:0;transition:opacity var(--dg-motion-reveal) var(--ease)}
+.ac-t2-ust .ac-foto.is-on{opacity:1;animation:ac-yakin-az calc(var(--dg-motion-reveal) * 4) var(--ease) both}
+.ac-t2-ilerle{flex:1;min-width:0;margin:0 var(--space-8)}
+.ac-t2-soru{position:relative;z-index:4;display:grid;gap:var(--space-4);padding:calc(var(--app-header) + var(--space-32)) var(--gutter) 0}
+.ac-t2-soru .t-label{color:var(--paper)}
+.ac-t2-soru .ac-kanit{margin-top:var(--space-8)}
+.ac-t2-panel{flex:1;display:flex;flex-direction:column;padding-bottom:var(--space-24)}
+.ac-t2-sahne{position:relative;flex:1;display:flex;flex-direction:column;overflow-x:clip}
+.ac-t2-sayfa{flex:1;display:flex;flex-direction:column;padding:0 var(--gutter)}
+.ac-t2-sayfa .dgu-secim-izgara + .dgu-secim-izgara{margin-top:var(--space-12)}
+.ac-t2-ek{grid-template-columns:repeat(2,minmax(0,1fr))}
+.ac-t2-dolu{flex:1;grid-auto-rows:minmax(var(--touch-target),1fr)}
+.ac-t2-sayfa.is-cik{position:absolute;inset:0 0 auto;animation:ac-t2-cik var(--dg-motion-sheet) var(--ease) both}
+.ac-t2-sayfa.is-cik.is-sag{animation-name:ac-t2-cik-sag}
+.ac-t2-sayfa.is-gir{animation:ac-t2-gir var(--dg-motion-sheet) var(--ease) both}
+.ac-t2-sayfa.is-gir.is-sol{animation-name:ac-t2-gir-sol}
+@keyframes ac-t2-gir{from{transform:translateX(100%)}to{transform:none}}
+@keyframes ac-t2-gir-sol{from{transform:translateX(-100%)}to{transform:none}}
+@keyframes ac-t2-cik{from{transform:none}to{transform:translateX(-100%)}}
+@keyframes ac-t2-cik-sag{from{transform:none}to{transform:translateX(100%)}}
+
+/* =====================================================================================
+   TERCİHLER 3 · Koyu, soru başına bir ekran — büyük bayrak/fotoğraf karoları, seviye çubukları
+   ===================================================================================== */
+.ac-t3{display:flex;flex-direction:column;height:100dvh;min-height:calc(var(--space-48) * 12)}
+.ac-t3 .ac-ust{position:relative}
+.ac-t3 .ac-ust .ac-ilerle{margin:0 var(--space-8)}
+.ac-t3-govde{position:relative;z-index:3;flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:var(--space-8) var(--gutter) var(--space-24);scrollbar-width:none}
+.ac-t3-govde::-webkit-scrollbar{display:none}
+.ac-t3-govde .ac-soru{display:grid;gap:var(--space-8);margin-bottom:var(--space-24)}
+.ac-t3-govde .t-label{color:var(--ac-soluk)}
+.ac-t3-ayak{position:relative;z-index:4;display:grid;gap:var(--space-4);padding:var(--space-12) var(--gutter) calc(var(--space-8) + env(safe-area-inset-bottom,0px));background:var(--overlay);box-shadow:0 calc(var(--space-24) * -1) var(--space-24) var(--overlay)}
+.ac-t3 .dgu-chip{background:var(--ac-yuzey);border-color:var(--ac-cizgi);color:var(--paper)}
+.ac-t3 .dgu-chip[aria-pressed=true]{background:var(--ac-yuzey-on);border-color:var(--tomato);color:var(--paper)}
+.ac-t3 .ac-alt-bas .icon{color:var(--hero-accent)}
+.ac-t3 .ac-yardim a{color:var(--paper)}
+.ac-t3-ayak .dgu-btn--metin{min-height:var(--touch-target)}
+
+@media (prefers-reduced-motion:reduce){
+  .ac-ekran *,.ac-ekran,.ac-panel *,.ac-adim-ic{animation:none !important;transition:none !important}
+}
+
+/* Seçim kartı bu akışta: metin-yalnız kartta uzun ad (ör. “Kısıtlamam Yok”) dar ekranda kesilmez, iki satıra iner. */
+:is(.ac-panel,.ac-t2-panel,.ac-t3) .dgu-secim-kart.is-metin .dgu-secim-metin b{white-space:normal}

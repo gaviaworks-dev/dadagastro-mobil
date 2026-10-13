@@ -1,0 +1,2645 @@
+{
+ "generated": "2026-10-10T15:00:56.983Z",
+ "rows": [
+  {
+   "engine": "chromium",
+   "ui": "a",
+   "w": 360,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "openFilters",
+    "outline": "none"
+   },
+   "stuckAt": 253,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 250,
+    "stuckAfter": 253,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "chromium",
+   "ui": "a",
+   "w": 390,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "openFilters",
+    "outline": "none"
+   },
+   "stuckAt": 247,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 250,
+    "stuckAfter": 247,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "chromium",
+   "ui": "a",
+   "w": 430,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "openFilters",
+    "outline": "none"
+   },
+   "stuckAt": 249,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 251,
+    "stuckAfter": 249,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "chromium",
+   "ui": "b",
+   "w": 360,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "openFilters",
+    "outline": "none"
+   },
+   "stuckAt": 249,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 250,
+    "stuckAfter": 249,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "chromium",
+   "ui": "b",
+   "w": 390,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "openFilters",
+    "outline": "none"
+   },
+   "stuckAt": 253,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 250,
+    "stuckAfter": 253,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "chromium",
+   "ui": "b",
+   "w": 430,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "openFilters",
+    "outline": "none"
+   },
+   "stuckAt": 249,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 251,
+    "stuckAfter": 249,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "webkit",
+   "ui": "a",
+   "w": 360,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "editorial-v2 six-home liste-v2",
+    "outline": "none"
+   },
+   "stuckAt": 228,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 228,
+    "stuckAfter": 228,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "webkit",
+   "ui": "a",
+   "w": 390,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "editorial-v2 six-home liste-v2",
+    "outline": "none"
+   },
+   "stuckAt": 228,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 228,
+    "stuckAfter": 228,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "webkit",
+   "ui": "a",
+   "w": 430,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       44,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": null,
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "editorial-v2 six-home liste-v2",
+    "outline": "none"
+   },
+   "stuckAt": 228,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 228,
+    "stuckAfter": 228,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "webkit",
+   "ui": "b",
+   "w": 360,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "editorial-v2 six-home liste-v2",
+    "outline": "none"
+   },
+   "stuckAt": 228,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 228,
+    "stuckAfter": 228,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "webkit",
+   "ui": "b",
+   "w": 390,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": false,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "editorial-v2 six-home liste-v2",
+    "outline": "none"
+   },
+   "stuckAt": 228,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 228,
+    "stuckAfter": 228,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  },
+  {
+   "engine": "webkit",
+   "ui": "b",
+   "w": 430,
+   "errors": [],
+   "states": {
+    "yok": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "siralama": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "32 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "ikiFiltre": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(225, 72, 39)",
+     "filterActive": true,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "2",
+      "shown": true,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": null,
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       125,
+       44
+      ],
+      "label": "Sıralama: En Çok Puanlanan",
+      "active": true,
+      "color": "rgb(225, 72, 39)",
+      "text": "En çok puan",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "12 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    },
+    "yazi": {
+     "placeholder": "Tarif ara (ör. mercimek çorbası)",
+     "placeholderFits": true,
+     "searchH": 50,
+     "toolsH": 194,
+     "statusH": 52,
+     "filter": [
+      44,
+      44
+     ],
+     "filterRadius": "12px",
+     "filterColor": "rgb(86, 81, 74)",
+     "filterActive": false,
+     "filterInsideBox": true,
+     "badge": {
+      "text": "",
+      "shown": false,
+      "bg": "rgb(168, 51, 26)",
+      "color": "rgb(255, 255, 255)"
+     },
+     "clear": {
+      "size": [
+       44,
+       44
+      ],
+      "leftOfFilter": true
+     },
+     "textClearOfIcons": true,
+     "sort": {
+      "size": [
+       102,
+       44
+      ],
+      "label": "Sıralama: Önerilen",
+      "active": false,
+      "color": "rgb(86, 81, 74)",
+      "text": "Önerilen",
+      "truncated": false
+     },
+     "groupH": 52,
+     "toggleH": 52,
+     "sameHeight": true,
+     "sortLeftOfToggle": true,
+     "count": "3 tarif bulundu",
+     "countOneLine": true,
+     "toolbarGone": true,
+     "outlineIcons": 0,
+     "overflowX": false,
+     "themesBottom": 594,
+     "statusTop": 618,
+     "resultsTop": 686
+    }
+   },
+   "sortSheetOpens": true,
+   "filterSheetOpens": true,
+   "ringAfterSheet": {
+    "focused": "editorial-v2 six-home liste-v2",
+    "outline": "none"
+   },
+   "stuckAt": 228,
+   "stuck": {
+    "toolsTop": 68,
+    "radius": "0px",
+    "header": 68
+   },
+   "gain": {
+    "themesToResultsBefore": 140,
+    "themesToResultsAfter": 92,
+    "gained": 48,
+    "stuckBefore": 228,
+    "stuckAfter": 228,
+    "toolsHBefore": 194,
+    "toolsHAfter": 194
+   },
+   "stable": true
+  }
+ ]
+}

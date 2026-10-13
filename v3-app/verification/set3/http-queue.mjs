@@ -1,0 +1,2 @@
+// Limit verification bursts against Python's small localhost accept queue.
+export async function stableLocal(page){let active=0;const waiting=[];await page.route('http://127.0.0.1:8765/**',async route=>{if(active>=3)await new Promise(r=>waiting.push(r));active++;try{for(let n=0;n<4;n++){try{const response=await route.fetch({maxRetries:3,timeout:15000});await route.fulfill({response});break}catch(e){if(n===3)await route.abort();}}}finally{active--;waiting.shift()?.();}});}

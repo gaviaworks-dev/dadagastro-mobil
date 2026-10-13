@@ -1,0 +1,297 @@
+{
+ "captured": "2026-10-10",
+ "head": {
+  "eyebrow": "Benzer Tarifler",
+  "title": "Bunları da seveceksin",
+  "more": [
+   {
+    "t": "Tamamını Gör",
+    "h": "/tarifler"
+   },
+   {
+    "t": "C Cem Aydan",
+    "h": "/sefler/cem.aydan"
+   },
+   {
+    "t": "İ İrem Egeli",
+    "h": "/sefler/irem.egeli"
+   }
+  ]
+ },
+ "map": {
+  "tavuk-curry-hindistan-cevizli-hint-usulu": [
+   "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci",
+   "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+   "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav"
+  ],
+  "yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi": [
+   "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik"
+  ],
+  "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi": [
+   "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+   "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+   "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek"
+  ],
+  "kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas": [
+   "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+   "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+   "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+   "frijoles-refritos-meksika-usulu-ezme-fasulye"
+  ],
+  "patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver": [
+   "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+   "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+   "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+   "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi"
+  ],
+  "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi": [
+   "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+   "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi"
+  ],
+  "pasteis-de-feijao-portekiz-torres-vedras-usulu-bademli-fasulyeli-mini-tart": [
+   "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi"
+  ],
+  "tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart": [
+   "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi"
+  ],
+  "sardalya-izgara-limon-kekikli": [
+   "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik"
+  ],
+  "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci": [
+   "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+   "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+   "huhnerfrikassee-alman-usulu-kuskonmazli-mantarli-kremali-tavuk-yahnisi"
+  ],
+  "ordek-dolmasi-firinda-ic-pilavli-butun-ordek": [
+   "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+   "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+   "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+   "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+  ],
+  "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu": [
+   "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+   "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+   "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi",
+   "izgara-misir-puresi-arjantin-usulu-bebek-mamasi"
+  ],
+  "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav": [
+   "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+   "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+   "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi",
+   "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav"
+  ],
+  "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi": [
+   "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+   "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+  ],
+  "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides": [
+   "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+   "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+  ],
+  "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis": [
+   "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+   "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+  ],
+  "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik": [
+   "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+  ],
+  "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli": [
+   "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+   "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+   "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+  ],
+  "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma": [
+   "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+   "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+   "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+  ],
+  "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek": [
+   "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+   "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+   "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+  ],
+  "moin-moin-nijerya-usulu-buharda-borulce-pudingi": [
+   "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+   "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+   "frijoles-refritos-meksika-usulu-ezme-fasulye",
+   "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+  ],
+  "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye": [
+   "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+   "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+   "frijoles-refritos-meksika-usulu-ezme-fasulye",
+   "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+  ],
+  "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla": [
+   "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+   "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+   "frijoles-refritos-meksika-usulu-ezme-fasulye",
+   "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+  ],
+  "frijoles-refritos-meksika-usulu-ezme-fasulye": [
+   "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+   "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+   "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+   "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+  ],
+  "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta": [
+   "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+   "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+   "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik",
+   "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta"
+  ],
+  "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki": [
+   "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+   "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+   "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+   "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu"
+  ],
+  "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor": [
+   "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+   "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+   "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+   "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu"
+  ],
+  "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi": [
+   "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+   "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+   "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+   "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu"
+  ],
+  "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta": [
+   "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+   "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+   "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi",
+   "kastera-kek-japon-usulu-bal-serbetli-sunger-kek"
+  ],
+  "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma": [
+   "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+   "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi"
+  ],
+  "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi": [
+   "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi"
+  ],
+  "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi": [
+   "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi"
+  ],
+  "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole": [
+   "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+   "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+   "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+   "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+  ],
+  "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli": [
+   "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+   "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+   "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+  ],
+  "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi": [
+   "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+   "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+   "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+  ],
+  "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole": [
+   "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+   "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+   "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+  ],
+  "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz": [
+   "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+   "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+   "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole"
+  ],
+  "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte": [
+   "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+   "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+   "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+   "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+  ],
+  "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte": [
+   "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+   "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+   "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+   "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+  ],
+  "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi": [
+   "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+   "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+   "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+   "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+  ],
+  "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi": [
+   "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+   "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+   "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+   "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+  ],
+  "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte": [
+   "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+   "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+   "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+   "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi"
+  ]
+ },
+ "missing": [
+  "huhnerfrikassee-alman-usulu-kuskonmazli-mantarli-kremali-tavuk-yahnisi",
+  "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+  "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+  "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi",
+  "izgara-misir-puresi-arjantin-usulu-bebek-mamasi",
+  "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+  "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+  "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi",
+  "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav",
+  "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi",
+  "bogrulce-yemegi-kuzu-etli-duduklu-tencerede",
+  "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+  "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+  "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik",
+  "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta",
+  "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu",
+  "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+  "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+  "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi",
+  "kastera-kek-japon-usulu-bal-serbetli-sunger-kek"
+ ]
+}

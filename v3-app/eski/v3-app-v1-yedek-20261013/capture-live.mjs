@@ -1,0 +1,2 @@
+import{chromium}from'/Users/gaviaworks/Developer/Backend Projects/dadagastro/node_modules/playwright/index.mjs';
+const b=await chromium.launch();for(const w of[360,390,430]){const p=await b.newPage({viewport:{width:w,height:844}});await p.goto('https://gaviaworks-dev.github.io/dadagastro-mobil/',{waitUntil:'networkidle'});await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:`docs/screenshots/v3-hero/live-${w}.png`});await p.close()}await b.close();

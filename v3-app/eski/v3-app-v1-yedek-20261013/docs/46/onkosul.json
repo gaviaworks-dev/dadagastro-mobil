@@ -1,0 +1,94 @@
+{
+ "ana-v3-alt1.html": {
+  "hata": [],
+  "ag404": []
+ },
+ "ana-v3-alt2.html": {
+  "hata": [],
+  "ag404": []
+ },
+ "ana-v3-alt3.html": {
+  "hata": [],
+  "ag404": []
+ },
+ "detay": {
+  "baslik": "Mercimekli Yaprak Sarma",
+  "sekme": [
+   "Malzemeler13",
+   "Hazırlanış5",
+   "Yorumlar0"
+  ],
+  "bilgi": [
+   "Hatırlatma",
+   "Alerjen"
+  ],
+  "besinAlt": 4,
+  "shuffle": 7,
+  "benzer": {
+   "kart": 4,
+   "gosterge": 0
+  },
+  "galeri": {
+   "acik": true,
+   "nw": 1600,
+   "sayac": "1 / 5"
+  },
+  "hata": [],
+  "ag404": []
+ },
+ "yazar-a": "a dv2-chef dv2-chef-a",
+ "yazar-b": "b dv2-chef dv2-chef-x dv2-chef-b",
+ "yazar-c": "c dv2-chef dv2-chef-x dv2-chef-c",
+ "yazar-d": "d dv2-chef dv2-chef-x dv2-chef-d",
+ "secenek-ana-v3.html": {
+  "radius": "b",
+  "rozet": "b",
+  "kartR": "20px",
+  "rozetBg": "color(srgb 0 0 0 / 0.56)"
+ },
+ "menu-ana-v3.html": [
+  "Ana Sayfa",
+  "Tarifler",
+  "Videolar",
+  "Ne Pişirsem?",
+  "Dolapta Ne Var?",
+  "Püf Noktaları",
+  "Tabaktan TarifPro",
+  "Mutfak Sırları",
+  "Görüş Bildir"
+ ],
+ "secenek-liste-v2.html": {
+  "radius": "b",
+  "rozet": "b",
+  "kartR": "20px",
+  "rozetBg": "color(srgb 0 0 0 / 0.56)"
+ },
+ "menu-liste-v2.html": [
+  "Ana Sayfa",
+  "Tarifler",
+  "Videolar",
+  "Ne Pişirsem?",
+  "Dolapta Ne Var?",
+  "Püf Noktaları",
+  "Tabaktan TarifPro",
+  "Mutfak Sırları",
+  "Görüş Bildir"
+ ],
+ "secenek-detay-v2.html": {
+  "radius": "b",
+  "rozet": "b",
+  "kartR": "20px",
+  "rozetBg": "color(srgb 0 0 0 / 0.56)"
+ },
+ "menu-detay-v2.html": [
+  "Ana Sayfa",
+  "Tarifler",
+  "Videolar",
+  "Ne Pişirsem?",
+  "Dolapta Ne Var?",
+  "Püf Noktaları",
+  "Tabaktan TarifPro",
+  "Mutfak Sırları",
+  "Görüş Bildir"
+ ]
+}

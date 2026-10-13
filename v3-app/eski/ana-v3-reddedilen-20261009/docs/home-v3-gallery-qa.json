@@ -1,0 +1,54 @@
+{
+  "galleryEvidence": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "frames": [
+        {
+          "src": "ana-v3.html?gallery=1",
+          "width": 390,
+          "height": 844,
+          "scroll": 0,
+          "renderWidth": 390
+        },
+        {
+          "src": "ana-x6.html?gallery=1",
+          "width": 390,
+          "height": 844,
+          "scroll": 0,
+          "renderWidth": 280
+        }
+      ],
+      "text": "Ana sayfa\n\nYeni tasarımı önceki haliyle karşılaştır.\n\nYeni tasarım\nTek başına aç\nÖnceki tasarım\nTek başına aç"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "frames": [
+        {
+          "src": "ana-v3.html?gallery=1",
+          "width": 390,
+          "height": 844,
+          "scroll": 0,
+          "renderWidth": 356
+        },
+        {
+          "src": "ana-x6.html?gallery=1",
+          "width": 390,
+          "height": 844,
+          "scroll": 0,
+          "renderWidth": 280
+        }
+      ],
+      "text": "Ana sayfa\n\nYeni tasarımı önceki haliyle karşılaştır.\n\nYeni tasarım\nTek başına aç\nÖnceki tasarım\nTek başına aç"
+    }
+  ],
+  "clamp": {
+    "text": "Patates Mücveri | Çiğ Rendelenmiş Patatesle Tavada Kızaran Kahvaltılık Mücver",
+    "clamp": "2",
+    "visibleHeight": 40,
+    "contentHeight": 60,
+    "lineHeight": 20
+  },
+  "testNote": "Long title is the actual full source title, injected only in the test browser; recipe data and application output were not changed."
+}

@@ -1,0 +1,250 @@
+{
+ "ana-v3.html": {
+  "arrows": 12,
+  "meta": [
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)"
+  ],
+  "save": [
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "slashBug": 0,
+  "featureText": [
+   44,
+   44,
+   44
+  ],
+  "dataset": {
+   "dgRadius": "a",
+   "dgRozet": "a",
+   "dgGosterge": "a",
+   "v3Gosterge": "a"
+  },
+  "chef": "",
+  "pager": "nokta",
+  "sort": "",
+  "cardR": "16px",
+  "url": "",
+  "errors": []
+ },
+ "liste-v2.html": {
+  "arrows": 0,
+  "meta": [
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)"
+  ],
+  "save": [
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "slashBug": 0,
+  "featureText": [
+   42.3,
+   66.3,
+   66.3,
+   42.3
+  ],
+  "dataset": {
+   "dgRadius": "a",
+   "dgRozet": "a",
+   "dgGosterge": "a"
+  },
+  "chef": "",
+  "pager": "nokta",
+  "sort": "lv2-sort-button lv2-sort-button--a",
+  "cardR": "16px",
+  "url": "",
+  "errors": []
+ },
+ "detay-v2.html": {
+  "arrows": 0,
+  "meta": [
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+   "color(srgb 0.129412 0.117647 0.0862745 / 0.64)"
+  ],
+  "save": [
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0.129412 0.117647 0.0862745 / 0.64)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "slashBug": 0,
+  "featureText": [],
+  "dataset": {
+   "dgRadius": "a",
+   "dgRozet": "a",
+   "dgGosterge": "a"
+  },
+  "chef": "dv2-chef dv2-chef-a",
+  "pager": "-",
+  "sort": "",
+  "cardR": "16px",
+  "url": "",
+  "errors": []
+ },
+ "detay-v2.html?yazar=c&radius=b&rozet=b&gosterge=b&siralama=b": {
+  "arrows": 0,
+  "meta": [
+   "color(srgb 0 0 0 / 0.56)",
+   "color(srgb 0 0 0 / 0.56)",
+   "color(srgb 0 0 0 / 0.56)"
+  ],
+  "save": [
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "slashBug": 0,
+  "featureText": [],
+  "dataset": {
+   "dgRadius": "b",
+   "dgRozet": "b",
+   "dgGosterge": "b"
+  },
+  "chef": "dv2-chef dv2-chef-x dv2-chef-c",
+  "pager": "-",
+  "sort": "",
+  "cardR": "20px",
+  "url": "?yazar=c&radius=b&rozet=b&gosterge=b&siralama=b",
+  "errors": []
+ },
+ "liste-v2.html?siralama=b&gosterge=b&radius=b&rozet=b": {
+  "arrows": 0,
+  "meta": [
+   "color(srgb 0 0 0 / 0.56)",
+   "color(srgb 0 0 0 / 0.56)",
+   "color(srgb 0 0 0 / 0.56)"
+  ],
+  "save": [
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "slashBug": 0,
+  "featureText": [
+   42.3,
+   66.3,
+   66.3,
+   42.3
+  ],
+  "dataset": {
+   "dgRadius": "b",
+   "dgRozet": "b",
+   "dgGosterge": "b"
+  },
+  "chef": "",
+  "pager": "sayac",
+  "sort": "lv2-sort-button lv2-sort-button--b",
+  "cardR": "20px",
+  "url": "?siralama=b&gosterge=b&radius=b&rozet=b",
+  "errors": []
+ },
+ "ana-v3.html?gosterge=b&radius=b&rozet=b": {
+  "arrows": 12,
+  "meta": [
+   "color(srgb 0 0 0 / 0.56)",
+   "color(srgb 0 0 0 / 0.56)",
+   "color(srgb 0 0 0 / 0.56)"
+  ],
+  "save": [
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "before": "color(srgb 0 0 0 / 0.56)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "slashBug": 0,
+  "featureText": [
+   44,
+   44,
+   44
+  ],
+  "dataset": {
+   "dgRadius": "b",
+   "dgRozet": "b",
+   "dgGosterge": "b",
+   "v3Gosterge": "b"
+  },
+  "chef": "",
+  "pager": "sayac",
+  "sort": "",
+  "cardR": "20px",
+  "url": "?gosterge=b&radius=b&rozet=b",
+  "errors": []
+ }
+}

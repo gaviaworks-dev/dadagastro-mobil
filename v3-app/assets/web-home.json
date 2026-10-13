@@ -1,0 +1,374 @@
+{
+  "hero": "assets/media/4a8b33b70f8d65530a18.webp",
+  "description": "Evdeki malzemeyi yaz, sana ne pişirebileceğini söyleyelim. Binlerce denenmiş, puanlanmış, yorumlanmış tarif arasından seç.",
+  "stats": [
+    {
+      "value": "6.112+",
+      "label": "Denenmiş tarif"
+    },
+    {
+      "value": "2.163+",
+      "label": "Püf noktası"
+    },
+    {
+      "value": "1.055",
+      "label": "Topluluk üyesi"
+    },
+    {
+      "value": "8.160",
+      "label": "Üye yorumu"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Atıştırmalık",
+      "count": "245 tarif",
+      "image": "assets/media/b657ce0e43fb2f4f4110.avif"
+    },
+    {
+      "name": "Bakliyat",
+      "count": "210 tarif",
+      "image": "assets/media/bd4d5d2dadca8b34700b.avif"
+    },
+    {
+      "name": "Balık ve Deniz Ürünleri",
+      "count": "260 tarif",
+      "image": "assets/media/12ebebe174e899f51d7a.avif"
+    },
+    {
+      "name": "Bebek Tarifleri",
+      "count": "196 tarif",
+      "image": "assets/media/bacfaa0826436030e4ed.avif"
+    },
+    {
+      "name": "Çocuk Tarifleri",
+      "count": "197 tarif",
+      "image": "assets/media/148cd9a08f6d6ab88d23.avif"
+    },
+    {
+      "name": "Çorba",
+      "count": "271 tarif",
+      "image": "assets/media/c89680fa7b92db3ddaff.avif"
+    },
+    {
+      "name": "Dolma ve Sarma",
+      "count": "195 tarif",
+      "image": "assets/media/a4b9167368d3d4fa1f5c.avif"
+    },
+    {
+      "name": "Dondurma ve Soğuk Tatlılar",
+      "count": "197 tarif",
+      "image": "assets/media/ef9422aa7def8c1c1415.avif"
+    },
+    {
+      "name": "Ekmek",
+      "count": "198 tarif",
+      "image": "assets/media/399245137a4bd427fdf4.avif"
+    },
+    {
+      "name": "Hamur İşi",
+      "count": "248 tarif",
+      "image": "assets/media/399245137a4bd427fdf4.avif"
+    },
+    {
+      "name": "İçecek",
+      "count": "208 tarif",
+      "image": "assets/media/08baf4a4509948bb468d.avif"
+    },
+    {
+      "name": "Kahvaltılık",
+      "count": "245 tarif",
+      "image": "assets/media/9b1340d296b624320d05.avif"
+    },
+    {
+      "name": "Kek ve Pasta",
+      "count": "203 tarif",
+      "image": "assets/media/a97fa50fafe2ad20a4f3.avif"
+    },
+    {
+      "name": "Kırmızı Et",
+      "count": "299 tarif",
+      "image": "assets/media/7807a0acdb3c6afbcbc1.avif"
+    },
+    {
+      "name": "Köfte ve Kebap",
+      "count": "228 tarif",
+      "image": "assets/media/7807a0acdb3c6afbcbc1.avif"
+    },
+    {
+      "name": "Kurabiye",
+      "count": "194 tarif",
+      "image": "assets/media/8531da7f6bc8608fc563.avif"
+    },
+    {
+      "name": "Makarna",
+      "count": "185 tarif",
+      "image": "assets/media/5c8bb35a1fa35454fc0b.avif"
+    },
+    {
+      "name": "Mantı ve Dolgulu Hamurlar",
+      "count": "196 tarif",
+      "image": "assets/media/399245137a4bd427fdf4.avif"
+    },
+    {
+      "name": "Meyve Tarifleri",
+      "count": "208 tarif",
+      "image": "assets/media/ddf12d4308acc568eaf5.avif"
+    },
+    {
+      "name": "Meze",
+      "count": "254 tarif",
+      "image": "assets/media/b657ce0e43fb2f4f4110.avif"
+    },
+    {
+      "name": "Pilav",
+      "count": "232 tarif",
+      "image": "assets/media/03b9c9e0a5b40e5ccde1.avif"
+    },
+    {
+      "name": "Pizza ve Pide",
+      "count": "190 tarif",
+      "image": "assets/media/1d1c61d22197349b7080.avif"
+    },
+    {
+      "name": "Reçel",
+      "count": "189 tarif",
+      "image": "assets/media/bd4d5d2dadca8b34700b.avif"
+    },
+    {
+      "name": "Sakatat",
+      "count": "201 tarif",
+      "image": "assets/media/7807a0acdb3c6afbcbc1.avif"
+    },
+    {
+      "name": "Salata",
+      "count": "194 tarif",
+      "image": "assets/media/ddf12d4308acc568eaf5.avif"
+    },
+    {
+      "name": "Sandviç, Burger ve Dürüm",
+      "count": "191 tarif",
+      "image": "assets/media/b657ce0e43fb2f4f4110.avif"
+    },
+    {
+      "name": "Sebze",
+      "count": "345 tarif",
+      "image": "assets/media/06489512e308173f959f.avif"
+    },
+    {
+      "name": "Sos",
+      "count": "207 tarif",
+      "image": "assets/media/a4b9167368d3d4fa1f5c.avif"
+    },
+    {
+      "name": "Tatlı",
+      "count": "285 tarif",
+      "image": "assets/media/ef9422aa7def8c1c1415.avif"
+    },
+    {
+      "name": "Tavuk ve Hindi",
+      "count": "237 tarif",
+      "image": "assets/media/bacfaa0826436030e4ed.avif"
+    },
+    {
+      "name": "Turşu ve Konserve",
+      "count": "203 tarif",
+      "image": "assets/media/a4b9167368d3d4fa1f5c.avif"
+    },
+    {
+      "name": "Yumurta Tarifleri",
+      "count": "199 tarif",
+      "image": "assets/media/9b1340d296b624320d05.avif"
+    },
+    {
+      "name": "Zeytinyağlılar",
+      "count": "200 tarif",
+      "image": "assets/media/a4b9167368d3d4fa1f5c.avif"
+    },
+    {
+      "name": "Ana Yemek",
+      "count": "0 tarif",
+      "image": ""
+    }
+  ],
+  "lessons": [
+    {
+      "title": "Temel Pişirme Yöntemleri",
+      "info": "5 bölüm",
+      "url": "/mutfaga-giris/temel-pisirme-yontemleri"
+    },
+    {
+      "title": "Isı ve Süre Kontrolü",
+      "info": "5 bölüm",
+      "url": "/mutfaga-giris/isi-ve-sure-kontrolu"
+    },
+    {
+      "title": "Tencerede Pişirme Teknikleri",
+      "info": "5 bölüm",
+      "url": "/mutfaga-giris/tencerede-pisirme-teknikleri"
+    },
+    {
+      "title": "Haşlama: Sudan Fazlası",
+      "info": "8 bölüm",
+      "url": "/mutfaga-giris/haslama-sudan-fazlasi"
+    },
+    {
+      "title": "Tavada Pişirme Teknikleri",
+      "info": "4 bölüm",
+      "url": "/mutfaga-giris/tavada-pisirme-teknikleri"
+    },
+    {
+      "title": "Fırında Pişirme Teknikleri",
+      "info": "4 bölüm",
+      "url": "/mutfaga-giris/firinda-pisirme-teknikleri"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Çilek Bozulduğu (Küflendiği) Nasıl Anlaşılır?",
+      "image": "assets/media/359317b2f0b0ffe4b5c8.webp",
+      "reads": "284 okunma",
+      "url": "/puf-noktalari/cilek-bozuldugu-kuflendigi-nasil-anlasilir"
+    },
+    {
+      "title": "Yumurta Bozuk mu Nasıl Anlaşılır?",
+      "image": "assets/media/47527b662d4474261055.webp",
+      "reads": "171 okunma",
+      "url": "/puf-noktalari/yumurta-bozuk-mu-nasil-anlasilir"
+    },
+    {
+      "title": "Ayran Bozulduğu Nasıl Anlaşılır?",
+      "image": "assets/media/74804f5ff7ee7f8dcb5d.webp",
+      "reads": "138 okunma",
+      "url": "/puf-noktalari/ayran-bozuldugu-nasil-anlasilir"
+    },
+    {
+      "title": "Karides, Midye ve Diğer Kabuklu Deniz Ürünleri Nasıl Saklanır?",
+      "image": "assets/media/d145ce5fb7afe0e1eeeb.webp",
+      "reads": "130 okunma",
+      "url": "/puf-noktalari/karides-midye-ve-diger-kabuklu-deniz-urunleri-nasil-saklanir"
+    },
+    {
+      "title": "Mozzarella Peynir Kaç Derecede Erir (Pizza İçin)?",
+      "image": "assets/media/435b15d290f445f219e8.webp",
+      "reads": "126 okunma",
+      "url": "/puf-noktalari/mozzarella-peynir-kac-derecede-erir-pizza"
+    },
+    {
+      "title": "Bir Dilim Çavdar Ekmeği Kaç Kalori?",
+      "image": "assets/media/4674366e2bd9b4fe9021.webp",
+      "reads": "125 okunma",
+      "url": "/puf-noktalari/bir-dilim-cavdar-ekmegi-kac-kalori"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Tam Kıvamında Karnıyarık — Şefin Bütün Sırlarıyla",
+      "image": "assets/media/5d677d2b7ccaa822cc42.avif",
+      "time": "12:48",
+      "views": "1,2 Mn"
+    },
+    {
+      "title": "Soğan Doğrarken Ağlamamanın Yolu",
+      "image": "assets/media/70e84ae0ba3c8bc623cd.avif",
+      "time": "00:31",
+      "views": "524 B"
+    },
+    {
+      "title": "Meal Prep: 1 Saatte Haftalık Sebze Hazırlığı",
+      "image": "assets/media/f4b39582a7a11818fde6.avif",
+      "time": "00:38",
+      "views": "412 B"
+    },
+    {
+      "title": "Gaziantep Baklavası — Ustadan İzle",
+      "image": "assets/media/30cf0cdf605c956af768.avif",
+      "time": "18:08",
+      "views": "356 B"
+    },
+    {
+      "title": "Pratik Kahvaltı Tabağı — 5 Dakika",
+      "image": "assets/media/9459582fa849ba8beaa6.avif",
+      "time": "00:42",
+      "views": "341 B"
+    },
+    {
+      "title": "Bıçak Tutuşu ve Julyen Doğrama",
+      "image": "assets/media/f4b39582a7a11818fde6.avif",
+      "time": "11:05",
+      "views": "312 B"
+    }
+  ],
+  "chefs": [
+    {
+      "name": "Şahnur Ilıcalı",
+      "count": "171 tarif"
+    },
+    {
+      "name": "Göktürk Dizdar",
+      "count": "171 tarif"
+    },
+    {
+      "name": "Şahnur Sezek",
+      "count": "171 tarif"
+    },
+    {
+      "name": "Canan Yücel",
+      "count": "140 tarif"
+    },
+    {
+      "name": "Emel Aksu",
+      "count": "137 tarif"
+    },
+    {
+      "name": "Ece Özdenak",
+      "count": "97 tarif"
+    }
+  ],
+  "sections": [
+    {
+      "class": "hero-v ss-mode px-band",
+      "title": ""
+    },
+    {
+      "class": "catstrip",
+      "title": "Kategoriler & Dünya Mutfakları"
+    },
+    {
+      "class": "findbar-sec",
+      "title": ""
+    },
+    {
+      "class": "sec feat-sec",
+      "title": "Bu hafta öne çıkanlar"
+    },
+    {
+      "class": "sec guide px-band",
+      "title": "Mutfağa Giriş & Püf Noktaları"
+    },
+    {
+      "class": "proband-sec",
+      "title": ""
+    },
+    {
+      "class": "sec vids-sec",
+      "title": "En lezzetli videolar"
+    },
+    {
+      "class": "dayband px-band",
+      "title": ""
+    },
+    {
+      "class": "sec chefs",
+      "title": "Tarifin ustaları"
+    },
+    {
+      "class": "appband px-band",
+      "title": ""
+    },
+    {
+      "class": "sec community",
+      "title": "Senin de bir tarifin var"
+    }
+  ]
+}

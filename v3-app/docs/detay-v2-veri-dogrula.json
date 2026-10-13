@@ -1,0 +1,686 @@
+{
+ "rows": [
+  {
+   "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+   "title": "Tavuk Curry",
+   "alt": 0,
+   "allergen": false,
+   "mobileAlt": 0,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi",
+   "title": "Yunan Usulü Limonlu Karides Sote",
+   "alt": 0,
+   "allergen": true,
+   "mobileAlt": 0,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi",
+   "title": "Düdüklüde Balkan Usulü Lahana Sarması",
+   "alt": 0,
+   "allergen": false,
+   "mobileAlt": 0,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas",
+   "title": "Kırmızı Fasulye Yahnisi",
+   "alt": 0,
+   "allergen": true,
+   "mobileAlt": 0,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver",
+   "title": "Patates Mücveri",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "title": "Sagdana",
+   "alt": 4,
+   "allergen": true,
+   "mobileAlt": 4,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "pasteis-de-feijao-portekiz-torres-vedras-usulu-bademli-fasulyeli-mini-tart",
+   "title": "Pastéis de Feijão",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart",
+   "title": "Tarte de Amêndoa",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "sardalya-izgara-limon-kekikli",
+   "title": "Sardalya Izgara",
+   "alt": 0,
+   "allergen": true,
+   "mobileAlt": 0,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci",
+   "title": "Güveçte Ayvalı Tavuk",
+   "alt": 6,
+   "allergen": true,
+   "mobileAlt": 6,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "title": "Ördek Dolması",
+   "alt": 6,
+   "allergen": false,
+   "mobileAlt": 6,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+   "title": "Tuzsuz Bebek Tavuk Suyu",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+   "title": "Arroz con Pato",
+   "alt": 2,
+   "allergen": false,
+   "mobileAlt": 2,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "title": "Asam Pedas",
+   "alt": 10,
+   "allergen": false,
+   "mobileAlt": 10,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "title": "Jiao Yan Karides",
+   "alt": 5,
+   "allergen": false,
+   "mobileAlt": 5,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "title": "İran Usulü Baharatlı Acılı Balık Kebabı",
+   "alt": 0,
+   "allergen": true,
+   "mobileAlt": 0,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+   "title": "Karabuğday Kaplamalı Levrek",
+   "alt": 0,
+   "allergen": true,
+   "mobileAlt": 0,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+   "title": "Mercimekli Yaprak Sarma",
+   "alt": 7,
+   "allergen": true,
+   "mobileAlt": 7,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+   "title": "Lor Dolması",
+   "alt": 4,
+   "allergen": true,
+   "mobileAlt": 4,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+   "title": "Chelsea Bun",
+   "alt": 0,
+   "allergen": true,
+   "mobileAlt": 0,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+   "title": "Moin Moin",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+   "title": "Waakye",
+   "alt": 2,
+   "allergen": false,
+   "mobileAlt": 2,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+   "title": "Enfrijoladas",
+   "alt": 6,
+   "allergen": false,
+   "mobileAlt": 6,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "frijoles-refritos-meksika-usulu-ezme-fasulye",
+   "title": "Frijoles Refritos",
+   "alt": 0,
+   "allergen": true,
+   "mobileAlt": 0,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+   "title": "Semizotlu Yumurta",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+   "title": "Masabeeb",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+   "title": "İrimşik",
+   "alt": 2,
+   "allergen": true,
+   "mobileAlt": 2,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+   "title": "Mamounia",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "title": "Kiev Pastası",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "title": "Tamriyeh",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+   "title": "Tepsi Kadayıfı",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi",
+   "title": "Muska Tatlısı",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "title": "Mısır Koçanı Jölesi",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+   "title": "Şadok Kabuğu Reçeli",
+   "alt": 2,
+   "allergen": false,
+   "mobileAlt": 2,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+   "title": "Mürver Çiçeği Jölesi",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+   "title": "Japon Ayvası Jölesi",
+   "alt": 1,
+   "allergen": false,
+   "mobileAlt": 1,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz",
+   "title": "Jamaika Usulü Ananas Zencefil Reçeli",
+   "alt": 0,
+   "allergen": false,
+   "mobileAlt": 0,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": null,
+   "ok": true
+  },
+  {
+   "slug": "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+   "title": "Shami Kebap",
+   "alt": 5,
+   "allergen": true,
+   "mobileAlt": 5,
+   "mobileAllergen": true,
+   "cards": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+   "title": "Tire Köfte",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+   "title": "Pırasa Köftesi",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+   "title": "Yeni Dünya Kebabı",
+   "alt": 3,
+   "allergen": false,
+   "mobileAlt": 3,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  },
+  {
+   "slug": "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte",
+   "title": "Kağıtta Köfte",
+   "alt": 4,
+   "allergen": false,
+   "mobileAlt": 4,
+   "mobileAllergen": false,
+   "cards": [
+    "Hatırlatma"
+   ],
+   "sheetOk": true,
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "params": [
+  {
+   "q": "",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=a",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=a",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=b",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=b",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=c",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=c",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=d",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=d",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=a&not=a",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=a&not=a",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=b&not=b",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=b&not=b",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?not=a",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?not=a",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?not=b",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?not=b",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=c&not=a",
+   "eng": "chromium",
+   "alt": 7,
+   "allergen": true
+  },
+  {
+   "q": "?yazar=c&not=a",
+   "eng": "webkit",
+   "alt": 7,
+   "allergen": true
+  }
+ ]
+}

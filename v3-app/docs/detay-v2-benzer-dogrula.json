@@ -1,0 +1,4646 @@
+{
+ "all": [
+  {
+   "slug": "tavuk-curry-hindistan-cevizli-hint-usulu",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci",
+    "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+    "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+    "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Cem Aydan",
+    "İrem Egeli",
+    "Ege Bakırcıoğlu",
+    "Burcu Yıldırım"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "yunan-usulu-limonlu-karides-sote-zeytinyagli-hizli-deniz-urunu-tarifi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+    "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+    "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+    "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ece Sarıoğlu",
+    "Burcu Akyüz",
+    "Şahnur Ilıcalı",
+    "Emel Aksu"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+    "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+    "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+    "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Mert Taşlı",
+    "İrem Egeli",
+    "Dağhan Fahri",
+    "Göktürk Dizdar"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "M",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "kirmizi-fasulye-yahnisi-jamaika-usulu-kahvaltilik-stew-peas",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+    "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+    "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+    "frijoles-refritos-meksika-usulu-ezme-fasulye"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=moin-moin-nijerya-usulu-buharda-borulce-pudingi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=frijoles-refritos-meksika-usulu-ezme-fasulye&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Atakan Atan",
+    "Hüseyin Koç",
+    "Erhan Yıldırım",
+    "Aşkın Akay"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "H",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "patates-mucveri-cig-rendelenmis-patatesle-tavada-kizaran-kahvaltilik-mucver",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+    "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+    "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=mamounia-halep-usulu-tereyagli-irmik-kahvaltisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Esma Çevik",
+    "İrem Akgül",
+    "Barlas Egeli"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+    "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+    "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "İlker Bozkurt",
+    "Ece Ekici",
+    "Ahmet Örge",
+    "Ece Örge"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "pasteis-de-feijao-portekiz-torres-vedras-usulu-bademli-fasulyeli-mini-tart",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+    "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Şahnur Poyrazoğlu",
+    "İlker Bozkurt",
+    "Ece Ekici",
+    "Ahmet Örge"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "tarte-de-amendoa-portekiz-algarve-usulu-karamelize-bademli-tart",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+    "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Şahnur Poyrazoğlu",
+    "İlker Bozkurt",
+    "Ece Ekici",
+    "Ahmet Örge"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "sardalya-izgara-limon-kekikli",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+    "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+    "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+    "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ece Sarıoğlu",
+    "Burcu Akyüz",
+    "Şahnur Ilıcalı",
+    "Emel Aksu"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+    "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+    "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+    "huhnerfrikassee-alman-usulu-kuskonmazli-mantarli-kremali-tavuk-yahnisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=huhnerfrikassee-alman-usulu-kuskonmazli-mantarli-kremali-tavuk-yahnisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "İrem Egeli",
+    "Ege Bakırcıoğlu",
+    "Burcu Yıldırım",
+    "Fatma Aktürk"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "F",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+    "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+    "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+    "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Mert Taşlı",
+    "Dağhan Fahri",
+    "Göktürk Dizdar",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "M",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+    "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+    "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi",
+    "izgara-misir-puresi-arjantin-usulu-bebek-mamasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=izgara-misir-puresi-arjantin-usulu-bebek-mamasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ece Örge",
+    "Belgin Aksoy",
+    "Aysun Aydın",
+    "Fatma Aktürk"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "F",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+    "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+    "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi",
+    "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Rüzgar Korol",
+    "Derin Sezek",
+    "Rüya Pekkan",
+    "Bekir Tekin"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+    "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+    "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+    "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Burcu Akyüz",
+    "Şahnur Ilıcalı",
+    "Emel Aksu",
+    "Canan Yücel"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+    "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+    "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+    "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ece Sarıoğlu",
+    "Şahnur Ilıcalı",
+    "Emel Aksu",
+    "Canan Yücel"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+    "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+    "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+    "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ece Sarıoğlu",
+    "Burcu Akyüz",
+    "Emel Aksu",
+    "Canan Yücel"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+    "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+    "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+    "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ece Sarıoğlu",
+    "Burcu Akyüz",
+    "Şahnur Ilıcalı",
+    "Canan Yücel"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+    "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+    "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+    "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "İrem Egeli",
+    "Dağhan Fahri",
+    "Göktürk Dizdar",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+    "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+    "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+    "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Mert Taşlı",
+    "İrem Egeli",
+    "Göktürk Dizdar",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "M",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "chelsea-bun-yeni-zelanda-usulu-tarcinli-kuru-uzumlu-rulo-corek",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli",
+    "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+    "lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma",
+    "duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=mercimekli-yaprak-sarma-adiyaman-usulu-kirmizi-mercimekli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=lor-dolmasi-bayburt-usulu-lorlu-yaprak-sarma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=duduklude-balkan-usulu-lahana-sarmasi-kalabalik-sofralarin-hizli-pisen-sarmasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Mert Taşlı",
+    "İrem Egeli",
+    "Dağhan Fahri",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "M",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+    "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+    "frijoles-refritos-meksika-usulu-ezme-fasulye",
+    "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=frijoles-refritos-meksika-usulu-ezme-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=bogrulce-yemegi-kuzu-etli-duduklu-tencerede&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Hüseyin Koç",
+    "Erhan Yıldırım",
+    "Aşkın Akay",
+    "Ebru Bolatlı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "H",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+    "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+    "frijoles-refritos-meksika-usulu-ezme-fasulye",
+    "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=moin-moin-nijerya-usulu-buharda-borulce-pudingi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=frijoles-refritos-meksika-usulu-ezme-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=bogrulce-yemegi-kuzu-etli-duduklu-tencerede&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Atakan Atan",
+    "Erhan Yıldırım",
+    "Aşkın Akay",
+    "Ebru Bolatlı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+    "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+    "frijoles-refritos-meksika-usulu-ezme-fasulye",
+    "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=moin-moin-nijerya-usulu-buharda-borulce-pudingi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=frijoles-refritos-meksika-usulu-ezme-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=bogrulce-yemegi-kuzu-etli-duduklu-tencerede&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Atakan Atan",
+    "Hüseyin Koç",
+    "Aşkın Akay",
+    "Ebru Bolatlı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "H",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "frijoles-refritos-meksika-usulu-ezme-fasulye",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+    "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+    "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+    "bogrulce-yemegi-kuzu-etli-duduklu-tencerede"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=moin-moin-nijerya-usulu-buharda-borulce-pudingi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=bogrulce-yemegi-kuzu-etli-duduklu-tencerede&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Atakan Atan",
+    "Hüseyin Koç",
+    "Erhan Yıldırım",
+    "Ebru Bolatlı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "H",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+    "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+    "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik",
+    "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Şahnur Sezek",
+    "Belgin Aksoy",
+    "Ayşe Şahinkaya",
+    "Ece Yetkiner"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+    "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+    "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=mamounia-halep-usulu-tereyagli-irmik-kahvaltisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "İrem Akgül",
+    "Barlas Egeli",
+    "Ece Özdenak"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+    "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+    "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=mamounia-halep-usulu-tereyagli-irmik-kahvaltisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Esma Çevik",
+    "Barlas Egeli",
+    "Ece Özdenak"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+    "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+    "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Esma Çevik",
+    "İrem Akgül",
+    "Ece Özdenak"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+    "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+    "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi",
+    "kastera-kek-japon-usulu-bal-serbetli-sunger-kek"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=pancarli-kek-pancar-rendeli-nemli-kakaolu-kek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=visneli-islak-kek-turk-usulu-serbetli-parti-keki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kastera-kek-japon-usulu-bal-serbetli-sunger-kek&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Şahnur Mertoğlu",
+    "Şahnur Sezek",
+    "Göktürk Dizdar",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+    "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Şahnur Poyrazoğlu",
+    "İlker Bozkurt",
+    "Ahmet Örge",
+    "Ece Örge"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+    "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Şahnur Poyrazoğlu",
+    "İlker Bozkurt",
+    "Ece Ekici",
+    "Ece Örge"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "muska-tatlisi-ucgen-katlanmis-cevizli-serbetli-yufka-tatlisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi",
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma",
+    "tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=sagdana-suudi-arabistan-hicaz-usulu-kakuleli-sagu-incili-sut-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tamriyeh-sam-usulu-irmik-kremali-hurmali-kizartma&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tepsi-kadayifi-cevizli-tel-kadayifli-serbetli-firin-tatlisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Şahnur Poyrazoğlu",
+    "İlker Bozkurt",
+    "Ece Ekici",
+    "Ahmet Örge"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+    "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+    "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+    "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ömer Polat",
+    "Ayşe Şahinkaya",
+    "İrem Pektemek",
+    "Emine Demirtaş"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "Ö",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+    "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+    "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+    "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Tarık Kaptan",
+    "Ayşe Şahinkaya",
+    "İrem Pektemek",
+    "Emine Demirtaş"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+    "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+    "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+    "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Tarık Kaptan",
+    "Ömer Polat",
+    "İrem Pektemek",
+    "Emine Demirtaş"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ö",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+    "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+    "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+    "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Tarık Kaptan",
+    "Ömer Polat",
+    "Ayşe Şahinkaya",
+    "Emine Demirtaş"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ö",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "jamaika-usulu-ananas-zencefil-receli-dondurucuya-ayrilan-kavanoz",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole",
+    "sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli",
+    "murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi",
+    "japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=misir-kocani-jolesi-tanesi-alinmis-kocan-suyundan-bal-renkli-jole&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=sadok-kabugu-receli-kalin-kabuklu-pomelodan-serbetli-kabuk-receli&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=murver-cicegi-jolesi-limonlu-cicek-demlemesinden-berrak-bahar-jolesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=japon-ayvasi-jolesi-sus-ayvasinin-sert-meyvesinden-kendi-pektiniyle-donan-jole&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Tarık Kaptan",
+    "Ömer Polat",
+    "Ayşe Şahinkaya",
+    "İrem Pektemek"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ö",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+    "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+    "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+    "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ceren Tosun",
+    "Esma Çevik",
+    "Radostina Ivanova",
+    "Ceren Tosun"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+    "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+    "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+    "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Toprak Ekşioğlu",
+    "Esma Çevik",
+    "Radostina Ivanova",
+    "Ceren Tosun"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+    "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+    "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+    "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Toprak Ekşioğlu",
+    "Ceren Tosun",
+    "Radostina Ivanova",
+    "Ceren Tosun"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+    "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+    "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+    "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Toprak Ekşioğlu",
+    "Ceren Tosun",
+    "Esma Çevik",
+    "Ceren Tosun"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "kagitta-kofte-yagli-kagitta-sebzeyle-kendi-buharinda-pisen-kofte",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte",
+    "tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte",
+    "pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi",
+    "yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=shami-kebap-pakistan-usulu-nohutlu-yumurtaya-bulanmis-tavada-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tire-kofte-izmir-usulu-siste-kozlenip-pide-ustune-yatirilan-kofte&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=pirasa-koftesi-ege-usulu-limonlu-kiymali-pirasa-koftesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=yeni-dunya-kebabi-gaziantep-usulu-malta-erikli-kofte-sisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Toprak Ekşioğlu",
+    "Ceren Tosun",
+    "Esma Çevik",
+    "Radostina Ivanova"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "T",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "huhnerfrikassee-alman-usulu-kuskonmazli-mantarli-kremali-tavuk-yahnisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci",
+    "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+    "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+    "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=guvecte-ayvali-tavuk-mayhos-ayvayla-kis-guveci&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Cem Aydan",
+    "İrem Egeli",
+    "Ege Bakırcıoğlu",
+    "Burcu Yıldırım"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "C",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+    "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+    "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi",
+    "izgara-misir-puresi-arjantin-usulu-bebek-mamasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=izgara-misir-puresi-arjantin-usulu-bebek-mamasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ege Bakırcıoğlu",
+    "Belgin Aksoy",
+    "Aysun Aydın",
+    "Fatma Aktürk"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "F",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+    "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+    "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi",
+    "izgara-misir-puresi-arjantin-usulu-bebek-mamasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=izgara-misir-puresi-arjantin-usulu-bebek-mamasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ege Bakırcıoğlu",
+    "Ece Örge",
+    "Aysun Aydın",
+    "Fatma Aktürk"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "F",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+    "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+    "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+    "izgara-misir-puresi-arjantin-usulu-bebek-mamasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=izgara-misir-puresi-arjantin-usulu-bebek-mamasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ege Bakırcıoğlu",
+    "Ece Örge",
+    "Belgin Aksoy",
+    "Fatma Aktürk"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "F",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "izgara-misir-puresi-arjantin-usulu-bebek-mamasi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu",
+    "arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba",
+    "koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama",
+    "firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=tuzsuz-bebek-tavuk-suyu-mamalarin-tabani-icin-suzulmus-et-suyu&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arpa-sehriyeli-sebze-corbasi-10-ay-ve-uzeri-bebekler-icin-tuzsuz-corba&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=koz-patlican-ve-yogurt-ezmesi-balkan-usulu-yumusak-kivamli-mama&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=firik-lapasi-irak-usulu-kavrulmus-bugday-bebek-mamasi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ege Bakırcıoğlu",
+    "Ece Örge",
+    "Belgin Aksoy",
+    "Aysun Aydın"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+    "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+    "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi",
+    "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Burcu Yıldırım",
+    "Derin Sezek",
+    "Rüya Pekkan",
+    "Bekir Tekin"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+    "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+    "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi",
+    "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Rüzgar Korol",
+    "Burcu Yıldırım",
+    "Rüya Pekkan",
+    "Bekir Tekin"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+    "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+    "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+    "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Rüzgar Korol",
+    "Burcu Yıldırım",
+    "Derin Sezek",
+    "Bekir Tekin"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "kuskonmazli-makademya-pilavi-avustralya-usulu-findikli-pilav",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav",
+    "arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav",
+    "arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi",
+    "grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=saleeg-suudi-arabistan-usulu-sutte-ve-tavuk-suyunda-pisen-kremamsi-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arroz-con-pato-peru-usulu-kisnisli-ordekli-pilav&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=arpa-sehriyeli-pilav-tereyagli-kavrulmus-arpa-sehriyesi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=grecka-po-kupeceski-rus-usulu-etli-havuclu-tencere-karabugdayi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Rüzgar Korol",
+    "Burcu Yıldırım",
+    "Derin Sezek",
+    "Rüya Pekkan"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "D",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "R",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "airfryerda-hamsili-ekmek-karadeniz-usulu-kahvaltilik-balik-ekmegi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi",
+    "jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides",
+    "iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis",
+    "karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=asam-pedas-malezya-usulu-demirhindili-eksi-aci-balik-yahnisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=jiao-yan-karides-cin-usulu-tuz-ve-biberli-citir-karides&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=iran-usulu-baharatli-acili-balik-kebabi-gece-atistirmaligindan-bruncha-uzanan-sis&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=karabugday-kaplamali-levrek-firinda-tam-tahilli-kabuklu-balik&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Ece Sarıoğlu",
+    "Burcu Akyüz",
+    "Şahnur Ilıcalı",
+    "Emel Aksu"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "bogrulce-yemegi-kuzu-etli-duduklu-tencerede",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "moin-moin-nijerya-usulu-buharda-borulce-pudingi",
+    "waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye",
+    "enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla",
+    "frijoles-refritos-meksika-usulu-ezme-fasulye"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=moin-moin-nijerya-usulu-buharda-borulce-pudingi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=waakye-gana-usulu-sorgum-yaprakli-pirincli-fasulye&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=enfrijoladas-meksika-usulu-fasulye-sosuna-batirilmis-tortilla&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=frijoles-refritos-meksika-usulu-ezme-fasulye&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Atakan Atan",
+    "Hüseyin Koç",
+    "Erhan Yıldırım",
+    "Aşkın Akay"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "H",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+    "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik",
+    "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Belgin Aksoy",
+    "Ayşe Şahinkaya",
+    "Ece Yetkiner"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+    "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik",
+    "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Şahnur Sezek",
+    "Ayşe Şahinkaya",
+    "Ece Yetkiner"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+    "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+    "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Şahnur Sezek",
+    "Belgin Aksoy",
+    "Ece Yetkiner"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "huevos-rellenos-kuba-usulu-baharatli-dolgulu-yumurta",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi",
+    "nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci",
+    "suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=sumakli-yumurta-duduklu-tencerede-urdun-usulu-piknik-yumurtasi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=nohutlu-baharatli-yumurta-guveci-firinda-safranli-kahvalti-guveci&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=suudi-usulu-duduklude-yumurtali-cerise-dondurucuda-bekleyen-kahvaltilik&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Şahnur Sezek",
+    "Belgin Aksoy",
+    "Ayşe Şahinkaya"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "A",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "agedashi-tofu-japon-usulu-airfryerda-kizartilmis-tofu",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta",
+    "masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki",
+    "irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor",
+    "mamounia-halep-usulu-tereyagli-irmik-kahvaltisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=semizotlu-yumurta-soganla-kavrulan-semizotuna-kirilan-yazlik-yumurta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=masabeeb-suudi-arabistan-usulu-tam-bugday-unlu-kalin-tava-pankeki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=irimsik-kazak-usulu-kizarana-kadar-pisen-tatlimsi-kurutulmus-lor&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=mamounia-halep-usulu-tereyagli-irmik-kahvaltisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "Esra Yıldırım",
+    "Esma Çevik",
+    "İrem Akgül",
+    "Barlas Egeli"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "E",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "B",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+    "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi",
+    "kastera-kek-japon-usulu-bal-serbetli-sunger-kek"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=visneli-islak-kek-turk-usulu-serbetli-parti-keki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kastera-kek-japon-usulu-bal-serbetli-sunger-kek&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "İlker Bozkurt",
+    "Şahnur Sezek",
+    "Göktürk Dizdar",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+    "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi",
+    "kastera-kek-japon-usulu-bal-serbetli-sunger-kek"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=pancarli-kek-pancar-rendeli-nemli-kakaolu-kek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kastera-kek-japon-usulu-bal-serbetli-sunger-kek&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "İlker Bozkurt",
+    "Şahnur Mertoğlu",
+    "Göktürk Dizdar",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+    "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+    "kastera-kek-japon-usulu-bal-serbetli-sunger-kek"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=pancarli-kek-pancar-rendeli-nemli-kakaolu-kek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=visneli-islak-kek-turk-usulu-serbetli-parti-keki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=kastera-kek-japon-usulu-bal-serbetli-sunger-kek&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "İlker Bozkurt",
+    "Şahnur Mertoğlu",
+    "Şahnur Sezek",
+    "Şahnur Ilıcalı"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  },
+  {
+   "slug": "kastera-kek-japon-usulu-bal-serbetli-sunger-kek",
+   "title": "Bunları da seveceksin",
+   "section": true,
+   "eyebrow": "Benzer Tarifler",
+   "more": "Tümü",
+   "cards": 4,
+   "slugs": [
+    "kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta",
+    "pancarli-kek-pancar-rendeli-nemli-kakaolu-kek",
+    "visneli-islak-kek-turk-usulu-serbetli-parti-keki",
+    "znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi"
+   ],
+   "hrefs": [
+    "detay-v2.html?tarif=kiev-pastasi-ukrayna-usulu-findikli-beze-katli-kremali-pasta&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=pancarli-kek-pancar-rendeli-nemli-kakaolu-kek&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=visneli-islak-kek-turk-usulu-serbetli-parti-keki&yazar=b&radius=b&rozet=b",
+    "detay-v2.html?tarif=znoud-el-sit-urdun-usulu-kremali-kizarmis-rulo-tatlisi&yazar=b&radius=b&rozet=b"
+   ],
+   "local": true,
+   "authors": [
+    "İlker Bozkurt",
+    "Şahnur Mertoğlu",
+    "Şahnur Sezek",
+    "Göktürk Dizdar"
+   ],
+   "loads": [
+    1600,
+    1600,
+    1600,
+    1600
+   ],
+   "component": {
+    "similar": 1,
+    "head": true,
+    "track": true,
+    "old": 0,
+    "pager": 0,
+    "tamamini": false
+   },
+   "avatars": [
+    {
+     "t": "İ",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "Ş",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    },
+    {
+     "t": "G",
+     "ok": true,
+     "ff": "GilroyBd",
+     "fs": "13px"
+    }
+   ],
+   "last": true
+  }
+ ],
+ "slider": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "varsayilan",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "shami",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "misir",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "varsayilan",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "shami",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "misir",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "varsayilan",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "shami",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "misir",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "varsayilan",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "shami",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "misir",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "varsayilan",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "shami",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "misir",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "varsayilan",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "shami",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "misir",
+   "a": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "b2": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   },
+   "c3": {
+    "full": 2,
+    "partial": 0,
+    "dots": 0,
+    "snap": "x mandatory"
+   }
+  }
+ ],
+ "failures": [],
+ "click": {
+  "first": "detay-v2.html?yazar=c&radius=b&tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+  "after": {
+   "slug": "ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "search": "?yazar=c&radius=b&tarif=ordek-dolmasi-firinda-ic-pilavli-butun-ordek",
+   "yazar": "c",
+   "radius": "b"
+  }
+ }
+}

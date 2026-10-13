@@ -1,0 +1,158 @@
+[
+ {
+  "motor": "chromium",
+  "genislik": 360,
+  "kategori_sekmesi": {
+   "bolum": 764.17,
+   "sonrakiTop": 2194.17,
+   "kategoriPanel": 451.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "mutfak_sekmesi": {
+   "bolum": 764.17,
+   "sonrakiTop": 2194.17,
+   "kategoriPanel": 451.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "bolum_farki": 0,
+  "sonraki_top_farki": 0
+ },
+ {
+  "motor": "chromium",
+  "genislik": 390,
+  "kategori_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2204.25,
+   "kategoriPanel": 481.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "mutfak_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2204.25,
+   "kategoriPanel": 481.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "bolum_farki": 0,
+  "sonraki_top_farki": 0
+ },
+ {
+  "motor": "chromium",
+  "genislik": 430,
+  "kategori_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2208.42,
+   "kategoriPanel": 502,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "mutfak_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2208.42,
+   "kategoriPanel": 502,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "bolum_farki": 0,
+  "sonraki_top_farki": 0
+ },
+ {
+  "motor": "webkit",
+  "genislik": 360,
+  "kategori_sekmesi": {
+   "bolum": 764.95,
+   "sonrakiTop": 2194.95,
+   "kategoriPanel": 451.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "mutfak_sekmesi": {
+   "bolum": 764.95,
+   "sonrakiTop": 2194.95,
+   "kategoriPanel": 451.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "bolum_farki": 0,
+  "sonraki_top_farki": 0
+ },
+ {
+  "motor": "webkit",
+  "genislik": 390,
+  "kategori_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2204.25,
+   "kategoriPanel": 481.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "mutfak_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2204.25,
+   "kategoriPanel": 481.97,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "bolum_farki": 0,
+  "sonraki_top_farki": 0
+ },
+ {
+  "motor": "webkit",
+  "genislik": 430,
+  "kategori_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2208.42,
+   "kategoriPanel": 502,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "mutfak_sekmesi": {
+   "bolum": 754.25,
+   "sonrakiTop": 2208.42,
+   "kategoriPanel": 502,
+   "mutfakPanel": 570.25,
+   "oge": [
+    6,
+    16
+   ]
+  },
+  "bolum_farki": 0,
+  "sonraki_top_farki": 0
+ }
+]

@@ -1,0 +1,1 @@
+(()=>{const n=document.querySelectorAll('.bottom-nav .nav-item')[3];if(n){n.innerHTML='<i class="icon fa-solid fa-lightbulb" aria-hidden="true"></i><span>Püf Noktaları</span>';n.setAttribute('aria-label','Püf Noktaları');}})();

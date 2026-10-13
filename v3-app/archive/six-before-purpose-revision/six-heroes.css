@@ -1,0 +1,126 @@
+/* Home hero directions. All geometry and type inherit the approved v3 tokens. */
+.six-hero{position:relative;isolation:isolate;overflow:hidden;}
+.six-hero .six-hero-backdrop{position:absolute;z-index:0;inset:0 0 auto;height:calc(var(--app-header,68px) + var(--space-32,32px));overflow:hidden;pointer-events:none;background:var(--neutral-surface,#F9F9F9);}
+.six-hero .six-hero-backdrop .photo{position:absolute;inset:0;width:100%;height:100%;border-radius:0;background-size:cover;background-position:center;}
+.six-hero .six-hero-backdrop>span{position:absolute;inset:0;background:linear-gradient(180deg,color-mix(in srgb,var(--overlay) 80%,transparent) 0%,color-mix(in srgb,var(--overlay) 72%,transparent) 12%,color-mix(in srgb,var(--overlay) 60%,transparent) 24%,color-mix(in srgb,var(--overlay) 46%,transparent) 36%,color-mix(in srgb,var(--overlay) 32%,transparent) 48%,color-mix(in srgb,var(--overlay) 20%,transparent) 60%,color-mix(in srgb,var(--overlay) 10%,transparent) 72%,color-mix(in srgb,var(--overlay) 4%,transparent) 84%,transparent 100%);}
+.six-hero .six-hero-inner{position:relative;z-index:1;isolation:isolate;padding:var(--space-20,20px);padding-top:calc(var(--app-header,68px) + var(--space-32,32px));}
+.six-hero .six-overline{display:block;color:inherit;font-size:var(--role-label-size,11px);font-weight:var(--role-label-weight,500);line-height:var(--role-label-line,1.3);letter-spacing:var(--role-label-tracking,.06em);text-transform:uppercase;}
+.six-hero h1{margin:var(--space-8,8px) 0 0;font-family:"GilroyBd",var(--font);font-size:var(--role-page-size,24px);font-weight:var(--role-page-weight,700);line-height:var(--role-page-line,1.15);letter-spacing:var(--role-page-tracking,-.025em);color:inherit;}
+.six-hero p{margin:var(--space-8,8px) 0 0;font-size:var(--role-body-size,15px);line-height:var(--role-body-line,1.5);color:inherit;}
+.six-hero .photo.six-photo{position:absolute;inset:0;width:100%;height:100%;background-size:cover;background-position:center;background-color:var(--neutral-surface,#F9F9F9);}
+.six-hero a{color:inherit;text-decoration:none;}
+.six-hero button{font:inherit;color:inherit;}
+.six-hero .six-hero-search{position:relative;z-index:2;margin-top:var(--space-16,16px);}
+.six-hero .six-search{width:100%;}
+.six-hero .six-image-scrim,.six-hero .six-video-shade,.six-hero .six-discovery-shade{position:absolute;inset:0;pointer-events:none;background:var(--overlay-ease);}
+.six-hero .six-cinema-image{position:relative;display:block;overflow:hidden;height:clamp(300px,82vw,380px);margin:calc((var(--app-header,68px) + var(--space-32,32px)) * -1) calc(var(--space-20,20px) * -1) 0;border-radius:0 0 var(--radius-card,24px) var(--radius-card,24px);background:var(--neutral-surface,#F9F9F9);color:#fff;}
+.six-hero .six-cinema-image .six-cinema-copy{position:absolute;inset:auto var(--space-20,20px) var(--space-20,20px);display:grid;grid-template-columns:minmax(0,1fr) 44px;align-items:end;gap:var(--space-8,8px);color:#fff;}
+.six-hero .six-cinema-copy>.six-overline,.six-hero .six-cinema-copy>strong,.six-hero .six-cinema-copy>.six-cinema-meta{grid-column:1;}
+.six-hero .six-cinema-copy>.six-round-arrow{position:static;grid-column:2;grid-row:2 / span 2;align-self:end;}
+.six-hero .six-cinema-image.is-empty .six-image-scrim{background:var(--overlay);}
+.six-hero .six-cinema-copy .six-overline,.six-hero .six-video-copy .six-overline,.six-hero .six-day-label,.six-hero .six-discovery-tag,.six-hero .six-story-copy strong{font-size:var(--type-photo-meta,13px);font-weight:500;line-height:var(--role-meta-line,1.4);letter-spacing:0;text-transform:none;}
+.six-hero .six-cinema-copy strong{max-width:18ch;font-size:var(--role-featured-size,20px);line-height:var(--role-featured-line,1.2);font-weight:var(--role-featured-weight,700);}
+.six-hero .six-cinema-meta,.six-hero .six-day-meta,.six-hero .six-story-meta{display:flex;flex-wrap:wrap;gap:var(--space-12,12px);font-size:var(--role-meta-size,13px);line-height:var(--role-meta-line,1.4);}
+.six-hero .six-cinema-meta span,.six-hero .six-day-meta span,.six-hero .six-story-meta span{display:inline-flex;align-items:center;gap:var(--space-4,4px);}
+.six-hero .six-round-arrow{position:absolute;right:0;bottom:0;width:44px;height:44px;border-radius:var(--radius-control,12px);display:grid;place-items:center;background:rgba(255,255,255,.94);color:var(--tomato,#E14827);}
+.six-hero .six-round-arrow .icon{font-size:var(--icon-md,18px);}
+.six-hero .six-cinema-tool{padding-top:var(--space-20,20px);}
+.six-hero .six-cinema-tool h1{margin-top:var(--space-4,4px);}
+.six-hero .six-ingredient-row{display:flex;gap:var(--space-8,8px);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--space-20,20px);padding:var(--space-12,12px) 0 0;scrollbar-width:none;}
+.six-hero .six-ingredient-row::-webkit-scrollbar,.six-hero .six-day-rail::-webkit-scrollbar,.six-hero .six-story-rail::-webkit-scrollbar{display:none;}
+.six-hero .six-ingredient{flex:0 0 auto;min-height:44px;padding:0 var(--chip-padding,12px);border:1px solid var(--neutral-border,#ECECEC);border-radius:var(--radius-control,12px);background:var(--paper,#fff);display:flex;align-items:center;gap:var(--space-8,8px);font-size:var(--role-meta-size,13px);}
+.six-hero .six-ingredient[aria-pressed=true]{background:var(--tomato-tint,#FBE9E3);border-color:var(--tomato,#E14827);color:var(--tomato-dark,#C43D20);}
+.six-hero .six-ingredient .icon{font-size:var(--icon-sm,14px);}
+.six-hero .six-match{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12,12px);min-height:44px;margin-top:var(--space-8,8px);font-size:var(--role-meta-size,13px);color:var(--muted,#6F6F6F);}
+.six-hero .six-match>a{width:44px;height:44px;display:grid;place-items:center;color:var(--tomato,#E14827);}
+.six-hero .six-match>a[hidden]{display:none;}
+
+.six-hero .six-video-first{padding-top:calc(var(--app-header,68px) + var(--space-32,32px));}
+.six-hero .six-video-feature{position:relative;display:block;width:calc(100% + var(--space-40,40px));height:clamp(330px,94vw,430px);margin:calc((var(--app-header,68px) + var(--space-32,32px)) * -1) calc(var(--space-20,20px) * -1) 0;padding:0;border:0;overflow:hidden;border-radius:0 0 var(--radius-card,24px) var(--radius-card,24px);background:var(--neutral-surface,#F9F9F9);text-align:left;color:#fff;}
+.six-hero .six-video-play{position:absolute;left:50%;top:50%;width:56px;height:56px;transform:translate(-50%,-50%);display:grid;place-items:center;border-radius:var(--radius-control,12px);background:rgba(255,255,255,.94);color:var(--tomato,#E14827);box-shadow:var(--sh-md);}
+.six-hero .six-video-play .icon{font-size:var(--icon-md,18px);}
+.six-hero .six-video-time{position:absolute;right:var(--space-12,12px);top:var(--space-12,12px);padding:var(--space-4,4px) var(--space-8,8px);border-radius:var(--radius-control,12px);background:color-mix(in srgb,var(--overlay) 78%,transparent);font-size:var(--role-meta-size,13px);font-weight:500;}
+.six-hero .six-video-copy{position:absolute;left:var(--space-16,16px);right:var(--space-16,16px);bottom:var(--space-16,16px);display:grid;gap:var(--space-8,8px);text-shadow:0 1px 2px color-mix(in srgb,var(--overlay) 40%,transparent);}
+.six-hero .six-video-copy strong{font-size:var(--role-featured-size,20px);line-height:var(--role-featured-line,1.2);font-weight:700;max-width:23ch;}
+.six-hero .six-video-copy small{font-size:var(--role-meta-size,13px);}
+.six-hero .six-video-fallback{display:block;position:relative;height:200px;border-radius:var(--radius-card,24px);overflow:hidden;}
+
+.six-hero .six-day-deck{overflow:hidden;padding-top:calc(var(--app-header,68px) + var(--space-48,48px) + var(--space-16,16px));}
+.six-hero .six-day-intro{padding-top:var(--space-8,8px);}
+.six-hero .six-day-intro p{color:var(--muted,#6F6F6F);}
+.six-hero .six-day-rail{display:flex;gap:var(--space-12,12px);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--space-20,20px);margin:var(--space-16,16px) calc(var(--space-20,20px) * -1) 0;padding:0 var(--space-20,20px) var(--space-8,8px);scrollbar-width:none;}
+.six-hero .six-day-card{position:relative;flex:0 0 min(76vw,330px);height:clamp(300px,76vw,360px);overflow:hidden;scroll-snap-align:start;border-radius:var(--radius-card,24px);background:var(--neutral-surface,#F9F9F9);color:#fff;}
+.six-hero .six-day-card:after{content:"";position:absolute;inset:35% 0 0;background:var(--overlay-ease);}
+.six-hero .six-day-photo{position:absolute;inset:0;}
+.six-hero .six-day-copy{position:absolute;z-index:1;left:var(--space-16,16px);right:var(--space-16,16px);bottom:var(--space-16,16px);display:grid;gap:var(--space-8,8px);}
+.six-hero .six-day-copy>strong{font-size:var(--role-featured-size,20px);line-height:var(--role-featured-line,1.2);}
+.six-hero .six-day-meta span{color:#fff;}
+.six-hero .six-day-foot{display:flex;align-items:center;gap:var(--space-12,12px);margin-top:var(--space-8,8px);font-size:var(--role-meta-size,13px);color:var(--muted,#6F6F6F);}
+.six-hero .six-day-progress{position:relative;display:block;overflow:hidden;flex:1;height:4px;border-radius:var(--radius-control,12px);background:var(--line,#ECECEC);}
+.six-hero .six-day-progress i{display:block;width:24%;height:100%;background:var(--tomato,#E14827);border-radius:inherit;}
+
+.six-hero .six-discovery{padding-top:calc(var(--app-header,68px) + var(--space-48,48px) + var(--space-16,16px));}
+.six-hero .six-discovery-head{padding:var(--space-8,8px) 0 var(--space-16,16px);}
+.six-hero .six-discovery-categories{display:flex;gap:var(--space-8,8px);overflow:auto;scrollbar-width:none;margin-top:var(--space-12,12px);}
+.six-hero .six-discovery-categories::-webkit-scrollbar{display:none;}
+.six-hero .six-discovery-category{flex:0 0 auto;min-height:44px;max-width:68vw;overflow:hidden;padding:0 var(--space-12,12px);border:1px solid var(--neutral-border,#ECECEC);border-radius:var(--radius-control,12px);background:var(--paper,#fff);text-overflow:ellipsis;white-space:nowrap;font-size:var(--role-meta-size,13px);}
+.six-hero .six-discovery-category[aria-pressed=true]{border-color:var(--tomato,#E14827);background:var(--tomato,#E14827);color:#fff;}
+.six-hero .six-discovery-board{height:clamp(330px,94vw,410px);display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:var(--space-8,8px);transition:grid-template-columns var(--transition-fast,200ms) var(--ease);}
+.six-hero .six-discovery-board.is-focused{grid-template-columns:1.25fr .75fr;}
+.six-hero .six-discovery-board.is-count-1{grid-template-columns:1fr;}
+.six-hero .six-discovery-board.is-count-1 .six-discovery-tile--1{grid-column:1/-1;grid-row:1/-1;}
+.six-hero .six-discovery-board.is-count-2 .six-discovery-tile--2{grid-column:2;grid-row:1/span 2;}
+.six-hero .six-discovery-tile{position:relative;min-width:0;overflow:hidden;border-radius:var(--radius-card,24px);background:var(--neutral-surface,#F9F9F9);color:#fff;}
+.six-hero .six-discovery-tile--1{grid-row:1 / span 2;}
+.six-hero .six-discovery-copy{position:absolute;z-index:1;left:var(--space-12,12px);right:var(--space-12,12px);bottom:var(--space-12,12px);display:grid;gap:var(--space-8,8px);}
+.six-hero .six-discovery-copy strong{font-size:var(--role-card-size,16px);line-height:var(--role-card-line,1.25);}
+.six-hero .six-discovery-tile--1 .six-discovery-copy strong{font-size:var(--role-featured-size,20px);line-height:var(--role-featured-line,1.2);}
+.six-hero .six-discovery-empty{grid-column:1/-1;display:grid;place-items:center;border-radius:var(--radius-card,24px);background:var(--neutral-surface,#F9F9F9);font-size:var(--role-body-size,15px);}
+.six-hero .six-discovery-note{display:flex;justify-content:space-between;gap:var(--space-8,8px);margin-top:var(--space-12,12px);font-size:var(--role-meta-size,13px);color:var(--muted,#6F6F6F);}
+.six-hero .six-discovery-note span{display:inline-flex;align-items:center;gap:var(--space-4,4px);}
+
+.six-hero .six-stories{padding-top:calc(var(--app-header,68px) + var(--space-48,48px) + var(--space-16,16px));}
+.six-hero .six-stories-head{display:flex;justify-content:space-between;align-items:end;gap:var(--space-12,12px);padding:var(--space-8,8px) 0 var(--space-16,16px);}
+.six-hero .six-stories-head h1{margin-top:var(--space-4,4px);}
+.six-hero .six-story-count{flex:0 0 auto;font-size:var(--role-meta-size,13px);color:var(--muted,#6F6F6F);}
+.six-hero .six-story-rail{display:flex;gap:var(--space-12,12px);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--space-20,20px);margin-inline:calc(var(--space-20,20px) * -1);padding:0 var(--space-20,20px) var(--space-8,8px);scrollbar-width:none;}
+.six-hero .six-story{flex:0 0 min(68vw,270px);scroll-snap-align:start;}
+.six-hero .six-story-cover{position:relative;display:block;width:100%;height:clamp(300px,88vw,370px);overflow:hidden;border:0;border-radius:var(--radius-card,24px);background:var(--neutral-surface,#F9F9F9);text-align:left;color:#fff;}
+.six-hero .six-story-cover:after{content:"";position:absolute;inset:38% 0 0;background:var(--overlay-ease);}
+.six-hero .six-story-copy{position:absolute;z-index:1;left:var(--space-16,16px);right:var(--space-16,16px);bottom:var(--space-16,16px);display:flex;flex-direction:column;gap:var(--space-8,8px);}
+.six-hero .six-story-copy strong{font-size:var(--type-photo-meta,13px);font-weight:500;}
+.six-hero .six-story-index{position:absolute;z-index:1;left:var(--space-12,12px);top:var(--space-12,12px);font-size:var(--type-photo-meta,13px);color:#fff;}
+.six-hero .six-story-open{position:absolute;z-index:1;right:var(--space-12,12px);top:var(--space-12,12px);width:44px;height:44px;border-radius:var(--radius-control,12px);display:grid;place-items:center;background:color-mix(in srgb,var(--overlay) 62%,transparent);color:#fff;backdrop-filter:blur(8px);}
+.six-hero .six-story-cover[aria-expanded=true] .six-story-open .icon{transform:rotate(45deg);}
+.six-hero .six-story-reveal{padding:var(--space-12,12px) var(--space-4,4px) 0;}
+.six-hero .six-story-reveal[hidden]{display:none;}
+.six-hero .six-story-reveal h2{margin:0 0 var(--space-8,8px);font-size:var(--role-card-size,16px);line-height:var(--role-card-line,1.25);}
+.six-hero .six-story-reveal>a{display:flex;align-items:center;justify-content:space-between;min-height:44px;margin-top:var(--space-8,8px);color:var(--tomato-dark,#C43D20);font-size:var(--role-button-size,15px);}
+.six-hero .six-story-hint{font-size:var(--role-meta-size,13px);color:var(--muted,#6F6F6F);}
+
+.six-hero .six-decision{padding-top:calc(var(--app-header,68px) + var(--space-48,48px) + var(--space-16,16px));}
+.six-hero .six-decision-top{display:flex;justify-content:space-between;align-items:center;padding-top:var(--space-8,8px);}
+.six-hero .six-decision-mark{width:44px;height:44px;border-radius:var(--radius-control,12px);display:grid;place-items:center;background:var(--tomato-tint,#FBE9E3);color:var(--tomato-dark,#C43D20);}
+.six-hero .six-decision h1{max-width:12ch;margin-top:var(--space-8,8px);font-size:var(--role-display-size,32px);line-height:var(--role-display-line,1.08);}
+.six-hero .six-decision>p{max-width:32ch;color:var(--muted,#6F6F6F);}
+.six-hero .six-time-choices{display:flex;gap:var(--space-8,8px);margin-top:var(--space-16,16px);}
+.six-hero .six-time-choice{min-height:44px;padding:0 var(--space-12,12px);border:1px solid var(--neutral-border,#ECECEC);border-radius:var(--radius-control,12px);background:var(--paper,#fff);font-size:var(--role-meta-size,13px);}
+.six-hero .six-time-choice[aria-pressed=true]{border-color:var(--tomato,#E14827);background:var(--tomato,#E14827);color:#fff;}
+.six-hero .six-decision-result{margin-top:var(--space-16,16px);}
+.six-hero .six-decision-recipe{display:grid;grid-template-columns:40% 1fr;gap:var(--space-12,12px);min-height:150px;padding:var(--space-8,8px);border:1px solid var(--line,#ECECEC);border-radius:var(--radius-card,24px);background:var(--paper,#fff);}
+.six-hero .six-decision-photo{position:relative;min-height:134px;overflow:hidden;border-radius:calc(var(--radius-card,24px) - var(--space-8,8px));background:var(--neutral-surface,#F9F9F9);}
+.six-hero .six-decision-recipe-copy{min-width:0;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:var(--space-8,8px);}
+.six-hero .six-decision-recipe-copy .six-overline{color:var(--tomato-dark,#C43D20);}
+.six-hero .six-decision-recipe-copy strong{font-size:var(--role-card-size,16px);line-height:var(--role-card-line,1.25);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.six-hero .six-decision-recipe-copy>span:last-child{display:inline-flex;align-items:center;gap:var(--space-8,8px);font-size:var(--role-meta-size,13px);color:var(--muted,#6F6F6F);}
+.six-hero .six-decision-empty{min-height:120px;padding:var(--space-16,16px);border-radius:var(--radius-card,24px);background:var(--neutral-surface,#F9F9F9);display:grid;align-content:center;gap:var(--space-8,8px);}
+.six-hero :focus-visible{outline:2px solid var(--tomato,#E14827);outline-offset:2px;}
+@media(max-width:359px){.six-hero .six-day-card{flex-basis:80vw}.six-hero .six-story{flex-basis:72vw}}
+@media(prefers-reduced-motion:reduce){.six-hero *,.six-hero *:before,.six-hero *:after{scroll-behavior:auto!important;animation:none!important;transition:none!important;}}
+
+/* Final measured veil: stops follow the actual copy, including wrapped titles. */
+.six-hero .six-image-scrim,.six-hero .six-video-shade,.six-hero .six-discovery-shade,.six-hero .six-day-card:after,.six-hero .six-story-cover:after{inset:0;background:var(--six-image-veil,var(--overlay-ease))}
+.six-hero .six-hero-backdrop>span{background:color-mix(in srgb,var(--overlay) 74%,transparent)}
+.six-hero .six-story-index{display:none}
+.six-hero .six-video-time{top:calc(var(--app-header) + var(--space-12))}
+.six-hero .six-cinema-meta .icon,.six-hero .six-day-meta .icon,.six-hero .six-story-meta .icon{font-size:var(--icon-sm)}

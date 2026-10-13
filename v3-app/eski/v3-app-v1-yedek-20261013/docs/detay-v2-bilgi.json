@@ -1,0 +1,903 @@
+{
+ "live": {
+  "shami": {
+   "notes": [
+    {
+     "cls": "remind-box",
+     "title": "Hatırlatma",
+     "body": "Chana dal bir gece önceden suda bekletilir ve bu süre pişirmeye dahil değildir. Ezilen harç şekillendirilmeden önce en az 30 dakika buzdolabında dinlenir; soğuyan harç tavada tutunur, ılık harç yayılıp dağılır. Alerjen: Malzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin."
+    }
+   ],
+   "nut": [
+    "Kalori=391 kcal",
+    "Protein=31 g",
+    "Karbonhidrat=25 g",
+    "Yağ=19 g",
+    "Lif=5 g",
+    "Şeker=5 g",
+    "Sodyum=722 mg",
+    "Doymuş Yağ=4 g"
+   ],
+   "macros": [
+    "Protein %31",
+    "Karbonhidrat %25",
+    "Yağ %43"
+   ],
+   "notice": "Değerler tahminidir"
+  },
+  "misir": {
+   "notes": [
+    {
+     "cls": "remind-box",
+     "title": "Hatırlatma",
+     "body": "Mısır düşük asitli bir sebzedir: bu jöle kaynar su banyosuyla kilere kaldırılmaz, buzdolabında saklanır ve 4 hafta içinde tüketilir; limon suyunu azaltmayın. Jöle kavanozda tam donmak için 24 saat ister, bu bekleme süreye sayılmaz."
+    }
+   ],
+   "nut": [
+    "Kalori=52 kcal",
+    "Protein=0 g",
+    "Karbonhidrat=12.9 g",
+    "Yağ=0 g",
+    "Lif=0 g",
+    "Şeker=12.6 g",
+    "Sodyum=1 mg",
+    "Doymuş Yağ=0 g"
+   ],
+   "macros": [
+    "Protein %0",
+    "Karbonhidrat %100",
+    "Yağ %0"
+   ],
+   "notice": "Değerler tahminidir"
+  },
+  "curry": {
+   "notes": [
+    {
+     "cls": "remind-box",
+     "title": "Hatırlatma",
+     "body": "Önemli: Curry baharatını yağda kısa süre kavurmadan doğrudan sıvıya eklerseniz ham tat kalabilir, önce yağda birkaç saniye çevirin. Dikkat: Hindistan cevizi sütünü kaynatırken kesilmemesi için ateşi orta-kısıkta tutup sürekli karıştırın."
+    }
+   ],
+   "nut": [],
+   "macros": [],
+   "notice": ""
+  }
+ },
+ "runs": [
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "shami",
+   "titles": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "icons": [
+    "fa-bell",
+    "fa-hand-dots"
+   ],
+   "allergen": "AlerjenYumurtaMalzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.Devamını oku",
+   "allergenTags": [
+    "Yumurta"
+   ],
+   "single": false,
+   "railScrolls": true,
+   "cardFull": null,
+   "nut": [
+    "Kalori=391 kcal",
+    "Protein=31g",
+    "Karbonhidrat=25g",
+    "Yağ=19g",
+    "Lif=5g",
+    "Şeker=5g",
+    "Sodyum=722mg",
+    "Doymuş Yağ=4g"
+   ],
+   "macros": [
+    "Protein %31",
+    "Karbonhidrat %25",
+    "Yağ %43"
+   ],
+   "bar": [
+    "31%",
+    "25%",
+    "43%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44.1875,
+   "clipped": 0,
+   "alts": [
+    "yağsız dana kuşbaşı yerine ne kullanabilirim?",
+    "chana dal (kabuğu ayrılmış sarı nohut) yerine ne kullanabilirim?",
+    "taze zencefil yerine ne kullanabilirim?",
+    "kuru kırmızı biber yerine ne kullanabilirim?",
+    "taze kişniş yerine ne kullanabilirim?"
+   ],
+   "altSheet": {
+    "title": "Yerine ne kullanabilirim?",
+    "base": "900 gyağsız dana kuşbaşı",
+    "alt": "kuzu kuşbaşıdaha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzarBununla değiştir"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "misir",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": [
+    "Kalori=52 kcal",
+    "Protein=0g",
+    "Karbonhidrat=12.9g",
+    "Yağ=0g",
+    "Lif=0g",
+    "Şeker=12.6g",
+    "Sodyum=1mg",
+    "Doymuş Yağ=0g"
+   ],
+   "macros": [
+    "Protein %0",
+    "Karbonhidrat %100",
+    "Yağ %0"
+   ],
+   "bar": [
+    "0%",
+    "100%",
+    "0%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44.1875,
+   "clipped": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 360,
+   "k": "curry",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": null,
+   "macros": null,
+   "bar": null,
+   "note": null,
+   "tail": [
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": null,
+   "clipped": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "shami",
+   "titles": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "icons": [
+    "fa-bell",
+    "fa-hand-dots"
+   ],
+   "allergen": "AlerjenYumurtaMalzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.Devamını oku",
+   "allergenTags": [
+    "Yumurta"
+   ],
+   "single": false,
+   "railScrolls": true,
+   "cardFull": null,
+   "nut": [
+    "Kalori=391 kcal",
+    "Protein=31g",
+    "Karbonhidrat=25g",
+    "Yağ=19g",
+    "Lif=5g",
+    "Şeker=5g",
+    "Sodyum=722mg",
+    "Doymuş Yağ=4g"
+   ],
+   "macros": [
+    "Protein %31",
+    "Karbonhidrat %25",
+    "Yağ %43"
+   ],
+   "bar": [
+    "31%",
+    "25%",
+    "43%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44.1875,
+   "clipped": 0,
+   "alts": [
+    "yağsız dana kuşbaşı yerine ne kullanabilirim?",
+    "chana dal (kabuğu ayrılmış sarı nohut) yerine ne kullanabilirim?",
+    "taze zencefil yerine ne kullanabilirim?",
+    "kuru kırmızı biber yerine ne kullanabilirim?",
+    "taze kişniş yerine ne kullanabilirim?"
+   ],
+   "altSheet": {
+    "title": "Yerine ne kullanabilirim?",
+    "base": "900 gyağsız dana kuşbaşı",
+    "alt": "kuzu kuşbaşıdaha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzarBununla değiştir"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "misir",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": [
+    "Kalori=52 kcal",
+    "Protein=0g",
+    "Karbonhidrat=12.9g",
+    "Yağ=0g",
+    "Lif=0g",
+    "Şeker=12.6g",
+    "Sodyum=1mg",
+    "Doymuş Yağ=0g"
+   ],
+   "macros": [
+    "Protein %0",
+    "Karbonhidrat %100",
+    "Yağ %0"
+   ],
+   "bar": [
+    "0%",
+    "100%",
+    "0%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44.1875,
+   "clipped": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 390,
+   "k": "curry",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": null,
+   "macros": null,
+   "bar": null,
+   "note": null,
+   "tail": [
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": null,
+   "clipped": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "shami",
+   "titles": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "icons": [
+    "fa-bell",
+    "fa-hand-dots"
+   ],
+   "allergen": "AlerjenYumurtaMalzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.Devamını oku",
+   "allergenTags": [
+    "Yumurta"
+   ],
+   "single": false,
+   "railScrolls": true,
+   "cardFull": null,
+   "nut": [
+    "Kalori=391 kcal",
+    "Protein=31g",
+    "Karbonhidrat=25g",
+    "Yağ=19g",
+    "Lif=5g",
+    "Şeker=5g",
+    "Sodyum=722mg",
+    "Doymuş Yağ=4g"
+   ],
+   "macros": [
+    "Protein %31",
+    "Karbonhidrat %25",
+    "Yağ %43"
+   ],
+   "bar": [
+    "31%",
+    "25%",
+    "43%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44.1875,
+   "clipped": 0,
+   "alts": [
+    "yağsız dana kuşbaşı yerine ne kullanabilirim?",
+    "chana dal (kabuğu ayrılmış sarı nohut) yerine ne kullanabilirim?",
+    "taze zencefil yerine ne kullanabilirim?",
+    "kuru kırmızı biber yerine ne kullanabilirim?",
+    "taze kişniş yerine ne kullanabilirim?"
+   ],
+   "altSheet": {
+    "title": "Yerine ne kullanabilirim?",
+    "base": "900 gyağsız dana kuşbaşı",
+    "alt": "kuzu kuşbaşıdaha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzarBununla değiştir"
+   }
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "misir",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": [
+    "Kalori=52 kcal",
+    "Protein=0g",
+    "Karbonhidrat=12.9g",
+    "Yağ=0g",
+    "Lif=0g",
+    "Şeker=12.6g",
+    "Sodyum=1mg",
+    "Doymuş Yağ=0g"
+   ],
+   "macros": [
+    "Protein %0",
+    "Karbonhidrat %100",
+    "Yağ %0"
+   ],
+   "bar": [
+    "0%",
+    "100%",
+    "0%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44.1875,
+   "clipped": 0
+  },
+  {
+   "engine": "chromium",
+   "width": 430,
+   "k": "curry",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": null,
+   "macros": null,
+   "bar": null,
+   "note": null,
+   "tail": [
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": null,
+   "clipped": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "shami",
+   "titles": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "icons": [
+    "fa-bell",
+    "fa-hand-dots"
+   ],
+   "allergen": "AlerjenYumurtaMalzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.Devamını oku",
+   "allergenTags": [
+    "Yumurta"
+   ],
+   "single": false,
+   "railScrolls": true,
+   "cardFull": null,
+   "nut": [
+    "Kalori=391 kcal",
+    "Protein=31g",
+    "Karbonhidrat=25g",
+    "Yağ=19g",
+    "Lif=5g",
+    "Şeker=5g",
+    "Sodyum=722mg",
+    "Doymuş Yağ=4g"
+   ],
+   "macros": [
+    "Protein %31",
+    "Karbonhidrat %25",
+    "Yağ %43"
+   ],
+   "bar": [
+    "31%",
+    "25%",
+    "43%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44,
+   "clipped": 0,
+   "alts": [
+    "yağsız dana kuşbaşı yerine ne kullanabilirim?",
+    "chana dal (kabuğu ayrılmış sarı nohut) yerine ne kullanabilirim?",
+    "taze zencefil yerine ne kullanabilirim?",
+    "kuru kırmızı biber yerine ne kullanabilirim?",
+    "taze kişniş yerine ne kullanabilirim?"
+   ],
+   "altSheet": {
+    "title": "Yerine ne kullanabilirim?",
+    "base": "900 gyağsız dana kuşbaşı",
+    "alt": "kuzu kuşbaşıdaha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzarBununla değiştir"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "misir",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": [
+    "Kalori=52 kcal",
+    "Protein=0g",
+    "Karbonhidrat=12.9g",
+    "Yağ=0g",
+    "Lif=0g",
+    "Şeker=12.6g",
+    "Sodyum=1mg",
+    "Doymuş Yağ=0g"
+   ],
+   "macros": [
+    "Protein %0",
+    "Karbonhidrat %100",
+    "Yağ %0"
+   ],
+   "bar": [
+    "0%",
+    "100%",
+    "0%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44,
+   "clipped": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 360,
+   "k": "curry",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": null,
+   "macros": null,
+   "bar": null,
+   "note": null,
+   "tail": [
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": null,
+   "clipped": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "shami",
+   "titles": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "icons": [
+    "fa-bell",
+    "fa-hand-dots"
+   ],
+   "allergen": "AlerjenYumurtaMalzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.Devamını oku",
+   "allergenTags": [
+    "Yumurta"
+   ],
+   "single": false,
+   "railScrolls": true,
+   "cardFull": null,
+   "nut": [
+    "Kalori=391 kcal",
+    "Protein=31g",
+    "Karbonhidrat=25g",
+    "Yağ=19g",
+    "Lif=5g",
+    "Şeker=5g",
+    "Sodyum=722mg",
+    "Doymuş Yağ=4g"
+   ],
+   "macros": [
+    "Protein %31",
+    "Karbonhidrat %25",
+    "Yağ %43"
+   ],
+   "bar": [
+    "31%",
+    "25%",
+    "43%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44,
+   "clipped": 0,
+   "alts": [
+    "yağsız dana kuşbaşı yerine ne kullanabilirim?",
+    "chana dal (kabuğu ayrılmış sarı nohut) yerine ne kullanabilirim?",
+    "taze zencefil yerine ne kullanabilirim?",
+    "kuru kırmızı biber yerine ne kullanabilirim?",
+    "taze kişniş yerine ne kullanabilirim?"
+   ],
+   "altSheet": {
+    "title": "Yerine ne kullanabilirim?",
+    "base": "900 gyağsız dana kuşbaşı",
+    "alt": "kuzu kuşbaşıdaha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzarBununla değiştir"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "misir",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": [
+    "Kalori=52 kcal",
+    "Protein=0g",
+    "Karbonhidrat=12.9g",
+    "Yağ=0g",
+    "Lif=0g",
+    "Şeker=12.6g",
+    "Sodyum=1mg",
+    "Doymuş Yağ=0g"
+   ],
+   "macros": [
+    "Protein %0",
+    "Karbonhidrat %100",
+    "Yağ %0"
+   ],
+   "bar": [
+    "0%",
+    "100%",
+    "0%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44,
+   "clipped": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 390,
+   "k": "curry",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": null,
+   "macros": null,
+   "bar": null,
+   "note": null,
+   "tail": [
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": null,
+   "clipped": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "shami",
+   "titles": [
+    "Hatırlatma",
+    "Alerjen"
+   ],
+   "icons": [
+    "fa-bell",
+    "fa-hand-dots"
+   ],
+   "allergen": "AlerjenYumurtaMalzeme listesine göre yumurta içerir. Paketli ürünlerin diğer alerjenleri için ürün etiketini kontrol edin.Devamını oku",
+   "allergenTags": [
+    "Yumurta"
+   ],
+   "single": false,
+   "railScrolls": true,
+   "cardFull": null,
+   "nut": [
+    "Kalori=391 kcal",
+    "Protein=31g",
+    "Karbonhidrat=25g",
+    "Yağ=19g",
+    "Lif=5g",
+    "Şeker=5g",
+    "Sodyum=722mg",
+    "Doymuş Yağ=4g"
+   ],
+   "macros": [
+    "Protein %31",
+    "Karbonhidrat %25",
+    "Yağ %43"
+   ],
+   "bar": [
+    "31%",
+    "25%",
+    "43%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44,
+   "clipped": 0,
+   "alts": [
+    "yağsız dana kuşbaşı yerine ne kullanabilirim?",
+    "chana dal (kabuğu ayrılmış sarı nohut) yerine ne kullanabilirim?",
+    "taze zencefil yerine ne kullanabilirim?",
+    "kuru kırmızı biber yerine ne kullanabilirim?",
+    "taze kişniş yerine ne kullanabilirim?"
+   ],
+   "altSheet": {
+    "title": "Yerine ne kullanabilirim?",
+    "base": "900 gyağsız dana kuşbaşı",
+    "alt": "kuzu kuşbaşıdaha yağlı ve daha yoğun bir tat verir, haşlama süresi 10 dakika uzarBununla değiştir"
+   }
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "misir",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": [
+    "Kalori=52 kcal",
+    "Protein=0g",
+    "Karbonhidrat=12.9g",
+    "Yağ=0g",
+    "Lif=0g",
+    "Şeker=12.6g",
+    "Sodyum=1mg",
+    "Doymuş Yağ=0g"
+   ],
+   "macros": [
+    "Protein %0",
+    "Karbonhidrat %100",
+    "Yağ %0"
+   ],
+   "bar": [
+    "0%",
+    "100%",
+    "0%"
+   ],
+   "note": "Tahmini değerler · 1 porsiyon",
+   "tail": [
+    "dv2-nutrition",
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": 44,
+   "clipped": 0
+  },
+  {
+   "engine": "webkit",
+   "width": 430,
+   "k": "curry",
+   "titles": [
+    "Hatırlatma"
+   ],
+   "icons": [
+    "fa-bell"
+   ],
+   "allergen": null,
+   "allergenTags": [],
+   "single": true,
+   "railScrolls": false,
+   "cardFull": true,
+   "nut": null,
+   "macros": null,
+   "bar": null,
+   "note": null,
+   "tail": [
+    "recipe-metadata",
+    "dv2-similar"
+   ],
+   "inPane": false,
+   "infoInStrip": false,
+   "overflowX": false,
+   "nutCellMinH": null,
+   "clipped": 0
+  }
+ ],
+ "failures": []
+}

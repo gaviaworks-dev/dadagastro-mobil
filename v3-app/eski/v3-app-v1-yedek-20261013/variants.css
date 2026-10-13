@@ -1,0 +1,171 @@
+/* Four spatial ideas. Brand and component tokens are inherited unchanged. */
+.v3-study{background:var(--paper);--study-top:64px;--study-bottom:88px;color:var(--ink)}
+.v3-study .topbar{height:var(--study-top);min-height:var(--study-top);padding:var(--space-8) var(--gutter);box-shadow:none!important;color:var(--ink)!important;transition:background .2s}
+.v3-study .topbar h1{font-size:var(--role-page-size);margin:0;flex:1;font-family:'GilroyBd',var(--font)}
+.v3-study .topbar .icon-button,.v3-study .topbar .header-save{color:var(--ink)!important;background:var(--paper)!important;border:0!important}
+.v3-study .topbar .compact-title{color:var(--ink)!important}.v3-study .topbar .brand-logo{display:none}
+.v3-study .topbar.study-scrolled{border-bottom:1px solid var(--line)}
+.v3-study .header-occluded{visibility:visible!important;opacity:1!important}
+.v3-study .list-banner{display:none!important}.v3-study .list-editorial{padding-top:var(--study-top)}
+.v3-study .list-tools.content-panel{position:sticky;top:var(--study-top);padding:var(--space-8) var(--gutter) var(--space-12);margin:0;border-radius:0;background:var(--paper);z-index:40;box-shadow:0 1px var(--line)}
+.v3-study .search-box{height:52px;margin:0;background:var(--bg);border:1px solid var(--line);padding:0 var(--space-12);gap:var(--space-8)}
+.v3-study .search-box input{min-width:0;font-size:var(--role-body-size)}
+.v3-study .search-camera{flex:none;width:44px;height:44px;color:var(--tomato-dark);background:transparent;padding:0}
+.v3-study .chips{padding:var(--space-12) 0 0;margin:0;gap:var(--space-8)}
+.v3-study .result-bar{margin:var(--space-12) 0 0;padding:0;min-height:44px;gap:var(--space-8);align-items:center}
+.v3-study .result-bar>div:first-child{display:flex;align-items:center;gap:var(--space-12);flex:1;min-width:0}
+.v3-study #resultCount{margin:0;font-size:var(--role-meta-size);line-height:1.2;color:var(--muted)}
+.v3-study #resultCount b{display:block;color:var(--ink)}
+.v3-study .filter-button{font-size:var(--role-meta-size);padding:0 var(--space-8);gap:var(--space-8);min-height:44px;border:1px solid var(--line);border-radius:var(--radius-control)}
+.v3-study .view-toggle{flex:none}.v3-study .view-toggle button{width:44px;min-width:44px}
+.v3-study .list-content{padding:var(--space-16) var(--gutter) calc(var(--study-bottom) + env(safe-area-inset-bottom));margin:0}
+.v3-study .theme-expander{margin:0 0 var(--space-16);border:0;border-bottom:1px solid var(--line);border-radius:0}
+.v3-study .theme-expander summary{min-height:44px;padding:0;font-size:var(--role-meta-size);color:var(--muted)}
+.v3-study #results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-20) var(--space-12)}
+.v3-study #results[data-layout=a],.v3-study #results[data-layout=liste]{grid-template-columns:minmax(0,1fr)}
+.v3-study #results[data-layout=a] .card-visual{aspect-ratio:1.12}.v3-study #results[data-layout=a] .card-copy h3{font-size:var(--role-featured-size);min-height:0;height:auto;line-height:1.2;margin:var(--space-4) 0}
+.v3-study #results[data-layout=a] .card-body{padding:var(--space-12) var(--space-4) var(--space-24)}
+.v3-study #results[data-layout=a] .card-subtitle{height:auto;min-height:0}.v3-study #results[data-layout=a] .card-footer{margin-top:var(--space-8)}
+.v3-study #results .recipe-card{min-width:0;height:auto;overflow:visible}.v3-study .card-media{border-radius:var(--radius-card);overflow:hidden}
+.v3-study .card-photo{background-position:center}.v3-study .card-body{min-width:0}.v3-study .card-footer{gap:var(--space-8)}
+.v3-study .card-author-row{min-width:0}.v3-study .card-author-row>span:last-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.v3-study #results[data-layout=liste] .recipe-card,.v3-study #results[data-layout=d] .recipe-card{display:grid;grid-template-columns:100px minmax(0,1fr);gap:var(--space-12);align-items:start;padding-bottom:var(--space-16);border-bottom:1px solid var(--line)}
+.v3-study #results[data-layout=liste] .card-visual,.v3-study #results[data-layout=d] .card-visual{aspect-ratio:4/5;min-height:0}
+.v3-study #results[data-layout=liste] .card-body,.v3-study #results[data-layout=d] .card-body{padding:0;gap:var(--space-4)}
+.v3-study #results[data-layout=liste] .photo-meta,.v3-study #results[data-layout=d] .photo-meta{left:var(--space-4);right:var(--space-4);padding:var(--space-4);gap:var(--space-4);font-size:var(--role-label-size)}
+.v3-study #results[data-layout=liste] .card-subtitle,.v3-study #results[data-layout=d] .card-subtitle{min-height:0;height:1.3em}
+.v3-study #results[data-layout=c]{display:block}.v3-study .recipe-shelf{margin:0 0 var(--space-32)}
+.v3-study .recipe-shelf h2{font-size:var(--role-section-size);margin:0}.v3-study .section-heading-row{margin-bottom:var(--space-16)}
+.v3-study .shelf-rail{display:flex;gap:var(--space-12);overflow:auto;scroll-snap-type:x mandatory;margin-right:calc(-1 * var(--gutter));padding-right:var(--gutter)}
+.v3-study .shelf-rail .recipe-card{flex:0 0 66%;scroll-snap-align:start}
+.v3-study .thumb-filters{position:fixed;bottom:calc(80px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:min(100%,var(--app-max));z-index:55;padding:var(--space-8) var(--gutter);background:var(--paper);border-top:1px solid var(--line);box-shadow:var(--sh-sm)}
+.v3-study .thumb-filters .chips{padding-top:0}.v3-study .thumb-filters .result-bar{margin-top:var(--space-8)}
+.v3-study.liste-b .list-content{padding-bottom:calc(224px + env(safe-area-inset-bottom))}
+.v3-study.liste-d .list-content{display:grid;grid-template-columns:76px minmax(0,1fr);gap:var(--space-12);padding-left:var(--space-12);padding-right:var(--space-12)}
+.v3-study.liste-d .theme-expander{grid-column:1/-1}.v3-study.liste-d #results{grid-column:2;grid-template-columns:minmax(0,1fr)}
+.v3-study.liste-d .category-index{grid-column:1;grid-row:2/span 4;position:sticky;top:216px;align-self:start;max-height:calc(100dvh - 304px);overflow:auto}
+.v3-study.liste-d .category-index .chips{display:flex;flex-direction:column;padding:0;overflow:visible;gap:var(--space-8)}
+.v3-study.liste-d .category-index .chip{white-space:normal;height:auto;min-height:52px;line-height:1.2;font-size:var(--role-label-size);padding:var(--space-8) var(--space-4);width:100%;text-align:center}
+.v3-study.liste-d #results[data-layout=d] .recipe-card{display:flex;flex-direction:column;gap:var(--space-8)}
+.v3-study.liste-d #results[data-layout=d] .card-media{width:100%}.v3-study.liste-d #results[data-layout=d] .card-visual{aspect-ratio:1.4}
+.v3-study.liste-d #pagination,.v3-study.liste-d .study-related{grid-column:2}.v3-study .empty{grid-column:1/-1;min-height:280px;padding:var(--space-32) var(--space-16)}
+.v3-study .study-related{margin-top:var(--space-32)}
+/* Detail identities all keep the original functional nodes. */
+.v3-study .detail-editorial{padding-bottom:calc(112px + env(safe-area-inset-bottom))}
+.v3-study .detail-hero{height:400px;min-height:0;margin:0;overflow:hidden;background:var(--bg)}
+.v3-study .detail-shade,.v3-study .detail-hero:before,.v3-study .detail-hero:after{display:none!important}
+.v3-study .hero-gallery-open{inset:0;width:100%;height:100%;border:0;border-radius:0;display:block}
+.v3-study .detail-hero .photo{inset:0;width:100%;height:100%;transform:translateY(var(--cover-shift,0)) scale(1.06)!important;background-position:center}
+.v3-study .photo-expand{position:absolute;right:var(--gutter);bottom:var(--space-32);display:flex;align-items:center;gap:var(--space-8);background:var(--paper);color:var(--ink);padding:var(--space-8) var(--space-12);border-radius:var(--radius-control);font-size:var(--role-meta-size)}
+.v3-study #recipeBody{position:relative;z-index:2;margin:calc(-1 * var(--space-24)) 0 0;padding:var(--space-16) var(--gutter) var(--space-32);border-radius:var(--radius-sheet) var(--radius-sheet) 0 0;background:var(--paper)}
+.v3-study .paper-title{position:static!important;inset:auto!important;color:var(--ink)!important;padding:0!important;margin:var(--space-12) 0 var(--space-16);text-shadow:none!important;transform:none!important;opacity:1!important}
+.v3-study .paper-title h1{color:var(--ink)!important;font-size:var(--role-display-size)!important;line-height:1.06;margin:var(--space-8) 0!important;max-width:none;letter-spacing:var(--role-display-tracking)}
+.v3-study .paper-title>.eyebrow{color:var(--tomato-dark)!important;font-size:var(--role-label-size)!important}
+.v3-study .paper-title>p{color:var(--muted)!important;font-size:var(--role-meta-size)!important;line-height:1.4;margin:var(--space-8) 0!important}
+.v3-study .detail-cover-meta,.v3-study .detail-cover-meta a,.v3-study .detail-cover-meta .cost{color:var(--ink)!important;opacity:1!important;text-shadow:none!important;font-size:var(--role-meta-size)!important}
+.v3-study .recipe-facts{margin:var(--space-16) 0;min-height:64px;background:var(--bg);border-radius:var(--radius-card)}
+.v3-study .recipe-facts b{font-size:var(--role-subheading-size)}
+.v3-study .author-row{margin:var(--space-16) 0}.v3-study .description-wrap{margin:var(--space-16) 0 var(--space-24)}
+.v3-study .detail-block{margin-top:var(--space-32)}.v3-study .detail-block h2{font-size:var(--role-section-size)}
+.v3-study .sheet-grip{cursor:grab;margin:0 auto var(--space-16)}
+.v3-study .steps .step h3{font-size:var(--role-subheading-size)}
+.v3-study.detay-a .detail-hero{height:68dvh;min-height:440px}.v3-study.detay-a .photo-expand{bottom:var(--space-48)}
+.v3-study.detay-a #recipeBody{margin-top:calc(-1 * var(--space-40))}
+.v3-study.detay-a .detail-hero .photo{transform:translateY(var(--cover-shift,0)) scale(1.12)!important}
+.v3-study.detay-b .detail-hero{height:232px;padding-top:var(--study-top)}
+.v3-study.detay-b .hero-gallery-open{top:var(--study-top);height:168px}
+.v3-study.detay-b .photo-expand{bottom:var(--space-12)}
+.v3-study .detail-overview{position:sticky;top:var(--study-top);z-index:30;background:var(--paper);padding:var(--space-12) var(--gutter);box-shadow:0 1px var(--line)}
+.v3-study .detail-overview .paper-title{margin:0 0 var(--space-8)}.v3-study .detail-overview .paper-title h1{font-size:var(--role-page-size)!important;margin:var(--space-4) 0!important}
+.v3-study .detail-overview .paper-title>p{margin:var(--space-4) 0!important}.v3-study .detail-overview .recipe-facts{margin:var(--space-8) 0 0;min-height:56px;padding:var(--space-8)}
+.v3-study.detay-b #recipeBody{margin:0;border-radius:0;padding-top:var(--space-12)}.v3-study.detay-b .sheet-grip{display:none}
+.v3-study .detail-tabs{position:sticky;top:calc(var(--study-top) + var(--overview-height,228px));z-index:31;background:var(--bg);margin:0 0 var(--space-16)}
+.v3-study .detail-tabs button{font-size:var(--role-meta-size);min-width:0;min-height:44px}.v3-study .detail-pane[hidden]{display:none!important}
+.v3-study .study-fold{border:1px solid var(--line);border-radius:var(--radius-card);margin:var(--space-16) 0;overflow:hidden}
+.v3-study .study-fold>summary{display:flex;gap:var(--space-12);align-items:center;padding:var(--space-16);min-height:56px;font-size:var(--role-subheading-size);list-style:none}
+.v3-study .study-fold>summary .icon{margin-left:auto}.v3-study .study-fold>summary::-webkit-details-marker{display:none}
+.v3-study .study-fold>section{padding:0 var(--space-12) var(--space-16);margin:0}.v3-study .study-fold .ingredient-heading h2{font-size:var(--role-subheading-size)}
+.v3-study.detay-c .detail-hero{height:288px}.v3-study.detay-c .description-wrap{margin-bottom:var(--space-16)}
+.v3-study .flow-method .steps{display:flex;flex-direction:column;gap:var(--space-16)}
+.v3-study .flow-method .step{border:1px solid var(--line);padding:var(--space-16);border-radius:var(--radius-card);background:var(--bg);display:block}
+.v3-study .flow-method .step-index{margin-bottom:var(--space-12);font-size:var(--role-page-size);width:44px;height:44px;background:var(--tomato-tint);color:var(--tomato-dark);border-radius:var(--radius-control)}
+.v3-study .flow-method .step p{margin:var(--space-12) 0;text-align:left!important}
+.v3-study.detay-d .detail-editorial{padding-top:var(--study-top)}
+.v3-study.detay-d .detail-hero{margin:var(--space-16) var(--gutter) 0;height:auto;aspect-ratio:1;border-radius:var(--radius-card)}
+.v3-study.detay-d .hero-gallery-open{border-radius:var(--radius-card)}.v3-study.detay-d #recipeBody{margin:0;padding-top:var(--space-8)}
+.v3-study.detay-d .sheet-grip{display:none}.v3-study.detay-d .paper-title{text-align:center}.v3-study.detay-d .detail-cover-meta{justify-content:center}
+.v3-study .recipe-console{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-8);margin:var(--space-16) 0 var(--space-24)}
+.v3-study .recipe-console button{display:flex;flex-direction:column;align-items:center;gap:var(--space-8);padding:var(--space-16) var(--space-4);border-radius:var(--radius-control);background:var(--bg);border:1px solid var(--line)}
+.v3-study .recipe-console .icon{color:var(--tomato-dark)}.v3-study .recipe-console b{font-size:var(--role-meta-size)}.v3-study .recipe-console small{font-size:var(--role-label-size);color:var(--muted)}
+.v3-study .cook-bar{z-index:70}.v3-study .detail-block,.v3-study .study-fold{scroll-margin-top:80px}
+.v3-study .recipe-card{animation:study-in .25s both}.v3-study .recipe-card:active{transform:scale(.985)}
+@keyframes study-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(min-width:481px){html{background:var(--ink)}.v3-study{max-width:var(--app-max);margin:auto}}
+@media(prefers-reduced-motion:reduce){.v3-study *{animation:none!important;transition:none!important;scroll-behavior:auto!important}.v3-study .detail-hero .photo{transform:none!important}}
+/* Visual review pass: remove inherited dimensional rules, restore readable ink. */
+.v3-study #results[data-layout=a] .card-visual{aspect-ratio:1.2!important;height:auto!important}
+.v3-study #results[data-layout=a] .card-body{display:flex!important;height:auto!important;min-height:0!important}
+.v3-study #results[data-layout=a] .card-copy h3{height:auto!important;min-height:0!important}
+.v3-study #results[data-layout=a] .card-subtitle{height:auto!important;min-height:0!important}
+.v3-study .recipe-card .card-footer{margin-top:var(--space-8)!important}
+.v3-study .recipe-card .avatar-card{display:inline-flex!important;width:20px!important;height:20px!important;min-width:20px!important;max-width:20px!important;flex:0 0 20px!important;align-items:center!important;justify-content:center!important;border-radius:50%!important;background:var(--bg)!important;color:var(--tomato-dark)!important;font-size:var(--role-nav-size)!important}
+.v3-study .detail-cover-meta .rating{color:var(--ink)!important;text-shadow:none!important}
+.v3-study .topbar .icon-button:before,.v3-study .topbar .header-save:before{background:var(--paper)!important;border:1px solid var(--line)!important;box-shadow:var(--sh-sm)}
+.v3-study #results[data-layout=d] .recipe-card{width:100%!important;min-width:0!important;display:flex!important;flex-direction:column!important}
+.v3-study #results[data-layout=d] .card-body{display:flex!important;width:100%!important;min-width:0!important;flex:0 1 auto!important}
+.v3-study #results[data-layout=d] .card-visual{height:auto!important;aspect-ratio:1.4!important}
+.v3-study.liste-d .category-index .chip{white-space:normal!important;word-break:normal;overflow-wrap:anywhere;min-width:0!important;max-width:100%;text-overflow:clip;line-height:1.2}
+.v3-study #results[data-layout=liste] .recipe-card{display:grid!important;grid-template-columns:100px minmax(0,1fr)!important;min-height:0!important}
+.v3-study #results[data-layout=liste] .card-visual{height:auto!important;aspect-ratio:4/5!important}
+.v3-study #results[data-layout=liste] .card-body{width:100%!important;display:flex!important;min-height:0!important}
+.v3-study #results[data-layout=liste] .photo-meta{flex-wrap:wrap!important;position:absolute!important}
+.v3-study .detail-tabs{background:var(--bg)!important;box-shadow:0 -12px 0 var(--paper),0 12px 0 var(--paper)}
+.v3-study .detail-pane[hidden] *{animation:none!important}
+.v3-study.detay-c .description-wrap{display:block}.v3-study.detay-c .detail-hero{height:248px}
+.v3-study.detay-c .paper-title h1{font-size:var(--role-page-size)!important}
+.v3-study.detay-c .description-wrap{margin:var(--space-12) 0}.v3-study.detay-c .author-row{margin:var(--space-12) 0}
+.v3-study.detay-c .flow-method{margin-top:var(--space-24)}
+.v3-study #results[data-layout=a] .card-media{aspect-ratio:1.2!important;height:auto!important}
+.v3-study #results[data-layout=d] .card-media{aspect-ratio:1.4!important;height:auto!important}
+.v3-study #results[data-layout=liste] .card-media{aspect-ratio:4/5!important;height:auto!important}
+.v3-study .recipe-card .avatar-card{background:var(--line)!important}
+.v3-study.liste-d .category-index .chip{flex-shrink:0!important;padding:var(--space-8) var(--space-4)!important;overflow-wrap:normal!important;hyphens:auto;min-height:52px!important;height:auto!important;font-size:var(--role-label-size)!important}
+.v3-study.detay-c .flow-method{margin-top:var(--space-16)}
+.v3-study .recipe-card{border-radius:0!important}.v3-study .recipe-card .card-footer{padding:0!important;align-items:center}
+.v3-study .recipe-card .card-footer .card-author-row{margin:0!important;min-height:44px}
+.v3-study #results[data-layout=a] .card-copy h3{font-size:var(--role-featured-size)!important;font-weight:var(--role-featured-weight)!important;line-height:var(--role-featured-line)!important}
+.v3-study.detay-b .detail-hero{position:sticky;top:var(--study-top);margin-top:var(--study-top);height:168px;padding:0;z-index:29}
+.v3-study.detay-b .hero-gallery-open{top:0;height:100%}
+.v3-study.detay-b .detail-overview{top:calc(var(--study-top) + 168px)}
+.v3-study.detay-b .detail-tabs{top:calc(var(--study-top) + 168px + var(--overview-height,228px))}
+.v3-study.detay-b .detail-block{scroll-margin-top:calc(var(--study-top) + 168px + var(--overview-height,228px) + 64px)}
+.v3-study.detay-a .detail-hero .photo{transform:translateY(var(--cover-shift,0)) scale(var(--cover-scale,1.12))!important}
+.v3-study .compact-photo{width:28px;height:28px;flex:0 0 28px;border-radius:var(--radius-control);background-size:cover;background-position:center;display:none}
+.v3-study.detay-a .study-scrolled .compact-photo{display:block}.v3-study.detay-a .compact-title{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body.v3-study{background:var(--paper)!important}
+.v3-study.detay-b .detail-editorial{padding-top:var(--study-top)}
+.v3-study.detay-b .detail-hero{margin-top:0}
+.v3-study.detay-b .detail-hero .photo{transform:none!important}
+.v3-study.detay-a .detail-hero .photo{transform:scale(var(--cover-scale,1.12))!important}
+.v3-study.detay-c .detail-hero .photo,.v3-study.detay-d .detail-hero .photo{transform:none!important}
+.v3-study .thumb-filters:after{content:'';position:absolute;top:100%;left:0;right:0;height:calc(80px + env(safe-area-inset-bottom));background:var(--paper);pointer-events:none}
+.v3-study.detay-d .detail-hero{height:clamp(240px,68vw,288px);aspect-ratio:auto}
+/* B is a bounded workspace: tabs scroll internally, never beneath the fixed summary. */
+body.v3-study.detay-b{height:100dvh;overflow:hidden}
+.v3-study.detay-b #app{height:100dvh}
+.v3-study.detay-b .detail-editorial{display:flex;flex-direction:column;height:100dvh;overflow:hidden;padding-top:var(--study-top);padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+.v3-study.detay-b .detail-hero{position:relative;top:auto;height:144px;flex:0 0 144px}
+.v3-study.detay-b .detail-overview{position:relative;top:auto;flex:none;padding:var(--space-8) var(--gutter)}
+.v3-study.detay-b #recipeBody{display:flex;flex:1;flex-direction:column;min-height:0;overflow:hidden;padding:var(--space-12) var(--gutter) 0}
+.v3-study.detay-b .detail-tabs{position:relative;top:auto;flex:none;margin-bottom:var(--space-12);box-shadow:none}
+.v3-study.detay-b .detail-pane{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding-bottom:var(--space-24)}
+.v3-study.detay-b .detail-pane>.detail-block:first-child{margin-top:0}
+.v3-study.detay-b .detail-block{scroll-margin-top:var(--space-8)}
+.v3-study .flow-method>.ingredient-heading{margin:0 0 var(--space-12)!important}
+.v3-study .flow-method>.steps{margin:0!important;padding:0!important}
+.v3-study .flow-method .step{margin:0!important}
+.v3-study{--study-top:calc(64px + env(safe-area-inset-top,0px))}
+.v3-study .topbar{padding-top:calc(var(--space-8) + env(safe-area-inset-top,0px))}
+.v3-study.detay-a .sheet-grip{position:relative;background:transparent;width:64px;height:44px;margin:calc(-1 * var(--space-12)) auto 0;touch-action:pan-y}
+.v3-study.detay-a .sheet-grip:after{content:'';position:absolute;left:var(--space-12);right:var(--space-12);top:var(--space-20);height:4px;background:var(--line);border-radius:var(--radius-control)}
+.v3-study .nav-dock{z-index:65!important}
