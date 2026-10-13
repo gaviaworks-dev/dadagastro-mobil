@@ -60,6 +60,22 @@ bildirim: {gun: 2, saat: '09:00', acik: true}}`. Kalan gün = min(SKT, açılı�
 (gerçekçi: süt, yoğurt, beyaz peynir, tavuk göğsü, kıyma, ıspanak, domates, yumurta, tereyağı, dondurulmuş bezelye…; görseller
 assets/malzeme — canlı sitenin gerçek malzeme görselleri).
 
+**Veri modeli — iki takip türü (Beyar, 13 Ekim; Flutter ve API için):** “Taze ürünün paket SKT'si olmaz.”
+
+| Alan | Tür | Paketli (`takip: 'paket'`) | Taze (`takip: 'taze'`) |
+|---|---|---|---|
+| `takip` | enum `paket` \| `taze` | zorunlu (eski kayıtta yoksa `paket`) | zorunlu |
+| `skt` | date | zorunlu | `null` |
+| `acildi`, `acilis` (date), `acikRaf` (gün) | bool / date / int | açıldıysa | `false` / `null` |
+| `eklenme` | date | — (`null`) | zorunlu, en geç bugün |
+| `tazelik` | int (gün, 1–30) | — (`null`) | zorunlu; “eklendiği günden önerilen tüketim süresi” |
+
+- **Son gün:** paketli = min(`skt`, `acilis` + `acikRaf`); taze = `eklenme` + `tazelik`. Kalan gün = son gün − bugün (yerel gün, saat yok).
+- **Etiket:** paketli “X gün kaldı” / “Bugün” / “X gün geçti”; taze “X gün içinde tüket” / “Bugün tüket” / “Tazeliği geçti”. Ton: yaklaşıyor ≤ bildirim günü uyarı, 0 bugün, < 0 geçti, fazlası başarı.
+- **Tür önerisi (`takipOner`):** katalog grubu Sebzeler / Meyveler / Kırmızı Et / Tavuk ve Kümes / Balık ve Deniz Ürünleri ile taze otlar → `taze`; önerilen süre yeşillik 3, sebze/meyve 5 (dayanıklı kök/narenciye 14), kırmızı et 3, kümes 2, balık 1 gün. Yumurta, sucuk, pastırma, kavurma ve diğer gruplar → `paket`. Öneri varsayılandır; kullanıcı türü ve süreyi değiştirir (ör. paketli tavuk göğsü = paket + SKT).
+- **Sıralama:** süresi geçmemişler kalan güne göre (en acil önce), süresi geçenler sonda; tarihsizler en sonda. Ana sayfa “Yakında bitecekler”, liste, takvim noktaları, “Bunları değerlendir” ve hatırlatmalar aynı kuralı kullanır (`DGDolabim.sirala`).
+- **API önerisi:** `POST/PATCH /dolabim/urunler` gövdesi yukarıdaki alanlar; sunucu `son_gun` ve `kalan_gun`u hesaplayıp döndürebilir; bildirim işi `son_gun − bildirim.gun` gününde `bildirim.saat`te tetiklenir. Flutter: `enum DolapTakip { paket, taze }`, `DolapUrun.sonGun` getter'ı aynı formülle; tarih alanları DgDateField, tazelik DgStepper.
+
 **Durum renkleri (kanon token):** taze = başarı/nötr, yaklaşıyor (≤ bildirim günü) = uyarı tonu, bugün = primary, geçti = koyu domates —
 yalnız tokens.json renkleri.
 

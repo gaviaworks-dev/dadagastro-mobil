@@ -31,3 +31,12 @@ Adres: https://gaviaworks-dev.github.io/dadagastro-mobil/uygulama-ekranlari-v4/ 
 - Canlı doğrulama (Chromium, aynı 12 sayfa): 200, JS hatası 0, başarısız istek 0; başlık ve noindex doğru.
 
 **Bu yayından sonra git ve yayın yasağı yeniden geçerli.**
+
+## V4 güncelleme — 13 Ekim 2026 (Beyar onayı: aynı V4 klasörüne yeniden yayın) — Dolabım iki takip türü
+Patron geri bildirimi: “Ispanağın tarihinin geçmesi saçma.” Veri modeli: paketli (SKT + açık raf ömrü) / taze (eklenme + tazelik süresi, “X gün içinde tüket”); ortak çekirdek `ortak/dg-dolabim.js` (takip, sirala, takipOner, neden), sayfa `ortak/sayfalar/dolabim.js` (ajan 2; takip türü segmenti, taze alanları ortak takvim alanı + adımlayıcı). Örnek veri: Tavuk Göğsü (paketli) Bugün ilk satır, Ispanak taze “2 gün içinde tüket”, tek geçti ürün Krema en sonda. Model notu docs/57 §2.
+- Kopya aynı betikle (`verification/uygulama-ekranlari-v4/build.py`): 753 dosya, 19.833.646 bayt; değişen 9, eklenen/silinen 0.
+- gh-pages: yalnız `uygulama-ekranlari-v4/` altında 9 M (kapsam dışı 0). Commit `9837b86` (ebeveyn `e54dc9f`), fast-forward push, force yok; main'e commit yok. Pages run 38399107775 başarılı.
+- Canlı doğrulama (Chromium 390): Dolabım liste (ilk satır Bugün, son satır Krema “1 gün geçti”, Ispanak “2 gün içinde tüket”), Ispanak detayı, takvim, ana sayfa “Yakında bitecekler” — JS hatası 0, başarısız istek 0.
+- Ek güncelleme (Beyar onayı): liste satırında taze ürün açıklaması kısaldı — “12 Ekim'de eklendi” (bulunma eki aya göre, `DGDolabim.neden(u, yaz, {kisa: true})`); tam metin (“Taze ürün · 12 Ekim eklendi · 3 gün tazelik”) detayda ve erişilebilir adda kalır. Aynı betikle yeniden üretim (753 dosya, değişen 9); gh-pages commit `98e2fe6` (ebeveyn `9837b86`), fast-forward, force yok; Pages run 38399879310 başarılı. Canlı: taze satırları tek satır, Ispanak detayı tam metin, JS 0 / başarısız istek 0.
+
+**Bu yayından sonra git ve yayın yasağı yeniden geçerli.**

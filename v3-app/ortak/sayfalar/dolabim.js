@@ -38,9 +38,14 @@
     const ek = 'aı'.includes(son) ? 'ın' : 'ei'.includes(son) ? 'in' : 'ou'.includes(son) ? 'un' : 'ün';
     if (UNLU.includes(l.slice(-1))) s += 'n' + ek; else { const y = sesli.length > 1 && {p: 'b', ç: 'c', t: 'd', k: 'ğ'}[s.slice(-1)]; if (y) s = s.slice(0, -1) + y; s += ek; }
     return [...k, s].join(' '); };
+  // Belirtme eki (Ispanağı, Maydanozu, Domatesi, Elmayı) — taze ürün hatırlatması için; aynı ünlü uyumu ve yumuşama.
+  const belirtme = ad => { const k = ad.trim().split(' '); let s = k.pop(); const l = norm(s), sesli = [...l].filter(c => UNLU.includes(c)), son = sesli[sesli.length - 1] || 'e';
+    const ek = 'aı'.includes(son) ? 'ı' : 'ei'.includes(son) ? 'i' : 'ou'.includes(son) ? 'u' : 'ü';
+    if (UNLU.includes(l.slice(-1))) s += 'y' + ek; else { const y = sesli.length > 1 && {p: 'b', ç: 'c', t: 'd', k: 'ğ'}[s.slice(-1)]; if (y) s = s.slice(0, -1) + y; s += ek; }
+    return [...k, s].join(' '); };
 
   // Kaynak: normalde dg-dolabim; ?ornek=1 oturum belleği (sessionStorage), cihaza yazılmaz.
-  const OK = 'dg-dolabim-ornek';
+  const OK = 'dg-dolabim-ornek-v2';   // sürümlü: iki takip türü (paketli / taze) örnek verisi
   const veri = () => { const bos = {urunler: [], gecmis: [], bildirim: {gun: 2, saat: '09:00', acik: true}};
     if (!ORNEK) return {...bos, ...store.get('dolabim', {})};
     try { const s = JSON.parse(sessionStorage.getItem(OK)); if (s) return s; } catch { /* yok */ }
@@ -52,11 +57,17 @@
   const durumu = (u, esik) => DD.durum(u, esik, bugun);
   const rozet = d => DG.durumRozet(d.ton, {ad: d.ad, ton: d.ton, ikon: d.ikon});
   const miktarYaz = u => [u.miktar, u.birim].filter(Boolean).join(' ');
-  const satirMeta = u => [miktarYaz(u), yerAd(u.yer), u.acildi ? 'Açıldı' : ''].filter(Boolean).join(' · ');
-  const sirali = (l, esik) => l.map(u => ({u, d: durumu(u, esik)})).sort((a, b) => (a.d.k ?? 1e9) - (b.d.k ?? 1e9) || a.u.ad.localeCompare(b.u.ad, 'tr'));
-  const urunSatir = ({u, d}) => `<a class="dgu-satir" href="${esc(tasi(`dolabim.html?urun=${encodeURIComponent(u.id)}`))}" aria-label="${esc(u.ad)}, ${esc(satirMeta(u))}, ${esc(d.ad)}">${foto(u)}<span class="dgu-satir-metin"><span>${esc(u.ad)}</span><small>${esc(satirMeta(u))}</small></span>${rozet(d)}</a>`;
-  // Hatırlatma cümlesi (bildirim kartı ve değerlendir listesi): “Sütün tüketilmesi için 2 gün kaldı”.
-  const hatirlatma = (u, d) => d.k < 0 ? `${tamlayan(u.ad)} son kullanma tarihi ${-d.k} gün önce geçti` : d.k === 0 ? `${tamlayan(u.ad)} son kullanma tarihi bugün` : `${tamlayan(u.ad)} tüketilmesi için ${d.k} gün kaldı`;
+  const satirMeta = u => [miktarYaz(u), yerAd(u.yer), u.acildi && !DD.tazeMi(u) ? 'Açıldı' : ''].filter(Boolean).join(' · ');
+  // Sıra ortak çekirdekten (DGDolabim.sirala): süresi geçmemişler kalan güne göre, geçenler sonda.
+  const sirali = (l, esik) => DD.sirala(l, bugun).map(u => ({u, d: durumu(u, esik)}));
+  const neden = u => DD.neden(u, tarihYaz);
+  const kisaNeden = u => DD.neden(u, tarihYaz, {kisa: true});   // liste satırı: taze üründe “12 Ekim'de eklendi” (Beyar)
+  const urunSatir = ({u, d}) => `<a class="dgu-satir" href="${esc(tasi(`dolabim.html?urun=${encodeURIComponent(u.id)}`))}" aria-label="${esc(u.ad)}, ${esc(satirMeta(u))}, ${esc(neden(u))}, ${esc(d.ad)}">${foto(u)}<span class="dgu-satir-metin"><span>${esc(u.ad)}</span><small>${esc(satirMeta(u))}</small><small>${esc(kisaNeden(u))}</small></span>${rozet(d)}</a>`;
+  // Hatırlatma cümlesi (bildirim kartı, detay): paketli “Sütün tüketilmesi için 2 gün kaldı”; taze “Ispanağı 2 gün içinde tüket”.
+  const cekirdek = ad => ad.replace(/\s*\(.*\)\s*$/, '');
+  const hatirlatma = (u, d) => { const a = cekirdek(u.ad);
+    if (DD.tazeMi(u)) return d.k < 0 ? `${tamlayan(a)} tazeliği ${-d.k} gün önce geçti` : d.k === 0 ? `${belirtme(a)} bugün tüket` : `${belirtme(a)} ${d.k} gün içinde tüket`;
+    return d.k < 0 ? `${tamlayan(a)} son kullanma tarihi ${-d.k} gün önce geçti` : d.k === 0 ? `${tamlayan(a)} son kullanma tarihi bugün` : `${tamlayan(a)} tüketilmesi için ${d.k} gün kaldı`; };
   // Tarif eşleşmesi: süresi yaklaşan ürünlerin katalog adı tarifin malzemelerinde geçiyor mu (DGVERI gerçek tarifler).
   const kokSoz = s => norm(s).split(/[^a-zçğıöşü]+/).filter(x => x.length > 2);
   const kullanir = (t, ad) => { const w = kokSoz(ad); return (t.malzemeler || []).some(m => { const mw = kokSoz(m.ad); return w.every(x => mw.some(y => y.startsWith(x.slice(0, Math.max(3, x.length - 1))))); }); };
@@ -65,23 +76,38 @@
   const misafir = () => DG.girisDuvari({ikon: M.ikon, baslik: `${AD} için giriş yap`, metin: 'Aldığın ürünleri kaydet; son kullanma tarihi yaklaşınca haber verelim, ellerindekiyle ne pişireceğini önerelim.',
     sunar: [['calendar-check', 'Son kullanma takibi', 'Kalan gün kendiliğinden hesaplanır; açtığın ürünün raf ömrü de hesaba katılır.'], [I('notifications'), 'Zamanında hatırlatma', '“Sütün tüketilmesi için 2 gün kaldı” gibi, seçtiğin saatte.'], [I('recipes'), 'Bunları değerlendir', 'Süresi yaklaşan ürünlerle yapılabilecek gerçek tarifler.']]});
 
-  // Ürün formu (ekle ve düzenle ortak): ad, SKT, miktar + birim, yer, açıldı + açılış tarihi + açık raf ömrü, not.
-  const form = u => `<form class="dgu-yigin" data-form novalidate>
+  // Ürün formu (ekle ve düzenle ortak): takip türü (Paketli: SKT + açıldı/açılış/açık raf ömrü · Taze: eklendiği gün + tazelik süresi),
+  // ad, miktar + birim, yer, not. Eski kayıt (takip yok) paketli.
+  const TAKIP = [['paket', 'Paketli', null, 'box'], ['taze', 'Taze', null, 'leaf']];
+  const tazelikHtml = n => DG.adimlayici({ad: 'tazelik', deger: n || 3, min: 1, max: 30, birim: 'gün', aria: 'Tazelik süresi', azalt: 'Bir gün azalt', artir: 'Bir gün artır'});
+  const form = u => { const taze = DD.tazeMi(u); return `<form class="dgu-yigin" data-form novalidate>
+      <div class="dgu-alan" data-takip-seg><span class="dgu-etiket">Takip türü</span>${seg('Takip türü', TAKIP, taze ? 'taze' : 'paket')}</div>
       ${alan({ad: 'ad', etiket: 'Ürün adı', deger: u.ad, zorunlu: true, yer: 'Örn. Süt'})}
-      ${DGTakvim.alan({ad: 'skt', etiket: 'Son kullanma tarihi', deger: u.skt, zorunlu: true, hizli: [['3 gün', 3], ['1 hafta', 7], ['1 ay', 30]], min: bugun})}
+      <div class="dgu-yigin" data-taze ${taze ? '' : 'hidden'}>${DGTakvim.alan({ad: 'eklenme', etiket: 'Eklendiği gün', deger: u.eklenme || bugun, zorunlu: true, max: bugun})}
+        <div class="dgu-alan"><span class="dgu-etiket">Tazelik süresi *</span><div data-tazelik>${tazelikHtml(u.tazelik)}</div><p class="dgu-yardim">Eklendiği günden itibaren önerilen tüketim süresi.</p></div></div>
+      <div class="dgu-yigin" data-paket ${taze ? 'hidden' : ''}>${DGTakvim.alan({ad: 'skt', etiket: 'Son kullanma tarihi', deger: u.skt || '', zorunlu: true, hizli: [['3 gün', 3], ['1 hafta', 7], ['1 ay', 30]], min: bugun})}</div>
       <div class="dl-ikili">${alan({ad: 'miktar', etiket: 'Miktar', tur: 'text', deger: u.miktar, yer: 'Örn. 1'})}${DG.secAlan({ad: 'birim', etiket: 'Birim', secenekler: BIRIM.map(x => [x, x]), deger: u.birim || 'adet'})}</div>
-      <div class="dgu-alan"><span class="dgu-etiket">Yer</span>${seg('Yer', YER.map(([k, m]) => [k, m]), u.yer || 'buzdolabi')}</div>
-      <div class="dgu-satirlar"><label class="dgu-satir"><span class="dgu-satir-metin"><span>Açıldı</span><small>Açıldıktan sonra raf ömrü kısalır; kalan gün buna göre hesaplanır.</small></span>${anahtar('acildi', u.acildi, 'Ürün açıldı')}</label></div>
-      <div class="dl-ikili" data-acik ${u.acildi ? '' : 'hidden'}>${DGTakvim.alan({ad: 'acilis', etiket: 'Açılış tarihi', deger: u.acilis || bugun, max: bugun})}${alan({ad: 'acikRaf', etiket: 'Açık raf ömrü (gün)', tur: 'number', deger: u.acikRaf ?? '', yer: 'Örn. 5'})}</div>
-      ${alan({ad: 'not', etiket: 'Not (isteğe bağlı)', deger: u.not || '', yer: 'Örn. Kahvaltı için'})}</form>`;
-  const formOku = (f, u) => { const v = Object.fromEntries(new FormData(f)); return {...u, ad: (v.ad || '').trim(), skt: v.skt, miktar: (v.miktar || '').trim(), birim: v.birim || '', yer: f.querySelector('[data-seg][aria-selected=true]')?.dataset.seg || 'buzdolabi', acildi: !!v.acildi, acilis: v.acildi ? (v.acilis || bugun) : null, acikRaf: v.acildi && v.acikRaf ? Math.max(1, Math.round(+v.acikRaf)) : null, not: (v.not || '').trim()}; };
+      <div class="dgu-alan" data-yer-seg><span class="dgu-etiket">Yer</span>${seg('Yer', YER.map(([k, m]) => [k, m]), u.yer || 'buzdolabi')}</div>
+      <div class="dgu-satirlar" data-paket ${taze ? 'hidden' : ''}><label class="dgu-satir"><span class="dgu-satir-metin"><span>Açıldı</span><small>Açıldıktan sonra raf ömrü kısalır; kalan gün buna göre hesaplanır.</small></span>${anahtar('acildi', u.acildi, 'Ürün açıldı')}</label></div>
+      <div class="dl-ikili" data-acik ${u.acildi && !taze ? '' : 'hidden'}>${DGTakvim.alan({ad: 'acilis', etiket: 'Açılış tarihi', deger: u.acilis || bugun, max: bugun})}${alan({ad: 'acikRaf', etiket: 'Açık raf ömrü (gün)', tur: 'number', deger: u.acikRaf ?? '', yer: 'Örn. 5'})}</div>
+      ${alan({ad: 'not', etiket: 'Not (isteğe bağlı)', deger: u.not || '', yer: 'Örn. Kahvaltı için'})}</form>`; };
+  const segDeger = (f, k, yok) => f.querySelector(`[data-${k}-seg] [data-seg][aria-selected=true]`)?.dataset.seg || yok;
+  const formOku = (f, u) => { const v = Object.fromEntries(new FormData(f)), takip = segDeger(f, 'takip', 'paket'), ortak = {...u, takip, ad: (v.ad || '').trim(), miktar: (v.miktar || '').trim(), birim: v.birim || '', yer: segDeger(f, 'yer', 'buzdolabi'), not: (v.not || '').trim()};
+    return takip === 'taze' ? {...ortak, eklenme: v.eklenme || bugun, tazelik: Math.max(1, Math.round(+v.tazelik || 0)) || null, skt: null, acildi: false, acilis: null, acikRaf: null}
+      : {...ortak, eklenme: null, tazelik: null, skt: v.skt || '', acildi: !!v.acildi, acilis: v.acildi ? (v.acilis || bugun) : null, acikRaf: v.acildi && v.acikRaf ? Math.max(1, Math.round(+v.acikRaf)) : null}; };
+  // Takip türü görünürlüğü: Paketli → SKT + açıldı alanları; Taze → eklendiği gün + tazelik süresi.
+  const takipGoster = (f, t) => { f.querySelectorAll('[data-taze]').forEach(x => { x.hidden = t !== 'taze'; }); f.querySelectorAll('[data-paket]').forEach(x => { x.hidden = t === 'taze'; }); f.querySelector('[data-acik]').hidden = t === 'taze' || !f.querySelector('input[name=acildi]').checked; };
+  const takipAyarla = (f, o) => { if (!o) return; f.querySelectorAll('[data-takip-seg] [data-seg]').forEach(b => b.setAttribute('aria-selected', b.dataset.seg === o.takip)); if (o.takip === 'taze' && o.tazelik) f.querySelector('[data-tazelik]').innerHTML = tazelikHtml(o.tazelik); takipGoster(f, o.takip); };
   const formBagla = f => {
-    f.addEventListener('click', e => { const s = e.target.closest('[data-seg]'); if (!s) return; f.querySelectorAll('[data-seg]').forEach(b => b.setAttribute('aria-selected', b === s)); f.dispatchEvent(new Event('change', {bubbles: true})); });
+    f.addEventListener('click', e => { const s = e.target.closest('[data-seg]'); if (!s) return; s.closest('.dgu-seg').querySelectorAll('[data-seg]').forEach(b => b.setAttribute('aria-selected', b === s)); if (s.closest('[data-takip-seg]')) takipGoster(f, s.dataset.seg); f.dispatchEvent(new Event('change', {bubbles: true})); });
     f.addEventListener('change', e => { if (e.target.name === 'acildi') f.querySelector('[data-acik]').hidden = !e.target.checked; });
     f.querySelector('#f-ad').maxLength = 80; f.querySelector('#f-not').maxLength = 160; f.querySelector('#f-acikRaf').min = '1'; f.querySelector('#f-acikRaf').setAttribute('inputmode', 'numeric');
   };
   const hataYaz = (f, ad, msg) => { const a = f.querySelector('#f-' + ad).closest('.dgu-alan'); a.classList.toggle('is-hata', !!msg); a.querySelector(':scope > .dgu-hata')?.remove(); if (msg) a.querySelector('.dgu-girdi').insertAdjacentHTML('afterend', `<p class="dgu-hata" role="alert">${ic(I('error'))}${esc(msg)}</p>`); };
-  const dogrula = (f, u) => { const h = []; hataYaz(f, 'ad', u.ad ? '' : 'Ürünün adını yaz.'); if (!u.ad) h.push('ad'); hataYaz(f, 'skt', u.skt ? '' : 'Son kullanma tarihini seç.'); if (!u.skt) h.push('skt'); if (h.length) f.querySelector('#f-' + h[0]).focus(); return !h.length; };
+  // Doğrulama: ad her zaman; SKT yalnız paketlide; tazede eklendiği gün + tazelik süresi.
+  const dogrula = (f, u) => { const h = [], taze = u.takip === 'taze', kur = (ad, kosul, msg) => { hataYaz(f, ad, kosul ? msg : ''); if (kosul) h.push(ad); };
+    kur('ad', !u.ad, 'Ürünün adını yaz.'); kur('skt', !taze && !u.skt, 'Son kullanma tarihini seç.'); kur('eklenme', taze && !u.eklenme, 'Eklendiği günü seç.');
+    if (h.length) f.querySelector('#f-' + h[0]).focus(); return !h.length; };
 
   DG.sayfa('dolabim', ctx => {
     const D = veri(), esik = D.bildirim?.gun ?? 2;
@@ -94,7 +120,7 @@
     // ---------- Ürün ekle ----------
     if (ctx.qs.has('ekle')) {
       const SIK = ['Süt', 'Yoğurt', 'Tavuk Yumurtası', 'Beyaz Peynir', 'Domates', 'Tavuk Göğsü', 'Kıyma', 'Ispanak'];
-      const yeni = {ad: '', katalog: '', miktar: '1', birim: 'adet', yer: 'buzdolabi', skt: gun(7), acildi: false, acilis: null, acikRaf: null, not: ''};
+      const yeni = {ad: '', katalog: '', miktar: '1', birim: 'adet', yer: 'buzdolabi', takip: 'paket', skt: gun(7), acildi: false, acilis: null, acikRaf: null, eklenme: bugun, tazelik: 3, not: ''};
       const html = `<div class="dgu-ic dgu-yigin">
         ${DG.parcali([{ikon: 'barcode', baslik: 'Barkod okut', alt: 'Ambalajın barkodunu kameraya göster', attrs: 'data-barkod'}, {ikon: TK.modules.fridgeToRecipe.ikon, baslik: 'Fotoğrafından toplu ekle', alt: `${TK.modules.fridgeToRecipe.ad} fotoğrafındaki malzemeleri dolabına ekle`, href: TK.modules.fridgeToRecipe.sayfa + '?donus=' + DG.donusAdres()}], {aria: 'Hızlı ekleme'})}
         <section class="dgu-kart" aria-label="Katalogdan seç"><div class="dgu-yigin-8">${DG.bas('Katalogdan seç')}<p class="dgu-yardim">Dolapta Ne Var ile aynı malzeme listesi; seçtiğin ürünün görseli ve adı gelir.</p></div>
@@ -109,8 +135,8 @@
             : `<p class="dgu-yardim">Katalogda “${esc(q)}” yok; adı aşağıya yazarak ekleyebilirsin.</p>`; };
         katCiz();
         ara.addEventListener('input', katCiz);
-        kap.addEventListener('change', e => { if (e.target.name !== 'katalog') return; secili = e.target.value; const a = f.querySelector('#f-ad'); a.value = secili === 'Tavuk Yumurtası' ? 'Yumurta' : secili; hataYaz(f, 'ad', ''); });
-        const doldur = x => { secili = x.katalog; f.querySelector('#f-ad').value = x.ad; f.querySelector('#f-miktar').value = x.miktar; const b = f.querySelector('input[name=birim]'); b.value = x.birim; b.closest('.dgu-secici').querySelector('span').textContent = x.birim; katCiz(); };
+        kap.addEventListener('change', e => { if (e.target.name !== 'katalog') return; secili = e.target.value; const a = f.querySelector('#f-ad'); a.value = secili === 'Tavuk Yumurtası' ? 'Yumurta' : secili; hataYaz(f, 'ad', ''); takipAyarla(f, DD.takipOner(secili)); });
+        const doldur = x => { secili = x.katalog; takipAyarla(f, {takip: 'paket'}); f.querySelector('#f-ad').value = x.ad; f.querySelector('#f-miktar').value = x.miktar; const b = f.querySelector('input[name=birim]'); b.value = x.birim; b.closest('.dgu-secici').querySelector('span').textContent = x.birim; katCiz(); };
         root.addEventListener('click', e => {
           if (e.target.closest('[data-temizle]')) { ara.value = ''; katCiz(); ara.focus(); return; }
           if (!e.target.closest('[data-barkod]')) return;
@@ -132,10 +158,9 @@
     if (ctx.qs.has('urun')) {
       const u = D.urunler.find(x => x.id === ctx.qs.get('urun'));
       if (!u) return {tur: 'alt', baslik: AD, html: durum({ikon: M.ikon, baslik: 'Ürün bulunamadı', metin: 'Bu ürün tüketildi, atıldı ya da silinmiş olabilir.', tam: true, eylem: btn(`${AD}'a dön`, {href: tasi('dolabim.html')})})};
-      const d = durumu(u, esik), son = DD.sonGun(u);
-      const neden = u.acildi && u.acilis && u.acikRaf && son !== u.skt ? `Açıldıktan sonra ${u.acikRaf} gün · son gün ${tarihYaz(son)}` : `Son kullanma ${tarihYaz(u.skt)}`;
+      const d = durumu(u, esik);
       const html = `<div class="dgu-ic dgu-yigin">
-        <div class="dl-bas">${foto(u)}<div class="dgu-yigin-8"><h1 class="t-page">${esc(u.ad)}</h1><div class="u-yatay">${rozet(d)}<span class="t-meta c-muted">${esc(neden)}</span></div></div></div>
+        <div class="dl-bas">${foto(u)}<div class="dgu-yigin-8"><h1 class="t-page">${esc(u.ad)}</h1><div class="u-yatay">${rozet(d)}<span class="t-meta c-muted">${esc(neden(u))}</span></div></div></div>
         ${d.k != null && d.k <= esik ? DG.ipucu({ikon: I('notifications'), baslik: 'Hatırlatma', metin: hatirlatma(u, d) + '.'}) : ''}
         <section class="dgu-kart" aria-label="Ürün bilgileri"><div class="dgu-yigin-8">${DG.bas('Ürün bilgileri')}<p class="dgu-yardim" data-durum role="status">Değişiklikler kendiliğinden kaydedilir.</p></div>${form(u)}</section>
         ${DG.parcali([{ikon: I('addToList'), baslik: 'Alışveriş listesine ekle', alt: 'Bitmeden yenisini al', attrs: 'data-liste'}, {ikon: TK.modules.pantryFinder.ikon, baslik: 'Bununla tarif bul', alt: `${TK.modules.pantryFinder.ad}'da ${u.katalog || u.ad} seçili açılır`, href: `${TK.modules.pantryFinder.sayfa}?malzeme=${encodeURIComponent(u.katalog || u.ad)}`}], {aria: 'Ürün eylemleri'})}</div>`;
@@ -176,7 +201,7 @@
       const B = {gun: 2, saat: '09:00', acik: true, ...(D.bildirim || {})};
       const kartlar = ctx.qs.has('kartlar');
       const liste = sirali(D.urunler, B.gun).filter(x => x.d.k != null && x.d.k <= B.gun);
-      const kart = ({u, d}) => `<a class="dgu-bildirim is-okunmadi" href="${esc(tasi(`dolabim.html?urun=${encodeURIComponent(u.id)}`))}"><span class="dgu-bildirim-ikon">${ic(M.ikon)}</span><span class="dgu-bildirim-metin"><b>${esc(hatirlatma(u, d))}</b><p>${esc([miktarYaz(u), yerAd(u.yer), 'Son kullanma ' + tarihYaz(u.skt)].filter(Boolean).join(' · '))}</p><small>${esc(AD)} · Bugün ${esc(B.saat)}</small></span></a>`;
+      const kart = ({u, d}) => `<a class="dgu-bildirim is-okunmadi" href="${esc(tasi(`dolabim.html?urun=${encodeURIComponent(u.id)}`))}"><span class="dgu-bildirim-ikon">${ic(M.ikon)}</span><span class="dgu-bildirim-metin"><b>${esc(hatirlatma(u, d))}</b><p>${esc([miktarYaz(u), yerAd(u.yer), neden(u)].filter(Boolean).join(' · '))}</p><small>${esc(AD)} · Bugün ${esc(B.saat)}</small></span></a>`;
       const kartHtml = liste.length ? `<div class="dgu-satirlar">${liste.map(kart).join('')}</div>` : `<p class="dgu-yardim">Şu an hatırlatılacak ürün yok; süresi ${B.gun} gün kalan ürünler burada görünür.</p>`;
       if (kartlar) return {tur: 'alt', baslik: 'Hatırlatmalar', iskelet: DG.iskelet(3, 'satir'), html: `<div class="dgu-ic dgu-yigin"><div class="dgu-yigin-8"><h1 class="t-page">Hatırlatmalar</h1><p class="dgu-yardim">Her gün saat <b>${esc(B.saat)}</b>'da, süresi <b>${B.gun} gün</b> ya da daha az kalan ürünler için.</p></div>${kartHtml}${btn('Bildirim ayarları', {tur: 'ikincil', ikon: I('settings'), href: tasi('dolabim.html?bildirim=1'), tam: true})}</div>`};
       const html = `<div class="dgu-ic dgu-yigin">
