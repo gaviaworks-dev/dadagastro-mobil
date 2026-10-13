@@ -61,7 +61,8 @@
   // Sıra ortak çekirdekten (DGDolabim.sirala): süresi geçmemişler kalan güne göre, geçenler sonda.
   const sirali = (l, esik) => DD.sirala(l, bugun).map(u => ({u, d: durumu(u, esik)}));
   const neden = u => DD.neden(u, tarihYaz);
-  const urunSatir = ({u, d}) => `<a class="dgu-satir" href="${esc(tasi(`dolabim.html?urun=${encodeURIComponent(u.id)}`))}" aria-label="${esc(u.ad)}, ${esc(satirMeta(u))}, ${esc(neden(u))}, ${esc(d.ad)}">${foto(u)}<span class="dgu-satir-metin"><span>${esc(u.ad)}</span><small>${esc(satirMeta(u))}</small><small>${esc(neden(u))}</small></span>${rozet(d)}</a>`;
+  const kisaNeden = u => DD.neden(u, tarihYaz, {kisa: true});   // liste satırı: taze üründe “12 Ekim'de eklendi” (Beyar)
+  const urunSatir = ({u, d}) => `<a class="dgu-satir" href="${esc(tasi(`dolabim.html?urun=${encodeURIComponent(u.id)}`))}" aria-label="${esc(u.ad)}, ${esc(satirMeta(u))}, ${esc(neden(u))}, ${esc(d.ad)}">${foto(u)}<span class="dgu-satir-metin"><span>${esc(u.ad)}</span><small>${esc(satirMeta(u))}</small><small>${esc(kisaNeden(u))}</small></span>${rozet(d)}</a>`;
   // Hatırlatma cümlesi (bildirim kartı, detay): paketli “Sütün tüketilmesi için 2 gün kaldı”; taze “Ispanağı 2 gün içinde tüket”.
   const cekirdek = ad => ad.replace(/\s*\(.*\)\s*$/, '');
   const hatirlatma = (u, d) => { const a = cekirdek(u.ad);

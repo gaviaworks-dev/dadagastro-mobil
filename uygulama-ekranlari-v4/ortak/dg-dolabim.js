@@ -40,7 +40,10 @@
     if (g && g in TAZE_GRUP && !/Yumurta|Sucuk|Pastırma|Kavurma/.test(katalog)) return {takip: 'taze', tazelik: DAYANIKLI.has(katalog) ? 14 : TAZE_GRUP[g]};
     return {takip: 'paket', tazelik: null}; };
   // Etiket satırı (ürün detayı/satır alt metni): neden bu son gün.
-  const neden = (u, yaz = x => x) => { if (tazeMi(u)) return u.eklenme && u.tazelik ? `Taze ürün · ${yaz(u.eklenme)} eklendi · ${u.tazelik} gün tazelik` : 'Taze ürün';
+  // {kisa: true} = liste satırı: taze üründe yalnız “12 Ekim'de eklendi” (tam metin detayda). Bulunma eki aya göre (Ekim'de, Kasım'da, Mart'ta).
+  const AY = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'], AY_EK = ['ta', 'ta', 'ta', 'da', 'ta', 'da', 'da', 'ta', 'de', 'de', 'da', 'ta'];
+  const gunAyDe = t => { const d = new Date(t + 'T12:00:00'), m = d.getMonth(); return `${d.getDate()} ${AY[m]}'${AY_EK[m]}`; };
+  const neden = (u, yaz = x => x, {kisa = false} = {}) => { if (tazeMi(u)) return !u.eklenme ? 'Taze ürün' : kisa ? `${gunAyDe(u.eklenme)} eklendi` : u.tazelik ? `Taze ürün · ${yaz(u.eklenme)} eklendi · ${u.tazelik} gün tazelik` : 'Taze ürün';
     const s = sonGun(u); return u.acildi && u.acilis && u.acikRaf && s !== u.skt ? `Açıldıktan sonra ${u.acikRaf} gün · son gün ${yaz(s)}` : u.skt ? `Son kullanma ${yaz(u.skt)}` : ''; };
   // Malzeme görseli (katalog adından; Dolapta Ne Var ile aynı dosya adı kuralı).
   const TRK = {'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u', 'â': 'a', 'î': 'i', 'û': 'u', 'Ç': 'c', 'Ğ': 'g', 'İ': 'i', 'I': 'i', 'Ö': 'o', 'Ş': 's', 'Ü': 'u'};
