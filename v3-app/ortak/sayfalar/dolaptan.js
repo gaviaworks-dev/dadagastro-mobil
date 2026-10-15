@@ -5,7 +5,11 @@
    ortak/veri/malzeme-gorsel.json ile birebir aynı kural: Türkçe harfler sadeleşir, boşluk tire). Tanınan malzemeler DGVERI.dolapKatalog
    adlarıdır; üretilen tarif DGVERI'deki gerçek bir tarifin içeriğinden örnek yapay zekâ çıktısıdır ve detayı tabaktan-taslak.html
    (?kaynak=dolaptan) üzerinde detay-v2 diliyle açılır. Akış durumu bu sekmede (sessionStorage dg-dolaptan); kayıt Tariflerim'e
-   (dg-tariflerim), geçmiş bu cihazda (dg-dolaptan-gecmis). */
+   (dg-tariflerim), geçmiş bu cihazda (dg-dolaptan-gecmis).
+   Kamera (Beyar 15 Ekim, tek kamera akışı): giriş tek dokunuş — kapı (tanıtım / deneme / misafir sheet'i) varsa önce o, altında doğrudan
+   ortak tam ekran kamera (DG.kamera; Tabaktan Tarif kamerasıyla aynı). Her çekimden sonra fotoğraf sayfası (?durum=fotolar: “Bir raf
+   daha çek” + Malzemeleri tanı); fotoğraf yokken bu sayfa gösterilmez. Hiç çekmeden kapatılırsa modülden çıkılır. İzin reddedildi:
+   kameranın içinde (?durum=kamera&izin=red; eski ?durum=izin de buraya gelir). */
 (() => {
   const {ic, I, esc, btn, store} = DG;
   const V = DGVERI, M = DGTOKENS.modules?.fridgeToRecipe || {ad: 'Dolaptan Tarife', ikon: 'camera-retro', pro: true};
@@ -56,10 +60,13 @@
   const tarihYaz = ts => new Date(ts).toLocaleDateString('tr-TR', {day: 'numeric', month: 'short'});
 
   DG.sayfa('dolaptan-tarife', ctx => {
-    const qs = ctx.qs, hal = qs.get('durum') || 'kamera';
+    const qs = ctx.qs, hal = qs.get('durum') === 'izin' ? 'kamera' : qs.get('durum') || 'kamera';
+    const izinRed = qs.get('durum') === 'izin' || qs.get('izin') === 'red';
     const erisim = ['pro', 'uye', 'misafir'].includes(qs.get('uye')) ? qs.get('uye') : ctx.pro ? 'pro' : ctx.uye ? 'uye' : 'misafir';
+    // Deneme onayı oturum boyu (dg-dolaptan-hak; Beyar kararı B, 15 Ekim); misafirde sayılmaz, hesap değişince dg-ui.js store.set siler.
+    const hak = () => erisim === 'pro' || (erisim !== 'misafir' && ss.get('dolaptan-hak', false));
     // Galeri hâlleri: uye · deneme · misafir · limit tanıtım/kapı; diğerleri akış ekranları.
-    const kapi = {uye: 'uye', deneme: 'deneme', misafir: 'misafir'}[hal] || (hal === 'kamera' && erisim !== 'pro' && !ss.get('dolaptan-hak', false) ? (erisim === 'misafir' ? 'misafir' : 'deneme') : '');
+    const kapi = {uye: 'uye', deneme: 'deneme', misafir: 'misafir'}[hal] || (hal === 'kamera' && !hak() ? (erisim === 'misafir' ? 'misafir' : 'deneme') : '');
     const ekran = kapi ? 'kamera' : hal;
     const git = (d, ek = {}) => { const u = new URL(location.href); [...u.searchParams.keys()].filter(k => !['uye', 'oturum', 'donus'].includes(k)).forEach(k => u.searchParams.delete(k)); u.searchParams.set('durum', d); Object.entries(ek).forEach(([k, v]) => u.searchParams.set(k, v)); return u.pathname.split('/').pop() + u.search; };
     const S = durumAl();
@@ -83,10 +90,6 @@
     };
     if (SAHNE[ekran]) return {...ortakAlan, html: DG.durumSahne(SAHNE[ekran]), sonra: baglaOrtak};
     if (ekran === 'baglanti') return {...ortakAlan, html: DG.hata('baglanti-yok', true), sonra: baglaOrtak};
-    if (ekran === 'izin') {
-      const z = DG.izinIstemi({ikon: 'camera', gorsel: VARSAYILAN.gorsel, red: true, reddedildi: {baslik: 'Kamera izni kapalı', metin: 'Dolabının fotoğrafını çekmek için cihaz ayarlarından DadaGastro\'ya kamera izni ver. İstersen fotoğraflarını galeriden de yükleyebilirsin.'}, alternatif: ['Galeriden yükle', git('tanima')]});
-      return {tur: 'tam', baslik: M.ad, iskelet: false, html: z.html, bar: z.bar, sonra: baglaOrtak};
-    }
 
     // ===== Geçmiş =====
     if (ekran === 'gecmis') {
@@ -208,30 +211,46 @@
       }};
     }
 
-    // ===== Çek / yükle (kamera) + tanıtım, deneme, misafir sheet'leri =====
+    // ===== Kamera (giriş) ve fotoğraflar (“Bir raf daha çek”) + tanıtım, deneme, misafir sheet'leri =====
+    // Kamera girişi yeni bir çekim başlatır (fotoğraflar boşalır); ilk çekimden sonra fotoğraf sayfası açılır (geçmişe kayıt düşmez).
+    const engel = () => { if (hak()) return false; erisim === 'misafir' ? girisKapi() : tanitim(kalan() ? 'deneme' : 'bitti'); return true; };
+    const ekle = n => { const havuz = ORNEK_MALZEME().map(m => m.ad).filter(a => !S.fotolar.includes(a)); for (let i = 0; i < n && havuz[i]; i++) S.fotolar.push(havuz[i]); if (!havuz.length) DG.bildir('En çok 6 fotoğraf ekleyebilirsin'); durumYaz(S); };
+    // Canlı görüntü yerine örnek: raflı mutfak fotoğrafı (hazır menü görseli); galeri düğmesinde son fotoğraf (Tabaktan gibi gerçek tarif görseli).
+    const kameraAc = ({izin, cekti, kapat}) => DG.kamera.ac({mod: 'foto', baslik: M.ad, rozet: M.pro && erisim === 'pro' ? 'Pro' : '', izin, onizleme: '../assets/hazir-menu/1282.webp', galeriFoto: '../' + T[0].gorsel,
+      yonerge: 'Dolabını ya da tezgâhını çerçeveye al', izinMetin: 'Dolabının fotoğrafını çekmek için <b>kamera izni</b> gerekir. <b>Galeriden de</b> seçebilirsin.', izinDonus: `${M.ad} kamerası açılır.`,
+      cek: () => { if (engel()) return; ekle(1); cekti('Fotoğraf eklendi'); }, galeri: () => { if (engel()) return; ekle(2); cekti('Galeriden 2 fotoğraf eklendi'); }, kapat});
+    // Kapı sheet'lerinin düğmeleri (kamera ve fotoğraf sayfasında ortak).
+    const kapiBagla = () => document.addEventListener('click', e => {
+      if (e.target.closest('[data-dt-deneme]')) { const k = kalan(); if (!k) { tanitim('bitti'); return; } ss.set('dolaptan-deneme', k - 1); ss.set('dolaptan-hak', true); e.target.closest('dialog')?.kapat?.(); DG.bildir(`Deneme hakkın kullanıldı · ${k - 1} hakkın kaldı`); return; }
+      if (e.target.closest('[data-dt-simdilik]')) { e.target.closest('dialog')?.kapat?.(); DG.geri(); }
+    });
+    if (ekran === 'kamera') {
+      S.fotolar = []; durumYaz(S);
+      return {tur: 'tam', baslik: M.ad, iskelet: false, offlineIcerik: false, html: '', sonra() {
+        kapiBagla();
+        kameraAc({izin: izinRed ? 'red' : '', cekti: () => location.replace(git('fotolar')), kapat: () => DG.geri()});
+        if (kapi === 'misafir') girisKapi(); else if (kapi === 'uye') tanitim('uye'); else if (kapi === 'deneme') tanitim(kalan() ? 'deneme' : 'bitti');
+      }};
+    }
+    if (!S.fotolar.length) { location.replace(git('kamera')); return {tur: 'tam', baslik: M.ad, iskelet: false, html: ''}; }
     const html = `<div class="dgu-sahne is-koyu">${DG.vizor({isaret: M.ikon, yonerge: {ikon: 'table-cells', metin: 'Dolabını ya da tezgâhını çerçeveye al'}})}
       <div class="dgu-sahne-panel"><div class="dgu-sahne-metin"><h1 class="t-page">Dolabının fotoğrafını çek</h1><p>Rafları ayrı ayrı çekebilirsin; <b>bütün fotoğraflardaki malzemeleri</b> birlikte tanırız.</p></div>
         <section class="dgu-yigin-12" aria-label="Fotoğraflar" data-dt-fotolar>${fotoBolum(S.fotolar)}</section>
-        <div class="dgu-sahne-eylem">${btn('Fotoğraf çek', {tur: S.fotolar.length ? 'tonlu' : '', ikon: 'camera', attrs: 'data-dt-cek', tam: true})}${btn('Galeriden seç', {tur: 'ikincil', ikon: 'images', attrs: 'data-dt-galeri', tam: true})}</div></div></div>`;
-    return {...ortakAlan, html, bar: btn('Malzemeleri tanı', {ikon: 'arrow-right', attrs: `data-dt-tani${S.fotolar.length ? '' : ' disabled'}`}), sonra(root) {
-      const fEl = root.querySelector('[data-dt-fotolar]'), tani = document.querySelector('[data-dt-tani]');
-      const yenile = () => { fEl.innerHTML = fotoBolum(S.fotolar); if (tani) tani.disabled = !S.fotolar.length; durumYaz(S); };
-      const hak = () => erisim === 'pro' || ss.get('dolaptan-hak', false);
-      const engel = () => { if (hak()) return false; erisim === 'misafir' ? girisKapi() : tanitim(kalan() ? 'deneme' : 'bitti'); return true; };
-      const ekle = n => { const havuz = ORNEK_MALZEME().map(m => m.ad).filter(a => !S.fotolar.includes(a)); for (let i = 0; i < n && havuz[i]; i++) S.fotolar.push(havuz[i]); if (!havuz.length) DG.bildir('En çok 6 fotoğraf ekleyebilirsin'); yenile(); };
+        <div class="dgu-sahne-eylem">${btn('Bir raf daha çek', {tur: 'tonlu', ikon: 'camera', attrs: 'data-dt-cek', tam: true})}${btn('Galeriden seç', {tur: 'ikincil', ikon: 'images', attrs: 'data-dt-galeri', tam: true})}</div></div></div>`;
+    return {...ortakAlan, html, bar: btn('Malzemeleri tanı', {ikon: 'arrow-right', attrs: 'data-dt-tani'}), sonra(root) {
+      const fEl = root.querySelector('[data-dt-fotolar]');
+      const yenile = () => { if (!S.fotolar.length) { location.replace(git('kamera')); return; } fEl.innerHTML = fotoBolum(S.fotolar); durumYaz(S); };
+      kapiBagla();
       document.addEventListener('click', e => {
-        if (e.target.closest('[data-dt-cek]')) { if (!engel()) { ekle(1); DG.bildir('Fotoğraf eklendi'); } return; }
-        if (e.target.closest('[data-dt-galeri]')) { if (!engel()) { ekle(2); DG.bildir('Galeriden 2 fotoğraf eklendi'); } return; }
-        const s = e.target.closest('[data-dt-foto-sil]'); if (s) { S.fotolar.splice(+s.dataset.dtFotoSil, 1); yenile(); return; }
-        if (e.target.closest('[data-dt-tani]')) { if (engel()) return; location.href = git('tanima'); return; }
-        if (e.target.closest('[data-dt-deneme]')) { const k = kalan(); if (!k) { tanitim('bitti'); return; } ss.set('dolaptan-deneme', k - 1); ss.set('dolaptan-hak', true); e.target.closest('dialog')?.kapat?.(); DG.bildir(`Deneme hakkın kullanıldı · ${k - 1} hakkın kaldı`); return; }
-        if (e.target.closest('[data-dt-simdilik]')) { e.target.closest('dialog')?.kapat?.(); DG.geri(); }
+        if (e.target.closest('[data-dt-cek]')) { if (!engel()) { const k = kameraAc({cekti: m => { k.kapat(); yenile(); DG.bildir(m); }}); } return; }
+        if (e.target.closest('[data-dt-galeri]')) { if (!engel()) { ekle(2); yenile(); DG.bildir('Galeriden 2 fotoğraf eklendi'); } return; }
+        const s = e.target.closest('[data-dt-foto-sil]'); if (s) { S.fotolar.splice(+s.dataset.dtFotoSil, 1); durumYaz(S); yenile(); return; }
+        if (e.target.closest('[data-dt-tani]')) { if (engel()) return; location.href = git('tanima'); }
       });
-      if (kapi === 'misafir') girisKapi(); else if (kapi === 'uye') tanitim('uye'); else if (kapi === 'deneme') tanitim(kalan() ? 'deneme' : 'bitti');
     }};
 
     function fotoBolum(fotolar) {
-      return fotolar.length ? `${DG.bas('Fotoğrafların', {html: `<span class="dgu-yardim">${fotolar.length} / 6</span>`})}${fotoSerit(fotolar, true)}` : `<p class="dgu-yardim">Henüz fotoğraf yok. Çek ya da galeriden seç.</p>`;
+      return `${DG.bas('Fotoğrafların', {html: `<span class="dgu-yardim">${fotolar.length} / 6</span>`})}${fotoSerit(fotolar, true)}`;
     }
     // Tanıtım · Pro kapısı ve ücretsiz deneme (Tabaktan ile aynı sheet): fark cümlesi, yan yana 3 adım, deneme notu + tam genişlik düğme, ikili eylem.
     function tanitim(mod) {

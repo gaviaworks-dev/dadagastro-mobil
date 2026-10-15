@@ -170,12 +170,12 @@
     const go = h => () => git(h);
     OrtakMenu.configure({links: {home: 'ana-v3.html', recipes: 'liste-v2.html', categories: U + 'kategoriler.html', cuisines: U + 'kategoriler.html?sekme=mutfak', videos: U + 'videolar.html', ask: U + 'ne-pisirsem.html', pantry: U + 'dolapta-ne-var.html', tips: U + 'puf-noktalari.html', plate: 'tabaktan-tarif.html?donus=' + encodeURIComponent(burasi()), feedback: U + 'gorus-bildir.html'},
       actions: {ask: undefined, pantry: undefined, tips: undefined, categories: undefined, cuisines: undefined, videos: undefined, profile: go(U + 'profil.html'), saved: go(U + 'kaydettiklerim.html'), mine: go(U + 'tariflerim.html'), notifications: go(U + 'bildirimler.html'), notebook: go(U + 'kaydettiklerim.html'), menus: go(U + 'menulerim.html'), community: go(U + 'rozetlerim.html#topluluk'), chef: go(U + 'tariflerim.html'), badges: go(U + 'rozetlerim.html'), packages: go(U + 'pro.html'), payments: go(U + 'pro.html#odemeler'), settings: go(U + 'ayarlar.html'), help: go(U + 'destek.html'), about: go(U + 'hakkimizda.html'), privacy: go(U + 'yasal-metin.html?slug=gizlilik')}});
-    document.addEventListener('click', e => { if (e.target.closest('[data-om-id=logout]')) try { localStorage.setItem('dg-oturum', '{"rol":"misafir"}'); } catch { /* yok */ } }, true);
+    document.addEventListener('click', e => { if (e.target.closest('[data-om-id=logout]')) try { localStorage.setItem('dg-oturum', '{"rol":"misafir"}'); ['dg-tabaktan-hak', 'dg-dolaptan-hak'].forEach(x => sessionStorage.removeItem(x)); } catch { /* yok */ } }, true);   // deneme onayı hesapla sıfırlanır (dg-ui.js store.set ile aynı)
   });
 })();
 // Metin kanonu ölçümü (B1): kök ekranlar da aynı dosyayı kullanır.
 // Sonradan yüklenen ortak dosyaların (dg-metin, şef kartı, örnek şef verisi, veri) birleşik özeti — ortak/uret/sayfalar.mjs her üretimde günceller.
-const METIN_V = '13ad048b81';
+const METIN_V = 'c5ca27fb52';
 (() => { if (window.DGMetin || document.querySelector('script[src*="dg-metin.js"]')) return; const s = document.createElement('script'); s.src = (document.currentScript?.src || 'ortak/dg-baglanti.js').replace(/dg-baglanti\.js.*$/, 'dg-metin.js?v=' + METIN_V); s.defer = true; document.head.append(s); })();
 // Uygulama bileşen stilleri kökte YALNIZ ortak bileşen kapları içinde (@scope (.dgd-ana, .dgk-durum, .dgk-blok)): sayfadaki sırayla
 // (dg-tokens, dg-kopru, dg-kontrol, dg-bilesen, dg-sahne, dg-not, dg-parcali, dg-hareket, dg-dolap) — kapsam yakınlığı eşit kalsın diye hepsi aynı kapsamda; kökün geri

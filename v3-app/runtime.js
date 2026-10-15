@@ -9235,7 +9235,7 @@ applyTypeRoles();let typeFrame;new MutationObserver(records=>{if(records.some(r=
 // Approved local-only mobile extra: recognition and a private, explicitly labelled draft.
 ICONS.edit='pen';ICONS.crown='crown';ICONS.trash='trash';
 if(page==='tabaktan-tarif'){
- const root=document.querySelector('#photoApp');let state='kamera',stage=0,timers=[],flash=false,front=false,manual=false,tab='benzer',status='Taslak',trialUsed=false;
+ const root=document.querySelector('#photoApp');let state='kamera',stage=0,timers=[],flash=false,front=false,manual=false,tab='benzer',status='Taslak',trialUsed=(()=>{try{return sessionStorage.getItem('dg-tabaktan-hak')==='true'}catch{return false}})();
  let source=DATA.recipes.find(r=>r.slug.startsWith('patates-mucveri'))||DATA.recipes[0],captured=source.image,draft,editCopy,selected=new Set();
  let access=publishedDemo?'pro':params.get('uye')||sessionStorage.getItem('dadagastro-photo-access')||(memberPreview()?'uye':'misafir');
  let remaining=Number(sessionStorage.getItem('dadagastro-photo-trials')??3);
@@ -9292,7 +9292,7 @@ if(page==='tabaktan-tarif'){
  // Revize B7: giriş/kayıt sayfasına bekleyen eylemle (devam) gider; dönüşte bu akış üye olarak kaldığı yerden (deneme/Pro tanıtımı) sürer.
  function girisAdres(s){const d='tabaktan-tarif.html'+(params.get('donus')?'?donus='+encodeURIComponent(params.get('donus')):'');return `uygulama/${s}.html?donus=${encodeURIComponent(d)}&eylem=devam`;}
  function guestGate(){sheet('Bu işlem için giriş yap',`<div class="tt-sheet"><p>Tabaktan Tarif ile devam etmek ve özel taslağını kaydetmek için giriş yap.</p>${parcali([{ikon:window.DGTOKENS?.icons?.login||'right-to-bracket',baslik:'Giriş Yap',alt:'Hesabınla gir, Tabaktan Tarif’e geri dön.',href:girisAdres('giris'),ana:1},{ikon:'user-plus',baslik:'Üye Ol',alt:'Ücretsiz hesap aç, kaldığın yerden devam et.',href:girisAdres('kayit')},{ikon:'xmark',baslik:'Şimdilik değil',plate:'simdilik'}],'Giriş seçenekleri')}</div>`);}
- function beginCapture(){if(access!=='pro'&&!trialUsed){if(access==='misafir')guestGate();else promo(access);return}go('analiz');}
+ function beginCapture(){if(access!=='pro'&&(access==='misafir'||!trialUsed)){if(access==='misafir')guestGate();else promo(access);return}go('analiz');}
  document.addEventListener('click',e=>{const t=e.target.closest('[data-plate-tab]');if(t){tab=t.dataset.plateTab;go('sonuc');return}const guess=e.target.closest('[data-plate-guess]');if(guess){source=DATA.recipes.find(r=>r.slug===guess.dataset.plateGuess);makeDraft();go('sonuc');return}const ing=e.target.closest('[data-plate-ingredient]');if(ing){const n=ing.dataset.plateIngredient;selected.has(n)?selected.delete(n):selected.add(n);ing.setAttribute('aria-pressed',selected.has(n));ing.classList.toggle('active',selected.has(n));return}
  const add=e.target.closest('[data-edit-add]'),remove=e.target.closest('[data-edit-remove]'),move=e.target.closest('[data-edit-move]');if(add||remove||move){collectEdit();const[type,raw,dir]=(remove?.dataset.editRemove||move?.dataset.editMove||add.dataset.editAdd).split(':'),a=type==='ingredient'?editCopy.ingredients:editCopy.steps,n=Number(raw);if(add){a.push(type==='ingredient'?{name:'',amount:null,unit:''}:{title:'',body:'',time:0});if(type==='ingredient')editCopy._draftData.ingredients.push({name:'',note:'',substitutes:[]});}if(remove){a.splice(n,1);if(type==='ingredient')editCopy._draftData.ingredients.splice(n,1);}if(move){const k=n+Number(dir);if(k>=0&&k<a.length){[a[n],a[k]]=[a[k],a[n]];if(type==='ingredient'){const b=editCopy._draftData.ingredients;[b[n],b[k]]=[b[k],b[n]];}}}render();return}
  if(e.target.closest('[data-step-photo]')){collectEdit();const n=Number(e.target.closest('[data-step-photo]').dataset.stepPhoto);editCopy.steps[n].image=captured;toast('Örnek adım görseli eklendi');return}
@@ -9325,7 +9325,7 @@ if(page==='tabaktan-tarif'){
  if(a==='pro-gec')toast('Yakında');
  if(a==='simdilik'){genericDialog.close();location.href='index.html'}
  if(a==='giris'){sessionStorage.setItem('dadagastro-member-preview','1');access='uye';promo('deneme')}
- if(a==='deneme-basla'){if(remaining<=0){promo('deneme-bitti');return}remaining--;trialUsed=true;sessionStorage.setItem('dadagastro-photo-trials',remaining);genericDialog.close();go('kamera')}
+ if(a==='deneme-basla'){if(remaining<=0){promo('deneme-bitti');return}remaining--;trialUsed=true;sessionStorage.setItem('dadagastro-photo-trials',remaining);sessionStorage.setItem('dg-tabaktan-hak','true');genericDialog.close();go('kamera')}
  });
  let resume=null;try{resume=JSON.parse(sessionStorage.getItem('dadagastro-photo-resume')||'null');sessionStorage.removeItem('dadagastro-photo-resume')}catch{}
  if(resume&&publishedDemo){source=DATA.recipes.find(r=>r.slug===resume.sourceSlug)||source;draft=resume.draft;captured=resume.captured;status=resume.status;tab=resume.tab;}
@@ -9336,7 +9336,7 @@ if(page==='tabaktan-tarif'){
  else if(['misafir','uye','deneme','deneme-bitti','limit'].includes(initial)){go('kamera');if(initial==='misafir')guestGate();else if(initial==='limit')sheet('Günlük kullanım sınırına ulaştın','<p>Yeni deneme hakkın açıldığında tekrar deneyebilirsin.</p><button class="button" data-sheet-close>Tamam</button>');else promo(initial)}
  else if(['yayinlama','incelemede'].includes(initial)){tab='taslak';if(initial==='incelemede')status='İncelemede';go('sonuc');if(initial==='yayinlama'){root.querySelector('[data-plate=islemler]').click();document.querySelector('[data-plate=yayinla]').click()}}
  else if(mapped==='duzenle'){editCopy=draftSnapshot();go('duzenle')}
- else{go(['kamera','analiz','sonuc',...Object.keys(errors)].includes(mapped)?mapped:'kamera');if(!params.has('durum')&&access!=='pro'){if(access==='misafir')guestGate();else promo('deneme')}}
+ else{go(['kamera','analiz','sonuc',...Object.keys(errors)].includes(mapped)?mapped:'kamera');if(!params.has('durum')&&access!=='pro'&&(access==='misafir'||!trialUsed)){if(access==='misafir')guestGate();else promo('deneme')}}
  root.addEventListener('click',e=>{if(publishedDemo&&e.target.closest('a[href*="tarif-detay.html"]'))sessionStorage.setItem('dadagastro-photo-resume',JSON.stringify({draft:draftSnapshot(),sourceSlug:source.slug,captured,tab,status}))});
  addEventListener('pagehide',cancelTimers);
 }

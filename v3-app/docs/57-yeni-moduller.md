@@ -24,15 +24,16 @@ Dolaptan'da “Çek · Düzelt · Tarifin hazır”; Pro'ya geç + Şimdilik de�
 giriş kapısı parçalı liste). İki seçenekli içerik geçişleri tarif detayındaki segment bileşeni (`DG.seg`, gri zemin + seçili beyaz kart + sayı rozeti). Sonuç tarif detayı detay-v2 dili
 (Tabaktan taslağı gibi: `tabaktan-taslak.html` yaklaşımı — kök detay-v2 + AI etiketi + tahmini ölçü notu).
 
-**Akış:** tanıtım → çek/yükle → tanıma (düzelt) → tercih → üretiliyor → sonuç (+ alternatifler) → kaydet/paylaş · geçmiş.
+**Akış:** (kapı) → tam ekran kamera → fotoğraflar (bir raf daha) → tanıma (düzelt) → tercih → üretiliyor → sonuç (+ alternatifler) → kaydet/paylaş · geçmiş.
 
 | Ekran / hâl | `?durum=` | İçerik |
 |---|---|---|
 | Tanıtım (üye, Pro değil) | `uye` | fark cümlesi + 3 kutu + Pro'ya geç / Şimdilik değil |
 | Ücretsiz deneme | `deneme` | “N ücretsiz deneme hakkın kaldı.” + tam genişlik “… 1'ini kullan” + ikili |
 | Misafir | `misafir` | giriş kapısı (Giriş Yap / Üye Ol / Şimdilik değil parçalı liste) |
-| Çek / yükle | `kamera` | kamera vizörü, galeriden seç, birden çok foto (küçük resim şeridi, sil), devam |
-| Kamera izni reddedildi | `izin` | izin istemi ortak bileşeni + galeriden yükle çıkışı |
+| Kamera (giriş) | `kamera` | ortak tam ekran kamera (`DG.kamera`, Tabaktan kamerasıyla aynı); kapı sheet'i varsa üstünde; çekince fotoğraflar |
+| Kamera izni reddedildi | `kamera&izin=red` | kameranın içinde izin sahnesi: Ayarları aç + Galeriden seç (eski `izin` buraya gelir) |
+| Fotoğraflar | `fotolar` | yalnız fotoğraf varken: şerit (sil), “Bir raf daha çek” (kamerayı açar), galeriden seç, Malzemeleri tanı |
 | Tanıma | `tanima` | algılanan malzemeler düzenlenebilir çipler (sil, ekle, miktar); düşük güven işaretli (“emin değiliz”) |
 | Tercih | `tercih` | porsiyon (sayaç), süre, beslenme tercihi (çip), hariç tutulanlar (Dolapta Ne Var hariç türleri) |
 | Üretiliyor | `uretiliyor` | yükleniyor (ortak hareket/iskelet), adım metni |
@@ -85,7 +86,8 @@ yalnız tokens.json renkleri.
 | Boş | — | durum sahnesi + Ürün ekle |
 | Misafir | `oturum=misafir` | giriş iste (ortak giriş duvarı) |
 | Ürün ekle | `ekle=1` | katalogdan ara (dolapKatalog), barkod okut, Dolaptan Tarife fotoğrafından toplu ekle; SKT, miktar, yer |
-| Barkod / kamera izni reddedildi | `ekle=1&izin=red` | izin istemi ortak bileşeni |
+| Barkod kamerası | `ekle=1&kamera=barkod` | ortak tam ekran barkod kamerası; okununca kapanır, form dolar (“Barkod tanındı · Süt”) |
+| Barkod / kamera izni reddedildi | `ekle=1&kamera=barkod&izin=red` | kameranın içinde izin sahnesi: Ayarları aç + Listeden seç (eski `ekle=1&izin=red` buraya gelir) |
 | Ürün detay / düzenle | `urun=<id>` | SKT, açıldı + tarihi, açık raf ömrü, miktar, yer, not; Tüketildi / Atıldı / Alışveriş listesine ekle |
 | Bunları değerlendir | `degerlendir=1` | süresi yaklaşanlar + DGVERI eşleşen tarifler; “Dolapta Ne Var'da bunlarla ara” (`dolapta-ne-var.html?malzeme=a,b`) |
 | Bildirim ayarları | `bildirim=1` | kaç gün kala, saat; aç/kapa |
@@ -119,3 +121,27 @@ Web/prototip: `window.DGTakvim` (ortak/dg-takvim.js + .css; galeri `uygulama/bil
 Hücre 44 dokunma hedefi, seçili/bugün kontrol radius'u (12); boşluk ve yazı rolleri tokens.json.
 Kullanım yerleri: Dolabım SKT + açılış tarihi + Takvim görünümü, profil düzenle doğum tarihi (devre dışı), haftalık menü (sabit hafta),
 bildirimler tarih aralığı süzgeci.
+
+## 4. 15 Ekim — tek kamera akışı (Beyar kararı)
+
+Üç giriş tek kalıpta: modüle basınca kapı (giriş / Pro tanıtım sheet'i) varsa önce o, altında doğrudan tam ekran kamera. Kamera ortak
+bileşendir: `DG.kamera` (ortak/dg-ui.js; CSS ortak/dg-sahne.css `.dgu-kamera`), Tabaktan Tarif kamerasından türetildi ve aynı girdilerle
+piksel olarak aynıdır (Tabaktan kendi kodunda kaldı, görünümü değişmedi). Flutter karşılığı `DgFullScreenCamera`.
+
+- **İzin tek yerde, kameranın içinde.** Sorulmadıysa açılışta istenir (önizlemede kısa yükleniyor halkası); reddedildiyse katmanda izin
+  sahnesi (Tabaktan izin sahnesi): Ayarları aç + fotoğrafta “Galeriden seç”, barkodda “Listeden seç”; üç adım parçalı grupta. Ayrı izin
+  sayfaları kalktı (Dolabım `ekle=1&izin=red`, Dolaptan `durum=izin` → kameranın izin hâline yönlenir).
+- **Barkod:** “Barkod okut” sheet'i kalktı; doğrudan tam ekran barkod kamerası: Kapat · “Barkod okut” · Fener; vizör aynı genişlikte,
+  yüksekliği genişliğin yarısı (EAN oranı; 390 genişlikte 350 × 175), merkezi tabak vizörünün merkezinde; ortada sabit tarama çizgisi; deklanşör yok; yönerge + “Listeden seç” (ikincil, tam
+  genişlik). Örnekte birkaç an sonra “Süt · 1 L” tanınır → kamera kapanır, form dolar, “Barkod tanındı · Süt”.
+- **Dolaptan:** giriş doğrudan fotoğraf kamerası (yönerge “Dolabını ya da tezgâhını çerçeveye al”; Pro üyede başlık altında Pro); her
+  çekimden sonra fotoğraflar sayfası (`durum=fotolar`: “Bir raf daha çek” + Malzemeleri tanı), fotoğraf yokken bu sayfa gösterilmez;
+  hiç çekmeden kapatılırsa modülden çıkılır.
+- **Dolaşma:** kamera katmanı tarayıcı geçmişine kayıt düşmez; Kapat ve Esc her zaman kapatır. Galeride ve testte (iframe / `kal=1`)
+  barkod kendiliğinden okunmaz, izin beklemesi yoktur.
+- Galeri: Ortak bileşenler › “Tam ekran kamera” (fotoğraf, barkod, izin reddedildi; tam ekran açma düğmeleri). Hâl çipleri: Dolaptan
+  “Kamera”, “Kamera izni reddedildi”, “Fotoğraflar · bir raf daha”; Dolabım “Barkod kamerası”, “Barkod izni reddedildi”.
+- **Deneme onayı (Beyar kararı B, 15 Ekim):** Tabaktan ve Dolaptan “N ücretsiz denemenden 1'ini kullan” onayını oturum boyu hatırlar
+  (sessionStorage `dg-tabaktan-hak` / `dg-dolaptan-hak`); onay varsa açılış tanıtımı ve çekim kapısı çıkmaz. Misafirde onay sayılmaz.
+  Hesap değişince sıfırlanır: `dg-oturum` her yazıldığında (giriş, kayıt, çıkış; ortak/dg-ui.js `store.set`) ve kök ekran çekmece
+  çıkışında (ortak/dg-baglanti.js).

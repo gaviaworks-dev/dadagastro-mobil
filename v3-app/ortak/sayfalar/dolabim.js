@@ -3,7 +3,8 @@
    Tek kaynak localStorage `dg-dolabim` = {urunler: [{id, ad, katalog, miktar, birim, yer, skt, acildi, acilis, acikRaf, not}],
    gecmis: [{ad, sonuc: 'tuketildi'|'atildi', tarih}], bildirim: {gun, saat, acik}}. Kalan gün = min(SKT, açılış + açık raf ömrü) − bugün.
    ?ornek=1: gerçekçi dolu dolap (tarihler bugüne göre); cihaza yazılmaz, oturum belleğinde (sessionStorage) tutulur.
-   Hâller: ?ekle=1 (ürün ekle) · ?ekle=1&izin=red (kamera izni reddedildi) · ?urun=<id> (detay/düzenle) · ?degerlendir=1 (bunları
+   Hâller: ?ekle=1 (ürün ekle) · ?ekle=1&kamera=barkod (tam ekran barkod kamerası; Beyar 15 Ekim tek kamera akışı) · &izin=red (kamera izni
+   reddedildi, kameranın içinde; eski ?ekle=1&izin=red de buraya gelir) · ?urun=<id> (detay/düzenle) · ?degerlendir=1 (bunları
    değerlendir) · ?bildirim=1 (bildirim ayarları) · ?bildirim=1&kartlar=1 (hatırlatmalar) · misafir giriş duvarı · ?durum=baglanti-yok. */
 
 // Çekirdek (kalan gün, durum, görsel, örnek dolap) ortak/dg-dolabim.js'te (window.DGDolabim); üretici bu dosyadan önce yükler.
@@ -113,10 +114,6 @@
     const D = veri(), esik = D.bildirim?.gun ?? 2;
     if (!ctx.uye) return {tur: 'alt', baslik: AD, html: misafir(), iskelet: false};
 
-    // ---------- Kamera izni reddedildi (barkod) ----------
-    if (ctx.qs.has('ekle') && ctx.qs.get('izin') === 'red') return {tur: 'tam', baslik: 'Barkod okut', ...DG.izinIstemi({ikon: 'barcode', gorsel: (V.tarifler.find(t => kullanir(t, 'Süt')) || V.tarifler[0])?.gorsel, baslik: 'Barkodu okutmak için kamera', metin: 'Ambalajdaki barkodu okutunca ürünün adı kendiliğinden gelir.', red: true,
-      reddedildi: {baslik: 'Kamera izni kapalı', metin: 'Barkod okutmak için kamera iznine ihtiyaç var. Cihaz ayarlarından izin verebilir ya da ürünü katalogdan seçebilirsin.'}, alternatif: ['Katalogdan seç', tasi('dolabim.html?ekle=1')]})};
-
     // ---------- Ürün ekle ----------
     if (ctx.qs.has('ekle')) {
       const SIK = ['Süt', 'Yoğurt', 'Tavuk Yumurtası', 'Beyaz Peynir', 'Domates', 'Tavuk Göğsü', 'Kıyma', 'Ispanak'];
@@ -137,14 +134,18 @@
         ara.addEventListener('input', katCiz);
         kap.addEventListener('change', e => { if (e.target.name !== 'katalog') return; secili = e.target.value; const a = f.querySelector('#f-ad'); a.value = secili === 'Tavuk Yumurtası' ? 'Yumurta' : secili; hataYaz(f, 'ad', ''); takipAyarla(f, DD.takipOner(secili)); });
         const doldur = x => { secili = x.katalog; takipAyarla(f, {takip: 'paket'}); f.querySelector('#f-ad').value = x.ad; f.querySelector('#f-miktar').value = x.miktar; const b = f.querySelector('input[name=birim]'); b.value = x.birim; b.closest('.dgu-secici').querySelector('span').textContent = x.birim; katCiz(); };
+        // Barkod okut → doğrudan tam ekran barkod kamerası (ortak DG.kamera; Beyar 15 Ekim): izin kameranın içinde, okununca kamera kapanır
+        // ve form dolar; “Listeden seç” kamerayı kapatıp katalog aramasına götürür. Kamera adres parametresi (?kamera=barkod) kapanınca silinir.
+        const parametreSil = () => { const u = new URL(location.href); if (!u.searchParams.has('kamera') && !u.searchParams.has('izin')) return; u.searchParams.delete('kamera'); u.searchParams.delete('izin'); history.replaceState(null, '', u); };
+        const barkodAc = izin => DG.kamera.ac({mod: 'barkod', baslik: 'Barkod okut', izin,
+          barkod: () => { k.kapat(); parametreSil(); doldur({ad: 'Süt', katalog: 'Süt', miktar: '1', birim: 'L'}); DG.bildir('Barkod tanındı · Süt'); },
+          liste: () => { parametreSil(); ara.scrollIntoView({block: 'center'}); ara.focus({preventScroll: true}); },
+          kapat: parametreSil});
+        let k = null;
+        if (ctx.qs.get('kamera') === 'barkod' || ctx.qs.get('izin') === 'red') k = barkodAc(ctx.qs.get('izin') === 'red' ? 'red' : '');
         root.addEventListener('click', e => {
           if (e.target.closest('[data-temizle]')) { ara.value = ''; katCiz(); ara.focus(); return; }
-          if (!e.target.closest('[data-barkod]')) return;
-          // Barkod okutma: kamera çerçevesi (ortak durum sahnesi koyu kalıbı) → ürün tanınınca form dolar.
-          // Vizör: ortak kamera vizörü (DG.vizor; koyu sahne + tarama köşeleri + tarama çizgisi) — Dolaptan Tarife kamera ekranıyla aynı parça.
-          const d = DG.sheet({baslik: 'Barkod okut', govde: `<div class="dgu-yigin-12">${DG.vizor({isaret: 'barcode', tarama: true, kompakt: true})}<p class="dgu-yardim" role="status" data-barkod-durum>Kameraya izin ver; barkodu çerçevenin ortasına getir.</p></div>`, ayak: `<div class="dgu-ikili">${btn('Listeden seç', {tur: 'ikincil', attrs: 'data-kapat aria-label="Katalogdan seç"'})}${btn('İzin ver', {ikon: 'camera', attrs: 'data-barkod-izin'})}</div>`});
-          d.querySelector('[data-barkod-izin]').addEventListener('click', e => { e.currentTarget.disabled = true; const dz = d.querySelector('[data-barkod-durum]'); dz.textContent = 'Barkodu çerçevenin ortasına getir.';
-            setTimeout(() => { if (!d.open) return; dz.innerHTML = `${ic(I('check'))} <b>Süt · 1 L</b> tanındı.`; setTimeout(() => { doldur({ad: 'Süt', katalog: 'Süt', miktar: '1', birim: 'L'}); d.kapat(); DG.bildir('Barkod tanındı · Süt'); }, TK.motion.reveal * 2); }, TK.motion.reveal * 4); });
+          if (e.target.closest('[data-barkod]')) k = barkodAc();
         });
         document.querySelector('[data-kaydet]').addEventListener('click', () => {
           const u = formOku(f, {id: yeniId(), katalog: secili || (KATALOG.some(k => k.ad === f.querySelector('#f-ad').value.trim()) ? f.querySelector('#f-ad').value.trim() : '')}); if (!dogrula(f, u)) return;
@@ -221,7 +222,7 @@
     const urunler = D.urunler;
     const headerEylem = `<a class="dgu-hbtn" href="${esc(tasi('dolabim.html?bildirim=1'))}" aria-label="Bildirim ayarları">${ic(I('notifications'))}</a>`;
     const bar = btn('Ürün ekle', {ikon: I('add'), href: tasi('dolabim.html?ekle=1')});
-    if (!urunler.length) return {tur: 'alt', baslik: AD, headerEylem, iskelet: false, html: DG.durumSahne({isaret: M.ikon, baslik: `${AD} boş`, metin: `Aldığın ürünleri ekle; <b>son kullanma tarihi</b> yaklaşınca haber verelim, ellerindekiyle ne pişireceğini önerelim.`, ana: {metin: 'Ürün ekle', ikon: I('add'), href: tasi('dolabim.html?ekle=1')}, ikinciller: [{metin: 'Barkod okut', ikon: 'barcode', href: tasi('dolabim.html?ekle=1')}], ipucuBaslik: 'Nasıl çalışır?', ipuclari: [['calendar-check', 'Tarihi gir', 'Ambalajdaki son kullanma tarihini yaz ya da barkodu okut.'], ['box-open', 'Açınca işaretle', 'Açık raf ömrü kalan günü kısaltır.'], [I('notifications'), 'Zamanında haber', 'Süresi yaklaşanlar için seçtiğin saatte hatırlatma.']]})};
+    if (!urunler.length) return {tur: 'alt', baslik: AD, headerEylem, iskelet: false, html: DG.durumSahne({isaret: M.ikon, baslik: `${AD} boş`, metin: `Aldığın ürünleri ekle; <b>son kullanma tarihi</b> yaklaşınca haber verelim, ellerindekiyle ne pişireceğini önerelim.`, ana: {metin: 'Ürün ekle', ikon: I('add'), href: tasi('dolabim.html?ekle=1')}, ikinciller: [{metin: 'Barkod okut', ikon: 'barcode', href: tasi('dolabim.html?ekle=1&kamera=barkod')}], ipucuBaslik: 'Nasıl çalışır?', ipuclari: [['calendar-check', 'Tarihi gir', 'Ambalajdaki son kullanma tarihini yaz ya da barkodu okut.'], ['box-open', 'Açınca işaretle', 'Açık raf ömrü kalan günü kısaltır.'], [I('notifications'), 'Zamanında haber', 'Süresi yaklaşanlar için seçtiğin saatte hatırlatma.']]})};
     const ay = bugun.slice(0, 7), buAy = (D.gecmis || []).filter(g => String(g.tarih).startsWith(ay));
     const tuk = buAy.filter(g => g.sonuc === 'tuketildi').length, at = buAy.filter(g => g.sonuc === 'atildi').length;
     const yakin = sirali(urunler, esik).filter(x => x.d.k != null && x.d.k <= esik);
