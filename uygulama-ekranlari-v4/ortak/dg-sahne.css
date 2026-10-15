@@ -54,3 +54,58 @@
 @keyframes dgu-tarama{from{top:var(--space-12)}to{top:calc(100% - var(--space-12))}}
 @media (prefers-reduced-motion:reduce){.dgu-vizor-tarama{animation:none;top:50%}}
 
+/* Tam ekran kamera (DG.kamera; docs/51 DgFullScreenCamera; Beyar 15 Ekim — tek kamera akışı: Tabaktan Tarif, Dolaptan Tarife, Dolabım barkod).
+   Tabaktan Tarif kamerasından türetildi (runtime.js camera(), app.css .photo-camera ve .camera-* kuralları, tabaktan.css kamera ikon düğmeleri); görünüm
+   birebir aynı. Foto: Kapat · başlık (+ Pro) · Flaş; vizör; yönerge · ipucu kartı · galeri · deklanşör · çevir. Barkod: vizör aynı genişlikte,
+   yüksekliği genişliğin yarısı, merkezi aynı; ortada sabit tarama çizgisi; deklanşör yok; yönerge + “Listeden seç”. Yükleniyor: vizörün ortasında
+   dönen halka. İzin reddedildi: katmanda ortak header + koyu durum sahnesi (Tabaktan izin sahnesi). .is-ornek: galeride satır içi önizleme. */
+.dgu-kamera-katman{position:fixed;inset:0;z-index:80;overflow-y:auto;overscroll-behavior:contain;background:var(--overlay)}
+.dgu-kamera-katman.is-izin{background:var(--paper)}
+.dgu-kamera-katman:focus{outline:0}
+html.dgu-kamera-acik,html.dgu-kamera-acik body{overflow:hidden}
+.dgu-kamera{position:relative;height:100dvh;min-height:100dvh;overflow:hidden;isolation:isolate;background:var(--overlay);color:var(--paper);font-family:var(--font);font-size:var(--role-body-size);font-weight:var(--role-body-weight);line-height:var(--lh-body);text-align:justify}
+.dgu-kamera.is-ornek{height:calc(var(--space-48) * 15);min-height:0;border-radius:var(--radius-card)}
+.dgu-kamera-foto{position:absolute;inset:0;z-index:-2;border-radius:var(--radius-card);background:var(--line) center/cover}
+.dgu-kamera::after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,transparent 0%,transparent 45%,color-mix(in srgb,var(--overlay) 16%,transparent) 55%,color-mix(in srgb,var(--overlay) 44%,transparent) 65%,color-mix(in srgb,var(--overlay) 80%,transparent) 80%,var(--overlay) 100%)}
+.dgu-kamera-bas{position:absolute;inset:0 0 auto;display:flex;align-items:center;justify-content:space-between;gap:var(--space-8);padding:calc(var(--space-12) + env(safe-area-inset-top,var(--space-0))) var(--gutter) var(--space-12)}
+.dgu-kamera.is-ornek .dgu-kamera-bas{padding-top:var(--space-12)}
+.dgu-kamera-bas>div{display:grid;justify-items:center;gap:var(--space-4)}
+.dgu-kamera-bas b{font-family:GilroyBd,var(--font);font-size:var(--type-card);font-weight:var(--weight-bold)}
+.dgu-kamera-bas .dgu-rozet{height:auto;color:var(--tomato-dark);padding:var(--space-4) var(--space-12);border-radius:var(--dg-radius-badge-sm);line-height:var(--lh-body)}
+.dgu-kamera-bas .dgu-rozet .icon{font-size:var(--icon-sm)}
+.dgu-kamera-ibtn{display:inline-flex;justify-content:center;align-items:center;min-width:var(--touch-target);height:var(--touch-target);padding:0;border:0;border-radius:var(--radius-control);background:var(--floating-icon-bg);-webkit-backdrop-filter:blur(var(--space-16));backdrop-filter:blur(var(--space-16));color:var(--paper);font-size:var(--type-card);cursor:pointer}
+.dgu-kamera-ibtn .icon{font-size:var(--icon-md);color:var(--paper)}
+.dgu-kamera-galeri .icon{filter:drop-shadow(0 var(--border-width) calc(var(--border-width) * 2) var(--overlay))}
+.dgu-kamera-vizor{position:absolute;left:var(--gutter);right:var(--gutter);top:22%;height:35%;pointer-events:none}
+/* Barkod vizörü: yükseklik = genişliğin yarısı (EAN oranı; 390 genişlikte 350 × 175), merkezi tabak vizörünün merkezinde (%22 + %35 / 2). */
+.dgu-kamera.is-barkod .dgu-kamera-vizor{top:39.5%;height:auto;aspect-ratio:2/1;transform:translateY(-50%)}
+.dgu-kamera-vizor>span{position:absolute;width:var(--space-40);height:var(--space-40);border:calc(var(--border-width) * 2) solid var(--paper);border-radius:var(--radius-control);animation:dgu-kamera-nabiz calc(var(--dg-motion-page) * 6) var(--ease) infinite}
+.dgu-kamera-vizor>span:nth-child(1){top:0;left:0;border-right:0;border-bottom:0}
+.dgu-kamera-vizor>span:nth-child(2){top:0;right:0;border-left:0;border-bottom:0}
+.dgu-kamera-vizor>span:nth-child(3){bottom:0;left:0;border-right:0;border-top:0}
+.dgu-kamera-vizor>span:nth-child(4){bottom:0;right:0;border-left:0;border-top:0}
+.dgu-kamera-tarama{position:absolute;left:0;right:0;top:50%;height:calc(var(--border-width) * 2);margin-top:calc(-1 * var(--border-width));background:var(--paper);box-shadow:var(--sh-sm)}
+.dgu-kamera-yukleniyor{position:absolute;left:50%;top:39.5%;width:var(--icon-lg);height:var(--icon-lg);margin:calc(-1 * var(--icon-lg) / 2) 0 0 calc(-1 * var(--icon-lg) / 2);border:calc(var(--border-width) * 2) solid var(--paper);border-right-color:transparent;border-radius:var(--radius-avatar);animation:dgu-don calc(var(--dg-motion-skeleton) * .7) linear infinite}
+.dgu-kamera-alt{position:absolute;left:var(--gutter);right:var(--gutter);bottom:calc(var(--space-24) + env(safe-area-inset-bottom,var(--space-0)));display:grid;gap:var(--space-16)}
+.dgu-kamera.is-ornek .dgu-kamera-alt{bottom:var(--space-24)}
+/* Alt alan aralığı yalnız ızgara boşluğu (16; Tabaktan): metin → etkileşim payı (dg-bilesen.css, 0,3,0) burada uygulanmaz. */
+.dgu-kamera .dgu-kamera-alt>:is(.dgu-kamera-yonerge,.dgu-kamera-ipucu,.dgu-kamera-kontrol,.dgu-btn){margin:0}
+.dgu-kamera-yonerge{line-height:var(--role-body-line);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
+.dgu-kamera-ipucu{padding:var(--space-16);border-radius:var(--dg-radius-media);background:color-mix(in srgb,var(--overlay) 75%,transparent)}
+.dgu-kamera-ipucu>div{display:flex;align-items:center;justify-content:space-between;gap:var(--space-8)}
+.dgu-kamera-ipucu b{font-family:GilroyBd,var(--font);font-weight:var(--weight-bold)}
+.dgu-kamera-ipucu p{margin:var(--space-4) 0 0;line-height:var(--role-body-line)}
+.dgu-kamera-kontrol{display:flex;align-items:center;justify-content:space-around;gap:var(--space-16)}
+.dgu-kamera-deklansor{display:flex;justify-content:center;align-items:center;width:var(--camera-shutter-size);height:var(--camera-shutter-size);padding:0;border:var(--space-4) solid var(--paper);border-radius:var(--radius-control);background:var(--tomato-dark);box-shadow:var(--sh-md);color:var(--paper);cursor:pointer}
+.dgu-kamera-deklansor .icon{font-size:var(--icon-lg);color:var(--paper)}
+.dgu-kamera-izin{padding-top:var(--app-header);background:var(--paper)}
+@keyframes dgu-kamera-nabiz{50%{opacity:.6}}
+@media (prefers-reduced-motion:reduce){.dgu-kamera-vizor>span,.dgu-kamera-yukleniyor{animation:none}}
+.dgu-kamera-izin.is-ornek{padding-top:0;overflow:hidden;border-radius:var(--radius-card)}
+/* Kamera izin sahnesi: ana ve ikincil düğme arası yalnız eylem ızgarasının 12'si (Tabaktan izin sahnesi gibi); genel “tam düğme + tam düğme”
+   payı burada eklenmez. Diğer durum sahneleri değişmez (lider kararı, 15 Ekim). */
+.dgu-kamera-izin .dgu-sahne-eylem>.dgu-btn+.dgu-btn{margin-top:0}
+/* Kamera izin sahnesi düğme kutuları Tabaktan izin sahnesiyle birebir (lider kararı B, 15 Ekim; Flutter ortak kamera izin sahnesi aynı ölçüde):
+   düğme 48 yükseklik; açıklama paragrafı 2 px daha uzun (Tabaktan'da kalın vurgunun satır kutusu). Yalnız kamera kapsamı; diğer sahneler değişmez. */
+.dgu-kamera-izin .dgu-sahne-eylem>.dgu-btn{min-height:var(--space-48)}
+.dgu-kamera-izin .dgu-sahne-metin>p{padding-bottom:calc(var(--border-width) * 2)}

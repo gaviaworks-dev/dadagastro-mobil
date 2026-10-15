@@ -10,9 +10,13 @@
   const I = k => TK.icons[k] || k;
 
   // ---------- Kalıcı durum (yalnız bu cihaz) ----------
+  // Deneme onayı (Beyar kararı B, 15 Ekim): Tabaktan Tarif ve Dolaptan Tarife “N ücretsiz denemenden 1'ini kullan” onayını oturum boyu
+  // hatırlar (sessionStorage dg-tabaktan-hak / dg-dolaptan-hak). Hesap değişince (oturum her yazıldığında: giriş, kayıt, çıkış) sıfırlanır;
+  // kök ekranların çekmece çıkışı dg-baglanti.js'te aynı anahtarları siler.
+  const DENEME_ONAY = ['dg-tabaktan-hak', 'dg-dolaptan-hak'];
   const store = {
     get(k, d) { try { const v = localStorage.getItem('dg-' + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
-    set(k, v) { try { localStorage.setItem('dg-' + k, JSON.stringify(v)); } catch { /* özel pencere: oturum içi */ } return v; },
+    set(k, v) { try { localStorage.setItem('dg-' + k, JSON.stringify(v)); } catch { /* özel pencere: oturum içi */ } if (k === 'oturum') try { DENEME_ONAY.forEach(x => sessionStorage.removeItem(x)); } catch { /* yok */ } return v; },
     del(k) { try { localStorage.removeItem('dg-' + k); } catch { /* yok */ } }
   };
   // Kayıtlı tarifler kök runtime ile aynı anahtarda (dadagastro-prototype-saved): iki taraf aynı listeyi görür.
@@ -341,6 +345,63 @@
   // ogeler [{src, ad, silAttrs, aria}] · {aria, sil = true}: yatay kayar (.dgu-serit), 56 foto, sağ üstte 44 hedefli kaldır (görünür 24, koyu
   // yarı saydam + bulanık yüzey, 12 beyaz ikon — kart kaydet eylemiyle aynı dil), isteğe bağlı alt ad (meta, tek satır).
   const fotoSerit = (ogeler, {aria = 'Fotoğraflar', sil = true} = {}) => `<ul class="dgu-serit dgu-foto-serit" aria-label="${esc(aria)}">${ogeler.map((o, i) => `<li class="dgu-foto-oge">${kucukFoto(o.src)}${sil && o.silAttrs ? `<button type="button" class="dgu-foto-sil" ${o.silAttrs} aria-label="${esc(o.aria || `${i + 1}. fotoğrafı kaldır`)}">${ic('xmark')}</button>` : ''}${o.ad ? `<small class="dgu-foto-ad">${esc(o.ad)}</small>` : ''}</li>`).join('')}</ul>`;
+  // TAM EKRAN KAMERA (docs/51 DgFullScreenCamera; Beyar 15 Ekim — tek kamera akışı): Tabaktan Tarif kamerasından türetildi, görünüm birebir
+  // (CSS: dg-sahne.css .dgu-kamera). Dolaptan Tarife ve Dolabım barkodu bunu açar: giriş tek dokunuş, izin kameranın içinde.
+  // kamera(o) → işaretleme (galeride .is-ornek ile satır içi) · kamera.ac(o) → tam ekran katman {el, kapat()} · kamera.izinSahne(o) → izin
+  // reddedildi sahnesi (header'sız). Katman tarayıcı geçmişine kayıt düşmez; Kapat ve Esc her zaman kapatır.
+  // o = {mod: 'foto'|'barkod', baslik, rozet ('Pro'), onizleme (canlı görüntü yerine fotoğraf), yonerge, ipucu: {baslik, metin, anahtar},
+  //      galeriFoto, izin: 'red', izinBaslik, izinMetin (HTML, <b>), izinDonus, liste: false (barkodda “Listeden seç” yok), ornek,
+  //      durum: 'canli'|'yukleniyor'|'onizlemesiz', flas; ac() geri çağrıları: cek(), galeri(), barkod(kod), liste(), kapat() (kullanıcı kapattı)}
+  const kameraBtn = (eylem, ikon, aria, ek = '', sinif = '') => `<button class="dgu-kamera-ibtn${sinif}" type="button" data-kamera="${eylem}" aria-label="${esc(aria)}"${ek}>${ic(ikon)}</button>`;
+  function kamera(o = {}) {
+    const barkod = o.mod === 'barkod', durum = o.durum || 'canli';
+    const ipucu = o.ipucu && !o.ipucuGizli ? `<aside class="dgu-kamera-ipucu"><div><b>${esc(o.ipucu.baslik)}</b>${kameraBtn('ipucu', I('close'), 'İpucunu kapat')}</div><p>${esc(o.ipucu.metin)}</p></aside>` : '';
+    const alt = barkod
+      ? `<p class="dgu-kamera-yonerge" role="status">${esc(o.yonerge || 'Barkodu çerçevenin ortasına getir.')}</p>${o.liste === false ? '' : btn('Listeden seç', {tur: 'ikincil', attrs: 'data-kamera="liste"', tam: true})}`
+      : `<p class="dgu-kamera-yonerge">${esc(o.yonerge || 'Çerçevenin içine al')}</p>${ipucu}<div class="dgu-kamera-kontrol">${kameraBtn('galeri', 'images', 'Galeriden seç', o.galeriFoto ? ` style="background-image:url('${esc(o.galeriFoto)}')"` : '', ' dgu-kamera-galeri')}<button class="dgu-kamera-deklansor" type="button" data-kamera="cek" aria-label="Fotoğraf çek">${ic('camera')}</button>${kameraBtn('cevir', 'camera-rotate', 'Kamerayı çevir')}</div>`;
+    return `<section class="dgu-kamera${barkod ? ' is-barkod' : ''}${o.ornek ? ' is-ornek' : ''}" aria-label="${esc(o.baslik)}">${durum === 'canli' && o.onizleme ? `<span class="dgu-kamera-foto" style="background-image:url('${esc(o.onizleme)}')"></span>` : ''}<header class="dgu-kamera-bas">${kameraBtn('kapat', I('close'), 'Kapat')}<div><b>${esc(o.baslik)}</b>${o.rozet ? `<span class="dgu-rozet">${ic(I('pro'))}${esc(o.rozet)}</span>` : ''}</div>${kameraBtn('flas', 'bolt', barkod ? 'Fener aç / kapat' : 'Flaş aç / kapat', ` aria-pressed="${!!o.flas}"`)}</header><div class="dgu-kamera-vizor" aria-hidden="true"><span></span><span></span><span></span><span></span>${barkod && durum === 'canli' ? '<i class="dgu-kamera-tarama"></i>' : ''}</div>${durum === 'yukleniyor' ? '<span class="dgu-kamera-yukleniyor" role="status" aria-label="Kamera açılıyor"></span>' : ''}<div class="dgu-kamera-alt">${alt}</div></section>`;
+  }
+  kamera.izinSahne = (o = {}) => { const barkod = o.mod === 'barkod';
+    return durumSahne({tema: 'koyu', isaret: 'camera', baslik: o.izinBaslik || 'Kamera izni gerekli', metin: o.izinMetin || (barkod ? 'Barkod okutmak için <b>kamera izni</b> gerekir. Ürünü <b>listeden de</b> seçebilirsin.' : 'Fotoğraf çekmek için <b>kamera izni</b> gerekir. <b>Galeriden de</b> seçebilirsin.'),
+      ana: {metin: 'Ayarları aç', ikon: 'gear', attrs: 'data-izin-ayar'}, ikinciller: barkod ? (o.liste === false ? [] : [{metin: 'Listeden seç', ikon: 'list', attrs: 'data-kamera="liste"'}]) : [{metin: 'Galeriden seç', ikon: 'images', attrs: 'data-kamera="galeri"'}],
+      ipucuBaslik: 'Kamera iznini açmak için', ipucuParcali: true, ipuclari: [['gear', 'Ayarlar’ı aç', 'Ayarlar’da DadaGastro’yu bul.'], ['camera', 'Kamerayı aç', 'Kamera iznini “İzin ver” yap.'], ['arrow-rotate-left', 'Uygulamaya dön', o.izinDonus || 'Kamera kendiliğinden açılır.']]}); };
+  kamera.ac = (o = {}) => {
+    document.querySelector('.dgu-kamera-katman')?.kapat();
+    const k = document.createElement('div'), barkod = o.mod === 'barkod', sabit = TEST || window.top !== window || qs.has('kal');
+    k.className = 'dgu-kamera-katman'; k.setAttribute('role', 'dialog'); k.setAttribute('aria-modal', 'true'); k.setAttribute('aria-label', o.baslik || 'Kamera');
+    const anahtar = o.ipucu?.anahtar ? 'dg-kamera-ipucu-' + o.ipucu.anahtar : '';
+    let gizli = false; try { gizli = !!anahtar && sessionStorage.getItem(anahtar) === '1'; } catch { /* yok */ }
+    // izin: sorulmadi (açılışta istenir, önizlemede kısa yükleniyor) → verildi · red (katmanda izin sahnesi; geri: önizlemesiz kamera).
+    const S = {izin: o.izin === 'red' ? 'red' : 'sorulmadi', sahne: o.izin === 'red', flas: false, on: false, gizli};
+    let zaman = [], acik = true;
+    const ciz = () => {
+      k.classList.toggle('is-izin', S.sahne);
+      k.innerHTML = S.sahne ? `<header class="dgu-header"><button class="dgu-hbtn" type="button" data-kamera="geri" aria-label="Geri">${ic(I('back'))}</button><span class="dgu-htitle clamp-1">${esc(o.baslik)}</span><button class="dgu-hbtn" type="button" data-kamera="kapat" aria-label="Kapat">${ic(I('close'))}</button></header><div class="dgu-kamera-izin">${kamera.izinSahne(o)}</div>`
+        : kamera({...o, durum: S.izin === 'verildi' ? 'canli' : S.izin === 'red' ? 'onizlemesiz' : 'yukleniyor', flas: S.flas, ipucuGizli: S.gizli});
+    };
+    // Barkod okuma (örnek): birkaç an sonra ürün tanınır; okuyan sayfa katmanı kapatır ve formu doldurur. Galeri/test görünümünde beklemez.
+    const barkodBekle = () => { if (barkod && !sabit && o.barkod) zaman.push(setTimeout(() => { if (acik) o.barkod(o.ornekKod || '8690504000014'); }, o.okumaSure || TK.motion.reveal * 4)); };
+    const izinIste = () => { ciz(); const v = () => { S.izin = 'verildi'; ciz(); barkodBekle(); }; if (sabit) v(); else zaman.push(setTimeout(v, TK.motion.reveal)); };
+    const tus = e => { if (e.key === 'Escape' && !document.querySelector('dialog[open]')) { e.preventDefault(); kapat(true); } };
+    function kapat(kullanici) { if (!acik) return; acik = false; zaman.forEach(clearTimeout); k.remove(); document.documentElement.classList.remove('dgu-kamera-acik'); removeEventListener('keydown', tus, true); if (kullanici) o.kapat?.(); }
+    k.kapat = () => kapat(false);
+    k.addEventListener('click', e => {
+      const b = e.target.closest('[data-kamera]'); if (!b) return; const a = b.dataset.kamera;
+      if (a === 'kapat') return kapat(true);
+      if (a === 'geri') { if (barkod) return kapat(true); S.sahne = false; ciz(); return; }
+      if (a === 'flas') { S.flas = !S.flas; b.setAttribute('aria-pressed', S.flas); bildir(barkod ? (S.flas ? 'Fener açık' : 'Fener kapalı') : (S.flas ? 'Flaş açık' : 'Flaş kapalı')); return; }
+      if (a === 'cevir') { S.on = !S.on; bildir(S.on ? 'Ön kamera' : 'Arka kamera'); return; }
+      if (a === 'ipucu') { S.gizli = true; try { if (anahtar) sessionStorage.setItem(anahtar, '1'); } catch { /* yok */ } b.closest('.dgu-kamera-ipucu')?.remove(); return; }
+      if (a === 'liste') { kapat(false); o.liste?.(); return; }
+      if (a === 'galeri') { o.galeri?.(); return; }
+      // Deklanşör: izin reddedildiyse (önizlemesiz kamera) yeniden istenir → izin sahnesi; verildiyse çekim.
+      if (a === 'cek') { if (S.izin === 'red') { S.sahne = true; ciz(); } else if (S.izin === 'verildi') o.cek?.(); }
+    });
+    document.body.append(k); document.documentElement.classList.add('dgu-kamera-acik'); addEventListener('keydown', tus, true);
+    if (S.izin === 'red') ciz(); else izinIste();
+    k.tabIndex = -1; requestAnimationFrame(() => k.focus({preventScroll: true}));
+    return {el: k, kapat: () => kapat(false), get acik() { return acik; }};
+  };
   // ADIMLAYICI (porsiyon / adet; tarif detayının porsiyon sayacından türetildi — kökte detay-v2 aynı işaretlemeye bağlanır): − / + 44 hedef,
   // değer ortada tek satır (sayı kalın + birim meta); orta alan sabit genişlik = en geniş değer (en az iki hane, ekranlar arası aynı) + birim (görünmez iz, aynı ızgara hücresi) →
   // değer değişince düğmeler kaymaz. Sınırda düğme devre dışı; gizli input (form uyumlu), change + dg-adim olayı.
@@ -357,7 +418,8 @@
     const koyu = o.tema === 'koyu', ik = ISARET[o.isaret] || o.isaret || 'circle-info';
     const gorsel = koyu ? vizor({foto: o.gorsel, isaret: ik, bulanik: o.isaret === 'bulanik', yonerge: o.not ? {ikon: 'shield-halved', metin: o.not} : ''}) : `<div class="dgu-sahne-ust"><span class="dgu-sahne-rozet" aria-hidden="true">${ic(ik)}</span></div>`;
     const ara = o.ara ? `<details class="dgu-sahne-ara"><summary class="dgu-btn dgu-btn--metin">${ic(I('search'))}<span>${esc(o.ara.etiket || 'Yemeğin adını yaz')}</span></summary><form class="dgu-girdi" role="search" data-sahne-ara>${ic(I('search'))}<input type="search" name="${esc(o.ara.ad || 'q')}" placeholder="${esc(o.ara.yer || 'Örn. mercimek çorbası')}" aria-label="${esc(o.ara.etiket || 'Yemeğin adını yaz')}" enterkeyhint="search"></form></details>` : '';
-    const ipuc = o.ipuclari?.length ? `<section class="dgu-sahne-ek" aria-label="İpuçları"><h2 class="t-sub">${esc(o.ipucuBaslik || 'Daha iyi bir fotoğraf için')}</h2><ul class="dgu-sahne-ipuclari">${o.ipuclari.map(([i, b, a]) => `<li><span class="dgu-sahne-ipucu-ikon" aria-hidden="true">${ic(i)}</span><span><b>${esc(b)}</b>${a ? `<small>${esc(a)}</small>` : ''}</span></li>`).join('')}</ul></section>` : '';
+    // ipucuParcali: adımlar parçalı gri grupta (Tabaktan izin sahnesi; kamera izni reddedildi).
+    const ipuc = o.ipuclari?.length ? `<section class="dgu-sahne-ek" aria-label="${o.ipucuParcali ? esc(o.ipucuBaslik) : 'İpuçları'}"><h2 class="t-sub">${esc(o.ipucuBaslik || 'Daha iyi bir fotoğraf için')}</h2>${o.ipucuParcali ? parcali(o.ipuclari.map(([ikon, baslik, alt]) => ({ikon, baslik, alt, bilgi: true})), {aria: o.ipucuBaslik}) : `<ul class="dgu-sahne-ipuclari">${o.ipuclari.map(([i, b, a]) => `<li><span class="dgu-sahne-ipucu-ikon" aria-hidden="true">${ic(i)}</span><span><b>${esc(b)}</b>${a ? `<small>${esc(a)}</small>` : ''}</span></li>`).join('')}</ul>`}</section>` : '';
     const oner = o.oneriler?.length ? `<section class="dgu-sahne-ek" aria-label="${esc(o.onerilerBaslik || 'Belki bunlardan biri?')}"><h2 class="t-sub">${esc(o.onerilerBaslik || 'Belki bunlardan biri?')}</h2><div class="dgu-serit dgu-sahne-oneriler">${o.oneriler.map(t => kart(t, 'tile')).join('')}</div></section>` : '';
     return `<div class="dgu-sahne${koyu ? ' is-koyu' : ''}">${gorsel}<div class="dgu-sahne-panel"><div class="dgu-sahne-metin"><h1 class="t-page">${esc(o.baslik)}</h1>${o.metin ? `<p>${o.metin}</p>` : ''}</div><div class="dgu-sahne-eylem">${eylemBtn(o.ana)}${(o.ikinciller || []).map(e => eylemBtn(e, 'ikincil')).join('')}${ara}</div>${ipuc}${oner}</div></div>`;
   }
@@ -775,5 +837,5 @@
 
   // Ortak şef kartının kancaları: uygulama oturumu, giriş kapısı (B7 dönüş: yazar kartı) ve bildirim.
   Object.assign(SK, {uyeMi: uye, kapi: u => kapi('takip', 'takip:' + u, {devam: 'yazar'}), bildir: m => bildir(m)});
-  window.DG = {kayitli, esc, ic, I, store, rol, uye, pro, here, KOK, tarifLink, listeLink, tarif, sef, sefLink, sayi, kart, avatar, btn, bas, seg, alan, secim, secimKart, durumSahne, parcali, zengin, gulucuk, vizor, fotoSerit, adimlayici, maddeler, madalya, sefKarti, sefKartTam, sefSayac, yilDan, akisKart, akisAc, kademeRozet, kisaTarih, okumaSure, yazarSatir, eylemCubugu, sonsuz, mesgul, gorselHazirla, izinIstemi, bayrakSigdir, bolumBaslik, akordiyon, yorumBolumu, yorumKart, modKart, modSerit, modAciklama, durumRozet, DURUM, paylas, icerikBlok, ipucu, sefKart, sefOlKart, ilerleme, rozet, rozetSheet, telefon, telefonHata, kubbeBoya, secAlan, veriYok, donusAdres, girisDuvari, bayrakSecim, video, videoLink, puf, pufLink, profilBas, yorum, kucukFoto, puan, anahtar, satir, durum, hata, iskelet, onizleme, bildir, sheet, onay, kapi, proKapi, kaydetDegis, tumunuListeyeEkle, geri, tarifBul, sayfa, baslat, eylemiTamamla};
+  window.DG = {kayitli, esc, ic, I, store, rol, uye, pro, here, KOK, tarifLink, listeLink, tarif, sef, sefLink, sayi, kart, avatar, btn, bas, seg, alan, secim, secimKart, durumSahne, parcali, zengin, gulucuk, vizor, fotoSerit, kamera, adimlayici, maddeler, madalya, sefKarti, sefKartTam, sefSayac, yilDan, akisKart, akisAc, kademeRozet, kisaTarih, okumaSure, yazarSatir, eylemCubugu, sonsuz, mesgul, gorselHazirla, izinIstemi, bayrakSigdir, bolumBaslik, akordiyon, yorumBolumu, yorumKart, modKart, modSerit, modAciklama, durumRozet, DURUM, paylas, icerikBlok, ipucu, sefKart, sefOlKart, ilerleme, rozet, rozetSheet, telefon, telefonHata, kubbeBoya, secAlan, veriYok, donusAdres, girisDuvari, bayrakSecim, video, videoLink, puf, pufLink, profilBas, yorum, kucukFoto, puan, anahtar, satir, durum, hata, iskelet, onizleme, bildir, sheet, onay, kapi, proKapi, kaydetDegis, tumunuListeyeEkle, geri, tarifBul, sayfa, baslat, eylemiTamamla};
 })();
