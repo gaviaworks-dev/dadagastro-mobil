@@ -40,3 +40,8 @@ Patron geri bildirimi: “Ispanağın tarihinin geçmesi saçma.” Veri modeli:
 - Ek güncelleme (Beyar onayı): liste satırında taze ürün açıklaması kısaldı — “12 Ekim'de eklendi” (bulunma eki aya göre, `DGDolabim.neden(u, yaz, {kisa: true})`); tam metin (“Taze ürün · 12 Ekim eklendi · 3 gün tazelik”) detayda ve erişilebilir adda kalır. Aynı betikle yeniden üretim (753 dosya, değişen 9); gh-pages commit `98e2fe6` (ebeveyn `9837b86`), fast-forward, force yok; Pages run 38399879310 başarılı. Canlı: taze satırları tek satır, Ispanak detayı tam metin, JS 0 / başarısız istek 0.
 
 **Bu yayından sonra git ve yayın yasağı yeniden geçerli.**
+
+## V4 güncelleme — 15 Ekim 2026 (Beyar: "V4'ü düzeltip GitHub Pages'e push et") — Hakkımızda "Sayılarla" boşluğu
+Kök neden ortak bileşende: `[data-mt]{margin-top:var(--space-16)}` (dg-bilesen.css) ile `.dgu-istatistik{margin:0}` (dg-sayac.css, `<dl>` varsayılan boşluğunu sıfırlamak için) aynı özgüllükte; sonra yüklenen dg-sayac kazanıyor → başlık ile bant çizgisi arası 0. Düzeltme dg-sayac.css: sıfırlama `:where(.dgu-istatistik){margin:0}` (özgüllük 0), `[data-mt]` 16 uygulanır. Ekrana özel stil yok.
+- Tarama (Chromium 390, bütün uygulama sayfaları): `[data-mt*]` boşluğu tutmayan öğe önce 1 (Hakkımızda `dl.dgu-istatistik` 0 px), sonra 0. Sayaç bandının diğer kullanımları (bileşenler, giriş, kayıt, püf, şef, şefler, detay-v2) kutu kutu aynı.
+- Kopya aynı betikle (`verification/uygulama-ekranlari-v4/build.py`, temiz worktree'de): 753 dosya; değişen 55 (dg-sayac.css + 54 html'de yalnız `dg-sayac.css?v=` damgası), eklenen/silinen 0.
