@@ -4,8 +4,11 @@
    Ölçü: iç boşluk bantta değil HÜCREDE ve üst = alt (--dgu-sayac-ic) → sayı + etiket hücrede yatayda ortalı dikey yığın, hücreler arası ayırıcı
    bandın tam yüksekliğinde. Sabit yükseklik / margin yok. Sayı: sheet rolü (18 bold, tabular), etiket: meta rolü.
    Bağlam: bağımsız bant = üst + alt ince çizgi, iç 12 · kartın son öğesi = alt çizgi yok, kartın alt iç boşluğunu bant taşır (çiftlenmez):
-   iç 16 = kart iç boşluğu → ayırıcı çizgi ile kartın alt kenarı arasında tam ortada · .is-yalin = dış çizgisiz (şef kartı), iç 0. */
-.dgu-istatistik{--dgu-sayac-ic:var(--space-12);display:grid;width:100%;grid-template-columns:repeat(var(--sutun,3),minmax(0,1fr));margin:0;padding:0;border-top:var(--border-width) solid var(--line);border-bottom:var(--border-width) solid var(--line)}
+   iç 16 = kart iç boşluğu → ayırıcı çizgi ile kartın alt kenarı arasında tam ortada · .is-yalin = dış çizgisiz (şef kartı), iç 0.
+   <dl> varsayılan boşluğu :where() ile sıfırlanır (özgüllük 0): sayfadaki [data-mt] (bölüm başlığı → içerik 16) ezilmez
+   (15 Ekim: Hakkımızda "Sayılarla" başlığı ile bant çizgisi arası 0'dı). */
+:where(.dgu-istatistik){margin:0}
+.dgu-istatistik{--dgu-sayac-ic:var(--space-12);display:grid;width:100%;grid-template-columns:repeat(var(--sutun,3),minmax(0,1fr));padding:0;border-top:var(--border-width) solid var(--line);border-bottom:var(--border-width) solid var(--line)}
 .dgu-istatistik[data-sutun="2"]{--sutun:2}.dgu-istatistik[data-sutun="3"]{--sutun:3}.dgu-istatistik[data-sutun="4"]{--sutun:4}.dgu-istatistik[data-sutun="5"]{--sutun:5}
 .dgu-istatistik>div{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-4);min-width:0;padding:var(--dgu-sayac-ic) var(--space-4);text-align:justify;text-align-last:center;--dg-baslik-hiza:center}
 .dgu-istatistik>div+div{border-left:var(--border-width) solid var(--line)}
