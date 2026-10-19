@@ -12,6 +12,7 @@ abstract final class DgColors {
   static const tomatoTint = Color(0xFFFBE6E1);
   static const danger = Color(0xFFBA3413);
   static const brandHeroAccent = Color(0xFFE87F66);
+  static const brandEditor = Color(0xFF0093D0);
   static const neutralInk = Color(0xFF211E16);
   static const neutralSlate2 = Color(0xFF56514A);
   static const neutralMuted = Color(0xFF6F6F6F);
